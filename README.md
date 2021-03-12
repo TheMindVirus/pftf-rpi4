@@ -5,8 +5,9 @@ Raspberry Pi 4 UEFI Firmware Images
 [![Github stats](https://img.shields.io/github/downloads/pftf/RPi4/total.svg?style=flat-square)](https://github.com/pftf/RPi4/releases)
 [![Release](https://img.shields.io/github/release-pre/pftf/RPi4?style=flat-square)](https://github.com/pftf/RPi4/releases)
 
-[![RpiFirmwareDxe edits]](https://github.com/TheMindVirus/pftf-rpi4/blob/main/edk2-platforms/Platform/RaspberryPi/Drivers/RpiFirmwareDxe/RpiFirmwareDxe.c)
-[![DisplayDxe edits]](https://github.com/TheMindVirus/pftf-rpi4/blob/main/edk2-platforms/Platform/RaspberryPi/Drivers/DisplayDxe/DisplayDxe.c)
+[RpiFirmwareDxe edits](https://github.com/TheMindVirus/pftf-rpi4/blob/main/edk2-platforms/Platform/RaspberryPi/Drivers/RpiFirmwareDxe/RpiFirmwareDxe.c)
+
+[DisplayDxe edits](https://github.com/TheMindVirus/pftf-rpi4/blob/main/edk2-platforms/Platform/RaspberryPi/Drivers/DisplayDxe/DisplayDxe.c)
 
 # Summary
 
