@@ -5,14 +5,14 @@ Raspberry Pi 4 UEFI Firmware Images
 [![Github stats](https://img.shields.io/github/downloads/pftf/RPi4/total.svg?style=flat-square)](https://github.com/pftf/RPi4/releases)
 [![Release](https://img.shields.io/github/release-pre/pftf/RPi4?style=flat-square)](https://github.com/pftf/RPi4/releases)
 
-[RpiFirmwareDxe edits](https://github.com/TheMindVirus/pftf-rpi4/blob/main/edk2-platforms/Platform/RaspberryPi/Drivers/RpiFirmwareDxe/RpiFirmwareDxe.c)
-
-[DisplayDxe edits](https://github.com/TheMindVirus/pftf-rpi4/blob/main/edk2-platforms/Platform/RaspberryPi/Drivers/DisplayDxe/DisplayDxe.c)
-
 # Summary
 
 This repository contains __EXPERIMENTAL__ installable builds of the official
 [EDK2 Raspberry Pi 4 UEFI firmware](https://github.com/tianocore/edk2-platforms/tree/master/Platform/RaspberryPi/RPi4).
+
+[RpiFirmwareDxe edits](https://github.com/TheMindVirus/pftf-rpi4/blob/main/edk2-platforms/Platform/RaspberryPi/Drivers/RpiFirmwareDxe/RpiFirmwareDxe.c)
+
+[DisplayDxe edits](https://github.com/TheMindVirus/pftf-rpi4/blob/main/edk2-platforms/Platform/RaspberryPi/Drivers/DisplayDxe/DisplayDxe.c)
 
 # Initial Notice
 
