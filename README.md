@@ -1,7 +1,7 @@
 Raspberry Pi 4 UEFI Firmware Images
 ===================================
 
-[![Build status](https://img.shields.io/appveyor/ci/pbatard/RPi4.svg?style=flat-square)](https://ci.appveyor.com/project/pbatard/RPi4)
+[![Build status](https://img.shields.io/github/workflow/status/pftf/RPi4/UEFI%20firmware%20-%20EDK2%20build.svg?style=flat-square)](https://github.com/pftf/RPi4/actions)
 [![Github stats](https://img.shields.io/github/downloads/pftf/RPi4/total.svg?style=flat-square)](https://github.com/pftf/RPi4/releases)
 [![Release](https://img.shields.io/github/release-pre/pftf/RPi4?style=flat-square)](https://github.com/pftf/RPi4/releases)
 
@@ -9,10 +9,6 @@ Raspberry Pi 4 UEFI Firmware Images
 
 This repository contains __EXPERIMENTAL__ installable builds of the official
 [EDK2 Raspberry Pi 4 UEFI firmware](https://github.com/tianocore/edk2-platforms/tree/master/Platform/RaspberryPi/RPi4).
-
-[RpiFirmwareDxe edits](https://github.com/TheMindVirus/pftf-rpi4/blob/f62dba0a93591848d3f0a74f9c7d397bcebfcbd1/edk2-platforms/Platform/RaspberryPi/Drivers/RpiFirmwareDxe/RpiFirmwareDxe.c#L816)
-
-[DisplayDxe edits](https://github.com/TheMindVirus/pftf-rpi4/blob/f62dba0a93591848d3f0a74f9c7d397bcebfcbd1/edk2-platforms/Platform/RaspberryPi/Drivers/DisplayDxe/DisplayDxe.c#L314)
 
 # Initial Notice
 
@@ -88,7 +84,7 @@ card or on a USB drive in `efi/boot/bootaa64.efi`, you can let the UEFI system r
 
 The firmware provided in the zip archive is the `RELEASE` version but you can also find
 a `DEBUG` build of the firmware in the
-[AppVeyor artifacts](https://ci.appveyor.com/project/pbatard/RPi4/build/artifacts).
+[GitHub CI artifacts](https://github.com/pftf/RPi4/actions).
 
 The provided firmwares should be able to auto-detect the UART being used (PL011 or mini
 UART) according to whether `config.txt` contains the relevant overlay or not. The default
@@ -108,3 +104,6 @@ The firmware (`RPI_EFI.fd`) is licensed under the current EDK2 license, which is
 
 The other files from the zip archives are licensed under the terms described in the
 [Raspberry Pi boot files README](https://github.com/raspberrypi/firmware/blob/master/README.md).
+
+The binary blobs in the `firmware/` directory are licensed under the Cypress wireless driver
+license that is found there.

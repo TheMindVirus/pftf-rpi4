@@ -72,10 +72,7 @@ EFI_STATUS
   IN  UINT32 Depth,
   OUT EFI_PHYSICAL_ADDRESS *FbBase,
   OUT UINTN *FbSize,
-  OUT UINTN *Pitch,
-  OUT EFI_PHYSICAL_ADDRESS *Fb2Base,
-  OUT UINTN *Fb2Size,
-  OUT UINTN *Pitch2
+  OUT UINTN *Pitch
   );
 
 typedef

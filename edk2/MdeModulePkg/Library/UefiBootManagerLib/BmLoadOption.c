@@ -1377,15 +1377,6 @@ EfiBootManagerProcessLoadOption (
   }
 
   //
-  // Signal the EVT_SIGNAL_READY_TO_BOOT event when we are about to load and execute the boot option.
-  //
-  EfiSignalEventReadyToBoot ();
-  //
-  // Report Status Code to indicate ReadyToBoot was signalled
-  //
-  REPORT_STATUS_CODE (EFI_PROGRESS_CODE, (EFI_SOFTWARE_DXE_BS_DRIVER | EFI_SW_DXE_BS_PC_READY_TO_BOOT_EVENT));
-
-  //
   // Load and start the load option.
   //
   DEBUG ((

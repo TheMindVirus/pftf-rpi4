@@ -23,7 +23,7 @@
 Device (SDC1)
 {
   Name (_HID, "BCM2847")
-  Name (_CID, "ARASAN")
+  Name (_CID, "BCM2847")
   Name (_UID, 0x0)
   Name (_CCA, 0x0)
   Name (_S1D, 0x1)
@@ -52,7 +52,7 @@ Device (SDC1)
   Name (_DSD, Package () {
     ToUUID("daffd814-6eba-4d8c-8a91-bc9bbf4aa301"),
     Package () {
-      Package () { "sdhci-caps", 0x0100fa81 },
+      Package () { "sdhci-caps", 0x0120fa81 },
     }
   })
 
@@ -78,7 +78,7 @@ Device (SDC1)
 Device (SDC2)
 {
   Name (_HID, "BCM2855")
-  Name (_CID, "SDHST")
+  Name (_CID, "BCM2855")
   Name (_UID, 0x0)
   Name (_CCA, 0x0)
   Name (_S1D, 0x1)
