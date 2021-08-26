@@ -13,7 +13,8 @@
 
 
 
-DefinitionBlock ("/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Emmc.i", "SSDT", 5, "RPIFDN", "RPI4EMMC", 2)
+
+DefinitionBlock ("/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Emmc.i", "SSDT", 2, "RPIFDN", "RPI4EMMC", 2)
 {
   Scope (\_SB_)
   {
@@ -33,8 +34,9 @@ DefinitionBlock ("/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platf
         Return (^RBUF)
       }
 
-      Name (_DMA, ResourceTemplate() {
-        QWordMemory (ResourceConsumer,
+
+      Name (DMTR, ResourceTemplate() {
+        QWordMemory (ResourceProducer,
           ,
           MinFixed,
           MaxFixed,
@@ -49,6 +51,41 @@ DefinitionBlock ("/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platf
           ,
         )
       })
+
+
+      Name (DMNT, ResourceTemplate() {
+        QWordMemory (ResourceProducer,
+          ,
+          MinFixed,
+          MaxFixed,
+          NonCacheable,
+          ReadWrite,
+          0x0,
+          0x0000000000000000,
+          0x000000FFFFFFFFFF,
+          0x0000000000000000,
+          0x0000010000000000,
+          ,
+          ,
+        )
+      })
+
+      Method (_DMA, 0x0, Serialized)
+      {
+        OperationRegion (CHPR, SystemMemory, 0xfc404000, 0x4)
+          Field (CHPR, DWordAcc, NoLock, Preserve) {
+            SOCI, 32
+        }
+
+        if ((SOCI & 0xFF) >= 0x20)
+        {
+          return (^DMNT);
+        }
+        else
+        {
+          return (^DMTR);
+        }
+      }
 
 
       Device (SDC3)

@@ -568,7 +568,13 @@ extern const UINT32 _gPcd_FixedAtBuild_PcdFlashNvStorageFtwSpareSize;
 
 
 
-extern const UINT32 _gPcd_FixedAtBuild_PcdSerialClockRate;
+extern volatile UINT32 _gPcd_BinaryPatch_PcdSerialClockRate;
+
+
+
+
+
+extern UINTN _gPcd_BinaryPatch_Size_PcdSerialClockRate;
 # 1 "<command-line>" 2
 # 1 "/home/alastair/pftf-rpi4/edk2-platforms/Platform/RaspberryPi/Library/PlatformLib/AArch64/RaspberryPiHelper.S"
 # 12 "/home/alastair/pftf-rpi4/edk2-platforms/Platform/RaspberryPi/Library/PlatformLib/AArch64/RaspberryPiHelper.S"
@@ -1495,7 +1501,13 @@ ArmHasCcidx (
     ldr w0, .Lrevision
     adr x2, mBoardRevision
     str w0, [x2]
-# 96 "/home/alastair/pftf-rpi4/edk2-platforms/Platform/RaspberryPi/Library/PlatformLib/AArch64/RaspberryPiHelper.S"
+
+    run .Lclkinfo_buffer
+
+    ldr w0, .Lfrequency
+    adr x2, _gPcd_BinaryPatch_PcdSerialClockRate
+    str w0, [x2]
+
     ret
 
     .align 4
@@ -1537,7 +1549,24 @@ ArmHasCcidx (
     .long 0
     .long 0
     .set .Lrevinfo_size, . - .Lrevinfo_buffer
-# 157 "/home/alastair/pftf-rpi4/edk2-platforms/Platform/RaspberryPi/Library/PlatformLib/AArch64/RaspberryPiHelper.S"
+
+    .align 4
+.Lclkinfo_buffer:
+    .long .Lclkinfo_size
+    .long 0x0
+    .long 0x00030002
+    .long 8
+    .long 4
+    .long 4
+.Lfrequency:
+    .long 0
+    .long 0
+    .set .Lclkinfo_size, . - .Lclkinfo_buffer
+
+
+
+
+
 .global ArmPlatformGetPrimaryCoreMpId ; .section ".text.ArmPlatformGetPrimaryCoreMpId", "ax" ; .type ArmPlatformGetPrimaryCoreMpId, %function ; ArmPlatformGetPrimaryCoreMpId:
     movz w0, (0) >> 16, lsl #16 ; movk w0, (0) & 0xffff
     ret

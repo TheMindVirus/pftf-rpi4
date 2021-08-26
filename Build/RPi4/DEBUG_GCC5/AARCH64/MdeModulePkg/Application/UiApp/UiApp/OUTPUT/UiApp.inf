@@ -318,6 +318,8 @@
   ## SOMETIMES_CONSUMES ## GUID (Indicate the information type is volume)
   gEfiFileSystemVolumeLabelInfoIdGuid
 
+  gBootDiscoveryPolicyMgrFormsetGuid
+
   ## CONSUMES ## GUID (Indicate the formset class guid to be displayed)
   gEfiHiiPlatformSetupFormsetGuid
 
@@ -357,13 +359,14 @@
 #  MdePkg/Library/UefiApplicationEntryPoint/UefiApplicationEntryPoint.inf
 #  MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib.inf
 #  ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib.inf
+#  MdeModulePkg/Library/BootDiscoveryPolicyUiLib/BootDiscoveryPolicyUiLib.inf
 #  MdeModulePkg/Library/DeviceManagerUiLib/DeviceManagerUiLib.inf
 #  MdeModulePkg/Library/BootManagerUiLib/BootManagerUiLib.inf
 #  Platform/RaspberryPi/Library/PlatformUiAppLib/PlatformUiAppLib.inf
 #  MdeModulePkg/Library/BootMaintenanceManagerUiLib/BootMaintenanceManagerUiLib.inf
 
 [Depex.AARCH64]
-#  (gEfiPcdProtocolGuid) AND (gEfiPcdProtocolGuid) AND (gEfiPcdProtocolGuid) AND (gEfiPcdProtocolGuid) AND (gEfiHiiStringProtocolGuid        AND gEfiHiiDatabaseProtocolGuid      AND gEfiHiiConfigRoutingProtocolGuid) AND (gEfiHiiStringProtocolGuid        AND gEfiHiiDatabaseProtocolGuid      AND gEfiHiiConfigRoutingProtocolGuid) AND (gEfiHiiStringProtocolGuid        AND gEfiHiiDatabaseProtocolGuid      AND gEfiHiiConfigRoutingProtocolGuid) AND (gEfiHiiStringProtocolGuid        AND gEfiHiiDatabaseProtocolGuid      AND gEfiHiiConfigRoutingProtocolGuid) AND (gEfiFormBrowser2ProtocolGuid AND gEfiHiiDatabaseProtocolGuid)
+#  (gEfiPcdProtocolGuid) AND (gEfiPcdProtocolGuid) AND (gEfiPcdProtocolGuid) AND (gEfiPcdProtocolGuid) AND (gEfiHiiStringProtocolGuid        AND gEfiHiiDatabaseProtocolGuid      AND gEfiHiiConfigRoutingProtocolGuid) AND (gEfiHiiStringProtocolGuid        AND gEfiHiiDatabaseProtocolGuid      AND gEfiHiiConfigRoutingProtocolGuid) AND (gEfiHiiStringProtocolGuid        AND gEfiHiiDatabaseProtocolGuid      AND gEfiHiiConfigRoutingProtocolGuid) AND (gEfiHiiStringProtocolGuid        AND gEfiHiiDatabaseProtocolGuid      AND gEfiHiiConfigRoutingProtocolGuid) AND (gEfiFormBrowser2ProtocolGuid AND gEfiHiiDatabaseProtocolGuid) AND (gEfiHiiDatabaseProtocolGuid AND gPcdProtocolGuid)
 
 [UserExtensions.TianoCore."ExtraFiles"]
 UiAppExtra.uni

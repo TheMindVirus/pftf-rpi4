@@ -194,6 +194,8 @@
   ## SOMETIMES_CONSUMES
   gEdkiiPlatformBootManagerProtocolGuid
 
+  gEfiBootManagerPolicyProtocolGuid
+
   gEsrtManagementProtocolGuid
 
   gEfiUsb2HcProtocolGuid
@@ -310,6 +312,8 @@
   ## SOMETIMES_CONSUMES ## GUID
   gEfiDiskInfoSdMmcInterfaceGuid
 
+  gBootDiscoveryPolicyMgrFormsetGuid
+
   gEfiFileSystemInfoGuid
 
   gEfiFileSystemVolumeLabelInfoIdGuid
@@ -321,6 +325,10 @@
   gUefiShellFileGuid
 
   gEfiEventExitBootServicesGuid
+
+  gEfiBootManagerPolicyNetworkGuid
+
+  gEfiBootManagerPolicyConnectAllGuid
 
 
 [PcdEx.AARCH64]

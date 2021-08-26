@@ -38,6 +38,7 @@ extern EFI_GUID gPcdProtocolGuid;
 extern EFI_GUID gEfiPcdProtocolGuid;
 extern EFI_GUID gGetPcdInfoProtocolGuid;
 extern EFI_GUID gEfiGetPcdInfoProtocolGuid;
+extern EFI_GUID gRaspberryPiFirmwareProtocolGuid;
 extern EFI_GUID gEfiLoadedImageProtocolGuid;
 
 // Definition of SkuId Array

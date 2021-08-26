@@ -149,16 +149,16 @@ formset
            prompt = STRING_TOKEN(0x0005),
            help = STRING_TOKEN(0x0002);
         goto 0x1004,
-            prompt = STRING_TOKEN(0x003E),
+            prompt = STRING_TOKEN(0x003D),
             help = STRING_TOKEN(0x0002);
         goto 0x1006,
            prompt = STRING_TOKEN(0x000F),
            help = STRING_TOKEN(0x0002);
         goto 0x1003,
-           prompt = STRING_TOKEN(0x0023),
+           prompt = STRING_TOKEN(0x0022),
            help = STRING_TOKEN(0x0002);
         goto 0x1005,
-            prompt = STRING_TOKEN(0x0050),
+            prompt = STRING_TOKEN(0x004F),
             help = STRING_TOKEN(0x0002);
     endform;
     form formid = 0x1002,
@@ -210,15 +210,14 @@ formset
               help = STRING_TOKEN(0x001A),
               flags = NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
               option text = STRING_TOKEN(0x001B), value = 0, flags = DEFAULT;
-              option text = STRING_TOKEN(0x001C), value = 14, flags = 0;
-              option text = STRING_TOKEN(0x001D), value = 18, flags = 0;
-              option text = STRING_TOKEN(0x001E), value = 19, flags = 0;
+              option text = STRING_TOKEN(0x001C), value = 18, flags = 0;
+              option text = STRING_TOKEN(0x001D), value = 19, flags = 0;
           endoneof;
         endif;
         grayoutif ideqval FanOnGpio.Enabled == 0;
           numeric varid = FanTemp.Value,
-              prompt = STRING_TOKEN(0x001F),
-              help = STRING_TOKEN(0x0020),
+              prompt = STRING_TOKEN(0x001E),
+              help = STRING_TOKEN(0x001F),
               flags = DISPLAY_UINT_DEC | NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
        minimum = 50,
               maximum = 80,
@@ -226,55 +225,55 @@ formset
           endnumeric;
         endif;
         string varid = AssetTag.AssetTag,
-            prompt = STRING_TOKEN(0x0021),
-            help = STRING_TOKEN(0x0022),
+            prompt = STRING_TOKEN(0x0020),
+            help = STRING_TOKEN(0x0021),
             flags = INTERACTIVE | RESET_REQUIRED,
             minsize = 0,
             maxsize = 32,
         endstring;
     endform;
     form formid = 0x1003,
-        title = STRING_TOKEN(0x0023);
-        subtitle text = STRING_TOKEN(0x0024);
+        title = STRING_TOKEN(0x0022);
+        subtitle text = STRING_TOKEN(0x0023);
         oneof varid = SdIsArasan.Routing,
-            prompt = STRING_TOKEN(0x0025),
-            help = STRING_TOKEN(0x0026),
+            prompt = STRING_TOKEN(0x0024),
+            help = STRING_TOKEN(0x0025),
             flags = NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
-            option text = STRING_TOKEN(0x0029), value = 1, flags = DEFAULT;
-            option text = STRING_TOKEN(0x0027), value = 0, flags = 0;
+            option text = STRING_TOKEN(0x0028), value = 1, flags = DEFAULT;
+            option text = STRING_TOKEN(0x0026), value = 0, flags = 0;
         endoneof;
         oneof varid = MmcDisableMulti.DisableMulti,
-            prompt = STRING_TOKEN(0x002A),
-            help = STRING_TOKEN(0x002B),
+            prompt = STRING_TOKEN(0x0029),
+            help = STRING_TOKEN(0x002A),
             flags = NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
-            option text = STRING_TOKEN(0x002C), value = 0, flags = DEFAULT;
-            option text = STRING_TOKEN(0x002D), value = 1, flags = 0;
+            option text = STRING_TOKEN(0x002B), value = 0, flags = DEFAULT;
+            option text = STRING_TOKEN(0x002C), value = 1, flags = 0;
         endoneof;
         oneof varid = MmcForce1Bit.Force1Bit,
-            prompt = STRING_TOKEN(0x002E),
-            help = STRING_TOKEN(0x002F),
+            prompt = STRING_TOKEN(0x002D),
+            help = STRING_TOKEN(0x002E),
             flags = NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
-            option text = STRING_TOKEN(0x0031), value = 0, flags = DEFAULT;
-            option text = STRING_TOKEN(0x0030), value = 1, flags = 0;
+            option text = STRING_TOKEN(0x0030), value = 0, flags = DEFAULT;
+            option text = STRING_TOKEN(0x002F), value = 1, flags = 0;
         endoneof;
         oneof varid = MmcForceDefaultSpeed.ForceDS,
-            prompt = STRING_TOKEN(0x0032),
-            help = STRING_TOKEN(0x0033),
+            prompt = STRING_TOKEN(0x0031),
+            help = STRING_TOKEN(0x0032),
             flags = NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
-            option text = STRING_TOKEN(0x0035), value = 0, flags = DEFAULT;
-            option text = STRING_TOKEN(0x0034), value = 1, flags = 0;
+            option text = STRING_TOKEN(0x0034), value = 0, flags = DEFAULT;
+            option text = STRING_TOKEN(0x0033), value = 1, flags = 0;
         endoneof;
         numeric varid = MmcSdDefaultSpeedMHz.MHz,
-             prompt = STRING_TOKEN(0x0036),
-             help = STRING_TOKEN(0x0037),
+             prompt = STRING_TOKEN(0x0035),
+             help = STRING_TOKEN(0x0036),
              flags = DISPLAY_UINT_DEC | NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
              minimum = 25,
              maximum = 100,
              default = 25,
         endnumeric;
         numeric varid = MmcSdHighSpeedMHz.MHz,
-             prompt = STRING_TOKEN(0x0038),
-             help = STRING_TOKEN(0x0039),
+             prompt = STRING_TOKEN(0x0037),
+             help = STRING_TOKEN(0x0038),
              flags = DISPLAY_UINT_DEC | NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
              minimum = 50,
              maximum = 100,
@@ -282,64 +281,64 @@ formset
         endnumeric;
         grayoutif ideqval SdIsArasan.Routing == 1;
         oneof varid = MmcEnableDma.EnableDma,
-            prompt = STRING_TOKEN(0x003A),
-            help = STRING_TOKEN(0x003D),
+            prompt = STRING_TOKEN(0x0039),
+            help = STRING_TOKEN(0x003C),
             flags = NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
-            option text = STRING_TOKEN(0x003B), value = 0, flags = DEFAULT;
-            option text = STRING_TOKEN(0x003C), value = 1, flags = 0;
+            option text = STRING_TOKEN(0x003A), value = 0, flags = 0;
+            option text = STRING_TOKEN(0x003B), value = 1, flags = DEFAULT;
         endoneof;
         endif;
     endform;
     form formid = 0x1004,
-        title = STRING_TOKEN(0x003E);
-        subtitle text = STRING_TOKEN(0x003F);
+        title = STRING_TOKEN(0x003D);
+        subtitle text = STRING_TOKEN(0x003E);
         checkbox varid = DisplayEnableScaledVModes.v640,
-            prompt = STRING_TOKEN(0x0040),
-            help = STRING_TOKEN(0x0041),
+            prompt = STRING_TOKEN(0x003F),
+            help = STRING_TOKEN(0x0040),
             flags = CHECKBOX_DEFAULT | CHECKBOX_DEFAULT_MFG | RESET_REQUIRED,
         endcheckbox;
         checkbox varid = DisplayEnableScaledVModes.v800,
-            prompt = STRING_TOKEN(0x0042),
-            help = STRING_TOKEN(0x0043),
+            prompt = STRING_TOKEN(0x0041),
+            help = STRING_TOKEN(0x0042),
             flags = CHECKBOX_DEFAULT | CHECKBOX_DEFAULT_MFG | RESET_REQUIRED,
         endcheckbox;
         checkbox varid = DisplayEnableScaledVModes.v1024,
-            prompt = STRING_TOKEN(0x0044),
-            help = STRING_TOKEN(0x0045),
+            prompt = STRING_TOKEN(0x0043),
+            help = STRING_TOKEN(0x0044),
             flags = CHECKBOX_DEFAULT | CHECKBOX_DEFAULT_MFG | RESET_REQUIRED,
         endcheckbox;
         checkbox varid = DisplayEnableScaledVModes.v720p,
-            prompt = STRING_TOKEN(0x0046),
-            help = STRING_TOKEN(0x0047),
+            prompt = STRING_TOKEN(0x0045),
+            help = STRING_TOKEN(0x0046),
             flags = CHECKBOX_DEFAULT | CHECKBOX_DEFAULT_MFG | RESET_REQUIRED,
         endcheckbox;
         checkbox varid = DisplayEnableScaledVModes.v1080p,
-            prompt = STRING_TOKEN(0x0048),
-            help = STRING_TOKEN(0x0049),
+            prompt = STRING_TOKEN(0x0047),
+            help = STRING_TOKEN(0x0048),
             flags = CHECKBOX_DEFAULT | CHECKBOX_DEFAULT_MFG | RESET_REQUIRED,
         endcheckbox;
         checkbox varid = DisplayEnableScaledVModes.Physical,
-            prompt = STRING_TOKEN(0x004A),
-            help = STRING_TOKEN(0x004B),
+            prompt = STRING_TOKEN(0x0049),
+            help = STRING_TOKEN(0x004A),
             flags = CHECKBOX_DEFAULT | CHECKBOX_DEFAULT_MFG | RESET_REQUIRED,
         endcheckbox;
         oneof varid = DisplayEnableSShot.Enable,
-            prompt = STRING_TOKEN(0x004C),
-            help = STRING_TOKEN(0x004D),
+            prompt = STRING_TOKEN(0x004B),
+            help = STRING_TOKEN(0x004C),
             flags = NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
-            option text = STRING_TOKEN(0x004E), value = 1, flags = DEFAULT;
-            option text = STRING_TOKEN(0x004F), value = 0, flags = 0;
+            option text = STRING_TOKEN(0x004D), value = 1, flags = DEFAULT;
+            option text = STRING_TOKEN(0x004E), value = 0, flags = 0;
         endoneof;
     endform;
     form formid = 0x1005,
-        title = STRING_TOKEN(0x0050);
-        subtitle text = STRING_TOKEN(0x0051);
+        title = STRING_TOKEN(0x004F);
+        subtitle text = STRING_TOKEN(0x0050);
         oneof varid = DebugEnableJTAG.Enable,
-            prompt = STRING_TOKEN(0x0052),
-            help = STRING_TOKEN(0x0053),
+            prompt = STRING_TOKEN(0x0051),
+            help = STRING_TOKEN(0x0052),
             flags = NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
-            option text = STRING_TOKEN(0x0054), value = 1, flags = 0;
-            option text = STRING_TOKEN(0x0055), value = 0, flags = DEFAULT;
+            option text = STRING_TOKEN(0x0053), value = 1, flags = 0;
+            option text = STRING_TOKEN(0x0054), value = 0, flags = DEFAULT;
         endoneof;
     endform;
 endformset;

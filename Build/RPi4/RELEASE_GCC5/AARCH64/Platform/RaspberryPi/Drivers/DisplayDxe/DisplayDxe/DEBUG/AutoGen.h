@@ -74,13 +74,13 @@ extern UINT64 _gPcd_SkuId_Array[];
 
 // Definition of PCDs used in this module
 
-#define _PCD_TOKEN_PcdDisplayEnableScaledVModes  18U
+#define _PCD_TOKEN_PcdDisplayEnableScaledVModes  19U
 #define _PCD_GET_MODE_8_PcdDisplayEnableScaledVModes  LibPcdGet8(_PCD_TOKEN_PcdDisplayEnableScaledVModes)
 #define _PCD_GET_MODE_SIZE_PcdDisplayEnableScaledVModes  LibPcdGetSize(_PCD_TOKEN_PcdDisplayEnableScaledVModes)
 #define _PCD_SET_MODE_8_PcdDisplayEnableScaledVModes(Value)  LibPcdSet8(_PCD_TOKEN_PcdDisplayEnableScaledVModes, (Value))
 #define _PCD_SET_MODE_8_S_PcdDisplayEnableScaledVModes(Value)  LibPcdSet8S(_PCD_TOKEN_PcdDisplayEnableScaledVModes, (Value))
 
-#define _PCD_TOKEN_PcdDisplayEnableSShot  17U
+#define _PCD_TOKEN_PcdDisplayEnableSShot  18U
 #define _PCD_GET_MODE_32_PcdDisplayEnableSShot  LibPcdGet32(_PCD_TOKEN_PcdDisplayEnableSShot)
 #define _PCD_GET_MODE_SIZE_PcdDisplayEnableSShot  LibPcdGetSize(_PCD_TOKEN_PcdDisplayEnableSShot)
 #define _PCD_SET_MODE_32_PcdDisplayEnableSShot(Value)  LibPcdSet32(_PCD_TOKEN_PcdDisplayEnableSShot, (Value))

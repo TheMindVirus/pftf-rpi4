@@ -86,7 +86,7 @@ extern const  UINT32  _gPcd_FixedAtBuild_PcdBcm283xRegistersAddress;
 #define _PCD_GET_MODE_32_PcdBcm283xRegistersAddress  _gPcd_FixedAtBuild_PcdBcm283xRegistersAddress
 //#define _PCD_SET_MODE_32_PcdBcm283xRegistersAddress  ASSERT(FALSE)  // It is not allowed to set value for a FIXED_AT_BUILD PCD
 
-#define _PCD_TOKEN_PcdSdIsArasan  30U
+#define _PCD_TOKEN_PcdSdIsArasan  31U
 #define _PCD_GET_MODE_32_PcdSdIsArasan  LibPcdGet32(_PCD_TOKEN_PcdSdIsArasan)
 #define _PCD_GET_MODE_SIZE_PcdSdIsArasan  LibPcdGetSize(_PCD_TOKEN_PcdSdIsArasan)
 #define _PCD_SET_MODE_32_PcdSdIsArasan(Value)  LibPcdSet32(_PCD_TOKEN_PcdSdIsArasan, (Value))

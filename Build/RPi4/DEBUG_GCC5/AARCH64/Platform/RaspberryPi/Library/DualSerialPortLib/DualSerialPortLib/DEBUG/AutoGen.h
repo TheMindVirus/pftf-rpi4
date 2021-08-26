@@ -123,12 +123,13 @@ extern const UINT8 _gPcd_FixedAtBuild_PcdSerialFifoControl;
 #define _PCD_SIZE_PcdSerialFifoControl 1
 #define _PCD_GET_MODE_SIZE_PcdSerialFifoControl _PCD_SIZE_PcdSerialFifoControl
 #define _PCD_TOKEN_PcdSerialClockRate  0U
-extern const UINT32 _gPcd_FixedAtBuild_PcdSerialClockRate;
-#define _PCD_GET_MODE_32_PcdSerialClockRate  _gPcd_FixedAtBuild_PcdSerialClockRate
-//#define _PCD_SET_MODE_32_PcdSerialClockRate  ASSERT(FALSE)  // It is not allowed to set value for a FIXED_AT_BUILD PCD
-#define _PCD_VALUE_PcdSerialClockRate 1000000000
-#define _PCD_SIZE_PcdSerialClockRate 4
-#define _PCD_GET_MODE_SIZE_PcdSerialClockRate _PCD_SIZE_PcdSerialClockRate
+extern volatile  UINT32  _gPcd_BinaryPatch_PcdSerialClockRate;
+#define _PCD_GET_MODE_32_PcdSerialClockRate  _gPcd_BinaryPatch_PcdSerialClockRate
+#define _PCD_SET_MODE_32_PcdSerialClockRate(Value)  (_gPcd_BinaryPatch_PcdSerialClockRate = (Value))
+#define _PCD_SET_MODE_32_S_PcdSerialClockRate(Value)  ((_gPcd_BinaryPatch_PcdSerialClockRate = (Value)), RETURN_SUCCESS)
+#define _PCD_PATCHABLE_PcdSerialClockRate_SIZE 4
+#define _PCD_GET_MODE_SIZE_PcdSerialClockRate _gPcd_BinaryPatch_Size_PcdSerialClockRate
+extern UINTN _gPcd_BinaryPatch_Size_PcdSerialClockRate; 
 #define _PCD_TOKEN_PcdSerialPciDeviceInfo  0U
 extern const UINT8 _gPcd_FixedAtBuild_PcdSerialPciDeviceInfo[];
 #define _PCD_GET_MODE_PTR_PcdSerialPciDeviceInfo  (VOID *)_gPcd_FixedAtBuild_PcdSerialPciDeviceInfo

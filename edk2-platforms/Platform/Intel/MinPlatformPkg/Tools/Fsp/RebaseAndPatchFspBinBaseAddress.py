@@ -1,6 +1,6 @@
 ## @ RebaseAndPatchFspBinBaseAddress.py
 #
-# Copyright (c) 2017 - 2019, Intel Corporation. All rights reserved.<BR>
+# Copyright (c) 2017 - 2021, Intel Corporation. All rights reserved.<BR>
 # SPDX-License-Identifier: BSD-2-Clause-Patent
 #
 
@@ -73,9 +73,7 @@ file.close()
 # Get FSP-M Size, in order to calculate the FSP-T Base. Used SplitFspBin.py script 
 # to dump the header, and get the ImageSize in FSP-M section
 #
-pythontool = 'python'
-if 'PYTHON_HOME' in os.environ:
-    pythontool = os.environ['PYTHON_HOME'] + os.sep + 'python'
+pythontool = sys.executable
 Process = subprocess.Popen([pythontool, splitFspBinPath, "info","-f",fspBinFilePath], stdout=subprocess.PIPE)
 Output = Process.communicate()[0]
 FsptInfo = Output.rsplit(b"FSP_M", 1);
@@ -93,13 +91,13 @@ fspTBaseAddress = flashBase + fspTBaseOffset
 # Re-base FSP bin file to new address and save it as fspBinFileRebased using SplitFspBin.py
 #
 rebaseArguments = fspBinFilePath + " -c s m t -b " + str(hex(fspSBaseAddress).rstrip("L")) + " " + str(hex(fspMBaseAddress).rstrip("L")) + " " + str(hex(fspTBaseAddress).rstrip("L")) + " -o" + fspBinPath + " -n " + fspBinFileRebased
-os.system(pythontool + " " + splitFspBinPath + " rebase -f" + rebaseArguments)
+os.system('"' + pythontool + '"' + " " + splitFspBinPath + " rebase -f" + rebaseArguments)
 
 #
 # Split FSP bin to FSP-S/M/T segments
 #
 splitArguments = fspBinPath + os.sep + fspBinFileRebased + " -o " + fspBinPath + " -n Fsp_Rebased.fd"
-os.system(pythontool + " " + splitFspBinPath + " split -f" + splitArguments)
+os.system('"' + pythontool + '"' + " " + splitFspBinPath + " split -f" + splitArguments)
 
 #
 # Patch dsc file with the re-based FSP-S/M/T address, so internally build will use the same.

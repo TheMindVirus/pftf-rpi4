@@ -22,6 +22,7 @@ extern CHAR8 *gEfiCallerBaseName;
 
 
 // Guids
+extern EFI_GUID gBootDiscoveryPolicyMgrFormsetGuid;
 extern EFI_GUID gEfiFileInfoGuid;
 extern EFI_GUID gEfiFileSystemInfoGuid;
 extern EFI_GUID gEfiFileSystemVolumeLabelInfoIdGuid;
@@ -29,10 +30,14 @@ extern EFI_GUID gEfiEndOfDxeEventGroupGuid;
 extern EFI_GUID gEfiTtyTermGuid;
 extern EFI_GUID gUefiShellFileGuid;
 extern EFI_GUID gEfiEventExitBootServicesGuid;
+extern EFI_GUID gEfiBootManagerPolicyNetworkGuid;
+extern EFI_GUID gEfiBootManagerPolicyConnectAllGuid;
 extern EFI_GUID gEfiMdePkgTokenSpaceGuid;
+extern EFI_GUID gEfiMdeModulePkgTokenSpaceGuid;
 extern EFI_GUID gRaspberryPiTokenSpaceGuid;
 
 // Protocols
+extern EFI_GUID gEfiBootManagerPolicyProtocolGuid;
 extern EFI_GUID gEfiDevicePathProtocolGuid;
 extern EFI_GUID gEfiGraphicsOutputProtocolGuid;
 extern EFI_GUID gEfiLoadedImageProtocolGuid;
@@ -84,12 +89,17 @@ extern const UINT8 _gPcd_FixedAtBuild_PcdDefaultTerminalType;
 extern const BOOLEAN _gPcd_FixedAtBuild_PcdUgaConsumeSupport;
 #define _PCD_GET_MODE_BOOL_PcdUgaConsumeSupport  _gPcd_FixedAtBuild_PcdUgaConsumeSupport
 //#define _PCD_SET_MODE_BOOL_PcdUgaConsumeSupport  ASSERT(FALSE)  // It is not allowed to set value for a FIXED_AT_BUILD PCD
-#define _PCD_TOKEN_PcdPlatformBootTimeOut  13U
+#define _PCD_TOKEN_PcdBootDiscoveryPolicy  1U
+#define _PCD_GET_MODE_32_PcdBootDiscoveryPolicy  LibPcdGet32(_PCD_TOKEN_PcdBootDiscoveryPolicy)
+#define _PCD_GET_MODE_SIZE_PcdBootDiscoveryPolicy  LibPcdGetSize(_PCD_TOKEN_PcdBootDiscoveryPolicy)
+#define _PCD_SET_MODE_32_PcdBootDiscoveryPolicy(Value)  LibPcdSet32(_PCD_TOKEN_PcdBootDiscoveryPolicy, (Value))
+#define _PCD_SET_MODE_32_S_PcdBootDiscoveryPolicy(Value)  LibPcdSet32S(_PCD_TOKEN_PcdBootDiscoveryPolicy, (Value))
+#define _PCD_TOKEN_PcdPlatformBootTimeOut  14U
 #define _PCD_GET_MODE_16_PcdPlatformBootTimeOut  LibPcdGet16(_PCD_TOKEN_PcdPlatformBootTimeOut)
 #define _PCD_GET_MODE_SIZE_PcdPlatformBootTimeOut  LibPcdGetSize(_PCD_TOKEN_PcdPlatformBootTimeOut)
 #define _PCD_SET_MODE_16_PcdPlatformBootTimeOut(Value)  LibPcdSet16(_PCD_TOKEN_PcdPlatformBootTimeOut, (Value))
 #define _PCD_SET_MODE_16_S_PcdPlatformBootTimeOut(Value)  LibPcdSet16S(_PCD_TOKEN_PcdPlatformBootTimeOut, (Value))
-#define _PCD_TOKEN_PcdSdIsArasan  30U
+#define _PCD_TOKEN_PcdSdIsArasan  31U
 #define _PCD_GET_MODE_32_PcdSdIsArasan  LibPcdGet32(_PCD_TOKEN_PcdSdIsArasan)
 #define _PCD_GET_MODE_SIZE_PcdSdIsArasan  LibPcdGetSize(_PCD_TOKEN_PcdSdIsArasan)
 #define _PCD_SET_MODE_32_PcdSdIsArasan(Value)  LibPcdSet32(_PCD_TOKEN_PcdSdIsArasan, (Value))

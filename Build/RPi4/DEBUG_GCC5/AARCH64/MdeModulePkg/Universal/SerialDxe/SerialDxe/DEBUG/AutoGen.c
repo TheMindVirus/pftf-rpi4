@@ -30,6 +30,7 @@ GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gPcdProtocolGuid = { 0x11B34006, 0xD85B, 
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiPcdProtocolGuid = { 0x13a3f0f6, 0x264a, 0x3ef0, { 0xf2, 0xe0, 0xde, 0xc5, 0x12, 0x34, 0x2f, 0x34 } };
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gGetPcdInfoProtocolGuid = { 0x5be40f57, 0xfa68, 0x4610, { 0xbb, 0xbf, 0xe9, 0xc5, 0xfc, 0xda, 0xd3, 0x65 } };
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiGetPcdInfoProtocolGuid = { 0xfd0f4478,  0xefd, 0x461d, { 0xba, 0x2d, 0xe5, 0x8c, 0x45, 0xfd, 0x5f, 0x5e } };
+GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gRaspberryPiFirmwareProtocolGuid = { 0x0ACA9535, 0x7AD0, 0x4286, { 0xB0, 0x2E, 0x87, 0xFA, 0x7E, 0x2A, 0x57, 0x11 } };
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiLoadedImageProtocolGuid = { 0x5B1B31A1, 0x9562, 0x11D2, { 0x8E, 0x3F, 0x00, 0xA0, 0xC9, 0x69, 0x72, 0x3B }};
 
 // Definition of SkuId Array
@@ -161,6 +162,18 @@ extern const  UINT32  _gPcd_FixedAtBuild_PcdBcm283xRegistersAddress;
 #define _PCD_GET_MODE_32_PcdBcm283xRegistersAddress  _gPcd_FixedAtBuild_PcdBcm283xRegistersAddress
 //#define _PCD_SET_MODE_32_PcdBcm283xRegistersAddress  ASSERT(FALSE)  // It is not allowed to set value for a FIXED_AT_BUILD PCD
 
+#define _PCD_TOKEN_PcdSerialClockRate  0U
+#define _PCD_PATCHABLE_VALUE_PcdSerialClockRate  ((UINT32)500000000U)
+volatile  UINT32 _gPcd_BinaryPatch_PcdSerialClockRate = _PCD_PATCHABLE_VALUE_PcdSerialClockRate;
+extern volatile   UINT32  _gPcd_BinaryPatch_PcdSerialClockRate;
+#define _PCD_GET_MODE_32_PcdSerialClockRate  _gPcd_BinaryPatch_PcdSerialClockRate
+#define _PCD_PATCHABLE_PcdSerialClockRate_SIZE 4
+#define _PCD_GET_MODE_SIZE_PcdSerialClockRate  _gPcd_BinaryPatch_Size_PcdSerialClockRate 
+extern UINTN _gPcd_BinaryPatch_Size_PcdSerialClockRate; 
+GLOBAL_REMOVE_IF_UNREFERENCED UINTN _gPcd_BinaryPatch_Size_PcdSerialClockRate = 4;
+#define _PCD_SET_MODE_32_PcdSerialClockRate(Value)  (_gPcd_BinaryPatch_PcdSerialClockRate = (Value))
+#define _PCD_SET_MODE_32_S_PcdSerialClockRate(Value)  ((_gPcd_BinaryPatch_PcdSerialClockRate = (Value)), RETURN_SUCCESS) 
+
 #define _PCD_TOKEN_PcdSerialRegisterAccessWidth  0U
 #define _PCD_SIZE_PcdSerialRegisterAccessWidth 1
 #define _PCD_GET_MODE_SIZE_PcdSerialRegisterAccessWidth  _PCD_SIZE_PcdSerialRegisterAccessWidth 
@@ -214,15 +227,6 @@ GLOBAL_REMOVE_IF_UNREFERENCED const UINT8 _gPcd_FixedAtBuild_PcdSerialFifoContro
 extern const  UINT8  _gPcd_FixedAtBuild_PcdSerialFifoControl;
 #define _PCD_GET_MODE_8_PcdSerialFifoControl  _gPcd_FixedAtBuild_PcdSerialFifoControl
 //#define _PCD_SET_MODE_8_PcdSerialFifoControl  ASSERT(FALSE)  // It is not allowed to set value for a FIXED_AT_BUILD PCD
-
-#define _PCD_TOKEN_PcdSerialClockRate  0U
-#define _PCD_SIZE_PcdSerialClockRate 4
-#define _PCD_GET_MODE_SIZE_PcdSerialClockRate  _PCD_SIZE_PcdSerialClockRate 
-#define _PCD_VALUE_PcdSerialClockRate  1000000000U
-GLOBAL_REMOVE_IF_UNREFERENCED const UINT32 _gPcd_FixedAtBuild_PcdSerialClockRate = _PCD_VALUE_PcdSerialClockRate;
-extern const  UINT32  _gPcd_FixedAtBuild_PcdSerialClockRate;
-#define _PCD_GET_MODE_32_PcdSerialClockRate  _gPcd_FixedAtBuild_PcdSerialClockRate
-//#define _PCD_SET_MODE_32_PcdSerialClockRate  ASSERT(FALSE)  // It is not allowed to set value for a FIXED_AT_BUILD PCD
 
 #define _PCD_TOKEN_PcdSerialPciDeviceInfo  0U
 #define _PCD_VALUE_PcdSerialPciDeviceInfo  (VOID *)_gPcd_FixedAtBuild_PcdSerialPciDeviceInfo
@@ -280,6 +284,13 @@ extern const  UINT32  _gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel;
 //#define _PCD_SET_MODE_32_PcdFixedDebugPrintErrorLevel  ASSERT(FALSE)  // It is not allowed to set value for a FIXED_AT_BUILD PCD
 
 
+EFI_STATUS
+EFIAPI
+DualSerialPortDxeLibConstructor (
+  IN EFI_HANDLE        ImageHandle,
+  IN EFI_SYSTEM_TABLE  *SystemTable
+  );
+
 RETURN_STATUS
 EFIAPI
 BaseDebugLibSerialPortConstructor (
@@ -302,6 +313,9 @@ ProcessLibraryConstructorList (
   )
 {
   EFI_STATUS  Status;
+
+  Status = DualSerialPortDxeLibConstructor (ImageHandle, SystemTable);
+  ASSERT_EFI_ERROR (Status);
 
   Status = BaseDebugLibSerialPortConstructor ();
   ASSERT_RETURN_ERROR (Status);

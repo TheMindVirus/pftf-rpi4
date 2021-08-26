@@ -87,7 +87,7 @@ extern const  UINT32  _gPcd_FixedAtBuild_PcdFdtBaseAddress;
 #define _PCD_GET_MODE_32_PcdFdtBaseAddress  _gPcd_FixedAtBuild_PcdFdtBaseAddress
 //#define _PCD_SET_MODE_32_PcdFdtBaseAddress  ASSERT(FALSE)  // It is not allowed to set value for a FIXED_AT_BUILD PCD
 
-#define _PCD_TOKEN_PcdSystemTableMode  31U
+#define _PCD_TOKEN_PcdSystemTableMode  32U
 #define _PCD_GET_MODE_32_PcdSystemTableMode  LibPcdGet32(_PCD_TOKEN_PcdSystemTableMode)
 #define _PCD_GET_MODE_SIZE_PcdSystemTableMode  LibPcdGetSize(_PCD_TOKEN_PcdSystemTableMode)
 #define _PCD_SET_MODE_32_PcdSystemTableMode(Value)  LibPcdSet32(_PCD_TOKEN_PcdSystemTableMode, (Value))

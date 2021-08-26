@@ -217,7 +217,7 @@ STATIC_LIBRARY_FILES =  \
     $(BIN_DIR)/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib \
     $(BIN_DIR)/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib \
     $(BIN_DIR)/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib \
-    $(BIN_DIR)/Platform/RaspberryPi/Library/DualSerialPortLib/DualSerialPortLib/OUTPUT/DualSerialPortLib.lib \
+    $(BIN_DIR)/Platform/RaspberryPi/Library/DualSerialPortLib/DualSerialPortDxeLib/OUTPUT/DualSerialPortDxeLib.lib \
     $(OUTPUT_DIR)/SerialDxe.lib
 
 INC =  \
@@ -313,7 +313,7 @@ gen_libs:
 	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/GNUmakefile
 	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/ArmPlatformPkg/Library/PL011UartClockLib/PL011UartClockLib/GNUmakefile
 	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/GNUmakefile
-	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/Platform/RaspberryPi/Library/DualSerialPortLib/DualSerialPortLib/GNUmakefile
+	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/Platform/RaspberryPi/Library/DualSerialPortLib/DualSerialPortDxeLib/GNUmakefile
 	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/GNUmakefile
 	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/GNUmakefile
 	@cd $(MODULE_BUILD_DIR)
@@ -404,7 +404,7 @@ cleanlib:
 	-@test -e $(BIN_DIR)/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/GNUmakefile cleanall
 	-@test -e $(BIN_DIR)/ArmPlatformPkg/Library/PL011UartClockLib/PL011UartClockLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/ArmPlatformPkg/Library/PL011UartClockLib/PL011UartClockLib/GNUmakefile cleanall
 	-@test -e $(BIN_DIR)/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/GNUmakefile cleanall
-	-@test -e $(BIN_DIR)/Platform/RaspberryPi/Library/DualSerialPortLib/DualSerialPortLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/Platform/RaspberryPi/Library/DualSerialPortLib/DualSerialPortLib/GNUmakefile cleanall
+	-@test -e $(BIN_DIR)/Platform/RaspberryPi/Library/DualSerialPortLib/DualSerialPortDxeLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/Platform/RaspberryPi/Library/DualSerialPortLib/DualSerialPortDxeLib/GNUmakefile cleanall
 	-@test -e $(BIN_DIR)/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/GNUmakefile cleanall
 	-@test -e $(BIN_DIR)/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/GNUmakefile cleanall
 	@cd $(MODULE_BUILD_DIR)

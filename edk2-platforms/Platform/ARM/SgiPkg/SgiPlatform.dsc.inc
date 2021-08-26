@@ -1,10 +1,25 @@
 #
-#  Copyright (c) 2018-2020, ARM Limited. All rights reserved.
+#  Copyright (c) 2018-2021, ARM Limited. All rights reserved.
 #
 #  SPDX-License-Identifier: BSD-2-Clause-Patent
 #
 
 !include Platform/ARM/VExpressPkg/ArmVExpress.dsc.inc
+
+[Defines]
+  # To allow the use of secure storage, set this to TRUE.
+  DEFINE SECURE_STORAGE_ENABLE              = FALSE
+
+  # To allow the use of UEFI secure boot, set this to TRUE.
+  # Secure boot requires secure storage to be enabled as well.
+  DEFINE SECURE_BOOT_ENABLE                 = FALSE
+
+  # To allow HDLCD display using the Graphics Output Protocol, set this to TRUE.
+  DEFINE ENABLE_GOP                         = FALSE
+
+  # To enable LPI and CPPC power management functionality, set this to TRUE.
+  DEFINE LPI_EN                             = FALSE
+  DEFINE CPPC_EN                            = FALSE
 
 [BuildOptions]
   *_*_*_CC_FLAGS = -D DISABLE_NEW_DEPRECATED_INTERFACES
@@ -22,6 +37,9 @@
   NorFlashPlatformLib|Platform/ARM/SgiPkg/Library/NorFlashLib/NorFlashLib.inf
   HobLib|MdePkg/Library/DxeHobLib/DxeHobLib.inf
   TimerLib|ArmPkg/Library/ArmArchTimerLib/ArmArchTimerLib.inf
+!if $(SECURE_BOOT_ENABLE) == TRUE
+  MmUnblockMemoryLib|MdePkg/Library/MmUnblockMemoryLib/MmUnblockMemoryLibNull.inf
+!endif
 
   # Virtio Support
   VirtioLib|OvmfPkg/Library/VirtioLib/VirtioLib.inf
@@ -56,6 +74,7 @@
   HobLib|MdePkg/Library/DxeCoreHobLib/DxeCoreHobLib.inf
   MemoryAllocationLib|MdeModulePkg/Library/DxeCoreMemoryAllocationLib/DxeCoreMemoryAllocationLib.inf
   PcdLib|MdePkg/Library/BasePcdLibNull/BasePcdLibNull.inf
+  PrintLib|MdePkg/Library/BasePrintLib/BasePrintLib.inf
 
 [LibraryClasses.common.DXE_DRIVER]
   FdtLib|EmbeddedPkg/Library/FdtLib/FdtLib.inf
@@ -83,6 +102,7 @@
 [PcdsFeatureFlag.common]
   gArmSgiTokenSpaceGuid.PcdVirtioBlkSupported|TRUE
   gArmSgiTokenSpaceGuid.PcdVirtioNetSupported|TRUE
+  gEfiMdeModulePkgTokenSpaceGuid.PcdEnableVariableRuntimeCache|FALSE
 
 [PcdsFixedAtBuild.common]
   gArmTokenSpaceGuid.PcdVFPEnabled|1
@@ -91,6 +111,16 @@
   # DRAM Block2 Base and Size
   gArmSgiTokenSpaceGuid.PcdDramBlock2Base|0x8080000000
   gArmSgiTokenSpaceGuid.PcdDramBlock2Size|0x180000000
+
+!if $(LPI_EN) == TRUE
+  # Allow use of LPI in the response to _OSC method call
+  gArmSgiTokenSpaceGuid.PcdOscLpiEnable|1
+!endif
+
+!if $(CPPC_EN) == TRUE
+  # Allow use of CPPC in the response to _OSC method call
+  gArmSgiTokenSpaceGuid.PcdOscCppcEnable|1
+!endif
 
   # NV Storage PCDs. Use base of 0x08000000 for NOR0, 0xC0000000 for NOR 1
   gEfiMdeModulePkgTokenSpaceGuid.PcdFlashNvStorageVariableSize|0x01400000
@@ -105,6 +135,13 @@
   # System Memory (1GB - 16MB of Trusted DRAM at the top of the 32bit address space)
   gArmTokenSpaceGuid.PcdSystemMemoryBase|0x80000000
   gArmTokenSpaceGuid.PcdSystemMemorySize|0x7F000000
+
+  # ACPI Table Version
+  gEfiMdeModulePkgTokenSpaceGuid.PcdAcpiExposedTableVersions|0x20
+
+  # SMBIOS entry point version
+  gEfiMdeModulePkgTokenSpaceGuid.PcdSmbiosVersion|0x0304
+  gEfiMdeModulePkgTokenSpaceGuid.PcdSmbiosDocRev|0x0
 
   #
   # PCIe
@@ -148,6 +185,16 @@
 
   # Ethernet / Virtio Network
   gArmSgiTokenSpaceGuid.PcdVirtioNetSize|0x10000
+
+  # Counter, Timer and Watchdog
+  gArmSgiTokenSpaceGuid.PcdTimerBase0Base|0x2A830000
+  gArmSgiTokenSpaceGuid.PcdTimerBase0Size|0x00010000
+  gArmSgiTokenSpaceGuid.PcdTimerControlBase|0x2A810000
+  gArmSgiTokenSpaceGuid.PcdTimerControlSize|0x00010000
+  gArmSgiTokenSpaceGuid.PcdTimerCounterReadBase|0x2A800000
+  gArmSgiTokenSpaceGuid.PcdTimerCounterReadSize|0x00010000
+  gArmSgiTokenSpaceGuid.PcdWdogBase|0x2A440000
+  gArmSgiTokenSpaceGuid.PcdWdogSize|0x00020000
 
   #
   # Set the base address and size of the buffer used
@@ -204,7 +251,9 @@
   ArmPkg/Drivers/ArmGic/ArmGicDxe.inf
   ArmPkg/Drivers/TimerDxe/TimerDxe.inf
   ArmPkg/Drivers/GenericWatchdogDxe/GenericWatchdogDxe.inf
+!if $(ENABLE_GOP) == TRUE
   ArmPlatformPkg/Drivers/LcdGraphicsOutputDxe/LcdGraphicsOutputDxe.inf
+!endif
   ArmPlatformPkg/Drivers/NorFlashDxe/NorFlashDxe.inf
   EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.inf
   EmbeddedPkg/MetronomeDxe/MetronomeDxe.inf
@@ -212,7 +261,15 @@
   MdeModulePkg/Core/RuntimeDxe/RuntimeDxe.inf
   MdeModulePkg/Universal/CapsuleRuntimeDxe/CapsuleRuntimeDxe.inf
   MdeModulePkg/Universal/MonotonicCounterRuntimeDxe/MonotonicCounterRuntimeDxe.inf
+!if $(SECURE_BOOT_ENABLE) == TRUE
+  MdeModulePkg/Universal/SecurityStubDxe/SecurityStubDxe.inf {
+    <LibraryClasses>
+      NULL|SecurityPkg/Library/DxeImageVerificationLib/DxeImageVerificationLib.inf
+  }
+  SecurityPkg/VariableAuthenticated/SecureBootConfigDxe/SecureBootConfigDxe.inf
+!else
   MdeModulePkg/Universal/SecurityStubDxe/SecurityStubDxe.inf
+!endif
   OvmfPkg/VirtioBlkDxe/VirtioBlk.inf
 
   MdeModulePkg/Universal/Console/ConPlatformDxe/ConPlatformDxe.inf
@@ -220,6 +277,9 @@
   MdeModulePkg/Universal/Console/GraphicsConsoleDxe/GraphicsConsoleDxe.inf
   MdeModulePkg/Universal/Console/TerminalDxe/TerminalDxe.inf
   MdeModulePkg/Universal/SerialDxe/SerialDxe.inf
+!if $(SECURE_STORAGE_ENABLE) == TRUE
+  MdeModulePkg/Universal/Variable/RuntimeDxe/VariableSmmRuntimeDxe.inf
+!else
   MdeModulePkg/Universal/Variable/RuntimeDxe/VariableRuntimeDxe.inf {
     <LibraryClasses>
       NULL|MdeModulePkg/Library/VarCheckUefiLib/VarCheckUefiLib.inf
@@ -227,12 +287,19 @@
       BaseMemoryLib|MdePkg/Library/BaseMemoryLib/BaseMemoryLib.inf
   }
   MdeModulePkg/Universal/FaultTolerantWriteDxe/FaultTolerantWriteDxe.inf
+!endif
 
   #
   # ACPI Support
   #
   MdeModulePkg/Universal/Acpi/AcpiTableDxe/AcpiTableDxe.inf
   MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe.inf
+
+  #
+  # SMBIOS/DMI
+  #
+  MdeModulePkg/Universal/SmbiosDxe/SmbiosDxe.inf
+  Platform/ARM/SgiPkg/Drivers/SmbiosPlatformDxe/SmbiosPlatformDxe.inf
 
   #
   # platform driver
@@ -290,4 +357,11 @@
   #
   MdeModulePkg/Bus/Pci/SataControllerDxe/SataControllerDxe.inf
 
+!if $(SECURE_STORAGE_ENABLE) == TRUE
+  ArmPkg/Drivers/MmCommunicationDxe/MmCommunication.inf {
+    <LibraryClasses>
+      NULL|StandaloneMmPkg/Library/VariableMmDependency/VariableMmDependency.inf
+  }
+!else
   ArmPkg/Drivers/MmCommunicationDxe/MmCommunication.inf
+!endif

@@ -60,7 +60,8 @@
 
 
 
-DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
+
+DefinitionBlock ("Dsdt.aml", "DSDT", 2, "RPIFDN", "RPI", 2)
 {
   Scope (\_SB_)
   {
@@ -432,7 +433,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
 
 
 
-        QWordMemory (ResourceConsumer,
+        QWordMemory (ResourceProducer,
           ,
           MinFixed,
           MaxFixed,
@@ -462,7 +463,11 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (USB0)
       {
         Name (_HID, "BCM2848")
-        Name (_CID, Package() { "DWC_OTG", "DWC2_OTG" })
+
+
+
+        Name (_CID, "BCM2848")
+
         Name (_UID, 0x0)
         Name (_CCA, 0x0)
         Method (_STA)
@@ -485,7 +490,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (GPU0)
       {
         Name (_HID, "BCM2850")
-        Name (_CID, "VC4")
+        Name (_CID, "BCM2850")
         Name (_UID, 0x0)
         Name (_CCA, 0x0)
         Method (_STA)
@@ -589,7 +594,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (RPIQ)
       {
         Name (_HID, "BCM2849")
-        Name (_CID, "RPIQ")
+        Name (_CID, "BCM2849")
         Name (_UID, 0)
         Name (_CCA, 0x0)
         Method (_STA)
@@ -613,7 +618,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (VCIQ)
       {
         Name (_HID, "BCM2835")
-        Name (_CID, "VCIQ")
+        Name (_CID, "BCM2835")
         Name (_UID, 0)
         Name (_CCA, 0x0)
         Name (_DEP, Package() { \_SB.GDV0.RPIQ })
@@ -638,7 +643,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (VCSM)
       {
         Name (_HID, "BCM2856")
-        Name (_CID, "VCSM")
+        Name (_CID, "BCM2856")
         Name (_UID, 0)
         Name (_CCA, 0x0)
         Name (_DEP, Package() { \_SB.GDV0.VCIQ })
@@ -652,7 +657,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (GPI0)
       {
         Name (_HID, "BCM2845")
-        Name (_CID, "BCMGPIO")
+        Name (_CID, "BCM2845")
         Name (_UID, 0x0)
         Name (_CCA, 0x0)
         Method (_STA)
@@ -679,7 +684,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (I2C1)
       {
         Name (_HID, "BCM2841")
-        Name (_CID, "BCMI2C")
+        Name (_CID, "BCM2841")
         Name (_UID, 0x1)
         Name (_CCA, 0x0)
         Method (_STA)
@@ -703,7 +708,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (I2C2)
       {
         Name (_HID, "BCM2841")
-        Name (_CID, "BCMI2C")
+        Name (_CID, "BCM2841")
         Name (_UID, 0x2)
         Name (_CCA, 0x0)
         Method (_STA)
@@ -727,7 +732,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (SPI0)
       {
         Name (_HID, "BCM2838")
-        Name (_CID, "BCMSPI0")
+        Name (_CID, "BCM2838")
         Name (_UID, 0x0)
         Name (_CCA, 0x0)
         Method (_STA)
@@ -753,7 +758,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (SPI1)
       {
         Name (_HID, "BCM2839")
-        Name (_CID, "BCMAUXSPI")
+        Name (_CID, "BCM2839")
         Name (_UID, 0x1)
         Name (_CCA, 0x0)
         Name (_DEP, Package() { \_SB.GDV0.RPIQ })
@@ -854,6 +859,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
 
 
 
+
       Device (URT0)
       {
         Name (_HID, "BCM2837")
@@ -897,7 +903,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (URTM)
       {
         Name (_HID, "BCM2836")
-        Name (_CID, "MINIUART")
+        Name (_CID, "BCM2836")
         Name (_UID, 0x0)
         Name (_CCA, 0x0)
         Method (_STA)
@@ -908,14 +914,6 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
         {
           MEMORY32FIXED (ReadWrite, 0, 0x00000070, RMEM)
           Interrupt(ResourceConsumer, Level, ActiveHigh, Shared) { 0x7D }
-
-
-
-
-
-
-
-
 
         })
         Method (_CRS, 0x0, Serialized)
@@ -932,58 +930,118 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       {
         Name (_HID, "BCM2EA6")
         Name (_CID, "BCM2EA6")
+
+
+
+
+
+        Name (URIU, 0x2)
+
         Method (_STA)
         {
           Return (0xf)
         }
+
+
+
+
+        Name (BTPL, ResourceTemplate ()
+        {
+          UARTSerialBus(
+            115200,
+            ,
+            ,
+            0x00,
+
+
+
+
+
+
+
+
+
+
+
+
+            ,
+
+            ,
+            ,
+
+            16,
+            16,
+            "\\_SB.GDV0.URT0",
+
+            ,
+            ,
+
+            UAR0,
+
+          )
+        })
+
+
+
+
+        Name (BTMN, ResourceTemplate ()
+        {
+
+
+
+
+          UARTSerialBus(
+            115200,
+            ,
+            ,
+            0x00,
+
+
+
+
+
+
+
+
+
+
+
+
+            ,
+
+            ,
+            ,
+
+            16,
+            16,
+            "\\_SB.GDV0.URTM",
+
+            ,
+            ,
+
+            UARM,
+
+          )
+        })
+
         Method (_CRS, 0x0, Serialized)
         {
-          Name (RBUF, ResourceTemplate ()
+          if (URIU == 0)
           {
 
-            UARTSerialBus(
-              115200,
-              ,
-              ,
-              0x00,
+
+
+
+            return (^BTMN)
+          }
+          else
+          {
 
 
 
 
-
-
-
-
-
-
-
-
-              ,
-
-              ,
-              ,
-
-              16,
-              16,
-
-              "\\_SB.GDV0.URTM",
-
-
-
-
-              ,
-              ,
-
-              UAR0,
-
-            )
-
-
-
-
-            GpioIO (Shared, PullUp, 0, 0, IoRestrictionNone, "\\_SB.GDV0.RPIQ", 0, ResourceConsumer, , ) { 128 }
-          })
-          Return (RBUF)
+            return (^BTPL)
+          }
         }
       }
 
@@ -1208,7 +1266,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (SDC1)
       {
         Name (_HID, "BCM2847")
-        Name (_CID, "ARASAN")
+        Name (_CID, "BCM2847")
         Name (_UID, 0x0)
         Name (_CCA, 0x0)
         Name (_S1D, 0x1)
@@ -1237,7 +1295,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
         Name (_DSD, Package () {
           ToUUID("daffd814-6eba-4d8c-8a91-bc9bbf4aa301"),
           Package () {
-            Package () { "sdhci-caps", 0x0100fa81 },
+            Package () { "sdhci-caps", 0x0120fa81 },
           }
         })
 

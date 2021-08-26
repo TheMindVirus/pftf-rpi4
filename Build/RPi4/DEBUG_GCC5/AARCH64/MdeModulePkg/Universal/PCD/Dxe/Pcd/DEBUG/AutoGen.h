@@ -213,11 +213,11 @@ typedef struct {
 // External PCD database debug information
 //
 #if 0
-#define DXE_GUID_TABLE_SIZE                4U
-#define DXE_STRING_TABLE_SIZE              588U
+#define DXE_GUID_TABLE_SIZE                5U
+#define DXE_STRING_TABLE_SIZE              628U
 #define DXE_SKUID_TABLE_SIZE               1U
-#define DXE_LOCAL_TOKEN_NUMBER_TABLE_SIZE  34
-#define DXE_LOCAL_TOKEN_NUMBER             34
+#define DXE_LOCAL_TOKEN_NUMBER_TABLE_SIZE  36
+#define DXE_LOCAL_TOKEN_NUMBER             36
 #define DXE_EXMAPPING_TABLE_SIZE           3U
 #define DXE_EX_TOKEN_NUMBER                3U
 #define DXE_SIZE_TABLE_SIZE                2U
@@ -234,6 +234,7 @@ typedef struct {
   UINT32             PcdSetupVideoHorizontalResolution_a1aff049_fdeb_442a_b320_13ab4cb72bbc[1];
   UINT32             PcdSetupVideoVerticalResolution_a1aff049_fdeb_442a_b320_13ab4cb72bbc[1];
 
+  UINT32             PcdBootDiscoveryPolicy_a1aff049_fdeb_442a_b320_13ab4cb72bbc_VariableDefault_2;
   UINT32             PcdConOutColumn_a1aff049_fdeb_442a_b320_13ab4cb72bbc_VariableDefault_2;
   UINT32             PcdConOutRow_a1aff049_fdeb_442a_b320_13ab4cb72bbc_VariableDefault_2;
   UINT32             PcdSetupConOutColumn_a1aff049_fdeb_442a_b320_13ab4cb72bbc_VariableDefault_2;
@@ -262,6 +263,7 @@ typedef struct {
   GUID               GuidTable[DXE_GUID_TABLE_SIZE];
   STRING_HEAD        PcdNvStoreDefaultValueBuffer_a1aff049_fdeb_442a_b320_13ab4cb72bbc[1];
 
+  VARIABLE_HEAD      PcdBootDiscoveryPolicy_a1aff049_fdeb_442a_b320_13ab4cb72bbc_Variable_Header[1];
   VARIABLE_HEAD      PcdConOutColumn_a1aff049_fdeb_442a_b320_13ab4cb72bbc_Variable_Header[1];
   VARIABLE_HEAD      PcdConOutRow_a1aff049_fdeb_442a_b320_13ab4cb72bbc_Variable_Header[1];
   VARIABLE_HEAD      PcdSetupConOutColumn_a1aff049_fdeb_442a_b320_13ab4cb72bbc_Variable_Header[1];
@@ -285,28 +287,29 @@ typedef struct {
   VARIABLE_HEAD      PcdRamMoreThan3GB_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_Variable_Header[1];
   VARIABLE_HEAD      PcdSdIsArasan_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_Variable_Header[1];
   VARIABLE_HEAD      PcdSystemTableMode_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_Variable_Header[1];
-  UINT8              StringTable[16]; /* PcdConOutColumn_a1aff049_fdeb_442a_b320_13ab4cb72bbc */
-  UINT8              StringTable_1[10]; /* PcdConOutRow_a1aff049_fdeb_442a_b320_13ab4cb72bbc */
-  UINT8              StringTable_2[16]; /* PcdPlatformBootTimeOut_914aebe7_4635_459b_aa1c_11e219b03a10 */
-  UINT8              StringTable_3[18]; /* PcdCpuClock_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
-  UINT8              StringTable_4[30]; /* PcdCustomCpuClock_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
-  UINT8              StringTable_5[32]; /* PcdDebugEnableJTAG_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
-  UINT8              StringTable_6[38]; /* PcdDisplayEnableSShot_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
-  UINT8              StringTable_7[52]; /* PcdDisplayEnableScaledVModes_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
-  UINT8              StringTable_8[20]; /* PcdFanOnGpio_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
-  UINT8              StringTable_9[16]; /* PcdFanTemp_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
-  UINT8              StringTable_10[32]; /* PcdMmcDisableMulti_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
-  UINT8              StringTable_11[26]; /* PcdMmcEnableDma_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
-  UINT8              StringTable_12[26]; /* PcdMmcForce1Bit_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
-  UINT8              StringTable_13[42]; /* PcdMmcForceDefaultSpeed_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
-  UINT8              StringTable_14[42]; /* PcdMmcSdDefaultSpeedMHz_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
-  UINT8              StringTable_15[36]; /* PcdMmcSdHighSpeedMHz_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
-  UINT8              StringTable_16[22]; /* PcdPlatformResetDelay_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
-  UINT8              StringTable_17[28]; /* PcdRamLimitTo3GB_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
-  UINT8              StringTable_18[30]; /* PcdRamMoreThan3GB_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
-  UINT8              StringTable_19[22]; /* PcdSdIsArasan_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
-  UINT8              StringTable_20[32]; /* PcdSystemTableMode_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
-  UINT8              StringTable_21[2]; /* PcdNvStoreDefaultValueBuffer_a1aff049_fdeb_442a_b320_13ab4cb72bbc */
+  UINT8              StringTable[40]; /* PcdBootDiscoveryPolicy_a1aff049_fdeb_442a_b320_13ab4cb72bbc */
+  UINT8              StringTable_1[16]; /* PcdConOutColumn_a1aff049_fdeb_442a_b320_13ab4cb72bbc */
+  UINT8              StringTable_2[10]; /* PcdConOutRow_a1aff049_fdeb_442a_b320_13ab4cb72bbc */
+  UINT8              StringTable_3[16]; /* PcdPlatformBootTimeOut_914aebe7_4635_459b_aa1c_11e219b03a10 */
+  UINT8              StringTable_4[18]; /* PcdCpuClock_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
+  UINT8              StringTable_5[30]; /* PcdCustomCpuClock_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
+  UINT8              StringTable_6[32]; /* PcdDebugEnableJTAG_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
+  UINT8              StringTable_7[38]; /* PcdDisplayEnableSShot_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
+  UINT8              StringTable_8[52]; /* PcdDisplayEnableScaledVModes_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
+  UINT8              StringTable_9[20]; /* PcdFanOnGpio_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
+  UINT8              StringTable_10[16]; /* PcdFanTemp_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
+  UINT8              StringTable_11[32]; /* PcdMmcDisableMulti_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
+  UINT8              StringTable_12[26]; /* PcdMmcEnableDma_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
+  UINT8              StringTable_13[26]; /* PcdMmcForce1Bit_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
+  UINT8              StringTable_14[42]; /* PcdMmcForceDefaultSpeed_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
+  UINT8              StringTable_15[42]; /* PcdMmcSdDefaultSpeedMHz_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
+  UINT8              StringTable_16[36]; /* PcdMmcSdHighSpeedMHz_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
+  UINT8              StringTable_17[22]; /* PcdPlatformResetDelay_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
+  UINT8              StringTable_18[28]; /* PcdRamLimitTo3GB_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
+  UINT8              StringTable_19[30]; /* PcdRamMoreThan3GB_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
+  UINT8              StringTable_20[22]; /* PcdSdIsArasan_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
+  UINT8              StringTable_21[32]; /* PcdSystemTableMode_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5 */
+  UINT8              StringTable_22[2]; /* PcdNvStoreDefaultValueBuffer_a1aff049_fdeb_442a_b320_13ab4cb72bbc */
 
   SIZE_INFO          SizeTable[DXE_SIZE_TABLE_SIZE];
 
@@ -329,6 +332,7 @@ typedef struct {
   UINT32   PcdFlashNvStorageFtwWorkingBase_a1aff049_fdeb_442a_b320_13ab4cb72bbc[1];
   UINT32   PcdVideoHorizontalResolution_a1aff049_fdeb_442a_b320_13ab4cb72bbc[1];
   UINT32   PcdVideoVerticalResolution_a1aff049_fdeb_442a_b320_13ab4cb72bbc[1];
+  UINT32   PcdUartInUse_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5[1];
 
   UINT16   PcdSetNvStoreDefaultId_a1aff049_fdeb_442a_b320_13ab4cb72bbc[1];
 

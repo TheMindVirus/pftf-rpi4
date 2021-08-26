@@ -147,107 +147,113 @@ extern const  UINT32  _gPcd_FixedAtBuild_PcdBcm283xRegistersAddress;
 #define _PCD_GET_MODE_32_PcdBcm283xRegistersAddress  _gPcd_FixedAtBuild_PcdBcm283xRegistersAddress
 //#define _PCD_SET_MODE_32_PcdBcm283xRegistersAddress  ASSERT(FALSE)  // It is not allowed to set value for a FIXED_AT_BUILD PCD
 
-#define _PCD_TOKEN_PcdCpuClock  14U
+#define _PCD_TOKEN_PcdCpuClock  15U
 #define _PCD_GET_MODE_32_PcdCpuClock  LibPcdGet32(_PCD_TOKEN_PcdCpuClock)
 #define _PCD_GET_MODE_SIZE_PcdCpuClock  LibPcdGetSize(_PCD_TOKEN_PcdCpuClock)
 #define _PCD_SET_MODE_32_PcdCpuClock(Value)  LibPcdSet32(_PCD_TOKEN_PcdCpuClock, (Value))
 #define _PCD_SET_MODE_32_S_PcdCpuClock(Value)  LibPcdSet32S(_PCD_TOKEN_PcdCpuClock, (Value))
 
-#define _PCD_TOKEN_PcdCustomCpuClock  15U
+#define _PCD_TOKEN_PcdCustomCpuClock  16U
 #define _PCD_GET_MODE_32_PcdCustomCpuClock  LibPcdGet32(_PCD_TOKEN_PcdCustomCpuClock)
 #define _PCD_GET_MODE_SIZE_PcdCustomCpuClock  LibPcdGetSize(_PCD_TOKEN_PcdCustomCpuClock)
 #define _PCD_SET_MODE_32_PcdCustomCpuClock(Value)  LibPcdSet32(_PCD_TOKEN_PcdCustomCpuClock, (Value))
 #define _PCD_SET_MODE_32_S_PcdCustomCpuClock(Value)  LibPcdSet32S(_PCD_TOKEN_PcdCustomCpuClock, (Value))
 
-#define _PCD_TOKEN_PcdSdIsArasan  30U
+#define _PCD_TOKEN_PcdSdIsArasan  31U
 #define _PCD_GET_MODE_32_PcdSdIsArasan  LibPcdGet32(_PCD_TOKEN_PcdSdIsArasan)
 #define _PCD_GET_MODE_SIZE_PcdSdIsArasan  LibPcdGetSize(_PCD_TOKEN_PcdSdIsArasan)
 #define _PCD_SET_MODE_32_PcdSdIsArasan(Value)  LibPcdSet32(_PCD_TOKEN_PcdSdIsArasan, (Value))
 #define _PCD_SET_MODE_32_S_PcdSdIsArasan(Value)  LibPcdSet32S(_PCD_TOKEN_PcdSdIsArasan, (Value))
 
-#define _PCD_TOKEN_PcdMmcForce1Bit  23U
+#define _PCD_TOKEN_PcdMmcForce1Bit  24U
 #define _PCD_GET_MODE_32_PcdMmcForce1Bit  LibPcdGet32(_PCD_TOKEN_PcdMmcForce1Bit)
 #define _PCD_GET_MODE_SIZE_PcdMmcForce1Bit  LibPcdGetSize(_PCD_TOKEN_PcdMmcForce1Bit)
 #define _PCD_SET_MODE_32_PcdMmcForce1Bit(Value)  LibPcdSet32(_PCD_TOKEN_PcdMmcForce1Bit, (Value))
 #define _PCD_SET_MODE_32_S_PcdMmcForce1Bit(Value)  LibPcdSet32S(_PCD_TOKEN_PcdMmcForce1Bit, (Value))
 
-#define _PCD_TOKEN_PcdMmcForceDefaultSpeed  24U
+#define _PCD_TOKEN_PcdMmcForceDefaultSpeed  25U
 #define _PCD_GET_MODE_32_PcdMmcForceDefaultSpeed  LibPcdGet32(_PCD_TOKEN_PcdMmcForceDefaultSpeed)
 #define _PCD_GET_MODE_SIZE_PcdMmcForceDefaultSpeed  LibPcdGetSize(_PCD_TOKEN_PcdMmcForceDefaultSpeed)
 #define _PCD_SET_MODE_32_PcdMmcForceDefaultSpeed(Value)  LibPcdSet32(_PCD_TOKEN_PcdMmcForceDefaultSpeed, (Value))
 #define _PCD_SET_MODE_32_S_PcdMmcForceDefaultSpeed(Value)  LibPcdSet32S(_PCD_TOKEN_PcdMmcForceDefaultSpeed, (Value))
 
-#define _PCD_TOKEN_PcdMmcSdDefaultSpeedMHz  25U
+#define _PCD_TOKEN_PcdMmcSdDefaultSpeedMHz  26U
 #define _PCD_GET_MODE_32_PcdMmcSdDefaultSpeedMHz  LibPcdGet32(_PCD_TOKEN_PcdMmcSdDefaultSpeedMHz)
 #define _PCD_GET_MODE_SIZE_PcdMmcSdDefaultSpeedMHz  LibPcdGetSize(_PCD_TOKEN_PcdMmcSdDefaultSpeedMHz)
 #define _PCD_SET_MODE_32_PcdMmcSdDefaultSpeedMHz(Value)  LibPcdSet32(_PCD_TOKEN_PcdMmcSdDefaultSpeedMHz, (Value))
 #define _PCD_SET_MODE_32_S_PcdMmcSdDefaultSpeedMHz(Value)  LibPcdSet32S(_PCD_TOKEN_PcdMmcSdDefaultSpeedMHz, (Value))
 
-#define _PCD_TOKEN_PcdMmcSdHighSpeedMHz  26U
+#define _PCD_TOKEN_PcdMmcSdHighSpeedMHz  27U
 #define _PCD_GET_MODE_32_PcdMmcSdHighSpeedMHz  LibPcdGet32(_PCD_TOKEN_PcdMmcSdHighSpeedMHz)
 #define _PCD_GET_MODE_SIZE_PcdMmcSdHighSpeedMHz  LibPcdGetSize(_PCD_TOKEN_PcdMmcSdHighSpeedMHz)
 #define _PCD_SET_MODE_32_PcdMmcSdHighSpeedMHz(Value)  LibPcdSet32(_PCD_TOKEN_PcdMmcSdHighSpeedMHz, (Value))
 #define _PCD_SET_MODE_32_S_PcdMmcSdHighSpeedMHz(Value)  LibPcdSet32S(_PCD_TOKEN_PcdMmcSdHighSpeedMHz, (Value))
 
-#define _PCD_TOKEN_PcdMmcDisableMulti  21U
+#define _PCD_TOKEN_PcdMmcDisableMulti  22U
 #define _PCD_GET_MODE_32_PcdMmcDisableMulti  LibPcdGet32(_PCD_TOKEN_PcdMmcDisableMulti)
 #define _PCD_GET_MODE_SIZE_PcdMmcDisableMulti  LibPcdGetSize(_PCD_TOKEN_PcdMmcDisableMulti)
 #define _PCD_SET_MODE_32_PcdMmcDisableMulti(Value)  LibPcdSet32(_PCD_TOKEN_PcdMmcDisableMulti, (Value))
 #define _PCD_SET_MODE_32_S_PcdMmcDisableMulti(Value)  LibPcdSet32S(_PCD_TOKEN_PcdMmcDisableMulti, (Value))
 
-#define _PCD_TOKEN_PcdMmcEnableDma  22U
+#define _PCD_TOKEN_PcdMmcEnableDma  23U
 #define _PCD_GET_MODE_32_PcdMmcEnableDma  LibPcdGet32(_PCD_TOKEN_PcdMmcEnableDma)
 #define _PCD_GET_MODE_SIZE_PcdMmcEnableDma  LibPcdGetSize(_PCD_TOKEN_PcdMmcEnableDma)
 #define _PCD_SET_MODE_32_PcdMmcEnableDma(Value)  LibPcdSet32(_PCD_TOKEN_PcdMmcEnableDma, (Value))
 #define _PCD_SET_MODE_32_S_PcdMmcEnableDma(Value)  LibPcdSet32S(_PCD_TOKEN_PcdMmcEnableDma, (Value))
 
-#define _PCD_TOKEN_PcdDebugEnableJTAG  16U
+#define _PCD_TOKEN_PcdDebugEnableJTAG  17U
 #define _PCD_GET_MODE_32_PcdDebugEnableJTAG  LibPcdGet32(_PCD_TOKEN_PcdDebugEnableJTAG)
 #define _PCD_GET_MODE_SIZE_PcdDebugEnableJTAG  LibPcdGetSize(_PCD_TOKEN_PcdDebugEnableJTAG)
 #define _PCD_SET_MODE_32_PcdDebugEnableJTAG(Value)  LibPcdSet32(_PCD_TOKEN_PcdDebugEnableJTAG, (Value))
 #define _PCD_SET_MODE_32_S_PcdDebugEnableJTAG(Value)  LibPcdSet32S(_PCD_TOKEN_PcdDebugEnableJTAG, (Value))
 
-#define _PCD_TOKEN_PcdDisplayEnableScaledVModes  18U
+#define _PCD_TOKEN_PcdDisplayEnableScaledVModes  19U
 #define _PCD_GET_MODE_8_PcdDisplayEnableScaledVModes  LibPcdGet8(_PCD_TOKEN_PcdDisplayEnableScaledVModes)
 #define _PCD_GET_MODE_SIZE_PcdDisplayEnableScaledVModes  LibPcdGetSize(_PCD_TOKEN_PcdDisplayEnableScaledVModes)
 #define _PCD_SET_MODE_8_PcdDisplayEnableScaledVModes(Value)  LibPcdSet8(_PCD_TOKEN_PcdDisplayEnableScaledVModes, (Value))
 #define _PCD_SET_MODE_8_S_PcdDisplayEnableScaledVModes(Value)  LibPcdSet8S(_PCD_TOKEN_PcdDisplayEnableScaledVModes, (Value))
 
-#define _PCD_TOKEN_PcdDisplayEnableSShot  17U
+#define _PCD_TOKEN_PcdDisplayEnableSShot  18U
 #define _PCD_GET_MODE_32_PcdDisplayEnableSShot  LibPcdGet32(_PCD_TOKEN_PcdDisplayEnableSShot)
 #define _PCD_GET_MODE_SIZE_PcdDisplayEnableSShot  LibPcdGetSize(_PCD_TOKEN_PcdDisplayEnableSShot)
 #define _PCD_SET_MODE_32_PcdDisplayEnableSShot(Value)  LibPcdSet32(_PCD_TOKEN_PcdDisplayEnableSShot, (Value))
 #define _PCD_SET_MODE_32_S_PcdDisplayEnableSShot(Value)  LibPcdSet32S(_PCD_TOKEN_PcdDisplayEnableSShot, (Value))
 
-#define _PCD_TOKEN_PcdSystemTableMode  31U
+#define _PCD_TOKEN_PcdSystemTableMode  32U
 #define _PCD_GET_MODE_32_PcdSystemTableMode  LibPcdGet32(_PCD_TOKEN_PcdSystemTableMode)
 #define _PCD_GET_MODE_SIZE_PcdSystemTableMode  LibPcdGetSize(_PCD_TOKEN_PcdSystemTableMode)
 #define _PCD_SET_MODE_32_PcdSystemTableMode(Value)  LibPcdSet32(_PCD_TOKEN_PcdSystemTableMode, (Value))
 #define _PCD_SET_MODE_32_S_PcdSystemTableMode(Value)  LibPcdSet32S(_PCD_TOKEN_PcdSystemTableMode, (Value))
 
-#define _PCD_TOKEN_PcdRamMoreThan3GB  29U
+#define _PCD_TOKEN_PcdRamMoreThan3GB  30U
 #define _PCD_GET_MODE_32_PcdRamMoreThan3GB  LibPcdGet32(_PCD_TOKEN_PcdRamMoreThan3GB)
 #define _PCD_GET_MODE_SIZE_PcdRamMoreThan3GB  LibPcdGetSize(_PCD_TOKEN_PcdRamMoreThan3GB)
 #define _PCD_SET_MODE_32_PcdRamMoreThan3GB(Value)  LibPcdSet32(_PCD_TOKEN_PcdRamMoreThan3GB, (Value))
 #define _PCD_SET_MODE_32_S_PcdRamMoreThan3GB(Value)  LibPcdSet32S(_PCD_TOKEN_PcdRamMoreThan3GB, (Value))
 
-#define _PCD_TOKEN_PcdRamLimitTo3GB  28U
+#define _PCD_TOKEN_PcdRamLimitTo3GB  29U
 #define _PCD_GET_MODE_32_PcdRamLimitTo3GB  LibPcdGet32(_PCD_TOKEN_PcdRamLimitTo3GB)
 #define _PCD_GET_MODE_SIZE_PcdRamLimitTo3GB  LibPcdGetSize(_PCD_TOKEN_PcdRamLimitTo3GB)
 #define _PCD_SET_MODE_32_PcdRamLimitTo3GB(Value)  LibPcdSet32(_PCD_TOKEN_PcdRamLimitTo3GB, (Value))
 #define _PCD_SET_MODE_32_S_PcdRamLimitTo3GB(Value)  LibPcdSet32S(_PCD_TOKEN_PcdRamLimitTo3GB, (Value))
 
-#define _PCD_TOKEN_PcdFanOnGpio  19U
+#define _PCD_TOKEN_PcdFanOnGpio  20U
 #define _PCD_GET_MODE_32_PcdFanOnGpio  LibPcdGet32(_PCD_TOKEN_PcdFanOnGpio)
 #define _PCD_GET_MODE_SIZE_PcdFanOnGpio  LibPcdGetSize(_PCD_TOKEN_PcdFanOnGpio)
 #define _PCD_SET_MODE_32_PcdFanOnGpio(Value)  LibPcdSet32(_PCD_TOKEN_PcdFanOnGpio, (Value))
 #define _PCD_SET_MODE_32_S_PcdFanOnGpio(Value)  LibPcdSet32S(_PCD_TOKEN_PcdFanOnGpio, (Value))
 
-#define _PCD_TOKEN_PcdFanTemp  20U
+#define _PCD_TOKEN_PcdFanTemp  21U
 #define _PCD_GET_MODE_32_PcdFanTemp  LibPcdGet32(_PCD_TOKEN_PcdFanTemp)
 #define _PCD_GET_MODE_SIZE_PcdFanTemp  LibPcdGetSize(_PCD_TOKEN_PcdFanTemp)
 #define _PCD_SET_MODE_32_PcdFanTemp(Value)  LibPcdSet32(_PCD_TOKEN_PcdFanTemp, (Value))
 #define _PCD_SET_MODE_32_S_PcdFanTemp(Value)  LibPcdSet32S(_PCD_TOKEN_PcdFanTemp, (Value))
+
+#define _PCD_TOKEN_PcdUartInUse  33U
+#define _PCD_GET_MODE_32_PcdUartInUse  LibPcdGet32(_PCD_TOKEN_PcdUartInUse)
+#define _PCD_GET_MODE_SIZE_PcdUartInUse  LibPcdGetSize(_PCD_TOKEN_PcdUartInUse)
+#define _PCD_SET_MODE_32_PcdUartInUse(Value)  LibPcdSet32(_PCD_TOKEN_PcdUartInUse, (Value))
+#define _PCD_SET_MODE_32_S_PcdUartInUse(Value)  LibPcdSet32S(_PCD_TOKEN_PcdUartInUse, (Value))
 
 // Definition of PCDs used in libraries is in AutoGen.c
 

@@ -21,6 +21,8 @@
 
 [Packages.AARCH64]
   MdePkg/MdePkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+  Platform/RaspberryPi/RaspberryPi.dec
 
 [Binaries.AARCH64]
   PE32|SerialDxe.efi
@@ -47,6 +49,9 @@
   ## SOMETIMES_CONSUMES
   gEfiGetPcdInfoProtocolGuid
 
+  ## CONSUMES
+  gRaspberryPiFirmwareProtocolGuid
+
   ## SOMETIMES_CONSUMES
   gEfiLoadedImageProtocolGuid
 
@@ -67,7 +72,7 @@
 #  ArmPlatformPkg/Library/PL011UartClockLib/PL011UartClockLib.inf
 #  MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib.inf
 #  MdePkg/Library/BasePrintLib/BasePrintLib.inf
-#  Platform/RaspberryPi/Library/DualSerialPortLib/DualSerialPortLib.inf
+#  Platform/RaspberryPi/Library/DualSerialPortLib/DualSerialPortDxeLib.inf
 #  MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort.inf
 #  MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib.inf
 #  MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint.inf
@@ -75,7 +80,7 @@
 #  ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib.inf
 
 [Depex.AARCH64]
-#  (TRUE) AND (gEfiPcdProtocolGuid) AND (gEfiPcdProtocolGuid) AND (gEfiPcdProtocolGuid) AND (gEfiPcdProtocolGuid) AND (gEfiBdsArchProtocolGuid AND gEfiCpuArchProtocolGuid AND gEfiMetronomeArchProtocolGuid AND gEfiMonotonicCounterArchProtocolGuid AND gEfiRealTimeClockArchProtocolGuid AND gEfiResetArchProtocolGuid AND gEfiRuntimeArchProtocolGuid AND gEfiSecurityArchProtocolGuid AND gEfiTimerArchProtocolGuid AND gEfiVariableWriteArchProtocolGuid AND gEfiVariableArchProtocolGuid AND gEfiWatchdogTimerArchProtocolGuid)
+#  (TRUE) AND (gEfiPcdProtocolGuid) AND (gEfiPcdProtocolGuid) AND (gEfiPcdProtocolGuid) AND (gEfiPcdProtocolGuid) AND (gRaspberryPiFirmwareProtocolGuid) AND (gEfiBdsArchProtocolGuid AND gEfiCpuArchProtocolGuid AND gEfiMetronomeArchProtocolGuid AND gEfiMonotonicCounterArchProtocolGuid AND gEfiRealTimeClockArchProtocolGuid AND gEfiResetArchProtocolGuid AND gEfiRuntimeArchProtocolGuid AND gEfiSecurityArchProtocolGuid AND gEfiTimerArchProtocolGuid AND gEfiVariableWriteArchProtocolGuid AND gEfiVariableArchProtocolGuid AND gEfiWatchdogTimerArchProtocolGuid)
 
 [UserExtensions.TianoCore."ExtraFiles"]
 SerialDxeExtra.uni

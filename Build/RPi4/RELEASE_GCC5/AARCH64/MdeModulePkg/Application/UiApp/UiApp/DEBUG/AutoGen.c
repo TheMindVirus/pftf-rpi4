@@ -49,6 +49,7 @@ GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiDiskInfoIdeInterfaceGuid = { 0x5E948F
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiDiskInfoScsiInterfaceGuid = { 0x08F74BAA, 0xEA36, 0x41D9, { 0x95, 0x21, 0x21, 0xA7, 0x0F, 0x87, 0x80, 0xBC }};
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiDiskInfoSdMmcInterfaceGuid = { 0x8deec992, 0xd39c, 0x4a5c, { 0xab, 0x6b, 0x98, 0x6e, 0x14, 0x24, 0x2b, 0x9d }};
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiFileSystemVolumeLabelInfoIdGuid = { 0xDB47D7D3, 0xFE81, 0x11D3, { 0x9A, 0x35, 0x00, 0x90, 0x27, 0x3F, 0xC1, 0x4D }};
+GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gBootDiscoveryPolicyMgrFormsetGuid = { 0x45902c07, 0x964b, 0x4b30, { 0xa4, 0xa4, 0x22, 0x31, 0xa9, 0x84, 0xc3, 0x9e } };
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiHiiPlatformSetupFormsetGuid = { 0x93039971, 0x8545, 0x4b04, { 0xb4, 0x5e, 0x32, 0xeb, 0x83, 0x26, 0x04, 0x0e }};
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiIfrBootMaintenanceGuid = { 0xb2dedc91, 0xd59f, 0x48d2, { 0x89, 0x8a, 0x12, 0x49, 0xc, 0x74, 0xa4, 0xe0 }};
 
@@ -313,7 +314,13 @@ extern const  UINT8  _gPcd_FixedAtBuild_PcdDebugPropertyMask;
 #define _PCD_GET_MODE_8_PcdDebugPropertyMask  _gPcd_FixedAtBuild_PcdDebugPropertyMask
 //#define _PCD_SET_MODE_8_PcdDebugPropertyMask  ASSERT(FALSE)  // It is not allowed to set value for a FIXED_AT_BUILD PCD
 
-#define _PCD_TOKEN_PcdPlatformBootTimeOut  13U
+#define _PCD_TOKEN_PcdBootDiscoveryPolicy  1U
+#define _PCD_GET_MODE_32_PcdBootDiscoveryPolicy  LibPcdGet32(_PCD_TOKEN_PcdBootDiscoveryPolicy)
+#define _PCD_GET_MODE_SIZE_PcdBootDiscoveryPolicy  LibPcdGetSize(_PCD_TOKEN_PcdBootDiscoveryPolicy)
+#define _PCD_SET_MODE_32_PcdBootDiscoveryPolicy(Value)  LibPcdSet32(_PCD_TOKEN_PcdBootDiscoveryPolicy, (Value))
+#define _PCD_SET_MODE_32_S_PcdBootDiscoveryPolicy(Value)  LibPcdSet32S(_PCD_TOKEN_PcdBootDiscoveryPolicy, (Value))
+
+#define _PCD_TOKEN_PcdPlatformBootTimeOut  14U
 #define _PCD_GET_MODE_16_PcdPlatformBootTimeOut  LibPcdGet16(_PCD_TOKEN_PcdPlatformBootTimeOut)
 #define _PCD_GET_MODE_SIZE_PcdPlatformBootTimeOut  LibPcdGetSize(_PCD_TOKEN_PcdPlatformBootTimeOut)
 #define _PCD_SET_MODE_16_PcdPlatformBootTimeOut(Value)  LibPcdSet16(_PCD_TOKEN_PcdPlatformBootTimeOut, (Value))
@@ -365,6 +372,13 @@ HobLibConstructor (
 EFI_STATUS
 EFIAPI
 FileExplorerLibConstructor (
+  IN EFI_HANDLE        ImageHandle,
+  IN EFI_SYSTEM_TABLE  *SystemTable
+  );
+
+EFI_STATUS
+EFIAPI
+BootDiscoveryPolicyUiLibConstructor (
   IN EFI_HANDLE        ImageHandle,
   IN EFI_SYSTEM_TABLE  *SystemTable
   );
@@ -428,6 +442,9 @@ ProcessLibraryConstructorList (
   Status = FileExplorerLibConstructor (ImageHandle, SystemTable);
   ASSERT_EFI_ERROR (Status);
 
+  Status = BootDiscoveryPolicyUiLibConstructor (ImageHandle, SystemTable);
+  ASSERT_EFI_ERROR (Status);
+
   Status = DeviceManagerUiLibConstructor (ImageHandle, SystemTable);
   ASSERT_EFI_ERROR (Status);
 
@@ -473,6 +490,13 @@ DeviceManagerUiLibDestructor (
 
 EFI_STATUS
 EFIAPI
+BootDiscoveryPolicyUiLibDestructor (
+  IN EFI_HANDLE        ImageHandle,
+  IN EFI_SYSTEM_TABLE  *SystemTable
+  );
+
+EFI_STATUS
+EFIAPI
 FileExplorerLibDestructor (
   IN EFI_HANDLE        ImageHandle,
   IN EFI_SYSTEM_TABLE  *SystemTable
@@ -498,6 +522,9 @@ ProcessLibraryDestructorList (
   ASSERT_EFI_ERROR (Status);
 
   Status = DeviceManagerUiLibDestructor (ImageHandle, SystemTable);
+  ASSERT_EFI_ERROR (Status);
+
+  Status = BootDiscoveryPolicyUiLibDestructor (ImageHandle, SystemTable);
   ASSERT_EFI_ERROR (Status);
 
   Status = FileExplorerLibDestructor (ImageHandle, SystemTable);

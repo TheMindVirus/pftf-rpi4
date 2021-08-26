@@ -123,13 +123,13 @@ extern const  UINT32  _gPcd_FixedAtBuild_PcdFdtSize;
 #define _PCD_GET_MODE_32_PcdFdtSize  _gPcd_FixedAtBuild_PcdFdtSize
 //#define _PCD_SET_MODE_32_PcdFdtSize  ASSERT(FALSE)  // It is not allowed to set value for a FIXED_AT_BUILD PCD
 
-#define _PCD_TOKEN_PcdRamMoreThan3GB  29U
+#define _PCD_TOKEN_PcdRamMoreThan3GB  30U
 #define _PCD_GET_MODE_32_PcdRamMoreThan3GB  LibPcdGet32(_PCD_TOKEN_PcdRamMoreThan3GB)
 #define _PCD_GET_MODE_SIZE_PcdRamMoreThan3GB  LibPcdGetSize(_PCD_TOKEN_PcdRamMoreThan3GB)
 #define _PCD_SET_MODE_32_PcdRamMoreThan3GB(Value)  LibPcdSet32(_PCD_TOKEN_PcdRamMoreThan3GB, (Value))
 #define _PCD_SET_MODE_32_S_PcdRamMoreThan3GB(Value)  LibPcdSet32S(_PCD_TOKEN_PcdRamMoreThan3GB, (Value))
 
-#define _PCD_TOKEN_PcdRamLimitTo3GB  28U
+#define _PCD_TOKEN_PcdRamLimitTo3GB  29U
 #define _PCD_GET_MODE_32_PcdRamLimitTo3GB  LibPcdGet32(_PCD_TOKEN_PcdRamLimitTo3GB)
 #define _PCD_GET_MODE_SIZE_PcdRamLimitTo3GB  LibPcdGetSize(_PCD_TOKEN_PcdRamLimitTo3GB)
 #define _PCD_SET_MODE_32_PcdRamLimitTo3GB(Value)  LibPcdSet32(_PCD_TOKEN_PcdRamLimitTo3GB, (Value))

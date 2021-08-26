@@ -329,7 +329,7 @@ extern const  UINT32  _gPcd_FixedAtBuild_PcdArmArchTimerFreqInHz;
 #define _PCD_GET_MODE_32_PcdArmArchTimerFreqInHz  _gPcd_FixedAtBuild_PcdArmArchTimerFreqInHz
 //#define _PCD_SET_MODE_32_PcdArmArchTimerFreqInHz  ASSERT(FALSE)  // It is not allowed to set value for a FIXED_AT_BUILD PCD
 
-#define _PCD_TOKEN_PcdPlatformResetDelay  27U
+#define _PCD_TOKEN_PcdPlatformResetDelay  28U
 #define _PCD_GET_MODE_32_PcdPlatformResetDelay  LibPcdGet32(_PCD_TOKEN_PcdPlatformResetDelay)
 #define _PCD_GET_MODE_SIZE_PcdPlatformResetDelay  LibPcdGetSize(_PCD_TOKEN_PcdPlatformResetDelay)
 #define _PCD_SET_MODE_32_PcdPlatformResetDelay(Value)  LibPcdSet32(_PCD_TOKEN_PcdPlatformResetDelay, (Value))

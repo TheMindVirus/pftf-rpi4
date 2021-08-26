@@ -1,7 +1,7 @@
 ## @file
 #  ACPI table data and ASL sources required to boot the platform.
 #
-#  Copyright (c) 2020, Arm Ltd. All rights reserved.
+#  Copyright (c) 2020-2021, Arm Ltd. All rights reserved.
 #
 #  SPDX-License-Identifier: BSD-2-Clause-Patent
 #
@@ -22,9 +22,11 @@
   Mcfg.aslc
   RdN2/Dsdt.asl
   RdN2/Madt.aslc
+  RdN2/Pptt.aslc
   Spcr.aslc
   Ssdt.asl
   SsdtRos.asl
+  SsdtEvents.asl
 
 [Packages]
   ArmPkg/ArmPkg.dec
@@ -50,11 +52,23 @@
   gArmTokenSpaceGuid.PcdPciBusMin
   gArmTokenSpaceGuid.PcdPciBusMax
 
+  gArmSgiTokenSpaceGuid.PcdGpioController0BaseAddress
+  gArmSgiTokenSpaceGuid.PcdGpioController0Size
+  gArmSgiTokenSpaceGuid.PcdGpioController0Interrupt
+  gArmSgiTokenSpaceGuid.PcdGtFrame0Gsiv
+  gArmSgiTokenSpaceGuid.PcdGtFrame1Gsiv
+  gArmSgiTokenSpaceGuid.PcdOscLpiEnable
+  gArmSgiTokenSpaceGuid.PcdOscCppcEnable
+  gArmSgiTokenSpaceGuid.PcdSp804DualTimerBaseAddress
+  gArmSgiTokenSpaceGuid.PcdSp804DualTimerSize
+  gArmSgiTokenSpaceGuid.PcdSp804DualTimerInterrupt
   gArmSgiTokenSpaceGuid.PcdVirtioBlkBaseAddress
   gArmSgiTokenSpaceGuid.PcdVirtioBlkSize
   gArmSgiTokenSpaceGuid.PcdVirtioBlkInterrupt
   gArmSgiTokenSpaceGuid.PcdVirtioNetBaseAddress
   gArmSgiTokenSpaceGuid.PcdVirtioNetSize
   gArmSgiTokenSpaceGuid.PcdVirtioNetInterrupt
+  gArmSgiTokenSpaceGuid.PcdWdogWS0Gsiv
+  gArmSgiTokenSpaceGuid.PcdWdogWS1Gsiv
 
   gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress

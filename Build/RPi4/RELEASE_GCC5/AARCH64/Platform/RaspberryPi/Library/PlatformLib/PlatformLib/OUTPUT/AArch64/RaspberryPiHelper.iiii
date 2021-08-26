@@ -85,13 +85,11 @@
     adr x2, mBoardRevision
     str w0, [x2]
 
+    run .Lclkinfo_buffer
 
-
-
-
-
-
-
+    ldr w0, .Lfrequency
+    adr x2, _gPcd_BinaryPatch_PcdSerialClockRate
+    str w0, [x2]
 
     ret
 
@@ -135,20 +133,18 @@
     .long 0
     .set .Lrevinfo_size, . - .Lrevinfo_buffer
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .align 4
+.Lclkinfo_buffer:
+    .long .Lclkinfo_size
+    .long 0x0
+    .long 0x00030002
+    .long 8
+    .long 4
+    .long 4
+.Lfrequency:
+    .long 0
+    .long 0
+    .set .Lclkinfo_size, . - .Lclkinfo_buffer
 
 
 

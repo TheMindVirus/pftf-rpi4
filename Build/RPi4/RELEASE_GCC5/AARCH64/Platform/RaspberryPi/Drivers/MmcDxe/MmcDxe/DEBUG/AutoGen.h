@@ -73,31 +73,31 @@ extern UINT64 _gPcd_SkuId_Array[];
 
 // Definition of PCDs used in this module
 
-#define _PCD_TOKEN_PcdMmcForce1Bit  23U
+#define _PCD_TOKEN_PcdMmcForce1Bit  24U
 #define _PCD_GET_MODE_32_PcdMmcForce1Bit  LibPcdGet32(_PCD_TOKEN_PcdMmcForce1Bit)
 #define _PCD_GET_MODE_SIZE_PcdMmcForce1Bit  LibPcdGetSize(_PCD_TOKEN_PcdMmcForce1Bit)
 #define _PCD_SET_MODE_32_PcdMmcForce1Bit(Value)  LibPcdSet32(_PCD_TOKEN_PcdMmcForce1Bit, (Value))
 #define _PCD_SET_MODE_32_S_PcdMmcForce1Bit(Value)  LibPcdSet32S(_PCD_TOKEN_PcdMmcForce1Bit, (Value))
 
-#define _PCD_TOKEN_PcdMmcForceDefaultSpeed  24U
+#define _PCD_TOKEN_PcdMmcForceDefaultSpeed  25U
 #define _PCD_GET_MODE_32_PcdMmcForceDefaultSpeed  LibPcdGet32(_PCD_TOKEN_PcdMmcForceDefaultSpeed)
 #define _PCD_GET_MODE_SIZE_PcdMmcForceDefaultSpeed  LibPcdGetSize(_PCD_TOKEN_PcdMmcForceDefaultSpeed)
 #define _PCD_SET_MODE_32_PcdMmcForceDefaultSpeed(Value)  LibPcdSet32(_PCD_TOKEN_PcdMmcForceDefaultSpeed, (Value))
 #define _PCD_SET_MODE_32_S_PcdMmcForceDefaultSpeed(Value)  LibPcdSet32S(_PCD_TOKEN_PcdMmcForceDefaultSpeed, (Value))
 
-#define _PCD_TOKEN_PcdMmcSdDefaultSpeedMHz  25U
+#define _PCD_TOKEN_PcdMmcSdDefaultSpeedMHz  26U
 #define _PCD_GET_MODE_32_PcdMmcSdDefaultSpeedMHz  LibPcdGet32(_PCD_TOKEN_PcdMmcSdDefaultSpeedMHz)
 #define _PCD_GET_MODE_SIZE_PcdMmcSdDefaultSpeedMHz  LibPcdGetSize(_PCD_TOKEN_PcdMmcSdDefaultSpeedMHz)
 #define _PCD_SET_MODE_32_PcdMmcSdDefaultSpeedMHz(Value)  LibPcdSet32(_PCD_TOKEN_PcdMmcSdDefaultSpeedMHz, (Value))
 #define _PCD_SET_MODE_32_S_PcdMmcSdDefaultSpeedMHz(Value)  LibPcdSet32S(_PCD_TOKEN_PcdMmcSdDefaultSpeedMHz, (Value))
 
-#define _PCD_TOKEN_PcdMmcSdHighSpeedMHz  26U
+#define _PCD_TOKEN_PcdMmcSdHighSpeedMHz  27U
 #define _PCD_GET_MODE_32_PcdMmcSdHighSpeedMHz  LibPcdGet32(_PCD_TOKEN_PcdMmcSdHighSpeedMHz)
 #define _PCD_GET_MODE_SIZE_PcdMmcSdHighSpeedMHz  LibPcdGetSize(_PCD_TOKEN_PcdMmcSdHighSpeedMHz)
 #define _PCD_SET_MODE_32_PcdMmcSdHighSpeedMHz(Value)  LibPcdSet32(_PCD_TOKEN_PcdMmcSdHighSpeedMHz, (Value))
 #define _PCD_SET_MODE_32_S_PcdMmcSdHighSpeedMHz(Value)  LibPcdSet32S(_PCD_TOKEN_PcdMmcSdHighSpeedMHz, (Value))
 
-#define _PCD_TOKEN_PcdMmcDisableMulti  21U
+#define _PCD_TOKEN_PcdMmcDisableMulti  22U
 #define _PCD_GET_MODE_32_PcdMmcDisableMulti  LibPcdGet32(_PCD_TOKEN_PcdMmcDisableMulti)
 #define _PCD_GET_MODE_SIZE_PcdMmcDisableMulti  LibPcdGetSize(_PCD_TOKEN_PcdMmcDisableMulti)
 #define _PCD_SET_MODE_32_PcdMmcDisableMulti(Value)  LibPcdSet32(_PCD_TOKEN_PcdMmcDisableMulti, (Value))

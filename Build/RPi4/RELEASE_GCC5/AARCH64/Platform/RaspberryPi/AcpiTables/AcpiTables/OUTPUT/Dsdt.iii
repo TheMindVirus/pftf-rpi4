@@ -600,21 +600,21 @@ extern const UINT32 _gPcd_FixedAtBuild_PcdGicPmuIrq2;
 extern const UINT32 _gPcd_FixedAtBuild_PcdGicPmuIrq3;
 # 1 "<command-line>" 2
 # 1 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
-# 15 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
+# 16 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
 # 1 "/home/alastair/pftf-rpi4/edk2-platforms/Silicon/Broadcom/Bcm27xx/Include/IndustryStandard/Bcm2711.h" 1
-# 16 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i" 2
-# 1 "/home/alastair/pftf-rpi4/edk2-platforms/Silicon/Broadcom/Bcm283x/Include/IndustryStandard/Bcm2836.h" 1
 # 17 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i" 2
-# 1 "/home/alastair/pftf-rpi4/edk2-platforms/Silicon/Broadcom/Bcm283x/Include/IndustryStandard/Bcm2836Gpio.h" 1
+# 1 "/home/alastair/pftf-rpi4/edk2-platforms/Silicon/Broadcom/Bcm283x/Include/IndustryStandard/Bcm2836.h" 1
 # 18 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i" 2
-# 1 "/home/alastair/pftf-rpi4/edk2-platforms/Silicon/Broadcom/Bcm283x/Include/IndustryStandard/Bcm2836Gpu.h" 1
+# 1 "/home/alastair/pftf-rpi4/edk2-platforms/Silicon/Broadcom/Bcm283x/Include/IndustryStandard/Bcm2836Gpio.h" 1
 # 19 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i" 2
-# 1 "/home/alastair/pftf-rpi4/edk2-platforms/Silicon/Broadcom/Bcm283x/Include/IndustryStandard/Bcm2836Pwm.h" 1
+# 1 "/home/alastair/pftf-rpi4/edk2-platforms/Silicon/Broadcom/Bcm283x/Include/IndustryStandard/Bcm2836Gpu.h" 1
 # 20 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i" 2
-# 1 "/home/alastair/pftf-rpi4/edk2-platforms/Silicon/Broadcom/Bcm283x/Include/IndustryStandard/Bcm2836Sdio.h" 1
+# 1 "/home/alastair/pftf-rpi4/edk2-platforms/Silicon/Broadcom/Bcm283x/Include/IndustryStandard/Bcm2836Pwm.h" 1
 # 21 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i" 2
-# 1 "/home/alastair/pftf-rpi4/edk2-platforms/Silicon/Broadcom/Bcm283x/Include/IndustryStandard/Bcm2836SdHost.h" 1
+# 1 "/home/alastair/pftf-rpi4/edk2-platforms/Silicon/Broadcom/Bcm283x/Include/IndustryStandard/Bcm2836Sdio.h" 1
 # 22 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i" 2
+# 1 "/home/alastair/pftf-rpi4/edk2-platforms/Silicon/Broadcom/Bcm283x/Include/IndustryStandard/Bcm2836SdHost.h" 1
+# 23 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i" 2
 
 # 1 "/home/alastair/pftf-rpi4/edk2-platforms/Platform/RaspberryPi/AcpiTables/AcpiTables.h" 1
 # 17 "/home/alastair/pftf-rpi4/edk2-platforms/Platform/RaspberryPi/AcpiTables/AcpiTables.h"
@@ -10510,13 +10510,13 @@ typedef struct
   UINT16 ResourceSubType;
   UINT32 UID;
 } EFI_ACPI_6_3_CSRT_RESOURCE_DESCRIPTOR_HEADER;
-# 24 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i" 2
-# 63 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
-DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
+# 25 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i" 2
+# 64 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
+DefinitionBlock ("Dsdt.aml", "DSDT", 2, "RPIFDN", "RPI", 2)
 {
   Scope (\_SB_)
   {
-# 79 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
+# 80 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
     Device(PEPD)
     {
 
@@ -10595,7 +10595,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
         0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
       })
     }
-# 185 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
+# 186 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
     Device (SCB0) {
         Name (_HID, "ACPI0004")
         Name (_UID, 0x0)
@@ -10846,7 +10846,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
 
 
 
-        QWordMemory (ResourceConsumer,
+        QWordMemory (ResourceProducer,
           ,
           MinFixed,
           MaxFixed,
@@ -10861,11 +10861,15 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
           ,
           )
       })
-# 462 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
+# 463 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
       Device (USB0)
       {
         Name (_HID, "BCM2848")
-        Name (_CID, Package() { "DWC_OTG", "DWC2_OTG" })
+
+
+
+        Name (_CID, "BCM2848")
+
         Name (_UID, 0x0)
         Name (_CCA, 0x0)
         Method (_STA)
@@ -10888,7 +10892,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (GPU0)
       {
         Name (_HID, "BCM2850")
-        Name (_CID, "VC4")
+        Name (_CID, "BCM2850")
         Name (_UID, 0x0)
         Name (_CCA, 0x0)
         Method (_STA)
@@ -10903,7 +10907,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
 
 
           MEMORY32FIXED (ReadWrite, 0, 0x00006000, RM02)
-# 515 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
+# 520 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
           MEMORY32FIXED (ReadWrite, 0, 0x00000100, RM05)
           Interrupt (ResourceConsumer, Level, ActiveHigh, Exclusive) { 0x4A }
 
@@ -10981,7 +10985,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (RPIQ)
       {
         Name (_HID, "BCM2849")
-        Name (_CID, "RPIQ")
+        Name (_CID, "BCM2849")
         Name (_UID, 0)
         Name (_CCA, 0x0)
         Method (_STA)
@@ -11005,7 +11009,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (VCIQ)
       {
         Name (_HID, "BCM2835")
-        Name (_CID, "VCIQ")
+        Name (_CID, "BCM2835")
         Name (_UID, 0)
         Name (_CCA, 0x0)
         Name (_DEP, Package() { \_SB.GDV0.RPIQ })
@@ -11030,7 +11034,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (VCSM)
       {
         Name (_HID, "BCM2856")
-        Name (_CID, "VCSM")
+        Name (_CID, "BCM2856")
         Name (_UID, 0)
         Name (_CCA, 0x0)
         Name (_DEP, Package() { \_SB.GDV0.VCIQ })
@@ -11044,7 +11048,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (GPI0)
       {
         Name (_HID, "BCM2845")
-        Name (_CID, "BCMGPIO")
+        Name (_CID, "BCM2845")
         Name (_UID, 0x0)
         Name (_CCA, 0x0)
         Method (_STA)
@@ -11071,7 +11075,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (I2C1)
       {
         Name (_HID, "BCM2841")
-        Name (_CID, "BCMI2C")
+        Name (_CID, "BCM2841")
         Name (_UID, 0x1)
         Name (_CCA, 0x0)
         Method (_STA)
@@ -11095,7 +11099,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (I2C2)
       {
         Name (_HID, "BCM2841")
-        Name (_CID, "BCMI2C")
+        Name (_CID, "BCM2841")
         Name (_UID, 0x2)
         Name (_CCA, 0x0)
         Method (_STA)
@@ -11119,7 +11123,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (SPI0)
       {
         Name (_HID, "BCM2838")
-        Name (_CID, "BCMSPI0")
+        Name (_CID, "BCM2838")
         Name (_UID, 0x0)
         Name (_CCA, 0x0)
         Method (_STA)
@@ -11145,7 +11149,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (SPI1)
       {
         Name (_HID, "BCM2839")
-        Name (_CID, "BCMAUXSPI")
+        Name (_CID, "BCM2839")
         Name (_UID, 0x1)
         Name (_CCA, 0x0)
         Name (_DEP, Package() { \_SB.GDV0.RPIQ })
@@ -11167,7 +11171,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
           Return (^RBUF)
         }
       }
-# 803 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
+# 808 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
       Device (PWM0)
       {
         Name (_HID, "BCM2844")
@@ -11204,7 +11208,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
           Return (^RBUF)
         }
       }
-# 857 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
+# 863 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
       Device (URT0)
       {
         Name (_HID, "BCM2837")
@@ -11236,11 +11240,11 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
           }
         })
       }
-# 897 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
+# 903 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
       Device (URTM)
       {
         Name (_HID, "BCM2836")
-        Name (_CID, "MINIUART")
+        Name (_CID, "BCM2836")
         Name (_UID, 0x0)
         Name (_CCA, 0x0)
         Method (_STA)
@@ -11251,7 +11255,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
         {
           MEMORY32FIXED (ReadWrite, 0, 0x00000070, RMEM)
           Interrupt(ResourceConsumer, Level, ActiveHigh, Shared) { 0x7D }
-# 920 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
+
         })
         Method (_CRS, 0x0, Serialized)
         {
@@ -11267,50 +11271,99 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       {
         Name (_HID, "BCM2EA6")
         Name (_CID, "BCM2EA6")
+
+
+
+
+
+        Name (URIU, 0x2)
+
         Method (_STA)
         {
           Return (0xf)
         }
+
+
+
+
+        Name (BTPL, ResourceTemplate ()
+        {
+          UARTSerialBus(
+            115200,
+            ,
+            ,
+            0x00,
+# 967 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
+            ,
+
+            ,
+            ,
+
+            16,
+            16,
+            "\\_SB.GDV0.URT0",
+
+            ,
+            ,
+
+            UAR0,
+
+          )
+        })
+
+
+
+
+        Name (BTMN, ResourceTemplate ()
+        {
+
+
+
+
+          UARTSerialBus(
+            115200,
+            ,
+            ,
+            0x00,
+# 1010 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
+            ,
+
+            ,
+            ,
+
+            16,
+            16,
+            "\\_SB.GDV0.URTM",
+
+            ,
+            ,
+
+            UARM,
+
+          )
+        })
+
         Method (_CRS, 0x0, Serialized)
         {
-          Name (RBUF, ResourceTemplate ()
+          if (URIU == 0)
           {
 
-            UARTSerialBus(
-              115200,
-              ,
-              ,
-              0x00,
-# 961 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
-              ,
 
-              ,
-              ,
 
-              16,
-              16,
 
-              "\\_SB.GDV0.URTM",
+            return (^BTMN)
+          }
+          else
+          {
 
 
 
 
-              ,
-              ,
-
-              UAR0,
-
-            )
-
-
-
-
-            GpioIO (Shared, PullUp, 0, 0, IoRestrictionNone, "\\_SB.GDV0.RPIQ", 0, ResourceConsumer, , ) { 128 }
-          })
-          Return (RBUF)
+            return (^BTPL)
+          }
         }
       }
-# 1001 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
+# 1059 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
       Device (RHPX)
       {
         Name (_HID, "MSFT8000")
@@ -11424,7 +11477,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
 
           GpioIO (Shared, PullDown, 0, 0, IoRestrictionNone, "\\_SB.GDV0.GPI0", 0, ResourceConsumer,,) { 13 }
           GpioInt (Edge, ActiveBoth, Shared, PullDown, 0, "\\_SB.GDV0.GPI0",) { 13 }
-# 1123 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
+# 1181 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
           GpioIO (Shared, PullDown, 0, 0, IoRestrictionNone, "\\_SB.GDV0.GPI0", 0, ResourceConsumer,,) { 16 }
           GpioInt (Edge, ActiveBoth, Shared, PullDown, 0, "\\_SB.GDV0.GPI0",) { 16 }
 
@@ -11487,16 +11540,16 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
           }
         })
       }
-# 1198 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
+# 1256 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
 # 1 "/home/alastair/pftf-rpi4/edk2-platforms/Silicon/Broadcom/Bcm283x/Include/IndustryStandard/Bcm2836SdHost.h" 1
-# 1199 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i" 2
+# 1257 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i" 2
 # 1 "/home/alastair/pftf-rpi4/edk2-platforms/Silicon/Broadcom/Bcm283x/Include/IndustryStandard/Bcm2836Sdio.h" 1
-# 1200 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i" 2
-# 1208 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
+# 1258 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i" 2
+# 1266 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
       Device (SDC1)
       {
         Name (_HID, "BCM2847")
-        Name (_CID, "ARASAN")
+        Name (_CID, "BCM2847")
         Name (_UID, 0x0)
         Name (_CCA, 0x0)
         Name (_S1D, 0x1)
@@ -11525,7 +11578,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
         Name (_DSD, Package () {
           ToUUID("daffd814-6eba-4d8c-8a91-bc9bbf4aa301"),
           Package () {
-            Package () { "sdhci-caps", 0x0100fa81 },
+            Package () { "sdhci-caps", 0x0120fa81 },
           }
         })
 
@@ -11545,7 +11598,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
           }
         }
       }
-# 1307 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
+# 1365 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dsdt.i"
     }
 
 

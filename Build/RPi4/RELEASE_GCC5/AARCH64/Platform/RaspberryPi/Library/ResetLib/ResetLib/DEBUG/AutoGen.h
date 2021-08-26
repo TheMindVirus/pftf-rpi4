@@ -29,7 +29,7 @@ extern GUID gRaspberryPiTokenSpaceGuid;
 extern UINT64 _gPcd_SkuId_Array[];
 
 // PCD definitions
-#define _PCD_TOKEN_PcdPlatformResetDelay  27U
+#define _PCD_TOKEN_PcdPlatformResetDelay  28U
 #define _PCD_GET_MODE_32_PcdPlatformResetDelay  LibPcdGet32(_PCD_TOKEN_PcdPlatformResetDelay)
 #define _PCD_GET_MODE_SIZE_PcdPlatformResetDelay  LibPcdGetSize(_PCD_TOKEN_PcdPlatformResetDelay)
 #define _PCD_SET_MODE_32_PcdPlatformResetDelay(Value)  LibPcdSet32(_PCD_TOKEN_PcdPlatformResetDelay, (Value))

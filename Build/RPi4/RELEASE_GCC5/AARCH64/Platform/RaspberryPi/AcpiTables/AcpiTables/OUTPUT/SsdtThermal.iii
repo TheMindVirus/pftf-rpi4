@@ -10458,7 +10458,7 @@ typedef struct {
 # 15 "/home/alastair/pftf-rpi4/edk2/MdePkg/Include/IndustryStandard/Acpi.h" 2
 # 18 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./SsdtThermal.i" 2
 
-DefinitionBlock ("/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./SsdtThermal.i", "SSDT", 5, "RPIFDN", "RPITHFAN", 2)
+DefinitionBlock ("/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./SsdtThermal.i", "SSDT", 2, "RPIFDN", "RPITHFAN", 2)
 {
   External (\_SB_.EC00, DeviceObj)
   External (\_SB_.EC00.TZ00, DeviceObj)

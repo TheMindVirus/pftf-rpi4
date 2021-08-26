@@ -55,12 +55,15 @@ extern EFI_GUID gEfiDiskInfoAhciInterfaceGuid;
 extern EFI_GUID gEfiDiskInfoIdeInterfaceGuid;
 extern EFI_GUID gEfiDiskInfoScsiInterfaceGuid;
 extern EFI_GUID gEfiDiskInfoSdMmcInterfaceGuid;
+extern EFI_GUID gBootDiscoveryPolicyMgrFormsetGuid;
 extern EFI_GUID gEfiFileSystemInfoGuid;
 extern EFI_GUID gEfiFileSystemVolumeLabelInfoIdGuid;
 extern EFI_GUID gEfiEndOfDxeEventGroupGuid;
 extern EFI_GUID gEfiTtyTermGuid;
 extern EFI_GUID gUefiShellFileGuid;
 extern EFI_GUID gEfiEventExitBootServicesGuid;
+extern EFI_GUID gEfiBootManagerPolicyNetworkGuid;
+extern EFI_GUID gEfiBootManagerPolicyConnectAllGuid;
 extern EFI_GUID gRaspberryPiTokenSpaceGuid;
 
 // Protocols
@@ -111,6 +114,7 @@ extern EFI_GUID gEfiDiskInfoProtocolGuid;
 extern EFI_GUID gEfiDriverHealthProtocolGuid;
 extern EFI_GUID gEfiRamDiskProtocolGuid;
 extern EFI_GUID gEdkiiPlatformBootManagerProtocolGuid;
+extern EFI_GUID gEfiBootManagerPolicyProtocolGuid;
 extern EFI_GUID gEsrtManagementProtocolGuid;
 extern EFI_GUID gEfiUsb2HcProtocolGuid;
 
@@ -167,7 +171,7 @@ extern const  UINT16  _gPcd_FixedAtBuild_PcdHardwareErrorRecordLevel;
 #define _PCD_GET_MODE_16_PcdHardwareErrorRecordLevel  _gPcd_FixedAtBuild_PcdHardwareErrorRecordLevel
 //#define _PCD_SET_MODE_16_PcdHardwareErrorRecordLevel  ASSERT(FALSE)  // It is not allowed to set value for a FIXED_AT_BUILD PCD
 
-#define _PCD_TOKEN_PcdPlatformBootTimeOut  13U
+#define _PCD_TOKEN_PcdPlatformBootTimeOut  14U
 #define _PCD_GET_MODE_16_PcdPlatformBootTimeOut  LibPcdGet16(_PCD_TOKEN_PcdPlatformBootTimeOut)
 #define _PCD_GET_MODE_SIZE_PcdPlatformBootTimeOut  LibPcdGetSize(_PCD_TOKEN_PcdPlatformBootTimeOut)
 #define _PCD_SET_MODE_16_PcdPlatformBootTimeOut(Value)  LibPcdSet16(_PCD_TOKEN_PcdPlatformBootTimeOut, (Value))
@@ -205,7 +209,7 @@ extern const  UINT32  _gPcd_FixedAtBuild_PcdErrorCodeSetVariable;
 #define _PCD_GET_MODE_32_PcdErrorCodeSetVariable  _gPcd_FixedAtBuild_PcdErrorCodeSetVariable
 //#define _PCD_SET_MODE_32_PcdErrorCodeSetVariable  ASSERT(FALSE)  // It is not allowed to set value for a FIXED_AT_BUILD PCD
 
-#define _PCD_TOKEN_PcdTestKeyUsed  10U
+#define _PCD_TOKEN_PcdTestKeyUsed  11U
 #define _PCD_GET_MODE_BOOL_PcdTestKeyUsed  LibPcdGetBool(_PCD_TOKEN_PcdTestKeyUsed)
 #define _PCD_GET_MODE_SIZE_PcdTestKeyUsed  LibPcdGetSize(_PCD_TOKEN_PcdTestKeyUsed)
 #define _PCD_SET_MODE_BOOL_PcdTestKeyUsed(Value)  LibPcdSetBool(_PCD_TOKEN_PcdTestKeyUsed, (Value))

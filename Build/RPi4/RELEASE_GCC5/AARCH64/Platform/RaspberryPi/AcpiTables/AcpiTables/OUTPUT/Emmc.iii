@@ -608,6 +608,8 @@ extern const UINT32 _gPcd_FixedAtBuild_PcdGicPmuIrq3;
 # 12 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Emmc.i" 2
 # 1 "/home/alastair/pftf-rpi4/edk2-platforms/Silicon/Broadcom/Bcm283x/Include/IndustryStandard/Bcm2836Sdio.h" 1
 # 13 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Emmc.i" 2
+# 1 "/home/alastair/pftf-rpi4/edk2-platforms/Silicon/Broadcom/Bcm27xx/Include/IndustryStandard/Bcm2711.h" 1
+# 14 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Emmc.i" 2
 
 # 1 "/home/alastair/pftf-rpi4/edk2-platforms/Platform/RaspberryPi/AcpiTables/AcpiTables.h" 1
 # 17 "/home/alastair/pftf-rpi4/edk2-platforms/Platform/RaspberryPi/AcpiTables/AcpiTables.h"
@@ -10503,9 +10505,9 @@ typedef struct
   UINT16 ResourceSubType;
   UINT32 UID;
 } EFI_ACPI_6_3_CSRT_RESOURCE_DESCRIPTOR_HEADER;
-# 15 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Emmc.i" 2
+# 16 "/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Emmc.i" 2
 
-DefinitionBlock ("/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Emmc.i", "SSDT", 5, "RPIFDN", "RPI4EMMC", 2)
+DefinitionBlock ("/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Emmc.i", "SSDT", 2, "RPIFDN", "RPI4EMMC", 2)
 {
   Scope (\_SB_)
   {
@@ -10525,8 +10527,9 @@ DefinitionBlock ("/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platf
         Return (^RBUF)
       }
 
-      Name (_DMA, ResourceTemplate() {
-        QWordMemory (ResourceConsumer,
+
+      Name (DMTR, ResourceTemplate() {
+        QWordMemory (ResourceProducer,
           ,
           MinFixed,
           MaxFixed,
@@ -10541,6 +10544,41 @@ DefinitionBlock ("/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platf
           ,
         )
       })
+
+
+      Name (DMNT, ResourceTemplate() {
+        QWordMemory (ResourceProducer,
+          ,
+          MinFixed,
+          MaxFixed,
+          NonCacheable,
+          ReadWrite,
+          0x0,
+          0x0000000000000000,
+          0x000000FFFFFFFFFF,
+          0x0000000000000000,
+          0x0000010000000000,
+          ,
+          ,
+        )
+      })
+
+      Method (_DMA, 0x0, Serialized)
+      {
+        OperationRegion (CHPR, SystemMemory, 0xfc404000, 0x4)
+          Field (CHPR, DWordAcc, NoLock, Preserve) {
+            SOCI, 32
+        }
+
+        if ((SOCI & 0xFF) >= 0x20)
+        {
+          return (^DMNT);
+        }
+        else
+        {
+          return (^DMTR);
+        }
+      }
 
 
       Device (SDC3)

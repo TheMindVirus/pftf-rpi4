@@ -159,13 +159,13 @@ extern const  UINT32  _gPcd_FixedAtBuild_PcdFdSize;
 #define _PCD_GET_MODE_32_PcdFdSize  _gPcd_FixedAtBuild_PcdFdSize
 //#define _PCD_SET_MODE_32_PcdFdSize  ASSERT(FALSE)  // It is not allowed to set value for a FIXED_AT_BUILD PCD
 
-#define _PCD_TOKEN_PcdFlashNvStorageFtwWorkingBase  4U
+#define _PCD_TOKEN_PcdFlashNvStorageFtwWorkingBase  5U
 #define _PCD_GET_MODE_32_PcdFlashNvStorageFtwWorkingBase  LibPcdGet32(_PCD_TOKEN_PcdFlashNvStorageFtwWorkingBase)
 #define _PCD_GET_MODE_SIZE_PcdFlashNvStorageFtwWorkingBase  LibPcdGetSize(_PCD_TOKEN_PcdFlashNvStorageFtwWorkingBase)
 #define _PCD_SET_MODE_32_PcdFlashNvStorageFtwWorkingBase(Value)  LibPcdSet32(_PCD_TOKEN_PcdFlashNvStorageFtwWorkingBase, (Value))
 #define _PCD_SET_MODE_32_S_PcdFlashNvStorageFtwWorkingBase(Value)  LibPcdSet32S(_PCD_TOKEN_PcdFlashNvStorageFtwWorkingBase, (Value))
 
-#define _PCD_TOKEN_PcdFlashNvStorageFtwSpareBase  3U
+#define _PCD_TOKEN_PcdFlashNvStorageFtwSpareBase  4U
 #define _PCD_GET_MODE_32_PcdFlashNvStorageFtwSpareBase  LibPcdGet32(_PCD_TOKEN_PcdFlashNvStorageFtwSpareBase)
 #define _PCD_GET_MODE_SIZE_PcdFlashNvStorageFtwSpareBase  LibPcdGetSize(_PCD_TOKEN_PcdFlashNvStorageFtwSpareBase)
 #define _PCD_SET_MODE_32_PcdFlashNvStorageFtwSpareBase(Value)  LibPcdSet32(_PCD_TOKEN_PcdFlashNvStorageFtwSpareBase, (Value))
@@ -187,13 +187,13 @@ extern const  UINT32  _gPcd_FixedAtBuild_PcdNvStorageEventLogBase;
 #define _PCD_GET_MODE_32_PcdNvStorageEventLogBase  _gPcd_FixedAtBuild_PcdNvStorageEventLogBase
 //#define _PCD_SET_MODE_32_PcdNvStorageEventLogBase  ASSERT(FALSE)  // It is not allowed to set value for a FIXED_AT_BUILD PCD
 
-#define _PCD_TOKEN_PcdPlatformResetDelay  27U
+#define _PCD_TOKEN_PcdPlatformResetDelay  28U
 #define _PCD_GET_MODE_32_PcdPlatformResetDelay  LibPcdGet32(_PCD_TOKEN_PcdPlatformResetDelay)
 #define _PCD_GET_MODE_SIZE_PcdPlatformResetDelay  LibPcdGetSize(_PCD_TOKEN_PcdPlatformResetDelay)
 #define _PCD_SET_MODE_32_PcdPlatformResetDelay(Value)  LibPcdSet32(_PCD_TOKEN_PcdPlatformResetDelay, (Value))
 #define _PCD_SET_MODE_32_S_PcdPlatformResetDelay(Value)  LibPcdSet32S(_PCD_TOKEN_PcdPlatformResetDelay, (Value))
 
-#define _PCD_TOKEN_PcdFlashNvStorageVariableBase64  5U
+#define _PCD_TOKEN_PcdFlashNvStorageVariableBase64  6U
 #define _PCD_GET_MODE_64_PcdFlashNvStorageVariableBase64  LibPcdGet64(_PCD_TOKEN_PcdFlashNvStorageVariableBase64)
 #define _PCD_GET_MODE_SIZE_PcdFlashNvStorageVariableBase64  LibPcdGetSize(_PCD_TOKEN_PcdFlashNvStorageVariableBase64)
 #define _PCD_SET_MODE_64_PcdFlashNvStorageVariableBase64(Value)  LibPcdSet64(_PCD_TOKEN_PcdFlashNvStorageVariableBase64, (Value))

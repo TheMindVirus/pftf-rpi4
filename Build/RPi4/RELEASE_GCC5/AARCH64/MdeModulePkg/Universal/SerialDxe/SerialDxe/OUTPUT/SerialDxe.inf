@@ -21,6 +21,8 @@
 
 [Packages.AARCH64]
   MdePkg/MdePkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+  Platform/RaspberryPi/RaspberryPi.dec
 
 [Binaries.AARCH64]
   PE32|SerialDxe.efi
@@ -50,6 +52,9 @@
   ## SOMETIMES_CONSUMES
   gEfiLoadedImageProtocolGuid
 
+  ## CONSUMES
+  gRaspberryPiFirmwareProtocolGuid
+
 
 [Ppis.AARCH64]
 
@@ -68,12 +73,12 @@
 #  ArmPlatformPkg/Library/PL011UartLib/PL011UartLib.inf
 #  ArmPlatformPkg/Library/PL011UartClockLib/PL011UartClockLib.inf
 #  MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint.inf
-#  Platform/RaspberryPi/Library/DualSerialPortLib/DualSerialPortLib.inf
+#  Platform/RaspberryPi/Library/DualSerialPortLib/DualSerialPortDxeLib.inf
 #  MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib.inf
 #  ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib.inf
 
 [Depex.AARCH64]
-#  (TRUE) AND (gEfiPcdProtocolGuid) AND (gEfiPcdProtocolGuid) AND (gEfiPcdProtocolGuid) AND (gEfiPcdProtocolGuid) AND (gEfiBdsArchProtocolGuid AND gEfiCpuArchProtocolGuid AND gEfiMetronomeArchProtocolGuid AND gEfiMonotonicCounterArchProtocolGuid AND gEfiRealTimeClockArchProtocolGuid AND gEfiResetArchProtocolGuid AND gEfiRuntimeArchProtocolGuid AND gEfiSecurityArchProtocolGuid AND gEfiTimerArchProtocolGuid AND gEfiVariableWriteArchProtocolGuid AND gEfiVariableArchProtocolGuid AND gEfiWatchdogTimerArchProtocolGuid)
+#  (TRUE) AND (gEfiPcdProtocolGuid) AND (gEfiPcdProtocolGuid) AND (gEfiPcdProtocolGuid) AND (gEfiPcdProtocolGuid) AND (gEfiBdsArchProtocolGuid AND gEfiCpuArchProtocolGuid AND gEfiMetronomeArchProtocolGuid AND gEfiMonotonicCounterArchProtocolGuid AND gEfiRealTimeClockArchProtocolGuid AND gEfiResetArchProtocolGuid AND gEfiRuntimeArchProtocolGuid AND gEfiSecurityArchProtocolGuid AND gEfiTimerArchProtocolGuid AND gEfiVariableWriteArchProtocolGuid AND gEfiVariableArchProtocolGuid AND gEfiWatchdogTimerArchProtocolGuid) AND (gRaspberryPiFirmwareProtocolGuid)
 
 [UserExtensions.TianoCore."ExtraFiles"]
 SerialDxeExtra.uni

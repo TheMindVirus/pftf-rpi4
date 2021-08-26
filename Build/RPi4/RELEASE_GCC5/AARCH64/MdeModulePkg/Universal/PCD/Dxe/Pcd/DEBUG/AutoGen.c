@@ -211,6 +211,7 @@ DXE_PCD_DATABASE_INIT gDXEPcdDbInit = {
   { 640U }, /*  PcdSetupVideoHorizontalResolution_a1aff049_fdeb_442a_b320_13ab4cb72bbc[1] */
   { 480U }, /*  PcdSetupVideoVerticalResolution_a1aff049_fdeb_442a_b320_13ab4cb72bbc[1] */
 
+  2U, /* PcdBootDiscoveryPolicy_a1aff049_fdeb_442a_b320_13ab4cb72bbc_VariableDefault_2 */
   80U, /* PcdConOutColumn_a1aff049_fdeb_442a_b320_13ab4cb72bbc_VariableDefault_2 */
   25U, /* PcdConOutRow_a1aff049_fdeb_442a_b320_13ab4cb72bbc_VariableDefault_2 */
   80U, /* PcdSetupConOutColumn_a1aff049_fdeb_442a_b320_13ab4cb72bbc_VariableDefault_2 */
@@ -222,7 +223,7 @@ DXE_PCD_DATABASE_INIT gDXEPcdDbInit = {
   0U, /* PcdFanOnGpio_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2 */
   60U, /* PcdFanTemp_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2 */
   0U, /* PcdMmcDisableMulti_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2 */
-  0U, /* PcdMmcEnableDma_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2 */
+  1U, /* PcdMmcEnableDma_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2 */
   0U, /* PcdMmcForce1Bit_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2 */
   0U, /* PcdMmcForceDefaultSpeed_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2 */
   25U, /* PcdMmcSdDefaultSpeedMHz_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2 */
@@ -237,13 +238,14 @@ DXE_PCD_DATABASE_INIT gDXEPcdDbInit = {
 
   /* ExMapTable */
   {
-    { 0x00030005U, 32U, 3U },
-    { 0x00030004U, 33U, 3U },
-    { 0x00030006U, 34U, 3U },
+    { 0x00030005U, 34U, 4U },
+    { 0x00030004U, 35U, 4U },
+    { 0x00030006U, 36U, 4U },
 
   },
   /* LocalTokenNumberTable */
   {
+    offsetof(DXE_PCD_DATABASE, Init.PcdBootDiscoveryPolicy_a1aff049_fdeb_442a_b320_13ab4cb72bbc_Variable_Header) | PCD_TYPE_HII | PCD_DATUM_TYPE_UINT32,
     offsetof(DXE_PCD_DATABASE, Init.PcdConOutColumn_a1aff049_fdeb_442a_b320_13ab4cb72bbc_Variable_Header) | PCD_TYPE_HII | PCD_DATUM_TYPE_UINT32,
     offsetof(DXE_PCD_DATABASE, Init.PcdConOutRow_a1aff049_fdeb_442a_b320_13ab4cb72bbc_Variable_Header) | PCD_TYPE_HII | PCD_DATUM_TYPE_UINT32,
     offsetof(DXE_PCD_DATABASE, Uninit.PcdFlashNvStorageFtwSpareBase_a1aff049_fdeb_442a_b320_13ab4cb72bbc) | PCD_TYPE_DATA | PCD_DATUM_TYPE_UINT32,
@@ -275,6 +277,7 @@ DXE_PCD_DATABASE_INIT gDXEPcdDbInit = {
     offsetof(DXE_PCD_DATABASE, Init.PcdRamMoreThan3GB_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_Variable_Header) | PCD_TYPE_HII | PCD_DATUM_TYPE_UINT32,
     offsetof(DXE_PCD_DATABASE, Init.PcdSdIsArasan_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_Variable_Header) | PCD_TYPE_HII | PCD_DATUM_TYPE_UINT32,
     offsetof(DXE_PCD_DATABASE, Init.PcdSystemTableMode_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_Variable_Header) | PCD_TYPE_HII | PCD_DATUM_TYPE_UINT32,
+    offsetof(DXE_PCD_DATABASE, Uninit.PcdUartInUse_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5) | PCD_TYPE_DATA | PCD_DATUM_TYPE_UINT32,
     offsetof(DXE_PCD_DATABASE, Init.PcdNvStoreDefaultValueBuffer_a1aff049_fdeb_442a_b320_13ab4cb72bbc) | PCD_TYPE_STRING,
     offsetof(DXE_PCD_DATABASE, Uninit.PcdSetNvStoreDefaultId_a1aff049_fdeb_442a_b320_13ab4cb72bbc) | PCD_DATUM_TYPE_UINT16 | PCD_TYPE_DATA,
     offsetof(DXE_PCD_DATABASE, Uninit.PcdVpdBaseAddress64_a1aff049_fdeb_442a_b320_13ab4cb72bbc) | PCD_TYPE_DATA | PCD_DATUM_TYPE_UINT64,
@@ -282,155 +285,164 @@ DXE_PCD_DATABASE_INIT gDXEPcdDbInit = {
   },
   /* GuidTable */
   {
+    { 0x45902c07, 0x964b, 0x4b30, { 0xa4, 0xa4, 0x22, 0x31, 0xa9, 0x84, 0xc3, 0x9e } },
     {0xCD7CC258, 0x31DB, 0x11E6, {0x9F, 0xD3, 0x63, 0xB0, 0xB8, 0xEE, 0xD6, 0xB5}},
     { 0x8BE4DF61, 0x93CA, 0x11D2, { 0xAA, 0x0D, 0x00, 0xE0, 0x98, 0x03, 0x2B, 0x8C }},
     {0xCD7CC258, 0x31DB, 0x22E6, {0x9F, 0x22, 0x63, 0xB0, 0xB8, 0xEE, 0xD6, 0xB5}},
     { 0xA1AFF049, 0xFDEB, 0x442a, { 0xB3, 0x20, 0x13, 0xAB, 0x4C, 0xB7, 0x2B, 0xBC }},
 
   },
-  { 586U }, /* PcdNvStoreDefaultValueBuffer_a1aff049_fdeb_442a_b320_13ab4cb72bbc[1] */
+  { 626U }, /* PcdNvStoreDefaultValueBuffer_a1aff049_fdeb_442a_b320_13ab4cb72bbc[1] */
 
+  /* PcdBootDiscoveryPolicy_a1aff049_fdeb_442a_b320_13ab4cb72bbc_Variable_Header[1] */
+  {
+    { 0U, offsetof(DXE_PCD_DATABASE, Init.PcdBootDiscoveryPolicy_a1aff049_fdeb_442a_b320_13ab4cb72bbc_VariableDefault_2), 0U, 0U },
+    { 0U, 0U, 0U, offsetof(DXE_PCD_DATABASE, Init.PcdBootDiscoveryPolicy_a1aff049_fdeb_442a_b320_13ab4cb72bbc_VariableDefault_2) }
+
+  },
   /* PcdConOutColumn_a1aff049_fdeb_442a_b320_13ab4cb72bbc_Variable_Header[1] */
   {
-    { 0U, offsetof(DXE_PCD_DATABASE, Init.PcdConOutColumn_a1aff049_fdeb_442a_b320_13ab4cb72bbc_VariableDefault_2), 0U, 0x0U },
-    { 0U, 0U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdConOutColumn_a1aff049_fdeb_442a_b320_13ab4cb72bbc_VariableDefault_2) }
+    { 40U, offsetof(DXE_PCD_DATABASE, Init.PcdConOutColumn_a1aff049_fdeb_442a_b320_13ab4cb72bbc_VariableDefault_2), 1U, 0x0U },
+    { 1U, 40U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdConOutColumn_a1aff049_fdeb_442a_b320_13ab4cb72bbc_VariableDefault_2) }
 
   },
   /* PcdConOutRow_a1aff049_fdeb_442a_b320_13ab4cb72bbc_Variable_Header[1] */
   {
-    { 16U, offsetof(DXE_PCD_DATABASE, Init.PcdConOutRow_a1aff049_fdeb_442a_b320_13ab4cb72bbc_VariableDefault_2), 0U, 0x0U },
-    { 0U, 16U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdConOutRow_a1aff049_fdeb_442a_b320_13ab4cb72bbc_VariableDefault_2) }
+    { 56U, offsetof(DXE_PCD_DATABASE, Init.PcdConOutRow_a1aff049_fdeb_442a_b320_13ab4cb72bbc_VariableDefault_2), 1U, 0x0U },
+    { 1U, 56U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdConOutRow_a1aff049_fdeb_442a_b320_13ab4cb72bbc_VariableDefault_2) }
 
   },
   /* PcdSetupConOutColumn_a1aff049_fdeb_442a_b320_13ab4cb72bbc_Variable_Header[1] */
   {
-    { 0U, offsetof(DXE_PCD_DATABASE, Init.PcdSetupConOutColumn_a1aff049_fdeb_442a_b320_13ab4cb72bbc_VariableDefault_2), 0U, 0x0U },
-    { 0U, 0U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdSetupConOutColumn_a1aff049_fdeb_442a_b320_13ab4cb72bbc_VariableDefault_2) }
+    { 40U, offsetof(DXE_PCD_DATABASE, Init.PcdSetupConOutColumn_a1aff049_fdeb_442a_b320_13ab4cb72bbc_VariableDefault_2), 1U, 0x0U },
+    { 1U, 40U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdSetupConOutColumn_a1aff049_fdeb_442a_b320_13ab4cb72bbc_VariableDefault_2) }
 
   },
   /* PcdSetupConOutRow_a1aff049_fdeb_442a_b320_13ab4cb72bbc_Variable_Header[1] */
   {
-    { 16U, offsetof(DXE_PCD_DATABASE, Init.PcdSetupConOutRow_a1aff049_fdeb_442a_b320_13ab4cb72bbc_VariableDefault_2), 0U, 0x0U },
-    { 0U, 16U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdSetupConOutRow_a1aff049_fdeb_442a_b320_13ab4cb72bbc_VariableDefault_2) }
+    { 56U, offsetof(DXE_PCD_DATABASE, Init.PcdSetupConOutRow_a1aff049_fdeb_442a_b320_13ab4cb72bbc_VariableDefault_2), 1U, 0x0U },
+    { 1U, 56U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdSetupConOutRow_a1aff049_fdeb_442a_b320_13ab4cb72bbc_VariableDefault_2) }
 
   },
   /* PcdPlatformBootTimeOut_914aebe7_4635_459b_aa1c_11e219b03a10_Variable_Header[1] */
   {
-    { 26U, offsetof(DXE_PCD_DATABASE, Init.PcdPlatformBootTimeOut_914aebe7_4635_459b_aa1c_11e219b03a10_VariableDefault_2), 1U, 0x0U },
-    { 1U, 26U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdPlatformBootTimeOut_914aebe7_4635_459b_aa1c_11e219b03a10_VariableDefault_2) }
+    { 66U, offsetof(DXE_PCD_DATABASE, Init.PcdPlatformBootTimeOut_914aebe7_4635_459b_aa1c_11e219b03a10_VariableDefault_2), 2U, 0x0U },
+    { 2U, 66U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdPlatformBootTimeOut_914aebe7_4635_459b_aa1c_11e219b03a10_VariableDefault_2) }
 
   },
   /* PcdCpuClock_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_Variable_Header[1] */
   {
-    { 42U, offsetof(DXE_PCD_DATABASE, Init.PcdCpuClock_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 2U, 0x0U },
-    { 2U, 42U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdCpuClock_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
+    { 82U, offsetof(DXE_PCD_DATABASE, Init.PcdCpuClock_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 3U, 0x0U },
+    { 3U, 82U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdCpuClock_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
 
   },
   /* PcdCustomCpuClock_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_Variable_Header[1] */
   {
-    { 60U, offsetof(DXE_PCD_DATABASE, Init.PcdCustomCpuClock_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 2U, 0x0U },
-    { 2U, 60U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdCustomCpuClock_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
+    { 100U, offsetof(DXE_PCD_DATABASE, Init.PcdCustomCpuClock_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 3U, 0x0U },
+    { 3U, 100U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdCustomCpuClock_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
 
   },
   /* PcdDebugEnableJTAG_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_Variable_Header[1] */
   {
-    { 90U, offsetof(DXE_PCD_DATABASE, Init.PcdDebugEnableJTAG_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 2U, 0x0U },
-    { 2U, 90U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdDebugEnableJTAG_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
+    { 130U, offsetof(DXE_PCD_DATABASE, Init.PcdDebugEnableJTAG_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 3U, 0x0U },
+    { 3U, 130U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdDebugEnableJTAG_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
 
   },
   /* PcdDisplayEnableSShot_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_Variable_Header[1] */
   {
-    { 122U, offsetof(DXE_PCD_DATABASE, Init.PcdDisplayEnableSShot_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 2U, 0x0U },
-    { 2U, 122U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdDisplayEnableSShot_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
+    { 162U, offsetof(DXE_PCD_DATABASE, Init.PcdDisplayEnableSShot_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 3U, 0x0U },
+    { 3U, 162U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdDisplayEnableSShot_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
 
   },
   /* PcdDisplayEnableScaledVModes_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_Variable_Header[1] */
   {
-    { 160U, offsetof(DXE_PCD_DATABASE, Init.PcdDisplayEnableScaledVModes_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 2U, 0x0U },
-    { 2U, 160U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdDisplayEnableScaledVModes_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
+    { 200U, offsetof(DXE_PCD_DATABASE, Init.PcdDisplayEnableScaledVModes_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 3U, 0x0U },
+    { 3U, 200U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdDisplayEnableScaledVModes_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
 
   },
   /* PcdFanOnGpio_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_Variable_Header[1] */
   {
-    { 212U, offsetof(DXE_PCD_DATABASE, Init.PcdFanOnGpio_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 2U, 0x0U },
-    { 2U, 212U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdFanOnGpio_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
+    { 252U, offsetof(DXE_PCD_DATABASE, Init.PcdFanOnGpio_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 3U, 0x0U },
+    { 3U, 252U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdFanOnGpio_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
 
   },
   /* PcdFanTemp_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_Variable_Header[1] */
   {
-    { 232U, offsetof(DXE_PCD_DATABASE, Init.PcdFanTemp_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 2U, 0x0U },
-    { 2U, 232U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdFanTemp_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
+    { 272U, offsetof(DXE_PCD_DATABASE, Init.PcdFanTemp_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 3U, 0x0U },
+    { 3U, 272U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdFanTemp_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
 
   },
   /* PcdMmcDisableMulti_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_Variable_Header[1] */
   {
-    { 248U, offsetof(DXE_PCD_DATABASE, Init.PcdMmcDisableMulti_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 2U, 0x0U },
-    { 2U, 248U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdMmcDisableMulti_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
+    { 288U, offsetof(DXE_PCD_DATABASE, Init.PcdMmcDisableMulti_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 3U, 0x0U },
+    { 3U, 288U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdMmcDisableMulti_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
 
   },
   /* PcdMmcEnableDma_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_Variable_Header[1] */
   {
-    { 280U, offsetof(DXE_PCD_DATABASE, Init.PcdMmcEnableDma_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 2U, 0x0U },
-    { 2U, 280U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdMmcEnableDma_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
+    { 320U, offsetof(DXE_PCD_DATABASE, Init.PcdMmcEnableDma_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 3U, 0x0U },
+    { 3U, 320U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdMmcEnableDma_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
 
   },
   /* PcdMmcForce1Bit_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_Variable_Header[1] */
   {
-    { 306U, offsetof(DXE_PCD_DATABASE, Init.PcdMmcForce1Bit_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 2U, 0x0U },
-    { 2U, 306U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdMmcForce1Bit_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
+    { 346U, offsetof(DXE_PCD_DATABASE, Init.PcdMmcForce1Bit_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 3U, 0x0U },
+    { 3U, 346U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdMmcForce1Bit_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
 
   },
   /* PcdMmcForceDefaultSpeed_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_Variable_Header[1] */
   {
-    { 332U, offsetof(DXE_PCD_DATABASE, Init.PcdMmcForceDefaultSpeed_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 2U, 0x0U },
-    { 2U, 332U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdMmcForceDefaultSpeed_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
+    { 372U, offsetof(DXE_PCD_DATABASE, Init.PcdMmcForceDefaultSpeed_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 3U, 0x0U },
+    { 3U, 372U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdMmcForceDefaultSpeed_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
 
   },
   /* PcdMmcSdDefaultSpeedMHz_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_Variable_Header[1] */
   {
-    { 374U, offsetof(DXE_PCD_DATABASE, Init.PcdMmcSdDefaultSpeedMHz_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 2U, 0x0U },
-    { 2U, 374U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdMmcSdDefaultSpeedMHz_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
+    { 414U, offsetof(DXE_PCD_DATABASE, Init.PcdMmcSdDefaultSpeedMHz_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 3U, 0x0U },
+    { 3U, 414U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdMmcSdDefaultSpeedMHz_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
 
   },
   /* PcdMmcSdHighSpeedMHz_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_Variable_Header[1] */
   {
-    { 416U, offsetof(DXE_PCD_DATABASE, Init.PcdMmcSdHighSpeedMHz_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 2U, 0x0U },
-    { 2U, 416U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdMmcSdHighSpeedMHz_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
+    { 456U, offsetof(DXE_PCD_DATABASE, Init.PcdMmcSdHighSpeedMHz_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 3U, 0x0U },
+    { 3U, 456U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdMmcSdHighSpeedMHz_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
 
   },
   /* PcdPlatformResetDelay_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_Variable_Header[1] */
   {
-    { 452U, offsetof(DXE_PCD_DATABASE, Init.PcdPlatformResetDelay_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 0U, 0x0U },
-    { 0U, 452U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdPlatformResetDelay_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
+    { 492U, offsetof(DXE_PCD_DATABASE, Init.PcdPlatformResetDelay_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 1U, 0x0U },
+    { 1U, 492U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdPlatformResetDelay_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
 
   },
   /* PcdRamLimitTo3GB_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_Variable_Header[1] */
   {
-    { 474U, offsetof(DXE_PCD_DATABASE, Init.PcdRamLimitTo3GB_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 2U, 0x0U },
-    { 2U, 474U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdRamLimitTo3GB_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
+    { 514U, offsetof(DXE_PCD_DATABASE, Init.PcdRamLimitTo3GB_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 3U, 0x0U },
+    { 3U, 514U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdRamLimitTo3GB_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
 
   },
   /* PcdRamMoreThan3GB_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_Variable_Header[1] */
   {
-    { 502U, offsetof(DXE_PCD_DATABASE, Init.PcdRamMoreThan3GB_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 2U, 0x0U },
-    { 2U, 502U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdRamMoreThan3GB_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
+    { 542U, offsetof(DXE_PCD_DATABASE, Init.PcdRamMoreThan3GB_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 3U, 0x0U },
+    { 3U, 542U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdRamMoreThan3GB_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
 
   },
   /* PcdSdIsArasan_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_Variable_Header[1] */
   {
-    { 532U, offsetof(DXE_PCD_DATABASE, Init.PcdSdIsArasan_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 2U, 0x0U },
-    { 2U, 532U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdSdIsArasan_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
+    { 572U, offsetof(DXE_PCD_DATABASE, Init.PcdSdIsArasan_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 3U, 0x0U },
+    { 3U, 572U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdSdIsArasan_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
 
   },
   /* PcdSystemTableMode_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_Variable_Header[1] */
   {
-    { 554U, offsetof(DXE_PCD_DATABASE, Init.PcdSystemTableMode_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 2U, 0x0U },
-    { 2U, 554U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdSystemTableMode_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
+    { 594U, offsetof(DXE_PCD_DATABASE, Init.PcdSystemTableMode_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2), 3U, 0x0U },
+    { 3U, 594U, 0x0U, offsetof(DXE_PCD_DATABASE, Init.PcdSystemTableMode_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_VariableDefault_2) }
 
   },
 
 /* SkuHead */
   {
+   offsetof (DXE_PCD_DATABASE, Init.PcdBootDiscoveryPolicy_a1aff049_fdeb_442a_b320_13ab4cb72bbc_Variable_Header) | PCD_TYPE_HII | PCD_DATUM_TYPE_UINT32, /* */
+           offsetof (DXE_PCD_DATABASE, Init.SkuHead)  /* */
    offsetof (DXE_PCD_DATABASE, Init.PcdConOutColumn_a1aff049_fdeb_442a_b320_13ab4cb72bbc_Variable_Header) | PCD_TYPE_HII | PCD_DATUM_TYPE_UINT32, /* */
            offsetof (DXE_PCD_DATABASE, Init.SkuHead)  /* */
    offsetof (DXE_PCD_DATABASE, Init.PcdConOutRow_a1aff049_fdeb_442a_b320_13ab4cb72bbc_Variable_Header) | PCD_TYPE_HII | PCD_DATUM_TYPE_UINT32, /* */
@@ -493,6 +505,8 @@ DXE_PCD_DATABASE_INIT gDXEPcdDbInit = {
            offsetof (DXE_PCD_DATABASE, Init.SkuHead)  /* */
    offsetof (DXE_PCD_DATABASE, Init.PcdSystemTableMode_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5_Variable_Header) | PCD_TYPE_HII | PCD_DATUM_TYPE_UINT32, /* */
            offsetof (DXE_PCD_DATABASE, Init.SkuHead)  /* */
+   offsetof (DXE_PCD_DATABASE, Uninit.PcdUartInUse_cd7cc258_31db_11e6_9fd3_63b0b8eed6b5) | PCD_TYPE_DATA | PCD_DATUM_TYPE_UINT32, /* */
+           offsetof (DXE_PCD_DATABASE, Uninit.SkuHead)  /* */
    offsetof (DXE_PCD_DATABASE, Init.PcdNvStoreDefaultValueBuffer_a1aff049_fdeb_442a_b320_13ab4cb72bbc) | PCD_TYPE_STRING, /* */
            offsetof (DXE_PCD_DATABASE, Init.SkuHead)  /* */
    offsetof (DXE_PCD_DATABASE, Uninit.PcdSetNvStoreDefaultId_a1aff049_fdeb_442a_b320_13ab4cb72bbc) | PCD_DATUM_TYPE_UINT16 | PCD_TYPE_DATA, /* */
@@ -502,6 +516,7 @@ DXE_PCD_DATABASE_INIT gDXEPcdDbInit = {
   
   },
  /* StringTable */
+  {0x42,0x00,0x6f,0x00,0x6f,0x00,0x74,0x00,0x44,0x00,0x69,0x00,0x73,0x00,0x63,0x00,0x6f,0x00,0x76,0x00,0x65,0x00,0x72,0x00,0x79,0x00,0x50,0x00,0x6f,0x00,0x6c,0x00,0x69,0x00,0x63,0x00,0x79,0x00,0x00,0x00}, /* PcdBootDiscoveryPolicy_a1aff049_fdeb_442a_b320_13ab4cb72bbc */
   {0x43,0x00,0x6f,0x00,0x6c,0x00,0x75,0x00,0x6d,0x00,0x6e,0x00,0x73,0x00,0x00,0x00}, /* PcdConOutColumn_a1aff049_fdeb_442a_b320_13ab4cb72bbc */
   {0x52,0x00,0x6f,0x00,0x77,0x00,0x73,0x00,0x00,0x00}, /* PcdConOutRow_a1aff049_fdeb_442a_b320_13ab4cb72bbc */
   {0x54,0x00,0x69,0x00,0x6d,0x00,0x65,0x00,0x6f,0x00,0x75,0x00,0x74,0x00,0x00,0x00}, /* PcdPlatformBootTimeOut_914aebe7_4635_459b_aa1c_11e219b03a10 */

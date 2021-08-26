@@ -44,3 +44,23 @@
   gArmTokenSpaceGuid.PcdPciMmio64Base|0x4000000000
   gArmTokenSpaceGuid.PcdPciMmio64Size|0x4000000000
   gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress|0x1010000000
+
+  # Timer & Watchdog interrupts
+  gArmSgiTokenSpaceGuid.PcdGtFrame0Gsiv|109
+  gArmSgiTokenSpaceGuid.PcdGtFrame1Gsiv|108
+  gArmSgiTokenSpaceGuid.PcdWdogWS0Gsiv|110
+  gArmSgiTokenSpaceGuid.PcdWdogWS1Gsiv|111
+
+  # SP804 dual timer
+  gArmSgiTokenSpaceGuid.PcdSp804DualTimerBaseAddress|0x0C110000
+  gArmSgiTokenSpaceGuid.PcdSp804DualTimerSize|0x00010000
+  gArmSgiTokenSpaceGuid.PcdSp804DualTimerInterrupt|486
+
+  # SMMU
+  gArmSgiTokenSpaceGuid.PcdSmmuBase|0x40000000
+  gArmSgiTokenSpaceGuid.PcdSmmuSize|0x10000000
+
+  # GPIO controller
+  gArmSgiTokenSpaceGuid.PcdGpioController0BaseAddress|0x0C1D0000
+  gArmSgiTokenSpaceGuid.PcdGpioController0Size|0x00010000
+  gArmSgiTokenSpaceGuid.PcdGpioController0Interrupt|392

@@ -49,12 +49,15 @@ GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiDiskInfoAhciInterfaceGuid = { 0x9e498
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiDiskInfoIdeInterfaceGuid = { 0x5E948FE3, 0x26D3, 0x42B5, { 0xAF, 0x17, 0x61, 0x02, 0x87, 0x18, 0x8D, 0xEC }};
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiDiskInfoScsiInterfaceGuid = { 0x08F74BAA, 0xEA36, 0x41D9, { 0x95, 0x21, 0x21, 0xA7, 0x0F, 0x87, 0x80, 0xBC }};
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiDiskInfoSdMmcInterfaceGuid = { 0x8deec992, 0xd39c, 0x4a5c, { 0xab, 0x6b, 0x98, 0x6e, 0x14, 0x24, 0x2b, 0x9d }};
+GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gBootDiscoveryPolicyMgrFormsetGuid = { 0x45902c07, 0x964b, 0x4b30, { 0xa4, 0xa4, 0x22, 0x31, 0xa9, 0x84, 0xc3, 0x9e } };
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiFileSystemInfoGuid = { 0x09576E93, 0x6D3F, 0x11D2, { 0x8E, 0x39, 0x00, 0xA0, 0xC9, 0x69, 0x72, 0x3B }};
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiFileSystemVolumeLabelInfoIdGuid = { 0xDB47D7D3, 0xFE81, 0x11D3, { 0x9A, 0x35, 0x00, 0x90, 0x27, 0x3F, 0xC1, 0x4D }};
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiEndOfDxeEventGroupGuid = { 0x2ce967a, 0xdd7e, 0x4ffc, { 0x9e, 0xe7, 0x81, 0xc, 0xf0, 0x47, 0x8, 0x80 }};
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiTtyTermGuid = { 0x7d916d80, 0x5bb1, 0x458c, {0xa4, 0x8f, 0xe2, 0x5f, 0xdd, 0x51, 0xef, 0x94 }};
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gUefiShellFileGuid = {0x7c04a583, 0x9e3e, 0x4f1c, {0xad, 0x65, 0xe0, 0x52, 0x68, 0xd0, 0xb4, 0xd1}};
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiEventExitBootServicesGuid = { 0x27ABF055, 0xB1B8, 0x4C26, { 0x80, 0x48, 0x74, 0x8F, 0x37, 0xBA, 0xA2, 0xDF }};
+GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiBootManagerPolicyNetworkGuid = { 0xD04159DC, 0xE15F, 0x11E3, { 0xB2, 0x61, 0xB8, 0xE8, 0x56, 0x2C, 0xBA, 0xFA }};
+GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiBootManagerPolicyConnectAllGuid = { 0x113B2126, 0xFC8A, 0x11E3, { 0xBD, 0x6C, 0xB8, 0xE8, 0x56, 0x2C, 0xBA, 0xFA }};
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gRaspberryPiTokenSpaceGuid = {0xCD7CC258, 0x31DB, 0x11E6, {0x9F, 0xD3, 0x63, 0xB0, 0xB8, 0xEE, 0xD6, 0xB5}};
 
 // Protocols
@@ -105,6 +108,7 @@ GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiDiskInfoProtocolGuid = { 0xD432A67F, 
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiDriverHealthProtocolGuid = { 0x2a534210, 0x9280, 0x41d8, {0xae, 0x79, 0xca, 0xda, 0x1, 0xa2, 0xb1, 0x27 }};
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiRamDiskProtocolGuid = { 0xab38a0df, 0x6873, 0x44a9, { 0x87, 0xe6, 0xd4, 0xeb, 0x56, 0x14, 0x84, 0x49 }};
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEdkiiPlatformBootManagerProtocolGuid = { 0xaa17add4, 0x756c, 0x460d, { 0x94, 0xb8, 0x43, 0x88, 0xd7, 0xfb, 0x3e, 0x59 } };
+GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiBootManagerPolicyProtocolGuid = { 0xfedf8e0c, 0xe147, 0x11e3, { 0x99, 0x03, 0xb8, 0xe8, 0x56, 0x2c, 0xba, 0xfa }};
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEsrtManagementProtocolGuid = { 0xa340c064, 0x723c, 0x4a9c, { 0xa4, 0xdd, 0xd5, 0xb4, 0x7a, 0x26, 0xfb, 0xb0 }};
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_GUID gEfiUsb2HcProtocolGuid = { 0x3E745226, 0x9818, 0x45B6, { 0xA2, 0xAC, 0xD7, 0xCD, 0x0E, 0x8B, 0xA2, 0xBC }};
 
@@ -494,7 +498,13 @@ extern const  UINT8  _gPcd_FixedAtBuild_PcdDefaultTerminalType;
 #define _PCD_GET_MODE_8_PcdDefaultTerminalType  _gPcd_FixedAtBuild_PcdDefaultTerminalType
 //#define _PCD_SET_MODE_8_PcdDefaultTerminalType  ASSERT(FALSE)  // It is not allowed to set value for a FIXED_AT_BUILD PCD
 
-#define _PCD_TOKEN_PcdSdIsArasan  30U
+#define _PCD_TOKEN_PcdBootDiscoveryPolicy  1U
+#define _PCD_GET_MODE_32_PcdBootDiscoveryPolicy  LibPcdGet32(_PCD_TOKEN_PcdBootDiscoveryPolicy)
+#define _PCD_GET_MODE_SIZE_PcdBootDiscoveryPolicy  LibPcdGetSize(_PCD_TOKEN_PcdBootDiscoveryPolicy)
+#define _PCD_SET_MODE_32_PcdBootDiscoveryPolicy(Value)  LibPcdSet32(_PCD_TOKEN_PcdBootDiscoveryPolicy, (Value))
+#define _PCD_SET_MODE_32_S_PcdBootDiscoveryPolicy(Value)  LibPcdSet32S(_PCD_TOKEN_PcdBootDiscoveryPolicy, (Value))
+
+#define _PCD_TOKEN_PcdSdIsArasan  31U
 #define _PCD_GET_MODE_32_PcdSdIsArasan  LibPcdGet32(_PCD_TOKEN_PcdSdIsArasan)
 #define _PCD_GET_MODE_SIZE_PcdSdIsArasan  LibPcdGetSize(_PCD_TOKEN_PcdSdIsArasan)
 #define _PCD_SET_MODE_32_PcdSdIsArasan(Value)  LibPcdSet32(_PCD_TOKEN_PcdSdIsArasan, (Value))

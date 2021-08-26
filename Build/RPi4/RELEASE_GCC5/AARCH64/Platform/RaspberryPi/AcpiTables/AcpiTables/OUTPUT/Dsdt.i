@@ -7,6 +7,7 @@
  *  Copyright (c) 2020, Pete Batard <pete@akeo.ie>
  *  Copyright (c) 2018-2020, Andrey Warkentin <andrey.warkentin@gmail.com>
  *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Copyright (c) 2021, ARM Limited. All rights reserved.
  *
  *  SPDX-License-Identifier: BSD-2-Clause-Patent
  *
@@ -60,7 +61,7 @@
   Store (Length, LE ## Index)                                   \
   Add (MI ## Index, LE ## Index - 1, MA ## Index)
 
-DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
+DefinitionBlock ("Dsdt.aml", "DSDT", 2, "RPIFDN", "RPI", 2)
 {
   Scope (\_SB_)
   {
@@ -432,7 +433,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
         // Only the first GB is available.
         // Bus 0xC0000000 -> CPU 0x00000000.
         //
-        QWordMemory (ResourceConsumer,
+        QWordMemory (ResourceProducer,
           ,
           MinFixed,
           MaxFixed,
@@ -462,7 +463,11 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (USB0)
       {
         Name (_HID, "BCM2848")
-        Name (_CID, Package() { "DWC_OTG", "DWC2_OTG" })
+      #if (RPI_MODEL == 3)
+        Name (_CID, "DWC_OTG")
+      #elif (RPI_MODEL == 4)
+        Name (_CID, "BCM2848")
+      #endif
         Name (_UID, 0x0)
         Name (_CCA, 0x0)
         Method (_STA)
@@ -485,7 +490,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (GPU0)
       {
         Name (_HID, "BCM2850")
-        Name (_CID, "VC4")
+        Name (_CID, "BCM2850")
         Name (_UID, 0x0)
         Name (_CCA, 0x0)
         Method (_STA)
@@ -589,7 +594,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (RPIQ)
       {
         Name (_HID, "BCM2849")
-        Name (_CID, "RPIQ")
+        Name (_CID, "BCM2849")
         Name (_UID, 0)
         Name (_CCA, 0x0)
         Method (_STA)
@@ -613,7 +618,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (VCIQ)
       {
         Name (_HID, "BCM2835")
-        Name (_CID, "VCIQ")
+        Name (_CID, "BCM2835")
         Name (_UID, 0)
         Name (_CCA, 0x0)
         Name (_DEP, Package() { \_SB.GDV0.RPIQ })
@@ -638,7 +643,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (VCSM)
       {
         Name (_HID, "BCM2856")
-        Name (_CID, "VCSM")
+        Name (_CID, "BCM2856")
         Name (_UID, 0)
         Name (_CCA, 0x0)
         Name (_DEP, Package() { \_SB.GDV0.VCIQ })
@@ -652,7 +657,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (GPI0)
       {
         Name (_HID, "BCM2845")
-        Name (_CID, "BCMGPIO")
+        Name (_CID, "BCM2845")
         Name (_UID, 0x0)
         Name (_CCA, 0x0)
         Method (_STA)
@@ -679,7 +684,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (I2C1)
       {
         Name (_HID, "BCM2841")
-        Name (_CID, "BCMI2C")
+        Name (_CID, "BCM2841")
         Name (_UID, 0x1)
         Name (_CCA, 0x0)
         Method (_STA)
@@ -703,7 +708,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (I2C2)
       {
         Name (_HID, "BCM2841")
-        Name (_CID, "BCMI2C")
+        Name (_CID, "BCM2841")
         Name (_UID, 0x2)
         Name (_CCA, 0x0)
         Method (_STA)
@@ -727,7 +732,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (SPI0)
       {
         Name (_HID, "BCM2838")
-        Name (_CID, "BCMSPI0")
+        Name (_CID, "BCM2838")
         Name (_UID, 0x0)
         Name (_CCA, 0x0)
         Method (_STA)
@@ -753,7 +758,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (SPI1)
       {
         Name (_HID, "BCM2839")
-        Name (_CID, "BCMAUXSPI")
+        Name (_CID, "BCM2839")
         Name (_UID, 0x1)
         Name (_CCA, 0x0)
         Name (_DEP, Package() { \_SB.GDV0.RPIQ })
@@ -780,7 +785,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       // Device (SPI2)
       // {
       //   Name (_HID, "BCM2839")
-      //   Name (_CID, "BCMAUXSPI")
+      //   Name (_CID, "BCM2839")
       //   Name (_UID, 0x2)
       //   Name (_CCA, 0x0)
       //   Name (_DEP, Package() { \_SB.GDV0.RPIQ })
@@ -841,6 +846,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
        *
        *  [DSDT] Serial devices (UART).
        *
+       *  Copyright (c) 2021, ARM Limited. All rights reserved.
        *  Copyright (c) 2020, Pete Batard <pete@akeo.ie>
        *  Copyright (c) 2018, Andrey Warkentin <andrey.warkentin@gmail.com>
        *  Copyright (c) Microsoft Corporation. All rights reserved.
@@ -897,7 +903,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (URTM)
       {
         Name (_HID, "BCM2836")
-        Name (_CID, "MINIUART")
+        Name (_CID, "BCM2836")
         Name (_UID, 0x0)
         Name (_CCA, 0x0)
         Method (_STA)
@@ -909,14 +915,6 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
           MEMORY32FIXED (ReadWrite, 0, BCM2836_MINI_UART_LENGTH, RMEM)
           Interrupt(ResourceConsumer, Level, ActiveHigh, Shared) { BCM2836_MINI_UART_INTERRUPT }
       
-          // NTRAID#MSFT-7141401-2016/04/7-jordanrh - disable UART muxing
-          // until a proper solution can be created for the dmap conflict.
-          // When muxing is enabled, must consider DBG2 table conflict.
-          // The alternate function resource needs to be reserved when
-          // the kernel debugger is enabled to prevent another client
-          // from muxing the pins away.
-      
-          // PinFunction (Exclusive, PullDown, BCM_ALT5, "\\_SB.GPI0", 0, ResourceConsumer, , ) { 14, 15 }
         })
         Method (_CRS, 0x0, Serialized)
         {
@@ -932,58 +930,118 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       {
         Name (_HID, "BCM2EA6")
         Name (_CID, "BCM2EA6")
+      
+        //
+        // UART In Use will be dynamically updated during boot
+        // 0x55 0x52 0x49 0x55 0xA 0x2 (Value must > 1)
+        //
+        Name (URIU, 0x2)
+      
         Method (_STA)
         {
           Return (0xf)
         }
+      
+        //
+        // Resource for URT0 (PL011)
+        //
+        Name (BTPL, ResourceTemplate ()
+        {
+          UARTSerialBus(
+            115200,        // InitialBaudRate: in BPS
+            ,              // BitsPerByte: default to 8 bits
+            ,              // StopBits: Defaults to one bit
+            0x00,          // LinesInUse: 8 1-bit flags to
+                          //   declare enabled control lines.
+                          //   Raspberry Pi does not exposed
+                          //   HW control signals -> not supported.
+                          //   Optional bits:
+                          //   - Bit 7 (0x80) Request To Send (RTS)
+                          //   - Bit 6 (0x40) Clear To Send (CTS)
+                          //   - Bit 5 (0x20) Data Terminal Ready (DTR)
+                          //   - Bit 4 (0x10) Data Set Ready (DSR)
+                          //   - Bit 3 (0x08) Ring Indicator (RI)
+                          //   - Bit 2 (0x04) Data Carrier Detect (DTD)
+                          //   - Bit 1 (0x02) Reserved. Must be 0.
+                          //   - Bit 0 (0x01) Reserved. Must be 0.
+            ,              // IsBigEndian:
+                          //   default to LittleEndian.
+            ,              // Parity: Defaults to no parity
+            ,              // FlowControl: Defaults to
+                          //   no flow control.
+            16,            // ReceiveBufferSize
+            16,            // TransmitBufferSize
+            "\\_SB.GDV0.URT0",  // ResourceSource:
+                          //   UART bus controller name
+            ,              // ResourceSourceIndex: assumed to be 0
+            ,              // ResourceUsage: assumed to be
+                          //   ResourceConsumer
+            UAR0,          // DescriptorName: creates name
+                          //   for offset of resource descriptor
+          )                // Vendor data
+        })
+      
+        //
+        // Resource for URTM (miniUART)
+        //
+        Name (BTMN, ResourceTemplate ()
+        {
+          //
+          // BT UART: ResourceSource will be dynamically updated to
+          // either URT0 (PL011) or URTM (miniUART) during boot
+          //
+          UARTSerialBus(
+            115200,        // InitialBaudRate: in BPS
+            ,              // BitsPerByte: default to 8 bits
+            ,              // StopBits: Defaults to one bit
+            0x00,          // LinesInUse: 8 1-bit flags to
+                          //   declare enabled control lines.
+                          //   Raspberry Pi does not exposed
+                          //   HW control signals -> not supported.
+                          //   Optional bits:
+                          //   - Bit 7 (0x80) Request To Send (RTS)
+                          //   - Bit 6 (0x40) Clear To Send (CTS)
+                          //   - Bit 5 (0x20) Data Terminal Ready (DTR)
+                          //   - Bit 4 (0x10) Data Set Ready (DSR)
+                          //   - Bit 3 (0x08) Ring Indicator (RI)
+                          //   - Bit 2 (0x04) Data Carrier Detect (DTD)
+                          //   - Bit 1 (0x02) Reserved. Must be 0.
+                          //   - Bit 0 (0x01) Reserved. Must be 0.
+            ,              // IsBigEndian:
+                          //   default to LittleEndian.
+            ,              // Parity: Defaults to no parity
+            ,              // FlowControl: Defaults to
+                          //   no flow control.
+            16,            // ReceiveBufferSize
+            16,            // TransmitBufferSize
+            "\\_SB.GDV0.URTM",  // ResourceSource:
+                          //   UART bus controller name
+            ,              // ResourceSourceIndex: assumed to be 0
+            ,              // ResourceUsage: assumed to be
+                          //   ResourceConsumer
+            UARM,          // DescriptorName: creates name
+                          //   for offset of resource descriptor
+          )                // Vendor data
+        })
+      
         Method (_CRS, 0x0, Serialized)
         {
-          Name (RBUF, ResourceTemplate ()
+          if (URIU == 0)
           {
-            // BT UART: URT0 (PL011) or URTM (miniUART)
-            UARTSerialBus(
-              115200,        // InitialBaudRate: in BPS
-              ,              // BitsPerByte: default to 8 bits
-              ,              // StopBits: Defaults to one bit
-              0x00,          // LinesInUse: 8 1-bit flags to
-                             //   declare enabled control lines.
-                             //   Raspberry Pi does not exposed
-                             //   HW control signals -> not supported.
-                             //   Optional bits:
-                             //   - Bit 7 (0x80) Request To Send (RTS)
-                             //   - Bit 6 (0x40) Clear To Send (CTS)
-                             //   - Bit 5 (0x20) Data Terminal Ready (DTR)
-                             //   - Bit 4 (0x10) Data Set Ready (DSR)
-                             //   - Bit 3 (0x08) Ring Indicator (RI)
-                             //   - Bit 2 (0x04) Data Carrier Detect (DTD)
-                             //   - Bit 1 (0x02) Reserved. Must be 0.
-                             //   - Bit 0 (0x01) Reserved. Must be 0.
-              ,              // IsBigEndian:
-                             //   default to LittleEndian.
-              ,              // Parity: Defaults to no parity
-              ,              // FlowControl: Defaults to
-                             //   no flow control.
-              16,            // ReceiveBufferSize
-              16,            // TransmitBufferSize
-      #if (RPI_MODEL == 4)
-              "\\_SB.GDV0.URTM",  // ResourceSource:
-      #else
-              "\\_SB.GDV0.URT0",  // ResourceSource:
-      #endif
-                             //   UART bus controller name
-              ,              // ResourceSourceIndex: assumed to be 0
-              ,              // ResourceUsage: assumed to be
-                             //   ResourceConsumer
-              UAR0,          // DescriptorName: creates name
-                             //   for offset of resource descriptor
-            )                // Vendor data
-      
             //
-            // RPIQ connection for BT_ON/OFF
+            // PL011 UART is configured for console output
+            // Return Mini UART for Bluetooth
             //
-            GpioIO (Shared, PullUp, 0, 0, IoRestrictionNone, "\\_SB.GDV0.RPIQ", 0, ResourceConsumer, , ) { 128 }
-          })
-          Return (RBUF)
+            return (^BTMN)
+          }
+          else
+          {
+            //
+            // Mini UART is configured for console output
+            // Return PL011 UART for Bluetooth
+            //
+            return (^BTPL)
+          }
         }
       }
 
@@ -1208,7 +1266,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (SDC1)
       {
         Name (_HID, "BCM2847")
-        Name (_CID, "ARASAN")
+        Name (_CID, "BCM2847")
         Name (_UID, 0x0)
         Name (_CCA, 0x0)
         Name (_S1D, 0x1)
@@ -1237,7 +1295,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
         Name (_DSD, Package () {
           ToUUID("daffd814-6eba-4d8c-8a91-bc9bbf4aa301"),
           Package () {
-            Package () { "sdhci-caps", 0x0100fa81 },
+            Package () { "sdhci-caps", 0x0120fa81 },
           }
         })
       
@@ -1263,7 +1321,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
       Device (SDC2)
       {
         Name (_HID, "BCM2855")
-        Name (_CID, "SDHST")
+        Name (_CID, "BCM2855")
         Name (_UID, 0x0)
         Name (_CCA, 0x0)
         Name (_S1D, 0x1)

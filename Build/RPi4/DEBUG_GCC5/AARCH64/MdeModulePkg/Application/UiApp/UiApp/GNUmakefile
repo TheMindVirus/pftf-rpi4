@@ -212,6 +212,7 @@ OBJECT_FILES =  \
 STATIC_LIBRARY_FILES =  \
     $(BIN_DIR)/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib \
     $(BIN_DIR)/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib \
+    $(BIN_DIR)/MdeModulePkg/Library/BootDiscoveryPolicyUiLib/BootDiscoveryPolicyUiLib/OUTPUT/BootDiscoveryPolicyUiLib.lib \
     $(BIN_DIR)/MdeModulePkg/Library/BootMaintenanceManagerUiLib/BootMaintenanceManagerUiLib/OUTPUT/BootMaintenanceManagerUiLib.lib \
     $(BIN_DIR)/MdeModulePkg/Library/BootManagerUiLib/BootManagerUiLib/OUTPUT/BootManagerUiLib.lib \
     $(BIN_DIR)/MdeModulePkg/Library/DeviceManagerUiLib/DeviceManagerUiLib/OUTPUT/DeviceManagerUiLib.lib \
@@ -356,6 +357,7 @@ gen_libs:
 	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/UefiApplicationEntryPoint/UefiApplicationEntryPoint/GNUmakefile
 	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/GNUmakefile
 	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/GNUmakefile
+	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdeModulePkg/Library/BootDiscoveryPolicyUiLib/BootDiscoveryPolicyUiLib/GNUmakefile
 	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdeModulePkg/Library/DeviceManagerUiLib/DeviceManagerUiLib/GNUmakefile
 	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdeModulePkg/Library/BootManagerUiLib/BootManagerUiLib/GNUmakefile
 	@"$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/Platform/RaspberryPi/Library/PlatformUiAppLib/PlatformUiAppLib/GNUmakefile
@@ -500,6 +502,7 @@ cleanlib:
 	-@test -e $(BIN_DIR)/MdePkg/Library/UefiApplicationEntryPoint/UefiApplicationEntryPoint/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/UefiApplicationEntryPoint/UefiApplicationEntryPoint/GNUmakefile cleanall
 	-@test -e $(BIN_DIR)/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/GNUmakefile cleanall
 	-@test -e $(BIN_DIR)/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/GNUmakefile cleanall
+	-@test -e $(BIN_DIR)/MdeModulePkg/Library/BootDiscoveryPolicyUiLib/BootDiscoveryPolicyUiLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdeModulePkg/Library/BootDiscoveryPolicyUiLib/BootDiscoveryPolicyUiLib/GNUmakefile cleanall
 	-@test -e $(BIN_DIR)/MdeModulePkg/Library/DeviceManagerUiLib/DeviceManagerUiLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdeModulePkg/Library/DeviceManagerUiLib/DeviceManagerUiLib/GNUmakefile cleanall
 	-@test -e $(BIN_DIR)/MdeModulePkg/Library/BootManagerUiLib/BootManagerUiLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/MdeModulePkg/Library/BootManagerUiLib/BootManagerUiLib/GNUmakefile cleanall
 	-@test -e $(BIN_DIR)/Platform/RaspberryPi/Library/PlatformUiAppLib/PlatformUiAppLib/GNUmakefile && "$(MAKE)" $(MAKE_FLAGS) -f $(BIN_DIR)/Platform/RaspberryPi/Library/PlatformUiAppLib/PlatformUiAppLib/GNUmakefile cleanall

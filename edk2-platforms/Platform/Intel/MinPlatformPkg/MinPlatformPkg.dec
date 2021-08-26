@@ -6,7 +6,7 @@
 # INF files to generate AutoGen.c and AutoGen.h files
 # for the build infrastructure.
 #
-# Copyright (c) 2017 - 2020, Intel Corporation. All rights reserved.<BR>
+# Copyright (c) 2017 - 2021, Intel Corporation. All rights reserved.<BR>
 #
 # SPDX-License-Identifier: BSD-2-Clause-Patent
 #
@@ -82,6 +82,11 @@
   HobVariableLib|Include/Library/HobVariableLib.h
   MultiBoardAcpiSupportLib|Include/Library/MultiBoardAcpiSupportLib.h
   ReportFvLib|Include/Library/ReportFvLib.h
+
+  VariableReadLib|Include/Library/VariableReadLib.h
+  VariableWriteLib|Include/Library/VariableWriteLib.h
+  LargeVariableReadLib|Include/Library/LargeVariableReadLib.h
+  LargeVariableWriteLib|Include/Library/LargeVariableWriteLib.h
 
 [PcdsFixedAtBuild, PcdsPatchableInModule]
 
@@ -162,9 +167,17 @@
   gMinPlatformPkgTokenSpaceGuid.PcdFlashAreaBaseAddress|0xFF800000|UINT32|0x10000001
   gMinPlatformPkgTokenSpaceGuid.PcdFlashAreaSize|0x00800000|UINT32|0x10000002
 
+  ## Indicates the MMIO base address of the microcode FV in flash.
   gMinPlatformPkgTokenSpaceGuid.PcdFlashFvMicrocodeBase|0xFFE60000|UINT32|0x30000004
+
+  ## Indicates the size of the microcode FV in flash.
   gMinPlatformPkgTokenSpaceGuid.PcdFlashFvMicrocodeSize|0x000A0000|UINT32|0x30000005
+
+  ## Indicates the offset of the microcode FV relative to the beginning of flash.
   gMinPlatformPkgTokenSpaceGuid.PcdFlashFvMicrocodeOffset|0x00660000|UINT32|0x30000006
+
+  ## Indicates the offset of the actual microcode content relative to the beginning of the microcode FV.
+  gMinPlatformPkgTokenSpaceGuid.PcdMicrocodeOffsetInFv|0x90|UINT32|0x30000007
 
   gMinPlatformPkgTokenSpaceGuid.PcdFlashFvPreMemoryBase|0x00000000|UINT32|0x20000004
   gMinPlatformPkgTokenSpaceGuid.PcdFlashFvPreMemorySize|0x00000000|UINT32|0x20000005
@@ -231,6 +244,7 @@
   gMinPlatformPkgTokenSpaceGuid.PcdPciNoExtendedConfigSpace    |FALSE|BOOLEAN|0x4001004C
   gMinPlatformPkgTokenSpaceGuid.PcdPciResourceAssigned         |FALSE|BOOLEAN|0x4001004D
   gMinPlatformPkgTokenSpaceGuid.PcdPciSegmentCount             |0x1    |UINT8|0x4001004E
+  gMinPlatformPkgTokenSpaceGuid.PcdRandomizePlatformHierarchy  |TRUE |BOOLEAN|0x4001004F
 
   gMinPlatformPkgTokenSpaceGuid.PcdAcpiPm1AEventBlockAddress|0x1800|UINT16|0x00010035
   gMinPlatformPkgTokenSpaceGuid.PcdAcpiPm1BEventBlockAddress|0x0000|UINT16|0x00010036

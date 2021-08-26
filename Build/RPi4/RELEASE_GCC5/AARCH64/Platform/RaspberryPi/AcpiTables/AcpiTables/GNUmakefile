@@ -234,14 +234,16 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/Fadt.acpi \
-              /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/Gtdt.acpi \
+CODA_TARGET = /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/SpcrMiniUart.acpi \
+              /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/Fadt.acpi \
               /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/Emmc.aml \
+              /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/Gtdt.acpi \
               /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/Dsdt.aml \
-              /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/Spcr.acpi \
+              /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/SpcrPl011.acpi \
               /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/Iort.acpi \
+              /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/Dbg2Pl011.acpi \
               /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/SsdtThermal.aml \
-              /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/Dbg2.acpi \
+              /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/Dbg2MiniUart.acpi \
               /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/Csrt.acpi \
               /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/Madt.acpi \
               /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/Pptt.acpi \
@@ -356,6 +358,13 @@ $(OUTPUT_DIR)/Emmc.aml : $(WORKSPACE)/edk2-platforms/Platform/RaspberryPi/AcpiTa
 $(OUTPUT_DIR)/Emmc.amli : $(OUTPUT_DIR)/Emmc.aml
 	
 
+$(OUTPUT_DIR)/SpcrMiniUart.acpi : $(MAKE_FILE)
+$(OUTPUT_DIR)/SpcrMiniUart.acpi : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/SpcrMiniUart.acpi : $(WORKSPACE)/edk2-platforms/Platform/RaspberryPi/AcpiTables/SpcrMiniUart.aslc
+	"$(ASLCC)" $(DEPS_FLAGS) -c -o $(OUTPUT_DIR)/./SpcrMiniUart.obj $(CC_FLAGS) $(ASLCC_FLAGS) $(DEPS_FLAGS) $(INC) /home/alastair/pftf-rpi4/edk2-platforms/Platform/RaspberryPi/AcpiTables/SpcrMiniUart.aslc
+	"$(ASLDLINK)" -o $(OUTPUT_DIR)/./SpcrMiniUart.dll $(ASLDLINK_FLAGS) $(OUTPUT_DIR)/./SpcrMiniUart.obj $(CC_FLAGS) $(ASLCC_FLAGS)
+	"$(GENFW)" -o /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./SpcrMiniUart.acpi -c $(OUTPUT_DIR)/./SpcrMiniUart.dll $(GENFW_FLAGS)
+
 $(OUTPUT_DIR)/Fadt.acpi : $(MAKE_FILE)
 $(OUTPUT_DIR)/Fadt.acpi : $(DEBUG_DIR)/AutoGen.h
 $(OUTPUT_DIR)/Fadt.acpi : $(WORKSPACE)/edk2-platforms/Platform/RaspberryPi/AcpiTables/Fadt.aslc
@@ -370,12 +379,12 @@ $(OUTPUT_DIR)/Gtdt.acpi : $(WORKSPACE)/edk2-platforms/Platform/RaspberryPi/AcpiT
 	"$(ASLDLINK)" -o $(OUTPUT_DIR)/./Gtdt.dll $(ASLDLINK_FLAGS) $(OUTPUT_DIR)/./Gtdt.obj $(CC_FLAGS) $(ASLCC_FLAGS)
 	"$(GENFW)" -o /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Gtdt.acpi -c $(OUTPUT_DIR)/./Gtdt.dll $(GENFW_FLAGS)
 
-$(OUTPUT_DIR)/Spcr.acpi : $(MAKE_FILE)
-$(OUTPUT_DIR)/Spcr.acpi : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/Spcr.acpi : $(WORKSPACE)/edk2-platforms/Platform/RaspberryPi/AcpiTables/Spcr.aslc
-	"$(ASLCC)" $(DEPS_FLAGS) -c -o $(OUTPUT_DIR)/./Spcr.obj $(CC_FLAGS) $(ASLCC_FLAGS) $(DEPS_FLAGS) $(INC) /home/alastair/pftf-rpi4/edk2-platforms/Platform/RaspberryPi/AcpiTables/Spcr.aslc
-	"$(ASLDLINK)" -o $(OUTPUT_DIR)/./Spcr.dll $(ASLDLINK_FLAGS) $(OUTPUT_DIR)/./Spcr.obj $(CC_FLAGS) $(ASLCC_FLAGS)
-	"$(GENFW)" -o /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Spcr.acpi -c $(OUTPUT_DIR)/./Spcr.dll $(GENFW_FLAGS)
+$(OUTPUT_DIR)/SpcrPl011.acpi : $(MAKE_FILE)
+$(OUTPUT_DIR)/SpcrPl011.acpi : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/SpcrPl011.acpi : $(WORKSPACE)/edk2-platforms/Platform/RaspberryPi/AcpiTables/SpcrPl011.aslc
+	"$(ASLCC)" $(DEPS_FLAGS) -c -o $(OUTPUT_DIR)/./SpcrPl011.obj $(CC_FLAGS) $(ASLCC_FLAGS) $(DEPS_FLAGS) $(INC) /home/alastair/pftf-rpi4/edk2-platforms/Platform/RaspberryPi/AcpiTables/SpcrPl011.aslc
+	"$(ASLDLINK)" -o $(OUTPUT_DIR)/./SpcrPl011.dll $(ASLDLINK_FLAGS) $(OUTPUT_DIR)/./SpcrPl011.obj $(CC_FLAGS) $(ASLCC_FLAGS)
+	"$(GENFW)" -o /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./SpcrPl011.acpi -c $(OUTPUT_DIR)/./SpcrPl011.dll $(GENFW_FLAGS)
 
 $(OUTPUT_DIR)/Iort.acpi : $(MAKE_FILE)
 $(OUTPUT_DIR)/Iort.acpi : $(DEBUG_DIR)/AutoGen.h
@@ -384,12 +393,19 @@ $(OUTPUT_DIR)/Iort.acpi : $(WORKSPACE)/edk2-platforms/Platform/RaspberryPi/AcpiT
 	"$(ASLDLINK)" -o $(OUTPUT_DIR)/./Iort.dll $(ASLDLINK_FLAGS) $(OUTPUT_DIR)/./Iort.obj $(CC_FLAGS) $(ASLCC_FLAGS)
 	"$(GENFW)" -o /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Iort.acpi -c $(OUTPUT_DIR)/./Iort.dll $(GENFW_FLAGS)
 
-$(OUTPUT_DIR)/Dbg2.acpi : $(MAKE_FILE)
-$(OUTPUT_DIR)/Dbg2.acpi : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/Dbg2.acpi : $(WORKSPACE)/edk2-platforms/Platform/RaspberryPi/AcpiTables/Dbg2.aslc
-	"$(ASLCC)" $(DEPS_FLAGS) -c -o $(OUTPUT_DIR)/./Dbg2.obj $(CC_FLAGS) $(ASLCC_FLAGS) $(DEPS_FLAGS) $(INC) /home/alastair/pftf-rpi4/edk2-platforms/Platform/RaspberryPi/AcpiTables/Dbg2.aslc
-	"$(ASLDLINK)" -o $(OUTPUT_DIR)/./Dbg2.dll $(ASLDLINK_FLAGS) $(OUTPUT_DIR)/./Dbg2.obj $(CC_FLAGS) $(ASLCC_FLAGS)
-	"$(GENFW)" -o /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dbg2.acpi -c $(OUTPUT_DIR)/./Dbg2.dll $(GENFW_FLAGS)
+$(OUTPUT_DIR)/Dbg2Pl011.acpi : $(MAKE_FILE)
+$(OUTPUT_DIR)/Dbg2Pl011.acpi : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/Dbg2Pl011.acpi : $(WORKSPACE)/edk2-platforms/Platform/RaspberryPi/AcpiTables/Dbg2Pl011.aslc
+	"$(ASLCC)" $(DEPS_FLAGS) -c -o $(OUTPUT_DIR)/./Dbg2Pl011.obj $(CC_FLAGS) $(ASLCC_FLAGS) $(DEPS_FLAGS) $(INC) /home/alastair/pftf-rpi4/edk2-platforms/Platform/RaspberryPi/AcpiTables/Dbg2Pl011.aslc
+	"$(ASLDLINK)" -o $(OUTPUT_DIR)/./Dbg2Pl011.dll $(ASLDLINK_FLAGS) $(OUTPUT_DIR)/./Dbg2Pl011.obj $(CC_FLAGS) $(ASLCC_FLAGS)
+	"$(GENFW)" -o /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dbg2Pl011.acpi -c $(OUTPUT_DIR)/./Dbg2Pl011.dll $(GENFW_FLAGS)
+
+$(OUTPUT_DIR)/Dbg2MiniUart.acpi : $(MAKE_FILE)
+$(OUTPUT_DIR)/Dbg2MiniUart.acpi : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/Dbg2MiniUart.acpi : $(WORKSPACE)/edk2-platforms/Platform/RaspberryPi/AcpiTables/Dbg2MiniUart.aslc
+	"$(ASLCC)" $(DEPS_FLAGS) -c -o $(OUTPUT_DIR)/./Dbg2MiniUart.obj $(CC_FLAGS) $(ASLCC_FLAGS) $(DEPS_FLAGS) $(INC) /home/alastair/pftf-rpi4/edk2-platforms/Platform/RaspberryPi/AcpiTables/Dbg2MiniUart.aslc
+	"$(ASLDLINK)" -o $(OUTPUT_DIR)/./Dbg2MiniUart.dll $(ASLDLINK_FLAGS) $(OUTPUT_DIR)/./Dbg2MiniUart.obj $(CC_FLAGS) $(ASLCC_FLAGS)
+	"$(GENFW)" -o /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Dbg2MiniUart.acpi -c $(OUTPUT_DIR)/./Dbg2MiniUart.dll $(GENFW_FLAGS)
 
 $(OUTPUT_DIR)/Csrt.acpi : $(MAKE_FILE)
 $(OUTPUT_DIR)/Csrt.acpi : $(DEBUG_DIR)/AutoGen.h
@@ -412,24 +428,28 @@ $(OUTPUT_DIR)/Pptt.acpi : $(WORKSPACE)/edk2-platforms/Platform/RaspberryPi/AcpiT
 	"$(ASLDLINK)" -o $(OUTPUT_DIR)/./Pptt.dll $(ASLDLINK_FLAGS) $(OUTPUT_DIR)/./Pptt.obj $(CC_FLAGS) $(ASLCC_FLAGS)
 	"$(GENFW)" -o /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Pptt.acpi -c $(OUTPUT_DIR)/./Pptt.dll $(GENFW_FLAGS)
 
-$(FFS_OUTPUT_DIR)/$(MODULE_GUID).ffs : $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.1.raw $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.2.raw $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.3.raw $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.4.raw $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.5.raw $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.6.raw $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.7.raw $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.8.raw $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC2.1.raw $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC2.2.raw $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC2.3.raw
-	GenFfs -t EFI_FV_FILETYPE_FREEFORM -g $(MODULE_GUID) -o $(FFS_OUTPUT_DIR)/$(MODULE_GUID).ffs -oi $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.1.raw -oi $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.2.raw -oi $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.3.raw -oi $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.4.raw -oi $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.5.raw -oi $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.6.raw -oi $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.7.raw -oi $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.8.raw -oi $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC2.1.raw -oi $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC2.2.raw -oi $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC2.3.raw
+$(FFS_OUTPUT_DIR)/$(MODULE_GUID).ffs : $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.1.raw $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.2.raw $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.3.raw $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.4.raw $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.5.raw $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.6.raw $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.7.raw $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.8.raw $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.9.raw $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.10.raw $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC2.1.raw $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC2.2.raw $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC2.3.raw
+	GenFfs -t EFI_FV_FILETYPE_FREEFORM -g $(MODULE_GUID) -o $(FFS_OUTPUT_DIR)/$(MODULE_GUID).ffs -oi $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.1.raw -oi $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.2.raw -oi $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.3.raw -oi $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.4.raw -oi $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.5.raw -oi $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.6.raw -oi $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.7.raw -oi $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.8.raw -oi $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.9.raw -oi $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.10.raw -oi $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC2.1.raw -oi $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC2.2.raw -oi $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC2.3.raw
 $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.1.raw : $(OUTPUT_DIR)/Csrt.acpi
 	-test -e $(OUTPUT_DIR)/Csrt.acpi && GenSec -s EFI_SECTION_RAW -o $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.1.raw $(OUTPUT_DIR)/Csrt.acpi
-$(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.2.raw : $(OUTPUT_DIR)/Dbg2.acpi
-	-test -e $(OUTPUT_DIR)/Dbg2.acpi && GenSec -s EFI_SECTION_RAW -o $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.2.raw $(OUTPUT_DIR)/Dbg2.acpi
-$(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.3.raw : $(OUTPUT_DIR)/Fadt.acpi
-	-test -e $(OUTPUT_DIR)/Fadt.acpi && GenSec -s EFI_SECTION_RAW -o $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.3.raw $(OUTPUT_DIR)/Fadt.acpi
-$(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.4.raw : $(OUTPUT_DIR)/Gtdt.acpi
-	-test -e $(OUTPUT_DIR)/Gtdt.acpi && GenSec -s EFI_SECTION_RAW -o $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.4.raw $(OUTPUT_DIR)/Gtdt.acpi
-$(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.5.raw : $(OUTPUT_DIR)/Iort.acpi
-	-test -e $(OUTPUT_DIR)/Iort.acpi && GenSec -s EFI_SECTION_RAW -o $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.5.raw $(OUTPUT_DIR)/Iort.acpi
-$(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.6.raw : $(OUTPUT_DIR)/Madt.acpi
-	-test -e $(OUTPUT_DIR)/Madt.acpi && GenSec -s EFI_SECTION_RAW -o $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.6.raw $(OUTPUT_DIR)/Madt.acpi
-$(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.7.raw : $(OUTPUT_DIR)/Pptt.acpi
-	-test -e $(OUTPUT_DIR)/Pptt.acpi && GenSec -s EFI_SECTION_RAW -o $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.7.raw $(OUTPUT_DIR)/Pptt.acpi
-$(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.8.raw : $(OUTPUT_DIR)/Spcr.acpi
-	-test -e $(OUTPUT_DIR)/Spcr.acpi && GenSec -s EFI_SECTION_RAW -o $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.8.raw $(OUTPUT_DIR)/Spcr.acpi
+$(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.2.raw : $(OUTPUT_DIR)/Dbg2MiniUart.acpi
+	-test -e $(OUTPUT_DIR)/Dbg2MiniUart.acpi && GenSec -s EFI_SECTION_RAW -o $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.2.raw $(OUTPUT_DIR)/Dbg2MiniUart.acpi
+$(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.3.raw : $(OUTPUT_DIR)/Dbg2Pl011.acpi
+	-test -e $(OUTPUT_DIR)/Dbg2Pl011.acpi && GenSec -s EFI_SECTION_RAW -o $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.3.raw $(OUTPUT_DIR)/Dbg2Pl011.acpi
+$(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.4.raw : $(OUTPUT_DIR)/Fadt.acpi
+	-test -e $(OUTPUT_DIR)/Fadt.acpi && GenSec -s EFI_SECTION_RAW -o $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.4.raw $(OUTPUT_DIR)/Fadt.acpi
+$(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.5.raw : $(OUTPUT_DIR)/Gtdt.acpi
+	-test -e $(OUTPUT_DIR)/Gtdt.acpi && GenSec -s EFI_SECTION_RAW -o $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.5.raw $(OUTPUT_DIR)/Gtdt.acpi
+$(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.6.raw : $(OUTPUT_DIR)/Iort.acpi
+	-test -e $(OUTPUT_DIR)/Iort.acpi && GenSec -s EFI_SECTION_RAW -o $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.6.raw $(OUTPUT_DIR)/Iort.acpi
+$(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.7.raw : $(OUTPUT_DIR)/Madt.acpi
+	-test -e $(OUTPUT_DIR)/Madt.acpi && GenSec -s EFI_SECTION_RAW -o $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.7.raw $(OUTPUT_DIR)/Madt.acpi
+$(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.8.raw : $(OUTPUT_DIR)/Pptt.acpi
+	-test -e $(OUTPUT_DIR)/Pptt.acpi && GenSec -s EFI_SECTION_RAW -o $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.8.raw $(OUTPUT_DIR)/Pptt.acpi
+$(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.9.raw : $(OUTPUT_DIR)/SpcrMiniUart.acpi
+	-test -e $(OUTPUT_DIR)/SpcrMiniUart.acpi && GenSec -s EFI_SECTION_RAW -o $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.9.raw $(OUTPUT_DIR)/SpcrMiniUart.acpi
+$(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.10.raw : $(OUTPUT_DIR)/SpcrPl011.acpi
+	-test -e $(OUTPUT_DIR)/SpcrPl011.acpi && GenSec -s EFI_SECTION_RAW -o $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC1.10.raw $(OUTPUT_DIR)/SpcrPl011.acpi
 $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC2.1.raw : $(OUTPUT_DIR)/Dsdt.aml
 	-test -e $(OUTPUT_DIR)/Dsdt.aml && GenSec -s EFI_SECTION_RAW -o $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC2.1.raw $(OUTPUT_DIR)/Dsdt.aml
 $(FFS_OUTPUT_DIR)/$(MODULE_GUID)SEC2.2.raw : $(OUTPUT_DIR)/Emmc.aml
