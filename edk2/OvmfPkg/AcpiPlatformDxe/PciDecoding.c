@@ -7,9 +7,7 @@
   SPDX-License-Identifier: BSD-2-Clause-Patent
 **/
 
-#include <Library/DebugLib.h>                  // DEBUG()
-#include <Library/MemoryAllocationLib.h>       // AllocatePool()
-#include <Library/UefiBootServicesTableLib.h>  // gBS
+#include <Library/MemoryAllocationLib.h>
 
 #include "AcpiPlatform.h"
 

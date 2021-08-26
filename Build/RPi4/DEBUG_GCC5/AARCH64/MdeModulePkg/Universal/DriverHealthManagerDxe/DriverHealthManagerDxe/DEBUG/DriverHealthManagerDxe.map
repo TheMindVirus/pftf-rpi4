@@ -1,0 +1,1372 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                              (_ModuleEntryPoint)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib(BaseStackCheckGcc.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (__stack_chk_fail)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memcpy.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memcpy)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memset.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memset)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/DriverHealthManagerDxe/DriverHealthManagerDxe/OUTPUT/DriverHealthManagerDxe.lib(AutoGen.obj)
+                              DriverEntryPoint.obj (symbol from plugin) (ProcessLibraryConstructorList)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/DriverHealthManagerDxe/DriverHealthManagerDxe/OUTPUT/DriverHealthManagerDxe.lib(DriverHealthManagerDxe.obj)
+                              AutoGen.obj (symbol from plugin) (InitializeDriverHealthManager)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/DriverHealthManagerDxe/DriverHealthManagerDxe/OUTPUT/DriverHealthManagerDxe.lib(DriverHealthManagerVfr.obj)
+                              DriverHealthManagerDxe.obj (symbol from plugin) (DriverHealthManagerVfrBin)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/DriverHealthManagerDxe/DriverHealthManagerDxe/OUTPUT/DriverHealthManagerDxe.lib(DriverHealthConfigureVfr.obj)
+                              DriverHealthManagerDxe.obj (symbol from plugin) (DriverHealthConfigureVfrBin)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuDeadLoop)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              DriverHealthManagerDxe.obj (symbol from plugin) (StrSize)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              DriverHealthManagerDxe.obj (symbol from plugin) (ReadUnaligned32)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuBreakpoint)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              Unaligned.obj (symbol from plugin) (RShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              Unaligned.obj (symbol from plugin) (LShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              String.obj (symbol from plugin) (StrDecimalToUintnS)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              LShiftU64.obj (symbol from plugin) (InternalMathLShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              SafeString.obj (symbol from plugin) (SwapBytes32)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              SafeString.obj (symbol from plugin) (SwapBytes16)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              SafeString.obj (symbol from plugin) (MultU64x32)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              SafeString.obj (symbol from plugin) (DivU64x32)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+                              SafeString.obj (symbol from plugin) (CopyGuid)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+                              SafeString.obj (symbol from plugin) (ZeroMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+                              DriverHealthManagerDxe.obj (symbol from plugin) (CopyMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                              ZeroMemWrapper.obj (symbol from plugin) (InternalMemZeroMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCopyMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCompareGuid)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              DriverHealthManagerDxe.obj (symbol from plugin) (UnicodeSPrint)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              PrintLib.obj (symbol from plugin) (BasePrintLibConvertValueToStringS)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+                              AutoGen.obj (symbol from plugin) (BaseDebugLibSerialPortConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiBootServicesTableLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              DriverHealthManagerDxe.obj (symbol from plugin) (AllocatePool)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilitiesDxeSmm.obj)
+                              DriverHealthManagerDxe.obj (symbol from plugin) (DevicePathFromHandle)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(UefiDevicePathLib.obj)
+                              DriverHealthManagerDxe.obj (symbol from plugin) (ConvertDevicePathToText)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilities.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibGetDevicePathSize)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathToText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertDeviceNodeToText)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathFromText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertTextToDeviceNode)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiRuntimeServicesTableLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib(UefiHiiServicesLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiHiiServicesLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeServicesTableLib/DxeServicesTableLib/OUTPUT/DxeServicesTableLib.lib(DxeServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (DxeServicesTableLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeHobLib/DxeHobLib/OUTPUT/DxeHobLib.lib(HobLib.obj)
+                              AutoGen.obj (symbol from plugin) (HobLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLib.obj)
+                              DriverHealthManagerDxe.obj (symbol from plugin) (HiiAddPackages)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiString.obj)
+                              DriverHealthManagerDxe.obj (symbol from plugin) (HiiSetString)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLanguage.obj)
+                              HiiString.obj (symbol from plugin) (HiiGetSupportedLanguages)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib/OUTPUT/UefiBootManagerLib.lib(BmDriverHealth.obj)
+                              DriverHealthManagerDxe.obj (symbol from plugin) (EfiBootManagerGetDriverHealthInfo)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+                              DevicePathFromText.obj (symbol from plugin) (SwapBytes64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              PrintLibInternal.obj (symbol from plugin) (DivU64x32Remainder)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+                              HiiLib.obj (symbol from plugin) (BitFieldRead32)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LinkedList.obj)
+                              HiiLib.obj (symbol from plugin) (InitializeListHead)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMemWrapper.obj)
+                              HiiLib.obj (symbol from plugin) (CompareMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+                              DebugLib.obj (symbol from plugin) (SetMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                              CompareMemWrapper.obj (symbol from plugin) (InternalMemCompareMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+                              SetMemWrapper.obj (symbol from plugin) (SetMem64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+                              DebugLib.obj (symbol from plugin) (GetDebugPrintErrorLevel)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/Platform/RaspberryPi/Library/DualSerialPortLib/DebugDualSerialPortLib/OUTPUT/DebugDualSerialPortLib.lib(DebugDualSerialPortLib.obj)
+                              DebugLib.obj (symbol from plugin) (SerialPortInitialize)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/Platform/RaspberryPi/Library/DualSerialPortLib/DebugDualSerialPortLib/OUTPUT/DebugDualSerialPortLib.lib(DualSerialPortLibCommon.obj)
+                              DebugLib.obj (symbol from plugin) (SerialPortWrite)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLibPrint.obj)
+                              BmDriverHealth.obj (symbol from plugin) (Print)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib(IoLibNoIo.obj)
+                              DualSerialPortLibCommon.obj (symbol from plugin) (MmioRead8)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib(PL011UartLib.obj)
+                              DualSerialPortLibCommon.obj (symbol from plugin) (PL011UartWrite)
+
+Discarded input sections
+
+ .text          0x0000000000000000       0x10 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .text          0x0000000000000000        0x0 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text._DriverUnloadHandler
+                0x0000000000000000        0x8 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.__memset
+                0x0000000000000000       0x1c /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/cc1rf5Ht.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc1rf5Ht.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccnFqBgq.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccnFqBgq.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc5TskSt.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc5TskSt.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccD003Up.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccD003Up.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc6Hsjfs.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6Hsjfs.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cciheNOq.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cciheNOq.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccgQaFPs.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccgQaFPs.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccwOwYqq.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccwOwYqq.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccXIpvXp.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXIpvXp.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccmFxPYs.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccmFxPYs.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccmzYBWs.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccmzYBWs.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/ccsOMNbu.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccsOMNbu.debug.temp.o
+ .debug_line    0x0000000000000000      0x14a /tmp/ccsOMNbu.debug.temp.o
+ .debug_str     0x0000000000000000      0x465 /tmp/ccsOMNbu.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccsOMNbu.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccsOMNbu.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cca2oj7t.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cca2oj7t.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccqplYrs.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccqplYrs.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccDUOZcu.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccDUOZcu.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/cclw8dqt.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xc0 /tmp/cclw8dqt.debug.temp.o
+ .debug_line    0x0000000000000000      0x14c /tmp/cclw8dqt.debug.temp.o
+ .debug_str     0x0000000000000000      0x472 /tmp/cclw8dqt.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cclw8dqt.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cclw8dqt.debug.temp.o
+ .debug_info    0x0000000000000000      0x1c3 /tmp/ccdUaEKt.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccdUaEKt.debug.temp.o
+ .debug_line    0x0000000000000000      0x14c /tmp/ccdUaEKt.debug.temp.o
+ .debug_str     0x0000000000000000      0x45b /tmp/ccdUaEKt.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccdUaEKt.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccdUaEKt.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/ccsWDCuq.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xc0 /tmp/ccsWDCuq.debug.temp.o
+ .debug_line    0x0000000000000000      0x14b /tmp/ccsWDCuq.debug.temp.o
+ .debug_str     0x0000000000000000      0x472 /tmp/ccsWDCuq.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccsWDCuq.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccsWDCuq.debug.temp.o
+ .debug_info    0x0000000000000000      0x1cf /tmp/ccbyVLgs.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccbyVLgs.debug.temp.o
+ .debug_line    0x0000000000000000      0x14a /tmp/ccbyVLgs.debug.temp.o
+ .debug_str     0x0000000000000000      0x462 /tmp/ccbyVLgs.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccbyVLgs.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccbyVLgs.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc2AT30p.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc2AT30p.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccbXwWKr.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccbXwWKr.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccJDOLDq.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccJDOLDq.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccrgYbdu.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccrgYbdu.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccFEhmCs.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccFEhmCs.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc8O2lgr.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8O2lgr.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccjEZNSt.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccjEZNSt.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccw85HWp.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccw85HWp.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccvdFhaq.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccvdFhaq.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc7iCsMp.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc7iCsMp.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccU22X1t.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccU22X1t.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccLdqjbs.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccLdqjbs.debug.temp.o
+ .debug_info    0x0000000000000000     0x45d4 /tmp/ccYQCtUp.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x2b0 /tmp/ccYQCtUp.debug.temp.o
+ .debug_line    0x0000000000000000      0x3cf /tmp/ccYQCtUp.debug.temp.o
+ .debug_str     0x0000000000000000     0x2f11 /tmp/ccYQCtUp.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccYQCtUp.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccYQCtUp.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccpetpnr.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccpetpnr.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccvGClss.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccvGClss.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccdnz26p.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccdnz26p.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc7MoMVp.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc7MoMVp.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccsmv4tt.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccsmv4tt.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccoxsZct.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccoxsZct.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccAbqH4r.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccAbqH4r.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccf1MHWr.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccf1MHWr.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccLjyOkq.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccLjyOkq.debug.temp.o
+ .debug_info    0x0000000000000000      0x1c3 /tmp/ccGJb2qr.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccGJb2qr.debug.temp.o
+ .debug_line    0x0000000000000000      0x14c /tmp/ccGJb2qr.debug.temp.o
+ .debug_str     0x0000000000000000      0x45b /tmp/ccGJb2qr.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccGJb2qr.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccGJb2qr.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccOYOR0q.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccOYOR0q.debug.temp.o
+ .debug_info    0x0000000000000000      0x89f /tmp/cczCblHs.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xf9 /tmp/cczCblHs.debug.temp.o
+ .debug_line    0x0000000000000000      0x149 /tmp/cczCblHs.debug.temp.o
+ .debug_str     0x0000000000000000      0x64e /tmp/cczCblHs.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cczCblHs.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cczCblHs.debug.temp.o
+ .debug_info    0x0000000000000000      0x428 /tmp/ccwX4mUt.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x139 /tmp/ccwX4mUt.debug.temp.o
+ .debug_line    0x0000000000000000      0x14b /tmp/ccwX4mUt.debug.temp.o
+ .debug_str     0x0000000000000000      0x571 /tmp/ccwX4mUt.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccwX4mUt.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccwX4mUt.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cczuibFs.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cczuibFs.debug.temp.o
+ .debug_info    0x0000000000000000      0x1bb /tmp/ccC9M6ir.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xc6 /tmp/ccC9M6ir.debug.temp.o
+ .debug_line    0x0000000000000000      0x172 /tmp/ccC9M6ir.debug.temp.o
+ .debug_str     0x0000000000000000      0x364 /tmp/ccC9M6ir.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccC9M6ir.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccC9M6ir.debug.temp.o
+ .debug_info    0x0000000000000000      0x186 /tmp/cc4yOyot.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/cc4yOyot.debug.temp.o
+ .debug_line    0x0000000000000000      0x174 /tmp/cc4yOyot.debug.temp.o
+ .debug_str     0x0000000000000000      0x360 /tmp/cc4yOyot.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc4yOyot.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc4yOyot.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccYWuUZq.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccYWuUZq.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccE5N08q.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccE5N08q.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccOSnRor.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccOSnRor.debug.temp.o
+ .debug_info    0x0000000000000000     0x2762 /tmp/ccDpv3ms.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x283 /tmp/ccDpv3ms.debug.temp.o
+ .debug_line    0x0000000000000000      0x3a1 /tmp/ccDpv3ms.debug.temp.o
+ .debug_str     0x0000000000000000     0x2174 /tmp/ccDpv3ms.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccDpv3ms.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccDpv3ms.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccxQxnsr.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccxQxnsr.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc8mtpQp.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8mtpQp.debug.temp.o
+ .text          0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+START GROUP
+LOAD /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+LOAD /tmp/cc1rf5Ht.debug.temp.o
+LOAD /tmp/ccnFqBgq.debug.temp.o
+LOAD /tmp/cc5TskSt.debug.temp.o
+LOAD /tmp/ccD003Up.debug.temp.o
+LOAD /tmp/cc6Hsjfs.debug.temp.o
+LOAD /tmp/cciheNOq.debug.temp.o
+LOAD /tmp/ccgQaFPs.debug.temp.o
+LOAD /tmp/ccwOwYqq.debug.temp.o
+LOAD /tmp/ccXIpvXp.debug.temp.o
+LOAD /tmp/ccmFxPYs.debug.temp.o
+LOAD /tmp/ccmzYBWs.debug.temp.o
+LOAD /tmp/ccsOMNbu.debug.temp.o
+LOAD /tmp/cca2oj7t.debug.temp.o
+LOAD /tmp/ccqplYrs.debug.temp.o
+LOAD /tmp/ccDUOZcu.debug.temp.o
+LOAD /tmp/cclw8dqt.debug.temp.o
+LOAD /tmp/ccdUaEKt.debug.temp.o
+LOAD /tmp/ccsWDCuq.debug.temp.o
+LOAD /tmp/ccbyVLgs.debug.temp.o
+LOAD /tmp/cc2AT30p.debug.temp.o
+LOAD /tmp/ccbXwWKr.debug.temp.o
+LOAD /tmp/ccJDOLDq.debug.temp.o
+LOAD /tmp/ccrgYbdu.debug.temp.o
+LOAD /tmp/ccFEhmCs.debug.temp.o
+LOAD /tmp/cc8O2lgr.debug.temp.o
+LOAD /tmp/ccjEZNSt.debug.temp.o
+LOAD /tmp/ccw85HWp.debug.temp.o
+LOAD /tmp/ccvdFhaq.debug.temp.o
+LOAD /tmp/cc7iCsMp.debug.temp.o
+LOAD /tmp/ccU22X1t.debug.temp.o
+LOAD /tmp/ccLdqjbs.debug.temp.o
+LOAD /tmp/ccYQCtUp.debug.temp.o
+LOAD /tmp/ccpetpnr.debug.temp.o
+LOAD /tmp/ccvGClss.debug.temp.o
+LOAD /tmp/ccdnz26p.debug.temp.o
+LOAD /tmp/cc7MoMVp.debug.temp.o
+LOAD /tmp/ccsmv4tt.debug.temp.o
+LOAD /tmp/ccoxsZct.debug.temp.o
+LOAD /tmp/ccAbqH4r.debug.temp.o
+LOAD /tmp/ccf1MHWr.debug.temp.o
+LOAD /tmp/ccLjyOkq.debug.temp.o
+LOAD /tmp/ccGJb2qr.debug.temp.o
+LOAD /tmp/ccOYOR0q.debug.temp.o
+LOAD /tmp/cczCblHs.debug.temp.o
+LOAD /tmp/ccwX4mUt.debug.temp.o
+LOAD /tmp/cczuibFs.debug.temp.o
+LOAD /tmp/ccC9M6ir.debug.temp.o
+LOAD /tmp/cc4yOyot.debug.temp.o
+LOAD /tmp/ccYWuUZq.debug.temp.o
+LOAD /tmp/ccE5N08q.debug.temp.o
+LOAD /tmp/ccOSnRor.debug.temp.o
+LOAD /tmp/ccDpv3ms.debug.temp.o
+LOAD /tmp/ccxQxnsr.debug.temp.o
+LOAD /tmp/cc8mtpQp.debug.temp.o
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/DriverHealthManagerDxe/DriverHealthManagerDxe/OUTPUT/DriverHealthManagerDxe.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/Platform/RaspberryPi/Library/DualSerialPortLib/DebugDualSerialPortLib/OUTPUT/DebugDualSerialPortLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiSortLib/UefiSortLib/OUTPUT/UefiSortLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseReportStatusCodeLibNull/BaseReportStatusCodeLibNull/OUTPUT/BaseReportStatusCodeLibNull.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeServicesLib/DxeServicesLib/OUTPUT/DxeServicesLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeServicesTableLib/DxeServicesTableLib/OUTPUT/DxeServicesTableLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePeCoffGetEntryPointLib/BasePeCoffGetEntryPointLib/OUTPUT/BasePeCoffGetEntryPointLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/DxePerformanceLib/DxePerformanceLib/OUTPUT/DxePerformanceLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeHobLib/DxeHobLib/OUTPUT/DxeHobLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib/OUTPUT/UefiBootManagerLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib
+END GROUP
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.gnu.version_d  0x0000000000000228        0x0
+ .gnu.version_d
+                0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version    0x0000000000000228        0x0
+ .gnu.version   0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version_r  0x0000000000000228        0x0
+ .gnu.version_r
+                0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.text           0x0000000000001000     0x91f0
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.SerialPortWritable.constprop.0
+                0x0000000000001000        0x8 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DebugAssertEnabled
+                0x0000000000001008        0x8 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.InternalAllocatePool.constprop.0
+                0x0000000000001010       0x6c /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevicePathFromHandle
+                0x000000000000107c       0x6c /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DebugPrintLevelEnabled
+                0x00000000000010e8        0x8 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DebugPrintEnabled
+                0x00000000000010f0        0x8 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.BaseDebugLibSerialPortConstructor
+                0x00000000000010f8        0x8 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.BasePrintLibFillBuffer
+                0x0000000000001100       0x34 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.AsciiStrnLenS
+                0x0000000000001134       0x3c /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DriverHealthManagerFakeRouteConfig
+                0x0000000000001170       0x24 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DriverHealthManagerFakeExtractConfig
+                0x0000000000001194       0x24 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.LShiftU64.constprop.0
+                0x00000000000011b8        0x8 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DebugAssert
+                0x00000000000011c0       0x8c /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.SerialPortWrite
+                0x000000000000124c      0x120 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.CompareMem
+                0x000000000000136c       0xd0 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevicePathSubType
+                0x000000000000143c       0x48 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevicePathType
+                0x0000000000001484       0x48 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.StrnLenS
+                0x00000000000014cc       0x70 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.WriteUnaligned16
+                0x000000000000153c       0x18 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.WriteUnaligned32
+                0x0000000000001554       0x2c /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.ReadUnaligned16
+                0x0000000000001580       0x5c /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevicePathNodeLength
+                0x00000000000015dc       0x50 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.ReadUnaligned32
+                0x000000000000162c       0x50 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.BasePrintLibSPrintMarker.constprop.0
+                0x000000000000167c      0xea8 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.BasePrintLibSPrint.constprop.0
+                0x0000000000002524       0xa0 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.AsciiSPrint.constprop.0
+                0x00000000000025c4       0xac /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.SPrintLength
+                0x0000000000002670       0x40 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.UnicodeVSPrint
+                0x00000000000026b0       0x74 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.UnicodeSPrint
+                0x0000000000002724       0xa4 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.ReadUnaligned64
+                0x00000000000027c8       0x38 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.AsciiStrLen
+                0x0000000000002800       0x90 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DebugPrint
+                0x0000000000002890       0xbc /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.FreePool
+                0x000000000000294c       0x7c /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.GetVariable2.constprop.0
+                0x00000000000029c8      0x120 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.HiiFreeOpCodeHandle
+                0x0000000000002ae8       0x54 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.HiiAllocateOpCodeHandle
+                0x0000000000002b3c       0x54 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DriverHealthManagerRepairNotify
+                0x0000000000002b90       0x48 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.AsciiStrnCmp
+                0x0000000000002bd8       0xdc /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.StrSize  0x0000000000002cb4       0xa8 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.CopyMem  0x0000000000002d5c       0xa4 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.InternalAllocateCopyPool.constprop.0
+                0x0000000000002e00       0x8c /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.CopyGuid
+                0x0000000000002e8c        0x8 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.ZeroMem  0x0000000000002e94       0x70 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.InternalReallocatePool.constprop.0
+                0x0000000000002f04       0x70 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.InternalHiiCreateOpCodeExtended.constprop.0
+                0x0000000000002f74      0x114 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.BmGetSingleControllerHealthStatus.constprop.0
+                0x0000000000003088      0x2ac /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.UefiDevicePathLibCatPrint
+                0x0000000000003334      0x184 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextNodeGeneric
+                0x00000000000034b8       0xfc /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextEndInstance
+                0x00000000000035b4        0xc /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextBBS
+                0x00000000000035c0       0xa0 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathRelativeOffsetRange
+                0x0000000000003660       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextFvFile
+                0x0000000000003670       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextFv
+                0x0000000000003680       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextMediaProtocol
+                0x0000000000003690       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextFilePath
+                0x00000000000036a0       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextCDROM
+                0x00000000000036b0       0x30 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextHardDrive
+                0x00000000000036e0       0x8c /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextUri
+                0x000000000000376c       0x94 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextBluetoothLE
+                0x0000000000003800       0x44 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextWiFi
+                0x0000000000003844       0x70 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextBluetooth
+                0x00000000000038b4       0x24 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextVlan
+                0x00000000000038d8       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextiSCSI
+                0x00000000000038e8      0x10c /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextUart
+                0x00000000000039f4      0x118 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextInfiniBand
+                0x0000000000003b0c       0x1c /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.CatIPv6Address
+                0x0000000000003b28       0x8c /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.CatIPv4Address
+                0x0000000000003bb4       0x1c /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextDns
+                0x0000000000003bd0       0xc0 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.CatNetworkProtocol
+                0x0000000000003c90       0x38 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextIPv6
+                0x0000000000003cc8       0xe8 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextIPv4
+                0x0000000000003db0       0xf0 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextMacAddr
+                0x0000000000003ea0       0x8c /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextI2O
+                0x0000000000003f2c       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextSata
+                0x0000000000003f3c       0x18 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextUsbClass
+                0x0000000000003f54      0x194 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextLogicalUnit
+                0x00000000000040e8       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextUsbWWID
+                0x00000000000040f8       0xb4 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextUsb
+                0x00000000000041ac       0x14 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToText1394
+                0x00000000000041c0       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextEmmc
+                0x00000000000041d0       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextSd
+                0x00000000000041e0       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextUfs
+                0x00000000000041f0       0x14 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextNVMe
+                0x0000000000004204       0x54 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextSasEx
+                0x0000000000004258      0x18c /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextFibreEx
+                0x00000000000043e4       0xa8 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextFibre
+                0x000000000000448c       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextScsi
+                0x000000000000449c       0x14 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextAtapi
+                0x00000000000044b0       0x60 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextAcpiAdr
+                0x0000000000004510       0x9c /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextAcpiEx
+                0x00000000000045ac      0x28c /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextAcpi
+                0x0000000000004838       0xc0 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextBmc
+                0x00000000000048f8       0x3c /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextController
+                0x0000000000004934       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextMemMap
+                0x0000000000004944       0x14 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextPccard
+                0x0000000000004958       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextPci
+                0x0000000000004968       0x14 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.HiiCreateGuidOpCode.constprop.0
+                0x000000000000497c       0x7c /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.AllocateZeroPool
+                0x00000000000049f8       0x34 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.HiiAddPackages.constprop.0
+                0x0000000000004a2c      0x1c0 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.UefiDevicePathLibConvertDevicePathToText.constprop.0
+                0x0000000000004bec      0x178 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.HiiGetSupportedLanguages
+                0x0000000000004d64       0xe8 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.HiiSetString.constprop.0
+                0x0000000000004e4c      0x194 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.GetBestLanguage
+                0x0000000000004fe0      0x1e0 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.HiiGetStringEx.constprop.0
+                0x00000000000051c0      0x1ac /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DriverHealthManagerGetComponentNameWorker
+                0x000000000000536c      0x124 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DriverHealthManagerGetControllerNameWorker
+                0x0000000000005490       0xa0 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DriverHealthManagerGetDriverNameWorker
+                0x0000000000005530       0x88 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.CompareGuid
+                0x00000000000055b8       0x44 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.EfiGetSystemConfigurationTable
+                0x00000000000055fc       0x94 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextRamDisk
+                0x0000000000005690      0x17c /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DevPathToTextVendor
+                0x000000000000580c      0x354 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DriverHealthManagerUpdateForm
+                0x0000000000005b60      0xf74 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.DriverHealthManagerCallback
+                0x0000000000006ad4      0x2e0 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .text.memcpy   0x0000000000006db4       0x20 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+                0x0000000000006db4                memcpy
+ .text.__stack_chk_fail
+                0x0000000000006dd4       0x48 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+                0x0000000000006dd4                __stack_chk_fail
+ .text._ModuleEntryPoint
+                0x0000000000006e1c      0x5a4 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+                0x0000000000006e1c                _ModuleEntryPoint
+ .text          0x00000000000073c0      0x200 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                0x00000000000073c0                InternalMemSetMem16
+                0x00000000000073cc                InternalMemSetMem32
+                0x00000000000073d8                InternalMemSetMem64
+                0x00000000000073e4                InternalMemZeroMem
+                0x00000000000073ec                InternalMemSetMem
+ .text          0x00000000000075c0      0x218 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                0x000000000000772c                InternalMemCopyMem
+ *fill*         0x00000000000077d8        0x8 
+ .text          0x00000000000077e0       0x20 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                0x00000000000077e0                InternalMemCompareGuid
+ .text          0x0000000000007800       0xe0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                0x0000000000007800                InternalMemCompareMem
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.DebugAssert.str1.1
+                0x00000000000078e0       0x2f /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.CompareMem.str1.1
+                0x000000000000790f      0x115 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevicePathSubType.str1.1
+                0x0000000000007a24       0x6a /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.StrnLenS.str1.1
+                0x0000000000007a8e       0x65 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.ReadUnaligned16.str1.1
+                0x0000000000007af3       0x45 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+                                         0x5c (size before relaxing)
+ .rodata.BasePrintLibSPrintMarker.constprop.0.str1.1
+                0x0000000000007b38      0x28d /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ *fill*         0x0000000000007dc5        0x3 
+ .rodata.BasePrintLibSPrintMarker.constprop.0
+                0x0000000000007dc8       0x5e /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.UnicodeVSPrint.str1.1
+                0x0000000000007e26       0x6d /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.AsciiStrLen.str1.1
+                0x0000000000007e93       0x8d /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.FreePool.str1.1
+                0x0000000000007f20       0x90 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.GetVariable2.constprop.0.str1.1
+                0x0000000000007fb0       0x56 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.HiiFreeOpCodeHandle.str1.1
+                0x0000000000008006       0x47 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+                                         0x64 (size before relaxing)
+ .rodata.DriverHealthManagerRepairNotify.str1.1
+                0x000000000000804d       0x2d /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.AsciiStrnCmp.str1.1
+                0x000000000000807a       0x70 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.StrSize.str1.1
+                0x00000000000080ea       0x3a /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.CopyMem.str1.1
+                0x0000000000008124       0x52 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.InternalAllocateCopyPool.constprop.0.str1.1
+                0x0000000000008176       0x3f /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.ZeroMem.str1.1
+                0x00000000000081b5       0x88 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.InternalHiiCreateOpCodeExtended.constprop.0.str1.1
+                0x000000000000823d       0x25 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.BmGetSingleControllerHealthStatus.constprop.0.str1.1
+                0x0000000000008262       0x9c /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.UefiDevicePathLibCatPrint.str1.1
+                0x00000000000082fe       0x6b /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ *fill*         0x0000000000008369        0x1 
+ .rodata.DevPathToTextNodeGeneric.str2.2
+                0x000000000000836a       0x22 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+                                         0x34 (size before relaxing)
+ .rodata.DevPathToTextBBS.str2.2
+                0x000000000000838c       0x2c /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+                                         0x3a (size before relaxing)
+ .rodata.DevPathRelativeOffsetRange.str2.2
+                0x00000000000083b8       0x28 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextFvFile.str2.2
+                0x00000000000083e0       0x16 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextFv.str2.2
+                0x00000000000083f6        0xe /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextMediaProtocol.str2.2
+                0x0000000000008404       0x14 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextFilePath.str2.2
+                0x0000000000008418       0x14 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+                                          0x6 (size before relaxing)
+ .rodata.DevPathToTextCDROM.str2.2
+                0x0000000000008418       0x48 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextHardDrive.str2.2
+                0x0000000000008460       0x64 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+                                         0x7e (size before relaxing)
+ .rodata.DevPathToTextUri.str1.1
+                0x00000000000084c4       0x17 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ *fill*         0x00000000000084db        0x1 
+ .rodata.DevPathToTextUri.str2.2
+                0x00000000000084dc       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextBluetoothLE.str2.2
+                0x00000000000084ec       0x5a /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextWiFi.str2.2
+                0x0000000000008546       0x14 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextBluetooth.str2.2
+                0x000000000000855a       0x48 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextVlan.str2.2
+                0x00000000000085a2       0x12 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextiSCSI.str2.2
+                0x00000000000085b4       0x76 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+                                         0x90 (size before relaxing)
+ .rodata.DevPathToTextUart.str2.2
+                0x000000000000862a       0x5c /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+                                         0x74 (size before relaxing)
+ *fill*         0x0000000000008686        0x2 
+ .rodata.DevPathToTextUart
+                0x0000000000008688        0x4 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextInfiniBand.str2.2
+                0x000000000000868c       0x4c /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.CatIPv6Address.str2.2
+                0x00000000000086d8       0x90 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.CatIPv4Address.str2.2
+                0x0000000000008768       0x18 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextDns.str2.2
+                0x0000000000008780        0xa /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.CatNetworkProtocol.str2.2
+                0x000000000000878a        0x8 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+                                         0x12 (size before relaxing)
+ .rodata.DevPathToTextIPv6.str2.2
+                0x0000000000008792       0x80 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+                                         0x8e (size before relaxing)
+ .rodata.DevPathToTextIPv4.str2.2
+                0x0000000000008812       0x24 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextMacAddr.str2.2
+                0x0000000000008836        0xa /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextI2O.str2.2
+                0x0000000000008840       0x14 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextSata.str2.2
+                0x0000000000008854       0x2a /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextUsbClass.str2.2
+                0x000000000000887e      0x250 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ *fill*         0x0000000000008ace        0x2 
+ .rodata.DevPathToTextUsbClass
+                0x0000000000008ad0        0xe /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextLogicalUnit.str2.2
+                0x0000000000008ade       0x16 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextUsbWWID.str1.1
+                0x0000000000008af4       0x17 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ *fill*         0x0000000000008b0b        0x1 
+ .rodata.DevPathToTextUsbWWID.str2.2
+                0x0000000000008b0c       0x3a /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextUsb.str2.2
+                0x0000000000008b46       0x1e /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToText1394.str2.2
+                0x0000000000008b64       0x1c /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextEmmc.str2.2
+                0x0000000000008b80       0x16 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextSd.str2.2
+                0x0000000000008b96       0x12 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextUfs.str2.2
+                0x0000000000008ba8       0x1e /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextNVMe.str2.2
+                0x0000000000008bc6       0x66 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextSasEx.str2.2
+                0x0000000000008c2c       0xb4 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+                                         0xc0 (size before relaxing)
+ .rodata.DevPathToTextFibreEx.str2.2
+                0x0000000000008ce0       0x16 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextFibre.str2.2
+                0x0000000000008cf6       0x26 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextScsi.str2.2
+                0x0000000000008d1c       0x20 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextAtapi.str2.2
+                0x0000000000008d3c       0x72 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextAcpiAdr.str2.2
+                0x0000000000008dae       0x26 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextAcpiEx.str2.2
+                0x0000000000008dd4      0x12c /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+                                        0x148 (size before relaxing)
+ .rodata.DevPathToTextAcpi.str2.2
+                0x0000000000008f00       0xc2 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextBmc.str2.2
+                0x0000000000008fc2       0x20 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextController.str2.2
+                0x0000000000008fe2       0x16 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextMemMap.str2.2
+                0x0000000000008ff8       0x3e /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextPccard.str2.2
+                0x0000000000009036       0x1a /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextPci.str2.2
+                0x0000000000009050       0x1e /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.UefiDevicePathLibConvertDevicePathToText.constprop.0.str2.2
+                0x000000000000906e        0x4 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.HiiGetSupportedLanguages.str1.1
+                0x0000000000009072       0x4c /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+                                         0x66 (size before relaxing)
+ .rodata.HiiSetString.constprop.0.str1.1
+                0x00000000000090be       0x51 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.GetBestLanguage.str1.1
+                0x000000000000910f       0x23 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.HiiGetStringEx.constprop.0.str1.1
+                0x0000000000009132        0xe /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+                                          0xf (size before relaxing)
+ .rodata.HiiGetStringEx.constprop.0.str2.2
+                0x0000000000009140       0x1a /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DriverHealthManagerGetComponentNameWorker.str2.2
+                0x000000000000915a       0x1a /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+                                          0xa (size before relaxing)
+ .rodata.DriverHealthManagerGetComponentNameWorker.str1.1
+                0x000000000000915a        0xa /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.CompareGuid.str1.1
+                0x0000000000009164       0x68 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DevPathToTextRamDisk.str2.2
+                0x00000000000091cc       0xca /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+                                        0x136 (size before relaxing)
+ .rodata.DevPathToTextVendor.str2.2
+                0x0000000000009296      0x154 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+                                        0x166 (size before relaxing)
+ .rodata.DriverHealthManagerUpdateForm.str1.1
+                0x00000000000093ea      0x21f /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ *fill*         0x0000000000009609        0x1 
+ .rodata.DriverHealthManagerUpdateForm.str2.2
+                0x000000000000960a       0x22 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DriverHealthManagerUpdateForm
+                0x000000000000962c        0x5 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.DriverHealthManagerCallback.str1.1
+                0x0000000000009631       0x78 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.__stack_chk_fail.str1.1
+                0x00000000000096a9       0x2e /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata._ModuleEntryPoint.str1.1
+                0x00000000000096d7      0x335 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.str2.2
+                0x0000000000009a0c       0x96 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.CSWTCH.42
+                0x0000000000009aa2        0x6 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.CSWTCH.58
+                0x0000000000009aa8       0x30 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdDriverHealthConfigureForm
+                0x0000000000009ad8       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.mEndOfPakageList
+                0x0000000000009ae8        0x4 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.mErrorString
+                0x0000000000009aec      0x2b5 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.mHexStr
+                0x0000000000009da1       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ *fill*         0x0000000000009db1        0x7 
+ .rodata.mUefiDevicePathLibToTextTable
+                0x0000000000009db8      0x320 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.mUefiDevicePathLibToTextTableGeneric
+                0x000000000000a0d8       0x60 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .rodata.mWarningString
+                0x000000000000a138       0x96 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ *(.got .got.*)
+ *fill*         0x000000000000a1ce        0x2 
+ .got           0x000000000000a1d0        0x8 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x000000000000a1d0                _GLOBAL_OFFSET_TABLE_
+ .got.plt       0x000000000000a1d8       0x18 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ *:AutoGen.obj(.data.g*Guid)
+
+.plt            0x000000000000a1f0        0x0
+ .plt           0x000000000000a1f0        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.data           0x000000000000b000      0x6c0
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.ro   0x000000000000b000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data.DriverHealthConfigureVfrBin
+                0x000000000000b000       0x86 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .data.DriverHealthManagerDxeStrings
+                0x000000000000b086      0x338 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .data.DriverHealthManagerVfrBin
+                0x000000000000b3be       0x86 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ *fill*         0x000000000000b444        0x4 
+ .data.__stack_chk_guard
+                0x000000000000b448        0x8 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+                0x000000000000b448                __stack_chk_guard
+ .data.gEfiCallerIdGuid
+                0x000000000000b450       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .data.gEfiComponentName2ProtocolGuid
+                0x000000000000b460       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .data.gEfiComponentNameProtocolGuid
+                0x000000000000b470       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .data.gEfiDebugPortProtocolGuid
+                0x000000000000b480       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .data.gEfiDevicePathProtocolGuid
+                0x000000000000b490       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .data.gEfiDriverHealthProtocolGuid
+                0x000000000000b4a0       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .data.gEfiDxeServicesTableGuid
+                0x000000000000b4b0       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .data.gEfiGlobalVariableGuid
+                0x000000000000b4c0       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .data.gEfiHiiConfigAccessProtocolGuid
+                0x000000000000b4d0       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .data.gEfiHiiConfigRoutingProtocolGuid
+                0x000000000000b4e0       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .data.gEfiHiiDatabaseProtocolGuid
+                0x000000000000b4f0       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .data.gEfiHiiDriverHealthFormsetGuid
+                0x000000000000b500       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .data.gEfiHiiFontProtocolGuid
+                0x000000000000b510       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .data.gEfiHiiImageProtocolGuid
+                0x000000000000b520       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .data.gEfiHiiStringProtocolGuid
+                0x000000000000b530       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .data.gEfiHobListGuid
+                0x000000000000b540       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .data.gEfiIfrTianoGuid
+                0x000000000000b550       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .data.gEfiPcAnsiGuid
+                0x000000000000b560       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .data.gEfiPersistentVirtualCdGuid
+                0x000000000000b570       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .data.gEfiPersistentVirtualDiskGuid
+                0x000000000000b580       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .data.gEfiSasDevicePathGuid
+                0x000000000000b590       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .data.gEfiUartDevicePathGuid
+                0x000000000000b5a0       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .data.gEfiVT100Guid
+                0x000000000000b5b0       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .data.gEfiVT100PlusGuid
+                0x000000000000b5c0       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .data.gEfiVTUTF8Guid
+                0x000000000000b5d0       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .data.gEfiVirtualCdGuid
+                0x000000000000b5e0       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .data.gEfiVirtualDiskGuid
+                0x000000000000b5f0       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .data.mDriverHealthManagerConfigAccess
+                0x000000000000b600       0x18 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .data.mDriverHealthManagerForm
+                0x000000000000b618       0x10 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .data.mDriverHealthManagerFormDevicePath
+                0x000000000000b628       0x18 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ *(.bss .bss.*)
+ .bss.UsePl011Uart
+                0x000000000000b640        0x1 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .bss.UsePl011UartSet
+                0x000000000000b641        0x1 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ *fill*         0x000000000000b642        0x6 
+ .bss.gBS       0x000000000000b648        0x8 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .bss.gDS       0x000000000000b650        0x8 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .bss.gHiiConfigRouting
+                0x000000000000b658        0x8 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .bss.gHiiDatabase
+                0x000000000000b660        0x8 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .bss.gHiiFont  0x000000000000b668        0x8 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .bss.gHiiImage
+                0x000000000000b670        0x8 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .bss.gHiiString
+                0x000000000000b678        0x8 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .bss.gImageHandle
+                0x000000000000b680        0x8 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .bss.gRT       0x000000000000b688        0x8 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .bss.gST       0x000000000000b690        0x8 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .bss.mDriverHealthManagerDatabase
+                0x000000000000b698        0x8 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .bss.mDriverHealthManagerHealthInfo
+                0x000000000000b6a0        0x8 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .bss.mDriverHealthManagerHealthInfoCount
+                0x000000000000b6a8        0x8 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .bss.mDriverHealthManagerHiiHandle
+                0x000000000000b6b0        0x8 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .bss.mHobList  0x000000000000b6b8        0x8 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+
+.dynbss         0x000000000000b6c0        0x0
+ .dynbss        0x000000000000b6c0        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.eh_frame
+ *(.eh_frame)
+
+.rela           0x000000000000b6c0      0x5e8
+ *(.rela .rela.*)
+ .rela.got      0x000000000000b6c0        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.plt      0x000000000000b6c0        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.bss      0x000000000000b6c0        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.rel.ro
+                0x000000000000b6c0        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.ifunc    0x000000000000b6c0        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.mDriverHealthManagerConfigAccess
+                0x000000000000b6c0       0x48 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.CSWTCH.58
+                0x000000000000b708       0x90 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mUefiDevicePathLibToTextTable
+                0x000000000000b798      0x498 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mUefiDevicePathLibToTextTableGeneric
+                0x000000000000bc30       0x78 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.hii
+ *(.hii)
+
+.build-id       0x000000000000bca8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x000000000000bca8       0x24 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+ *(COMMON)
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+OUTPUT(/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/DriverHealthManagerDxe/DriverHealthManagerDxe/DEBUG/DriverHealthManagerDxe.dll elf64-littleaarch64)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000    0x39c85
+ .debug_info    0x0000000000000000     0x95c5 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .debug_info    0x00000000000095c5     0x1a57 /tmp/cc1rf5Ht.debug.temp.o
+                0x00000000000095c5                DriverEntryPoint.c.9519b125
+ .debug_info    0x000000000000b01c      0x187 /tmp/ccnFqBgq.debug.temp.o
+                0x000000000000b01c                BaseStackCheckGcc.c.9918e4ed
+ .debug_info    0x000000000000b1a3      0x1d7 /tmp/cc5TskSt.debug.temp.o
+                0x000000000000b1a3                memcpy.c.992e94b8
+ .debug_info    0x000000000000b37a      0x188 /tmp/ccD003Up.debug.temp.o
+                0x000000000000b37a                memset.c.d190684e
+ .debug_info    0x000000000000b502     0x2162 /tmp/cc6Hsjfs.debug.temp.o
+                0x000000000000b502                AutoGen.c.ff24067b
+ .debug_info    0x000000000000d664     0x2d0f /tmp/cciheNOq.debug.temp.o
+                0x000000000000d664                DriverHealthManagerDxe.c.04e700a3
+ .debug_info    0x0000000000010373      0x55c /tmp/ccgQaFPs.debug.temp.o
+                0x0000000000010373                DriverHealthManagerVfr.c.44840559
+ .debug_info    0x00000000000108cf      0x55c /tmp/ccwOwYqq.debug.temp.o
+                0x00000000000108cf                DriverHealthConfigureVfr.c.1b33a80a
+ .debug_info    0x0000000000010e2b      0x1d0 /tmp/ccXIpvXp.debug.temp.o
+                0x0000000000010e2b                CpuDeadLoop.c.e33e7959
+ .debug_info    0x0000000000010ffb      0x7f3 /tmp/ccmFxPYs.debug.temp.o
+                0x0000000000010ffb                String.c.753c3495
+ .debug_info    0x00000000000117ee      0x33d /tmp/ccmzYBWs.debug.temp.o
+                0x00000000000117ee                Unaligned.c.4a0798dc
+ .debug_info    0x0000000000011b2b      0x1db /tmp/cca2oj7t.debug.temp.o
+                0x0000000000011b2b                LShiftU64.c.b38ec6e2
+ .debug_info    0x0000000000011d06     0x1004 /tmp/ccqplYrs.debug.temp.o
+                0x0000000000011d06                SafeString.c.d8550fea
+ .debug_info    0x0000000000012d0a      0x43c /tmp/ccDUOZcu.debug.temp.o
+                0x0000000000012d0a                Math64.c.5e992ad5
+ .debug_info    0x0000000000013146      0x21d /tmp/cc2AT30p.debug.temp.o
+                0x0000000000013146                MemLibGuid.c.2ca06148
+ .debug_info    0x0000000000013363      0x17a /tmp/ccbXwWKr.debug.temp.o
+                0x0000000000013363                ZeroMemWrapper.c.8dc042f6
+ .debug_info    0x00000000000134dd      0x191 /tmp/ccJDOLDq.debug.temp.o
+                0x00000000000134dd                CopyMemWrapper.c.8ed793a8
+ .debug_info    0x000000000001366e      0x68f /tmp/ccrgYbdu.debug.temp.o
+                0x000000000001366e                PrintLib.c.260a037f
+ .debug_info    0x0000000000013cfd      0x79a /tmp/ccFEhmCs.debug.temp.o
+                0x0000000000013cfd                PrintLibInternal.c.92769e0a
+ .debug_info    0x0000000000014497      0x3f2 /tmp/cc8O2lgr.debug.temp.o
+                0x0000000000014497                DebugLib.c.0df38b98
+ .debug_info    0x0000000000014889     0x18e1 /tmp/ccjEZNSt.debug.temp.o
+                0x0000000000014889                UefiBootServicesTableLib.c.c00a3dd8
+ .debug_info    0x000000000001616a     0x1de0 /tmp/ccw85HWp.debug.temp.o
+                0x000000000001616a                MemoryAllocationLib.c.774777c4
+ .debug_info    0x0000000000017f4a     0x1953 /tmp/ccvdFhaq.debug.temp.o
+                0x0000000000017f4a                DevicePathUtilitiesDxeSmm.c.e3408512
+ .debug_info    0x000000000001989d     0x1afe /tmp/cc7iCsMp.debug.temp.o
+                0x000000000001989d                UefiDevicePathLib.c.c981cbf5
+ .debug_info    0x000000000001b39b     0x1d7d /tmp/ccU22X1t.debug.temp.o
+                0x000000000001b39b                DevicePathUtilities.c.94f518f0
+ .debug_info    0x000000000001d118     0x3d60 /tmp/ccLdqjbs.debug.temp.o
+                0x000000000001d118                DevicePathToText.c.c18353b7
+ .debug_info    0x0000000000020e78     0x18b2 /tmp/ccpetpnr.debug.temp.o
+                0x0000000000020e78                UefiRuntimeServicesTableLib.c.7b9e7237
+ .debug_info    0x000000000002272a     0x27ac /tmp/ccvGClss.debug.temp.o
+                0x000000000002272a                UefiLib.c.2c69044c
+ .debug_info    0x0000000000024ed6     0x2966 /tmp/ccdnz26p.debug.temp.o
+                0x0000000000024ed6                UefiHiiServicesLib.c.57cd5a7f
+ .debug_info    0x000000000002783c     0x1eae /tmp/cc7MoMVp.debug.temp.o
+                0x000000000002783c                DxeServicesTableLib.c.0552c477
+ .debug_info    0x00000000000296ea     0x22fe /tmp/ccsmv4tt.debug.temp.o
+                0x00000000000296ea                HobLib.c.fefb3825
+ .debug_info    0x000000000002b9e8     0x50c1 /tmp/ccoxsZct.debug.temp.o
+                0x000000000002b9e8                HiiLib.c.b2279ad8
+ .debug_info    0x0000000000030aa9     0x2b6a /tmp/ccAbqH4r.debug.temp.o
+                0x0000000000030aa9                HiiString.c.d0f43445
+ .debug_info    0x0000000000033613     0x2a1b /tmp/ccf1MHWr.debug.temp.o
+                0x0000000000033613                HiiLanguage.c.1635079f
+ .debug_info    0x000000000003602e     0x281e /tmp/ccLjyOkq.debug.temp.o
+                0x000000000003602e                BmDriverHealth.c.f9829727
+ .debug_info    0x000000000003884c      0x1e5 /tmp/ccOYOR0q.debug.temp.o
+                0x000000000003884c                DivU64x32Remainder.c.19070deb
+ .debug_info    0x0000000000038a31      0x1a7 /tmp/cczuibFs.debug.temp.o
+                0x0000000000038a31                CompareMemWrapper.c.96cbdc30
+ .debug_info    0x0000000000038bd8      0x18d /tmp/ccYWuUZq.debug.temp.o
+                0x0000000000038bd8                BaseDebugPrintErrorLevelLib.c.afda57b5
+ .debug_info    0x0000000000038d65      0x201 /tmp/ccE5N08q.debug.temp.o
+                0x0000000000038d65                DebugDualSerialPortLib.c.3fe30e88
+ .debug_info    0x0000000000038f66      0x2e6 /tmp/ccOSnRor.debug.temp.o
+                0x0000000000038f66                DualSerialPortLibCommon.c.2dc6badf
+ .debug_info    0x000000000003924c      0x503 /tmp/ccxQxnsr.debug.temp.o
+                0x000000000003924c                IoLibNoIo.c.335a48c4
+ .debug_info    0x000000000003974f      0x536 /tmp/cc8mtpQp.debug.temp.o
+                0x000000000003974f                PL011UartLib.c.f54a0051
+
+.debug_abbrev   0x0000000000000000     0x407d
+ .debug_abbrev  0x0000000000000000      0x260 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000260      0x1e9 /tmp/cc1rf5Ht.debug.temp.o
+ .debug_abbrev  0x0000000000000449       0xc7 /tmp/ccnFqBgq.debug.temp.o
+ .debug_abbrev  0x0000000000000510       0xee /tmp/cc5TskSt.debug.temp.o
+ .debug_abbrev  0x00000000000005fe       0xc0 /tmp/ccD003Up.debug.temp.o
+ .debug_abbrev  0x00000000000006be      0x236 /tmp/cc6Hsjfs.debug.temp.o
+ .debug_abbrev  0x00000000000008f4      0x2a4 /tmp/cciheNOq.debug.temp.o
+ .debug_abbrev  0x0000000000000b98       0xb3 /tmp/ccgQaFPs.debug.temp.o
+ .debug_abbrev  0x0000000000000c4b       0xb3 /tmp/ccwOwYqq.debug.temp.o
+ .debug_abbrev  0x0000000000000cfe       0xb6 /tmp/ccXIpvXp.debug.temp.o
+ .debug_abbrev  0x0000000000000db4      0x126 /tmp/ccmFxPYs.debug.temp.o
+ .debug_abbrev  0x0000000000000eda       0xc9 /tmp/ccmzYBWs.debug.temp.o
+ .debug_abbrev  0x0000000000000fa3       0xb1 /tmp/cca2oj7t.debug.temp.o
+ .debug_abbrev  0x0000000000001054      0x138 /tmp/ccqplYrs.debug.temp.o
+ .debug_abbrev  0x000000000000118c       0xf9 /tmp/ccDUOZcu.debug.temp.o
+ .debug_abbrev  0x0000000000001285       0xce /tmp/cc2AT30p.debug.temp.o
+ .debug_abbrev  0x0000000000001353       0xb1 /tmp/ccbXwWKr.debug.temp.o
+ .debug_abbrev  0x0000000000001404       0xb8 /tmp/ccJDOLDq.debug.temp.o
+ .debug_abbrev  0x00000000000014bc      0x150 /tmp/ccrgYbdu.debug.temp.o
+ .debug_abbrev  0x000000000000160c      0x161 /tmp/ccFEhmCs.debug.temp.o
+ .debug_abbrev  0x000000000000176d      0x165 /tmp/cc8O2lgr.debug.temp.o
+ .debug_abbrev  0x00000000000018d2      0x1dd /tmp/ccjEZNSt.debug.temp.o
+ .debug_abbrev  0x0000000000001aaf      0x242 /tmp/ccw85HWp.debug.temp.o
+ .debug_abbrev  0x0000000000001cf1      0x1d4 /tmp/ccvdFhaq.debug.temp.o
+ .debug_abbrev  0x0000000000001ec5      0x1fe /tmp/cc7iCsMp.debug.temp.o
+ .debug_abbrev  0x00000000000020c3      0x240 /tmp/ccU22X1t.debug.temp.o
+ .debug_abbrev  0x0000000000002303      0x2ca /tmp/ccLdqjbs.debug.temp.o
+ .debug_abbrev  0x00000000000025cd      0x1c3 /tmp/ccpetpnr.debug.temp.o
+ .debug_abbrev  0x0000000000002790      0x267 /tmp/ccvGClss.debug.temp.o
+ .debug_abbrev  0x00000000000029f7      0x216 /tmp/ccdnz26p.debug.temp.o
+ .debug_abbrev  0x0000000000002c0d      0x1ea /tmp/cc7MoMVp.debug.temp.o
+ .debug_abbrev  0x0000000000002df7      0x25a /tmp/ccsmv4tt.debug.temp.o
+ .debug_abbrev  0x0000000000003051      0x315 /tmp/ccoxsZct.debug.temp.o
+ .debug_abbrev  0x0000000000003366      0x249 /tmp/ccAbqH4r.debug.temp.o
+ .debug_abbrev  0x00000000000035af      0x209 /tmp/ccf1MHWr.debug.temp.o
+ .debug_abbrev  0x00000000000037b8      0x26c /tmp/ccLjyOkq.debug.temp.o
+ .debug_abbrev  0x0000000000003a24       0xb3 /tmp/ccOYOR0q.debug.temp.o
+ .debug_abbrev  0x0000000000003ad7       0xb1 /tmp/cczuibFs.debug.temp.o
+ .debug_abbrev  0x0000000000003b88       0xc6 /tmp/ccYWuUZq.debug.temp.o
+ .debug_abbrev  0x0000000000003c4e       0xc4 /tmp/ccE5N08q.debug.temp.o
+ .debug_abbrev  0x0000000000003d12      0x108 /tmp/ccOSnRor.debug.temp.o
+ .debug_abbrev  0x0000000000003e1a      0x11f /tmp/ccxQxnsr.debug.temp.o
+ .debug_abbrev  0x0000000000003f39      0x144 /tmp/cc8mtpQp.debug.temp.o
+
+.debug_loc      0x0000000000000000     0xff40
+ .debug_loc     0x0000000000000000     0xff40 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+
+.debug_aranges  0x0000000000000000      0x780
+ .debug_aranges
+                0x0000000000000000      0x780 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+
+.debug_ranges   0x0000000000000000     0x1700
+ .debug_ranges  0x0000000000000000     0x1700 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+
+.debug_line     0x0000000000000000     0xbdbb
+ .debug_line    0x0000000000000000     0x4f82 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+ .debug_line    0x0000000000004f82      0x347 /tmp/cc1rf5Ht.debug.temp.o
+ .debug_line    0x00000000000052c9      0x170 /tmp/ccnFqBgq.debug.temp.o
+ .debug_line    0x0000000000005439      0x171 /tmp/cc5TskSt.debug.temp.o
+ .debug_line    0x00000000000055aa      0x171 /tmp/ccD003Up.debug.temp.o
+ .debug_line    0x000000000000571b      0x32c /tmp/cc6Hsjfs.debug.temp.o
+ .debug_line    0x0000000000005a47      0x4ff /tmp/cciheNOq.debug.temp.o
+ .debug_line    0x0000000000005f46      0x2ac /tmp/ccgQaFPs.debug.temp.o
+ .debug_line    0x00000000000061f2      0x2ae /tmp/ccwOwYqq.debug.temp.o
+ .debug_line    0x00000000000064a0      0x14c /tmp/ccXIpvXp.debug.temp.o
+ .debug_line    0x00000000000065ec      0x147 /tmp/ccmFxPYs.debug.temp.o
+ .debug_line    0x0000000000006733      0x14e /tmp/ccmzYBWs.debug.temp.o
+ .debug_line    0x0000000000006881      0x14a /tmp/cca2oj7t.debug.temp.o
+ .debug_line    0x00000000000069cb      0x14b /tmp/ccqplYrs.debug.temp.o
+ .debug_line    0x0000000000006b16      0x147 /tmp/ccDUOZcu.debug.temp.o
+ .debug_line    0x0000000000006c5d      0x173 /tmp/cc2AT30p.debug.temp.o
+ .debug_line    0x0000000000006dd0      0x173 /tmp/ccbXwWKr.debug.temp.o
+ .debug_line    0x0000000000006f43      0x173 /tmp/ccJDOLDq.debug.temp.o
+ .debug_line    0x00000000000070b6      0x166 /tmp/ccrgYbdu.debug.temp.o
+ .debug_line    0x000000000000721c      0x184 /tmp/ccFEhmCs.debug.temp.o
+ .debug_line    0x00000000000073a0      0x20c /tmp/cc8O2lgr.debug.temp.o
+ .debug_line    0x00000000000075ac      0x330 /tmp/ccjEZNSt.debug.temp.o
+ .debug_line    0x00000000000078dc      0x328 /tmp/ccw85HWp.debug.temp.o
+ .debug_line    0x0000000000007c04      0x372 /tmp/ccvdFhaq.debug.temp.o
+ .debug_line    0x0000000000007f76      0x36a /tmp/cc7iCsMp.debug.temp.o
+ .debug_line    0x00000000000082e0      0x36c /tmp/ccU22X1t.debug.temp.o
+ .debug_line    0x000000000000864c      0x3db /tmp/ccLdqjbs.debug.temp.o
+ .debug_line    0x0000000000008a27      0x2e9 /tmp/ccpetpnr.debug.temp.o
+ .debug_line    0x0000000000008d10      0x36d /tmp/ccvGClss.debug.temp.o
+ .debug_line    0x000000000000907d      0x400 /tmp/ccdnz26p.debug.temp.o
+ .debug_line    0x000000000000947d      0x42d /tmp/cc7MoMVp.debug.temp.o
+ .debug_line    0x00000000000098aa      0x3c1 /tmp/ccsmv4tt.debug.temp.o
+ .debug_line    0x0000000000009c6b      0x515 /tmp/ccoxsZct.debug.temp.o
+ .debug_line    0x000000000000a180      0x4f8 /tmp/ccAbqH4r.debug.temp.o
+ .debug_line    0x000000000000a678      0x4fa /tmp/ccf1MHWr.debug.temp.o
+ .debug_line    0x000000000000ab72      0x56c /tmp/ccLjyOkq.debug.temp.o
+ .debug_line    0x000000000000b0de      0x153 /tmp/ccOYOR0q.debug.temp.o
+ .debug_line    0x000000000000b231      0x176 /tmp/cczuibFs.debug.temp.o
+ .debug_line    0x000000000000b3a7      0x198 /tmp/ccYWuUZq.debug.temp.o
+ .debug_line    0x000000000000b53f      0x228 /tmp/ccE5N08q.debug.temp.o
+ .debug_line    0x000000000000b767      0x240 /tmp/ccOSnRor.debug.temp.o
+ .debug_line    0x000000000000b9a7      0x16b /tmp/ccxQxnsr.debug.temp.o
+ .debug_line    0x000000000000bb12      0x2a9 /tmp/cc8mtpQp.debug.temp.o
+
+.debug_str      0x0000000000000000     0x961f
+ .debug_str     0x0000000000000000      0x296 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o
+                                        0x2af (size before relaxing)
+ .debug_str     0x0000000000000296     0x1507 /tmp/cc1rf5Ht.debug.temp.o
+                                       0x1690 (size before relaxing)
+ .debug_str     0x000000000000179d      0x27a /tmp/ccnFqBgq.debug.temp.o
+                                        0x3af (size before relaxing)
+ .debug_str     0x0000000000001a17       0xd3 /tmp/cc5TskSt.debug.temp.o
+                                        0x34e (size before relaxing)
+ .debug_str     0x0000000000001aea       0x55 /tmp/ccD003Up.debug.temp.o
+                                        0x342 (size before relaxing)
+ .debug_str     0x0000000000001b3f      0xe5f /tmp/cc6Hsjfs.debug.temp.o
+                                       0x23f6 (size before relaxing)
+ .debug_str     0x000000000000299e      0xc99 /tmp/cciheNOq.debug.temp.o
+                                       0x2af9 (size before relaxing)
+ .debug_str     0x0000000000003637       0x9b /tmp/ccgQaFPs.debug.temp.o
+                                        0xc2c (size before relaxing)
+ .debug_str     0x00000000000036d2       0x9d /tmp/ccwOwYqq.debug.temp.o
+                                        0xc30 (size before relaxing)
+ .debug_str     0x000000000000376f       0xa5 /tmp/ccXIpvXp.debug.temp.o
+                                        0x461 (size before relaxing)
+ .debug_str     0x0000000000003814      0x2f4 /tmp/ccmFxPYs.debug.temp.o
+                                        0x7e2 (size before relaxing)
+ .debug_str     0x0000000000003b08       0xf5 /tmp/ccmzYBWs.debug.temp.o
+                                        0x508 (size before relaxing)
+ .debug_str     0x0000000000003bfd       0x49 /tmp/cca2oj7t.debug.temp.o
+                                        0x465 (size before relaxing)
+ .debug_str     0x0000000000003c46      0x2c5 /tmp/ccqplYrs.debug.temp.o
+                                        0x82d (size before relaxing)
+ .debug_str     0x0000000000003f0b      0x199 /tmp/ccDUOZcu.debug.temp.o
+                                        0x5df (size before relaxing)
+ .debug_str     0x00000000000040a4      0x10c /tmp/cc2AT30p.debug.temp.o
+                                        0x3ad (size before relaxing)
+ .debug_str     0x00000000000041b0       0x52 /tmp/ccbXwWKr.debug.temp.o
+                                        0x358 (size before relaxing)
+ .debug_str     0x0000000000004202       0x71 /tmp/ccJDOLDq.debug.temp.o
+                                        0x370 (size before relaxing)
+ .debug_str     0x0000000000004273      0x261 /tmp/ccrgYbdu.debug.temp.o
+                                        0x5a2 (size before relaxing)
+ .debug_str     0x00000000000044d4      0x243 /tmp/ccFEhmCs.debug.temp.o
+                                        0x70c (size before relaxing)
+ .debug_str     0x0000000000004717      0x1f8 /tmp/cc8O2lgr.debug.temp.o
+                                        0x5c4 (size before relaxing)
+ .debug_str     0x000000000000490f       0xfd /tmp/ccjEZNSt.debug.temp.o
+                                       0x156d (size before relaxing)
+ .debug_str     0x0000000000004a0c      0x30a /tmp/ccw85HWp.debug.temp.o
+                                       0x17d9 (size before relaxing)
+ .debug_str     0x0000000000004d16      0x178 /tmp/ccvdFhaq.debug.temp.o
+                                       0x1658 (size before relaxing)
+ .debug_str     0x0000000000004e8e       0xf2 /tmp/cc7iCsMp.debug.temp.o
+                                       0x17d8 (size before relaxing)
+ .debug_str     0x0000000000004f80      0x2bd /tmp/ccU22X1t.debug.temp.o
+                                       0x1974 (size before relaxing)
+ .debug_str     0x000000000000523d      0xde5 /tmp/ccLdqjbs.debug.temp.o
+                                       0x25ec (size before relaxing)
+ .debug_str     0x0000000000006022      0x10c /tmp/ccpetpnr.debug.temp.o
+                                       0x156f (size before relaxing)
+ .debug_str     0x000000000000612e      0x715 /tmp/ccvGClss.debug.temp.o
+                                       0x20b1 (size before relaxing)
+ .debug_str     0x0000000000006843      0x82f /tmp/ccdnz26p.debug.temp.o
+                                       0x21db (size before relaxing)
+ .debug_str     0x0000000000007072      0x62d /tmp/cc7MoMVp.debug.temp.o
+                                       0x1c34 (size before relaxing)
+ .debug_str     0x000000000000769f      0x5c1 /tmp/ccsmv4tt.debug.temp.o
+                                       0x1c13 (size before relaxing)
+ .debug_str     0x0000000000007c60      0xdf5 /tmp/ccoxsZct.debug.temp.o
+                                       0x35e9 (size before relaxing)
+ .debug_str     0x0000000000008a55       0xcc /tmp/ccAbqH4r.debug.temp.o
+                                       0x2450 (size before relaxing)
+ .debug_str     0x0000000000008b21       0x89 /tmp/ccf1MHWr.debug.temp.o
+                                       0x23c2 (size before relaxing)
+ .debug_str     0x0000000000008baa      0x2da /tmp/ccLjyOkq.debug.temp.o
+                                       0x27e8 (size before relaxing)
+ .debug_str     0x0000000000008e84       0x5d /tmp/ccOYOR0q.debug.temp.o
+                                        0x47e (size before relaxing)
+ .debug_str     0x0000000000008ee1       0x55 /tmp/cczuibFs.debug.temp.o
+                                        0x381 (size before relaxing)
+ .debug_str     0x0000000000008f36      0x115 /tmp/ccYWuUZq.debug.temp.o
+                                        0x3e0 (size before relaxing)
+ .debug_str     0x000000000000904b      0x102 /tmp/ccE5N08q.debug.temp.o
+                                        0x516 (size before relaxing)
+ .debug_str     0x000000000000914d       0xf3 /tmp/ccOSnRor.debug.temp.o
+                                        0x5b3 (size before relaxing)
+ .debug_str     0x0000000000009240      0x1ab /tmp/ccxQxnsr.debug.temp.o
+                                        0x44d (size before relaxing)
+ .debug_str     0x00000000000093eb      0x234 /tmp/cc8mtpQp.debug.temp.o
+                                        0x818 (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x1438
+ .debug_frame   0x0000000000000000     0x1438 /tmp/DriverHealthManagerDxe.dll.jq2Sir.ltrans0.ltrans.o

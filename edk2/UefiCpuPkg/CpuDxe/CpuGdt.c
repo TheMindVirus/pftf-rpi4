@@ -2,7 +2,7 @@
   C based implementation of IA32 interrupt handling only
   requiring a minimal assembly interrupt entry point.
 
-  Copyright (c) 2006 - 2021, Intel Corporation. All rights reserved.<BR>
+  Copyright (c) 2006 - 2015, Intel Corporation. All rights reserved.<BR>
   SPDX-License-Identifier: BSD-2-Clause-Patent
 
 **/
@@ -13,7 +13,7 @@
 //
 // Global descriptor table (GDT) Template
 //
-STATIC GDT_ENTRIES mGdtTemplate = {
+STATIC GDT_ENTRIES GdtTemplate = {
   //
   // NULL_SEL
   //
@@ -124,38 +124,27 @@ InitGlobalDescriptorTable (
   VOID
   )
 {
-  EFI_STATUS            Status;
-  GDT_ENTRIES           *Gdt;
-  IA32_DESCRIPTOR       Gdtr;
-  EFI_PHYSICAL_ADDRESS  Memory;
+  GDT_ENTRIES *gdt;
+  IA32_DESCRIPTOR gdtPtr;
 
   //
-  // Allocate Runtime Data below 4GB for the GDT
-  // AP uses the same GDT when it's waken up from real mode so
-  // the GDT needs to be below 4GB.
+  // Allocate Runtime Data for the GDT
   //
-  Memory = SIZE_4GB - 1;
-  Status = gBS->AllocatePages (
-                  AllocateMaxAddress,
-                  EfiRuntimeServicesData,
-                  EFI_SIZE_TO_PAGES (sizeof (mGdtTemplate)),
-                  &Memory
-                  );
-  ASSERT_EFI_ERROR (Status);
-  ASSERT ((Memory != 0) && (Memory < SIZE_4GB));
-  Gdt = (GDT_ENTRIES *) (UINTN) Memory;
+  gdt = AllocateRuntimePool (sizeof (GdtTemplate) + 8);
+  ASSERT (gdt != NULL);
+  gdt = ALIGN_POINTER (gdt, 8);
 
   //
   // Initialize all GDT entries
   //
-  CopyMem (Gdt, &mGdtTemplate, sizeof (mGdtTemplate));
+  CopyMem (gdt, &GdtTemplate, sizeof (GdtTemplate));
 
   //
   // Write GDT register
   //
-  Gdtr.Base  = (UINT32) (UINTN) Gdt;
-  Gdtr.Limit = (UINT16) (sizeof (mGdtTemplate) - 1);
-  AsmWriteGdtr (&Gdtr);
+  gdtPtr.Base = (UINT32)(UINTN)(VOID*) gdt;
+  gdtPtr.Limit = (UINT16) (sizeof (GdtTemplate) - 1);
+  AsmWriteGdtr (&gdtPtr);
 
   //
   // Update selector (segment) registers base on new GDT
@@ -163,3 +152,4 @@ InitGlobalDescriptorTable (
   SetCodeSelector ((UINT16)CPU_CODE_SEL);
   SetDataSelectors ((UINT16)CPU_DATA_SEL);
 }
+

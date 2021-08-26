@@ -5,7 +5,6 @@
  *  Copyright (c) 2020, Pete Batard <pete@akeo.ie>
  *  Copyright (c) 2018-2020, Andrey Warkentin <andrey.warkentin@gmail.com>
  *  Copyright (c) Microsoft Corporation. All rights reserved.
- *  Copyright (c) 2021, ARM Limited. All rights reserved.
  *
  *  SPDX-License-Identifier: BSD-2-Clause-Patent
  *
@@ -59,7 +58,7 @@
   Store (Length, LE ## Index)                                   \
   Add (MI ## Index, LE ## Index - 1, MA ## Index)
 
-DefinitionBlock ("Dsdt.aml", "DSDT", 2, "RPIFDN", "RPI", 2)
+DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
 {
   Scope (\_SB_)
   {
@@ -206,7 +205,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 2, "RPIFDN", "RPI", 2)
         // Only the first GB is available.
         // Bus 0xC0000000 -> CPU 0x00000000.
         //
-        QWordMemory (ResourceProducer,
+        QWordMemory (ResourceConsumer,
           ,
           MinFixed,
           MaxFixed,

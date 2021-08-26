@@ -1,0 +1,851 @@
+//
+//  VFR compiler version  2.01 (UEFI 2.4) Developer Build based on Revision: Unknown
+//
+extern unsigned char ConfigDxeStrings[];
+extern EFI_GUID gEfiHiiPlatformSetupFormsetGuid;
+extern EFI_GUID gEfiHiiDriverHealthFormsetGuid;
+extern EFI_GUID gEfiHiiUserCredentialFormsetGuid;
+extern EFI_GUID gEfiHiiRestStyleFormsetGuid;
+extern EFI_GUID {0xCD7CC258, 0x31DB, 0x22E6, {0x9F, 0x22, 0x63, 0xB0, 0xB8, 0xEE, 0xD6, 0xB5}};
+#pragma pack(1)
+typedef struct {
+   UINT8 v800 : 1;
+   UINT8 v640 : 1;
+   UINT8 v1024 : 1;
+   UINT8 v720p : 1;
+   UINT8 v1080p : 1;
+   UINT8 Physical : 1;
+} DISPLAY_ENABLE_SCALED_VMODES_VARSTORE_DATA;
+#pragma pack()
+typedef struct {
+   UINT32 Enable;
+} DISPLAY_ENABLE_SSHOT_VARSTORE_DATA;
+typedef struct {
+   UINT32 Enable;
+} DEBUG_ENABLE_JTAG_VARSTORE_DATA;
+typedef struct {
+  UINT32 Clock;
+} CHIPSET_CPU_CLOCK_VARSTORE_DATA;
+typedef struct {
+  UINT32 Clock;
+} CHIPSET_CUSTOM_CPU_CLOCK_VARSTORE_DATA;
+typedef struct {
+  UINT32 Supported;
+} ADVANCED_RAM_MORE_THAN_3GB_VARSTORE_DATA;
+typedef struct {
+  UINT32 Enabled;
+} ADVANCED_RAM_LIMIT_TO_3GB_VARSTORE_DATA;
+typedef struct {
+  UINT32 Enabled;
+} ADVANCED_FAN_ON_GPIO_VARSTORE_DATA;
+typedef struct {
+  UINT32 Value;
+} ADVANCED_FANTEMP_VARSTORE_DATA;
+typedef struct {
+  UINT32 Mode;
+} SYSTEM_TABLE_MODE_VARSTORE_DATA;
+typedef struct {
+  CHAR16 AssetTag[33];
+} ADVANCED_ASSET_TAG_VARSTORE_DATA;
+typedef struct {
+  UINT32 Routing;
+} MMC_SD_VARSTORE_DATA;
+typedef struct {
+  UINT32 DisableMulti;
+} MMC_DISMULTI_VARSTORE_DATA;
+typedef struct {
+  UINT32 Force1Bit;
+} MMC_FORCE1BIT_VARSTORE_DATA;
+typedef struct {
+  UINT32 ForceDS;
+} MMC_FORCEDS_VARSTORE_DATA;
+typedef struct {
+  UINT32 MHz;
+} MMC_SD_DS_MHZ_VARSTORE_DATA;
+typedef struct {
+  UINT32 MHz;
+} MMC_SD_HS_MHZ_VARSTORE_DATA;
+typedef struct {
+  UINT32 EnableDma;
+} MMC_EMMC_DMA_VARSTORE_DATA;
+formset
+>00000000: 0E A7 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 03 00 04 00 01 71 99 03 93 45 85 04 4B B4 5E 32 EB 83 26 04 0E 
+>00000027: 5C 06 00 00 00 00 
+>0000002D: 5C 06 00 00 01 00 
+    guid = {0xCD7CC258, 0x31DB, 0x22E6, {0x9F, 0x22, 0x63, 0xB0, 0xB8, 0xEE, 0xD6, 0xB5}},
+    title = STRING_TOKEN(0x0003),
+    help = STRING_TOKEN(0x0004),
+    classguid = { 0x93039971, 0x8545, 0x4b04, { 0xb4, 0x5e, 0x32, 0xeb, 0x83, 0x26, 0x4, 0xe } },
+    efivarstore CHIPSET_CPU_CLOCK_VARSTORE_DATA,
+>00000033: 26 23 01 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 04 00 43 70 75 43 6C 6F 63 6B 00 
+      attribute = 0x00000002 | 0x00000004 | 0x00000001,
+      name = CpuClock,
+      guid = {0xCD7CC258, 0x31DB, 0x22E6, {0x9F, 0x22, 0x63, 0xB0, 0xB8, 0xEE, 0xD6, 0xB5}};
+    efivarstore CHIPSET_CUSTOM_CPU_CLOCK_VARSTORE_DATA,
+>00000056: 26 29 02 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 04 00 43 75 73 74 6F 6D 43 70 75 43 6C 6F 63 6B 00 
+      attribute = 0x00000002 | 0x00000004 | 0x00000001,
+      name = CustomCpuClock,
+      guid = {0xCD7CC258, 0x31DB, 0x22E6, {0x9F, 0x22, 0x63, 0xB0, 0xB8, 0xEE, 0xD6, 0xB5}};
+    efivarstore ADVANCED_RAM_MORE_THAN_3GB_VARSTORE_DATA,
+>0000007F: 26 29 03 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 04 00 52 61 6D 4D 6F 72 65 54 68 61 6E 33 47 42 00 
+      attribute = 0x00000002 | 0x00000004 | 0x00000001,
+      name = RamMoreThan3GB,
+      guid = {0xCD7CC258, 0x31DB, 0x22E6, {0x9F, 0x22, 0x63, 0xB0, 0xB8, 0xEE, 0xD6, 0xB5}};
+    efivarstore ADVANCED_RAM_LIMIT_TO_3GB_VARSTORE_DATA,
+>000000A8: 26 28 04 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 04 00 52 61 6D 4C 69 6D 69 74 54 6F 33 47 42 00 
+      attribute = 0x00000002 | 0x00000004 | 0x00000001,
+      name = RamLimitTo3GB,
+      guid = {0xCD7CC258, 0x31DB, 0x22E6, {0x9F, 0x22, 0x63, 0xB0, 0xB8, 0xEE, 0xD6, 0xB5}};
+    efivarstore ADVANCED_FAN_ON_GPIO_VARSTORE_DATA,
+>000000D0: 26 24 05 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 04 00 46 61 6E 4F 6E 47 70 69 6F 00 
+      attribute = 0x00000002 | 0x00000004 | 0x00000001,
+      name = FanOnGpio,
+      guid = {0xCD7CC258, 0x31DB, 0x22E6, {0x9F, 0x22, 0x63, 0xB0, 0xB8, 0xEE, 0xD6, 0xB5}};
+    efivarstore ADVANCED_FANTEMP_VARSTORE_DATA,
+>000000F4: 26 22 06 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 04 00 46 61 6E 54 65 6D 70 00 
+      attribute = 0x00000002 | 0x00000004 | 0x00000001,
+      name = FanTemp,
+      guid = {0xCD7CC258, 0x31DB, 0x22E6, {0x9F, 0x22, 0x63, 0xB0, 0xB8, 0xEE, 0xD6, 0xB5}};
+    efivarstore SYSTEM_TABLE_MODE_VARSTORE_DATA,
+>00000116: 26 2A 07 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 04 00 53 79 73 74 65 6D 54 61 62 6C 65 4D 6F 64 65 00 
+      attribute = 0x00000002 | 0x00000004 | 0x00000001,
+      name = SystemTableMode,
+      guid = {0xCD7CC258, 0x31DB, 0x22E6, {0x9F, 0x22, 0x63, 0xB0, 0xB8, 0xEE, 0xD6, 0xB5}};
+    efivarstore ADVANCED_ASSET_TAG_VARSTORE_DATA,
+>00000140: 26 23 08 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 42 00 41 73 73 65 74 54 61 67 00 
+      attribute = 0x00000002 | 0x00000004 | 0x00000001,
+      name = AssetTag,
+      guid = {0xCD7CC258, 0x31DB, 0x22E6, {0x9F, 0x22, 0x63, 0xB0, 0xB8, 0xEE, 0xD6, 0xB5}};
+    efivarstore MMC_SD_VARSTORE_DATA,
+>00000163: 26 25 09 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 04 00 53 64 49 73 41 72 61 73 61 6E 00 
+      attribute = 0x00000002 | 0x00000004 | 0x00000001,
+      name = SdIsArasan,
+      guid = {0xCD7CC258, 0x31DB, 0x22E6, {0x9F, 0x22, 0x63, 0xB0, 0xB8, 0xEE, 0xD6, 0xB5}};
+    efivarstore MMC_DISMULTI_VARSTORE_DATA,
+>00000188: 26 2A 0A 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 04 00 4D 6D 63 44 69 73 61 62 6C 65 4D 75 6C 74 69 00 
+      attribute = 0x00000002 | 0x00000004 | 0x00000001,
+      name = MmcDisableMulti,
+      guid = {0xCD7CC258, 0x31DB, 0x22E6, {0x9F, 0x22, 0x63, 0xB0, 0xB8, 0xEE, 0xD6, 0xB5}};
+    efivarstore MMC_FORCE1BIT_VARSTORE_DATA,
+>000001B2: 26 27 0B 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 04 00 4D 6D 63 46 6F 72 63 65 31 42 69 74 00 
+      attribute = 0x00000002 | 0x00000004 | 0x00000001,
+      name = MmcForce1Bit,
+      guid = {0xCD7CC258, 0x31DB, 0x22E6, {0x9F, 0x22, 0x63, 0xB0, 0xB8, 0xEE, 0xD6, 0xB5}};
+    efivarstore MMC_FORCEDS_VARSTORE_DATA,
+>000001D9: 26 2F 0C 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 04 00 4D 6D 63 46 6F 72 63 65 44 65 66 61 75 6C 74 53 70 65 65 64 00 
+      attribute = 0x00000002 | 0x00000004 | 0x00000001,
+      name = MmcForceDefaultSpeed,
+      guid = {0xCD7CC258, 0x31DB, 0x22E6, {0x9F, 0x22, 0x63, 0xB0, 0xB8, 0xEE, 0xD6, 0xB5}};
+    efivarstore MMC_SD_DS_MHZ_VARSTORE_DATA,
+>00000208: 26 2F 0D 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 04 00 4D 6D 63 53 64 44 65 66 61 75 6C 74 53 70 65 65 64 4D 48 7A 00 
+      attribute = 0x00000002 | 0x00000004 | 0x00000001,
+      name = MmcSdDefaultSpeedMHz,
+      guid = {0xCD7CC258, 0x31DB, 0x22E6, {0x9F, 0x22, 0x63, 0xB0, 0xB8, 0xEE, 0xD6, 0xB5}};
+    efivarstore MMC_SD_HS_MHZ_VARSTORE_DATA,
+>00000237: 26 2C 0E 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 04 00 4D 6D 63 53 64 48 69 67 68 53 70 65 65 64 4D 48 7A 00 
+      attribute = 0x00000002 | 0x00000004 | 0x00000001,
+      name = MmcSdHighSpeedMHz,
+      guid = {0xCD7CC258, 0x31DB, 0x22E6, {0x9F, 0x22, 0x63, 0xB0, 0xB8, 0xEE, 0xD6, 0xB5}};
+    efivarstore MMC_EMMC_DMA_VARSTORE_DATA,
+>00000263: 26 27 0F 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 04 00 4D 6D 63 45 6E 61 62 6C 65 44 6D 61 00 
+      attribute = 0x00000002 | 0x00000004 | 0x00000001,
+      name = MmcEnableDma,
+      guid = {0xCD7CC258, 0x31DB, 0x22E6, {0x9F, 0x22, 0x63, 0xB0, 0xB8, 0xEE, 0xD6, 0xB5}};
+    efivarstore DEBUG_ENABLE_JTAG_VARSTORE_DATA,
+>0000028A: 26 2A 10 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 04 00 44 65 62 75 67 45 6E 61 62 6C 65 4A 54 41 47 00 
+      attribute = 0x00000002 | 0x00000004 | 0x00000001,
+      name = DebugEnableJTAG,
+      guid = {0xCD7CC258, 0x31DB, 0x22E6, {0x9F, 0x22, 0x63, 0xB0, 0xB8, 0xEE, 0xD6, 0xB5}};
+    efivarstore DISPLAY_ENABLE_SCALED_VMODES_VARSTORE_DATA,
+>000002B4: 26 34 11 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 01 00 44 69 73 70 6C 61 79 45 6E 61 62 6C 65 53 63 61 6C 65 64 56 4D 6F 64 65 73 00 
+      attribute = 0x00000002 | 0x00000004 | 0x00000001,
+      name = DisplayEnableScaledVModes,
+      guid = {0xCD7CC258, 0x31DB, 0x22E6, {0x9F, 0x22, 0x63, 0xB0, 0xB8, 0xEE, 0xD6, 0xB5}};
+    efivarstore DISPLAY_ENABLE_SSHOT_VARSTORE_DATA,
+>000002E8: 26 2D 12 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 04 00 44 69 73 70 6C 61 79 45 6E 61 62 6C 65 53 53 68 6F 74 00 
+      attribute = 0x00000002 | 0x00000004 | 0x00000001,
+      name = DisplayEnableSShot,
+      guid = {0xCD7CC258, 0x31DB, 0x22E6, {0x9F, 0x22, 0x63, 0xB0, 0xB8, 0xEE, 0xD6, 0xB5}};
+    form formid = 1,
+>00000315: 01 86 01 00 03 00 
+        title = STRING_TOKEN(0x0003);
+        subtitle text = STRING_TOKEN(0x0002);
+>0000031B: 02 87 02 00 00 00 00 
+>00000322: 29 02 
+        goto 0x1002,
+>00000324: 0F 0F 05 00 02 00 01 00 00 00 FF FF 00 02 10 
+           prompt = STRING_TOKEN(0x0005),
+           help = STRING_TOKEN(0x0002);
+        goto 0x1004,
+>00000333: 0F 0F 3E 00 02 00 02 00 00 00 FF FF 00 04 10 
+            prompt = STRING_TOKEN(0x003E),
+            help = STRING_TOKEN(0x0002);
+        goto 0x1006,
+>00000342: 0F 0F 0F 00 02 00 03 00 00 00 FF FF 00 06 10 
+           prompt = STRING_TOKEN(0x000F),
+           help = STRING_TOKEN(0x0002);
+        goto 0x1003,
+>00000351: 0F 0F 23 00 02 00 04 00 00 00 FF FF 00 03 10 
+           prompt = STRING_TOKEN(0x0023),
+           help = STRING_TOKEN(0x0002);
+        goto 0x1005,
+>00000360: 0F 0F 50 00 02 00 05 00 00 00 FF FF 00 05 10 
+            prompt = STRING_TOKEN(0x0050),
+            help = STRING_TOKEN(0x0002);
+    endform;
+>0000036F: 29 02 
+    form formid = 0x1002,
+>00000371: 01 86 02 10 05 00 
+        title = STRING_TOKEN(0x0005);
+        subtitle text = STRING_TOKEN(0x0006);
+>00000377: 02 87 06 00 00 00 00 
+>0000037E: 29 02 
+        oneof varid = CpuClock.Clock,
+>00000380: 05 9A 07 00 08 00 06 00 01 00 00 00 14 12 00 00 00 00 03 00 00 00 00 00 00 00 
+            prompt = STRING_TOKEN(0x0007),
+            help = STRING_TOKEN(0x0008),
+            flags = NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
+            option text = STRING_TOKEN(0x0009), value = 0, flags = 0;
+>0000039A: 09 0A 09 00 02 02 00 00 00 00 
+            option text = STRING_TOKEN(0x000A), value = 1, flags = DEFAULT;
+>000003A4: 09 0A 0A 00 12 02 01 00 00 00 
+            option text = STRING_TOKEN(0x000B), value = 2, flags = 0;
+>000003AE: 09 0A 0B 00 02 02 02 00 00 00 
+            option text = STRING_TOKEN(0x000C), value = 3, flags = 0;
+>000003B8: 09 0A 0C 00 02 02 03 00 00 00 
+        endoneof;
+>000003C2: 29 02 
+        grayoutif NOT ideqval CpuClock.Clock == 3;
+>000003C4: 19 82 
+>000003C6: 12 86 06 00 03 00 
+>000003CC: 17 02 
+>000003CE: 29 02 
+          numeric varid = CustomCpuClock.Clock,
+>000003D0: 07 9A 0D 00 0E 00 07 00 02 00 00 00 14 12 64 00 00 00 98 08 00 00 00 00 00 00 
+              prompt = STRING_TOKEN(0x000D),
+              help = STRING_TOKEN(0x000E),
+              flags = DISPLAY_UINT_DEC | NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
+              minimum = 100,
+              maximum = 2200,
+              default = 1500,
+>000003EA: 5B 09 00 00 02 DC 05 00 00 
+          endnumeric;
+>000003F3: 29 02 
+        endif;
+>000003F5: 29 02 
+    endform;
+>000003F7: 29 02 
+    form formid = 0x1006,
+>000003F9: 01 86 06 10 0F 00 
+        title = STRING_TOKEN(0x000F);
+        subtitle text = STRING_TOKEN(0x0002);
+>000003FF: 02 87 02 00 00 00 00 
+>00000406: 29 02 
+        grayoutif ideqval RamMoreThan3GB.Supported == 0;
+>00000408: 19 82 
+>0000040A: 12 06 1C 00 00 00 
+          oneof varid = RamLimitTo3GB.Enabled,
+>00000410: 05 9A 10 00 11 00 08 00 04 00 00 00 14 12 00 00 00 00 01 00 00 00 00 00 00 00 
+              prompt = STRING_TOKEN(0x0010),
+              help = STRING_TOKEN(0x0011),
+              flags = NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
+              option text = STRING_TOKEN(0x0012), value = 0, flags = DEFAULT;
+>0000042A: 09 0A 12 00 12 02 00 00 00 00 
+              option text = STRING_TOKEN(0x0013), value = 1, flags = 0;
+>00000434: 09 0A 13 00 02 02 01 00 00 00 
+          endoneof;
+>0000043E: 29 02 
+        endif;
+>00000440: 29 02 
+        oneof varid = SystemTableMode.Mode,
+>00000442: 05 9A 14 00 15 00 09 00 07 00 00 00 14 12 00 00 00 00 02 00 00 00 00 00 00 00 
+            prompt = STRING_TOKEN(0x0014),
+            help = STRING_TOKEN(0x0015),
+            flags = NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
+            option text = STRING_TOKEN(0x0016), value = 0, flags = 0;
+>0000045C: 09 0A 16 00 02 02 00 00 00 00 
+            option text = STRING_TOKEN(0x0017), value = 1, flags = DEFAULT;
+>00000466: 09 0A 17 00 12 02 01 00 00 00 
+            option text = STRING_TOKEN(0x0018), value = 2, flags = DEFAULT;
+>00000470: 09 0A 18 00 12 02 02 00 00 00 
+        endoneof;
+>0000047A: 29 02 
+        grayoutif NOT ideqval SystemTableMode.Mode == 0;
+>0000047C: 19 82 
+>0000047E: 12 86 09 00 00 00 
+>00000484: 17 02 
+>00000486: 29 02 
+          oneof varid = FanOnGpio.Enabled,
+>00000488: 05 9A 19 00 1A 00 0A 00 05 00 00 00 14 12 00 00 00 00 13 00 00 00 00 00 00 00 
+              prompt = STRING_TOKEN(0x0019),
+              help = STRING_TOKEN(0x001A),
+              flags = NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
+              option text = STRING_TOKEN(0x001B), value = 0, flags = DEFAULT;
+>000004A2: 09 0A 1B 00 12 02 00 00 00 00 
+              option text = STRING_TOKEN(0x001C), value = 14, flags = 0;
+>000004AC: 09 0A 1C 00 02 02 0E 00 00 00 
+              option text = STRING_TOKEN(0x001D), value = 18, flags = 0;
+>000004B6: 09 0A 1D 00 02 02 12 00 00 00 
+              option text = STRING_TOKEN(0x001E), value = 19, flags = 0;
+>000004C0: 09 0A 1E 00 02 02 13 00 00 00 
+          endoneof;
+>000004CA: 29 02 
+        endif;
+>000004CC: 29 02 
+        grayoutif ideqval FanOnGpio.Enabled == 0;
+>000004CE: 19 82 
+>000004D0: 12 06 0A 00 00 00 
+          numeric varid = FanTemp.Value,
+>000004D6: 07 9A 1F 00 20 00 0B 00 06 00 00 00 14 12 32 00 00 00 50 00 00 00 00 00 00 00 
+              prompt = STRING_TOKEN(0x001F),
+              help = STRING_TOKEN(0x0020),
+              flags = DISPLAY_UINT_DEC | NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
+       minimum = 50,
+              maximum = 80,
+              default = 60,
+>000004F0: 5B 09 00 00 02 3C 00 00 00 
+          endnumeric;
+>000004F9: 29 02 
+        endif;
+>000004FB: 29 02 
+        string varid = AssetTag.AssetTag,
+>000004FD: 1C 90 21 00 22 00 0C 00 08 00 00 00 14 00 20 00 
+            prompt = STRING_TOKEN(0x0021),
+            help = STRING_TOKEN(0x0022),
+            flags = INTERACTIVE | RESET_REQUIRED,
+            minsize = 0,
+            maxsize = 32,
+        endstring;
+>0000050D: 29 02 
+    endform;
+>0000050F: 29 02 
+    form formid = 0x1003,
+>00000511: 01 86 03 10 23 00 
+        title = STRING_TOKEN(0x0023);
+        subtitle text = STRING_TOKEN(0x0024);
+>00000517: 02 87 24 00 00 00 00 
+>0000051E: 29 02 
+        oneof varid = SdIsArasan.Routing,
+>00000520: 05 9A 25 00 26 00 0D 00 09 00 00 00 14 12 00 00 00 00 01 00 00 00 00 00 00 00 
+            prompt = STRING_TOKEN(0x0025),
+            help = STRING_TOKEN(0x0026),
+            flags = NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
+            option text = STRING_TOKEN(0x0029), value = 1, flags = DEFAULT;
+>0000053A: 09 0A 29 00 12 02 01 00 00 00 
+            option text = STRING_TOKEN(0x0027), value = 0, flags = 0;
+>00000544: 09 0A 27 00 02 02 00 00 00 00 
+        endoneof;
+>0000054E: 29 02 
+        oneof varid = MmcDisableMulti.DisableMulti,
+>00000550: 05 9A 2A 00 2B 00 0E 00 0A 00 00 00 14 12 00 00 00 00 01 00 00 00 00 00 00 00 
+            prompt = STRING_TOKEN(0x002A),
+            help = STRING_TOKEN(0x002B),
+            flags = NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
+            option text = STRING_TOKEN(0x002C), value = 0, flags = DEFAULT;
+>0000056A: 09 0A 2C 00 12 02 00 00 00 00 
+            option text = STRING_TOKEN(0x002D), value = 1, flags = 0;
+>00000574: 09 0A 2D 00 02 02 01 00 00 00 
+        endoneof;
+>0000057E: 29 02 
+        oneof varid = MmcForce1Bit.Force1Bit,
+>00000580: 05 9A 2E 00 2F 00 0F 00 0B 00 00 00 14 12 00 00 00 00 01 00 00 00 00 00 00 00 
+            prompt = STRING_TOKEN(0x002E),
+            help = STRING_TOKEN(0x002F),
+            flags = NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
+            option text = STRING_TOKEN(0x0031), value = 0, flags = DEFAULT;
+>0000059A: 09 0A 31 00 12 02 00 00 00 00 
+            option text = STRING_TOKEN(0x0030), value = 1, flags = 0;
+>000005A4: 09 0A 30 00 02 02 01 00 00 00 
+        endoneof;
+>000005AE: 29 02 
+        oneof varid = MmcForceDefaultSpeed.ForceDS,
+>000005B0: 05 9A 32 00 33 00 10 00 0C 00 00 00 14 12 00 00 00 00 01 00 00 00 00 00 00 00 
+            prompt = STRING_TOKEN(0x0032),
+            help = STRING_TOKEN(0x0033),
+            flags = NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
+            option text = STRING_TOKEN(0x0035), value = 0, flags = DEFAULT;
+>000005CA: 09 0A 35 00 12 02 00 00 00 00 
+            option text = STRING_TOKEN(0x0034), value = 1, flags = 0;
+>000005D4: 09 0A 34 00 02 02 01 00 00 00 
+        endoneof;
+>000005DE: 29 02 
+        numeric varid = MmcSdDefaultSpeedMHz.MHz,
+>000005E0: 07 9A 36 00 37 00 11 00 0D 00 00 00 14 12 19 00 00 00 64 00 00 00 00 00 00 00 
+             prompt = STRING_TOKEN(0x0036),
+             help = STRING_TOKEN(0x0037),
+             flags = DISPLAY_UINT_DEC | NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
+             minimum = 25,
+             maximum = 100,
+             default = 25,
+>000005FA: 5B 09 00 00 02 19 00 00 00 
+        endnumeric;
+>00000603: 29 02 
+        numeric varid = MmcSdHighSpeedMHz.MHz,
+>00000605: 07 9A 38 00 39 00 12 00 0E 00 00 00 14 12 32 00 00 00 64 00 00 00 00 00 00 00 
+             prompt = STRING_TOKEN(0x0038),
+             help = STRING_TOKEN(0x0039),
+             flags = DISPLAY_UINT_DEC | NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
+             minimum = 50,
+             maximum = 100,
+             default = 50,
+>0000061F: 5B 09 00 00 02 32 00 00 00 
+        endnumeric;
+>00000628: 29 02 
+        grayoutif ideqval SdIsArasan.Routing == 1;
+>0000062A: 19 82 
+>0000062C: 12 06 0D 00 01 00 
+        oneof varid = MmcEnableDma.EnableDma,
+>00000632: 05 9A 3A 00 3D 00 13 00 0F 00 00 00 14 12 00 00 00 00 01 00 00 00 00 00 00 00 
+            prompt = STRING_TOKEN(0x003A),
+            help = STRING_TOKEN(0x003D),
+            flags = NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
+            option text = STRING_TOKEN(0x003B), value = 0, flags = DEFAULT;
+>0000064C: 09 0A 3B 00 12 02 00 00 00 00 
+            option text = STRING_TOKEN(0x003C), value = 1, flags = 0;
+>00000656: 09 0A 3C 00 02 02 01 00 00 00 
+        endoneof;
+>00000660: 29 02 
+        endif;
+>00000662: 29 02 
+    endform;
+>00000664: 29 02 
+    form formid = 0x1004,
+>00000666: 01 86 04 10 3E 00 
+        title = STRING_TOKEN(0x003E);
+        subtitle text = STRING_TOKEN(0x003F);
+>0000066C: 02 87 3F 00 00 00 00 
+>00000673: 29 02 
+        checkbox varid = DisplayEnableScaledVModes.v640,
+>00000675: 5F 92 8B D6 DD 82 63 91 87 41 9B 27 20 A8 FD 60 A7 1D 
+>00000687: 06 8E 40 00 41 00 14 00 11 00 01 00 10 03 
+            prompt = STRING_TOKEN(0x0040),
+            help = STRING_TOKEN(0x0041),
+            flags = CHECKBOX_DEFAULT | CHECKBOX_DEFAULT_MFG | RESET_REQUIRED,
+        endcheckbox;
+>00000695: 29 02 
+>00000697: 29 02 
+        checkbox varid = DisplayEnableScaledVModes.v800,
+>00000699: 5F 92 8B D6 DD 82 63 91 87 41 9B 27 20 A8 FD 60 A7 1D 
+>000006AB: 06 8E 42 00 43 00 15 00 11 00 00 00 10 03 
+            prompt = STRING_TOKEN(0x0042),
+            help = STRING_TOKEN(0x0043),
+            flags = CHECKBOX_DEFAULT | CHECKBOX_DEFAULT_MFG | RESET_REQUIRED,
+        endcheckbox;
+>000006B9: 29 02 
+>000006BB: 29 02 
+        checkbox varid = DisplayEnableScaledVModes.v1024,
+>000006BD: 5F 92 8B D6 DD 82 63 91 87 41 9B 27 20 A8 FD 60 A7 1D 
+>000006CF: 06 8E 44 00 45 00 16 00 11 00 02 00 10 03 
+            prompt = STRING_TOKEN(0x0044),
+            help = STRING_TOKEN(0x0045),
+            flags = CHECKBOX_DEFAULT | CHECKBOX_DEFAULT_MFG | RESET_REQUIRED,
+        endcheckbox;
+>000006DD: 29 02 
+>000006DF: 29 02 
+        checkbox varid = DisplayEnableScaledVModes.v720p,
+>000006E1: 5F 92 8B D6 DD 82 63 91 87 41 9B 27 20 A8 FD 60 A7 1D 
+>000006F3: 06 8E 46 00 47 00 17 00 11 00 03 00 10 03 
+            prompt = STRING_TOKEN(0x0046),
+            help = STRING_TOKEN(0x0047),
+            flags = CHECKBOX_DEFAULT | CHECKBOX_DEFAULT_MFG | RESET_REQUIRED,
+        endcheckbox;
+>00000701: 29 02 
+>00000703: 29 02 
+        checkbox varid = DisplayEnableScaledVModes.v1080p,
+>00000705: 5F 92 8B D6 DD 82 63 91 87 41 9B 27 20 A8 FD 60 A7 1D 
+>00000717: 06 8E 48 00 49 00 18 00 11 00 04 00 10 03 
+            prompt = STRING_TOKEN(0x0048),
+            help = STRING_TOKEN(0x0049),
+            flags = CHECKBOX_DEFAULT | CHECKBOX_DEFAULT_MFG | RESET_REQUIRED,
+        endcheckbox;
+>00000725: 29 02 
+>00000727: 29 02 
+        checkbox varid = DisplayEnableScaledVModes.Physical,
+>00000729: 5F 92 8B D6 DD 82 63 91 87 41 9B 27 20 A8 FD 60 A7 1D 
+>0000073B: 06 8E 4A 00 4B 00 19 00 11 00 05 00 10 03 
+            prompt = STRING_TOKEN(0x004A),
+            help = STRING_TOKEN(0x004B),
+            flags = CHECKBOX_DEFAULT | CHECKBOX_DEFAULT_MFG | RESET_REQUIRED,
+        endcheckbox;
+>00000749: 29 02 
+>0000074B: 29 02 
+        oneof varid = DisplayEnableSShot.Enable,
+>0000074D: 05 9A 4C 00 4D 00 1A 00 12 00 00 00 14 12 00 00 00 00 01 00 00 00 00 00 00 00 
+            prompt = STRING_TOKEN(0x004C),
+            help = STRING_TOKEN(0x004D),
+            flags = NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
+            option text = STRING_TOKEN(0x004E), value = 1, flags = DEFAULT;
+>00000767: 09 0A 4E 00 12 02 01 00 00 00 
+            option text = STRING_TOKEN(0x004F), value = 0, flags = 0;
+>00000771: 09 0A 4F 00 02 02 00 00 00 00 
+        endoneof;
+>0000077B: 29 02 
+    endform;
+>0000077D: 29 02 
+    form formid = 0x1005,
+>0000077F: 01 86 05 10 50 00 
+        title = STRING_TOKEN(0x0050);
+        subtitle text = STRING_TOKEN(0x0051);
+>00000785: 02 87 51 00 00 00 00 
+>0000078C: 29 02 
+        oneof varid = DebugEnableJTAG.Enable,
+>0000078E: 05 9A 52 00 53 00 1B 00 10 00 00 00 14 12 00 00 00 00 01 00 00 00 00 00 00 00 
+            prompt = STRING_TOKEN(0x0052),
+            help = STRING_TOKEN(0x0053),
+            flags = NUMERIC_SIZE_4 | INTERACTIVE | RESET_REQUIRED,
+            option text = STRING_TOKEN(0x0054), value = 1, flags = 0;
+>000007A8: 09 0A 54 00 02 02 01 00 00 00 
+            option text = STRING_TOKEN(0x0055), value = 0, flags = DEFAULT;
+>000007B2: 09 0A 55 00 12 02 00 00 00 00 
+        endoneof;
+>000007BC: 29 02 
+    endform;
+>000007E0: 29 02 
+endformset;
+>000007BE: 1E 82 
+>000007C0: 46 02 
+>000007C2: 07 9A 00 00 00 00 1C 00 03 00 00 00 00 12 00 00 00 00 FF FF FF FF 00 00 00 00 
+>000007DC: 29 02 
+>000007DE: 29 02 
+>000007E2: 29 02 
+
+//
+// All Opcode Record List 
+//
+>00000000: 0E A7 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 03 00 04 00 01 71 99 03 93 45 85 04 4B B4 5E 32 EB 83 26 04 0E 
+>00000027: 5C 06 00 00 00 00 
+>0000002D: 5C 06 00 00 01 00 
+>00000033: 26 23 01 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 04 00 43 70 75 43 6C 6F 63 6B 00 
+>00000056: 26 29 02 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 04 00 43 75 73 74 6F 6D 43 70 75 43 6C 6F 63 6B 00 
+>0000007F: 26 29 03 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 04 00 52 61 6D 4D 6F 72 65 54 68 61 6E 33 47 42 00 
+>000000A8: 26 28 04 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 04 00 52 61 6D 4C 69 6D 69 74 54 6F 33 47 42 00 
+>000000D0: 26 24 05 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 04 00 46 61 6E 4F 6E 47 70 69 6F 00 
+>000000F4: 26 22 06 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 04 00 46 61 6E 54 65 6D 70 00 
+>00000116: 26 2A 07 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 04 00 53 79 73 74 65 6D 54 61 62 6C 65 4D 6F 64 65 00 
+>00000140: 26 23 08 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 42 00 41 73 73 65 74 54 61 67 00 
+>00000163: 26 25 09 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 04 00 53 64 49 73 41 72 61 73 61 6E 00 
+>00000188: 26 2A 0A 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 04 00 4D 6D 63 44 69 73 61 62 6C 65 4D 75 6C 74 69 00 
+>000001B2: 26 27 0B 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 04 00 4D 6D 63 46 6F 72 63 65 31 42 69 74 00 
+>000001D9: 26 2F 0C 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 04 00 4D 6D 63 46 6F 72 63 65 44 65 66 61 75 6C 74 53 70 65 65 64 00 
+>00000208: 26 2F 0D 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 04 00 4D 6D 63 53 64 44 65 66 61 75 6C 74 53 70 65 65 64 4D 48 7A 00 
+>00000237: 26 2C 0E 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 04 00 4D 6D 63 53 64 48 69 67 68 53 70 65 65 64 4D 48 7A 00 
+>00000263: 26 27 0F 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 04 00 4D 6D 63 45 6E 61 62 6C 65 44 6D 61 00 
+>0000028A: 26 2A 10 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 04 00 44 65 62 75 67 45 6E 61 62 6C 65 4A 54 41 47 00 
+>000002B4: 26 34 11 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 01 00 44 69 73 70 6C 61 79 45 6E 61 62 6C 65 53 63 61 6C 65 64 56 4D 6F 64 65 73 00 
+>000002E8: 26 2D 12 00 58 C2 7C CD DB 31 E6 22 9F 22 63 B0 B8 EE D6 B5 07 00 00 00 04 00 44 69 73 70 6C 61 79 45 6E 61 62 6C 65 53 53 68 6F 74 00 
+>00000315: 01 86 01 00 03 00 
+>0000031B: 02 87 02 00 00 00 00 
+>00000322: 29 02 
+>00000324: 0F 0F 05 00 02 00 01 00 00 00 FF FF 00 02 10 
+>00000333: 0F 0F 3E 00 02 00 02 00 00 00 FF FF 00 04 10 
+>00000342: 0F 0F 0F 00 02 00 03 00 00 00 FF FF 00 06 10 
+>00000351: 0F 0F 23 00 02 00 04 00 00 00 FF FF 00 03 10 
+>00000360: 0F 0F 50 00 02 00 05 00 00 00 FF FF 00 05 10 
+>0000036F: 29 02 
+>00000371: 01 86 02 10 05 00 
+>00000377: 02 87 06 00 00 00 00 
+>0000037E: 29 02 
+>00000380: 05 9A 07 00 08 00 06 00 01 00 00 00 14 12 00 00 00 00 03 00 00 00 00 00 00 00 
+>0000039A: 09 0A 09 00 02 02 00 00 00 00 
+>000003A4: 09 0A 0A 00 12 02 01 00 00 00 
+>000003AE: 09 0A 0B 00 02 02 02 00 00 00 
+>000003B8: 09 0A 0C 00 02 02 03 00 00 00 
+>000003C2: 29 02 
+>000003C4: 19 82 
+>000003C6: 12 86 06 00 03 00 
+>000003CC: 17 02 
+>000003CE: 29 02 
+>000003D0: 07 9A 0D 00 0E 00 07 00 02 00 00 00 14 12 64 00 00 00 98 08 00 00 00 00 00 00 
+>000003EA: 5B 09 00 00 02 DC 05 00 00 
+>000003F3: 29 02 
+>000003F5: 29 02 
+>000003F7: 29 02 
+>000003F9: 01 86 06 10 0F 00 
+>000003FF: 02 87 02 00 00 00 00 
+>00000406: 29 02 
+>00000408: 19 82 
+>0000040A: 12 06 1C 00 00 00 
+>00000410: 05 9A 10 00 11 00 08 00 04 00 00 00 14 12 00 00 00 00 01 00 00 00 00 00 00 00 
+>0000042A: 09 0A 12 00 12 02 00 00 00 00 
+>00000434: 09 0A 13 00 02 02 01 00 00 00 
+>0000043E: 29 02 
+>00000440: 29 02 
+>00000442: 05 9A 14 00 15 00 09 00 07 00 00 00 14 12 00 00 00 00 02 00 00 00 00 00 00 00 
+>0000045C: 09 0A 16 00 02 02 00 00 00 00 
+>00000466: 09 0A 17 00 12 02 01 00 00 00 
+>00000470: 09 0A 18 00 12 02 02 00 00 00 
+>0000047A: 29 02 
+>0000047C: 19 82 
+>0000047E: 12 86 09 00 00 00 
+>00000484: 17 02 
+>00000486: 29 02 
+>00000488: 05 9A 19 00 1A 00 0A 00 05 00 00 00 14 12 00 00 00 00 13 00 00 00 00 00 00 00 
+>000004A2: 09 0A 1B 00 12 02 00 00 00 00 
+>000004AC: 09 0A 1C 00 02 02 0E 00 00 00 
+>000004B6: 09 0A 1D 00 02 02 12 00 00 00 
+>000004C0: 09 0A 1E 00 02 02 13 00 00 00 
+>000004CA: 29 02 
+>000004CC: 29 02 
+>000004CE: 19 82 
+>000004D0: 12 06 0A 00 00 00 
+>000004D6: 07 9A 1F 00 20 00 0B 00 06 00 00 00 14 12 32 00 00 00 50 00 00 00 00 00 00 00 
+>000004F0: 5B 09 00 00 02 3C 00 00 00 
+>000004F9: 29 02 
+>000004FB: 29 02 
+>000004FD: 1C 90 21 00 22 00 0C 00 08 00 00 00 14 00 20 00 
+>0000050D: 29 02 
+>0000050F: 29 02 
+>00000511: 01 86 03 10 23 00 
+>00000517: 02 87 24 00 00 00 00 
+>0000051E: 29 02 
+>00000520: 05 9A 25 00 26 00 0D 00 09 00 00 00 14 12 00 00 00 00 01 00 00 00 00 00 00 00 
+>0000053A: 09 0A 29 00 12 02 01 00 00 00 
+>00000544: 09 0A 27 00 02 02 00 00 00 00 
+>0000054E: 29 02 
+>00000550: 05 9A 2A 00 2B 00 0E 00 0A 00 00 00 14 12 00 00 00 00 01 00 00 00 00 00 00 00 
+>0000056A: 09 0A 2C 00 12 02 00 00 00 00 
+>00000574: 09 0A 2D 00 02 02 01 00 00 00 
+>0000057E: 29 02 
+>00000580: 05 9A 2E 00 2F 00 0F 00 0B 00 00 00 14 12 00 00 00 00 01 00 00 00 00 00 00 00 
+>0000059A: 09 0A 31 00 12 02 00 00 00 00 
+>000005A4: 09 0A 30 00 02 02 01 00 00 00 
+>000005AE: 29 02 
+>000005B0: 05 9A 32 00 33 00 10 00 0C 00 00 00 14 12 00 00 00 00 01 00 00 00 00 00 00 00 
+>000005CA: 09 0A 35 00 12 02 00 00 00 00 
+>000005D4: 09 0A 34 00 02 02 01 00 00 00 
+>000005DE: 29 02 
+>000005E0: 07 9A 36 00 37 00 11 00 0D 00 00 00 14 12 19 00 00 00 64 00 00 00 00 00 00 00 
+>000005FA: 5B 09 00 00 02 19 00 00 00 
+>00000603: 29 02 
+>00000605: 07 9A 38 00 39 00 12 00 0E 00 00 00 14 12 32 00 00 00 64 00 00 00 00 00 00 00 
+>0000061F: 5B 09 00 00 02 32 00 00 00 
+>00000628: 29 02 
+>0000062A: 19 82 
+>0000062C: 12 06 0D 00 01 00 
+>00000632: 05 9A 3A 00 3D 00 13 00 0F 00 00 00 14 12 00 00 00 00 01 00 00 00 00 00 00 00 
+>0000064C: 09 0A 3B 00 12 02 00 00 00 00 
+>00000656: 09 0A 3C 00 02 02 01 00 00 00 
+>00000660: 29 02 
+>00000662: 29 02 
+>00000664: 29 02 
+>00000666: 01 86 04 10 3E 00 
+>0000066C: 02 87 3F 00 00 00 00 
+>00000673: 29 02 
+>00000675: 5F 92 8B D6 DD 82 63 91 87 41 9B 27 20 A8 FD 60 A7 1D 
+>00000687: 06 8E 40 00 41 00 14 00 11 00 01 00 10 03 
+>00000695: 29 02 
+>00000697: 29 02 
+>00000699: 5F 92 8B D6 DD 82 63 91 87 41 9B 27 20 A8 FD 60 A7 1D 
+>000006AB: 06 8E 42 00 43 00 15 00 11 00 00 00 10 03 
+>000006B9: 29 02 
+>000006BB: 29 02 
+>000006BD: 5F 92 8B D6 DD 82 63 91 87 41 9B 27 20 A8 FD 60 A7 1D 
+>000006CF: 06 8E 44 00 45 00 16 00 11 00 02 00 10 03 
+>000006DD: 29 02 
+>000006DF: 29 02 
+>000006E1: 5F 92 8B D6 DD 82 63 91 87 41 9B 27 20 A8 FD 60 A7 1D 
+>000006F3: 06 8E 46 00 47 00 17 00 11 00 03 00 10 03 
+>00000701: 29 02 
+>00000703: 29 02 
+>00000705: 5F 92 8B D6 DD 82 63 91 87 41 9B 27 20 A8 FD 60 A7 1D 
+>00000717: 06 8E 48 00 49 00 18 00 11 00 04 00 10 03 
+>00000725: 29 02 
+>00000727: 29 02 
+>00000729: 5F 92 8B D6 DD 82 63 91 87 41 9B 27 20 A8 FD 60 A7 1D 
+>0000073B: 06 8E 4A 00 4B 00 19 00 11 00 05 00 10 03 
+>00000749: 29 02 
+>0000074B: 29 02 
+>0000074D: 05 9A 4C 00 4D 00 1A 00 12 00 00 00 14 12 00 00 00 00 01 00 00 00 00 00 00 00 
+>00000767: 09 0A 4E 00 12 02 01 00 00 00 
+>00000771: 09 0A 4F 00 02 02 00 00 00 00 
+>0000077B: 29 02 
+>0000077D: 29 02 
+>0000077F: 01 86 05 10 50 00 
+>00000785: 02 87 51 00 00 00 00 
+>0000078C: 29 02 
+>0000078E: 05 9A 52 00 53 00 1B 00 10 00 00 00 14 12 00 00 00 00 01 00 00 00 00 00 00 00 
+>000007A8: 09 0A 54 00 02 02 01 00 00 00 
+>000007B2: 09 0A 55 00 12 02 00 00 00 00 
+>000007BC: 29 02 
+>000007BE: 1E 82 
+>000007C0: 46 02 
+>000007C2: 07 9A 00 00 00 00 1C 00 03 00 00 00 00 12 00 00 00 00 FF FF FF FF 00 00 00 00 
+>000007DC: 29 02 
+>000007DE: 29 02 
+>000007E0: 29 02 
+>000007E2: 29 02 
+
+Total Size of all record is 0x000007E4
+
+
+***************************************************************
+		mPackAlign = 1
+		struct MMC_EMMC_DMA_VARSTORE_DATA : mAlign [1] mTotalSize [0x4]
+
+		struct MMC_EMMC_DMA_VARSTORE_DATA {
+			+00000000[00000000] EnableDma <UINT32>
+		};
+---------------------------------------------------------------
+		struct MMC_SD_HS_MHZ_VARSTORE_DATA : mAlign [1] mTotalSize [0x4]
+
+		struct MMC_SD_HS_MHZ_VARSTORE_DATA {
+			+00000000[00000000] MHz <UINT32>
+		};
+---------------------------------------------------------------
+		struct MMC_SD_DS_MHZ_VARSTORE_DATA : mAlign [1] mTotalSize [0x4]
+
+		struct MMC_SD_DS_MHZ_VARSTORE_DATA {
+			+00000000[00000000] MHz <UINT32>
+		};
+---------------------------------------------------------------
+		struct MMC_FORCEDS_VARSTORE_DATA : mAlign [1] mTotalSize [0x4]
+
+		struct MMC_FORCEDS_VARSTORE_DATA {
+			+00000000[00000000] ForceDS <UINT32>
+		};
+---------------------------------------------------------------
+		struct MMC_FORCE1BIT_VARSTORE_DATA : mAlign [1] mTotalSize [0x4]
+
+		struct MMC_FORCE1BIT_VARSTORE_DATA {
+			+00000000[00000000] Force1Bit <UINT32>
+		};
+---------------------------------------------------------------
+		struct MMC_DISMULTI_VARSTORE_DATA : mAlign [1] mTotalSize [0x4]
+
+		struct MMC_DISMULTI_VARSTORE_DATA {
+			+00000000[00000000] DisableMulti <UINT32>
+		};
+---------------------------------------------------------------
+		struct MMC_SD_VARSTORE_DATA : mAlign [1] mTotalSize [0x4]
+
+		struct MMC_SD_VARSTORE_DATA {
+			+00000000[00000000] Routing <UINT32>
+		};
+---------------------------------------------------------------
+		struct ADVANCED_ASSET_TAG_VARSTORE_DATA : mAlign [1] mTotalSize [0x42]
+
+		struct ADVANCED_ASSET_TAG_VARSTORE_DATA {
+			+00000000[00000000] AssetTag[33] <UINT16>
+		};
+---------------------------------------------------------------
+		struct SYSTEM_TABLE_MODE_VARSTORE_DATA : mAlign [1] mTotalSize [0x4]
+
+		struct SYSTEM_TABLE_MODE_VARSTORE_DATA {
+			+00000000[00000000] Mode <UINT32>
+		};
+---------------------------------------------------------------
+		struct ADVANCED_FANTEMP_VARSTORE_DATA : mAlign [1] mTotalSize [0x4]
+
+		struct ADVANCED_FANTEMP_VARSTORE_DATA {
+			+00000000[00000000] Value <UINT32>
+		};
+---------------------------------------------------------------
+		struct ADVANCED_FAN_ON_GPIO_VARSTORE_DATA : mAlign [1] mTotalSize [0x4]
+
+		struct ADVANCED_FAN_ON_GPIO_VARSTORE_DATA {
+			+00000000[00000000] Enabled <UINT32>
+		};
+---------------------------------------------------------------
+		struct ADVANCED_RAM_LIMIT_TO_3GB_VARSTORE_DATA : mAlign [1] mTotalSize [0x4]
+
+		struct ADVANCED_RAM_LIMIT_TO_3GB_VARSTORE_DATA {
+			+00000000[00000000] Enabled <UINT32>
+		};
+---------------------------------------------------------------
+		struct ADVANCED_RAM_MORE_THAN_3GB_VARSTORE_DATA : mAlign [1] mTotalSize [0x4]
+
+		struct ADVANCED_RAM_MORE_THAN_3GB_VARSTORE_DATA {
+			+00000000[00000000] Supported <UINT32>
+		};
+---------------------------------------------------------------
+		struct CHIPSET_CUSTOM_CPU_CLOCK_VARSTORE_DATA : mAlign [1] mTotalSize [0x4]
+
+		struct CHIPSET_CUSTOM_CPU_CLOCK_VARSTORE_DATA {
+			+00000000[00000000] Clock <UINT32>
+		};
+---------------------------------------------------------------
+		struct CHIPSET_CPU_CLOCK_VARSTORE_DATA : mAlign [1] mTotalSize [0x4]
+
+		struct CHIPSET_CPU_CLOCK_VARSTORE_DATA {
+			+00000000[00000000] Clock <UINT32>
+		};
+---------------------------------------------------------------
+		struct DEBUG_ENABLE_JTAG_VARSTORE_DATA : mAlign [1] mTotalSize [0x4]
+
+		struct DEBUG_ENABLE_JTAG_VARSTORE_DATA {
+			+00000000[00000000] Enable <UINT32>
+		};
+---------------------------------------------------------------
+		struct DISPLAY_ENABLE_SSHOT_VARSTORE_DATA : mAlign [1] mTotalSize [0x4]
+
+		struct DISPLAY_ENABLE_SSHOT_VARSTORE_DATA {
+			+00000000[00000000] Enable <UINT32>
+		};
+---------------------------------------------------------------
+		struct DISPLAY_ENABLE_SCALED_VMODES_VARSTORE_DATA : mAlign [1] mTotalSize [0x1]
+
+		struct DISPLAY_ENABLE_SCALED_VMODES_VARSTORE_DATA {
+			+00000000[00000000] v800 <UINT8>
+			+00000000[00000000] v640 <UINT8>
+			+00000000[00000000] v1024 <UINT8>
+			+00000000[00000000] v720p <UINT8>
+			+00000000[00000000] v1080p <UINT8>
+			+00000000[00000000] Physical <UINT8>
+		};
+---------------------------------------------------------------
+		struct EFI_HII_REF : mAlign [16] mTotalSize [0x16]
+
+		struct EFI_HII_REF {
+			+00000000[00000000] QuestionId <UINT16>
+			+00000002[00000002] FormId <UINT16>
+			+00000004[00000004] FormSetGuid <(null)>
+			+00000020[00000014] DevicePath <EFI_STRING_ID>
+		};
+---------------------------------------------------------------
+		struct EFI_HII_TIME : mAlign [1] mTotalSize [0x3]
+
+		struct EFI_HII_TIME {
+			+00000000[00000000] Hours <UINT8>
+			+00000001[00000001] Minutes <UINT8>
+			+00000002[00000002] Seconds <UINT8>
+		};
+---------------------------------------------------------------
+		struct EFI_STRING_ID : mAlign [2] mTotalSize [0x2]
+
+		struct EFI_STRING_ID {
+		};
+---------------------------------------------------------------
+		struct EFI_HII_DATE : mAlign [2] mTotalSize [0x4]
+
+		struct EFI_HII_DATE {
+			+00000000[00000000] Year <UINT16>
+			+00000002[00000002] Month <UINT8>
+			+00000003[00000003] Day <UINT8>
+		};
+---------------------------------------------------------------
+		struct BOOLEAN : mAlign [1] mTotalSize [0x1]
+
+		struct BOOLEAN {
+		};
+---------------------------------------------------------------
+		struct UINT8 : mAlign [1] mTotalSize [0x1]
+
+		struct UINT8 {
+		};
+---------------------------------------------------------------
+		struct UINT16 : mAlign [2] mTotalSize [0x2]
+
+		struct UINT16 {
+		};
+---------------------------------------------------------------
+		struct UINT32 : mAlign [4] mTotalSize [0x4]
+
+		struct UINT32 {
+		};
+---------------------------------------------------------------
+		struct UINT64 : mAlign [8] mTotalSize [0x8]
+
+		struct UINT64 {
+		};
+---------------------------------------------------------------
+***************************************************************

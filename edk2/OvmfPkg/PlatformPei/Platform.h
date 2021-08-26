@@ -97,8 +97,25 @@ InstallClearCacheCallback (
   VOID
   );
 
+EFI_STATUS
+InitializeXen (
+  VOID
+  );
+
+BOOLEAN
+XenDetect (
+  VOID
+  );
+
 VOID
 AmdSevInitialize (
+  VOID
+  );
+
+extern BOOLEAN mXen;
+
+VOID
+XenPublishRamRegions (
   VOID
   );
 

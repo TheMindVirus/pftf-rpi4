@@ -1,6 +1,6 @@
 /** @file
  *
- *  Copyright (c) 2021, ARM Limited. All rights reserved.
+ *  Copyright (c) 2021 Arm. All rights reserved.
  *
  *  SPDX-License-Identifier: BSD-2-Clause-Patent
  *
@@ -8,11 +8,10 @@
 
 #include <IndustryStandard/Bcm2836SdHost.h>
 #include <IndustryStandard/Bcm2836Sdio.h>
-#include <IndustryStandard/Bcm2711.h>
 
 #include "AcpiTables.h"
 
-DefinitionBlock (__FILE__, "SSDT", 2, "RPIFDN", "RPI4EMMC", 2)
+DefinitionBlock (__FILE__, "SSDT", 5, "RPIFDN", "RPI4EMMC", 2)
 {
   Scope (\_SB_)
   {
@@ -32,9 +31,8 @@ DefinitionBlock (__FILE__, "SSDT", 2, "RPIFDN", "RPI4EMMC", 2)
         Return (^RBUF)
       }
 
-      // Translated DMA region for BCM2711 silicon revisions older than C0
-      Name (DMTR, ResourceTemplate() {
-        QWordMemory (ResourceProducer,
+      Name (_DMA, ResourceTemplate() {
+        QWordMemory (ResourceConsumer,
           ,
           MinFixed,
           MaxFixed,
@@ -49,41 +47,6 @@ DefinitionBlock (__FILE__, "SSDT", 2, "RPIFDN", "RPI4EMMC", 2)
           ,
         )
       })
-
-      // Non translated DMA region for BCM2711 revisions C0 and newer
-      Name (DMNT, ResourceTemplate() {
-        QWordMemory (ResourceProducer,
-          ,
-          MinFixed,
-          MaxFixed,
-          NonCacheable,
-          ReadWrite,
-          0x0,
-          0x0000000000000000, // MIN
-          0x000000FFFFFFFFFF, // MAX
-          0x0000000000000000, // TRA
-          0x0000010000000000, // LEN
-          ,
-          ,
-        )
-      })
-
-      Method (_DMA, 0x0, Serialized)
-      {
-        OperationRegion (CHPR, SystemMemory, ID_CHIPREV, 0x4)
-          Field (CHPR, DWordAcc, NoLock, Preserve) {
-            SOCI, 32
-        }
-
-        if ((SOCI & 0xFF) >= 0x20)
-        {
-          return (^DMNT);
-        }
-        else
-        {
-          return (^DMTR);
-        }
-      }
 
       // emmc2 Host Controller. (brcm,bcm2711-emmc2)
       Device (SDC3)

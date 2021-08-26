@@ -1,0 +1,1142 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                              (_ModuleEntryPoint)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib(BaseStackCheckGcc.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (__stack_chk_fail)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memcpy.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memcpy)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memset.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memset)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Bus/Usb/UsbBusDxe/UsbBusDxe/OUTPUT/UsbBusDxe.lib(AutoGen.obj)
+                              DriverEntryPoint.obj (symbol from plugin) (ProcessLibraryConstructorList)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Bus/Usb/UsbBusDxe/UsbBusDxe/OUTPUT/UsbBusDxe.lib(UsbBus.obj)
+                              AutoGen.obj (symbol from plugin) (UsbBusDriverEntryPoint)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Bus/Usb/UsbBusDxe/UsbBusDxe/OUTPUT/UsbBusDxe.lib(UsbHub.obj)
+                              UsbBus.obj (symbol from plugin) (mUsbRootHubApi)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Bus/Usb/UsbBusDxe/UsbBusDxe/OUTPUT/UsbBusDxe.lib(ComponentName.obj)
+                              UsbBus.obj (symbol from plugin) (mUsbBusComponentName)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Bus/Usb/UsbBusDxe/UsbBusDxe/OUTPUT/UsbBusDxe.lib(UsbUtility.obj)
+                              UsbHub.obj (symbol from plugin) (UsbHcGetCapability)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Bus/Usb/UsbBusDxe/UsbBusDxe/OUTPUT/UsbBusDxe.lib(UsbDesc.obj)
+                              UsbHub.obj (symbol from plugin) (UsbCtrlRequest)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Bus/Usb/UsbBusDxe/UsbBusDxe/OUTPUT/UsbBusDxe.lib(UsbEnumer.obj)
+                              UsbBus.obj (symbol from plugin) (UsbGetEndpointDesc)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuDeadLoop)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LinkedList.obj)
+                              UsbBus.obj (symbol from plugin) (InitializeListHead)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuBreakpoint)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+                              UsbHub.obj (symbol from plugin) (ZeroMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMemWrapper.obj)
+                              UsbUtility.obj (symbol from plugin) (CompareMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+                              UsbBus.obj (symbol from plugin) (CopyMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                              ZeroMemWrapper.obj (symbol from plugin) (InternalMemZeroMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                              CopyMemWrapper.obj (symbol from plugin) (InternalMemCopyMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                              CompareMemWrapper.obj (symbol from plugin) (InternalMemCompareMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+                              AutoGen.obj (symbol from plugin) (BaseDebugLibSerialPortConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiBootServicesTableLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              UsbBus.obj (symbol from plugin) (AllocateZeroPool)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiRuntimeServicesTableLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilities.obj)
+                              UsbUtility.obj (symbol from plugin) (DevicePathNodeLength)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilitiesDxeSmm.obj)
+                              DevicePathUtilities.obj (symbol from plugin) (DevicePathFromHandle)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(UefiDevicePathLib.obj)
+                              UsbUtility.obj (symbol from plugin) (GetDevicePathSize)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathToText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertDeviceNodeToText)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathFromText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertTextToDeviceNode)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiDriverModel.obj)
+                              UsbBus.obj (symbol from plugin) (EfiLibInstallDriverBindingComponentName2)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseReportStatusCodeLibNull/BaseReportStatusCodeLibNull/OUTPUT/BaseReportStatusCodeLibNull.lib(BaseReportStatusCodeLib.obj)
+                              UsbBus.obj (symbol from plugin) (ReportStatusCode)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+                              DevicePathFromText.obj (symbol from plugin) (SwapBytes64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              DevicePathToText.obj (symbol from plugin) (LShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              DevicePathFromText.obj (symbol from plugin) (StrnLenS)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              DevicePathFromText.obj (symbol from plugin) (StrLen)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              DevicePathUtilities.obj (symbol from plugin) (ReadUnaligned16)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              LShiftU64.obj (symbol from plugin) (InternalMathLShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              SafeString.obj (symbol from plugin) (SwapBytes32)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              SafeString.obj (symbol from plugin) (SwapBytes16)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              SafeString.obj (symbol from plugin) (RShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              SafeString.obj (symbol from plugin) (MultU64x32)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              SafeString.obj (symbol from plugin) (DivU64x32)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+                              DevicePathFromText.obj (symbol from plugin) (CopyGuid)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+                              DebugLib.obj (symbol from plugin) (SetMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCompareGuid)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+                              SetMemWrapper.obj (symbol from plugin) (SetMem64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+                              DebugLib.obj (symbol from plugin) (GetDebugPrintErrorLevel)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              DevicePathToText.obj (symbol from plugin) (UnicodeVSPrint)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              PrintLib.obj (symbol from plugin) (BasePrintLibConvertValueToStringS)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/Platform/RaspberryPi/Library/DualSerialPortLib/DebugDualSerialPortLib/OUTPUT/DebugDualSerialPortLib.lib(DebugDualSerialPortLib.obj)
+                              DebugLib.obj (symbol from plugin) (SerialPortInitialize)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/Platform/RaspberryPi/Library/DualSerialPortLib/DebugDualSerialPortLib/OUTPUT/DebugDualSerialPortLib.lib(DualSerialPortLibCommon.obj)
+                              DebugLib.obj (symbol from plugin) (SerialPortWrite)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              PrintLibInternal.obj (symbol from plugin) (DivU64x32Remainder)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib(IoLibNoIo.obj)
+                              DualSerialPortLibCommon.obj (symbol from plugin) (MmioRead8)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib(PL011UartLib.obj)
+                              DualSerialPortLibCommon.obj (symbol from plugin) (PL011UartWrite)
+
+Discarded input sections
+
+ .text          0x0000000000000000       0x10 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .text          0x0000000000000000        0x0 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.ReportStatusCode.constprop.0
+                0x0000000000000000        0x8 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text._DriverUnloadHandler
+                0x0000000000000000        0x8 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.StrnLenS.str1.1
+                0x0000000000000000       0x65 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.StrnLenS
+                0x0000000000000000       0x70 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.__memset
+                0x0000000000000000       0x1c /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/ccfG5bV6.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccfG5bV6.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cclm6It8.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cclm6It8.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccIM0IE7.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccIM0IE7.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc7SpNL5.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc7SpNL5.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccDRZNj6.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccDRZNj6.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccYuApp5.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccYuApp5.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccvoZWI8.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccvoZWI8.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccliTAu9.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccliTAu9.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc6qkVJ5.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6qkVJ5.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccjdmcH9.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccjdmcH9.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc0TXgm8.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0TXgm8.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccvlTfk9.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccvlTfk9.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccbISMm7.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccbISMm7.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccnSvJm7.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccnSvJm7.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccDt8OA8.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccDt8OA8.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccHE90k8.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccHE90k8.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cczm6ub7.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cczm6ub7.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc2Byoj7.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc2Byoj7.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccC4IAh8.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccC4IAh8.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccunla66.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccunla66.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccBpY0l7.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccBpY0l7.debug.temp.o
+ .debug_info    0x0000000000000000     0x1953 /tmp/ccY4NZo6.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x1d4 /tmp/ccY4NZo6.debug.temp.o
+ .debug_line    0x0000000000000000      0x372 /tmp/ccY4NZo6.debug.temp.o
+ .debug_str     0x0000000000000000     0x1658 /tmp/ccY4NZo6.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccY4NZo6.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccY4NZo6.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccmZTHC6.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccmZTHC6.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccwwKaI8.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccwwKaI8.debug.temp.o
+ .debug_info    0x0000000000000000     0x45d4 /tmp/ccQ53HJ9.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x2b0 /tmp/ccQ53HJ9.debug.temp.o
+ .debug_line    0x0000000000000000      0x3cf /tmp/ccQ53HJ9.debug.temp.o
+ .debug_str     0x0000000000000000     0x2f11 /tmp/ccQ53HJ9.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccQ53HJ9.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccQ53HJ9.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccx2bam5.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccx2bam5.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccWcrB48.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWcrB48.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccBLTlm8.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccBLTlm8.debug.temp.o
+ .debug_info    0x0000000000000000      0x1c3 /tmp/ccKYkWe9.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccKYkWe9.debug.temp.o
+ .debug_line    0x0000000000000000      0x14c /tmp/ccKYkWe9.debug.temp.o
+ .debug_str     0x0000000000000000      0x45b /tmp/ccKYkWe9.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccKYkWe9.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccKYkWe9.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/ccPf3wP7.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccPf3wP7.debug.temp.o
+ .debug_line    0x0000000000000000      0x14a /tmp/ccPf3wP7.debug.temp.o
+ .debug_str     0x0000000000000000      0x465 /tmp/ccPf3wP7.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccPf3wP7.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPf3wP7.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccJxJVZ5.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccJxJVZ5.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccjzuEG5.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccjzuEG5.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccZpPLf5.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccZpPLf5.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccjVv7A7.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccjVv7A7.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/ccUg4C18.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xc0 /tmp/ccUg4C18.debug.temp.o
+ .debug_line    0x0000000000000000      0x14c /tmp/ccUg4C18.debug.temp.o
+ .debug_str     0x0000000000000000      0x472 /tmp/ccUg4C18.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccUg4C18.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccUg4C18.debug.temp.o
+ .debug_info    0x0000000000000000      0x1c3 /tmp/cc298Dg7.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/cc298Dg7.debug.temp.o
+ .debug_line    0x0000000000000000      0x14c /tmp/cc298Dg7.debug.temp.o
+ .debug_str     0x0000000000000000      0x45b /tmp/cc298Dg7.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc298Dg7.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc298Dg7.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/cc2PJnQ8.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/cc2PJnQ8.debug.temp.o
+ .debug_line    0x0000000000000000      0x14a /tmp/cc2PJnQ8.debug.temp.o
+ .debug_str     0x0000000000000000      0x465 /tmp/cc2PJnQ8.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc2PJnQ8.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc2PJnQ8.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/ccwd4Jl8.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xc0 /tmp/ccwd4Jl8.debug.temp.o
+ .debug_line    0x0000000000000000      0x14b /tmp/ccwd4Jl8.debug.temp.o
+ .debug_str     0x0000000000000000      0x472 /tmp/ccwd4Jl8.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccwd4Jl8.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccwd4Jl8.debug.temp.o
+ .debug_info    0x0000000000000000      0x1cf /tmp/ccBYKYJ9.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccBYKYJ9.debug.temp.o
+ .debug_line    0x0000000000000000      0x14a /tmp/ccBYKYJ9.debug.temp.o
+ .debug_str     0x0000000000000000      0x462 /tmp/ccBYKYJ9.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccBYKYJ9.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccBYKYJ9.debug.temp.o
+ .debug_info    0x0000000000000000      0x21d /tmp/ccZBRF47.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xce /tmp/ccZBRF47.debug.temp.o
+ .debug_line    0x0000000000000000      0x173 /tmp/ccZBRF47.debug.temp.o
+ .debug_str     0x0000000000000000      0x3ad /tmp/ccZBRF47.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccZBRF47.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccZBRF47.debug.temp.o
+ .debug_info    0x0000000000000000      0x1bb /tmp/cclAEIA9.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xc6 /tmp/cclAEIA9.debug.temp.o
+ .debug_line    0x0000000000000000      0x172 /tmp/cclAEIA9.debug.temp.o
+ .debug_str     0x0000000000000000      0x364 /tmp/cclAEIA9.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cclAEIA9.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cclAEIA9.debug.temp.o
+ .debug_info    0x0000000000000000      0x186 /tmp/ccx6ybQ8.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccx6ybQ8.debug.temp.o
+ .debug_line    0x0000000000000000      0x174 /tmp/ccx6ybQ8.debug.temp.o
+ .debug_str     0x0000000000000000      0x360 /tmp/ccx6ybQ8.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccx6ybQ8.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccx6ybQ8.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccGcRFU8.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccGcRFU8.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccY2E1J7.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccY2E1J7.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccLnXUV8.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccLnXUV8.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc6hkem7.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6hkem7.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccaAhDO7.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccaAhDO7.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccw98Ys6.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccw98Ys6.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc0ZAuF6.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0ZAuF6.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cclfu3I9.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cclfu3I9.debug.temp.o
+ .text          0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+ .text          0x0000000000000000       0x20 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+START GROUP
+LOAD /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+LOAD /tmp/ccfG5bV6.debug.temp.o
+LOAD /tmp/cclm6It8.debug.temp.o
+LOAD /tmp/ccIM0IE7.debug.temp.o
+LOAD /tmp/cc7SpNL5.debug.temp.o
+LOAD /tmp/ccDRZNj6.debug.temp.o
+LOAD /tmp/ccYuApp5.debug.temp.o
+LOAD /tmp/ccvoZWI8.debug.temp.o
+LOAD /tmp/ccliTAu9.debug.temp.o
+LOAD /tmp/cc6qkVJ5.debug.temp.o
+LOAD /tmp/ccjdmcH9.debug.temp.o
+LOAD /tmp/cc0TXgm8.debug.temp.o
+LOAD /tmp/ccvlTfk9.debug.temp.o
+LOAD /tmp/ccbISMm7.debug.temp.o
+LOAD /tmp/ccnSvJm7.debug.temp.o
+LOAD /tmp/ccDt8OA8.debug.temp.o
+LOAD /tmp/ccHE90k8.debug.temp.o
+LOAD /tmp/cczm6ub7.debug.temp.o
+LOAD /tmp/cc2Byoj7.debug.temp.o
+LOAD /tmp/ccC4IAh8.debug.temp.o
+LOAD /tmp/ccunla66.debug.temp.o
+LOAD /tmp/ccBpY0l7.debug.temp.o
+LOAD /tmp/ccY4NZo6.debug.temp.o
+LOAD /tmp/ccmZTHC6.debug.temp.o
+LOAD /tmp/ccwwKaI8.debug.temp.o
+LOAD /tmp/ccQ53HJ9.debug.temp.o
+LOAD /tmp/ccx2bam5.debug.temp.o
+LOAD /tmp/ccWcrB48.debug.temp.o
+LOAD /tmp/ccBLTlm8.debug.temp.o
+LOAD /tmp/ccKYkWe9.debug.temp.o
+LOAD /tmp/ccPf3wP7.debug.temp.o
+LOAD /tmp/ccJxJVZ5.debug.temp.o
+LOAD /tmp/ccjzuEG5.debug.temp.o
+LOAD /tmp/ccZpPLf5.debug.temp.o
+LOAD /tmp/ccjVv7A7.debug.temp.o
+LOAD /tmp/ccUg4C18.debug.temp.o
+LOAD /tmp/cc298Dg7.debug.temp.o
+LOAD /tmp/cc2PJnQ8.debug.temp.o
+LOAD /tmp/ccwd4Jl8.debug.temp.o
+LOAD /tmp/ccBYKYJ9.debug.temp.o
+LOAD /tmp/ccZBRF47.debug.temp.o
+LOAD /tmp/cclAEIA9.debug.temp.o
+LOAD /tmp/ccx6ybQ8.debug.temp.o
+LOAD /tmp/ccGcRFU8.debug.temp.o
+LOAD /tmp/ccY2E1J7.debug.temp.o
+LOAD /tmp/ccLnXUV8.debug.temp.o
+LOAD /tmp/cc6hkem7.debug.temp.o
+LOAD /tmp/ccaAhDO7.debug.temp.o
+LOAD /tmp/ccw98Ys6.debug.temp.o
+LOAD /tmp/cc0ZAuF6.debug.temp.o
+LOAD /tmp/cclfu3I9.debug.temp.o
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Bus/Usb/UsbBusDxe/UsbBusDxe/OUTPUT/UsbBusDxe.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/Platform/RaspberryPi/Library/DualSerialPortLib/DebugDualSerialPortLib/OUTPUT/DebugDualSerialPortLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseReportStatusCodeLibNull/BaseReportStatusCodeLibNull/OUTPUT/BaseReportStatusCodeLibNull.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib
+END GROUP
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.gnu.version_d  0x0000000000000228        0x0
+ .gnu.version_d
+                0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version    0x0000000000000228        0x0
+ .gnu.version   0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version_r  0x0000000000000228        0x0
+ .gnu.version_r
+                0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.text           0x0000000000001000     0xa058
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.SerialPortWritable.constprop.0
+                0x0000000000001000        0x8 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.DebugAssertEnabled
+                0x0000000000001008        0x8 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.InternalAllocatePool.constprop.0
+                0x0000000000001010       0x6c /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.BasePrintLibFillBuffer
+                0x000000000000107c       0x34 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.AsciiStrnLenS
+                0x00000000000010b0       0x3c /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.ReportProgressCodeEnabled
+                0x00000000000010ec        0x8 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.DebugPrintLevelEnabled
+                0x00000000000010f4        0x8 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.DebugPrintEnabled
+                0x00000000000010fc        0x8 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.BaseDebugLibSerialPortConstructor
+                0x0000000000001104        0x8 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbFindChild
+                0x000000000000110c       0x54 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbGetEndpointDesc
+                0x0000000000001160       0x3c /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbGetCurrentTpl
+                0x000000000000119c       0x40 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbOpenHostProtoByChild
+                0x00000000000011dc       0x8c /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbHcControlTransfer
+                0x0000000000001268       0x40 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbHcClearRootHubPortFeature
+                0x00000000000012a8       0x24 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbHcSetRootHubPortFeature
+                0x00000000000012cc       0x24 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbHcGetRootHubPortStatus
+                0x00000000000012f0       0x24 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbBusComponentNameGetControllerName
+                0x0000000000001314        0x8 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbRootHubClearPortFeature
+                0x000000000000131c        0xc /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbRootHubSetPortFeature
+                0x0000000000001328        0xc /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbRootHubGetPortStatus
+                0x0000000000001334        0xc /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbRootHubClearPortChange
+                0x0000000000001340       0xac /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbIoAsyncIsochronousTransfer
+                0x00000000000013ec        0x8 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbIoIsochronousTransfer
+                0x00000000000013f4        0x8 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.DebugAssert
+                0x00000000000013fc       0x8c /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.ReportStatusCodeWithDevicePath.constprop.0
+                0x0000000000001488       0x38 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.SerialPortWrite
+                0x00000000000014c0      0x120 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.WriteUnaligned16
+                0x00000000000015e0       0x18 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.ReadUnaligned16
+                0x00000000000015f8       0x5c /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.ReadUnaligned24
+                0x0000000000001654       0x4c /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.AsciiStrLen
+                0x00000000000016a0       0x90 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.AsciiStrnCmp
+                0x0000000000001730       0xdc /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbBusComponentNameGetDriverName
+                0x000000000000180c      0x154 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.BasePrintLibSPrintMarker.constprop.0
+                0x0000000000001960      0xc00 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.BasePrintLibSPrint.constprop.0
+                0x0000000000002560       0x9c /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.AsciiSPrint.constprop.0
+                0x00000000000025fc       0xa8 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.DevicePathNodeLength
+                0x00000000000026a4       0x50 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.NextDevicePathNode
+                0x00000000000026f4       0x50 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.DevicePathSubType
+                0x0000000000002744       0x48 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.DevicePathType
+                0x000000000000278c       0x48 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.IsDevicePathEnd
+                0x00000000000027d4       0x94 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.IsDevicePathValid.part.0.constprop.0
+                0x0000000000002868       0xbc /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UefiDevicePathLibGetDevicePathSize
+                0x0000000000002924       0x6c /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbBusControllerDriverSupported
+                0x0000000000002990      0x1ac /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.InitializeListHead
+                0x0000000000002b3c        0x8 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.InternalBaseLibIsListValid
+                0x0000000000002b44       0x90 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.RemoveEntryList
+                0x0000000000002bd4       0x74 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.InsertTailList
+                0x0000000000002c48       0x5c /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbCtrlRequest
+                0x0000000000002ca4      0x124 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbCtrlGetDesc
+                0x0000000000002dc8       0x40 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbHubClearPortFeature
+                0x0000000000002e08       0x44 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbHubGetPortStatus
+                0x0000000000002e4c       0x48 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbHubClearPortChange
+                0x0000000000002e94       0xcc /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbHubCtrlSetPortFeature
+                0x0000000000002f60       0x40 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbHubSetPortFeature
+                0x0000000000002fa0        0x8 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbHubCtrlGetHubDesc
+                0x0000000000002fa8       0x4c /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbHubCtrlClearHubFeature
+                0x0000000000002ff4       0x3c /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbHubAckHubStatus
+                0x0000000000003030       0xa8 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbIoGetSupportedLanguages
+                0x00000000000030d8       0xb8 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbIoAsyncInterruptTransfer
+                0x0000000000003190      0x1c8 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbIoSyncInterruptTransfer
+                0x0000000000003358      0x1c4 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbIoBulkTransfer
+                0x000000000000351c      0x240 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.DebugPrint
+                0x000000000000375c       0xb8 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.FreePool
+                0x0000000000003814       0x7c /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbFreeInterfaceDesc
+                0x0000000000003890       0x64 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbFreeConfigDesc
+                0x00000000000038f4       0x88 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbBusFreeUsbDPList
+                0x000000000000397c       0xb0 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbSelectSetting
+                0x0000000000003a2c      0x130 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbRootHubRelease
+                0x0000000000003b5c       0x80 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbRootHubInit
+                0x0000000000003bdc      0x17c /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbHubRelease
+                0x0000000000003d58       0xa0 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbHubInit
+                0x0000000000003df8      0x3e8 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbIoPortReset
+                0x00000000000041e0      0x228 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.CopyMem  0x0000000000004408       0xa4 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UefiDevicePathLibDuplicateDevicePath
+                0x00000000000044ac       0x98 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.SetDevicePathEndNode
+                0x0000000000004544       0x54 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbIoGetEndpointDescriptor
+                0x0000000000004598      0x108 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbIoGetInterfaceDescriptor
+                0x00000000000046a0       0xb4 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbIoGetActiveConfigDescriptor
+                0x0000000000004754       0xcc /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbIoGetDeviceDescriptor
+                0x0000000000004820       0xb8 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.CompareMem
+                0x00000000000048d8       0xd0 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.SearchUsbDPInList.part.0
+                0x00000000000049a8       0xf4 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.ZeroMem  0x0000000000004a9c       0x70 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.AllocateZeroPool
+                0x0000000000004b0c       0x34 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbGetOneString
+                0x0000000000004b40       0xcc /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbCreateDesc
+                0x0000000000004c0c      0x218 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.GetUsbDPFromFullDP
+                0x0000000000004e24      0x11c /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbBusIsWantedUsbIO
+                0x0000000000004f40      0x448 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbConnectDriver
+                0x0000000000005388      0x1a0 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbRemoveConfig
+                0x0000000000005528      0x26c /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbRemoveDevice
+                0x0000000000005794      0x1d4 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbBusControllerDriverStop
+                0x0000000000005968      0x384 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbSelectConfig
+                0x0000000000005cec      0x460 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbEnumerateNewDev
+                0x000000000000614c      0xb80 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbEnumeratePort
+                0x0000000000006ccc      0x2a8 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbRootHubEnumeration
+                0x0000000000006f74       0xac /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbHubEnumeration
+                0x0000000000007020      0x164 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbIoControlTransfer
+                0x0000000000007184      0x2e0 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbBusAddWantedUsbIoDP
+                0x0000000000007464      0x1c0 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbOnHubInterrupt
+                0x0000000000007624      0x1c0 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbBusControllerDriverStart
+                0x00000000000077e4      0x7d4 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbIoGetStringDescriptor
+                0x0000000000007fb8      0x1bc /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbRootHubResetPort
+                0x0000000000008174      0x258 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.UsbHubResetPort
+                0x00000000000083cc       0xdc /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .text.memcpy   0x00000000000084a8       0x20 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+                0x00000000000084a8                memcpy
+ .text.__stack_chk_fail
+                0x00000000000084c8       0x48 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+                0x00000000000084c8                __stack_chk_fail
+ .text._ModuleEntryPoint
+                0x0000000000008510      0x1d4 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+                0x0000000000008510                _ModuleEntryPoint
+ *fill*         0x00000000000086e4        0xc 
+ .text          0x00000000000086f0      0x200 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                0x00000000000086f0                InternalMemSetMem16
+                0x00000000000086fc                InternalMemSetMem32
+                0x0000000000008708                InternalMemSetMem64
+                0x0000000000008714                InternalMemZeroMem
+                0x000000000000871c                InternalMemSetMem
+ .text          0x00000000000088f0      0x218 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                0x0000000000008a5c                InternalMemCopyMem
+ *fill*         0x0000000000008b08       0x38 
+ .text          0x0000000000008b40       0xe0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                0x0000000000008b40                InternalMemCompareMem
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.DebugAssert.str1.1
+                0x0000000000008c20       0x22 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.ReportStatusCodeWithDevicePath.constprop.0.str1.1
+                0x0000000000008c42       0x63 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+                                         0x7e (size before relaxing)
+ .rodata.ReadUnaligned16.str1.1
+                0x0000000000008ca5       0x45 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+                                         0x5c (size before relaxing)
+ .rodata.AsciiStrLen.str1.1
+                0x0000000000008cea       0x8d /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.AsciiStrnCmp.str1.1
+                0x0000000000008d77       0x70 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.BasePrintLibSPrintMarker.constprop.0.str1.1
+                0x0000000000008de7      0x17d /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.BasePrintLibSPrintMarker.constprop.0
+                0x0000000000008f64       0x5e /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.DevicePathNodeLength.str1.1
+                0x0000000000008fc2       0x6a /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.InternalBaseLibIsListValid.str1.1
+                0x000000000000902c       0x83 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.RemoveEntryList.str1.1
+                0x00000000000090af       0x3b /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.UsbCtrlRequest.str1.1
+                0x00000000000090ea       0x81 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.UsbIoGetSupportedLanguages.str1.1
+                0x000000000000916b       0x5b /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.UsbIoBulkTransfer.str1.1
+                0x00000000000091c6       0x3c /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.FreePool.str1.1
+                0x0000000000009202       0x90 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.UsbBusFreeUsbDPList.str1.1
+                0x0000000000009292       0x4a /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.UsbSelectSetting.str1.1
+                0x00000000000092dc       0x99 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+                                         0xa5 (size before relaxing)
+ .rodata.UsbRootHubRelease.str1.1
+                0x0000000000009375       0x31 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.UsbRootHubInit.str1.1
+                0x00000000000093a6       0x36 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.UsbHubRelease.str1.1
+                0x00000000000093dc       0x27 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.UsbHubInit.str1.1
+                0x0000000000009403      0x1d5 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.UsbIoPortReset.str1.1
+                0x00000000000095d8       0xdf /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.CopyMem.str1.1
+                0x00000000000096b7       0xd3 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.UefiDevicePathLibDuplicateDevicePath.str1.1
+                0x000000000000978a       0x3f /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.CompareMem.str1.1
+                0x00000000000097c9       0x94 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.SearchUsbDPInList.part.0.str1.1
+                0x000000000000985d       0x25 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.ZeroMem.str1.1
+                0x0000000000009882       0x88 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.UsbCreateDesc.str1.1
+                0x000000000000990a      0x145 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.GetUsbDPFromFullDP.str1.1
+                0x0000000000009a4f       0x21 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.UsbBusIsWantedUsbIO.str1.1
+                0x0000000000009a70       0x2b /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+                                         0x63 (size before relaxing)
+ .rodata.UsbConnectDriver.str1.1
+                0x0000000000009a9b       0x9a /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.UsbRemoveConfig.str1.1
+                0x0000000000009b35       0x68 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.UsbRemoveDevice.str1.1
+                0x0000000000009b9d       0x7f /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.UsbBusControllerDriverStop.str1.1
+                0x0000000000009c1c       0x61 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.UsbSelectConfig.str1.1
+                0x0000000000009c7d      0x11c /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.UsbEnumerateNewDev.str1.1
+                0x0000000000009d99      0x647 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.UsbEnumeratePort.str1.1
+                0x000000000000a3e0      0x1df /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.UsbRootHubEnumeration.str1.1
+                0x000000000000a5bf       0x56 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.UsbHubEnumeration.str1.1
+                0x000000000000a615       0x69 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.UsbIoControlTransfer.str1.1
+                0x000000000000a67e       0x65 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.UsbBusAddWantedUsbIoDP.str1.1
+                0x000000000000a6e3       0x19 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.UsbOnHubInterrupt.str1.1
+                0x000000000000a6fc       0x76 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.UsbBusControllerDriverStart.str1.1
+                0x000000000000a772      0x1ad /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.UsbRootHubResetPort.str1.1
+                0x000000000000a91f      0x123 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.__stack_chk_fail.str1.1
+                0x000000000000aa42       0x2e /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata._ModuleEntryPoint.str1.1
+                0x000000000000aa70      0x213 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.str1.1
+                0x000000000000ac83        0xb /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+                                          0xe (size before relaxing)
+ .rodata.str2.2
+                0x000000000000ac8e       0x1e /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.mErrorString
+                0x000000000000acac      0x2b5 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.mHexStr
+                0x000000000000af61       0x10 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ *fill*         0x000000000000af71        0x3 
+ .rodata.mRootHubFeatureMap
+                0x000000000000af74       0x28 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.mUefiDevicePathLibEndDevicePath
+                0x000000000000af9c        0x4 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .rodata.mWarningString
+                0x000000000000afa0       0x96 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ *(.got .got.*)
+ *fill*         0x000000000000b036        0x2 
+ .got           0x000000000000b038        0x8 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x000000000000b038                _GLOBAL_OFFSET_TABLE_
+ .got.plt       0x000000000000b040       0x18 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ *:AutoGen.obj(.data.g*Guid)
+
+.plt            0x000000000000b058        0x0
+ .plt           0x000000000000b058        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.data           0x000000000000c000      0x218
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.ro   0x000000000000c000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data.__stack_chk_guard
+                0x000000000000c000        0x8 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+                0x000000000000c000                __stack_chk_guard
+ .data.gEfiCallerIdGuid
+                0x000000000000c008       0x10 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .data.gEfiComponentName2ProtocolGuid
+                0x000000000000c018       0x10 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .data.gEfiComponentNameProtocolGuid
+                0x000000000000c028       0x10 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .data.gEfiDevicePathProtocolGuid
+                0x000000000000c038       0x10 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .data.gEfiDriverBindingProtocolGuid
+                0x000000000000c048       0x10 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .data.gEfiUsb2HcProtocolGuid
+                0x000000000000c058       0x10 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .data.gEfiUsbHcProtocolGuid
+                0x000000000000c068       0x10 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .data.gEfiUsbIoProtocolGuid
+                0x000000000000c078       0x10 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .data.mAllUsbClassDevicePath
+                0x000000000000c088        0xf /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ *fill*         0x000000000000c097        0x1 
+ .data.mUsbBusComponentName
+                0x000000000000c098       0x18 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .data.mUsbBusComponentName2
+                0x000000000000c0b0       0x18 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .data.mUsbBusDriverBinding
+                0x000000000000c0c8       0x30 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .data.mUsbBusDriverNameTable
+                0x000000000000c0f8       0x20 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .data.mUsbHubApi
+                0x000000000000c118       0x38 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .data.mUsbIoProtocol
+                0x000000000000c150       0x68 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .data.mUsbRootHubApi
+                0x000000000000c1b8       0x38 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ *(.bss .bss.*)
+ .bss.UsePl011Uart
+                0x000000000000c1f0        0x1 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .bss.UsePl011UartSet
+                0x000000000000c1f1        0x1 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ *fill*         0x000000000000c1f2        0x6 
+ .bss.gBS       0x000000000000c1f8        0x8 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .bss.gImageHandle
+                0x000000000000c200        0x8 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .bss.gRT       0x000000000000c208        0x8 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .bss.gST       0x000000000000c210        0x8 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+
+.dynbss         0x000000000000c218        0x0
+ .dynbss        0x000000000000c218        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.eh_frame
+ *(.eh_frame)
+
+.rela           0x000000000000c218      0x390
+ *(.rela .rela.*)
+ .rela.got      0x000000000000c218        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.plt      0x000000000000c218        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.bss      0x000000000000c218        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.rel.ro
+                0x000000000000c218        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.ifunc    0x000000000000c218        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.mUsbBusComponentName
+                0x000000000000c218       0x48 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.mUsbBusComponentName2
+                0x000000000000c260       0x48 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.mUsbBusDriverBinding
+                0x000000000000c2a8       0x48 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.mUsbBusDriverNameTable
+                0x000000000000c2f0       0x30 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.mUsbHubApi
+                0x000000000000c320       0xa8 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.mUsbIoProtocol
+                0x000000000000c3c8      0x138 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.mUsbRootHubApi
+                0x000000000000c500       0xa8 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.hii
+ *(.hii)
+
+.build-id       0x000000000000c5a8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x000000000000c5a8       0x24 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+ *(COMMON)
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+OUTPUT(/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Bus/Usb/UsbBusDxe/UsbBusDxe/DEBUG/UsbBusDxe.dll elf64-littleaarch64)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000    0x3854d
+ .debug_info    0x0000000000000000     0xaa02 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .debug_info    0x000000000000aa02     0x1a57 /tmp/ccfG5bV6.debug.temp.o
+                0x000000000000aa02                DriverEntryPoint.c.9519b125
+ .debug_info    0x000000000000c459      0x187 /tmp/cclm6It8.debug.temp.o
+                0x000000000000c459                BaseStackCheckGcc.c.9918e4ed
+ .debug_info    0x000000000000c5e0      0x1d7 /tmp/ccIM0IE7.debug.temp.o
+                0x000000000000c5e0                memcpy.c.992e94b8
+ .debug_info    0x000000000000c7b7      0x188 /tmp/cc7SpNL5.debug.temp.o
+                0x000000000000c7b7                memset.c.d190684e
+ .debug_info    0x000000000000c93f     0x1dea /tmp/ccDRZNj6.debug.temp.o
+                0x000000000000c93f                AutoGen.c.fd4b4ad9
+ .debug_info    0x000000000000e729     0x4e4c /tmp/ccYuApp5.debug.temp.o
+                0x000000000000e729                UsbBus.c.5d6f1e38
+ .debug_info    0x0000000000013575     0x3afd /tmp/ccvoZWI8.debug.temp.o
+                0x0000000000013575                UsbHub.c.13d1712f
+ .debug_info    0x0000000000017072      0x5f7 /tmp/ccliTAu9.debug.temp.o
+                0x0000000000017072                ComponentName.c.2dfbd931
+ .debug_info    0x0000000000017669     0x3b22 /tmp/cc6qkVJ5.debug.temp.o
+                0x0000000000017669                UsbUtility.c.be343268
+ .debug_info    0x000000000001b18b     0x391a /tmp/ccjdmcH9.debug.temp.o
+                0x000000000001b18b                UsbDesc.c.1f0fd66b
+ .debug_info    0x000000000001eaa5     0x36de /tmp/cc0TXgm8.debug.temp.o
+                0x000000000001eaa5                UsbEnumer.c.27261839
+ .debug_info    0x0000000000022183      0x1d0 /tmp/ccvlTfk9.debug.temp.o
+                0x0000000000022183                CpuDeadLoop.c.e33e7959
+ .debug_info    0x0000000000022353      0x428 /tmp/ccbISMm7.debug.temp.o
+                0x0000000000022353                LinkedList.c.6e13becc
+ .debug_info    0x000000000002277b      0x17a /tmp/ccnSvJm7.debug.temp.o
+                0x000000000002277b                ZeroMemWrapper.c.8dc042f6
+ .debug_info    0x00000000000228f5      0x1a7 /tmp/ccDt8OA8.debug.temp.o
+                0x00000000000228f5                CompareMemWrapper.c.96cbdc30
+ .debug_info    0x0000000000022a9c      0x191 /tmp/ccHE90k8.debug.temp.o
+                0x0000000000022a9c                CopyMemWrapper.c.8ed793a8
+ .debug_info    0x0000000000022c2d      0x3f2 /tmp/cczm6ub7.debug.temp.o
+                0x0000000000022c2d                DebugLib.c.0df38b98
+ .debug_info    0x000000000002301f     0x18e1 /tmp/cc2Byoj7.debug.temp.o
+                0x000000000002301f                UefiBootServicesTableLib.c.c00a3dd8
+ .debug_info    0x0000000000024900     0x1de0 /tmp/ccC4IAh8.debug.temp.o
+                0x0000000000024900                MemoryAllocationLib.c.774777c4
+ .debug_info    0x00000000000266e0     0x18b2 /tmp/ccunla66.debug.temp.o
+                0x00000000000266e0                UefiRuntimeServicesTableLib.c.7b9e7237
+ .debug_info    0x0000000000027f92     0x1d7d /tmp/ccBpY0l7.debug.temp.o
+                0x0000000000027f92                DevicePathUtilities.c.94f518f0
+ .debug_info    0x0000000000029d0f     0x1afe /tmp/ccmZTHC6.debug.temp.o
+                0x0000000000029d0f                UefiDevicePathLib.c.c981cbf5
+ .debug_info    0x000000000002b80d     0x3d60 /tmp/ccwwKaI8.debug.temp.o
+                0x000000000002b80d                DevicePathToText.c.c18353b7
+ .debug_info    0x000000000002f56d     0x2307 /tmp/ccx2bam5.debug.temp.o
+                0x000000000002f56d                UefiDriverModel.c.bb92ab9b
+ .debug_info    0x0000000000031874     0x27ac /tmp/ccWcrB48.debug.temp.o
+                0x0000000000031874                UefiLib.c.2c69044c
+ .debug_info    0x0000000000034020      0x502 /tmp/ccBLTlm8.debug.temp.o
+                0x0000000000034020                BaseReportStatusCodeLib.c.f05e4fbb
+ .debug_info    0x0000000000034522     0x1004 /tmp/ccJxJVZ5.debug.temp.o
+                0x0000000000034522                SafeString.c.d8550fea
+ .debug_info    0x0000000000035526      0x7f3 /tmp/ccjzuEG5.debug.temp.o
+                0x0000000000035526                String.c.753c3495
+ .debug_info    0x0000000000035d19      0x33d /tmp/ccZpPLf5.debug.temp.o
+                0x0000000000035d19                Unaligned.c.4a0798dc
+ .debug_info    0x0000000000036056      0x43c /tmp/ccjVv7A7.debug.temp.o
+                0x0000000000036056                Math64.c.5e992ad5
+ .debug_info    0x0000000000036492      0x18d /tmp/ccGcRFU8.debug.temp.o
+                0x0000000000036492                BaseDebugPrintErrorLevelLib.c.afda57b5
+ .debug_info    0x000000000003661f      0x68f /tmp/ccY2E1J7.debug.temp.o
+                0x000000000003661f                PrintLib.c.260a037f
+ .debug_info    0x0000000000036cae      0x79a /tmp/ccLnXUV8.debug.temp.o
+                0x0000000000036cae                PrintLibInternal.c.92769e0a
+ .debug_info    0x0000000000037448      0x201 /tmp/cc6hkem7.debug.temp.o
+                0x0000000000037448                DebugDualSerialPortLib.c.3fe30e88
+ .debug_info    0x0000000000037649      0x2e6 /tmp/ccaAhDO7.debug.temp.o
+                0x0000000000037649                DualSerialPortLibCommon.c.2dc6badf
+ .debug_info    0x000000000003792f      0x1e5 /tmp/ccw98Ys6.debug.temp.o
+                0x000000000003792f                DivU64x32Remainder.c.19070deb
+ .debug_info    0x0000000000037b14      0x503 /tmp/cc0ZAuF6.debug.temp.o
+                0x0000000000037b14                IoLibNoIo.c.335a48c4
+ .debug_info    0x0000000000038017      0x536 /tmp/cclfu3I9.debug.temp.o
+                0x0000000000038017                PL011UartLib.c.f54a0051
+
+.debug_abbrev   0x0000000000000000     0x3c87
+ .debug_abbrev  0x0000000000000000      0x2d4 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .debug_abbrev  0x00000000000002d4      0x1e9 /tmp/ccfG5bV6.debug.temp.o
+ .debug_abbrev  0x00000000000004bd       0xc7 /tmp/cclm6It8.debug.temp.o
+ .debug_abbrev  0x0000000000000584       0xee /tmp/ccIM0IE7.debug.temp.o
+ .debug_abbrev  0x0000000000000672       0xc0 /tmp/cc7SpNL5.debug.temp.o
+ .debug_abbrev  0x0000000000000732      0x236 /tmp/ccDRZNj6.debug.temp.o
+ .debug_abbrev  0x0000000000000968      0x2fc /tmp/ccYuApp5.debug.temp.o
+ .debug_abbrev  0x0000000000000c64      0x2a5 /tmp/ccvoZWI8.debug.temp.o
+ .debug_abbrev  0x0000000000000f09      0x12b /tmp/ccliTAu9.debug.temp.o
+ .debug_abbrev  0x0000000000001034      0x28f /tmp/cc6qkVJ5.debug.temp.o
+ .debug_abbrev  0x00000000000012c3      0x2b0 /tmp/ccjdmcH9.debug.temp.o
+ .debug_abbrev  0x0000000000001573      0x29c /tmp/cc0TXgm8.debug.temp.o
+ .debug_abbrev  0x000000000000180f       0xb6 /tmp/ccvlTfk9.debug.temp.o
+ .debug_abbrev  0x00000000000018c5      0x139 /tmp/ccbISMm7.debug.temp.o
+ .debug_abbrev  0x00000000000019fe       0xb1 /tmp/ccnSvJm7.debug.temp.o
+ .debug_abbrev  0x0000000000001aaf       0xb1 /tmp/ccDt8OA8.debug.temp.o
+ .debug_abbrev  0x0000000000001b60       0xb8 /tmp/ccHE90k8.debug.temp.o
+ .debug_abbrev  0x0000000000001c18      0x165 /tmp/cczm6ub7.debug.temp.o
+ .debug_abbrev  0x0000000000001d7d      0x1dd /tmp/cc2Byoj7.debug.temp.o
+ .debug_abbrev  0x0000000000001f5a      0x242 /tmp/ccC4IAh8.debug.temp.o
+ .debug_abbrev  0x000000000000219c      0x1c3 /tmp/ccunla66.debug.temp.o
+ .debug_abbrev  0x000000000000235f      0x240 /tmp/ccBpY0l7.debug.temp.o
+ .debug_abbrev  0x000000000000259f      0x1fe /tmp/ccmZTHC6.debug.temp.o
+ .debug_abbrev  0x000000000000279d      0x2ca /tmp/ccwwKaI8.debug.temp.o
+ .debug_abbrev  0x0000000000002a67      0x21c /tmp/ccx2bam5.debug.temp.o
+ .debug_abbrev  0x0000000000002c83      0x267 /tmp/ccWcrB48.debug.temp.o
+ .debug_abbrev  0x0000000000002eea      0x124 /tmp/ccBLTlm8.debug.temp.o
+ .debug_abbrev  0x000000000000300e      0x138 /tmp/ccJxJVZ5.debug.temp.o
+ .debug_abbrev  0x0000000000003146      0x126 /tmp/ccjzuEG5.debug.temp.o
+ .debug_abbrev  0x000000000000326c       0xc9 /tmp/ccZpPLf5.debug.temp.o
+ .debug_abbrev  0x0000000000003335       0xf9 /tmp/ccjVv7A7.debug.temp.o
+ .debug_abbrev  0x000000000000342e       0xc6 /tmp/ccGcRFU8.debug.temp.o
+ .debug_abbrev  0x00000000000034f4      0x150 /tmp/ccY2E1J7.debug.temp.o
+ .debug_abbrev  0x0000000000003644      0x161 /tmp/ccLnXUV8.debug.temp.o
+ .debug_abbrev  0x00000000000037a5       0xc4 /tmp/cc6hkem7.debug.temp.o
+ .debug_abbrev  0x0000000000003869      0x108 /tmp/ccaAhDO7.debug.temp.o
+ .debug_abbrev  0x0000000000003971       0xb3 /tmp/ccw98Ys6.debug.temp.o
+ .debug_abbrev  0x0000000000003a24      0x11f /tmp/cc0ZAuF6.debug.temp.o
+ .debug_abbrev  0x0000000000003b43      0x144 /tmp/cclfu3I9.debug.temp.o
+
+.debug_loc      0x0000000000000000    0x127b9
+ .debug_loc     0x0000000000000000    0x127b9 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+
+.debug_aranges  0x0000000000000000      0x710
+ .debug_aranges
+                0x0000000000000000      0x710 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+
+.debug_ranges   0x0000000000000000     0x1dd0
+ .debug_ranges  0x0000000000000000     0x1dd0 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+
+.debug_line     0x0000000000000000     0xc79b
+ .debug_line    0x0000000000000000     0x6b3a /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+ .debug_line    0x0000000000006b3a      0x347 /tmp/ccfG5bV6.debug.temp.o
+ .debug_line    0x0000000000006e81      0x170 /tmp/cclm6It8.debug.temp.o
+ .debug_line    0x0000000000006ff1      0x171 /tmp/ccIM0IE7.debug.temp.o
+ .debug_line    0x0000000000007162      0x171 /tmp/cc7SpNL5.debug.temp.o
+ .debug_line    0x00000000000072d3      0x2db /tmp/ccDRZNj6.debug.temp.o
+ .debug_line    0x00000000000075ae      0x427 /tmp/ccYuApp5.debug.temp.o
+ .debug_line    0x00000000000079d5      0x418 /tmp/ccvoZWI8.debug.temp.o
+ .debug_line    0x0000000000007ded      0x2f8 /tmp/ccliTAu9.debug.temp.o
+ .debug_line    0x00000000000080e5      0x41c /tmp/cc6qkVJ5.debug.temp.o
+ .debug_line    0x0000000000008501      0x419 /tmp/ccjdmcH9.debug.temp.o
+ .debug_line    0x000000000000891a      0x41b /tmp/cc0TXgm8.debug.temp.o
+ .debug_line    0x0000000000008d35      0x14c /tmp/ccvlTfk9.debug.temp.o
+ .debug_line    0x0000000000008e81      0x14b /tmp/ccbISMm7.debug.temp.o
+ .debug_line    0x0000000000008fcc      0x173 /tmp/ccnSvJm7.debug.temp.o
+ .debug_line    0x000000000000913f      0x176 /tmp/ccDt8OA8.debug.temp.o
+ .debug_line    0x00000000000092b5      0x173 /tmp/ccHE90k8.debug.temp.o
+ .debug_line    0x0000000000009428      0x20c /tmp/cczm6ub7.debug.temp.o
+ .debug_line    0x0000000000009634      0x330 /tmp/cc2Byoj7.debug.temp.o
+ .debug_line    0x0000000000009964      0x328 /tmp/ccC4IAh8.debug.temp.o
+ .debug_line    0x0000000000009c8c      0x2e9 /tmp/ccunla66.debug.temp.o
+ .debug_line    0x0000000000009f75      0x36c /tmp/ccBpY0l7.debug.temp.o
+ .debug_line    0x000000000000a2e1      0x36a /tmp/ccmZTHC6.debug.temp.o
+ .debug_line    0x000000000000a64b      0x3db /tmp/ccwwKaI8.debug.temp.o
+ .debug_line    0x000000000000aa26      0x3e0 /tmp/ccx2bam5.debug.temp.o
+ .debug_line    0x000000000000ae06      0x36d /tmp/ccWcrB48.debug.temp.o
+ .debug_line    0x000000000000b173      0x2b0 /tmp/ccBLTlm8.debug.temp.o
+ .debug_line    0x000000000000b423      0x14b /tmp/ccJxJVZ5.debug.temp.o
+ .debug_line    0x000000000000b56e      0x147 /tmp/ccjzuEG5.debug.temp.o
+ .debug_line    0x000000000000b6b5      0x14e /tmp/ccZpPLf5.debug.temp.o
+ .debug_line    0x000000000000b803      0x147 /tmp/ccjVv7A7.debug.temp.o
+ .debug_line    0x000000000000b94a      0x198 /tmp/ccGcRFU8.debug.temp.o
+ .debug_line    0x000000000000bae2      0x166 /tmp/ccY2E1J7.debug.temp.o
+ .debug_line    0x000000000000bc48      0x184 /tmp/ccLnXUV8.debug.temp.o
+ .debug_line    0x000000000000bdcc      0x228 /tmp/cc6hkem7.debug.temp.o
+ .debug_line    0x000000000000bff4      0x240 /tmp/ccaAhDO7.debug.temp.o
+ .debug_line    0x000000000000c234      0x153 /tmp/ccw98Ys6.debug.temp.o
+ .debug_line    0x000000000000c387      0x16b /tmp/cc0ZAuF6.debug.temp.o
+ .debug_line    0x000000000000c4f2      0x2a9 /tmp/cclfu3I9.debug.temp.o
+
+.debug_str      0x0000000000000000     0x858a
+ .debug_str     0x0000000000000000      0x263 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o
+                                        0x27c (size before relaxing)
+ .debug_str     0x0000000000000263     0x154c /tmp/ccfG5bV6.debug.temp.o
+                                       0x1690 (size before relaxing)
+ .debug_str     0x00000000000017af      0x27a /tmp/cclm6It8.debug.temp.o
+                                        0x3af (size before relaxing)
+ .debug_str     0x0000000000001a29       0xd3 /tmp/ccIM0IE7.debug.temp.o
+                                        0x34e (size before relaxing)
+ .debug_str     0x0000000000001afc       0x55 /tmp/cc7SpNL5.debug.temp.o
+                                        0x342 (size before relaxing)
+ .debug_str     0x0000000000001b51      0x874 /tmp/ccDRZNj6.debug.temp.o
+                                       0x1def (size before relaxing)
+ .debug_str     0x00000000000023c5     0x1d77 /tmp/ccYuApp5.debug.temp.o
+                                       0x3ad2 (size before relaxing)
+ .debug_str     0x000000000000413c      0x34c /tmp/ccvoZWI8.debug.temp.o
+                                       0x318a (size before relaxing)
+ .debug_str     0x0000000000004488       0xc3 /tmp/ccliTAu9.debug.temp.o
+                                        0x9ee (size before relaxing)
+ .debug_str     0x000000000000454b      0x3e8 /tmp/cc6qkVJ5.debug.temp.o
+                                       0x3052 (size before relaxing)
+ .debug_str     0x0000000000004933      0x1dd /tmp/ccjdmcH9.debug.temp.o
+                                       0x304a (size before relaxing)
+ .debug_str     0x0000000000004b10      0x190 /tmp/cc0TXgm8.debug.temp.o
+                                       0x2d66 (size before relaxing)
+ .debug_str     0x0000000000004ca0       0xa5 /tmp/ccvlTfk9.debug.temp.o
+                                        0x461 (size before relaxing)
+ .debug_str     0x0000000000004d45      0x11a /tmp/ccbISMm7.debug.temp.o
+                                        0x571 (size before relaxing)
+ .debug_str     0x0000000000004e5f       0xc0 /tmp/ccnSvJm7.debug.temp.o
+                                        0x358 (size before relaxing)
+ .debug_str     0x0000000000004f1f       0x74 /tmp/ccDt8OA8.debug.temp.o
+                                        0x381 (size before relaxing)
+ .debug_str     0x0000000000004f93       0x52 /tmp/ccHE90k8.debug.temp.o
+                                        0x370 (size before relaxing)
+ .debug_str     0x0000000000004fe5      0x24d /tmp/cczm6ub7.debug.temp.o
+                                        0x5c4 (size before relaxing)
+ .debug_str     0x0000000000005232       0xfd /tmp/cc2Byoj7.debug.temp.o
+                                       0x156d (size before relaxing)
+ .debug_str     0x000000000000532f      0x30a /tmp/ccC4IAh8.debug.temp.o
+                                       0x17d9 (size before relaxing)
+ .debug_str     0x0000000000005639      0x10c /tmp/ccunla66.debug.temp.o
+                                       0x156f (size before relaxing)
+ .debug_str     0x0000000000005745      0x406 /tmp/ccBpY0l7.debug.temp.o
+                                       0x1974 (size before relaxing)
+ .debug_str     0x0000000000005b4b       0xbc /tmp/ccmZTHC6.debug.temp.o
+                                       0x17d8 (size before relaxing)
+ .debug_str     0x0000000000005c07      0x6e5 /tmp/ccwwKaI8.debug.temp.o
+                                       0x25ec (size before relaxing)
+ .debug_str     0x00000000000062ec      0x650 /tmp/ccx2bam5.debug.temp.o
+                                       0x20aa (size before relaxing)
+ .debug_str     0x000000000000693c      0x618 /tmp/ccWcrB48.debug.temp.o
+                                       0x20b1 (size before relaxing)
+ .debug_str     0x0000000000006f54      0x257 /tmp/ccBLTlm8.debug.temp.o
+                                        0x6b3 (size before relaxing)
+ .debug_str     0x00000000000071ab      0x2ca /tmp/ccJxJVZ5.debug.temp.o
+                                        0x82d (size before relaxing)
+ .debug_str     0x0000000000007475      0x2e7 /tmp/ccjzuEG5.debug.temp.o
+                                        0x7e2 (size before relaxing)
+ .debug_str     0x000000000000775c       0xf5 /tmp/ccZpPLf5.debug.temp.o
+                                        0x508 (size before relaxing)
+ .debug_str     0x0000000000007851      0x1a1 /tmp/ccjVv7A7.debug.temp.o
+                                        0x5df (size before relaxing)
+ .debug_str     0x00000000000079f2      0x115 /tmp/ccGcRFU8.debug.temp.o
+                                        0x3e0 (size before relaxing)
+ .debug_str     0x0000000000007b07      0x21d /tmp/ccY2E1J7.debug.temp.o
+                                        0x5a2 (size before relaxing)
+ .debug_str     0x0000000000007d24      0x227 /tmp/ccLnXUV8.debug.temp.o
+                                        0x70c (size before relaxing)
+ .debug_str     0x0000000000007f4b      0x102 /tmp/cc6hkem7.debug.temp.o
+                                        0x516 (size before relaxing)
+ .debug_str     0x000000000000804d      0x101 /tmp/ccaAhDO7.debug.temp.o
+                                        0x5b3 (size before relaxing)
+ .debug_str     0x000000000000814e       0x5d /tmp/ccw98Ys6.debug.temp.o
+                                        0x47e (size before relaxing)
+ .debug_str     0x00000000000081ab      0x1ab /tmp/cc0ZAuF6.debug.temp.o
+                                        0x44d (size before relaxing)
+ .debug_str     0x0000000000008356      0x234 /tmp/cclfu3I9.debug.temp.o
+                                        0x818 (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x14e0
+ .debug_frame   0x0000000000000000     0x14e0 /tmp/UsbBusDxe.dll.oP20g8.ltrans0.ltrans.o

@@ -2,7 +2,7 @@
   Library functions which relates with booting.
 
 Copyright (c) 2019, NVIDIA CORPORATION. All rights reserved.
-Copyright (c) 2011 - 2021, Intel Corporation. All rights reserved.<BR>
+Copyright (c) 2011 - 2020, Intel Corporation. All rights reserved.<BR>
 (C) Copyright 2015-2021 Hewlett Packard Enterprise Development LP<BR>
 SPDX-License-Identifier: BSD-2-Clause-Patent
 
@@ -2385,8 +2385,7 @@ EfiBootManagerRefreshAllBootOption (
   This function is called to get or create the boot option for the Boot Manager Menu.
 
   The Boot Manager Menu is shown after successfully booting a boot option.
-  This function will first try to search the BootManagerMenuFile is in the same FV as
-  the module links to this library. If fails, it will search in all FVs.
+  Assume the BootManagerMenuFile is in the same FV as the module links to this library.
 
   @param  BootOption    Return the boot option of the Boot Manager Menu
 
@@ -2405,9 +2404,13 @@ BmRegisterBootManagerMenu (
   CHAR16                             *Description;
   UINTN                              DescriptionLength;
   EFI_DEVICE_PATH_PROTOCOL           *DevicePath;
+  EFI_LOADED_IMAGE_PROTOCOL          *LoadedImage;
+  MEDIA_FW_VOL_FILEPATH_DEVICE_PATH  FileNode;
   UINTN                              HandleCount;
   EFI_HANDLE                         *Handles;
   UINTN                              Index;
+  VOID                               *Data;
+  UINTN                              DataSize;
 
   DevicePath = NULL;
   Description = NULL;
@@ -2433,21 +2436,26 @@ BmRegisterBootManagerMenu (
   }
 
   if (DevicePath == NULL) {
-    Status = GetFileDevicePathFromAnyFv (
+    Data = NULL;
+    Status = GetSectionFromFv (
                PcdGetPtr (PcdBootManagerMenuFile),
                EFI_SECTION_PE32,
                0,
-               &DevicePath
+               (VOID **) &Data,
+               &DataSize
                );
+    if (Data != NULL) {
+      FreePool (Data);
+    }
     if (EFI_ERROR (Status)) {
       DEBUG ((EFI_D_WARN, "[Bds]BootManagerMenu FFS section can not be found, skip its boot option registration\n"));
       return EFI_NOT_FOUND;
     }
-    ASSERT (DevicePath != NULL);
+
     //
     // Get BootManagerMenu application's description from EFI User Interface Section.
     //
-    Status = GetSectionFromAnyFv (
+    Status = GetSectionFromFv (
                PcdGetPtr (PcdBootManagerMenuFile),
                EFI_SECTION_USER_INTERFACE,
                0,
@@ -2457,6 +2465,19 @@ BmRegisterBootManagerMenu (
     if (EFI_ERROR (Status)) {
       Description = NULL;
     }
+
+    EfiInitializeFwVolDevicepathNode (&FileNode, PcdGetPtr (PcdBootManagerMenuFile));
+    Status = gBS->HandleProtocol (
+                    gImageHandle,
+                    &gEfiLoadedImageProtocolGuid,
+                    (VOID **) &LoadedImage
+                    );
+    ASSERT_EFI_ERROR (Status);
+    DevicePath = AppendDevicePathNode (
+                   DevicePathFromHandle (LoadedImage->DeviceHandle),
+                   (EFI_DEVICE_PATH_PROTOCOL *) &FileNode
+                   );
+    ASSERT (DevicePath != NULL);
   }
 
   Status = EfiBootManagerInitializeLoadOption (

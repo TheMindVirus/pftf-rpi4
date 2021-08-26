@@ -42,7 +42,6 @@ AddUnitTestFailure (
 
 STATIC
 VOID
-EFIAPI
 UnitTestLogFailure (
   IN FAILURE_TYPE  FailureType,
   IN CONST CHAR8   *Format,

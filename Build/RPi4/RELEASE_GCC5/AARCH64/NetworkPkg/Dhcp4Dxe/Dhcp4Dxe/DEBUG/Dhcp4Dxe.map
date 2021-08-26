@@ -1,0 +1,1003 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                              (_ModuleEntryPoint)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib(BaseStackCheckGcc.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (__stack_chk_fail)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memcpy.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memcpy)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memset.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memset)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Dhcp4Dxe/Dhcp4Dxe/OUTPUT/Dhcp4Dxe.lib(AutoGen.obj)
+                              DriverEntryPoint.obj (symbol from plugin) (ProcessLibraryConstructorList)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Dhcp4Dxe/Dhcp4Dxe/OUTPUT/Dhcp4Dxe.lib(Dhcp4Driver.obj)
+                              AutoGen.obj (symbol from plugin) (Dhcp4DriverEntryPoint)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Dhcp4Dxe/Dhcp4Dxe/OUTPUT/Dhcp4Dxe.lib(Dhcp4Impl.obj)
+                              Dhcp4Driver.obj (symbol from plugin) (DhcpYieldControl)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Dhcp4Dxe/Dhcp4Dxe/OUTPUT/Dhcp4Dxe.lib(Dhcp4Io.obj)
+                              Dhcp4Impl.obj (symbol from plugin) (DhcpOnPacketSent)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Dhcp4Dxe/Dhcp4Dxe/OUTPUT/Dhcp4Dxe.lib(ComponentName.obj)
+                              Dhcp4Driver.obj (symbol from plugin) (gDhcp4ComponentName)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Dhcp4Dxe/Dhcp4Dxe/OUTPUT/Dhcp4Dxe.lib(Dhcp4Option.obj)
+                              Dhcp4Impl.obj (symbol from plugin) (DhcpIterateOptions)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+                              Dhcp4Driver.obj (symbol from plugin) (ZeroMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMemWrapper.obj)
+                              Dhcp4Impl.obj (symbol from plugin) (CompareMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+                              Dhcp4Driver.obj (symbol from plugin) (CopyMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                              ZeroMemWrapper.obj (symbol from plugin) (InternalMemZeroMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                              CopyMemWrapper.obj (symbol from plugin) (InternalMemCopyMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                              CompareMemWrapper.obj (symbol from plugin) (InternalMemCompareMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              Dhcp4Impl.obj (symbol from plugin) (SwapBytes32)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              Dhcp4Impl.obj (symbol from plugin) (SwapBytes16)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              Dhcp4Impl.obj (symbol from plugin) (MultU64x32)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuDeadLoop)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LinkedList.obj)
+                              Dhcp4Driver.obj (symbol from plugin) (InitializeListHead)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              Dhcp4Io.obj (symbol from plugin) (AsciiStrLen)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              Dhcp4Impl.obj (symbol from plugin) (WriteUnaligned16)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              MultU64x32.obj (symbol from plugin) (InternalMathMultU64x32)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuBreakpoint)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              Unaligned.obj (symbol from plugin) (RShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              Unaligned.obj (symbol from plugin) (LShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              String.obj (symbol from plugin) (StrDecimalToUintnS)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              SafeString.obj (symbol from plugin) (DivU64x32)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiBootServicesTableLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              Dhcp4Driver.obj (symbol from plugin) (AllocatePool)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiRuntimeServicesTableLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiDriverModel.obj)
+                              Dhcp4Driver.obj (symbol from plugin) (EfiLibInstallDriverBindingComponentName2)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Library/DxeDpcLib/DxeDpcLib/OUTPUT/DxeDpcLib.lib(DpcLib.obj)
+                              AutoGen.obj (symbol from plugin) (DpcLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Library/DxeNetLib/DxeNetLib/OUTPUT/DxeNetLib.lib(DxeNetLib.obj)
+                              Dhcp4Impl.obj (symbol from plugin) (gIp4AllMasks)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Library/DxeNetLib/DxeNetLib/OUTPUT/DxeNetLib.lib(NetBuffer.obj)
+                              Dhcp4Impl.obj (symbol from plugin) (NetbufAlloc)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Library/DxeUdpIoLib/DxeUdpIoLib/OUTPUT/DxeUpdIoLib.lib(DxeUdpIoLib.obj)
+                              Dhcp4Driver.obj (symbol from plugin) (UdpIoCreateIo)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+                              SafeString.obj (symbol from plugin) (CopyGuid)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+                              DxeNetLib.obj (symbol from plugin) (SetMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCompareGuid)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+                              SetMemWrapper.obj (symbol from plugin) (SetMem64)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+                              DxeNetLib.obj (symbol from plugin) (DebugCodeEnabled)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+                              DxeNetLib.obj (symbol from plugin) (SwapBytes64)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              DxeNetLib.obj (symbol from plugin) (UnicodeSPrint)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              PrintLib.obj (symbol from plugin) (BasePrintLibConvertValueToStringS)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilities.obj)
+                              UefiLib.obj (symbol from plugin) (DevicePathType)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilitiesDxeSmm.obj)
+                              DxeNetLib.obj (symbol from plugin) (DevicePathFromHandle)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(UefiDevicePathLib.obj)
+                              DevicePathUtilities.obj (symbol from plugin) (GetDevicePathSize)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathToText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertDeviceNodeToText)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathFromText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertTextToDeviceNode)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              PrintLibInternal.obj (symbol from plugin) (DivU64x32Remainder)
+
+Discarded input sections
+
+ .text          0x0000000000000000       0x10 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .text          0x0000000000000000        0x0 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.__memset
+                0x0000000000000000       0x1c /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.memcpy   0x0000000000000000       0x20 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/ccH0RsHC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccH0RsHC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cccQDSRA.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cccQDSRA.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccc8yXCA.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccc8yXCA.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccuv7mSE.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccuv7mSE.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccDHqSPB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccDHqSPB.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccvp2stE.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccvp2stE.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccGkOA5D.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccGkOA5D.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccPrBNcE.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPrBNcE.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc9Qed1A.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc9Qed1A.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccUHzdOE.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccUHzdOE.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc1pA94B.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc1pA94B.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cctGRkpE.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cctGRkpE.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc7AxegE.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc7AxegE.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccfewDtB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccfewDtB.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc9EVK6A.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc9EVK6A.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccxDOWAA.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccxDOWAA.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccSDcIbC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccSDcIbC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cce5ppxC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cce5ppxC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccqe8vDD.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccqe8vDD.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cclaJqpC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cclaJqpC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc9hyKAC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc9hyKAC.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/ccQvyhHD.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccQvyhHD.debug.temp.o
+ .debug_line    0x0000000000000000      0x14c /tmp/ccQvyhHD.debug.temp.o
+ .debug_str     0x0000000000000000      0x467 /tmp/ccQvyhHD.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccQvyhHD.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccQvyhHD.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/cc06VZTB.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/cc06VZTB.debug.temp.o
+ .debug_line    0x0000000000000000      0x14c /tmp/cc06VZTB.debug.temp.o
+ .debug_str     0x0000000000000000      0x467 /tmp/cc06VZTB.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc06VZTB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc06VZTB.debug.temp.o
+ .debug_info    0x0000000000000000      0xdc8 /tmp/ccDixKOC.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x12d /tmp/ccDixKOC.debug.temp.o
+ .debug_line    0x0000000000000000      0x14d /tmp/ccDixKOC.debug.temp.o
+ .debug_str     0x0000000000000000      0x822 /tmp/ccDixKOC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccDixKOC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccDixKOC.debug.temp.o
+ .debug_info    0x0000000000000000      0x1cf /tmp/cczHToeC.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/cczHToeC.debug.temp.o
+ .debug_line    0x0000000000000000      0x14c /tmp/cczHToeC.debug.temp.o
+ .debug_str     0x0000000000000000      0x464 /tmp/cczHToeC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cczHToeC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cczHToeC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc4GRsmC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc4GRsmC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccSNFKUA.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccSNFKUA.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccDWKLxC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccDWKLxC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccy5QyFC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccy5QyFC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccHlORzC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccHlORzC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cczNWtoC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cczNWtoC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccYz42tE.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccYz42tE.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc3CnUOA.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc3CnUOA.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccLkXJtA.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccLkXJtA.debug.temp.o
+ .debug_info    0x0000000000000000      0x21d /tmp/ccPZn1TD.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xce /tmp/ccPZn1TD.debug.temp.o
+ .debug_line    0x0000000000000000      0x175 /tmp/ccPZn1TD.debug.temp.o
+ .debug_str     0x0000000000000000      0x3af /tmp/ccPZn1TD.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccPZn1TD.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPZn1TD.debug.temp.o
+ .debug_info    0x0000000000000000      0x1af /tmp/ccWo8b1B.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xc6 /tmp/ccWo8b1B.debug.temp.o
+ .debug_line    0x0000000000000000      0x174 /tmp/ccWo8b1B.debug.temp.o
+ .debug_str     0x0000000000000000      0x35e /tmp/ccWo8b1B.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccWo8b1B.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWo8b1B.debug.temp.o
+ .debug_info    0x0000000000000000      0x17a /tmp/ccFWji7C.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccFWji7C.debug.temp.o
+ .debug_line    0x0000000000000000      0x176 /tmp/ccFWji7C.debug.temp.o
+ .debug_str     0x0000000000000000      0x35a /tmp/ccFWji7C.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccFWji7C.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccFWji7C.debug.temp.o
+ .debug_info    0x0000000000000000      0x2ef /tmp/ccOlVRYB.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x121 /tmp/ccOlVRYB.debug.temp.o
+ .debug_line    0x0000000000000000      0x174 /tmp/ccOlVRYB.debug.temp.o
+ .debug_str     0x0000000000000000      0x480 /tmp/ccOlVRYB.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccOlVRYB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccOlVRYB.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccDtvuzD.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccDtvuzD.debug.temp.o
+ .debug_info    0x0000000000000000      0x683 /tmp/ccWLAZXC.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x150 /tmp/ccWLAZXC.debug.temp.o
+ .debug_line    0x0000000000000000      0x168 /tmp/ccWLAZXC.debug.temp.o
+ .debug_str     0x0000000000000000      0x59c /tmp/ccWLAZXC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccWLAZXC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWLAZXC.debug.temp.o
+ .debug_info    0x0000000000000000      0x79a /tmp/ccjmDurD.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x161 /tmp/ccjmDurD.debug.temp.o
+ .debug_line    0x0000000000000000      0x186 /tmp/ccjmDurD.debug.temp.o
+ .debug_str     0x0000000000000000      0x70e /tmp/ccjmDurD.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccjmDurD.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccjmDurD.debug.temp.o
+ .debug_info    0x0000000000000000     0x1d7d /tmp/cc39CNlD.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x240 /tmp/cc39CNlD.debug.temp.o
+ .debug_line    0x0000000000000000      0x36e /tmp/cc39CNlD.debug.temp.o
+ .debug_str     0x0000000000000000     0x1976 /tmp/cc39CNlD.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc39CNlD.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc39CNlD.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccX4h7tB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccX4h7tB.debug.temp.o
+ .debug_info    0x0000000000000000     0x1afe /tmp/ccSLinSC.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x1fe /tmp/ccSLinSC.debug.temp.o
+ .debug_line    0x0000000000000000      0x36c /tmp/ccSLinSC.debug.temp.o
+ .debug_str     0x0000000000000000     0x17da /tmp/ccSLinSC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccSLinSC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccSLinSC.debug.temp.o
+ .debug_info    0x0000000000000000     0x3d60 /tmp/ccEt8DAD.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x2ca /tmp/ccEt8DAD.debug.temp.o
+ .debug_line    0x0000000000000000      0x3dd /tmp/ccEt8DAD.debug.temp.o
+ .debug_str     0x0000000000000000     0x25ee /tmp/ccEt8DAD.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccEt8DAD.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccEt8DAD.debug.temp.o
+ .debug_info    0x0000000000000000     0x45d4 /tmp/ccOjliwA.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x2b0 /tmp/ccOjliwA.debug.temp.o
+ .debug_line    0x0000000000000000      0x3d1 /tmp/ccOjliwA.debug.temp.o
+ .debug_str     0x0000000000000000     0x2f13 /tmp/ccOjliwA.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccOjliwA.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccOjliwA.debug.temp.o
+ .debug_info    0x0000000000000000      0x1e5 /tmp/ccOrnzlE.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb3 /tmp/ccOrnzlE.debug.temp.o
+ .debug_line    0x0000000000000000      0x155 /tmp/ccOrnzlE.debug.temp.o
+ .debug_str     0x0000000000000000      0x480 /tmp/ccOrnzlE.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccOrnzlE.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccOrnzlE.debug.temp.o
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+ .text          0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .text          0x0000000000000000       0x20 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+START GROUP
+LOAD /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+LOAD /tmp/ccH0RsHC.debug.temp.o
+LOAD /tmp/cccQDSRA.debug.temp.o
+LOAD /tmp/ccc8yXCA.debug.temp.o
+LOAD /tmp/ccuv7mSE.debug.temp.o
+LOAD /tmp/ccDHqSPB.debug.temp.o
+LOAD /tmp/ccvp2stE.debug.temp.o
+LOAD /tmp/ccGkOA5D.debug.temp.o
+LOAD /tmp/ccPrBNcE.debug.temp.o
+LOAD /tmp/cc9Qed1A.debug.temp.o
+LOAD /tmp/ccUHzdOE.debug.temp.o
+LOAD /tmp/cc1pA94B.debug.temp.o
+LOAD /tmp/cctGRkpE.debug.temp.o
+LOAD /tmp/cc7AxegE.debug.temp.o
+LOAD /tmp/ccfewDtB.debug.temp.o
+LOAD /tmp/cc9EVK6A.debug.temp.o
+LOAD /tmp/ccxDOWAA.debug.temp.o
+LOAD /tmp/ccSDcIbC.debug.temp.o
+LOAD /tmp/cce5ppxC.debug.temp.o
+LOAD /tmp/ccqe8vDD.debug.temp.o
+LOAD /tmp/cclaJqpC.debug.temp.o
+LOAD /tmp/cc9hyKAC.debug.temp.o
+LOAD /tmp/ccQvyhHD.debug.temp.o
+LOAD /tmp/cc06VZTB.debug.temp.o
+LOAD /tmp/ccDixKOC.debug.temp.o
+LOAD /tmp/cczHToeC.debug.temp.o
+LOAD /tmp/cc4GRsmC.debug.temp.o
+LOAD /tmp/ccSNFKUA.debug.temp.o
+LOAD /tmp/ccDWKLxC.debug.temp.o
+LOAD /tmp/ccy5QyFC.debug.temp.o
+LOAD /tmp/ccHlORzC.debug.temp.o
+LOAD /tmp/cczNWtoC.debug.temp.o
+LOAD /tmp/ccYz42tE.debug.temp.o
+LOAD /tmp/cc3CnUOA.debug.temp.o
+LOAD /tmp/ccLkXJtA.debug.temp.o
+LOAD /tmp/ccPZn1TD.debug.temp.o
+LOAD /tmp/ccWo8b1B.debug.temp.o
+LOAD /tmp/ccFWji7C.debug.temp.o
+LOAD /tmp/ccOlVRYB.debug.temp.o
+LOAD /tmp/ccDtvuzD.debug.temp.o
+LOAD /tmp/ccWLAZXC.debug.temp.o
+LOAD /tmp/ccjmDurD.debug.temp.o
+LOAD /tmp/cc39CNlD.debug.temp.o
+LOAD /tmp/ccX4h7tB.debug.temp.o
+LOAD /tmp/ccSLinSC.debug.temp.o
+LOAD /tmp/ccEt8DAD.debug.temp.o
+LOAD /tmp/ccOjliwA.debug.temp.o
+LOAD /tmp/ccOrnzlE.debug.temp.o
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Dhcp4Dxe/Dhcp4Dxe/OUTPUT/Dhcp4Dxe.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Library/DxeDpcLib/DxeDpcLib/OUTPUT/DxeDpcLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Library/DxeNetLib/DxeNetLib/OUTPUT/DxeNetLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Library/DxeUdpIoLib/DxeUdpIoLib/OUTPUT/DxeUpdIoLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib
+END GROUP
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.gnu.version_d  0x0000000000000228        0x0
+ .gnu.version_d
+                0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version    0x0000000000000228        0x0
+ .gnu.version   0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version_r  0x0000000000000228        0x0
+ .gnu.version_r
+                0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.text           0x0000000000001000     0x6568
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.GetNextNode.constprop.0
+                0x0000000000001000        0x8 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.InternalAllocatePool.constprop.0
+                0x0000000000001008       0x6c /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.MultU64x32.constprop.0
+                0x0000000000001074        0xc /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.NetLibGetSnpHandle.constprop.0
+                0x0000000000001080      0x114 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.DhcpGetOptionLen
+                0x0000000000001194       0x18 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.UdpIoOnDgramRcvd
+                0x00000000000011ac       0x24 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.UdpIoOnDgramSent
+                0x00000000000011d0       0x24 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.NetbufBuildExt
+                0x00000000000011f4       0x70 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.NetLibDestroyServiceChild
+                0x0000000000001264       0x84 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.FreePool
+                0x00000000000012e8       0x14 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.UdpIoFreeRxToken
+                0x00000000000012fc       0x50 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.UdpIoRecycleDgram
+                0x000000000000134c       0x54 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.UdpIoFreeTxToken
+                0x00000000000013a0       0x50 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.NetbufFree
+                0x00000000000013f0       0xcc /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.DhcpOnPacketSent
+                0x00000000000014bc        0x4 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.FreeUnicodeStringTable
+                0x00000000000014c0       0x58 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.AllocatePool
+                0x0000000000001518        0x4 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.UdpIoRecvDatagram.constprop.0
+                0x000000000000151c       0xf4 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.ReadUnaligned24
+                0x0000000000001610       0x38 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.WriteUnaligned16
+                0x0000000000001648       0x18 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.AsciiStrnCmp
+                0x0000000000001660       0x44 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.IsLanguageSupported
+                0x00000000000016a4       0x7c /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.LookupUnicodeString2
+                0x0000000000001720       0xe4 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.AsciiStrLen
+                0x0000000000001804       0x1c /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.AsciiStrSize
+                0x0000000000001820       0x18 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.StrSize  0x0000000000001838       0x18 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.RemoveEntryList
+                0x0000000000001850       0x14 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.UdpIoOnDgramSentDpc
+                0x0000000000001864       0x3c /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.IsNull   0x00000000000018a0        0xc /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.IsListEmpty
+                0x00000000000018ac       0x10 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.GetFirstNode
+                0x00000000000018bc        0x8 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.InsertTailList
+                0x00000000000018c4       0x18 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.InsertHeadList
+                0x00000000000018dc       0x14 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.InitializeListHead
+                0x00000000000018f0        0x8 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.SwapBytes16
+                0x00000000000018f8        0x8 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.SwapBytes32
+                0x0000000000001900       0x20 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.SwapBytes64
+                0x0000000000001920       0x2c /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.DhcpIterateBufferOptions
+                0x000000000000194c       0xc4 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.DhcpIterateOptions
+                0x0000000000001a10       0xe4 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.DhcpComponentNameGetDriverName
+                0x0000000000001af4       0x2c /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.DhcpDummyExtFree
+                0x0000000000001b20        0x4 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.DhcpComputeLease
+                0x0000000000001b24       0x60 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.DhcpNotifyUser
+                0x0000000000001b84       0x74 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.DhcpCallUser
+                0x0000000000001bf8       0x70 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.DhcpSetState
+                0x0000000000001c68       0xa8 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.Dhcp4ParseCheckOption
+                0x0000000000001d10       0x28 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.DhcpYieldControl
+                0x0000000000001d38       0x54 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.Dhcp4DestroyChildEntry
+                0x0000000000001d8c       0x30 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.Dhcp4DriverBindingSupported
+                0x0000000000001dbc       0x30 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text._DriverUnloadHandler
+                0x0000000000001dec      0x1b8 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.UdpIoCancelDgrams.constprop.0
+                0x0000000000001fa4       0x68 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.UdpIoCleanIo
+                0x000000000000200c       0x64 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.UdpIoFreeIo
+                0x0000000000002070      0x104 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.Dhcp4ServiceBindingDestroyChild
+                0x0000000000002174      0x218 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.UdpIoCreateIo.constprop.0
+                0x000000000000238c      0x1a8 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.DhcpLeaseAcquired
+                0x0000000000002534       0xb4 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.CopyMem  0x00000000000025e8       0x1c /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.UdpIoSendDatagram.constprop.0
+                0x0000000000002604      0x294 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.DhcpFillOption
+                0x0000000000002898       0x90 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.NetbufCopy
+                0x0000000000002928      0x158 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.PxeDhcpDone
+                0x0000000000002a80      0x1c4 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.NetGetUint32
+                0x0000000000002c44       0x58 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.Ip6Swap128
+                0x0000000000002c9c       0xb0 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.AllocateCopyPool
+                0x0000000000002d4c       0x3c /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.NetLibDetectMedia.constprop.0
+                0x0000000000002d88      0x214 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.AddUnicodeString2.part.0.constprop.0
+                0x0000000000002f9c      0x150 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.DhcpComponentNameGetControllerName
+                0x00000000000030ec      0x248 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.DhcpAppendOption
+                0x0000000000003334       0x98 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.Dhcp4ServiceBindingCreateChild
+                0x00000000000033cc      0x1e4 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.CompareMem
+                0x00000000000035b0       0x18 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.ZeroMem  0x00000000000035c8        0xc /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.AllocateZeroPool
+                0x00000000000035d4       0x34 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.DhcpParseOption.constprop.0
+                0x0000000000003608      0x144 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.NetbufAllocStruct
+                0x000000000000374c       0xbc /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.NetbufFromExt.constprop.0
+                0x0000000000003808      0x258 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.UdpIoOnDgramRcvdDpc
+                0x0000000000003a60      0x234 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.DhcpValidateOptions
+                0x0000000000003c94      0x2a8 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.PxeDhcpInput
+                0x0000000000003f3c      0x288 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.EfiDhcp4Build
+                0x00000000000041c4      0x2a0 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.DhcpSendMessage
+                0x0000000000004464      0x48c /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.DhcpChooseOffer
+                0x00000000000048f0      0x120 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.DhcpInitRequest
+                0x0000000000004a10       0x94 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.EfiDhcp4Start
+                0x0000000000004aa4      0x31c /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.EfiDhcp4RenewRebind
+                0x0000000000004dc0      0x16c /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.DhcpConfigLeaseIoPort
+                0x0000000000004f2c      0x138 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.EfiDhcp4Parse
+                0x0000000000005064      0x100 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.EfiDhcp4TransmitReceive
+                0x0000000000005164      0x374 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.Dhcp4InstanceConfigUdpIo
+                0x00000000000054d8      0x164 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.DhcpCleanConfigure
+                0x000000000000563c       0x74 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.DhcpCleanLease
+                0x00000000000056b0       0xa4 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.DhcpEndSession
+                0x0000000000005754       0x5c /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.DhcpOnTimerTick
+                0x00000000000057b0      0x31c /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.DhcpInput
+                0x0000000000005acc      0x4e0 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.EfiDhcp4Stop
+                0x0000000000005fac       0x94 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.EfiDhcp4Release
+                0x0000000000006040       0xd8 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.Dhcp4CloseService
+                0x0000000000006118       0x68 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.Dhcp4DriverBindingStop
+                0x0000000000006180      0x230 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.Dhcp4DriverBindingStart
+                0x00000000000063b0      0x270 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.EfiDhcp4Configure
+                0x0000000000006620      0x33c /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.EfiDhcp4GetModeData
+                0x000000000000695c      0x16c /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.DhcpConfigUdpIo
+                0x0000000000006ac8       0xac /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .text.__stack_chk_fail
+                0x0000000000006b74       0x18 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+                0x0000000000006b74                __stack_chk_fail
+ .text._ModuleEntryPoint
+                0x0000000000006b8c      0x100 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+                0x0000000000006b8c                _ModuleEntryPoint
+ *fill*         0x0000000000006c8c        0x4 
+ .text          0x0000000000006c90      0x200 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                0x0000000000006c90                InternalMemSetMem16
+                0x0000000000006c9c                InternalMemSetMem32
+                0x0000000000006ca8                InternalMemSetMem64
+                0x0000000000006cb4                InternalMemZeroMem
+                0x0000000000006cbc                InternalMemSetMem
+ .text          0x0000000000006e90      0x218 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                0x0000000000006ffc                InternalMemCopyMem
+ *fill*         0x00000000000070a8       0x18 
+ .text          0x00000000000070c0       0xe0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                0x00000000000070c0                InternalMemCompareMem
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.DhcpComponentNameGetControllerName.str1.1
+                0x00000000000071a0        0x4 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+                                          0x7 (size before relaxing)
+ .rodata.DhcpValidateOptions
+                0x00000000000071a4        0x9 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .rodata.EfiDhcp4RenewRebind.str1.1
+                0x00000000000071ad       0x26 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .rodata.DhcpInput.str1.1
+                0x00000000000071d3       0x7a /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ *fill*         0x000000000000724d        0x3 
+ .rodata.DhcpInput
+                0x0000000000007250       0x10 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .rodata.str1.1
+                0x0000000000007260        0x7 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ *fill*         0x0000000000007267        0x1 
+ .rodata.str2.2
+                0x0000000000007268      0x20e /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .rodata.CSWTCH.43
+                0x0000000000007476        0x6 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .rodata.gIp4AllMasks
+                0x000000000000747c       0x84 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .rodata.mDhcp4ControllerName
+                0x0000000000007500       0x48 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ *(.got .got.*)
+ .got           0x0000000000007548        0x8 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x0000000000007548                _GLOBAL_OFFSET_TABLE_
+ .got.plt       0x0000000000007550       0x18 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ *:AutoGen.obj(.data.g*Guid)
+
+.plt            0x0000000000007568        0x0
+ .plt           0x0000000000007568        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.data           0x0000000000008000      0xdc4
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.ro   0x0000000000008000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data.DhcpOptionFormats
+                0x0000000000008000      0xbb8 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .data.__stack_chk_guard
+                0x0000000000008bb8        0x8 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+                0x0000000000008bb8                __stack_chk_guard
+ .data.gDhcp4ComponentName
+                0x0000000000008bc0       0x18 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .data.gDhcp4ComponentName2
+                0x0000000000008bd8       0x18 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .data.gDhcp4DriverBinding
+                0x0000000000008bf0       0x30 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .data.gEfiAdapterInfoMediaStateGuid
+                0x0000000000008c20       0x10 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .data.gEfiAdapterInformationProtocolGuid
+                0x0000000000008c30       0x10 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .data.gEfiComponentName2ProtocolGuid
+                0x0000000000008c40       0x10 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .data.gEfiComponentNameProtocolGuid
+                0x0000000000008c50       0x10 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .data.gEfiDevicePathProtocolGuid
+                0x0000000000008c60       0x10 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .data.gEfiDhcp4ProtocolGuid
+                0x0000000000008c70       0x10 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .data.gEfiDhcp4ServiceBindingProtocolGuid
+                0x0000000000008c80       0x10 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .data.gEfiDpcProtocolGuid
+                0x0000000000008c90       0x10 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .data.gEfiDriverBindingProtocolGuid
+                0x0000000000008ca0       0x10 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .data.gEfiLoadedImageProtocolGuid
+                0x0000000000008cb0       0x10 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .data.gEfiSimpleNetworkProtocolGuid
+                0x0000000000008cc0       0x10 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .data.gEfiUdp4ProtocolGuid
+                0x0000000000008cd0       0x10 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .data.gEfiUdp4ServiceBindingProtocolGuid
+                0x0000000000008ce0       0x10 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .data.gEfiUdp6ProtocolGuid
+                0x0000000000008cf0       0x10 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .data.gEfiUdp6ServiceBindingProtocolGuid
+                0x0000000000008d00       0x10 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .data.mDhcp4DefaultTimeout
+                0x0000000000008d10       0x10 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .data.mDhcp4ProtocolTemplate
+                0x0000000000008d20       0x48 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .data.mDhcp4ServiceBindingTemplate
+                0x0000000000008d68       0x10 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .data.mDhcpDriverNameTable
+                0x0000000000008d78       0x20 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ *(.bss .bss.*)
+ .bss.gBS       0x0000000000008d98        0x8 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .bss.gDhcpControllerNameTable
+                0x0000000000008da0        0x8 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .bss.gRT       0x0000000000008da8        0x8 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .bss.gST       0x0000000000008db0        0x8 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .bss.mDpc      0x0000000000008db8        0x8 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .bss.mZeroIp4Addr
+                0x0000000000008dc0        0x4 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+
+.dynbss         0x0000000000008dc4        0x0
+ .dynbss        0x0000000000008dc4        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.eh_frame
+ *(.eh_frame)
+
+.rela           0x0000000000008dc8      0x2e8
+ *(.rela .rela.*)
+ .rela.got      0x0000000000008dc8        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.plt      0x0000000000008dc8        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.bss      0x0000000000008dc8        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.rel.ro
+                0x0000000000008dc8        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.ifunc    0x0000000000008dc8        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.gDhcp4ComponentName
+                0x0000000000008dc8       0x48 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.gDhcp4ComponentName2
+                0x0000000000008e10       0x48 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.gDhcp4DriverBinding
+                0x0000000000008e58       0x48 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.mDhcp4ProtocolTemplate
+                0x0000000000008ea0       0xd8 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.mDhcp4ServiceBindingTemplate
+                0x0000000000008f78       0x30 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.mDhcpDriverNameTable
+                0x0000000000008fa8       0x30 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mDhcp4ControllerName
+                0x0000000000008fd8       0xd8 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.hii
+ *(.hii)
+
+.build-id       0x00000000000090b0       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000000090b0       0x24 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+ *(COMMON)
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+OUTPUT(/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Dhcp4Dxe/Dhcp4Dxe/DEBUG/Dhcp4Dxe.dll elf64-littleaarch64)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000    0x38d40
+ .debug_info    0x0000000000000000     0x7394 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .debug_info    0x0000000000007394     0x1a57 /tmp/ccH0RsHC.debug.temp.o
+                0x0000000000007394                DriverEntryPoint.c.0bb94e37
+ .debug_info    0x0000000000008deb      0x17b /tmp/cccQDSRA.debug.temp.o
+                0x0000000000008deb                BaseStackCheckGcc.c.3fb9ce64
+ .debug_info    0x0000000000008f66      0x1d7 /tmp/ccc8yXCA.debug.temp.o
+                0x0000000000008f66                memcpy.c.79986cd0
+ .debug_info    0x000000000000913d      0x188 /tmp/ccuv7mSE.debug.temp.o
+                0x000000000000913d                memset.c.02de5c04
+ .debug_info    0x00000000000092c5     0x1de6 /tmp/ccDHqSPB.debug.temp.o
+                0x00000000000092c5                AutoGen.c.1a15d84d
+ .debug_info    0x000000000000b0ab     0x42f9 /tmp/ccvp2stE.debug.temp.o
+                0x000000000000b0ab                Dhcp4Driver.c.bfdc2f7f
+ .debug_info    0x000000000000f3a4     0x44ac /tmp/ccGkOA5D.debug.temp.o
+                0x000000000000f3a4                Dhcp4Impl.c.dd5e41d8
+ .debug_info    0x0000000000013850     0x4429 /tmp/ccPrBNcE.debug.temp.o
+                0x0000000000013850                Dhcp4Io.c.7602ab6e
+ .debug_info    0x0000000000017c79     0x2550 /tmp/cc9Qed1A.debug.temp.o
+                0x0000000000017c79                ComponentName.c.9af1e82e
+ .debug_info    0x000000000001a1c9     0x297d /tmp/ccUHzdOE.debug.temp.o
+                0x000000000001a1c9                Dhcp4Option.c.1ba4ccb3
+ .debug_info    0x000000000001cb46      0x16e /tmp/cc1pA94B.debug.temp.o
+                0x000000000001cb46                ZeroMemWrapper.c.da3b248e
+ .debug_info    0x000000000001ccb4      0x19b /tmp/cctGRkpE.debug.temp.o
+                0x000000000001ccb4                CompareMemWrapper.c.df2c23b5
+ .debug_info    0x000000000001ce4f      0x185 /tmp/cc7AxegE.debug.temp.o
+                0x000000000001ce4f                CopyMemWrapper.c.4760c160
+ .debug_info    0x000000000001cfd4      0x1db /tmp/ccfewDtB.debug.temp.o
+                0x000000000001cfd4                SwapBytes32.c.be579274
+ .debug_info    0x000000000001d1af      0x1c3 /tmp/cc9EVK6A.debug.temp.o
+                0x000000000001d1af                SwapBytes16.c.d38f1a4a
+ .debug_info    0x000000000001d372      0x1db /tmp/ccxDOWAA.debug.temp.o
+                0x000000000001d372                MultU64x32.c.37505239
+ .debug_info    0x000000000001d54d      0x1d0 /tmp/ccSDcIbC.debug.temp.o
+                0x000000000001d54d                CpuDeadLoop.c.755e7c7b
+ .debug_info    0x000000000001d71d      0x428 /tmp/cce5ppxC.debug.temp.o
+                0x000000000001d71d                LinkedList.c.7e1d43c9
+ .debug_info    0x000000000001db45      0x7f3 /tmp/ccqe8vDD.debug.temp.o
+                0x000000000001db45                String.c.76785ee4
+ .debug_info    0x000000000001e338      0x33d /tmp/cclaJqpC.debug.temp.o
+                0x000000000001e338                Unaligned.c.b480fc72
+ .debug_info    0x000000000001e675      0x43c /tmp/cc9hyKAC.debug.temp.o
+                0x000000000001e675                Math64.c.fba6cbb7
+ .debug_info    0x000000000001eab1     0x18e1 /tmp/cc4GRsmC.debug.temp.o
+                0x000000000001eab1                UefiBootServicesTableLib.c.1b9b5282
+ .debug_info    0x0000000000020392     0x1de0 /tmp/ccSNFKUA.debug.temp.o
+                0x0000000000020392                MemoryAllocationLib.c.7e75fabe
+ .debug_info    0x0000000000022172     0x18b2 /tmp/ccDWKLxC.debug.temp.o
+                0x0000000000022172                UefiRuntimeServicesTableLib.c.76abd5a8
+ .debug_info    0x0000000000023a24     0x22ef /tmp/ccy5QyFC.debug.temp.o
+                0x0000000000023a24                UefiDriverModel.c.e5153137
+ .debug_info    0x0000000000025d13     0x27ac /tmp/ccHlORzC.debug.temp.o
+                0x0000000000025d13                UefiLib.c.c9f50ead
+ .debug_info    0x00000000000284bf     0x19e4 /tmp/cczNWtoC.debug.temp.o
+                0x00000000000284bf                DpcLib.c.5ac85afc
+ .debug_info    0x0000000000029ea3     0x7175 /tmp/ccYz42tE.debug.temp.o
+                0x0000000000029ea3                DxeNetLib.c.711fcd1b
+ .debug_info    0x0000000000031018     0x2b4a /tmp/cc3CnUOA.debug.temp.o
+                0x0000000000031018                NetBuffer.c.82ca9a5d
+ .debug_info    0x0000000000033b62     0x36c8 /tmp/ccLkXJtA.debug.temp.o
+                0x0000000000033b62                DxeUdpIoLib.c.aa16fb95
+ .debug_info    0x000000000003722a      0x1c3 /tmp/ccDtvuzD.debug.temp.o
+                0x000000000003722a                SwapBytes64.c.9a6fd401
+ .debug_info    0x00000000000373ed     0x1953 /tmp/ccX4h7tB.debug.temp.o
+                0x00000000000373ed                DevicePathUtilitiesDxeSmm.c.cb9de9d5
+
+.debug_abbrev   0x0000000000000000     0x3891
+ .debug_abbrev  0x0000000000000000      0x264 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000264      0x1e9 /tmp/ccH0RsHC.debug.temp.o
+ .debug_abbrev  0x000000000000044d       0xc7 /tmp/cccQDSRA.debug.temp.o
+ .debug_abbrev  0x0000000000000514       0xee /tmp/ccc8yXCA.debug.temp.o
+ .debug_abbrev  0x0000000000000602       0xc0 /tmp/ccuv7mSE.debug.temp.o
+ .debug_abbrev  0x00000000000006c2      0x234 /tmp/ccDHqSPB.debug.temp.o
+ .debug_abbrev  0x00000000000008f6      0x32a /tmp/ccvp2stE.debug.temp.o
+ .debug_abbrev  0x0000000000000c20      0x304 /tmp/ccGkOA5D.debug.temp.o
+ .debug_abbrev  0x0000000000000f24      0x34e /tmp/ccPrBNcE.debug.temp.o
+ .debug_abbrev  0x0000000000001272      0x21e /tmp/cc9Qed1A.debug.temp.o
+ .debug_abbrev  0x0000000000001490      0x267 /tmp/ccUHzdOE.debug.temp.o
+ .debug_abbrev  0x00000000000016f7       0xb1 /tmp/cc1pA94B.debug.temp.o
+ .debug_abbrev  0x00000000000017a8       0xb1 /tmp/cctGRkpE.debug.temp.o
+ .debug_abbrev  0x0000000000001859       0xb8 /tmp/cc7AxegE.debug.temp.o
+ .debug_abbrev  0x0000000000001911       0xc0 /tmp/ccfewDtB.debug.temp.o
+ .debug_abbrev  0x00000000000019d1       0xb1 /tmp/cc9EVK6A.debug.temp.o
+ .debug_abbrev  0x0000000000001a82       0xc0 /tmp/ccxDOWAA.debug.temp.o
+ .debug_abbrev  0x0000000000001b42       0xb6 /tmp/ccSDcIbC.debug.temp.o
+ .debug_abbrev  0x0000000000001bf8      0x139 /tmp/cce5ppxC.debug.temp.o
+ .debug_abbrev  0x0000000000001d31      0x126 /tmp/ccqe8vDD.debug.temp.o
+ .debug_abbrev  0x0000000000001e57       0xc9 /tmp/cclaJqpC.debug.temp.o
+ .debug_abbrev  0x0000000000001f20       0xf9 /tmp/cc9hyKAC.debug.temp.o
+ .debug_abbrev  0x0000000000002019      0x1dd /tmp/cc4GRsmC.debug.temp.o
+ .debug_abbrev  0x00000000000021f6      0x242 /tmp/ccSNFKUA.debug.temp.o
+ .debug_abbrev  0x0000000000002438      0x1c3 /tmp/ccDWKLxC.debug.temp.o
+ .debug_abbrev  0x00000000000025fb      0x21c /tmp/ccy5QyFC.debug.temp.o
+ .debug_abbrev  0x0000000000002817      0x267 /tmp/ccHlORzC.debug.temp.o
+ .debug_abbrev  0x0000000000002a7e      0x20d /tmp/cczNWtoC.debug.temp.o
+ .debug_abbrev  0x0000000000002c8b      0x37e /tmp/ccYz42tE.debug.temp.o
+ .debug_abbrev  0x0000000000003009      0x2ec /tmp/cc3CnUOA.debug.temp.o
+ .debug_abbrev  0x00000000000032f5      0x317 /tmp/ccLkXJtA.debug.temp.o
+ .debug_abbrev  0x000000000000360c       0xb1 /tmp/ccDtvuzD.debug.temp.o
+ .debug_abbrev  0x00000000000036bd      0x1d4 /tmp/ccX4h7tB.debug.temp.o
+
+.debug_loc      0x0000000000000000     0xed60
+ .debug_loc     0x0000000000000000     0xed60 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+
+.debug_aranges  0x0000000000000000      0x6b0
+ .debug_aranges
+                0x0000000000000000      0x6b0 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+
+.debug_ranges   0x0000000000000000     0x1f40
+ .debug_ranges  0x0000000000000000     0x1f40 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+
+.debug_line     0x0000000000000000     0xa710
+ .debug_line    0x0000000000000000     0x558f /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .debug_line    0x000000000000558f      0x349 /tmp/ccH0RsHC.debug.temp.o
+ .debug_line    0x00000000000058d8      0x172 /tmp/cccQDSRA.debug.temp.o
+ .debug_line    0x0000000000005a4a      0x173 /tmp/ccc8yXCA.debug.temp.o
+ .debug_line    0x0000000000005bbd      0x173 /tmp/ccuv7mSE.debug.temp.o
+ .debug_line    0x0000000000005d30      0x2d1 /tmp/ccDHqSPB.debug.temp.o
+ .debug_line    0x0000000000006001      0x43e /tmp/ccvp2stE.debug.temp.o
+ .debug_line    0x000000000000643f      0x3e4 /tmp/ccGkOA5D.debug.temp.o
+ .debug_line    0x0000000000006823      0x3e2 /tmp/ccPrBNcE.debug.temp.o
+ .debug_line    0x0000000000006c05      0x3ae /tmp/cc9Qed1A.debug.temp.o
+ .debug_line    0x0000000000006fb3      0x389 /tmp/ccUHzdOE.debug.temp.o
+ .debug_line    0x000000000000733c      0x175 /tmp/cc1pA94B.debug.temp.o
+ .debug_line    0x00000000000074b1      0x178 /tmp/cctGRkpE.debug.temp.o
+ .debug_line    0x0000000000007629      0x175 /tmp/cc7AxegE.debug.temp.o
+ .debug_line    0x000000000000779e      0x14e /tmp/ccfewDtB.debug.temp.o
+ .debug_line    0x00000000000078ec      0x14e /tmp/cc9EVK6A.debug.temp.o
+ .debug_line    0x0000000000007a3a      0x14d /tmp/ccxDOWAA.debug.temp.o
+ .debug_line    0x0000000000007b87      0x14e /tmp/ccSDcIbC.debug.temp.o
+ .debug_line    0x0000000000007cd5      0x14d /tmp/cce5ppxC.debug.temp.o
+ .debug_line    0x0000000000007e22      0x149 /tmp/ccqe8vDD.debug.temp.o
+ .debug_line    0x0000000000007f6b      0x150 /tmp/cclaJqpC.debug.temp.o
+ .debug_line    0x00000000000080bb      0x149 /tmp/cc9hyKAC.debug.temp.o
+ .debug_line    0x0000000000008204      0x332 /tmp/cc4GRsmC.debug.temp.o
+ .debug_line    0x0000000000008536      0x32a /tmp/ccSNFKUA.debug.temp.o
+ .debug_line    0x0000000000008860      0x2eb /tmp/ccDWKLxC.debug.temp.o
+ .debug_line    0x0000000000008b4b      0x3e2 /tmp/ccy5QyFC.debug.temp.o
+ .debug_line    0x0000000000008f2d      0x36f /tmp/ccHlORzC.debug.temp.o
+ .debug_line    0x000000000000929c      0x350 /tmp/cczNWtoC.debug.temp.o
+ .debug_line    0x00000000000095ec      0x509 /tmp/ccYz42tE.debug.temp.o
+ .debug_line    0x0000000000009af5      0x35e /tmp/cc3CnUOA.debug.temp.o
+ .debug_line    0x0000000000009e53      0x3fb /tmp/ccLkXJtA.debug.temp.o
+ .debug_line    0x000000000000a24e      0x14e /tmp/ccDtvuzD.debug.temp.o
+ .debug_line    0x000000000000a39c      0x374 /tmp/ccX4h7tB.debug.temp.o
+
+.debug_str      0x0000000000000000     0x98a9
+ .debug_str     0x0000000000000000      0x248 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o
+ .debug_str     0x0000000000000248     0x1525 /tmp/ccH0RsHC.debug.temp.o
+                                       0x1692 (size before relaxing)
+ .debug_str     0x000000000000176d      0x27c /tmp/cccQDSRA.debug.temp.o
+                                        0x3a9 (size before relaxing)
+ .debug_str     0x00000000000019e9       0xd5 /tmp/ccc8yXCA.debug.temp.o
+                                        0x350 (size before relaxing)
+ .debug_str     0x0000000000001abe       0x55 /tmp/ccuv7mSE.debug.temp.o
+                                        0x344 (size before relaxing)
+ .debug_str     0x0000000000001b13      0x722 /tmp/ccDHqSPB.debug.temp.o
+                                       0x1c93 (size before relaxing)
+ .debug_str     0x0000000000002235     0x157e /tmp/ccvp2stE.debug.temp.o
+                                       0x3206 (size before relaxing)
+ .debug_str     0x00000000000037b3      0x28e /tmp/ccGkOA5D.debug.temp.o
+                                       0x3063 (size before relaxing)
+ .debug_str     0x0000000000003a41      0x1dd /tmp/ccPrBNcE.debug.temp.o
+                                       0x3007 (size before relaxing)
+ .debug_str     0x0000000000003c1e       0xb9 /tmp/cc9Qed1A.debug.temp.o
+                                       0x21e3 (size before relaxing)
+ .debug_str     0x0000000000003cd7      0x20b /tmp/ccUHzdOE.debug.temp.o
+                                       0x222f (size before relaxing)
+ .debug_str     0x0000000000003ee2       0xc2 /tmp/cc1pA94B.debug.temp.o
+                                        0x352 (size before relaxing)
+ .debug_str     0x0000000000003fa4       0x74 /tmp/cctGRkpE.debug.temp.o
+                                        0x37b (size before relaxing)
+ .debug_str     0x0000000000004018       0x52 /tmp/cc7AxegE.debug.temp.o
+                                        0x36a (size before relaxing)
+ .debug_str     0x000000000000406a       0xbe /tmp/ccfewDtB.debug.temp.o
+                                        0x474 (size before relaxing)
+ .debug_str     0x0000000000004128       0x4f /tmp/cc9EVK6A.debug.temp.o
+                                        0x45d (size before relaxing)
+ .debug_str     0x0000000000004177       0x56 /tmp/ccxDOWAA.debug.temp.o
+                                        0x474 (size before relaxing)
+ .debug_str     0x00000000000041cd       0x4f /tmp/ccSDcIbC.debug.temp.o
+                                        0x463 (size before relaxing)
+ .debug_str     0x000000000000421c      0x11a /tmp/cce5ppxC.debug.temp.o
+                                        0x573 (size before relaxing)
+ .debug_str     0x0000000000004336      0x2e9 /tmp/ccqe8vDD.debug.temp.o
+                                        0x7e4 (size before relaxing)
+ .debug_str     0x000000000000461f       0xde /tmp/cclaJqpC.debug.temp.o
+                                        0x50a (size before relaxing)
+ .debug_str     0x00000000000046fd      0x193 /tmp/cc9hyKAC.debug.temp.o
+                                        0x5e1 (size before relaxing)
+ .debug_str     0x0000000000004890       0xff /tmp/cc4GRsmC.debug.temp.o
+                                       0x156f (size before relaxing)
+ .debug_str     0x000000000000498f      0x30c /tmp/ccSNFKUA.debug.temp.o
+                                       0x17db (size before relaxing)
+ .debug_str     0x0000000000004c9b      0x10e /tmp/ccDWKLxC.debug.temp.o
+                                       0x1571 (size before relaxing)
+ .debug_str     0x0000000000004da9      0x652 /tmp/ccy5QyFC.debug.temp.o
+                                       0x20a1 (size before relaxing)
+ .debug_str     0x00000000000053fb      0x67d /tmp/ccHlORzC.debug.temp.o
+                                       0x20b3 (size before relaxing)
+ .debug_str     0x0000000000005a78      0x157 /tmp/cczNWtoC.debug.temp.o
+                                       0x15f3 (size before relaxing)
+ .debug_str     0x0000000000005bcf     0x3532 /tmp/ccYz42tE.debug.temp.o
+                                       0x57b2 (size before relaxing)
+ .debug_str     0x0000000000009101      0x392 /tmp/cc3CnUOA.debug.temp.o
+                                       0x1ce7 (size before relaxing)
+ .debug_str     0x0000000000009493      0x259 /tmp/ccLkXJtA.debug.temp.o
+                                       0x251e (size before relaxing)
+ .debug_str     0x00000000000096ec       0x43 /tmp/ccDtvuzD.debug.temp.o
+                                        0x45d (size before relaxing)
+ .debug_str     0x000000000000972f      0x17a /tmp/ccX4h7tB.debug.temp.o
+                                       0x165a (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x1318
+ .debug_frame   0x0000000000000000     0x1318 /tmp/Dhcp4Dxe.dll.XcfrXD.ltrans0.ltrans.o

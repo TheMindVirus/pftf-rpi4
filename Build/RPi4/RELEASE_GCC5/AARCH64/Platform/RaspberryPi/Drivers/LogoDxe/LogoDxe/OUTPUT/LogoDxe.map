@@ -1,0 +1,265 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                              (_ModuleEntryPoint)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib(BaseStackCheckGcc.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (__stack_chk_fail)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memcpy.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memcpy)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memset.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memset)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/Drivers/LogoDxe/LogoDxe/OUTPUT/LogoDxe.lib(AutoGen.obj)
+                              DriverEntryPoint.obj (symbol from plugin) (ProcessLibraryConstructorList)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/Drivers/LogoDxe/LogoDxe/OUTPUT/LogoDxe.lib(Logo.obj)
+                              AutoGen.obj (symbol from plugin) (InitializeLogo)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuDeadLoop)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuBreakpoint)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiBootServicesTableLibConstructor)
+
+Discarded input sections
+
+ .text          0x0000000000000000       0x10 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .text          0x0000000000000000        0x0 /tmp/LogoDxe.dll.9onvap.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/LogoDxe.dll.9onvap.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/LogoDxe.dll.9onvap.ltrans0.ltrans.o
+ .text._DriverUnloadHandler
+                0x0000000000000000        0x8 /tmp/LogoDxe.dll.9onvap.ltrans0.ltrans.o
+ .text.__memset
+                0x0000000000000000       0x1c /tmp/LogoDxe.dll.9onvap.ltrans0.ltrans.o
+ .text.memcpy   0x0000000000000000       0x20 /tmp/LogoDxe.dll.9onvap.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/LogoDxe.dll.9onvap.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/LogoDxe.dll.9onvap.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/cc9zzIZn.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc9zzIZn.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccEuNRup.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccEuNRup.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc0ct48l.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0ct48l.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccb2kr4l.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccb2kr4l.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccUaQT6o.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccUaQT6o.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccVGz5hm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccVGz5hm.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc2mR51l.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc2mR51l.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccM68iSm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccM68iSm.debug.temp.o
+ .text          0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+START GROUP
+LOAD /tmp/LogoDxe.dll.9onvap.ltrans0.ltrans.o
+LOAD /tmp/cc9zzIZn.debug.temp.o
+LOAD /tmp/ccEuNRup.debug.temp.o
+LOAD /tmp/cc0ct48l.debug.temp.o
+LOAD /tmp/ccb2kr4l.debug.temp.o
+LOAD /tmp/ccUaQT6o.debug.temp.o
+LOAD /tmp/ccVGz5hm.debug.temp.o
+LOAD /tmp/cc2mR51l.debug.temp.o
+LOAD /tmp/ccM68iSm.debug.temp.o
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/Drivers/LogoDxe/LogoDxe/OUTPUT/LogoDxe.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/Drivers/LogoDxe/LogoDxe/OUTPUT/LogoDxehii.lib
+END GROUP
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.gnu.version_d  0x0000000000000228        0x0
+ .gnu.version_d
+                0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version    0x0000000000000228        0x0
+ .gnu.version   0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version_r  0x0000000000000228        0x0
+ .gnu.version_r
+                0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.text           0x0000000000001000      0x1b8
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.GetImage
+                0x0000000000001000       0x74 /tmp/LogoDxe.dll.9onvap.ltrans0.ltrans.o
+ .text.__stack_chk_fail
+                0x0000000000001074       0x18 /tmp/LogoDxe.dll.9onvap.ltrans0.ltrans.o
+                0x0000000000001074                __stack_chk_fail
+ .text._ModuleEntryPoint
+                0x000000000000108c      0x10c /tmp/LogoDxe.dll.9onvap.ltrans0.ltrans.o
+                0x000000000000108c                _ModuleEntryPoint
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ *(.got .got.*)
+ .got           0x0000000000001198        0x8 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x0000000000001198                _GLOBAL_OFFSET_TABLE_
+ .got.plt       0x00000000000011a0       0x18 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ *:AutoGen.obj(.data.g*Guid)
+
+.plt            0x00000000000011b8        0x0
+ .plt           0x00000000000011b8        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.data           0x0000000000002000       0x70
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.ro   0x0000000000002000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data.__stack_chk_guard
+                0x0000000000002000        0x8 /tmp/LogoDxe.dll.9onvap.ltrans0.ltrans.o
+                0x0000000000002000                __stack_chk_guard
+ .data.gEdkiiPlatformLogoProtocolGuid
+                0x0000000000002008       0x10 /tmp/LogoDxe.dll.9onvap.ltrans0.ltrans.o
+ .data.gEfiHiiDatabaseProtocolGuid
+                0x0000000000002018       0x10 /tmp/LogoDxe.dll.9onvap.ltrans0.ltrans.o
+ .data.gEfiHiiImageExProtocolGuid
+                0x0000000000002028       0x10 /tmp/LogoDxe.dll.9onvap.ltrans0.ltrans.o
+ .data.gEfiHiiPackageListProtocolGuid
+                0x0000000000002038       0x10 /tmp/LogoDxe.dll.9onvap.ltrans0.ltrans.o
+ .data.mPlatformLogo
+                0x0000000000002048        0x8 /tmp/LogoDxe.dll.9onvap.ltrans0.ltrans.o
+ *(.bss .bss.*)
+ .bss.gBS       0x0000000000002050        0x8 /tmp/LogoDxe.dll.9onvap.ltrans0.ltrans.o
+ .bss.gST       0x0000000000002058        0x8 /tmp/LogoDxe.dll.9onvap.ltrans0.ltrans.o
+ .bss.mHiiHandle
+                0x0000000000002060        0x8 /tmp/LogoDxe.dll.9onvap.ltrans0.ltrans.o
+ .bss.mHiiImageEx
+                0x0000000000002068        0x8 /tmp/LogoDxe.dll.9onvap.ltrans0.ltrans.o
+
+.eh_frame
+ *(.eh_frame)
+
+.rela           0x0000000000002070       0x18
+ *(.rela .rela.*)
+ .rela.got      0x0000000000002070        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.plt      0x0000000000002070        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.bss      0x0000000000002070        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.rel.ro
+                0x0000000000002070        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.ifunc    0x0000000000002070        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.mPlatformLogo
+                0x0000000000002070       0x18 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.hii            0x0000000000003000    0x2cc82
+ *(.hii)
+ .hii           0x0000000000003000    0x2cc82 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/Drivers/LogoDxe/LogoDxe/OUTPUT/LogoDxehii.lib
+                0x0000000000003000                _binary__home_alastair_pftf_rpi4_Build_RPi4_RELEASE_GCC5_AARCH64_Platform_RaspberryPi_Drivers_LogoDxe_LogoDxe_OUTPUT_LogoDxehii_rc_start
+                0x000000000002fc82                _binary__home_alastair_pftf_rpi4_Build_RPi4_RELEASE_GCC5_AARCH64_Platform_RaspberryPi_Drivers_LogoDxe_LogoDxe_OUTPUT_LogoDxehii_rc_end
+
+.dynbss         0x000000000002fc82        0x0
+ .dynbss        0x000000000002fc82        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.build-id       0x000000000002fc84       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x000000000002fc84       0x24 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+ *(COMMON)
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+OUTPUT(/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/Drivers/LogoDxe/LogoDxe/DEBUG/LogoDxe.dll elf64-littleaarch64)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000     0x7f24
+ .debug_info    0x0000000000000000      0x55e /tmp/LogoDxe.dll.9onvap.ltrans0.ltrans.o
+ .debug_info    0x000000000000055e     0x1a57 /tmp/cc9zzIZn.debug.temp.o
+                0x000000000000055e                DriverEntryPoint.c.0bb94e37
+ .debug_info    0x0000000000001fb5      0x17b /tmp/ccEuNRup.debug.temp.o
+                0x0000000000001fb5                BaseStackCheckGcc.c.3fb9ce64
+ .debug_info    0x0000000000002130      0x1d7 /tmp/cc0ct48l.debug.temp.o
+                0x0000000000002130                memcpy.c.79986cd0
+ .debug_info    0x0000000000002307      0x188 /tmp/ccb2kr4l.debug.temp.o
+                0x0000000000002307                memset.c.02de5c04
+ .debug_info    0x000000000000248f     0x1b02 /tmp/ccUaQT6o.debug.temp.o
+                0x000000000000248f                AutoGen.c.6e5fbf56
+ .debug_info    0x0000000000003f91     0x24e2 /tmp/ccVGz5hm.debug.temp.o
+                0x0000000000003f91                Logo.c.bd635faa
+ .debug_info    0x0000000000006473      0x1d0 /tmp/cc2mR51l.debug.temp.o
+                0x0000000000006473                CpuDeadLoop.c.755e7c7b
+ .debug_info    0x0000000000006643     0x18e1 /tmp/ccM68iSm.debug.temp.o
+                0x0000000000006643                UefiBootServicesTableLib.c.1b9b5282
+
+.debug_abbrev   0x0000000000000000      0xc31
+ .debug_abbrev  0x0000000000000000       0xf9 /tmp/LogoDxe.dll.9onvap.ltrans0.ltrans.o
+ .debug_abbrev  0x00000000000000f9      0x1e9 /tmp/cc9zzIZn.debug.temp.o
+ .debug_abbrev  0x00000000000002e2       0xc7 /tmp/ccEuNRup.debug.temp.o
+ .debug_abbrev  0x00000000000003a9       0xee /tmp/cc0ct48l.debug.temp.o
+ .debug_abbrev  0x0000000000000497       0xc0 /tmp/ccb2kr4l.debug.temp.o
+ .debug_abbrev  0x0000000000000557      0x218 /tmp/ccUaQT6o.debug.temp.o
+ .debug_abbrev  0x000000000000076f      0x22f /tmp/ccVGz5hm.debug.temp.o
+ .debug_abbrev  0x000000000000099e       0xb6 /tmp/cc2mR51l.debug.temp.o
+ .debug_abbrev  0x0000000000000a54      0x1dd /tmp/ccM68iSm.debug.temp.o
+
+.debug_loc      0x0000000000000000      0x91b
+ .debug_loc     0x0000000000000000      0x91b /tmp/LogoDxe.dll.9onvap.ltrans0.ltrans.o
+
+.debug_aranges  0x0000000000000000       0x80
+ .debug_aranges
+                0x0000000000000000       0x80 /tmp/LogoDxe.dll.9onvap.ltrans0.ltrans.o
+
+.debug_ranges   0x0000000000000000      0x180
+ .debug_ranges  0x0000000000000000      0x180 /tmp/LogoDxe.dll.9onvap.ltrans0.ltrans.o
+
+.debug_line     0x0000000000000000     0x17c2
+ .debug_line    0x0000000000000000      0x4d8 /tmp/LogoDxe.dll.9onvap.ltrans0.ltrans.o
+ .debug_line    0x00000000000004d8      0x349 /tmp/cc9zzIZn.debug.temp.o
+ .debug_line    0x0000000000000821      0x172 /tmp/ccEuNRup.debug.temp.o
+ .debug_line    0x0000000000000993      0x173 /tmp/cc0ct48l.debug.temp.o
+ .debug_line    0x0000000000000b06      0x173 /tmp/ccb2kr4l.debug.temp.o
+ .debug_line    0x0000000000000c79      0x2f3 /tmp/ccUaQT6o.debug.temp.o
+ .debug_line    0x0000000000000f6c      0x3d6 /tmp/ccVGz5hm.debug.temp.o
+ .debug_line    0x0000000000001342      0x14e /tmp/cc2mR51l.debug.temp.o
+ .debug_line    0x0000000000001490      0x332 /tmp/ccM68iSm.debug.temp.o
+
+.debug_str      0x0000000000000000     0x2a48
+ .debug_str     0x0000000000000000      0x21c /tmp/LogoDxe.dll.9onvap.ltrans0.ltrans.o
+ .debug_str     0x000000000000021c     0x159c /tmp/cc9zzIZn.debug.temp.o
+                                       0x1692 (size before relaxing)
+ .debug_str     0x00000000000017b8      0x27c /tmp/ccEuNRup.debug.temp.o
+                                        0x3a9 (size before relaxing)
+ .debug_str     0x0000000000001a34       0xd5 /tmp/cc0ct48l.debug.temp.o
+                                        0x350 (size before relaxing)
+ .debug_str     0x0000000000001b09       0x55 /tmp/ccb2kr4l.debug.temp.o
+                                        0x344 (size before relaxing)
+ .debug_str     0x0000000000001b5e      0x2f5 /tmp/ccUaQT6o.debug.temp.o
+                                       0x1876 (size before relaxing)
+ .debug_str     0x0000000000001e53      0xa49 /tmp/ccVGz5hm.debug.temp.o
+                                       0x2109 (size before relaxing)
+ .debug_str     0x000000000000289c       0xad /tmp/cc2mR51l.debug.temp.o
+                                        0x463 (size before relaxing)
+ .debug_str     0x0000000000002949       0xff /tmp/ccM68iSm.debug.temp.o
+                                       0x156f (size before relaxing)
+
+.debug_frame    0x0000000000000000       0xc0
+ .debug_frame   0x0000000000000000       0xc0 /tmp/LogoDxe.dll.9onvap.ltrans0.ltrans.o

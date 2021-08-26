@@ -139,6 +139,7 @@
 #define RPI_MBOX_SET_FB_OVERSCAN                              0x0004800a
 #define RPI_MBOX_SET_FB_PALET TE                              0x0004800b
 #define RPI_MBOX_VCHIQ_INIT                                   0x00048010
+#define RPI_MBOX_SET_DISPLAY_NUM                              0x00048013 ///More undocumented craziness at: https://github.com/raspberrypi/linux/blob/rpi-5.10.y/include/soc/bcm2835/raspberrypi-firmware.h
 #define RPI_MBOX_SET_FB_TOUCHBUF                              0x0004801f
 #define RPI_MBOX_SET_FB_GPIOVIRTBUF                           0x00048020
 #define RPI_MBOX_SET_FB_VSYNC                                 0x0004800e

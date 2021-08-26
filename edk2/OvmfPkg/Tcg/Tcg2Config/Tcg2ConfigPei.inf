@@ -57,7 +57,7 @@
   gEfiSecurityPkgTokenSpaceGuid.PcdTpmInstanceGuid                 ## PRODUCES
 
 [Depex.IA32, Depex.X64]
-  gOvmfTpmMmioAccessiblePpiGuid
+  TRUE
 
 [Depex.ARM, Depex.AARCH64]
   gOvmfTpmDiscoveredPpiGuid

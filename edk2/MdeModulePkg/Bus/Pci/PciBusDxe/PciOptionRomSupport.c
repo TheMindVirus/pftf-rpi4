@@ -521,9 +521,9 @@ LoadOpRomImage (
     //
     PciDevice->PciRootBridgeIo->Mem.Read (
                                       PciDevice->PciRootBridgeIo,
-                                      EfiPciWidthUint32,
+                                      EfiPciWidthUint8,
                                       RomBar,
-                                      (UINT32) RomImageSize/sizeof(UINT32),
+                                      (UINT32) RomImageSize,
                                       Image
                                       );
     RomInMemory = Image;

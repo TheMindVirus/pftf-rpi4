@@ -6,8 +6,8 @@
 
 **/
 
-#ifndef ARM_DISASSEMBLER_LIB_H_
-#define ARM_DISASSEMBLER_LIB_H_
+#ifndef __ARM_DISASSEBLER_LIB_H__
+#define __ARM_DISASSEBLER_LIB_H__
 
 /**
   Place a disassembly of **OpCodePtr into buffer, and update OpCodePtr to
@@ -34,4 +34,4 @@ DisassembleInstruction (
   OUT UINTN     Size
   );
 
-#endif // ARM_DISASSEMBLER_LIB_H_
+#endif

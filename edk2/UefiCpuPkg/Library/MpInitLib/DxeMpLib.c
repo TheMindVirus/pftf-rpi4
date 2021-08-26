@@ -29,11 +29,6 @@ VOID             *mReservedApLoopFunc = NULL;
 UINTN            mReservedTopOfApStack;
 volatile UINT32  mNumberToFinish = 0;
 
-//
-// Begin wakeup buffer allocation below 0x88000
-//
-STATIC EFI_PHYSICAL_ADDRESS mSevEsDxeWakeupBuffer = 0x88000;
-
 /**
   Enable Debug Agent to support source debugging on AP function.
 
@@ -107,14 +102,7 @@ GetWakeupBuffer (
   // LagacyBios driver depends on CPU Arch protocol which guarantees below
   // allocation runs earlier than LegacyBios driver.
   //
-  if (PcdGetBool (PcdSevEsIsEnabled)) {
-    //
-    // SEV-ES Wakeup buffer should be under 0x88000 and under any previous one
-    //
-    StartAddress = mSevEsDxeWakeupBuffer;
-  } else {
-    StartAddress = 0x88000;
-  }
+  StartAddress = 0x88000;
   Status = gBS->AllocatePages (
                   AllocateMaxAddress,
                   MemoryType,
@@ -124,11 +112,6 @@ GetWakeupBuffer (
   ASSERT_EFI_ERROR (Status);
   if (EFI_ERROR (Status)) {
     StartAddress = (EFI_PHYSICAL_ADDRESS) -1;
-  } else if (PcdGetBool (PcdSevEsIsEnabled)) {
-    //
-    // Next SEV-ES wakeup buffer allocation must be below this allocation
-    //
-    mSevEsDxeWakeupBuffer = StartAddress;
   }
 
   DEBUG ((DEBUG_INFO, "WakeupBufferStart = %x, WakeupBufferSize = %x\n",

@@ -33,6 +33,8 @@
   MemTypeInfo.c
   Platform.c
   Platform.h
+  Xen.c
+  Xen.h
 
 [Packages]
   EmbeddedPkg/EmbeddedPkg.dec
@@ -44,6 +46,7 @@
 
 [Guids]
   gEfiMemoryTypeInformationGuid
+  gEfiXenInfoGuid
 
 [LibraryClasses]
   BaseLib
@@ -93,6 +96,7 @@
   gEfiMdeModulePkgTokenSpaceGuid.PcdFlashNvStorageFtwSpareSize
   gEfiMdeModulePkgTokenSpaceGuid.PcdFlashNvStorageVariableSize
   gEfiMdeModulePkgTokenSpaceGuid.PcdEmuVariableNvStoreReserved
+  gEfiMdeModulePkgTokenSpaceGuid.PcdPciDisableBusEnumeration
   gEfiMdeModulePkgTokenSpaceGuid.PcdDxeIplSwitchToLongMode
   gEfiMdeModulePkgTokenSpaceGuid.PcdUse1GPageTable
   gEfiMdeModulePkgTokenSpaceGuid.PcdSetNxForStack

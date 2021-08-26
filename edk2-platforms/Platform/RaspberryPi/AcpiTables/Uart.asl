@@ -2,7 +2,6 @@
  *
  *  [DSDT] Serial devices (UART).
  *
- *  Copyright (c) 2021, ARM Limited. All rights reserved.
  *  Copyright (c) 2020, Pete Batard <pete@akeo.ie>
  *  Copyright (c) 2018, Andrey Warkentin <andrey.warkentin@gmail.com>
  *  Copyright (c) Microsoft Corporation. All rights reserved.
@@ -59,7 +58,7 @@ Device (URT0)
 Device (URTM)
 {
   Name (_HID, "BCM2836")
-  Name (_CID, "BCM2836")
+  Name (_CID, "MINIUART")
   Name (_UID, 0x0)
   Name (_CCA, 0x0)
   Method (_STA)
@@ -71,6 +70,14 @@ Device (URTM)
     MEMORY32FIXED (ReadWrite, 0, BCM2836_MINI_UART_LENGTH, RMEM)
     Interrupt(ResourceConsumer, Level, ActiveHigh, Shared) { BCM2836_MINI_UART_INTERRUPT }
 
+    // NTRAID#MSFT-7141401-2016/04/7-jordanrh - disable UART muxing
+    // until a proper solution can be created for the dmap conflict.
+    // When muxing is enabled, must consider DBG2 table conflict.
+    // The alternate function resource needs to be reserved when
+    // the kernel debugger is enabled to prevent another client
+    // from muxing the pins away.
+
+    // PinFunction (Exclusive, PullDown, BCM_ALT5, "\\_SB.GPI0", 0, ResourceConsumer, , ) { 14, 15 }
   })
   Method (_CRS, 0x0, Serialized)
   {
@@ -86,117 +93,57 @@ Device(BTH0)
 {
   Name (_HID, "BCM2EA6")
   Name (_CID, "BCM2EA6")
-
-  //
-  // UART In Use will be dynamically updated during boot
-  // 0x55 0x52 0x49 0x55 0xA 0x2 (Value must > 1)
-  //
-  Name (URIU, 0x2)
-
   Method (_STA)
   {
     Return (0xf)
   }
-
-  //
-  // Resource for URT0 (PL011)
-  //
-  Name (BTPL, ResourceTemplate ()
-  {
-    UARTSerialBus(
-      115200,        // InitialBaudRate: in BPS
-      ,              // BitsPerByte: default to 8 bits
-      ,              // StopBits: Defaults to one bit
-      0x00,          // LinesInUse: 8 1-bit flags to
-                    //   declare enabled control lines.
-                    //   Raspberry Pi does not exposed
-                    //   HW control signals -> not supported.
-                    //   Optional bits:
-                    //   - Bit 7 (0x80) Request To Send (RTS)
-                    //   - Bit 6 (0x40) Clear To Send (CTS)
-                    //   - Bit 5 (0x20) Data Terminal Ready (DTR)
-                    //   - Bit 4 (0x10) Data Set Ready (DSR)
-                    //   - Bit 3 (0x08) Ring Indicator (RI)
-                    //   - Bit 2 (0x04) Data Carrier Detect (DTD)
-                    //   - Bit 1 (0x02) Reserved. Must be 0.
-                    //   - Bit 0 (0x01) Reserved. Must be 0.
-      ,              // IsBigEndian:
-                    //   default to LittleEndian.
-      ,              // Parity: Defaults to no parity
-      ,              // FlowControl: Defaults to
-                    //   no flow control.
-      16,            // ReceiveBufferSize
-      16,            // TransmitBufferSize
-      "\\_SB.GDV0.URT0",  // ResourceSource:
-                    //   UART bus controller name
-      ,              // ResourceSourceIndex: assumed to be 0
-      ,              // ResourceUsage: assumed to be
-                    //   ResourceConsumer
-      UAR0,          // DescriptorName: creates name
-                    //   for offset of resource descriptor
-    )                // Vendor data
-  })
-
-  //
-  // Resource for URTM (miniUART)
-  //
-  Name (BTMN, ResourceTemplate ()
-  {
-    //
-    // BT UART: ResourceSource will be dynamically updated to
-    // either URT0 (PL011) or URTM (miniUART) during boot
-    //
-    UARTSerialBus(
-      115200,        // InitialBaudRate: in BPS
-      ,              // BitsPerByte: default to 8 bits
-      ,              // StopBits: Defaults to one bit
-      0x00,          // LinesInUse: 8 1-bit flags to
-                    //   declare enabled control lines.
-                    //   Raspberry Pi does not exposed
-                    //   HW control signals -> not supported.
-                    //   Optional bits:
-                    //   - Bit 7 (0x80) Request To Send (RTS)
-                    //   - Bit 6 (0x40) Clear To Send (CTS)
-                    //   - Bit 5 (0x20) Data Terminal Ready (DTR)
-                    //   - Bit 4 (0x10) Data Set Ready (DSR)
-                    //   - Bit 3 (0x08) Ring Indicator (RI)
-                    //   - Bit 2 (0x04) Data Carrier Detect (DTD)
-                    //   - Bit 1 (0x02) Reserved. Must be 0.
-                    //   - Bit 0 (0x01) Reserved. Must be 0.
-      ,              // IsBigEndian:
-                    //   default to LittleEndian.
-      ,              // Parity: Defaults to no parity
-      ,              // FlowControl: Defaults to
-                    //   no flow control.
-      16,            // ReceiveBufferSize
-      16,            // TransmitBufferSize
-      "\\_SB.GDV0.URTM",  // ResourceSource:
-                    //   UART bus controller name
-      ,              // ResourceSourceIndex: assumed to be 0
-      ,              // ResourceUsage: assumed to be
-                    //   ResourceConsumer
-      UARM,          // DescriptorName: creates name
-                    //   for offset of resource descriptor
-    )                // Vendor data
-  })
-
   Method (_CRS, 0x0, Serialized)
   {
-    if (URIU == 0)
+    Name (RBUF, ResourceTemplate ()
     {
+      // BT UART: URT0 (PL011) or URTM (miniUART)
+      UARTSerialBus(
+        115200,        // InitialBaudRate: in BPS
+        ,              // BitsPerByte: default to 8 bits
+        ,              // StopBits: Defaults to one bit
+        0x00,          // LinesInUse: 8 1-bit flags to
+                       //   declare enabled control lines.
+                       //   Raspberry Pi does not exposed
+                       //   HW control signals -> not supported.
+                       //   Optional bits:
+                       //   - Bit 7 (0x80) Request To Send (RTS)
+                       //   - Bit 6 (0x40) Clear To Send (CTS)
+                       //   - Bit 5 (0x20) Data Terminal Ready (DTR)
+                       //   - Bit 4 (0x10) Data Set Ready (DSR)
+                       //   - Bit 3 (0x08) Ring Indicator (RI)
+                       //   - Bit 2 (0x04) Data Carrier Detect (DTD)
+                       //   - Bit 1 (0x02) Reserved. Must be 0.
+                       //   - Bit 0 (0x01) Reserved. Must be 0.
+        ,              // IsBigEndian:
+                       //   default to LittleEndian.
+        ,              // Parity: Defaults to no parity
+        ,              // FlowControl: Defaults to
+                       //   no flow control.
+        16,            // ReceiveBufferSize
+        16,            // TransmitBufferSize
+#if (RPI_MODEL == 4)
+        "\\_SB.GDV0.URTM",  // ResourceSource:
+#else
+        "\\_SB.GDV0.URT0",  // ResourceSource:
+#endif
+                       //   UART bus controller name
+        ,              // ResourceSourceIndex: assumed to be 0
+        ,              // ResourceUsage: assumed to be
+                       //   ResourceConsumer
+        UAR0,          // DescriptorName: creates name
+                       //   for offset of resource descriptor
+      )                // Vendor data
+
       //
-      // PL011 UART is configured for console output
-      // Return Mini UART for Bluetooth
+      // RPIQ connection for BT_ON/OFF
       //
-      return (^BTMN)
-    }
-    else
-    {
-      //
-      // Mini UART is configured for console output
-      // Return PL011 UART for Bluetooth
-      //
-      return (^BTPL)
-    }
+      GpioIO (Shared, PullUp, 0, 0, IoRestrictionNone, "\\_SB.GDV0.RPIQ", 0, ResourceConsumer, , ) { 128 }
+    })
+    Return (RBUF)
   }
 }

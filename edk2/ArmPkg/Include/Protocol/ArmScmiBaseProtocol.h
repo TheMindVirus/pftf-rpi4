@@ -1,12 +1,12 @@
 /** @file
 
-  Copyright (c) 2017-2021, Arm Limited. All rights reserved.<BR>
+  Copyright (c) 2017-2018, Arm Limited. All rights reserved.
 
   SPDX-License-Identifier: BSD-2-Clause-Patent
 
-  @par Specification Reference:
-  - Arm System Control and Management Interface - Platform Design Document
-    (https://developer.arm.com/documentation/den0056/)
+  System Control and Management Interface V1.0
+    http://infocenter.arm.com/help/topic/com.arm.doc.den0056a/
+    DEN0056A_System_Control_and_Management_Interface.pdf
 **/
 
 #ifndef ARM_SCMI_BASE_PROTOCOL_H_
@@ -14,8 +14,7 @@
 
 #include <Protocol/ArmScmi.h>
 
-#define BASE_PROTOCOL_VERSION_V1  0x10000
-#define BASE_PROTOCOL_VERSION_V2  0x20000
+#define BASE_PROTOCOL_VERSION  0x10000
 
 #define NUM_PROTOCOL_MASK      0xFFU
 #define NUM_AGENT_MASK         0xFFU
@@ -159,10 +158,11 @@ typedef struct _SCMI_BASE_PROTOCOL {
 
 // SCMI Message IDs for Base protocol.
 typedef enum {
-  ScmiMessageIdBaseDiscoverVendor                 = 0x3,
-  ScmiMessageIdBaseDiscoverSubVendor              = 0x4,
-  ScmiMessageIdBaseDiscoverImplementationVersion  = 0x5,
-  ScmiMessageIdBaseDiscoverListProtocols          = 0x6
+  SCMI_MESSAGE_ID_BASE_DISCOVER_VENDOR                  = 0x3,
+  SCMI_MESSAGE_ID_BASE_DISCOVER_SUB_VENDOR              = 0x4,
+  SCMI_MESSAGE_ID_BASE_DISCOVER_IMPLEMENTATION_VERSION  = 0x5,
+  SCMI_MESSAGE_ID_BASE_DISCOVER_LIST_PROTOCOLS          = 0x6
 } SCMI_MESSAGE_ID_BASE;
 
 #endif /* ARM_SCMI_BASE_PROTOCOL_H_ */
+

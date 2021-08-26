@@ -1,12 +1,12 @@
 /** @file
 
-  Copyright (c) 2017-2021, Arm Limited. All rights reserved.<BR>
+  Copyright (c) 2017-2018, Arm Limited. All rights reserved.
 
   SPDX-License-Identifier: BSD-2-Clause-Patent
 
-  @par Specification Reference:
-  - Arm System Control and Management Interface - Platform Design Document
-    (https://developer.arm.com/documentation/den0056/)
+  System Control and Management Interface V1.0
+    http://infocenter.arm.com/help/topic/com.arm.doc.den0056a/
+    DEN0056A_System_Control_and_Management_Interface.pdf
 **/
 
 #include <Base.h>
@@ -24,9 +24,9 @@
 #include "ScmiPrivate.h"
 
 STATIC CONST SCMI_PROTOCOL_ENTRY Protocols[] = {
-  { ScmiProtocolIdBase, ScmiBaseProtocolInit },
-  { ScmiProtocolIdPerformance, ScmiPerformanceProtocolInit },
-  { ScmiProtocolIdClock, ScmiClockProtocolInit }
+  { SCMI_PROTOCOL_ID_BASE, ScmiBaseProtocolInit },
+  { SCMI_PROTOCOL_ID_PERFORMANCE, ScmiPerformanceProtocolInit },
+  { SCMI_PROTOCOL_ID_CLOCK, ScmiClockProtocolInit }
 };
 
 /** ARM SCMI driver entry point function.
@@ -61,7 +61,7 @@ ArmScmiDxeEntryPoint (
   UINT32              SupportedListSize;
 
   // Every SCMI implementation must implement the base protocol.
-  ASSERT (Protocols[0].Id == ScmiProtocolIdBase);
+  ASSERT (Protocols[0].Id == SCMI_PROTOCOL_ID_BASE);
 
   Status = ScmiBaseProtocolInit (&ImageHandle);
   if (EFI_ERROR (Status)) {
@@ -86,9 +86,7 @@ ArmScmiDxeEntryPoint (
     return Status;
   }
 
-  // Accept any version between SCMI v1.0 and SCMI v2.0
-  if ((Version < BASE_PROTOCOL_VERSION_V1) ||
-    (Version > BASE_PROTOCOL_VERSION_V2)) {
+  if (Version != BASE_PROTOCOL_VERSION) {
     ASSERT (FALSE);
     return EFI_UNSUPPORTED;
   }

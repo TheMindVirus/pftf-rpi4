@@ -1,7 +1,7 @@
 /** @file
   ACPI Sdt Protocol Driver
 
-  Copyright (c) 2010 - 2021, Intel Corporation. All rights reserved. <BR>
+  Copyright (c) 2010 - 2018, Intel Corporation. All rights reserved. <BR>
   SPDX-License-Identifier: BSD-2-Clause-Patent
 
 **/
@@ -191,77 +191,6 @@ SdtNotifyAcpiList (
 /**
   Returns a requested ACPI table.
 
-  The following structures are not considered elements in the list of
-  ACPI tables:
-  - Root System Description Pointer (RSD_PTR)
-  - Root System Description Table (RSDT)
-  - Extended System Description Table (XSDT)
-  Version is updated with a bit map containing all the versions of ACPI of which the table is a
-  member. For tables installed via the EFI_ACPI_TABLE_PROTOCOL.InstallAcpiTable() interface,
-  the function returns the value of EFI_ACPI_STD_PROTOCOL.AcpiVersion.
-
-  @param[in]    AcpiTableInstance  ACPI table Instance.
-  @param[in]    Index              The zero-based index of the table to retrieve.
-  @param[out]   Table              Pointer for returning the table buffer.
-  @param[out]   Version            On return, updated with the ACPI versions to which this table belongs. Type
-                                   EFI_ACPI_TABLE_VERSION is defined in "Related Definitions" in the
-                                   EFI_ACPI_SDT_PROTOCOL.
-  @param[out]   TableKey           On return, points to the table key for the specified ACPI system definition table.
-                                   This is identical to the table key used in the EFI_ACPI_TABLE_PROTOCOL.
-                                   The TableKey can be passed to EFI_ACPI_TABLE_PROTOCOL.UninstallAcpiTable()
-                                   to uninstall the table.
-  @retval EFI_SUCCESS              The function completed successfully.
-  @retval EFI_NOT_FOUND            The requested index is too large and a table was not found.
-**/
-EFI_STATUS
-SdtGetAcpiTable (
-  IN  EFI_ACPI_TABLE_INSTANCE             *AcpiTableInstance,
-  IN  UINTN                               Index,
-  OUT EFI_ACPI_SDT_HEADER                 **Table,
-  OUT EFI_ACPI_TABLE_VERSION              *Version,
-  OUT UINTN                               *TableKey
-  )
-{
-  UINTN                     TableIndex;
-  LIST_ENTRY                *CurrentLink;
-  LIST_ENTRY                *StartLink;
-  EFI_ACPI_TABLE_LIST       *CurrentTable;
-  //
-  // Find the table
-  //
-  StartLink   = &AcpiTableInstance->TableList;
-  CurrentLink = StartLink->ForwardLink;
-  TableIndex = 0;
-
-  while (CurrentLink != StartLink) {
-    if (TableIndex == Index) {
-      break;
-    }
-    //
-    // Next one
-    //
-    CurrentLink = CurrentLink->ForwardLink;
-    TableIndex ++;
-  }
-
-  if ((TableIndex != Index) || (CurrentLink == StartLink)) {
-    return EFI_NOT_FOUND;
-  }
-
-  //
-  // Get handle and version
-  //
-  CurrentTable  = EFI_ACPI_TABLE_LIST_FROM_LINK (CurrentLink);
-  *TableKey     = CurrentTable->Handle;
-  *Version      = CurrentTable->Version;
-  *Table        = (EFI_ACPI_SDT_HEADER *)CurrentTable->Table;
-
-  return EFI_SUCCESS;
-}
-
-/**
-  Returns a requested ACPI table.
-
   The GetAcpiTable() function returns a pointer to a buffer containing the ACPI table associated
   with the Index that was input. The following structures are not considered elements in the list of
   ACPI tables:
@@ -294,6 +223,10 @@ GetAcpiTable2 (
   )
 {
   EFI_ACPI_TABLE_INSTANCE   *AcpiTableInstance;
+  UINTN                     TableIndex;
+  LIST_ENTRY                *CurrentLink;
+  LIST_ENTRY                *StartLink;
+  EFI_ACPI_TABLE_LIST       *CurrentTable;
 
   ASSERT (Table != NULL);
   ASSERT (Version != NULL);
@@ -304,9 +237,38 @@ GetAcpiTable2 (
   //
   AcpiTableInstance = SdtGetAcpiTableInstance ();
 
-  return SdtGetAcpiTable (AcpiTableInstance, Index, Table, Version, TableKey);
-}
+  //
+  // Find the table
+  //
+  StartLink   = &AcpiTableInstance->TableList;
+  CurrentLink = StartLink->ForwardLink;
+  TableIndex = 0;
 
+  while (CurrentLink != StartLink) {
+    if (TableIndex == Index) {
+      break;
+    }
+    //
+    // Next one
+    //
+    CurrentLink = CurrentLink->ForwardLink;
+    TableIndex ++;
+  }
+
+  if ((TableIndex != Index) || (CurrentLink == StartLink)) {
+    return EFI_NOT_FOUND;
+  }
+
+  //
+  // Get handle and version
+  //
+  CurrentTable  = EFI_ACPI_TABLE_LIST_FROM_LINK (CurrentLink);
+  *TableKey     = CurrentTable->Handle;
+  *Version      = CurrentTable->Version;
+  *Table        = (EFI_ACPI_SDT_HEADER *)CurrentTable->Table;
+
+  return EFI_SUCCESS;
+}
 
 /**
   Register a callback when an ACPI table is installed.

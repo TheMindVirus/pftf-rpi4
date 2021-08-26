@@ -1,0 +1,1812 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                              (_ModuleEntryPoint)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib(BaseStackCheckGcc.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (__stack_chk_fail)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memcpy.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memcpy)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memset.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memset)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe/OUTPUT/HiiDatabase.lib(AutoGen.obj)
+                              DriverEntryPoint.obj (symbol from plugin) (ProcessLibraryConstructorList)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe/OUTPUT/HiiDatabase.lib(HiiDatabaseEntry.obj)
+                              AutoGen.obj (symbol from plugin) (InitializeHiiDatabase)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe/OUTPUT/HiiDatabase.lib(Image.obj)
+                              HiiDatabaseEntry.obj (symbol from plugin) (HiiNewImage)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe/OUTPUT/HiiDatabase.lib(ImageEx.obj)
+                              HiiDatabaseEntry.obj (symbol from plugin) (HiiNewImageEx)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe/OUTPUT/HiiDatabase.lib(ConfigRouting.obj)
+                              HiiDatabaseEntry.obj (symbol from plugin) (HiiConfigRoutingExportConfig)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe/OUTPUT/HiiDatabase.lib(String.obj)
+                              HiiDatabaseEntry.obj (symbol from plugin) (HiiGetLanguages)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe/OUTPUT/HiiDatabase.lib(Database.obj)
+                              String.obj (symbol from plugin) (IsHiiHandleValid)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe/OUTPUT/HiiDatabase.lib(Font.obj)
+                              Database.obj (symbol from plugin) (FindGlyphBlock)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe/OUTPUT/HiiDatabase.lib(ConfigKeywordHandler.obj)
+                              HiiDatabaseEntry.obj (symbol from plugin) (EfiConfigKeywordHandlerSetData)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib(DxePcdLib.obj)
+                              Database.obj (symbol from plugin) (LibPcdGetExPtr)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+                              ConfigRouting.obj (symbol from plugin) (CopyGuid)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+                              Image.obj (symbol from plugin) (ZeroMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMemWrapper.obj)
+                              Image.obj (symbol from plugin) (CompareMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem32Wrapper.obj)
+                              Font.obj (symbol from plugin) (SetMem32)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+                              Image.obj (symbol from plugin) (CopyMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                              SetMem32Wrapper.obj (symbol from plugin) (InternalMemSetMem32)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCopyMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                              CompareMemWrapper.obj (symbol from plugin) (InternalMemCompareMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCompareGuid)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              ConfigRouting.obj (symbol from plugin) (LShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+                              Database.obj (symbol from plugin) (BitFieldRead32)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuDeadLoop)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LinkedList.obj)
+                              HiiDatabaseEntry.obj (symbol from plugin) (InitializeListHead)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              ConfigRouting.obj (symbol from plugin) (StrnLenS)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              ConfigRouting.obj (symbol from plugin) (StrLen)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              Image.obj (symbol from plugin) (ReadUnaligned16)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              LShiftU64.obj (symbol from plugin) (InternalMathLShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuBreakpoint)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              SafeString.obj (symbol from plugin) (SwapBytes32)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              SafeString.obj (symbol from plugin) (SwapBytes16)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              BitField.obj (symbol from plugin) (RShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              SafeString.obj (symbol from plugin) (MultU64x32)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              SafeString.obj (symbol from plugin) (DivU64x32)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              ConfigRouting.obj (symbol from plugin) (UnicodeSPrint)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              PrintLib.obj (symbol from plugin) (BasePrintLibConvertValueToStringS)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+                              AutoGen.obj (symbol from plugin) (BaseDebugLibSerialPortConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiBootServicesTableLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              Image.obj (symbol from plugin) (AllocatePool)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiRuntimeServicesTableLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilities.obj)
+                              ConfigRouting.obj (symbol from plugin) (DevicePathNodeLength)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilitiesDxeSmm.obj)
+                              ConfigRouting.obj (symbol from plugin) (DevicePathFromHandle)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(UefiDevicePathLib.obj)
+                              ConfigRouting.obj (symbol from plugin) (GetDevicePathSize)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathToText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertDeviceNodeToText)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathFromText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertTextToDeviceNode)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiNotTiano.obj)
+                              HiiDatabaseEntry.obj (symbol from plugin) (EfiCreateEventReadyToBootEx)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+                              UefiNotTiano.obj (symbol from plugin) (EfiEventEmptyFunction)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+                              DebugLib.obj (symbol from plugin) (SetMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+                              SetMemWrapper.obj (symbol from plugin) (SetMem64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+                              DevicePathFromText.obj (symbol from plugin) (SwapBytes64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              PrintLibInternal.obj (symbol from plugin) (DivU64x32Remainder)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+                              DebugLib.obj (symbol from plugin) (GetDebugPrintErrorLevel)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/Platform/RaspberryPi/Library/DualSerialPortLib/DebugDualSerialPortLib/OUTPUT/DebugDualSerialPortLib.lib(DebugDualSerialPortLib.obj)
+                              DebugLib.obj (symbol from plugin) (SerialPortInitialize)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/Platform/RaspberryPi/Library/DualSerialPortLib/DebugDualSerialPortLib/OUTPUT/DebugDualSerialPortLib.lib(DualSerialPortLibCommon.obj)
+                              DebugLib.obj (symbol from plugin) (SerialPortWrite)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib(IoLibNoIo.obj)
+                              DualSerialPortLibCommon.obj (symbol from plugin) (MmioRead8)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib(PL011UartLib.obj)
+                              DualSerialPortLibCommon.obj (symbol from plugin) (PL011UartWrite)
+
+Discarded input sections
+
+ .text          0x0000000000000000       0x10 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .text          0x0000000000000000        0x0 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.EfiEventEmptyFunction
+                0x0000000000000000        0x4 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.IsNodeInList.str1.1
+                0x0000000000000000       0x44 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.IsNodeInList
+                0x0000000000000000       0xa0 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata._gDriverUnloadImageCount
+                0x0000000000000000        0x1 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdDebugPropertyMask
+                0x0000000000000000        0x1 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel
+                0x0000000000000000        0x4 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata._gUefiDriverRevision
+                0x0000000000000000        0x4 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .text._DriverUnloadHandler
+                0x0000000000000000        0x8 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .text.__memset
+                0x0000000000000000       0x1c /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/ccWYDPpi.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWYDPpi.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccdiATej.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccdiATej.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc5AVZpl.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc5AVZpl.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccJgnHbh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccJgnHbh.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc943fij.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc943fij.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccSMtSlh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccSMtSlh.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc8uuiuk.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8uuiuk.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccYXiN7h.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccYXiN7h.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccKdTbCk.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccKdTbCk.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccYJsLtj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccYJsLtj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccoGHWch.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccoGHWch.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cct8Pbii.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cct8Pbii.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccE5gvyj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccE5gvyj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccaiZJAj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccaiZJAj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccXbgomk.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXbgomk.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc0herUk.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0herUk.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc9eeL1i.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc9eeL1i.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccuQTulk.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccuQTulk.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccPZsJ1i.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPZsJ1i.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc7zoock.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc7zoock.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccu3CXsj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccu3CXsj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccT8mvsi.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccT8mvsi.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccsfwM5h.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccsfwM5h.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccWPbIij.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWPbIij.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc9c961j.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc9c961j.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccYl2Vul.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccYl2Vul.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc0VVN4k.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0VVN4k.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/ccXs9wuh.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xc0 /tmp/ccXs9wuh.debug.temp.o
+ .debug_line    0x0000000000000000      0x14c /tmp/ccXs9wuh.debug.temp.o
+ .debug_str     0x0000000000000000      0x472 /tmp/ccXs9wuh.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccXs9wuh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXs9wuh.debug.temp.o
+ .debug_info    0x0000000000000000      0x1c3 /tmp/cc4Hcikj.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/cc4Hcikj.debug.temp.o
+ .debug_line    0x0000000000000000      0x14c /tmp/cc4Hcikj.debug.temp.o
+ .debug_str     0x0000000000000000      0x45b /tmp/cc4Hcikj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc4Hcikj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc4Hcikj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccyfl5li.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccyfl5li.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/ccKzzZDk.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xc0 /tmp/ccKzzZDk.debug.temp.o
+ .debug_line    0x0000000000000000      0x14b /tmp/ccKzzZDk.debug.temp.o
+ .debug_str     0x0000000000000000      0x472 /tmp/ccKzzZDk.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccKzzZDk.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccKzzZDk.debug.temp.o
+ .debug_info    0x0000000000000000      0x1cf /tmp/cc7d0kvl.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/cc7d0kvl.debug.temp.o
+ .debug_line    0x0000000000000000      0x14a /tmp/cc7d0kvl.debug.temp.o
+ .debug_str     0x0000000000000000      0x462 /tmp/cc7d0kvl.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc7d0kvl.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc7d0kvl.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccMSCR6i.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccMSCR6i.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccn0lyel.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccn0lyel.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccqoPkFk.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccqoPkFk.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccgUU6Eh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccgUU6Eh.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc6tiISh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6tiISh.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccKsZCkh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccKsZCkh.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc3gOdDi.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc3gOdDi.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccLIOTkh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccLIOTkh.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccP62pYj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccP62pYj.debug.temp.o
+ .debug_info    0x0000000000000000     0x3d60 /tmp/cc3wWYhi.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x2ca /tmp/cc3wWYhi.debug.temp.o
+ .debug_line    0x0000000000000000      0x3db /tmp/cc3wWYhi.debug.temp.o
+ .debug_str     0x0000000000000000     0x25ec /tmp/cc3wWYhi.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc3wWYhi.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc3wWYhi.debug.temp.o
+ .debug_info    0x0000000000000000     0x45d4 /tmp/ccaqGPjh.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x2b0 /tmp/ccaqGPjh.debug.temp.o
+ .debug_line    0x0000000000000000      0x3cf /tmp/ccaqGPjh.debug.temp.o
+ .debug_str     0x0000000000000000     0x2f11 /tmp/ccaqGPjh.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccaqGPjh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccaqGPjh.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccUoOe6g.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccUoOe6g.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc89Lgil.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc89Lgil.debug.temp.o
+ .debug_info    0x0000000000000000      0x1bb /tmp/ccNb7qqh.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xc6 /tmp/ccNb7qqh.debug.temp.o
+ .debug_line    0x0000000000000000      0x172 /tmp/ccNb7qqh.debug.temp.o
+ .debug_str     0x0000000000000000      0x364 /tmp/ccNb7qqh.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccNb7qqh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccNb7qqh.debug.temp.o
+ .debug_info    0x0000000000000000      0x186 /tmp/ccoBQZuh.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccoBQZuh.debug.temp.o
+ .debug_line    0x0000000000000000      0x174 /tmp/ccoBQZuh.debug.temp.o
+ .debug_str     0x0000000000000000      0x360 /tmp/ccoBQZuh.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccoBQZuh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccoBQZuh.debug.temp.o
+ .debug_info    0x0000000000000000      0x1c3 /tmp/ccLhvykj.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccLhvykj.debug.temp.o
+ .debug_line    0x0000000000000000      0x14c /tmp/ccLhvykj.debug.temp.o
+ .debug_str     0x0000000000000000      0x45b /tmp/ccLhvykj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccLhvykj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccLhvykj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccMRVLTj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccMRVLTj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccwi2qtl.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccwi2qtl.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccWTcuei.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWTcuei.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc1d5Czh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc1d5Czh.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cckcWVkj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cckcWVkj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccycYzNh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccycYzNh.debug.temp.o
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .text          0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+START GROUP
+LOAD /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+LOAD /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+LOAD /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+LOAD /tmp/ccWYDPpi.debug.temp.o
+LOAD /tmp/ccdiATej.debug.temp.o
+LOAD /tmp/cc5AVZpl.debug.temp.o
+LOAD /tmp/ccJgnHbh.debug.temp.o
+LOAD /tmp/cc943fij.debug.temp.o
+LOAD /tmp/ccSMtSlh.debug.temp.o
+LOAD /tmp/cc8uuiuk.debug.temp.o
+LOAD /tmp/ccYXiN7h.debug.temp.o
+LOAD /tmp/ccKdTbCk.debug.temp.o
+LOAD /tmp/ccYJsLtj.debug.temp.o
+LOAD /tmp/ccoGHWch.debug.temp.o
+LOAD /tmp/cct8Pbii.debug.temp.o
+LOAD /tmp/ccE5gvyj.debug.temp.o
+LOAD /tmp/ccaiZJAj.debug.temp.o
+LOAD /tmp/ccXbgomk.debug.temp.o
+LOAD /tmp/cc0herUk.debug.temp.o
+LOAD /tmp/cc9eeL1i.debug.temp.o
+LOAD /tmp/ccuQTulk.debug.temp.o
+LOAD /tmp/ccPZsJ1i.debug.temp.o
+LOAD /tmp/cc7zoock.debug.temp.o
+LOAD /tmp/ccu3CXsj.debug.temp.o
+LOAD /tmp/ccT8mvsi.debug.temp.o
+LOAD /tmp/ccsfwM5h.debug.temp.o
+LOAD /tmp/ccWPbIij.debug.temp.o
+LOAD /tmp/cc9c961j.debug.temp.o
+LOAD /tmp/ccYl2Vul.debug.temp.o
+LOAD /tmp/cc0VVN4k.debug.temp.o
+LOAD /tmp/ccXs9wuh.debug.temp.o
+LOAD /tmp/cc4Hcikj.debug.temp.o
+LOAD /tmp/ccyfl5li.debug.temp.o
+LOAD /tmp/ccKzzZDk.debug.temp.o
+LOAD /tmp/cc7d0kvl.debug.temp.o
+LOAD /tmp/ccMSCR6i.debug.temp.o
+LOAD /tmp/ccn0lyel.debug.temp.o
+LOAD /tmp/ccqoPkFk.debug.temp.o
+LOAD /tmp/ccgUU6Eh.debug.temp.o
+LOAD /tmp/cc6tiISh.debug.temp.o
+LOAD /tmp/ccKsZCkh.debug.temp.o
+LOAD /tmp/cc3gOdDi.debug.temp.o
+LOAD /tmp/ccLIOTkh.debug.temp.o
+LOAD /tmp/ccP62pYj.debug.temp.o
+LOAD /tmp/cc3wWYhi.debug.temp.o
+LOAD /tmp/ccaqGPjh.debug.temp.o
+LOAD /tmp/ccUoOe6g.debug.temp.o
+LOAD /tmp/cc89Lgil.debug.temp.o
+LOAD /tmp/ccNb7qqh.debug.temp.o
+LOAD /tmp/ccoBQZuh.debug.temp.o
+LOAD /tmp/ccLhvykj.debug.temp.o
+LOAD /tmp/ccMRVLTj.debug.temp.o
+LOAD /tmp/ccwi2qtl.debug.temp.o
+LOAD /tmp/ccWTcuei.debug.temp.o
+LOAD /tmp/cc1d5Czh.debug.temp.o
+LOAD /tmp/cckcWVkj.debug.temp.o
+LOAD /tmp/ccycYzNh.debug.temp.o
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe/OUTPUT/HiiDatabase.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/Platform/RaspberryPi/Library/DualSerialPortLib/DebugDualSerialPortLib/OUTPUT/DebugDualSerialPortLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib
+END GROUP
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.gnu.version_d  0x0000000000000228        0x0
+ .gnu.version_d
+                0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version    0x0000000000000228        0x0
+ .gnu.version   0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version_r  0x0000000000000228        0x0
+ .gnu.version_r
+                0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.text           0x0000000000001000    0x1c7f8
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.SerialPortWritable.constprop.0
+                0x0000000000001000        0x8 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.InternalAllocatePool
+                0x0000000000001008       0x64 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.BasePrintLibFillBuffer
+                0x000000000000106c       0x34 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.AsciiStrnLenS
+                0x00000000000010a0       0x3c /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.InternalSafeStringIsOverlap
+                0x00000000000010dc       0x3c /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.IsLineBreak
+                0x0000000000001118       0xf0 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.DebugAssertEnabled
+                0x0000000000001208        0x8 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000001208                DebugAssertEnabled
+ .text.DevicePathFromHandle
+                0x0000000000001210       0x6c /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000001210                DevicePathFromHandle
+ .text.AllocatePool
+                0x000000000000127c        0xc /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x000000000000127c                AllocatePool
+ .text.DebugPrintLevelEnabled
+                0x0000000000001288        0x8 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000001288                DebugPrintLevelEnabled
+ .text.DebugPrintEnabled
+                0x0000000000001290        0x8 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000001290                DebugPrintEnabled
+ .text.BaseDebugLibSerialPortConstructor
+                0x0000000000001298        0x8 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000001298                BaseDebugLibSerialPortConstructor
+ .text.StrnLenS
+                0x00000000000012a0       0x70 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x00000000000012a0                StrnLenS
+ .text.BasePrintLibSPrintMarker.constprop.0
+                0x0000000000001310      0xe00 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.BasePrintLibSPrint.constprop.0
+                0x0000000000002110       0xa0 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.AsciiSPrint.constprop.0
+                0x00000000000021b0       0xac /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.DebugAssert
+                0x000000000000225c       0x8c /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x000000000000225c                DebugAssert
+ .text.BitFieldWrite32.constprop.0
+                0x00000000000022e8      0x130 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x00000000000022e8                BitFieldWrite32.constprop.0
+ .text.EfiAcquireLock.constprop.0
+                0x0000000000002418       0x70 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000002418                EfiAcquireLock.constprop.0
+ .text.EfiReleaseLock.constprop.0
+                0x0000000000002488       0x6c /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000002488                EfiReleaseLock.constprop.0
+ .text.SerialPortWrite
+                0x00000000000024f4      0x120 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.DevicePathSubType
+                0x0000000000002614       0x48 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.DevicePathType
+                0x000000000000265c       0x48 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.IsDevicePathEnd
+                0x00000000000026a4       0x94 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x00000000000026a4                IsDevicePathEnd
+ .text.BasePrintLibValueToString
+                0x0000000000002738       0x2c /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.UnicodeValueToStringS.constprop.0
+                0x0000000000002764      0x16c /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000002764                UnicodeValueToStringS.constprop.0
+ .text.WriteUnaligned16
+                0x00000000000028d0       0x50 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x00000000000028d0                WriteUnaligned16
+ .text.ReadUnaligned16
+                0x0000000000002920       0x5c /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000002920                ReadUnaligned16
+ .text.DevicePathNodeLength
+                0x000000000000297c       0x50 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x000000000000297c                DevicePathNodeLength
+ .text.NextDevicePathNode
+                0x00000000000029cc       0x50 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x00000000000029cc                NextDevicePathNode
+ .text.UefiDevicePathLibGetDevicePathSize
+                0x0000000000002a1c       0xfc /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000002a1c                UefiDevicePathLibGetDevicePathSize
+ .text.ReadUnaligned32
+                0x0000000000002b18       0x30 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000002b18                ReadUnaligned32
+ .text.AsciiStrLen
+                0x0000000000002b48       0x90 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000002b48                AsciiStrLen
+ .text.DebugPrint
+                0x0000000000002bd8       0xd0 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000002bd8                DebugPrint
+ .text.FreePool
+                0x0000000000002ca8       0x7c /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000002ca8                FreePool
+ .text.GetFormPackageData.part.0.constprop.0
+                0x0000000000002d24       0xf8 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000002d24                GetFormPackageData.part.0.constprop.0
+ .text.GetVariable2.constprop.0
+                0x0000000000002e1c      0x128 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000002e1c                GetVariable2.constprop.0
+ .text.AsciiStrCpyS
+                0x0000000000002f44      0x1d8 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000002f44                AsciiStrCpyS
+ .text.AsciiStrSize
+                0x000000000000311c       0x18 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x000000000000311c                AsciiStrSize
+ .text.AsciiStrStr.constprop.0
+                0x0000000000003134       0xac /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000003134                AsciiStrStr.constprop.0
+ .text.AsciiStrnCmp
+                0x00000000000031e0       0xd4 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.AsciiStrCmp
+                0x00000000000032b4       0x88 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.StrLen   0x000000000000333c       0xa4 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x000000000000333c                StrLen
+ .text.StrSize  0x00000000000033e0       0x1c /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x00000000000033e0                StrSize
+ .text.StrStr   0x00000000000033fc       0xac /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x00000000000033fc                StrStr
+ .text.StrnCmp  0x00000000000034a8       0xd4 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x00000000000034a8                StrnCmp
+ .text.StrCmp   0x000000000000357c       0x88 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x000000000000357c                StrCmp
+ .text.AsciiStrToUnicodeStrS
+                0x0000000000003604      0x208 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000003604                AsciiStrToUnicodeStrS
+ .text.InternalBaseLibIsListValid
+                0x000000000000380c       0xac /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.SetMem32
+                0x00000000000038b8       0xa4 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.GetWidth
+                0x000000000000395c      0x19c /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.FindStorageFromVarId
+                0x0000000000003af8       0xb4 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.FindQuestionFromStringId
+                0x0000000000003bac       0xe4 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.ExtractReadOnlyFromOpCode
+                0x0000000000003c90       0x4c /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.GlyphToBlt
+                0x0000000000003cdc      0x218 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.NarrowGlyphToBlt
+                0x0000000000003ef4      0x118 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.GlyphToImage
+                0x000000000000400c      0x1ac /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.HiiGetPackageListHandle
+                0x00000000000041b8      0x128 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.HiiExportPackageLists
+                0x00000000000042e0      0x26c /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x00000000000042e0                HiiExportPackageLists
+ .text.UnicodeSPrint
+                0x000000000000454c       0xd4 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x000000000000454c                UnicodeSPrint
+ .text.UnicodeStrToAsciiStrS
+                0x0000000000004620      0x24c /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.ExtractNameSpace
+                0x000000000000486c      0x104 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.StrnCatS
+                0x0000000000004970      0x2fc /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000004970                StrnCatS
+ .text.StrCatS  0x0000000000004c6c      0x2a0 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000004c6c                StrCatS
+ .text.StrnCpyS
+                0x0000000000004f0c      0x290 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000004f0c                StrnCpyS
+ .text.StrCpyS  0x000000000000519c      0x230 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x000000000000519c                StrCpyS
+ .text.GenerateKeywordResp
+                0x00000000000053cc      0x1fc /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.IsNull   0x00000000000055c8       0x4c /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x00000000000055c8                IsNull
+ .text.IsListEmpty
+                0x0000000000005614       0x4c /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000005614                IsListEmpty
+ .text.RemoveEntryList
+                0x0000000000005660       0x50 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000005660                RemoveEntryList
+ .text.HiiUnregisterPackageNotify
+                0x00000000000056b0      0x1b8 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.GetNextNode
+                0x0000000000005868       0x44 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000005868                GetNextNode
+ .text.GetFirstNode
+                0x00000000000058ac       0x44 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x00000000000058ac                GetFirstNode
+ .text.InsertTailList
+                0x00000000000058f0       0x5c /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x00000000000058f0                InsertTailList
+ .text.InitializeListHead
+                0x000000000000594c       0x40 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x000000000000594c                InitializeListHead
+ .text.BitFieldRead32
+                0x000000000000598c       0x74 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x000000000000598c                BitFieldRead32
+ .text.LShiftU64
+                0x0000000000005a00       0x44 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000005a00                LShiftU64
+ .text.StrHexToUint64
+                0x0000000000005a44      0x198 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000005a44                StrHexToUint64
+ .text.BitFieldRead64
+                0x0000000000005bdc       0xa0 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000005bdc                BitFieldRead64
+ .text.CopyMem  0x0000000000005c7c       0xa4 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000005c7c                CopyMem
+ .text.AllocateCopyPool
+                0x0000000000005d20       0x90 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000005d20                AllocateCopyPool
+ .text.ExtractValueFromDriver
+                0x0000000000005db0      0x134 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.ExtractKeyword
+                0x0000000000005ee4       0xe4 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.GetUnicodeStringTextAndSize
+                0x0000000000005fc8       0xac /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.GetStringIdFromRecord
+                0x0000000000006074      0x674 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.GetCell  0x00000000000066e8       0xc4 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.HiiFindKeyboardLayouts
+                0x00000000000067ac      0x238 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.HiiUpdatePackageList
+                0x00000000000069e4      0x2cc /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.CompareMem
+                0x0000000000006cb0       0xd0 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000006cb0                CompareMem
+ .text.GetStringIdFromDatabase
+                0x0000000000006d80      0x280 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.HiiGetKeyboardLayout
+                0x0000000000007000      0x254 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.ZeroMem  0x0000000000007254       0x70 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000007254                ZeroMem
+ .text.InternalAllocateZeroPool
+                0x00000000000072c4       0x34 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x00000000000072c4                InternalAllocateZeroPool
+ .text.ReallocatePool
+                0x00000000000072f8       0x60 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x00000000000072f8                ReallocatePool
+ .text.MergeToMultiKeywordResp
+                0x0000000000007358       0xac /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.AllocateZeroPool
+                0x0000000000007404        0xc /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000007404                AllocateZeroPool
+ .text.GetBestLanguage.constprop.0
+                0x0000000000007410      0x1c0 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000007410                GetBestLanguage.constprop.0
+ .text.WriteOutputParam.constprop.0
+                0x00000000000075d0       0x84 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.GetNameFromId
+                0x0000000000007654      0x1a0 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.ConstructRequestElement
+                0x00000000000077f4       0xc0 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.ConstructConfigHdr
+                0x00000000000078b4      0x2e4 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.ExtractConfigRequest
+                0x0000000000007b98      0x27c /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.SaveFontName
+                0x0000000000007e14       0x60 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.NewCell  0x0000000000007e74       0x88 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.FindGlyphBlock.constprop.0
+                0x0000000000007efc      0x564 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000007efc                FindGlyphBlock.constprop.0
+ .text.HiiRegisterPackageNotify
+                0x0000000000008460      0x180 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.ExtractDevicePath
+                0x00000000000085e0      0x1e4 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.EfiConfigKeywordHandlerGetData
+                0x00000000000087c4      0xd50 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.EfiConfigKeywordHandlerSetData
+                0x0000000000009514      0x734 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.CompareGuid
+                0x0000000000009c48       0x60 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x0000000000009c48                CompareGuid
+ .text.HiiSetKeyboardLayout
+                0x0000000000009ca8      0x220 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.HiiListPackageLists
+                0x0000000000009ec8      0x248 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.CopyGuid
+                0x000000000000a110        0x8 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x000000000000a110                CopyGuid
+ .text.GetPiPcdProtocol
+                0x000000000000a118       0xc0 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x000000000000a118                GetPiPcdProtocol
+ .text.GetSystemFont.part.0
+                0x000000000000a1d8       0xf8 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x000000000000a1d8                GetSystemFont.part.0
+ .text.IsSystemFontInfo
+                0x000000000000a2d0      0x244 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.IsFontInfoExisted
+                0x000000000000a514      0x47c /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x000000000000a514                IsFontInfoExisted
+ .text.HiiGetFontInfo
+                0x000000000000a990      0x33c /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.GetGlyphBuffer
+                0x000000000000accc      0x338 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.HiiGetGlyph
+                0x000000000000b004      0x340 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.HiiStringToImage
+                0x000000000000b344      0xcd4 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.HiiStringIdToImage
+                0x000000000000c018      0x3cc /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .text.IsEfiVarStoreQuestion
+                0x000000000000c3e4       0x30 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .text.AsciiHiiToLower
+                0x000000000000c414       0x6c /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .text.ReferFontInfoLocally
+                0x000000000000c480      0x154 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .text.HiiCompareLanguage
+                0x000000000000c5d4      0x128 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .text.FindQuestionDefaultSetting
+                0x000000000000c6fc      0x470 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .text.GetUnicodeStringTextOrSize
+                0x000000000000cb6c       0xbc /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .text.FindStringBlock
+                0x000000000000cc28      0x7c0 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .text.GetStringWorker
+                0x000000000000d3e8      0x2e8 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .text.HiiConfigToBlock
+                0x000000000000d6d0      0x3ac /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                0x000000000000d6d0                HiiConfigToBlock
+ .text.HiiGetAltCfg
+                0x000000000000da7c      0x3e4 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                0x000000000000da7c                HiiGetAltCfg
+ .text.HiiBlockToConfig
+                0x000000000000de60      0x520 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                0x000000000000de60                HiiBlockToConfig
+ .text.HiiGetDatabaseInfo
+                0x000000000000e380      0x1f0 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                0x000000000000e380                HiiGetDatabaseInfo
+ .text.HiiGetConfigRespInfo
+                0x000000000000e570      0x1b8 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                0x000000000000e570                HiiGetConfigRespInfo
+ .text.IsHiiHandleValid
+                0x000000000000e728       0x24 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                0x000000000000e728                IsHiiHandleValid
+ .text.InvokeRegisteredFunction
+                0x000000000000e74c      0x3f4 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .text.RemoveKeyboardLayoutPackages
+                0x000000000000eb40      0x130 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                0x000000000000eb40                RemoveKeyboardLayoutPackages
+ .text.AddDevicePathPackage
+                0x000000000000ec70      0x164 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .text.AddPackages
+                0x000000000000edd4     0x1160 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                0x000000000000edd4                AddPackages
+ .text.HiiNewPackageList
+                0x000000000000ff34      0x334 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                0x000000000000ff34                HiiNewPackageList
+ .text.RemoveDevicePathPackage
+                0x0000000000010268       0xa4 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                0x0000000000010268                RemoveDevicePathPackage
+ .text.RemoveSimpleFontPackages
+                0x000000000001030c       0xfc /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                0x000000000001030c                RemoveSimpleFontPackages
+ .text.RemoveImagePackages
+                0x0000000000010408       0x74 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                0x0000000000010408                RemoveImagePackages
+ .text.RemoveFontPackages
+                0x000000000001047c      0x1fc /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                0x000000000001047c                RemoveFontPackages
+ .text.RemoveStringPackages
+                0x0000000000010678      0x170 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                0x0000000000010678                RemoveStringPackages
+ .text.RemoveFormPackages
+                0x00000000000107e8      0x104 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                0x00000000000107e8                RemoveFormPackages
+ .text.ExportFormPackages
+                0x00000000000108ec      0x1b8 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                0x00000000000108ec                ExportFormPackages
+ .text.ExportPackageList
+                0x0000000000010aa4      0xb7c /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                0x0000000000010aa4                ExportPackageList
+ .text.RemoveGuidPackages
+                0x0000000000011620      0x130 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                0x0000000000011620                RemoveGuidPackages
+ .text.HiiRemovePackageList
+                0x0000000000011750      0x29c /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                0x0000000000011750                HiiRemovePackageList
+ .text.HiiGetSecondaryLanguages
+                0x00000000000119ec      0x208 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                0x00000000000119ec                HiiGetSecondaryLanguages
+ .text.HiiGetLanguages
+                0x0000000000011bf4      0x204 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                0x0000000000011bf4                HiiGetLanguages
+ .text.HiiSetString
+                0x0000000000011df8      0x8d0 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                0x0000000000011df8                HiiSetString
+ .text.HiiGetString
+                0x00000000000126c8      0x25c /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                0x00000000000126c8                HiiGetString
+ .text.HiiNewString
+                0x0000000000012924      0x948 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                0x0000000000012924                HiiNewString
+ .text.GetFullStringFromHiiFormPackages.part.0
+                0x000000000001326c     0x1a1c /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                0x000000000001326c                GetFullStringFromHiiFormPackages.part.0
+ .text.GetDevicePath.part.0
+                0x0000000000014c88      0x19c /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                0x0000000000014c88                GetDevicePath.part.0
+ .text.HiiConfigRoutingRouteConfig
+                0x0000000000014e24      0x528 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                0x0000000000014e24                HiiConfigRoutingRouteConfig
+ .text.ProcessLibraryDestructorList
+                0x000000000001534c        0x4 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x000000000001534c                ProcessLibraryDestructorList
+ .text.GetElementsFromRequest
+                0x0000000000015350       0x84 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .text.CopyRgbToGopPixel
+                0x00000000000153d4       0x84 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .text.CopyGopToRgbPixel
+                0x0000000000015458       0x84 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .text.ImageToBlt
+                0x00000000000154dc      0x158 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .text.Output8bitPixel
+                0x0000000000015634      0x190 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .text.LocateHiiImageDecoder
+                0x00000000000157c4      0x168 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .text.HiiDrawImage
+                0x000000000001592c      0x3c4 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x000000000001592c                HiiDrawImage
+ .text.HiiDrawImageEx
+                0x0000000000015cf0       0x98 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x0000000000015cf0                HiiDrawImageEx
+ .text.GetImageIdOrAddress
+                0x0000000000015d88      0x270 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .text.LocatePackageList
+                0x0000000000015ff8       0xc0 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .text.HiiGetImageInfo
+                0x00000000000160b8      0x1a0 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x00000000000160b8                HiiGetImageInfo
+ .text.HiiSetImage
+                0x0000000000016258      0x2f8 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x0000000000016258                HiiSetImage
+ .text.HiiSetImageEx
+                0x0000000000016550       0x80 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x0000000000016550                HiiSetImageEx
+ .text.IGetImage
+                0x00000000000165d0      0x594 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .text.HiiGetImageEx
+                0x0000000000016b64       0x84 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x0000000000016b64                HiiGetImageEx
+ .text.HiiDrawImageIdEx
+                0x0000000000016be8       0xd0 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x0000000000016be8                HiiDrawImageIdEx
+ .text.HiiGetImage
+                0x0000000000016cb8       0x84 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x0000000000016cb8                HiiGetImage
+ .text.HiiDrawImageId
+                0x0000000000016d3c       0xd0 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x0000000000016d3c                HiiDrawImageId
+ .text.HiiNewImage
+                0x0000000000016e0c      0x294 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x0000000000016e0c                HiiNewImage
+ .text.HiiNewImageEx
+                0x00000000000170a0       0x80 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x00000000000170a0                HiiNewImageEx
+ .text.OnReadyToBoot
+                0x0000000000017120       0x50 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .text.GetSupportedLanguages
+                0x0000000000017170       0xf8 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x0000000000017170                GetSupportedLanguages
+ .text.InternalGetString
+                0x0000000000017268      0x1ac /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x0000000000017268                InternalGetString
+ .text.BlockArrayCheck
+                0x0000000000017414      0x110 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x0000000000017414                BlockArrayCheck
+ .text.InsertBlockData
+                0x0000000000017524       0xa0 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x0000000000017524                InsertBlockData
+ .text.IsThisOpcodeRequired
+                0x00000000000175c4      0x1d4 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x00000000000175c4                IsThisOpcodeRequired
+ .text.InsertDefaultValue
+                0x0000000000017798       0xe4 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x0000000000017798                InsertDefaultValue
+ .text.GetValueOfNumber
+                0x000000000001787c      0x160 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x000000000001787c                GetValueOfNumber
+ .text.MergeDefaultString
+                0x00000000000179dc      0x92c /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x00000000000179dc                MergeDefaultString
+ .text.AppendToMultiString
+                0x0000000000018308       0xd4 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x0000000000018308                AppendToMultiString
+ .text.HiiConfigRoutingExportConfig
+                0x00000000000183dc      0x4d0 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x00000000000183dc                HiiConfigRoutingExportConfig
+ .text.OutputConfigBody
+                0x00000000000188ac       0xc8 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x00000000000188ac                OutputConfigBody
+ .text.HiiToLower
+                0x0000000000018974       0x94 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x0000000000018974                HiiToLower
+ .text.GenerateSubStr
+                0x0000000000018a08      0x258 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x0000000000018a08                GenerateSubStr
+ .text.IsThisVarstore
+                0x0000000000018c60      0x184 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x0000000000018c60                IsThisVarstore
+ .text.IsThisPackageList
+                0x0000000000018de4      0x1ec /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x0000000000018de4                IsThisPackageList
+ .text.GetVarStoreType
+                0x0000000000018fd0      0x2a8 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x0000000000018fd0                GetVarStoreType
+ .text.CalculateConfigStringLen
+                0x0000000000019278       0xac /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x0000000000019278                CalculateConfigStringLen
+ .text.HiiConfigRoutingExtractConfig
+                0x0000000000019324      0xa7c /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x0000000000019324                HiiConfigRoutingExtractConfig
+ .text.memcpy   0x0000000000019da0       0x20 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x0000000000019da0                memcpy
+ .text.__stack_chk_fail
+                0x0000000000019dc0       0x50 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x0000000000019dc0                __stack_chk_fail
+ .text._ModuleEntryPoint
+                0x0000000000019e10      0x458 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x0000000000019e10                _ModuleEntryPoint
+ *fill*         0x000000000001a268        0x8 
+ .text          0x000000000001a270      0x200 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                0x000000000001a270                InternalMemSetMem16
+                0x000000000001a27c                InternalMemSetMem32
+                0x000000000001a288                InternalMemSetMem64
+                0x000000000001a294                InternalMemZeroMem
+                0x000000000001a29c                InternalMemSetMem
+ .text          0x000000000001a470      0x218 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                0x000000000001a5dc                InternalMemCopyMem
+ *fill*         0x000000000001a688       0x38 
+ .text          0x000000000001a6c0       0xe0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                0x000000000001a6c0                InternalMemCompareMem
+ .text          0x000000000001a7a0       0x20 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                0x000000000001a7a0                InternalMemCompareGuid
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.IsLineBreak
+                0x000000000001a7c0       0x15 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.StrnLenS.str1.1
+                0x000000000001a7d5       0x65 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.BasePrintLibSPrintMarker.constprop.0.str1.1
+                0x000000000001a83a      0x28d /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                                        0x2a4 (size before relaxing)
+ *fill*         0x000000000001aac7        0x1 
+ .rodata.BasePrintLibSPrintMarker.constprop.0
+                0x000000000001aac8       0x5e /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.AsciiSPrint.constprop.0.str1.1
+                0x000000000001ab26       0x18 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.DebugAssert.str1.1
+                0x000000000001ab3e        0xc /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.BitFieldWrite32.constprop.0.str1.1
+                0x000000000001ab4a       0xa8 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.EfiAcquireLock.constprop.0.str1.1
+                0x000000000001abf2       0x5d /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.EfiReleaseLock.constprop.0.str1.1
+                0x000000000001ac4f       0x1e /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.DevicePathSubType.str1.1
+                0x000000000001ac6d       0x6a /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.UnicodeValueToStringS.constprop.0.str1.1
+                0x000000000001acd7       0xe7 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.WriteUnaligned16.str1.1
+                0x000000000001adbe       0x45 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.AsciiStrLen.str1.1
+                0x000000000001ae03       0x76 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                                         0x8d (size before relaxing)
+ .rodata.FreePool.str1.1
+                0x000000000001ae79       0x90 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ *fill*         0x000000000001af09        0x1 
+ .rodata.GetVariable2.constprop.0.str2.2
+                0x000000000001af0a       0x1a /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.GetVariable2.constprop.0.str1.1
+                0x000000000001af24       0x17 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.AsciiStrCpyS.str1.1
+                0x000000000001af3b      0x104 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.AsciiStrStr.constprop.0.str1.1
+                0x000000000001b03f       0x3e /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.AsciiStrnCmp.str1.1
+                0x000000000001b07d       0x70 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.StrLen.str1.1
+                0x000000000001b0ed       0x3a /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.StrStr.str1.1
+                0x000000000001b127       0x3a /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                                         0x32 (size before relaxing)
+ .rodata.StrnCmp.str1.1
+                0x000000000001b127       0x72 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.AsciiStrToUnicodeStrS.str1.1
+                0x000000000001b199       0xa3 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.InternalBaseLibIsListValid.str1.1
+                0x000000000001b23c       0x83 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                                         0x98 (size before relaxing)
+ .rodata.SetMem32.str1.1
+                0x000000000001b2bf       0xb9 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.GetWidth.str1.1
+                0x000000000001b378       0xa4 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.GetWidth
+                0x000000000001b41c       0x1c /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.FindStorageFromVarId.str1.1
+                0x000000000001b438       0x1c /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.ExtractReadOnlyFromOpCode.str1.1
+                0x000000000001b454       0x1b /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.GlyphToBlt.str1.1
+                0x000000000001b46f       0x95 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.NarrowGlyphToBlt.str1.1
+                0x000000000001b504       0x51 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.HiiGetPackageListHandle.str1.1
+                0x000000000001b555       0x64 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.UnicodeSPrint.str1.1
+                0x000000000001b5b9       0x28 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.UnicodeStrToAsciiStrS.str1.1
+                0x000000000001b5e1       0x99 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.ExtractNameSpace.str2.2
+                0x000000000001b67a       0x16 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                                         0x1a (size before relaxing)
+ .rodata.StrnCatS.str1.1
+                0x000000000001b690       0x92 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.GenerateKeywordResp.str1.1
+                0x000000000001b722       0x9c /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.GenerateKeywordResp.str2.2
+                0x000000000001b7be       0x34 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.IsNull.str1.1
+                0x000000000001b7f2       0x22 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.IsListEmpty.str1.1
+                0x000000000001b814       0x26 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.RemoveEntryList.str1.1
+                0x000000000001b83a       0x15 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.InitializeListHead.str1.1
+                0x000000000001b84f       0x19 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.LShiftU64.str1.1
+                0x000000000001b868       0x4c /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.StrHexToUint64.str1.1
+                0x000000000001b8b4       0x30 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.BitFieldRead64.str1.1
+                0x000000000001b8e4       0x4d /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.CopyMem.str1.1
+                0x000000000001b931       0xd3 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.AllocateCopyPool.str1.1
+                0x000000000001ba04       0x3f /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.ExtractValueFromDriver.str1.1
+                0x000000000001ba43       0x5c /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.ExtractValueFromDriver.str2.2
+                0x000000000001ba9f       0x34 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                                         0x10 (size before relaxing)
+ .rodata.GetUnicodeStringTextAndSize.str1.1
+                0x000000000001ba9f       0x56 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.GetStringIdFromRecord.str1.1
+                0x000000000001baf5      0x10f /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.GetStringIdFromRecord
+                0x000000000001bc04       0x46 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ *fill*         0x000000000001bc4a        0x2 
+ .rodata.HiiUpdatePackageList
+                0x000000000001bc4c        0x9 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.CompareMem.str1.1
+                0x000000000001bc55       0x94 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.GetStringIdFromDatabase.str1.1
+                0x000000000001bce9       0xc2 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.ZeroMem.str1.1
+                0x000000000001bdab       0x88 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.GetBestLanguage.constprop.0.str1.1
+                0x000000000001be33       0x23 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.GetNameFromId.str1.1
+                0x000000000001be56       0x23 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                                         0x24 (size before relaxing)
+ .rodata.ConstructRequestElement.str2.2
+                0x000000000001be79       0x34 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.ConstructConfigHdr.str1.1
+                0x000000000001be79       0x15 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.ConstructConfigHdr.str2.2
+                0x000000000001be8e        0xe /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                                         0x1a (size before relaxing)
+ .rodata.ExtractConfigRequest.str1.1
+                0x000000000001be9c       0xa3 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                                         0xbb (size before relaxing)
+ .rodata.FindGlyphBlock.constprop.0.str1.1
+                0x000000000001bf3f       0x6c /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ *fill*         0x000000000001bfab        0x1 
+ .rodata.FindGlyphBlock.constprop.0
+                0x000000000001bfac       0x2e /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.ExtractDevicePath.str2.2
+                0x000000000001bfda        0xe /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                                          0xc (size before relaxing)
+ .rodata.EfiConfigKeywordHandlerGetData.str1.1
+                0x000000000001bfda       0x36 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.EfiConfigKeywordHandlerGetData.str2.2
+                0x000000000001c010       0x62 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ *fill*         0x000000000001c072        0x2 
+ .rodata.EfiConfigKeywordHandlerGetData
+                0x000000000001c074       0x4e /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.EfiConfigKeywordHandlerSetData.str1.1
+                0x000000000001c0c2       0xf1 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.EfiConfigKeywordHandlerSetData.str2.2
+                0x000000000001c1b3       0x62 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                                          0xe (size before relaxing)
+ .rodata.CompareGuid.str1.1
+                0x000000000001c1b3       0x7e /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.HiiSetKeyboardLayout.str1.1
+                0x000000000001c231       0x1f /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.HiiListPackageLists
+                0x000000000001c250        0xa /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.GetPiPcdProtocol.str1.1
+                0x000000000001c25a       0x5a /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.GetSystemFont.part.0.str2.2
+                0x000000000001c2b4       0x16 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.GetSystemFont.part.0.str1.1
+                0x000000000001c2ca       0x1e /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.IsSystemFontInfo.str1.1
+                0x000000000001c2e8       0x9c /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.IsFontInfoExisted.str1.1
+                0x000000000001c384       0x9c /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                                         0x19 (size before relaxing)
+ .rodata.HiiGetFontInfo.str1.1
+                0x000000000001c384       0x1d /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.HiiGetGlyph.str1.1
+                0x000000000001c3a1       0x3c /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.HiiStringToImage.str1.1
+                0x000000000001c3dd       0x4f /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                                         0x64 (size before relaxing)
+ .rodata.CSWTCH.243
+                0x000000000001c42c        0x3 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.1941
+                0x000000000001c42f        0x8 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.1952
+                0x000000000001c437        0x9 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.1964
+                0x000000000001c440        0x8 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.1977
+                0x000000000001c448        0x9 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2031
+                0x000000000001c451       0x10 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2115
+                0x000000000001c461        0xd /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2221
+                0x000000000001c46e       0x16 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2243
+                0x000000000001c484       0x16 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdUefiVariableDefaultPlatformLang
+                0x000000000001c49a        0x6 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.mErrorString
+                0x000000000001c4a0      0x2b5 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.mHexStr
+                0x000000000001c755       0x10 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.mHiiEfiColors
+                0x000000000001c765       0x40 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.mWarningString
+                0x000000000001c7a5       0x96 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .rodata.AsciiHiiToLower.str1.1
+                0x000000000001c83b       0x6a /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .rodata.ReferFontInfoLocally.str1.1
+                0x000000000001c8a5       0x96 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                                         0xab (size before relaxing)
+ .rodata.HiiCompareLanguage.str1.1
+                0x000000000001c93b       0x2a /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .rodata.FindQuestionDefaultSetting.str1.1
+                0x000000000001c965       0x3b /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                                        0x102 (size before relaxing)
+ .rodata.GetUnicodeStringTextOrSize.str1.1
+                0x000000000001c9a0       0x38 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .rodata.FindStringBlock.str1.1
+                0x000000000001c9d8       0x7d /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                                        0x154 (size before relaxing)
+ *fill*         0x000000000001ca55        0x3 
+ .rodata.FindStringBlock
+                0x000000000001ca58       0x46 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .rodata.GetStringWorker.str1.1
+                0x000000000001ca9e       0x40 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ *fill*         0x000000000001cade        0x2 
+ .rodata.GetStringWorker
+                0x000000000001cae0        0x7 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .rodata.HiiConfigToBlock.str1.1
+                0x000000000001cae7       0x54 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ *fill*         0x000000000001cb3b        0x1 
+ .rodata.HiiConfigToBlock.str2.2
+                0x000000000001cb3c       0x22 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                                         0x4a (size before relaxing)
+ .rodata.HiiGetAltCfg.str2.2
+                0x000000000001cb5e       0x22 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                                         0x20 (size before relaxing)
+ .rodata.HiiBlockToConfig.str2.2
+                0x000000000001cb5e       0x22 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                                         0x1e (size before relaxing)
+ .rodata.HiiGetDatabaseInfo.str1.1
+                0x000000000001cb5e       0xfa /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .rodata.HiiGetConfigRespInfo.str1.1
+                0x000000000001cc58       0x4a /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .rodata.InvokeRegisteredFunction.str1.1
+                0x000000000001cca2       0x17 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ *fill*         0x000000000001cca2        0x2 
+ .rodata.InvokeRegisteredFunction
+                0x000000000001cca4       0x12 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .rodata.AddDevicePathPackage.str1.1
+                0x000000000001ccb6       0x37 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ *fill*         0x000000000001cced        0x3 
+ .rodata.AddPackages
+                0x000000000001ccf0       0x32 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .rodata.ExportPackageList.str1.1
+                0x000000000001cd22       0xeb /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                                        0x137 (size before relaxing)
+ .rodata.HiiRemovePackageList.str1.1
+                0x000000000001ce0d       0x39 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ *fill*         0x000000000001ce46        0x2 
+ .rodata.HiiSetString
+                0x000000000001ce48        0xe /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .rodata.HiiNewString.str1.1
+                0x000000000001ce56       0x12 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .rodata.GetFullStringFromHiiFormPackages.part.0.str2.2
+                0x000000000001ce56       0xa0 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                                         0xc0 (size before relaxing)
+ .rodata.GetFullStringFromHiiFormPackages.part.0.str1.1
+                0x000000000001cef6       0x34 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ *fill*         0x000000000001cf2a        0x2 
+ .rodata.GetFullStringFromHiiFormPackages.part.0
+                0x000000000001cf2c       0x5e /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .rodata.HiiConfigRoutingRouteConfig.str1.1
+                0x000000000001cf8a       0x55 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .rodata.GetElementsFromRequest.str2.2
+                0x000000000001cfdf       0x22 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .rodata.GetElementsFromRequest.str1.1
+                0x000000000001cfdf       0x1b /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                                         0x6f (size before relaxing)
+ .rodata.CopyRgbToGopPixel.str1.1
+                0x000000000001cffa       0x82 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .rodata.Output8bitPixel.str1.1
+                0x000000000001d07c       0x65 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .rodata.LocateHiiImageDecoder.str1.1
+                0x000000000001d0e1       0x4e /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                                         0x60 (size before relaxing)
+ .rodata.HiiDrawImage.str1.1
+                0x000000000001d12f       0x2e /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .rodata.GetImageIdOrAddress.str1.1
+                0x000000000001d12f       0x60 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ *fill*         0x000000000001d18f        0x1 
+ .rodata.GetImageIdOrAddress
+                0x000000000001d190       0x23 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ *fill*         0x000000000001d1b3        0x1 
+ .rodata.HiiSetImage
+                0x000000000001d1b4        0xa /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .rodata.IGetImage.str1.1
+                0x000000000001d1be       0x26 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .rodata.IGetImage
+                0x000000000001d1e4       0x14 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .rodata.GetSupportedLanguages.str1.1
+                0x000000000001d1f8       0x1a /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .rodata.InternalGetString.str1.1
+                0x000000000001d212        0xe /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                                          0xf (size before relaxing)
+ .rodata.BlockArrayCheck.str1.1
+                0x000000000001d220       0x15 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .rodata.InsertDefaultValue.str1.1
+                0x000000000001d220       0x22 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .rodata.MergeDefaultString.str2.2
+                0x000000000001d242       0x1e /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                                         0x4a (size before relaxing)
+ .rodata.MergeDefaultString.str1.1
+                0x000000000001d260       0x78 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                                         0x92 (size before relaxing)
+ .rodata.AppendToMultiString.str1.1
+                0x000000000001d2d8       0x1d /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ *fill*         0x000000000001d2f5        0x1 
+ .rodata.HiiConfigRoutingExportConfig.str2.2
+                0x000000000001d2f6        0xe /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .rodata.HiiConfigRoutingExportConfig.str1.1
+                0x000000000001d304       0x35 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .rodata.HiiToLower.str1.1
+                0x000000000001d304       0x1d /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .rodata.GenerateSubStr.str1.1
+                0x000000000001d304       0x4a /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                                         0x5e (size before relaxing)
+ .rodata.IsThisVarstore.str2.2
+                0x000000000001d34e        0xe /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                                         0x1a (size before relaxing)
+ .rodata.CalculateConfigStringLen.str1.1
+                0x000000000001d35c       0x33 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                                         0x4a (size before relaxing)
+ .rodata.HiiConfigRoutingExtractConfig.str2.2
+                0x000000000001d38f       0x10 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .rodata.HiiConfigRoutingExtractConfig.str1.1
+                0x000000000001d38f       0x15 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                                         0x4d (size before relaxing)
+ .rodata.__stack_chk_fail.str1.1
+                0x000000000001d3a4       0x2e /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .rodata._ModuleEntryPoint.str1.1
+                0x000000000001d3d2      0x401 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ *(.got .got.*)
+ *fill*         0x000000000001d7d3        0x5 
+ .got           0x000000000001d7d8        0x8 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x000000000001d7d8                _GLOBAL_OFFSET_TABLE_
+ .got.plt       0x000000000001d7e0       0x18 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ *:AutoGen.obj(.data.g*Guid)
+
+.plt            0x000000000001d7f8        0x0
+ .plt           0x000000000001d7f8        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.data           0x000000000001e000      0x3b0
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.ro   0x000000000001e000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data.gEfiCallerIdGuid
+                0x000000000001e000       0x10 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .data.gEfiDevicePathProtocolGuid
+                0x000000000001e010       0x10 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x000000000001e010                gEfiDevicePathProtocolGuid
+ .data.gEfiGlobalVariableGuid
+                0x000000000001e020       0x10 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x000000000001e020                gEfiGlobalVariableGuid
+ .data.gEfiPcdProtocolGuid
+                0x000000000001e030       0x10 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .data.mHiiDatabaseLock
+                0x000000000001e040       0x18 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x000000000001e040                mHiiDatabaseLock
+ .data.mPrivate
+                0x000000000001e058      0x1a8 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x000000000001e058                mPrivate
+ .data.gEdkiiIfrBitVarstoreGuid
+                0x000000000001e200       0x10 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .data.gEfiGetPcdInfoProtocolGuid
+                0x000000000001e210       0x10 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .data.gEfiHiiConfigAccessProtocolGuid
+                0x000000000001e220       0x10 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                0x000000000001e220                gEfiHiiConfigAccessProtocolGuid
+ .data.gEfiHiiConfigRoutingProtocolGuid
+                0x000000000001e230       0x10 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                0x000000000001e230                gEfiHiiConfigRoutingProtocolGuid
+ .data.gEfiHiiDatabaseProtocolGuid
+                0x000000000001e240       0x10 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                0x000000000001e240                gEfiHiiDatabaseProtocolGuid
+ .data.gEfiMdeModulePkgTokenSpaceGuid
+                0x000000000001e250       0x10 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .data.gSkuId   0x000000000001e260        0x8 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .data.gVarStorageList
+                0x000000000001e268       0x10 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .data.mLanguageWindow
+                0x000000000001e278       0x20 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .data.__stack_chk_guard
+                0x000000000001e298        0x8 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                0x000000000001e298                __stack_chk_guard
+ .data.gEfiConfigKeywordHandlerProtocolGuid
+                0x000000000001e2a0       0x10 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .data.gEfiEventReadyToBootGuid
+                0x000000000001e2b0       0x10 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .data.gEfiHiiFontProtocolGuid
+                0x000000000001e2c0       0x10 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .data.gEfiHiiImageDecoderNameJpegGuid
+                0x000000000001e2d0       0x10 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .data.gEfiHiiImageDecoderNamePngGuid
+                0x000000000001e2e0       0x10 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .data.gEfiHiiImageDecoderProtocolGuid
+                0x000000000001e2f0       0x10 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .data.gEfiHiiImageExProtocolGuid
+                0x000000000001e300       0x10 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .data.gEfiHiiImageProtocolGuid
+                0x000000000001e310       0x10 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .data.gEfiHiiKeyBoardLayoutGuid
+                0x000000000001e320       0x10 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .data.gEfiHiiStringProtocolGuid
+                0x000000000001e330       0x10 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ *(.bss .bss.*)
+ .bss.UsePl011Uart
+                0x000000000001e340        0x1 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .bss.UsePl011UartSet
+                0x000000000001e341        0x1 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ *fill*         0x000000000001e342        0x6 
+ .bss.gBS       0x000000000001e348        0x8 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x000000000001e348                gBS
+ .bss.gExportAfterReadyToBoot
+                0x000000000001e350        0x1 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x000000000001e350                gExportAfterReadyToBoot
+ .bss.gExportConfigResp
+                0x000000000001e351        0x1 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x000000000001e351                gExportConfigResp
+ *fill*         0x000000000001e352        0x6 
+ .bss.gHiiKeyboardLayoutChanged
+                0x000000000001e358        0x8 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x000000000001e358                gHiiKeyboardLayoutChanged
+ .bss.gRT       0x000000000001e360        0x8 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                0x000000000001e360                gRT
+ .bss.mPiPcd    0x000000000001e368        0x8 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .bss.gConfigRespSize
+                0x000000000001e370        0x8 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .bss.gDatabaseInfoSize
+                0x000000000001e378        0x8 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .bss.gNvDefaultStoreSize
+                0x000000000001e380        0x8 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .bss.gRTConfigRespBuffer
+                0x000000000001e388        0x8 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .bss.gRTDatabaseInfoBuffer
+                0x000000000001e390        0x8 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .bss.mPiPcdInfo
+                0x000000000001e398        0x8 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .bss.gImageHandle
+                0x000000000001e3a0        0x8 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .bss.gST       0x000000000001e3a8        0x8 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+
+.dynbss         0x000000000001e3b0        0x0
+ .dynbss        0x000000000001e3b0        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.eh_frame
+ *(.eh_frame)
+
+.rela           0x000000000001e3b0      0x3d8
+ *(.rela .rela.*)
+ .rela.got      0x000000000001e3b0        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.plt      0x000000000001e3b0        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.bss      0x000000000001e3b0        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.rel.ro
+                0x000000000001e3b0        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.ifunc    0x000000000001e3b0        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.mPrivate
+                0x000000000001e3b0      0x3a8 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.gVarStorageList
+                0x000000000001e758       0x30 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.hii
+ *(.hii)
+
+.build-id       0x000000000001e788       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x000000000001e788       0x24 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+ *(COMMON)
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+OUTPUT(/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe/DEBUG/HiiDatabase.dll elf64-littleaarch64)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000    0x5c047
+ .debug_info    0x0000000000000000     0xd171 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .debug_info    0x000000000000d171     0xaa26 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .debug_info    0x0000000000017b97     0x6e87 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .debug_info    0x000000000001ea1e     0x1a57 /tmp/ccWYDPpi.debug.temp.o
+                0x000000000001ea1e                DriverEntryPoint.c.9519b125
+ .debug_info    0x0000000000020475      0x187 /tmp/ccdiATej.debug.temp.o
+                0x0000000000020475                BaseStackCheckGcc.c.9918e4ed
+ .debug_info    0x00000000000205fc      0x1d7 /tmp/cc5AVZpl.debug.temp.o
+                0x00000000000205fc                memcpy.c.992e94b8
+ .debug_info    0x00000000000207d3      0x188 /tmp/ccJgnHbh.debug.temp.o
+                0x00000000000207d3                memset.c.d190684e
+ .debug_info    0x000000000002095b     0x1f0f /tmp/cc943fij.debug.temp.o
+                0x000000000002095b                AutoGen.c.be0f854f
+ .debug_info    0x000000000002286a     0x3063 /tmp/ccSMtSlh.debug.temp.o
+                0x000000000002286a                HiiDatabaseEntry.c.72b5ae12
+ .debug_info    0x00000000000258cd     0x3ff9 /tmp/cc8uuiuk.debug.temp.o
+                0x00000000000258cd                Image.c.42ebfb0d
+ .debug_info    0x00000000000298c6     0x3731 /tmp/ccYXiN7h.debug.temp.o
+                0x00000000000298c6                ImageEx.c.ab4abad5
+ .debug_info    0x000000000002cff7     0x5a3f /tmp/ccKdTbCk.debug.temp.o
+                0x000000000002cff7                ConfigRouting.c.55635a77
+ .debug_info    0x0000000000032a36     0x3f1b /tmp/ccYJsLtj.debug.temp.o
+                0x0000000000032a36                String.c.529f498b
+ .debug_info    0x0000000000036951     0x5a99 /tmp/ccoGHWch.debug.temp.o
+                0x0000000000036951                Database.c.86725f33
+ .debug_info    0x000000000003c3ea     0x4277 /tmp/cct8Pbii.debug.temp.o
+                0x000000000003c3ea                Font.c.ce8f1851
+ .debug_info    0x0000000000040661     0x4a49 /tmp/ccE5gvyj.debug.temp.o
+                0x0000000000040661                ConfigKeywordHandler.c.60e0b111
+ .debug_info    0x00000000000450aa     0x2beb /tmp/ccaiZJAj.debug.temp.o
+                0x00000000000450aa                DxePcdLib.c.27e87d0b
+ .debug_info    0x0000000000047c95      0x21d /tmp/ccXbgomk.debug.temp.o
+                0x0000000000047c95                MemLibGuid.c.2ca06148
+ .debug_info    0x0000000000047eb2      0x17a /tmp/cc0herUk.debug.temp.o
+                0x0000000000047eb2                ZeroMemWrapper.c.8dc042f6
+ .debug_info    0x000000000004802c      0x1a7 /tmp/cc9eeL1i.debug.temp.o
+                0x000000000004802c                CompareMemWrapper.c.96cbdc30
+ .debug_info    0x00000000000481d3      0x186 /tmp/ccuQTulk.debug.temp.o
+                0x00000000000481d3                SetMem32Wrapper.c.21defe2e
+ .debug_info    0x0000000000048359      0x191 /tmp/ccPZsJ1i.debug.temp.o
+                0x0000000000048359                CopyMemWrapper.c.8ed793a8
+ .debug_info    0x00000000000484ea      0x1db /tmp/cc7zoock.debug.temp.o
+                0x00000000000484ea                LShiftU64.c.b38ec6e2
+ .debug_info    0x00000000000486c5      0x89f /tmp/ccu3CXsj.debug.temp.o
+                0x00000000000486c5                BitField.c.3a65c514
+ .debug_info    0x0000000000048f64      0x1d0 /tmp/ccT8mvsi.debug.temp.o
+                0x0000000000048f64                CpuDeadLoop.c.e33e7959
+ .debug_info    0x0000000000049134      0x428 /tmp/ccsfwM5h.debug.temp.o
+                0x0000000000049134                LinkedList.c.6e13becc
+ .debug_info    0x000000000004955c     0x1004 /tmp/ccWPbIij.debug.temp.o
+                0x000000000004955c                SafeString.c.d8550fea
+ .debug_info    0x000000000004a560      0x7f3 /tmp/cc9c961j.debug.temp.o
+                0x000000000004a560                String.c.753c3495
+ .debug_info    0x000000000004ad53      0x33d /tmp/ccYl2Vul.debug.temp.o
+                0x000000000004ad53                Unaligned.c.4a0798dc
+ .debug_info    0x000000000004b090      0x43c /tmp/cc0VVN4k.debug.temp.o
+                0x000000000004b090                Math64.c.5e992ad5
+ .debug_info    0x000000000004b4cc      0x1db /tmp/ccyfl5li.debug.temp.o
+                0x000000000004b4cc                RShiftU64.c.a990dafe
+ .debug_info    0x000000000004b6a7      0x68f /tmp/ccMSCR6i.debug.temp.o
+                0x000000000004b6a7                PrintLib.c.260a037f
+ .debug_info    0x000000000004bd36      0x79a /tmp/ccn0lyel.debug.temp.o
+                0x000000000004bd36                PrintLibInternal.c.92769e0a
+ .debug_info    0x000000000004c4d0      0x3f2 /tmp/ccqoPkFk.debug.temp.o
+                0x000000000004c4d0                DebugLib.c.0df38b98
+ .debug_info    0x000000000004c8c2     0x18e1 /tmp/ccgUU6Eh.debug.temp.o
+                0x000000000004c8c2                UefiBootServicesTableLib.c.c00a3dd8
+ .debug_info    0x000000000004e1a3     0x1de0 /tmp/cc6tiISh.debug.temp.o
+                0x000000000004e1a3                MemoryAllocationLib.c.774777c4
+ .debug_info    0x000000000004ff83     0x18b2 /tmp/ccKsZCkh.debug.temp.o
+                0x000000000004ff83                UefiRuntimeServicesTableLib.c.7b9e7237
+ .debug_info    0x0000000000051835     0x1d7d /tmp/cc3gOdDi.debug.temp.o
+                0x0000000000051835                DevicePathUtilities.c.94f518f0
+ .debug_info    0x00000000000535b2     0x1953 /tmp/ccLIOTkh.debug.temp.o
+                0x00000000000535b2                DevicePathUtilitiesDxeSmm.c.e3408512
+ .debug_info    0x0000000000054f05     0x1afe /tmp/ccP62pYj.debug.temp.o
+                0x0000000000054f05                UefiDevicePathLib.c.c981cbf5
+ .debug_info    0x0000000000056a03     0x1c06 /tmp/ccUoOe6g.debug.temp.o
+                0x0000000000056a03                UefiNotTiano.c.c6756db9
+ .debug_info    0x0000000000058609     0x27ac /tmp/cc89Lgil.debug.temp.o
+                0x0000000000058609                UefiLib.c.2c69044c
+ .debug_info    0x000000000005adb5      0x1e5 /tmp/ccMRVLTj.debug.temp.o
+                0x000000000005adb5                DivU64x32Remainder.c.19070deb
+ .debug_info    0x000000000005af9a      0x18d /tmp/ccwi2qtl.debug.temp.o
+                0x000000000005af9a                BaseDebugPrintErrorLevelLib.c.afda57b5
+ .debug_info    0x000000000005b127      0x201 /tmp/ccWTcuei.debug.temp.o
+                0x000000000005b127                DebugDualSerialPortLib.c.3fe30e88
+ .debug_info    0x000000000005b328      0x2e6 /tmp/cc1d5Czh.debug.temp.o
+                0x000000000005b328                DualSerialPortLibCommon.c.2dc6badf
+ .debug_info    0x000000000005b60e      0x503 /tmp/cckcWVkj.debug.temp.o
+                0x000000000005b60e                IoLibNoIo.c.335a48c4
+ .debug_info    0x000000000005bb11      0x536 /tmp/ccycYzNh.debug.temp.o
+                0x000000000005bb11                PL011UartLib.c.f54a0051
+
+.debug_abbrev   0x0000000000000000     0x4a94
+ .debug_abbrev  0x0000000000000000      0x2b7 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .debug_abbrev  0x00000000000002b7      0x1a6 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .debug_abbrev  0x000000000000045d      0x1fb /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .debug_abbrev  0x0000000000000658      0x1e9 /tmp/ccWYDPpi.debug.temp.o
+ .debug_abbrev  0x0000000000000841       0xc7 /tmp/ccdiATej.debug.temp.o
+ .debug_abbrev  0x0000000000000908       0xee /tmp/cc5AVZpl.debug.temp.o
+ .debug_abbrev  0x00000000000009f6       0xc0 /tmp/ccJgnHbh.debug.temp.o
+ .debug_abbrev  0x0000000000000ab6      0x236 /tmp/cc943fij.debug.temp.o
+ .debug_abbrev  0x0000000000000cec      0x26a /tmp/ccSMtSlh.debug.temp.o
+ .debug_abbrev  0x0000000000000f56      0x282 /tmp/cc8uuiuk.debug.temp.o
+ .debug_abbrev  0x00000000000011d8      0x271 /tmp/ccYXiN7h.debug.temp.o
+ .debug_abbrev  0x0000000000001449      0x306 /tmp/ccKdTbCk.debug.temp.o
+ .debug_abbrev  0x000000000000174f      0x280 /tmp/ccYJsLtj.debug.temp.o
+ .debug_abbrev  0x00000000000019cf      0x2d1 /tmp/ccoGHWch.debug.temp.o
+ .debug_abbrev  0x0000000000001ca0      0x2a2 /tmp/cct8Pbii.debug.temp.o
+ .debug_abbrev  0x0000000000001f42      0x2a7 /tmp/ccE5gvyj.debug.temp.o
+ .debug_abbrev  0x00000000000021e9      0x25c /tmp/ccaiZJAj.debug.temp.o
+ .debug_abbrev  0x0000000000002445       0xce /tmp/ccXbgomk.debug.temp.o
+ .debug_abbrev  0x0000000000002513       0xb1 /tmp/cc0herUk.debug.temp.o
+ .debug_abbrev  0x00000000000025c4       0xb1 /tmp/cc9eeL1i.debug.temp.o
+ .debug_abbrev  0x0000000000002675       0xb1 /tmp/ccuQTulk.debug.temp.o
+ .debug_abbrev  0x0000000000002726       0xb8 /tmp/ccPZsJ1i.debug.temp.o
+ .debug_abbrev  0x00000000000027de       0xb1 /tmp/cc7zoock.debug.temp.o
+ .debug_abbrev  0x000000000000288f       0xf9 /tmp/ccu3CXsj.debug.temp.o
+ .debug_abbrev  0x0000000000002988       0xb6 /tmp/ccT8mvsi.debug.temp.o
+ .debug_abbrev  0x0000000000002a3e      0x139 /tmp/ccsfwM5h.debug.temp.o
+ .debug_abbrev  0x0000000000002b77      0x138 /tmp/ccWPbIij.debug.temp.o
+ .debug_abbrev  0x0000000000002caf      0x126 /tmp/cc9c961j.debug.temp.o
+ .debug_abbrev  0x0000000000002dd5       0xc9 /tmp/ccYl2Vul.debug.temp.o
+ .debug_abbrev  0x0000000000002e9e       0xf9 /tmp/cc0VVN4k.debug.temp.o
+ .debug_abbrev  0x0000000000002f97       0xb1 /tmp/ccyfl5li.debug.temp.o
+ .debug_abbrev  0x0000000000003048      0x150 /tmp/ccMSCR6i.debug.temp.o
+ .debug_abbrev  0x0000000000003198      0x161 /tmp/ccn0lyel.debug.temp.o
+ .debug_abbrev  0x00000000000032f9      0x165 /tmp/ccqoPkFk.debug.temp.o
+ .debug_abbrev  0x000000000000345e      0x1dd /tmp/ccgUU6Eh.debug.temp.o
+ .debug_abbrev  0x000000000000363b      0x242 /tmp/cc6tiISh.debug.temp.o
+ .debug_abbrev  0x000000000000387d      0x1c3 /tmp/ccKsZCkh.debug.temp.o
+ .debug_abbrev  0x0000000000003a40      0x240 /tmp/cc3gOdDi.debug.temp.o
+ .debug_abbrev  0x0000000000003c80      0x1d4 /tmp/ccLIOTkh.debug.temp.o
+ .debug_abbrev  0x0000000000003e54      0x1fe /tmp/ccP62pYj.debug.temp.o
+ .debug_abbrev  0x0000000000004052      0x233 /tmp/ccUoOe6g.debug.temp.o
+ .debug_abbrev  0x0000000000004285      0x267 /tmp/cc89Lgil.debug.temp.o
+ .debug_abbrev  0x00000000000044ec       0xb3 /tmp/ccMRVLTj.debug.temp.o
+ .debug_abbrev  0x000000000000459f       0xc6 /tmp/ccwi2qtl.debug.temp.o
+ .debug_abbrev  0x0000000000004665       0xc4 /tmp/ccWTcuei.debug.temp.o
+ .debug_abbrev  0x0000000000004729      0x108 /tmp/cc1d5Czh.debug.temp.o
+ .debug_abbrev  0x0000000000004831      0x11f /tmp/cckcWVkj.debug.temp.o
+ .debug_abbrev  0x0000000000004950      0x144 /tmp/ccycYzNh.debug.temp.o
+
+.debug_loc      0x0000000000000000    0x3c091
+ .debug_loc     0x0000000000000000    0x1a156 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .debug_loc     0x000000000001a156    0x1593f /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .debug_loc     0x000000000002fa95     0xc5fc /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+
+.debug_aranges  0x0000000000000000      0xd30
+ .debug_aranges
+                0x0000000000000000      0x7d0 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .debug_aranges
+                0x00000000000007d0      0x270 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .debug_aranges
+                0x0000000000000a40      0x2f0 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+
+.debug_ranges   0x0000000000000000     0x4a40
+ .debug_ranges  0x0000000000000000     0x20b0 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .debug_ranges  0x00000000000020b0     0x1bc0 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .debug_ranges  0x0000000000003c70      0xdd0 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+
+.debug_line     0x0000000000000000    0x1a95c
+ .debug_line    0x0000000000000000     0x8def /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .debug_line    0x0000000000008def     0x69a5 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .debug_line    0x000000000000f794     0x3f3a /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+ .debug_line    0x00000000000136ce      0x347 /tmp/ccWYDPpi.debug.temp.o
+ .debug_line    0x0000000000013a15      0x170 /tmp/ccdiATej.debug.temp.o
+ .debug_line    0x0000000000013b85      0x171 /tmp/cc5AVZpl.debug.temp.o
+ .debug_line    0x0000000000013cf6      0x171 /tmp/ccJgnHbh.debug.temp.o
+ .debug_line    0x0000000000013e67      0x2f9 /tmp/cc943fij.debug.temp.o
+ .debug_line    0x0000000000014160      0x4df /tmp/ccSMtSlh.debug.temp.o
+ .debug_line    0x000000000001463f      0x4e9 /tmp/cc8uuiuk.debug.temp.o
+ .debug_line    0x0000000000014b28      0x4eb /tmp/ccYXiN7h.debug.temp.o
+ .debug_line    0x0000000000015013      0x4f1 /tmp/ccKdTbCk.debug.temp.o
+ .debug_line    0x0000000000015504      0x4d5 /tmp/ccYJsLtj.debug.temp.o
+ .debug_line    0x00000000000159d9      0x4d7 /tmp/ccoGHWch.debug.temp.o
+ .debug_line    0x0000000000015eb0      0x4d3 /tmp/cct8Pbii.debug.temp.o
+ .debug_line    0x0000000000016383      0x4e3 /tmp/ccE5gvyj.debug.temp.o
+ .debug_line    0x0000000000016866      0x384 /tmp/ccaiZJAj.debug.temp.o
+ .debug_line    0x0000000000016bea      0x173 /tmp/ccXbgomk.debug.temp.o
+ .debug_line    0x0000000000016d5d      0x173 /tmp/cc0herUk.debug.temp.o
+ .debug_line    0x0000000000016ed0      0x176 /tmp/cc9eeL1i.debug.temp.o
+ .debug_line    0x0000000000017046      0x174 /tmp/ccuQTulk.debug.temp.o
+ .debug_line    0x00000000000171ba      0x173 /tmp/ccPZsJ1i.debug.temp.o
+ .debug_line    0x000000000001732d      0x14a /tmp/cc7zoock.debug.temp.o
+ .debug_line    0x0000000000017477      0x149 /tmp/ccu3CXsj.debug.temp.o
+ .debug_line    0x00000000000175c0      0x14c /tmp/ccT8mvsi.debug.temp.o
+ .debug_line    0x000000000001770c      0x14b /tmp/ccsfwM5h.debug.temp.o
+ .debug_line    0x0000000000017857      0x14b /tmp/ccWPbIij.debug.temp.o
+ .debug_line    0x00000000000179a2      0x147 /tmp/cc9c961j.debug.temp.o
+ .debug_line    0x0000000000017ae9      0x14e /tmp/ccYl2Vul.debug.temp.o
+ .debug_line    0x0000000000017c37      0x147 /tmp/cc0VVN4k.debug.temp.o
+ .debug_line    0x0000000000017d7e      0x14a /tmp/ccyfl5li.debug.temp.o
+ .debug_line    0x0000000000017ec8      0x166 /tmp/ccMSCR6i.debug.temp.o
+ .debug_line    0x000000000001802e      0x184 /tmp/ccn0lyel.debug.temp.o
+ .debug_line    0x00000000000181b2      0x20c /tmp/ccqoPkFk.debug.temp.o
+ .debug_line    0x00000000000183be      0x330 /tmp/ccgUU6Eh.debug.temp.o
+ .debug_line    0x00000000000186ee      0x328 /tmp/cc6tiISh.debug.temp.o
+ .debug_line    0x0000000000018a16      0x2e9 /tmp/ccKsZCkh.debug.temp.o
+ .debug_line    0x0000000000018cff      0x36c /tmp/cc3gOdDi.debug.temp.o
+ .debug_line    0x000000000001906b      0x372 /tmp/ccLIOTkh.debug.temp.o
+ .debug_line    0x00000000000193dd      0x36a /tmp/ccP62pYj.debug.temp.o
+ .debug_line    0x0000000000019747      0x341 /tmp/ccUoOe6g.debug.temp.o
+ .debug_line    0x0000000000019a88      0x36d /tmp/cc89Lgil.debug.temp.o
+ .debug_line    0x0000000000019df5      0x153 /tmp/ccMRVLTj.debug.temp.o
+ .debug_line    0x0000000000019f48      0x198 /tmp/ccwi2qtl.debug.temp.o
+ .debug_line    0x000000000001a0e0      0x228 /tmp/ccWTcuei.debug.temp.o
+ .debug_line    0x000000000001a308      0x240 /tmp/cc1d5Czh.debug.temp.o
+ .debug_line    0x000000000001a548      0x16b /tmp/cckcWVkj.debug.temp.o
+ .debug_line    0x000000000001a6b3      0x2a9 /tmp/ccycYzNh.debug.temp.o
+
+.debug_str      0x0000000000000000     0x9f18
+ .debug_str     0x0000000000000000      0x39c /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+                                        0x3b5 (size before relaxing)
+ .debug_str     0x000000000000039c       0x85 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+                                        0x336 (size before relaxing)
+ .debug_str     0x0000000000000421       0x31 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o
+                                        0x332 (size before relaxing)
+ .debug_str     0x0000000000000452     0x154f /tmp/ccWYDPpi.debug.temp.o
+                                       0x1690 (size before relaxing)
+ .debug_str     0x00000000000019a1      0x27a /tmp/ccdiATej.debug.temp.o
+                                        0x3af (size before relaxing)
+ .debug_str     0x0000000000001c1b       0xd3 /tmp/cc5AVZpl.debug.temp.o
+                                        0x34e (size before relaxing)
+ .debug_str     0x0000000000001cee       0x55 /tmp/ccJgnHbh.debug.temp.o
+                                        0x342 (size before relaxing)
+ .debug_str     0x0000000000001d43      0xa85 /tmp/cc943fij.debug.temp.o
+                                       0x200c (size before relaxing)
+ .debug_str     0x00000000000027c8      0xcee /tmp/ccSMtSlh.debug.temp.o
+                                       0x2abc (size before relaxing)
+ .debug_str     0x00000000000034b6      0x7e6 /tmp/cc8uuiuk.debug.temp.o
+                                       0x34ea (size before relaxing)
+ .debug_str     0x0000000000003c9c       0xfa /tmp/ccYXiN7h.debug.temp.o
+                                       0x30b8 (size before relaxing)
+ .debug_str     0x0000000000003d96      0xfe9 /tmp/ccKdTbCk.debug.temp.o
+                                       0x3f93 (size before relaxing)
+ .debug_str     0x0000000000004d7f      0x4c5 /tmp/ccYJsLtj.debug.temp.o
+                                       0x330a (size before relaxing)
+ .debug_str     0x0000000000005244      0xa2c /tmp/ccoGHWch.debug.temp.o
+                                       0x3ee5 (size before relaxing)
+ .debug_str     0x0000000000005c70      0x45b /tmp/cct8Pbii.debug.temp.o
+                                       0x345e (size before relaxing)
+ .debug_str     0x00000000000060cb      0x506 /tmp/ccE5gvyj.debug.temp.o
+                                       0x3829 (size before relaxing)
+ .debug_str     0x00000000000065d1      0x98f /tmp/ccaiZJAj.debug.temp.o
+                                       0x2118 (size before relaxing)
+ .debug_str     0x0000000000006f60      0x10c /tmp/ccXbgomk.debug.temp.o
+                                        0x3ad (size before relaxing)
+ .debug_str     0x000000000000706c       0x52 /tmp/cc0herUk.debug.temp.o
+                                        0x358 (size before relaxing)
+ .debug_str     0x00000000000070be       0x74 /tmp/cc9eeL1i.debug.temp.o
+                                        0x381 (size before relaxing)
+ .debug_str     0x0000000000007132       0x53 /tmp/ccuQTulk.debug.temp.o
+                                        0x360 (size before relaxing)
+ .debug_str     0x0000000000007185       0x52 /tmp/ccPZsJ1i.debug.temp.o
+                                        0x370 (size before relaxing)
+ .debug_str     0x00000000000071d7       0x97 /tmp/cc7zoock.debug.temp.o
+                                        0x465 (size before relaxing)
+ .debug_str     0x000000000000726e      0x215 /tmp/ccu3CXsj.debug.temp.o
+                                        0x64e (size before relaxing)
+ .debug_str     0x0000000000007483       0x4f /tmp/ccT8mvsi.debug.temp.o
+                                        0x461 (size before relaxing)
+ .debug_str     0x00000000000074d2      0x11a /tmp/ccsfwM5h.debug.temp.o
+                                        0x571 (size before relaxing)
+ .debug_str     0x00000000000075ec      0x2ea /tmp/ccWPbIij.debug.temp.o
+                                        0x82d (size before relaxing)
+ .debug_str     0x00000000000078d6      0x2e7 /tmp/cc9c961j.debug.temp.o
+                                        0x7e2 (size before relaxing)
+ .debug_str     0x0000000000007bbd       0xf5 /tmp/ccYl2Vul.debug.temp.o
+                                        0x508 (size before relaxing)
+ .debug_str     0x0000000000007cb2      0x199 /tmp/cc0VVN4k.debug.temp.o
+                                        0x5df (size before relaxing)
+ .debug_str     0x0000000000007e4b       0x41 /tmp/ccyfl5li.debug.temp.o
+                                        0x465 (size before relaxing)
+ .debug_str     0x0000000000007e8c      0x261 /tmp/ccMSCR6i.debug.temp.o
+                                        0x5a2 (size before relaxing)
+ .debug_str     0x00000000000080ed      0x232 /tmp/ccn0lyel.debug.temp.o
+                                        0x70c (size before relaxing)
+ .debug_str     0x000000000000831f      0x1f8 /tmp/ccqoPkFk.debug.temp.o
+                                        0x5c4 (size before relaxing)
+ .debug_str     0x0000000000008517       0xfd /tmp/ccgUU6Eh.debug.temp.o
+                                       0x156d (size before relaxing)
+ .debug_str     0x0000000000008614      0x30a /tmp/cc6tiISh.debug.temp.o
+                                       0x17d9 (size before relaxing)
+ .debug_str     0x000000000000891e      0x10c /tmp/ccKsZCkh.debug.temp.o
+                                       0x156f (size before relaxing)
+ .debug_str     0x0000000000008a2a      0x3eb /tmp/cc3gOdDi.debug.temp.o
+                                       0x1974 (size before relaxing)
+ .debug_str     0x0000000000008e15       0x70 /tmp/ccLIOTkh.debug.temp.o
+                                       0x1658 (size before relaxing)
+ .debug_str     0x0000000000008e85       0xec /tmp/ccP62pYj.debug.temp.o
+                                       0x17d8 (size before relaxing)
+ .debug_str     0x0000000000008f71      0x293 /tmp/ccUoOe6g.debug.temp.o
+                                       0x1a6f (size before relaxing)
+ .debug_str     0x0000000000009204      0x5b7 /tmp/cc89Lgil.debug.temp.o
+                                       0x20b1 (size before relaxing)
+ .debug_str     0x00000000000097bb       0x5d /tmp/ccMRVLTj.debug.temp.o
+                                        0x47e (size before relaxing)
+ .debug_str     0x0000000000009818      0x115 /tmp/ccwi2qtl.debug.temp.o
+                                        0x3e0 (size before relaxing)
+ .debug_str     0x000000000000992d      0x102 /tmp/ccWTcuei.debug.temp.o
+                                        0x516 (size before relaxing)
+ .debug_str     0x0000000000009a2f      0x101 /tmp/cc1d5Czh.debug.temp.o
+                                        0x5b3 (size before relaxing)
+ .debug_str     0x0000000000009b30      0x1ab /tmp/cckcWVkj.debug.temp.o
+                                        0x44d (size before relaxing)
+ .debug_str     0x0000000000009cdb      0x23d /tmp/ccycYzNh.debug.temp.o
+                                        0x818 (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x2f08
+ .debug_frame   0x0000000000000000     0x1a08 /tmp/HiiDatabase.dll.DbrECl.ltrans0.ltrans.o
+ .debug_frame   0x0000000000001a08      0xa28 /tmp/HiiDatabase.dll.DbrECl.ltrans1.ltrans.o
+ .debug_frame   0x0000000000002430      0xad8 /tmp/HiiDatabase.dll.DbrECl.ltrans2.ltrans.o

@@ -7,8 +7,8 @@
 
 **/
 
-#ifndef CPU_DXE_H_
-#define CPU_DXE_H_
+#ifndef __CPU_DXE_ARM_EXCEPTION_H__
+#define __CPU_DXE_ARM_EXCEPTION_H__
 
 #include <Uefi.h>
 
@@ -143,4 +143,4 @@ SetGcdMemorySpaceAttributes (
   IN UINT64                              Attributes
   );
 
-#endif // CPU_DXE_H_
+#endif // __CPU_DXE_ARM_EXCEPTION_H__

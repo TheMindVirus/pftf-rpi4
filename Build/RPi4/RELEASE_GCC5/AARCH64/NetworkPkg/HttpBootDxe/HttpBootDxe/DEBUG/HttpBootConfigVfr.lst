@@ -1,0 +1,149 @@
+//
+//  VFR compiler version  2.01 (UEFI 2.4) Developer Build based on Revision: Unknown
+//
+extern unsigned char HttpBootDxeStrings[];
+extern EFI_GUID { 0x4d20583a, 0x7765, 0x4e7a, { 0x8a, 0x67, 0xdc, 0xde, 0x74, 0xee, 0x3e, 0xc5 }};
+#pragma pack(1)
+typedef struct _HTTP_BOOT_CONFIG_IFR_NVDATA {
+  UINT8 IpVersion;
+  UINT8 Padding;
+  CHAR16 Description[75];
+  CHAR16 Uri[255];
+} HTTP_BOOT_CONFIG_IFR_NVDATA;
+#pragma pack()
+formset
+>00000000: 0E A7 3A 58 20 4D 65 77 7A 4E 8A 67 DC DE 74 EE 3E C5 02 00 03 00 01 71 99 03 93 45 85 04 4B B4 5E 32 EB 83 26 04 0E 
+>00000027: 5C 06 00 00 00 00 
+>0000002D: 5C 06 00 00 01 00 
+  guid = { 0x4d20583a, 0x7765, 0x4e7a, { 0x8a, 0x67, 0xdc, 0xde, 0x74, 0xee, 0x3e, 0xc5 } },
+  title = STRING_TOKEN(0x0002),
+  help = STRING_TOKEN(0x0003),
+  varstore HTTP_BOOT_CONFIG_IFR_NVDATA,
+>00000033: 24 32 3A 58 20 4D 65 77 7A 4E 8A 67 DC DE 74 EE 3E C5 01 00 96 02 48 54 54 50 5F 42 4F 4F 54 5F 43 4F 4E 46 49 47 5F 49 46 52 5F 4E 56 44 41 54 41 00 
+    name = HTTP_BOOT_CONFIG_IFR_NVDATA,
+    guid = { 0x4d20583a, 0x7765, 0x4e7a, { 0x8a, 0x67, 0xdc, 0xde, 0x74, 0xee, 0x3e, 0xc5 } };
+  form formid = 1,
+>00000065: 01 86 01 00 02 00 
+    title = STRING_TOKEN(0x0002);
+    string varid = HTTP_BOOT_CONFIG_IFR_NVDATA.Description,
+>0000006B: 1C 90 0A 00 0B 00 01 00 01 00 02 00 00 06 4B 00 
+            prompt = STRING_TOKEN(0x000A),
+            help = STRING_TOKEN(0x000B),
+            minsize = 6,
+            maxsize = 75,
+    endstring;
+>0000007B: 29 02 
+    oneof varid = HTTP_BOOT_CONFIG_IFR_NVDATA.IpVersion,
+>0000007D: 05 91 04 00 05 00 02 00 01 00 00 00 00 10 00 01 00 
+          prompt = STRING_TOKEN(0x0004),
+          help = STRING_TOKEN(0x0005),
+          option text = STRING_TOKEN(0x0006), value = 0, flags = DEFAULT;
+>0000008E: 09 07 06 00 10 00 00 
+          option text = STRING_TOKEN(0x0007), value = 1, flags = 0;
+>00000095: 09 07 07 00 00 00 01 
+    endoneof;
+>0000009C: 29 02 
+    string varid = HTTP_BOOT_CONFIG_IFR_NVDATA.Uri,
+>0000009E: 1C 90 08 00 09 00 01 01 01 00 98 00 04 00 FF 00 
+            prompt = STRING_TOKEN(0x0008),
+            help = STRING_TOKEN(0x0009),
+            flags = INTERACTIVE,
+            key = 0x101,
+            minsize = 0,
+            maxsize = 255,
+    endstring;
+>000000AE: 29 02 
+  endform;
+>000000B0: 29 02 
+endformset;
+>000000B2: 29 02 
+
+//
+// All Opcode Record List 
+//
+>00000000: 0E A7 3A 58 20 4D 65 77 7A 4E 8A 67 DC DE 74 EE 3E C5 02 00 03 00 01 71 99 03 93 45 85 04 4B B4 5E 32 EB 83 26 04 0E 
+>00000027: 5C 06 00 00 00 00 
+>0000002D: 5C 06 00 00 01 00 
+>00000033: 24 32 3A 58 20 4D 65 77 7A 4E 8A 67 DC DE 74 EE 3E C5 01 00 96 02 48 54 54 50 5F 42 4F 4F 54 5F 43 4F 4E 46 49 47 5F 49 46 52 5F 4E 56 44 41 54 41 00 
+>00000065: 01 86 01 00 02 00 
+>0000006B: 1C 90 0A 00 0B 00 01 00 01 00 02 00 00 06 4B 00 
+>0000007B: 29 02 
+>0000007D: 05 91 04 00 05 00 02 00 01 00 00 00 00 10 00 01 00 
+>0000008E: 09 07 06 00 10 00 00 
+>00000095: 09 07 07 00 00 00 01 
+>0000009C: 29 02 
+>0000009E: 1C 90 08 00 09 00 01 01 01 00 98 00 04 00 FF 00 
+>000000AE: 29 02 
+>000000B0: 29 02 
+>000000B2: 29 02 
+
+Total Size of all record is 0x000000B4
+
+
+***************************************************************
+		mPackAlign = 1
+		struct HTTP_BOOT_CONFIG_IFR_NVDATA : mAlign [1] mTotalSize [0x296]
+
+		struct HTTP_BOOT_CONFIG_IFR_NVDATA {
+			+00000000[00000000] IpVersion <UINT8>
+			+00000001[00000001] Padding <UINT8>
+			+00000002[00000002] Description[75] <UINT16>
+			+00000152[00000098] Uri[255] <UINT16>
+		};
+---------------------------------------------------------------
+		struct EFI_HII_REF : mAlign [16] mTotalSize [0x16]
+
+		struct EFI_HII_REF {
+			+00000000[00000000] QuestionId <UINT16>
+			+00000002[00000002] FormId <UINT16>
+			+00000004[00000004] FormSetGuid <(null)>
+			+00000020[00000014] DevicePath <EFI_STRING_ID>
+		};
+---------------------------------------------------------------
+		struct EFI_HII_TIME : mAlign [1] mTotalSize [0x3]
+
+		struct EFI_HII_TIME {
+			+00000000[00000000] Hours <UINT8>
+			+00000001[00000001] Minutes <UINT8>
+			+00000002[00000002] Seconds <UINT8>
+		};
+---------------------------------------------------------------
+		struct EFI_STRING_ID : mAlign [2] mTotalSize [0x2]
+
+		struct EFI_STRING_ID {
+		};
+---------------------------------------------------------------
+		struct EFI_HII_DATE : mAlign [2] mTotalSize [0x4]
+
+		struct EFI_HII_DATE {
+			+00000000[00000000] Year <UINT16>
+			+00000002[00000002] Month <UINT8>
+			+00000003[00000003] Day <UINT8>
+		};
+---------------------------------------------------------------
+		struct BOOLEAN : mAlign [1] mTotalSize [0x1]
+
+		struct BOOLEAN {
+		};
+---------------------------------------------------------------
+		struct UINT8 : mAlign [1] mTotalSize [0x1]
+
+		struct UINT8 {
+		};
+---------------------------------------------------------------
+		struct UINT16 : mAlign [2] mTotalSize [0x2]
+
+		struct UINT16 {
+		};
+---------------------------------------------------------------
+		struct UINT32 : mAlign [4] mTotalSize [0x4]
+
+		struct UINT32 {
+		};
+---------------------------------------------------------------
+		struct UINT64 : mAlign [8] mTotalSize [0x8]
+
+		struct UINT64 {
+		};
+---------------------------------------------------------------
+***************************************************************

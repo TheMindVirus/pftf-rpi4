@@ -447,7 +447,7 @@ InitializeXenPlatform (
 
   InitializeRamRegions ();
 
-  CalibrateLapicTimer ();
+  InitializeXen ();
 
   if (mBootMode != BOOT_ON_S3_RESUME) {
     ReserveEmuVariableNvStore ();

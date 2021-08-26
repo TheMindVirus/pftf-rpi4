@@ -561,7 +561,6 @@ if __name__ == '__main__':
                 print ('GenerateCapsule: error:' + str(Msg))
                 sys.exit (1)
         for SinglePayloadDescriptor in PayloadDescriptorList:
-            ImageCapsuleSupport = 0x0000000000000000
             Result = SinglePayloadDescriptor.Payload
             try:
                 FmpPayloadHeader.FwVersion              = SinglePayloadDescriptor.FwVersion
@@ -576,7 +575,6 @@ if __name__ == '__main__':
             if SinglePayloadDescriptor.UseDependency:
                 CapsuleDependency.Payload = Result
                 CapsuleDependency.DepexExp = SinglePayloadDescriptor.DepexExp
-                ImageCapsuleSupport        |= FmpCapsuleHeader.CAPSULE_SUPPORT_DEPENDENCY
                 Result = CapsuleDependency.Encode ()
                 if args.Verbose:
                     CapsuleDependency.DumpInfo ()
@@ -609,14 +607,13 @@ if __name__ == '__main__':
                     FmpAuthHeader.MonotonicCount = SinglePayloadDescriptor.MonotonicCount
                     FmpAuthHeader.CertData       = CertData
                     FmpAuthHeader.Payload        = Result
-                    ImageCapsuleSupport          |= FmpCapsuleHeader.CAPSULE_SUPPORT_AUTHENTICATION
                     Result = FmpAuthHeader.Encode ()
                     if args.Verbose:
                         FmpAuthHeader.DumpInfo ()
                 except:
                     print ('GenerateCapsule: error: can not encode FMP Auth Header')
                     sys.exit (1)
-            FmpCapsuleHeader.AddPayload (SinglePayloadDescriptor.Guid, Result, HardwareInstance = SinglePayloadDescriptor.HardwareInstance, UpdateImageIndex = SinglePayloadDescriptor.UpdateImageIndex, CapsuleSupport = ImageCapsuleSupport)
+            FmpCapsuleHeader.AddPayload (SinglePayloadDescriptor.Guid, Result, HardwareInstance = SinglePayloadDescriptor.HardwareInstance, UpdateImageIndex = SinglePayloadDescriptor.UpdateImageIndex)
         try:
             for EmbeddedDriver in EmbeddedDriverDescriptorList:
                 FmpCapsuleHeader.AddEmbeddedDriver(EmbeddedDriver)

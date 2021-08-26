@@ -2038,14 +2038,12 @@ LocatePciCapability (
 
   @param[in] PciExpressCap       PCI Express capability buffer.
   @param[in] ExtendedConfigSpace PCI Express extended configuration space.
-  @param[in] ExtendedConfigSize  PCI Express extended configuration size.
   @param[in] ExtendedCapability  PCI Express extended capability ID to explain.
 **/
 VOID
 PciExplainPciExpress (
   IN  PCI_CAPABILITY_PCIEXP                  *PciExpressCap,
   IN  UINT8                                  *ExtendedConfigSpace,
-  IN  UINTN                                  ExtendedConfigSize,
   IN CONST UINT16                            ExtendedCapability
   );
 
@@ -2923,7 +2921,6 @@ ShellCommandRunPci (
         PciExplainPciExpress (
           (PCI_CAPABILITY_PCIEXP *) ((UINT8 *) &ConfigSpace + PcieCapabilityPtr),
           ExtendedConfigSpace,
-          ExtendedConfigSize,
           ExtendedCapability
           );
       }
@@ -5701,14 +5698,12 @@ PrintPciExtendedCapabilityDetails(
 
   @param[in] PciExpressCap       PCI Express capability buffer.
   @param[in] ExtendedConfigSpace PCI Express extended configuration space.
-  @param[in] ExtendedConfigSize  PCI Express extended configuration size.
   @param[in] ExtendedCapability  PCI Express extended capability ID to explain.
 **/
 VOID
 PciExplainPciExpress (
   IN  PCI_CAPABILITY_PCIEXP                  *PciExpressCap,
   IN  UINT8                                  *ExtendedConfigSpace,
-  IN  UINTN                                  ExtendedConfigSize,
   IN CONST UINT16                            ExtendedCapability
   )
 {
@@ -5791,7 +5786,7 @@ PciExplainPciExpress (
   }
 
   ExtHdr = (PCI_EXP_EXT_HDR*)ExtendedConfigSpace;
-  while (ExtHdr->CapabilityId != 0 && ExtHdr->CapabilityVersion != 0 && ExtHdr->CapabilityId != 0xFFFF) {
+  while (ExtHdr->CapabilityId != 0 && ExtHdr->CapabilityVersion != 0) {
     //
     // Process this item
     //
@@ -5805,8 +5800,7 @@ PciExplainPciExpress (
     //
     // Advance to the next item if it exists
     //
-    if (ExtHdr->NextCapabilityOffset != 0 &&
-       (ExtHdr->NextCapabilityOffset <= (UINT32) (ExtendedConfigSize + EFI_PCIE_CAPABILITY_BASE_OFFSET - sizeof (PCI_EXP_EXT_HDR)))) {
+    if (ExtHdr->NextCapabilityOffset != 0) {
       ExtHdr = (PCI_EXP_EXT_HDR*)(ExtendedConfigSpace + ExtHdr->NextCapabilityOffset - EFI_PCIE_CAPABILITY_BASE_OFFSET);
     } else {
       break;

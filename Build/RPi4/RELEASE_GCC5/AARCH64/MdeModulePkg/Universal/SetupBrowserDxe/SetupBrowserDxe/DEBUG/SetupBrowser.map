@@ -1,0 +1,1443 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                              (_ModuleEntryPoint)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib(BaseStackCheckGcc.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (__stack_chk_fail)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memcpy.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memcpy)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memset.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memset)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Universal/SetupBrowserDxe/SetupBrowserDxe/OUTPUT/SetupBrowser.lib(AutoGen.obj)
+                              DriverEntryPoint.obj (symbol from plugin) (ProcessLibraryConstructorList)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Universal/SetupBrowserDxe/SetupBrowserDxe/OUTPUT/SetupBrowser.lib(Setup.obj)
+                              AutoGen.obj (symbol from plugin) (InitializeSetup)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Universal/SetupBrowserDxe/SetupBrowserDxe/OUTPUT/SetupBrowser.lib(IfrParse.obj)
+                              Setup.obj (symbol from plugin) (GetFstStgFromVarId)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Universal/SetupBrowserDxe/SetupBrowserDxe/OUTPUT/SetupBrowser.lib(Expression.obj)
+                              IfrParse.obj (symbol from plugin) (ResetCurrentExpressionStack)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Universal/SetupBrowserDxe/SetupBrowserDxe/OUTPUT/SetupBrowser.lib(Presentation.obj)
+                              Setup.obj (symbol from plugin) (gCurrentSelection)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+                              Setup.obj (symbol from plugin) (CopyGuid)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+                              Setup.obj (symbol from plugin) (ZeroMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMemWrapper.obj)
+                              Setup.obj (symbol from plugin) (CompareMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+                              Setup.obj (symbol from plugin) (CopyMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                              ZeroMemWrapper.obj (symbol from plugin) (InternalMemZeroMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCopyMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                              CompareMemWrapper.obj (symbol from plugin) (InternalMemCompareMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCompareGuid)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              Expression.obj (symbol from plugin) (RShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              Expression.obj (symbol from plugin) (MultU64x32)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              Expression.obj (symbol from plugin) (LShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              Expression.obj (symbol from plugin) (DivU64x32Remainder)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              Expression.obj (symbol from plugin) (DivU64x32)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+                              Setup.obj (symbol from plugin) (BitFieldRead32)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuDeadLoop)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LinkedList.obj)
+                              Setup.obj (symbol from plugin) (InitializeListHead)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              Setup.obj (symbol from plugin) (StrnLenS)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              Setup.obj (symbol from plugin) (StrLen)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              LShiftU64.obj (symbol from plugin) (InternalMathLShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuBreakpoint)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              SafeString.obj (symbol from plugin) (SwapBytes32)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              SafeString.obj (symbol from plugin) (SwapBytes16)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiBootServicesTableLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              Setup.obj (symbol from plugin) (UnicodeSPrint)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              PrintLib.obj (symbol from plugin) (BasePrintLibConvertValueToStringS)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              Setup.obj (symbol from plugin) (AllocatePool)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilities.obj)
+                              Presentation.obj (symbol from plugin) (IsDevicePathEnd)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilitiesDxeSmm.obj)
+                              DevicePathUtilities.obj (symbol from plugin) (DevicePathFromHandle)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(UefiDevicePathLib.obj)
+                              DevicePathUtilities.obj (symbol from plugin) (GetDevicePathSize)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathToText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertDeviceNodeToText)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathFromText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertTextToDeviceNode)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiRuntimeServicesTableLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib(UefiHiiServicesLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiHiiServicesLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+                              Presentation.obj (symbol from plugin) (EfiEventEmptyFunction)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLib.obj)
+                              Setup.obj (symbol from plugin) (HiiGetHiiHandles)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiString.obj)
+                              Setup.obj (symbol from plugin) (HiiSetString)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLanguage.obj)
+                              HiiString.obj (symbol from plugin) (HiiGetSupportedLanguages)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+                              DevicePathFromText.obj (symbol from plugin) (SwapBytes64)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              PrintLibInternal.obj (symbol from plugin) (ReadUnaligned16)
+
+Discarded input sections
+
+ .text          0x0000000000000000       0x10 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .text          0x0000000000000000        0x0 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .rodata._gUefiDriverRevision
+                0x0000000000000000        0x4 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .text._DriverUnloadHandler
+                0x0000000000000000        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .text.__memset
+                0x0000000000000000       0x1c /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/ccyVckZj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccyVckZj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccDnxLFj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccDnxLFj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc3q2Ddh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc3q2Ddh.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccBB1Pbi.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccBB1Pbi.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccpRqSxj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccpRqSxj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccbfcojh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccbfcojh.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccBTlMCj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccBTlMCj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccuNvl6j.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccuNvl6j.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cci2sl4h.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cci2sl4h.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccflUk2f.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccflUk2f.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccCnDG8j.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccCnDG8j.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccRpXPbk.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccRpXPbk.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cclRb9Oj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cclRb9Oj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccr3mTgg.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccr3mTgg.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc8JG86g.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8JG86g.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccFpkHbh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccFpkHbh.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccMST4hg.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccMST4hg.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccuaNRch.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccuaNRch.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccMkk1Yi.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccMkk1Yi.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccR0DjDh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccR0DjDh.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccNRLjIi.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccNRLjIi.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cckBOC6j.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cckBOC6j.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccpmhYOf.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccpmhYOf.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccpmyKOh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccpmyKOh.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/cc2CT7Fi.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xc0 /tmp/cc2CT7Fi.debug.temp.o
+ .debug_line    0x0000000000000000      0x14e /tmp/cc2CT7Fi.debug.temp.o
+ .debug_str     0x0000000000000000      0x474 /tmp/cc2CT7Fi.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc2CT7Fi.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc2CT7Fi.debug.temp.o
+ .debug_info    0x0000000000000000      0x1c3 /tmp/ccafjD7g.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccafjD7g.debug.temp.o
+ .debug_line    0x0000000000000000      0x14e /tmp/ccafjD7g.debug.temp.o
+ .debug_str     0x0000000000000000      0x45d /tmp/ccafjD7g.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccafjD7g.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccafjD7g.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccbJFudi.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccbJFudi.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cccrhT4i.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cccrhT4i.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccrYgKsj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccrYgKsj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccF0ez8g.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccF0ez8g.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccPmCkMh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPmCkMh.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccEcmDOh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccEcmDOh.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccUksrnj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccUksrnj.debug.temp.o
+ .debug_info    0x0000000000000000     0x3d60 /tmp/cc4CWGxj.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x2ca /tmp/cc4CWGxj.debug.temp.o
+ .debug_line    0x0000000000000000      0x3dd /tmp/cc4CWGxj.debug.temp.o
+ .debug_str     0x0000000000000000     0x25ee /tmp/cc4CWGxj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc4CWGxj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc4CWGxj.debug.temp.o
+ .debug_info    0x0000000000000000     0x45d4 /tmp/ccylLv3j.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x2b0 /tmp/ccylLv3j.debug.temp.o
+ .debug_line    0x0000000000000000      0x3d1 /tmp/ccylLv3j.debug.temp.o
+ .debug_str     0x0000000000000000     0x2f13 /tmp/ccylLv3j.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccylLv3j.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccylLv3j.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cceIpXWh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cceIpXWh.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cclogyRf.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cclogyRf.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccykBjWi.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccykBjWi.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccocPQrj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccocPQrj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccOEMaak.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccOEMaak.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccFm4xgj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccFm4xgj.debug.temp.o
+ .debug_info    0x0000000000000000      0x1c3 /tmp/ccyHe2qh.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccyHe2qh.debug.temp.o
+ .debug_line    0x0000000000000000      0x14e /tmp/ccyHe2qh.debug.temp.o
+ .debug_str     0x0000000000000000      0x45d /tmp/ccyHe2qh.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccyHe2qh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccyHe2qh.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccvXoSYj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccvXoSYj.debug.temp.o
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .text          0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+START GROUP
+LOAD /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+LOAD /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+LOAD /tmp/ccyVckZj.debug.temp.o
+LOAD /tmp/ccDnxLFj.debug.temp.o
+LOAD /tmp/cc3q2Ddh.debug.temp.o
+LOAD /tmp/ccBB1Pbi.debug.temp.o
+LOAD /tmp/ccpRqSxj.debug.temp.o
+LOAD /tmp/ccbfcojh.debug.temp.o
+LOAD /tmp/ccBTlMCj.debug.temp.o
+LOAD /tmp/ccuNvl6j.debug.temp.o
+LOAD /tmp/cci2sl4h.debug.temp.o
+LOAD /tmp/ccflUk2f.debug.temp.o
+LOAD /tmp/ccCnDG8j.debug.temp.o
+LOAD /tmp/ccRpXPbk.debug.temp.o
+LOAD /tmp/cclRb9Oj.debug.temp.o
+LOAD /tmp/ccr3mTgg.debug.temp.o
+LOAD /tmp/cc8JG86g.debug.temp.o
+LOAD /tmp/ccFpkHbh.debug.temp.o
+LOAD /tmp/ccMST4hg.debug.temp.o
+LOAD /tmp/ccuaNRch.debug.temp.o
+LOAD /tmp/ccMkk1Yi.debug.temp.o
+LOAD /tmp/ccR0DjDh.debug.temp.o
+LOAD /tmp/ccNRLjIi.debug.temp.o
+LOAD /tmp/cckBOC6j.debug.temp.o
+LOAD /tmp/ccpmhYOf.debug.temp.o
+LOAD /tmp/ccpmyKOh.debug.temp.o
+LOAD /tmp/cc2CT7Fi.debug.temp.o
+LOAD /tmp/ccafjD7g.debug.temp.o
+LOAD /tmp/ccbJFudi.debug.temp.o
+LOAD /tmp/cccrhT4i.debug.temp.o
+LOAD /tmp/ccrYgKsj.debug.temp.o
+LOAD /tmp/ccF0ez8g.debug.temp.o
+LOAD /tmp/ccPmCkMh.debug.temp.o
+LOAD /tmp/ccEcmDOh.debug.temp.o
+LOAD /tmp/ccUksrnj.debug.temp.o
+LOAD /tmp/cc4CWGxj.debug.temp.o
+LOAD /tmp/ccylLv3j.debug.temp.o
+LOAD /tmp/cceIpXWh.debug.temp.o
+LOAD /tmp/cclogyRf.debug.temp.o
+LOAD /tmp/ccykBjWi.debug.temp.o
+LOAD /tmp/ccocPQrj.debug.temp.o
+LOAD /tmp/ccOEMaak.debug.temp.o
+LOAD /tmp/ccFm4xgj.debug.temp.o
+LOAD /tmp/ccyHe2qh.debug.temp.o
+LOAD /tmp/ccvXoSYj.debug.temp.o
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Universal/SetupBrowserDxe/SetupBrowserDxe/OUTPUT/SetupBrowser.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib
+END GROUP
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.gnu.version_d  0x0000000000000228        0x0
+ .gnu.version_d
+                0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version    0x0000000000000228        0x0
+ .gnu.version   0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version_r  0x0000000000000228        0x0
+ .gnu.version_r
+                0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.text           0x0000000000001000    0x112e0
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.InternalAllocatePool.constprop.0
+                0x0000000000001000       0x6c /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.ReadUnaligned16
+                0x000000000000106c       0x30 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.DivU64x32Remainder
+                0x000000000000109c       0x18 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.BasePrintLibValueToString
+                0x00000000000010b4       0x2c /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.BasePrintLibFillBuffer
+                0x00000000000010e0       0x34 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.AsciiStrnCmp
+                0x0000000000001114       0x44 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.AsciiStrLen
+                0x0000000000001158       0x1c /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.AsciiStrSize
+                0x0000000000001174       0x18 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.RShiftU64
+                0x000000000000118c        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.LShiftU64
+                0x0000000000001194        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.DivU64x32
+                0x000000000000119c        0xc /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.MultU64x32
+                0x00000000000011a8        0xc /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.InternalSafeStringNoStrOverlap
+                0x00000000000011b4       0x3c /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.FormUpdateNotify
+                0x00000000000011f0       0x1c /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x00000000000011f0                FormUpdateNotify
+ .text.RefreshEventNotifyForForm
+                0x000000000000120c       0x2c /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x000000000000120c                RefreshEventNotifyForForm
+ .text.HiiValueToUINT64
+                0x0000000000001238       0x50 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.GetLengthForValue
+                0x0000000000001288       0x50 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.ExtendValueToU64
+                0x00000000000012d8       0x4c /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.GetBufferForValue
+                0x0000000000001324       0x40 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.IsTypeInBuffer
+                0x0000000000001364       0x2c /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.IfrStrToUpper
+                0x0000000000001390       0x2c /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.InitializeUnicodeCollationProtocol
+                0x00000000000013bc       0x38 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.IsStatementOpCode
+                0x00000000000013f4       0x68 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.IsExpressionOpCode
+                0x000000000000145c       0x74 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.IsResetRequired
+                0x00000000000014d0        0xc /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.RegiserExitHandler
+                0x00000000000014dc        0xc /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.HiiToLower
+                0x00000000000014e8       0x54 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.CompareMem
+                0x000000000000153c       0x18 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.GetNextNode.constprop.0
+                0x0000000000001554        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000001554                GetNextNode.constprop.0
+ .text.UnicodeValueToStringS.constprop.0
+                0x000000000000155c       0xf4 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x000000000000155c                UnicodeValueToStringS.constprop.0
+ .text.ProcessLibraryDestructorList
+                0x0000000000001650        0x4 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000001650                EfiEventEmptyFunction
+                0x0000000000001650                ProcessLibraryDestructorList
+ .text.FreePool
+                0x0000000000001654       0x14 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000001654                FreePool
+ .text.AllocatePool
+                0x0000000000001668        0x4 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000001668                AllocatePool
+ .text.StrStr   0x000000000000166c       0x48 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x000000000000166c                StrStr
+ .text.StrCmp   0x00000000000016b4       0x28 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x00000000000016b4                StrCmp
+ .text.CompareHiiValue
+                0x00000000000016dc      0x1a0 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.StrLen   0x000000000000187c       0x1c /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x000000000000187c                StrLen
+ .text.StrSize  0x0000000000001898       0x1c /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000001898                StrSize
+ .text.StrnLenS
+                0x00000000000018b4       0x3c /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x00000000000018b4                StrnLenS
+ .text.BasePrintLibSPrintMarker.constprop.0
+                0x00000000000018f0      0xce0 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.BasePrintLibSPrint.constprop.0
+                0x00000000000025d0       0xa0 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.UnicodeSPrint
+                0x0000000000002670       0xb8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000002670                UnicodeSPrint
+ .text.StrHexToUint64
+                0x0000000000002728      0x148 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000002728                StrHexToUint64
+ .text.StrDecimalToUint64
+                0x0000000000002870       0xac /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.StrCatS  0x000000000000291c       0xc4 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x000000000000291c                StrCatS
+ .text.StrnCpyS
+                0x00000000000029e0       0xe0 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x00000000000029e0                StrnCpyS
+ .text.StrCpyS  0x0000000000002ac0       0xa0 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000002ac0                StrCpyS
+ .text.RemoveEntryList
+                0x0000000000002b60       0x14 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000002b60                RemoveEntryList
+ .text.IsNull   0x0000000000002b74        0xc /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000002b74                IsNull
+ .text.IsListEmpty
+                0x0000000000002b80       0x10 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000002b80                IsListEmpty
+ .text.SetScope
+                0x0000000000002b90       0x80 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.GetFirstNode
+                0x0000000000002c10        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000002c10                GetFirstNode
+ .text.FreeStatementData
+                0x0000000000002c18       0xa4 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.IdToQuestion2
+                0x0000000000002cbc       0x64 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.IdToQuestion
+                0x0000000000002d20       0xa8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.DestroyExpression
+                0x0000000000002dc8       0xa0 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.SubmitCallbackForForm.part.0
+                0x0000000000002e68       0xe4 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.SubmitCallback.part.0
+                0x0000000000002f4c       0x6c /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.GetFormSetFromHiiHandle
+                0x0000000000002fb8       0x84 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.InsertTailList
+                0x000000000000303c       0x18 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x000000000000303c                InsertTailList
+ .text.InsertHeadList
+                0x0000000000003054       0x14 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000003054                InsertHeadList
+ .text.InitializeListHead
+                0x0000000000003068        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000003068                InitializeListHead
+ .text.BitFieldWrite32
+                0x0000000000003070       0x2c /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000003070                BitFieldWrite32
+ .text.BitFieldRead32
+                0x000000000000309c       0x14 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x000000000000309c                BitFieldRead32
+ .text.CopyMem  0x00000000000030b0       0x1c /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x00000000000030b0                CopyMem
+ .text.AllocateCopyPool
+                0x00000000000030cc       0x3c /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x00000000000030cc                AllocateCopyPool
+ .text.FindParentFormSet
+                0x0000000000003108       0x78 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.PopExpression
+                0x0000000000003180       0x50 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.PopScope
+                0x00000000000031d0       0x88 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.PushConditionalStack
+                0x0000000000003258       0xe4 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.PushStack
+                0x000000000000333c      0x114 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.PushScope
+                0x0000000000003450       0x6c /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.CreateStatement
+                0x00000000000034bc      0x12c /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.ZeroMem  0x00000000000035e8        0xc /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x00000000000035e8                ZeroMem
+ .text.AllocateZeroPool
+                0x00000000000035f4       0x34 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x00000000000035f4                AllocateZeroPool
+ .text.HiiGetHiiHandles.constprop.0
+                0x0000000000003628       0xc8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.GetBestLanguage.constprop.0
+                0x00000000000036f0      0x174 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.CreateExpression.constprop.0
+                0x0000000000003864       0x40 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.HiiGetSupportedLanguages
+                0x00000000000038a4       0xc0 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.HiiGetStringEx.constprop.0
+                0x0000000000003964      0x1e8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000003964                HiiGetStringEx.constprop.0
+ .text.HiiSetString.constprop.0
+                0x0000000000003b4c      0x118 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000003b4c                HiiSetString.constprop.0
+ .text.CreateQuestion
+                0x0000000000003c64      0x19c /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.RegisterHotKey
+                0x0000000000003e00      0x144 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.IsZeroGuid
+                0x0000000000003f44        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000003f44                IsZeroGuid
+ .text.CompareGuid
+                0x0000000000003f4c        0x4 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000003f4c                CompareGuid
+ .text.GetFormsetGuidFromHiiHandle
+                0x0000000000003f50      0x17c /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.DevicePathToHiiHandle
+                0x00000000000040cc      0x110 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.CreateStorage
+                0x00000000000041dc      0x590 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.CopyGuid
+                0x000000000000476c        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x000000000000476c                CopyGuid
+ .text.IsNvUpdateRequiredForForm
+                0x0000000000004774       0x50 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000004774                IsNvUpdateRequiredForForm
+ .text.IsNvUpdateRequiredForFormSet
+                0x00000000000047c4       0x64 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x00000000000047c4                IsNvUpdateRequiredForFormSet
+ .text.SaveReminder
+                0x0000000000004828       0xd0 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.IsBrowserDataModified
+                0x00000000000048f8       0xd0 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.GetBrowserStatement
+                0x00000000000049c8       0x64 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x00000000000049c8                GetBrowserStatement
+ .text.PasswordCheck
+                0x0000000000004a2c       0xe8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000004a2c                PasswordCheck
+ .text.FreeDisplayFormData
+                0x0000000000004b14       0xc0 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000004b14                FreeDisplayFormData
+ .text.IsTrue   0x0000000000004bd4       0x60 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000004bd4                IsTrue
+ .text.EvaluateExpressionList.part.0
+                0x0000000000004c34       0x7c /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000004c34                EvaluateExpressionList.part.0
+ .text.IdToForm
+                0x0000000000004cb0       0x54 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000004cb0                IdToForm
+ .text.DestroyFormSet
+                0x0000000000004d04      0x358 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000004d04                DestroyFormSet
+ .text.GetFstStgFromBrsStg
+                0x000000000000505c       0x90 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x000000000000505c                GetFstStgFromBrsStg
+ .text.StorageToConfigResp.constprop.0
+                0x00000000000050ec      0x150 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x00000000000050ec                StorageToConfigResp.constprop.0
+ .text.GetFstStgFromVarId
+                0x000000000000523c       0x54 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x000000000000523c                GetFstStgFromVarId
+ .text.InitializeRequestElement
+                0x0000000000005290      0x2bc /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.IsHiiHandleInBrowserContext.part.0
+                0x000000000000554c       0x5c /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x000000000000554c                IsHiiHandleInBrowserContext.part.0
+ .text.ValueChangeResetFlagUpdate.part.0
+                0x00000000000055a8       0x6c /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x00000000000055a8                ValueChangeResetFlagUpdate.part.0
+ .text.SubmitForFormSet.part.0
+                0x0000000000005614      0x4ec /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000005614                SubmitForFormSet.part.0
+ .text.ValidateHiiHandle.part.0
+                0x0000000000005b00       0x4c /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000005b00                ValidateHiiHandle.part.0
+ .text.SetValueByName.part.0
+                0x0000000000005b4c       0xc0 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000005b4c                SetValueByName.part.0
+ .text.GetValueByName.part.0
+                0x0000000000005c0c       0x8c /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000005c0c                GetValueByName.part.0
+ .text.InitializeFormSet
+                0x0000000000005c98     0x1c74 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000005c98                InitializeFormSet
+ .text.GetQuestionValueFromForm
+                0x000000000000790c      0x120 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.EvaluateExpression
+                0x0000000000007a2c     0x217c /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000007a2c                EvaluateExpression
+ .text.EvaluateExpression.stub
+                0x0000000000009ba8       0x10 linker stubs
+ .text.EvaluateExpressionList
+                0x000000000000aba8       0x90 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x000000000000aba8                EvaluateExpressionList
+ .text.ConfigRequestAdjust
+                0x000000000000ac38      0x208 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x000000000000ac38                ConfigRequestAdjust
+ .text.CleanBrowserStorage
+                0x000000000000ae40      0x170 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x000000000000ae40                CleanBrowserStorage
+ .text.LoadFormSetConfig
+                0x000000000000afb0       0xfc /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x000000000000afb0                LoadFormSetConfig
+ .text.IsQuestionValueChanged
+                0x000000000000b0ac      0x23c /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x000000000000b0ac                IsQuestionValueChanged
+ .text.UpdateStatementStatusForForm
+                0x000000000000b2e8       0x7c /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.UpdateStatementStatusForFormSet
+                0x000000000000b364       0x64 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x000000000000b364                UpdateStatementStatusForFormSet
+ .text.UpdateStatementStatus
+                0x000000000000b3c8       0x94 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x000000000000b3c8                UpdateStatementStatus
+ .text.GetQuestionDefault
+                0x000000000000b45c      0x808 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x000000000000b45c                GetQuestionDefault
+ .text.ExtractDefault.part.0
+                0x000000000000bc64      0x644 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x000000000000bc64                ExtractDefault.part.0
+ .text.ExtractDefault
+                0x000000000000c2a8       0x30 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x000000000000c2a8                ExtractDefault
+ .text.InitializeCurrentSetting
+                0x000000000000c2d8      0x330 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x000000000000c2d8                InitializeCurrentSetting
+ .text.SubmitForm
+                0x000000000000c608      0x2e0 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x000000000000c608                SubmitForm
+ .text.ProcessChangedData
+                0x000000000000c8e8       0x80 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.FindNextMenu
+                0x000000000000c968      0x130 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x000000000000c968                FindNextMenu
+ .text.ProcessCallBackFunction.constprop.0
+                0x000000000000ca98      0x4f4 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x000000000000ca98                ProcessCallBackFunction.constprop.0
+ .text.UpdateStatement
+                0x000000000000cf8c       0x74 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.RefreshIntervalProcess
+                0x000000000000d000       0x84 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x000000000000d000                RefreshIntervalProcess
+ .text.RefreshEventNotifyForStatement
+                0x000000000000d084       0x30 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x000000000000d084                RefreshEventNotifyForStatement
+ .text.ProcessGotoOpCode
+                0x000000000000d0b4      0x2c0 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x000000000000d0b4                ProcessGotoOpCode
+ .text.ExecuteAction
+                0x000000000000d374      0x13c /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .text.FormDisplayCallback
+                0x000000000000d4b0       0x34 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .text.SetBitsQuestionValue
+                0x000000000000d4e4       0xa8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .text.GetBitsQuestionValue
+                0x000000000000d58c       0x94 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .text.GetSyncRestoreConfigRequest
+                0x000000000000d620      0x184 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+                0x000000000000d620                GetSyncRestoreConfigRequest
+ .text.UpdateFlagForForm
+                0x000000000000d7a4       0xe0 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+                0x000000000000d7a4                UpdateFlagForForm
+ .text.ValidateFormSet
+                0x000000000000d884       0x68 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+                0x000000000000d884                ValidateFormSet
+ .text.SetQuestionValue
+                0x000000000000d8ec      0x548 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+                0x000000000000d8ec                SetQuestionValue
+ .text.BufferToValue
+                0x000000000000de34      0x1f0 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+                0x000000000000de34                BufferToValue
+ .text.GetQuestionValue
+                0x000000000000e024      0x4d0 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+                0x000000000000e024                GetQuestionValue
+ .text.SendDiscardInfoToDriver
+                0x000000000000e4f4      0x13c /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+                0x000000000000e4f4                SendDiscardInfoToDriver
+ .text.ConfigRespToStorage
+                0x000000000000e630      0x140 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+                0x000000000000e630                ConfigRespToStorage
+ .text.ProcessStorage
+                0x000000000000e770      0x168 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .text.BrowserCallback
+                0x000000000000e8d8      0x204 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+                0x000000000000e8d8                BrowserCallback
+ .text.NewStringCpy
+                0x000000000000eadc       0x40 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+                0x000000000000eadc                NewStringCpy
+ .text.SynchronizeStorage
+                0x000000000000eb1c      0x168 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+                0x000000000000eb1c                SynchronizeStorage
+ .text.DiscardForm
+                0x000000000000ec84      0x254 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+                0x000000000000ec84                DiscardForm
+ .text.NewStringCat
+                0x000000000000eed8       0x88 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+                0x000000000000eed8                NewStringCat
+ .text.GetToken
+                0x000000000000ef60       0x54 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+                0x000000000000ef60                GetToken
+ .text.DeleteString
+                0x000000000000efb4       0x60 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+                0x000000000000efb4                DeleteString
+ .text.NewString
+                0x000000000000f014       0x10 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+                0x000000000000f014                NewString
+ .text.PopupErrorMessage
+                0x000000000000f024       0xd4 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+                0x000000000000f024                PopupErrorMessage
+ .text.ConfirmSaveFail
+                0x000000000000f0f8       0x80 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+                0x000000000000f0f8                ConfirmSaveFail
+ .text.ValidateQuestion
+                0x000000000000f178      0x150 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .text.NoSubmitCheck
+                0x000000000000f2c8       0xf8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+                0x000000000000f2c8                NoSubmitCheck
+ .text.ValueChangedValidation
+                0x000000000000f3c0       0x90 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+                0x000000000000f3c0                ValueChangedValidation
+ .text.UiFreeMenuList
+                0x000000000000f450       0x44 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+                0x000000000000f450                UiFreeMenuList
+ .text.UiCopyMenuList
+                0x000000000000f494       0xbc /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+                0x000000000000f494                UiCopyMenuList
+ .text.SubmitForSystem
+                0x000000000000f550      0x43c /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+                0x000000000000f550                SubmitForSystem
+ .text.SendForm
+                0x000000000000f98c     0x17b0 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+                0x000000000000f98c                SendForm
+ .text.UiFindParentMenu
+                0x000000000001113c       0x88 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+                0x000000000001113c                UiFindParentMenu
+ .text.memcpy   0x00000000000111c4       0x20 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+                0x00000000000111c4                memcpy
+ .text.__stack_chk_fail
+                0x00000000000111e4       0x18 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+                0x00000000000111e4                __stack_chk_fail
+ .text._ModuleEntryPoint
+                0x00000000000111fc      0x2e0 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+                0x00000000000111fc                _ModuleEntryPoint
+ *fill*         0x00000000000114dc        0x4 
+ .text          0x00000000000114e0      0x200 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                0x00000000000114e0                InternalMemSetMem16
+                0x00000000000114ec                InternalMemSetMem32
+                0x00000000000114f8                InternalMemSetMem64
+                0x0000000000011504                InternalMemZeroMem
+                0x000000000001150c                InternalMemSetMem
+ .text          0x00000000000116e0      0x218 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                0x000000000001184c                InternalMemCopyMem
+ *fill*         0x00000000000118f8        0x8 
+ .text          0x0000000000011900       0xe0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                0x0000000000011900                InternalMemCompareMem
+ .text          0x00000000000119e0       0x20 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                0x00000000000119e0                InternalMemCompareGuid
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.HiiValueToUINT64
+                0x0000000000011a00        0x7 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ *fill*         0x0000000000011a07        0x1 
+ .rodata.GetLengthForValue
+                0x0000000000011a08        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .rodata.ExtendValueToU64
+                0x0000000000011a10        0x7 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .rodata.BasePrintLibSPrintMarker.constprop.0.str1.1
+                0x0000000000011a17       0x7b /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ *fill*         0x0000000000011a92        0x2 
+ .rodata.BasePrintLibSPrintMarker.constprop.0
+                0x0000000000011a94       0x5e /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .rodata.HiiGetStringEx.constprop.0.str1.1
+                0x0000000000011af2       0x7b /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                                          0x1 (size before relaxing)
+ .rodata.HiiGetStringEx.constprop.0.str2.2
+                0x0000000000011af2       0x1a /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .rodata.HiiSetString.constprop.0.str1.1
+                0x0000000000011b0c        0x7 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ *fill*         0x0000000000011b13        0x1 
+ .rodata.CreateStorage.str2.2
+                0x0000000000011b14       0x1c /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                                         0x28 (size before relaxing)
+ .rodata.IsTrue
+                0x0000000000011b30        0x5 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ *fill*         0x0000000000011b35        0x1 
+ .rodata.StorageToConfigResp.constprop.0.str2.2
+                0x0000000000011b36        0x4 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                                          0x8 (size before relaxing)
+ .rodata.InitializeRequestElement.str2.2
+                0x0000000000011b3a       0x38 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .rodata.SubmitForFormSet.part.0.str2.2
+                0x0000000000011b72       0x22 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                                         0x2e (size before relaxing)
+ .rodata.InitializeFormSet
+                0x0000000000011b94      0x185 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ *fill*         0x0000000000011d19        0x1 
+ .rodata.EvaluateExpression.str2.2
+                0x0000000000011d1a       0x38 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                                         0x3e (size before relaxing)
+ *fill*         0x0000000000011d52        0x2 
+ .rodata.EvaluateExpression
+                0x0000000000011d54       0xda /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .rodata.ConfigRequestAdjust.str2.2
+                0x0000000000011e2e       0x28 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ *fill*         0x0000000000011e56        0x2 
+ .rodata.GetQuestionDefault
+                0x0000000000011e58        0x4 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .rodata.InitializeCurrentSetting.str2.2
+                0x0000000000011e5c       0x3c /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .rodata.ProcessCallBackFunction.constprop.0
+                0x0000000000011e98        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .rodata.str2.2
+                0x0000000000011ea0       0x18 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .rodata.CSWTCH.127
+                0x0000000000011eb8        0x3 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ *fill*         0x0000000000011ebb        0x5 
+ .rodata.CSWTCH.234
+                0x0000000000011ec0       0x20 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .rodata.mErrorString
+                0x0000000000011ee0      0x2b5 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .rodata.mHexStr
+                0x0000000000012195       0x10 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .rodata.mWarningString
+                0x00000000000121a5       0x96 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .rodata.GetSyncRestoreConfigRequest.str2.2
+                0x000000000001223b       0x32 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .rodata.SetQuestionValue.str2.2
+                0x000000000001223b        0x4 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .rodata.GetQuestionValue.str2.2
+                0x000000000001223b        0xe /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .rodata.ConfigRespToStorage.str2.2
+                0x000000000001223b        0xa /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ *fill*         0x000000000001223b        0x1 
+ .rodata.GetToken.str2.2
+                0x000000000001223c        0x4 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .rodata.ConfirmSaveFail.str2.2
+                0x0000000000012240       0x34 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .rodata.SubmitForSystem.str2.2
+                0x0000000000012274       0x42 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .rodata.SendForm.str2.2
+                0x00000000000122b6       0x42 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+                                          0x2 (size before relaxing)
+ *fill*         0x00000000000122b6        0x2 
+ .rodata.SendForm
+                0x00000000000122b8        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ *(.got .got.*)
+ .got           0x00000000000122c0        0x8 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x00000000000122c0                _GLOBAL_OFFSET_TABLE_
+ .got.plt       0x00000000000122c8       0x18 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ *:AutoGen.obj(.data.g*Guid)
+
+.plt            0x00000000000122e0        0x0
+ .plt           0x00000000000122e0        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.data           0x0000000000013000      0x49a
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.ro   0x0000000000013000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data.gBrowserContextList
+                0x0000000000013000       0x10 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000013000                gBrowserContextList
+ .data.gBrowserFormSetList
+                0x0000000000013010       0x10 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000013010                gBrowserFormSetList
+ .data.gBrowserHotKeyList
+                0x0000000000013020       0x10 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000013020                gBrowserHotKeyList
+ .data.gBrowserSaveFailFormSetList
+                0x0000000000013030       0x10 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000013030                gBrowserSaveFailFormSetList
+ .data.gBrowserSettingScope
+                0x0000000000013040        0x4 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000013040                gBrowserSettingScope
+ *fill*         0x0000000000013044        0x4 
+ .data.gBrowserStorageList
+                0x0000000000013048       0x10 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000013048                gBrowserStorageList
+ .data.gEdkiiIfrBitVarstoreGuid
+                0x0000000000013058       0x10 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .data.gEfiDevicePathProtocolGuid
+                0x0000000000013068       0x10 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .data.gEfiGlobalVariableGuid
+                0x0000000000013078       0x10 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .data.gEfiHiiConfigAccessProtocolGuid
+                0x0000000000013088       0x10 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000013088                gEfiHiiConfigAccessProtocolGuid
+ .data.gEfiHiiPlatformSetupFormsetGuid
+                0x0000000000013098       0x10 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000013098                gEfiHiiPlatformSetupFormsetGuid
+ .data.gEfiHiiStandardFormGuid
+                0x00000000000130a8       0x10 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .data.gEfiRegularExpressionProtocolGuid
+                0x00000000000130b8       0x10 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .data.gEfiUnicodeCollation2ProtocolGuid
+                0x00000000000130c8       0x10 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .data.gEfiUserManagerProtocolGuid
+                0x00000000000130d8       0x10 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .data.mBrowserScopeFirstSet
+                0x00000000000130e8        0x1 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ *fill*         0x00000000000130e9        0x7 
+ .data.mPrivateData
+                0x00000000000130f0       0x98 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x00000000000130f0                mPrivateData
+ .data.mRefreshEventList
+                0x0000000000013188       0x10 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000013188                mRefreshEventList
+ .data.__stack_chk_guard
+                0x0000000000013198        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+                0x0000000000013198                __stack_chk_guard
+ .data.gEdkiiFormBrowserEx2ProtocolGuid
+                0x00000000000131a0       0x10 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .data.gEdkiiFormBrowserExProtocolGuid
+                0x00000000000131b0       0x10 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .data.gEdkiiFormDisplayEngineProtocolGuid
+                0x00000000000131c0       0x10 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .data.gEfiDevicePathFromTextProtocolGuid
+                0x00000000000131d0       0x10 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .data.gEfiFormBrowser2ProtocolGuid
+                0x00000000000131e0       0x10 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .data.gEfiHiiConfigRoutingProtocolGuid
+                0x00000000000131f0       0x10 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .data.gEfiHiiDatabaseProtocolGuid
+                0x0000000000013200       0x10 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .data.gEfiHiiFontProtocolGuid
+                0x0000000000013210       0x10 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .data.gEfiHiiImageProtocolGuid
+                0x0000000000013220       0x10 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .data.gEfiHiiStringProtocolGuid
+                0x0000000000013230       0x10 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ *(.bss .bss.*)
+ .bss.ExitHandlerFunction
+                0x0000000000013240        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000013240                ExitHandlerFunction
+ .bss.gBS       0x0000000000013248        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000013248                gBS
+ .bss.gCallbackReconnect
+                0x0000000000013250        0x1 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000013250                gCallbackReconnect
+ *fill*         0x0000000000013251        0x7 
+ .bss.gCurrentSelection
+                0x0000000000013258        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000013258                gCurrentSelection
+ .bss.gDisplayFormData
+                0x0000000000013260       0x90 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000013260                gDisplayFormData
+ .bss.gEmptyString
+                0x00000000000132f0        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x00000000000132f0                gEmptyString
+ .bss.gExitRequired
+                0x00000000000132f8        0x1 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x00000000000132f8                gExitRequired
+ *fill*         0x00000000000132f9        0x7 
+ .bss.gHiiDatabase
+                0x0000000000013300        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000013300                gHiiDatabase
+ .bss.gHiiString
+                0x0000000000013308        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000013308                gHiiString
+ .bss.gRT       0x0000000000013310        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000013310                gRT
+ .bss.gResetRequiredFormLevel
+                0x0000000000013318        0x1 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000013318                gResetRequiredFormLevel
+ .bss.gResetRequiredSystemLevel
+                0x0000000000013319        0x1 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000013319                gResetRequiredSystemLevel
+ *fill*         0x000000000001331a        0x2 
+ .bss.gZeroGuid
+                0x000000000001331c       0x10 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x000000000001331c                gZeroGuid
+ *fill*         0x000000000001332c        0x4 
+ .bss.mCurrentExpressionEnd
+                0x0000000000013330        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .bss.mCurrentExpressionPointer
+                0x0000000000013338        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .bss.mCurrentExpressionStack
+                0x0000000000013340        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .bss.mDynamicFormUpdated
+                0x0000000000013348        0x1 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000013348                mDynamicFormUpdated
+ *fill*         0x0000000000013349        0x7 
+ .bss.mExpressionEvaluationStack
+                0x0000000000013350        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .bss.mExpressionEvaluationStackEnd
+                0x0000000000013358        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .bss.mExpressionEvaluationStackOffset
+                0x0000000000013360        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .bss.mExpressionEvaluationStackPointer
+                0x0000000000013368        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .bss.mExpressionOpCodeIndex
+                0x0000000000013370        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .bss.mFormDisplay
+                0x0000000000013378        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000013378                mFormDisplay
+ .bss.mFormExpressionEnd
+                0x0000000000013380        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .bss.mFormExpressionPointer
+                0x0000000000013388        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .bss.mFormExpressionStack
+                0x0000000000013390        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .bss.mHiiConfigRouting
+                0x0000000000013398        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000013398                mHiiConfigRouting
+ .bss.mHiiDatabase
+                0x00000000000133a0        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x00000000000133a0                mHiiDatabase
+ .bss.mHiiPackageListUpdated
+                0x00000000000133a8        0x1 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x00000000000133a8                mHiiPackageListUpdated
+ *fill*         0x00000000000133a9        0x7 
+ .bss.mMapExpressionListEnd
+                0x00000000000133b0        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .bss.mMapExpressionListPointer
+                0x00000000000133b8        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .bss.mMapExpressionListStack
+                0x00000000000133c0        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .bss.mOpCodeScopeStack
+                0x00000000000133c8        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .bss.mOpCodeScopeStackEnd
+                0x00000000000133d0        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .bss.mOpCodeScopeStackPointer
+                0x00000000000133d8        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .bss.mOptionExpressionEnd
+                0x00000000000133e0        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .bss.mOptionExpressionPointer
+                0x00000000000133e8        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .bss.mOptionExpressionStack
+                0x00000000000133f0        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .bss.mPathFromText
+                0x00000000000133f8        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x00000000000133f8                mPathFromText
+ .bss.mStatementExpressionEnd
+                0x0000000000013400        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .bss.mStatementExpressionPointer
+                0x0000000000013408        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .bss.mStatementExpressionStack
+                0x0000000000013410        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .bss.mStatementIndex
+                0x0000000000013418        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .bss.mSystemLevelFormSet
+                0x0000000000013420        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000013420                mSystemLevelFormSet
+ .bss.mUnicodeCollation
+                0x0000000000013428        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .bss.mUsedQuestionId
+                0x0000000000013430        0x2 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ *fill*         0x0000000000013432        0x6 
+ .bss.mUserManager
+                0x0000000000013438        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .bss.mValueChangedEvent
+                0x0000000000013440        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                0x0000000000013440                mValueChangedEvent
+ .bss.gBrowserContextCount
+                0x0000000000013448        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .bss.gFlagReconnect
+                0x0000000000013450        0x1 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ *fill*         0x0000000000013451        0x7 
+ .bss.gHiiConfigRouting
+                0x0000000000013458        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .bss.gHiiFont  0x0000000000013460        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .bss.gHiiImage
+                0x0000000000013468        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .bss.gST       0x0000000000013470        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .bss.mCurFakeQestId
+                0x0000000000013478        0x2 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .bss.mCurrentFormId
+                0x000000000001347a        0x2 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .bss.mCurrentFormSetGuid
+                0x000000000001347c       0x10 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ *fill*         0x000000000001348c        0x4 
+ .bss.mCurrentHiiHandle
+                0x0000000000013490        0x8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .bss.mFinishRetrieveCall
+                0x0000000000013498        0x1 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .bss.mSystemSubmit
+                0x0000000000013499        0x1 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+
+.dynbss         0x000000000001349a        0x0
+ .dynbss        0x000000000001349a        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.eh_frame
+ *(.eh_frame)
+
+.rela           0x00000000000134a0      0x2a0
+ *(.rela .rela.*)
+ .rela.got      0x00000000000134a0        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.plt      0x00000000000134a0        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.bss      0x00000000000134a0        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.rel.ro
+                0x00000000000134a0        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.ifunc    0x00000000000134a0        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.gBrowserContextList
+                0x00000000000134a0       0x30 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.gBrowserFormSetList
+                0x00000000000134d0       0x30 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.gBrowserHotKeyList
+                0x0000000000013500       0x30 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.gBrowserSaveFailFormSetList
+                0x0000000000013530       0x30 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.gBrowserStorageList
+                0x0000000000013560       0x30 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.mPrivateData
+                0x0000000000013590      0x120 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.mRefreshEventList
+                0x00000000000136b0       0x30 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.CSWTCH.234
+                0x00000000000136e0       0x60 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.hii
+ *(.hii)
+
+.build-id       0x0000000000013740       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000013740       0x24 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+ *(COMMON)
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+OUTPUT(/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Universal/SetupBrowserDxe/SetupBrowserDxe/DEBUG/SetupBrowser.dll elf64-littleaarch64)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000    0x4acec
+ .debug_info    0x0000000000000000     0xee5b /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .debug_info    0x000000000000ee5b     0x56dc /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .debug_info    0x0000000000014537     0x1a57 /tmp/ccyVckZj.debug.temp.o
+                0x0000000000014537                DriverEntryPoint.c.0bb94e37
+ .debug_info    0x0000000000015f8e      0x17b /tmp/ccDnxLFj.debug.temp.o
+                0x0000000000015f8e                BaseStackCheckGcc.c.3fb9ce64
+ .debug_info    0x0000000000016109      0x1d7 /tmp/cc3q2Ddh.debug.temp.o
+                0x0000000000016109                memcpy.c.79986cd0
+ .debug_info    0x00000000000162e0      0x188 /tmp/ccBB1Pbi.debug.temp.o
+                0x00000000000162e0                memset.c.02de5c04
+ .debug_info    0x0000000000016468     0x1e0f /tmp/ccpRqSxj.debug.temp.o
+                0x0000000000016468                AutoGen.c.aeb6ed5e
+ .debug_info    0x0000000000018277     0x6121 /tmp/ccbfcojh.debug.temp.o
+                0x0000000000018277                Setup.c.700e54bc
+ .debug_info    0x000000000001e398     0x5265 /tmp/ccBTlMCj.debug.temp.o
+                0x000000000001e398                IfrParse.c.23568d13
+ .debug_info    0x00000000000235fd     0x4e66 /tmp/ccuNvl6j.debug.temp.o
+                0x00000000000235fd                Expression.c.050e11b8
+ .debug_info    0x0000000000028463     0x4630 /tmp/cci2sl4h.debug.temp.o
+                0x0000000000028463                Presentation.c.56df652d
+ .debug_info    0x000000000002ca93      0x21d /tmp/ccflUk2f.debug.temp.o
+                0x000000000002ca93                MemLibGuid.c.89fba256
+ .debug_info    0x000000000002ccb0      0x16e /tmp/ccCnDG8j.debug.temp.o
+                0x000000000002ccb0                ZeroMemWrapper.c.da3b248e
+ .debug_info    0x000000000002ce1e      0x19b /tmp/ccRpXPbk.debug.temp.o
+                0x000000000002ce1e                CompareMemWrapper.c.df2c23b5
+ .debug_info    0x000000000002cfb9      0x185 /tmp/cclRb9Oj.debug.temp.o
+                0x000000000002cfb9                CopyMemWrapper.c.4760c160
+ .debug_info    0x000000000002d13e      0x1db /tmp/ccr3mTgg.debug.temp.o
+                0x000000000002d13e                RShiftU64.c.b1baacba
+ .debug_info    0x000000000002d319      0x1db /tmp/cc8JG86g.debug.temp.o
+                0x000000000002d319                MultU64x32.c.37505239
+ .debug_info    0x000000000002d4f4      0x1db /tmp/ccFpkHbh.debug.temp.o
+                0x000000000002d4f4                LShiftU64.c.89142a4c
+ .debug_info    0x000000000002d6cf      0x1e5 /tmp/ccMST4hg.debug.temp.o
+                0x000000000002d6cf                DivU64x32Remainder.c.f5241791
+ .debug_info    0x000000000002d8b4      0x1cf /tmp/ccuaNRch.debug.temp.o
+                0x000000000002d8b4                DivU64x32.c.1f026665
+ .debug_info    0x000000000002da83      0x89f /tmp/ccMkk1Yi.debug.temp.o
+                0x000000000002da83                BitField.c.6523c4b5
+ .debug_info    0x000000000002e322      0x1d0 /tmp/ccR0DjDh.debug.temp.o
+                0x000000000002e322                CpuDeadLoop.c.755e7c7b
+ .debug_info    0x000000000002e4f2      0x428 /tmp/ccNRLjIi.debug.temp.o
+                0x000000000002e4f2                LinkedList.c.7e1d43c9
+ .debug_info    0x000000000002e91a      0xdc8 /tmp/cckBOC6j.debug.temp.o
+                0x000000000002e91a                SafeString.c.d93472dc
+ .debug_info    0x000000000002f6e2      0x7f3 /tmp/ccpmhYOf.debug.temp.o
+                0x000000000002f6e2                String.c.76785ee4
+ .debug_info    0x000000000002fed5      0x43c /tmp/ccpmyKOh.debug.temp.o
+                0x000000000002fed5                Math64.c.fba6cbb7
+ .debug_info    0x0000000000030311     0x18e1 /tmp/ccbJFudi.debug.temp.o
+                0x0000000000030311                UefiBootServicesTableLib.c.1b9b5282
+ .debug_info    0x0000000000031bf2      0x683 /tmp/cccrhT4i.debug.temp.o
+                0x0000000000031bf2                PrintLib.c.9d1836b5
+ .debug_info    0x0000000000032275      0x79a /tmp/ccrYgKsj.debug.temp.o
+                0x0000000000032275                PrintLibInternal.c.11bf8ed5
+ .debug_info    0x0000000000032a0f     0x1de0 /tmp/ccF0ez8g.debug.temp.o
+                0x0000000000032a0f                MemoryAllocationLib.c.7e75fabe
+ .debug_info    0x00000000000347ef     0x1d7d /tmp/ccPmCkMh.debug.temp.o
+                0x00000000000347ef                DevicePathUtilities.c.1a32a0df
+ .debug_info    0x000000000003656c     0x1953 /tmp/ccEcmDOh.debug.temp.o
+                0x000000000003656c                DevicePathUtilitiesDxeSmm.c.cb9de9d5
+ .debug_info    0x0000000000037ebf     0x1afe /tmp/ccUksrnj.debug.temp.o
+                0x0000000000037ebf                UefiDevicePathLib.c.0e9646b4
+ .debug_info    0x00000000000399bd     0x18b2 /tmp/cceIpXWh.debug.temp.o
+                0x00000000000399bd                UefiRuntimeServicesTableLib.c.76abd5a8
+ .debug_info    0x000000000003b26f     0x294e /tmp/cclogyRf.debug.temp.o
+                0x000000000003b26f                UefiHiiServicesLib.c.793cbe6e
+ .debug_info    0x000000000003dbbd     0x27ac /tmp/ccykBjWi.debug.temp.o
+                0x000000000003dbbd                UefiLib.c.c9f50ead
+ .debug_info    0x0000000000040369     0x50c1 /tmp/ccocPQrj.debug.temp.o
+                0x0000000000040369                HiiLib.c.4aac6cd1
+ .debug_info    0x000000000004542a     0x2b6a /tmp/ccOEMaak.debug.temp.o
+                0x000000000004542a                HiiString.c.65ac83c6
+ .debug_info    0x0000000000047f94     0x2a1b /tmp/ccFm4xgj.debug.temp.o
+                0x0000000000047f94                HiiLanguage.c.e626a2c6
+ .debug_info    0x000000000004a9af      0x33d /tmp/ccvXoSYj.debug.temp.o
+                0x000000000004a9af                Unaligned.c.b480fc72
+
+.debug_abbrev   0x0000000000000000     0x3f82
+ .debug_abbrev  0x0000000000000000      0x2fd /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .debug_abbrev  0x00000000000002fd      0x1e3 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .debug_abbrev  0x00000000000004e0      0x1e9 /tmp/ccyVckZj.debug.temp.o
+ .debug_abbrev  0x00000000000006c9       0xc7 /tmp/ccDnxLFj.debug.temp.o
+ .debug_abbrev  0x0000000000000790       0xee /tmp/cc3q2Ddh.debug.temp.o
+ .debug_abbrev  0x000000000000087e       0xc0 /tmp/ccBB1Pbi.debug.temp.o
+ .debug_abbrev  0x000000000000093e      0x234 /tmp/ccpRqSxj.debug.temp.o
+ .debug_abbrev  0x0000000000000b72      0x325 /tmp/ccbfcojh.debug.temp.o
+ .debug_abbrev  0x0000000000000e97      0x2c7 /tmp/ccBTlMCj.debug.temp.o
+ .debug_abbrev  0x000000000000115e      0x318 /tmp/ccuNvl6j.debug.temp.o
+ .debug_abbrev  0x0000000000001476      0x318 /tmp/cci2sl4h.debug.temp.o
+ .debug_abbrev  0x000000000000178e       0xce /tmp/ccflUk2f.debug.temp.o
+ .debug_abbrev  0x000000000000185c       0xb1 /tmp/ccCnDG8j.debug.temp.o
+ .debug_abbrev  0x000000000000190d       0xb1 /tmp/ccRpXPbk.debug.temp.o
+ .debug_abbrev  0x00000000000019be       0xb8 /tmp/cclRb9Oj.debug.temp.o
+ .debug_abbrev  0x0000000000001a76       0xb1 /tmp/ccr3mTgg.debug.temp.o
+ .debug_abbrev  0x0000000000001b27       0xc0 /tmp/cc8JG86g.debug.temp.o
+ .debug_abbrev  0x0000000000001be7       0xb1 /tmp/ccFpkHbh.debug.temp.o
+ .debug_abbrev  0x0000000000001c98       0xb3 /tmp/ccMST4hg.debug.temp.o
+ .debug_abbrev  0x0000000000001d4b       0xb1 /tmp/ccuaNRch.debug.temp.o
+ .debug_abbrev  0x0000000000001dfc       0xf9 /tmp/ccMkk1Yi.debug.temp.o
+ .debug_abbrev  0x0000000000001ef5       0xb6 /tmp/ccR0DjDh.debug.temp.o
+ .debug_abbrev  0x0000000000001fab      0x139 /tmp/ccNRLjIi.debug.temp.o
+ .debug_abbrev  0x00000000000020e4      0x12d /tmp/cckBOC6j.debug.temp.o
+ .debug_abbrev  0x0000000000002211      0x126 /tmp/ccpmhYOf.debug.temp.o
+ .debug_abbrev  0x0000000000002337       0xf9 /tmp/ccpmyKOh.debug.temp.o
+ .debug_abbrev  0x0000000000002430      0x1dd /tmp/ccbJFudi.debug.temp.o
+ .debug_abbrev  0x000000000000260d      0x150 /tmp/cccrhT4i.debug.temp.o
+ .debug_abbrev  0x000000000000275d      0x161 /tmp/ccrYgKsj.debug.temp.o
+ .debug_abbrev  0x00000000000028be      0x242 /tmp/ccF0ez8g.debug.temp.o
+ .debug_abbrev  0x0000000000002b00      0x240 /tmp/ccPmCkMh.debug.temp.o
+ .debug_abbrev  0x0000000000002d40      0x1d4 /tmp/ccEcmDOh.debug.temp.o
+ .debug_abbrev  0x0000000000002f14      0x1fe /tmp/ccUksrnj.debug.temp.o
+ .debug_abbrev  0x0000000000003112      0x1c3 /tmp/cceIpXWh.debug.temp.o
+ .debug_abbrev  0x00000000000032d5      0x216 /tmp/cclogyRf.debug.temp.o
+ .debug_abbrev  0x00000000000034eb      0x267 /tmp/ccykBjWi.debug.temp.o
+ .debug_abbrev  0x0000000000003752      0x315 /tmp/ccocPQrj.debug.temp.o
+ .debug_abbrev  0x0000000000003a67      0x249 /tmp/ccOEMaak.debug.temp.o
+ .debug_abbrev  0x0000000000003cb0      0x209 /tmp/ccFm4xgj.debug.temp.o
+ .debug_abbrev  0x0000000000003eb9       0xc9 /tmp/ccvXoSYj.debug.temp.o
+
+.debug_loc      0x0000000000000000    0x25ab7
+ .debug_loc     0x0000000000000000    0x1cea4 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .debug_loc     0x000000000001cea4     0x8c13 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+
+.debug_aranges  0x0000000000000000      0xad0
+ .debug_aranges
+                0x0000000000000000      0x880 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .debug_aranges
+                0x0000000000000880      0x250 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+
+.debug_ranges   0x0000000000000000     0x3fc0
+ .debug_ranges  0x0000000000000000     0x3020 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000003020      0xfa0 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+
+.debug_line     0x0000000000000000    0x13ace
+ .debug_line    0x0000000000000000     0xa092 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .debug_line    0x000000000000a092     0x38b0 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+ .debug_line    0x000000000000d942      0x349 /tmp/ccyVckZj.debug.temp.o
+ .debug_line    0x000000000000dc8b      0x172 /tmp/ccDnxLFj.debug.temp.o
+ .debug_line    0x000000000000ddfd      0x173 /tmp/cc3q2Ddh.debug.temp.o
+ .debug_line    0x000000000000df70      0x173 /tmp/ccBB1Pbi.debug.temp.o
+ .debug_line    0x000000000000e0e3      0x2fd /tmp/ccpRqSxj.debug.temp.o
+ .debug_line    0x000000000000e3e0      0x51b /tmp/ccbfcojh.debug.temp.o
+ .debug_line    0x000000000000e8fb      0x51e /tmp/ccBTlMCj.debug.temp.o
+ .debug_line    0x000000000000ee19      0x520 /tmp/ccuNvl6j.debug.temp.o
+ .debug_line    0x000000000000f339      0x522 /tmp/cci2sl4h.debug.temp.o
+ .debug_line    0x000000000000f85b      0x175 /tmp/ccflUk2f.debug.temp.o
+ .debug_line    0x000000000000f9d0      0x175 /tmp/ccCnDG8j.debug.temp.o
+ .debug_line    0x000000000000fb45      0x178 /tmp/ccRpXPbk.debug.temp.o
+ .debug_line    0x000000000000fcbd      0x175 /tmp/cclRb9Oj.debug.temp.o
+ .debug_line    0x000000000000fe32      0x14c /tmp/ccr3mTgg.debug.temp.o
+ .debug_line    0x000000000000ff7e      0x14d /tmp/cc8JG86g.debug.temp.o
+ .debug_line    0x00000000000100cb      0x14c /tmp/ccFpkHbh.debug.temp.o
+ .debug_line    0x0000000000010217      0x155 /tmp/ccMST4hg.debug.temp.o
+ .debug_line    0x000000000001036c      0x14c /tmp/ccuaNRch.debug.temp.o
+ .debug_line    0x00000000000104b8      0x14b /tmp/ccMkk1Yi.debug.temp.o
+ .debug_line    0x0000000000010603      0x14e /tmp/ccR0DjDh.debug.temp.o
+ .debug_line    0x0000000000010751      0x14d /tmp/ccNRLjIi.debug.temp.o
+ .debug_line    0x000000000001089e      0x14d /tmp/cckBOC6j.debug.temp.o
+ .debug_line    0x00000000000109eb      0x149 /tmp/ccpmhYOf.debug.temp.o
+ .debug_line    0x0000000000010b34      0x149 /tmp/ccpmyKOh.debug.temp.o
+ .debug_line    0x0000000000010c7d      0x332 /tmp/ccbJFudi.debug.temp.o
+ .debug_line    0x0000000000010faf      0x168 /tmp/cccrhT4i.debug.temp.o
+ .debug_line    0x0000000000011117      0x186 /tmp/ccrYgKsj.debug.temp.o
+ .debug_line    0x000000000001129d      0x32a /tmp/ccF0ez8g.debug.temp.o
+ .debug_line    0x00000000000115c7      0x36e /tmp/ccPmCkMh.debug.temp.o
+ .debug_line    0x0000000000011935      0x374 /tmp/ccEcmDOh.debug.temp.o
+ .debug_line    0x0000000000011ca9      0x36c /tmp/ccUksrnj.debug.temp.o
+ .debug_line    0x0000000000012015      0x2eb /tmp/cceIpXWh.debug.temp.o
+ .debug_line    0x0000000000012300      0x402 /tmp/cclogyRf.debug.temp.o
+ .debug_line    0x0000000000012702      0x36f /tmp/ccykBjWi.debug.temp.o
+ .debug_line    0x0000000000012a71      0x517 /tmp/ccocPQrj.debug.temp.o
+ .debug_line    0x0000000000012f88      0x4fa /tmp/ccOEMaak.debug.temp.o
+ .debug_line    0x0000000000013482      0x4fc /tmp/ccFm4xgj.debug.temp.o
+ .debug_line    0x000000000001397e      0x150 /tmp/ccvXoSYj.debug.temp.o
+
+.debug_str      0x0000000000000000     0x9672
+ .debug_str     0x0000000000000000      0x33c /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+                                        0x343 (size before relaxing)
+ .debug_str     0x000000000000033c       0x88 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o
+                                        0x340 (size before relaxing)
+ .debug_str     0x00000000000003c4     0x1532 /tmp/ccyVckZj.debug.temp.o
+                                       0x1692 (size before relaxing)
+ .debug_str     0x00000000000018f6      0x27c /tmp/ccDnxLFj.debug.temp.o
+                                        0x3a9 (size before relaxing)
+ .debug_str     0x0000000000001b72       0xd5 /tmp/cc3q2Ddh.debug.temp.o
+                                        0x350 (size before relaxing)
+ .debug_str     0x0000000000001c47       0x55 /tmp/ccBB1Pbi.debug.temp.o
+                                        0x344 (size before relaxing)
+ .debug_str     0x0000000000001c9c      0x784 /tmp/ccpRqSxj.debug.temp.o
+                                       0x1d0f (size before relaxing)
+ .debug_str     0x0000000000002420     0x2041 /tmp/ccbfcojh.debug.temp.o
+                                       0x3fd4 (size before relaxing)
+ .debug_str     0x0000000000004461      0x82b /tmp/ccBTlMCj.debug.temp.o
+                                       0x3ceb (size before relaxing)
+ .debug_str     0x0000000000004c8c      0xbf1 /tmp/ccuNvl6j.debug.temp.o
+                                       0x3d6f (size before relaxing)
+ .debug_str     0x000000000000587d      0x570 /tmp/cci2sl4h.debug.temp.o
+                                       0x37f5 (size before relaxing)
+ .debug_str     0x0000000000005ded      0x10e /tmp/ccflUk2f.debug.temp.o
+                                        0x3af (size before relaxing)
+ .debug_str     0x0000000000005efb       0x52 /tmp/ccCnDG8j.debug.temp.o
+                                        0x352 (size before relaxing)
+ .debug_str     0x0000000000005f4d       0x74 /tmp/ccRpXPbk.debug.temp.o
+                                        0x37b (size before relaxing)
+ .debug_str     0x0000000000005fc1       0x52 /tmp/cclRb9Oj.debug.temp.o
+                                        0x36a (size before relaxing)
+ .debug_str     0x0000000000006013       0x99 /tmp/ccr3mTgg.debug.temp.o
+                                        0x467 (size before relaxing)
+ .debug_str     0x00000000000060ac       0x5a /tmp/cc8JG86g.debug.temp.o
+                                        0x474 (size before relaxing)
+ .debug_str     0x0000000000006106       0x41 /tmp/ccFpkHbh.debug.temp.o
+                                        0x467 (size before relaxing)
+ .debug_str     0x0000000000006147       0x6e /tmp/ccMST4hg.debug.temp.o
+                                        0x480 (size before relaxing)
+ .debug_str     0x00000000000061b5       0x41 /tmp/ccuaNRch.debug.temp.o
+                                        0x464 (size before relaxing)
+ .debug_str     0x00000000000061f6      0x207 /tmp/ccMkk1Yi.debug.temp.o
+                                        0x650 (size before relaxing)
+ .debug_str     0x00000000000063fd       0x4f /tmp/ccR0DjDh.debug.temp.o
+                                        0x463 (size before relaxing)
+ .debug_str     0x000000000000644c      0x11a /tmp/ccNRLjIi.debug.temp.o
+                                        0x573 (size before relaxing)
+ .debug_str     0x0000000000006566      0x2d8 /tmp/cckBOC6j.debug.temp.o
+                                        0x822 (size before relaxing)
+ .debug_str     0x000000000000683e      0x2da /tmp/ccpmhYOf.debug.temp.o
+                                        0x7e4 (size before relaxing)
+ .debug_str     0x0000000000006b18      0x187 /tmp/ccpmyKOh.debug.temp.o
+                                        0x5e1 (size before relaxing)
+ .debug_str     0x0000000000006c9f       0xff /tmp/ccbJFudi.debug.temp.o
+                                       0x156f (size before relaxing)
+ .debug_str     0x0000000000006d9e      0x263 /tmp/cccrhT4i.debug.temp.o
+                                        0x59c (size before relaxing)
+ .debug_str     0x0000000000007001      0x23e /tmp/ccrYgKsj.debug.temp.o
+                                        0x70e (size before relaxing)
+ .debug_str     0x000000000000723f      0x30c /tmp/ccF0ez8g.debug.temp.o
+                                       0x17db (size before relaxing)
+ .debug_str     0x000000000000754b      0x3f2 /tmp/ccPmCkMh.debug.temp.o
+                                       0x1976 (size before relaxing)
+ .debug_str     0x000000000000793d       0x70 /tmp/ccEcmDOh.debug.temp.o
+                                       0x165a (size before relaxing)
+ .debug_str     0x00000000000079ad       0xbc /tmp/ccUksrnj.debug.temp.o
+                                       0x17da (size before relaxing)
+ .debug_str     0x0000000000007a69      0x10e /tmp/cceIpXWh.debug.temp.o
+                                       0x1571 (size before relaxing)
+ .debug_str     0x0000000000007b77      0x743 /tmp/cclogyRf.debug.temp.o
+                                       0x21d2 (size before relaxing)
+ .debug_str     0x00000000000082ba      0x71b /tmp/ccykBjWi.debug.temp.o
+                                       0x20b3 (size before relaxing)
+ .debug_str     0x00000000000089d5      0xa70 /tmp/ccocPQrj.debug.temp.o
+                                       0x35eb (size before relaxing)
+ .debug_str     0x0000000000009445       0xc6 /tmp/ccOEMaak.debug.temp.o
+                                       0x2452 (size before relaxing)
+ .debug_str     0x000000000000950b       0x89 /tmp/ccFm4xgj.debug.temp.o
+                                       0x23c4 (size before relaxing)
+ .debug_str     0x0000000000009594       0xde /tmp/ccvXoSYj.debug.temp.o
+                                        0x50a (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x1f20
+ .debug_frame   0x0000000000000000     0x1768 /tmp/SetupBrowser.dll.ia5Xmh.ltrans0.ltrans.o
+ .debug_frame   0x0000000000001768      0x7b8 /tmp/SetupBrowser.dll.ia5Xmh.ltrans1.ltrans.o

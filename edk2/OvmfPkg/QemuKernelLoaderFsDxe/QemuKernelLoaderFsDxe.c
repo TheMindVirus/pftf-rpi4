@@ -17,7 +17,6 @@
 #include <Guid/QemuKernelLoaderFsMedia.h>
 #include <Library/BaseLib.h>
 #include <Library/BaseMemoryLib.h>
-#include <Library/BlobVerifierLib.h>
 #include <Library/DebugLib.h>
 #include <Library/DevicePathLib.h>
 #include <Library/MemoryAllocationLib.h>
@@ -34,7 +33,6 @@
 typedef enum {
   KernelBlobTypeKernel,
   KernelBlobTypeInitrd,
-  KernelBlobTypeCommandLine,
   KernelBlobTypeMax
 } KERNEL_BLOB_TYPE;
 
@@ -60,11 +58,6 @@ STATIC KERNEL_BLOB mKernelBlob[KernelBlobTypeMax] = {
     L"initrd",
     {
       { QemuFwCfgItemInitrdSize,      QemuFwCfgItemInitrdData,      },
-    }
-  }, {
-    L"cmdline",
-    {
-      { QemuFwCfgItemCommandLineSize, QemuFwCfgItemCommandLineData, },
     }
   }
 };
@@ -955,7 +948,7 @@ FetchBlob (
   //
   // Read blob.
   //
-  Blob->Data = AllocatePool (Blob->Size);
+  Blob->Data = AllocatePages (EFI_SIZE_TO_PAGES ((UINTN)Blob->Size));
   if (Blob->Data == NULL) {
     DEBUG ((DEBUG_ERROR, "%a: failed to allocate %Ld bytes for \"%s\"\n",
       __FUNCTION__, (INT64)Blob->Size, Blob->Name));
@@ -1040,14 +1033,6 @@ QemuKernelLoaderFsDxeEntrypoint (
     if (EFI_ERROR (Status)) {
       goto FreeBlobs;
     }
-    Status = VerifyBlob (
-               CurrentBlob->Name,
-               CurrentBlob->Data,
-               CurrentBlob->Size
-               );
-    if (EFI_ERROR (Status)) {
-      goto FreeBlobs;
-    }
     mTotalBlobBytes += CurrentBlob->Size;
   }
   KernelBlob      = &mKernelBlob[KernelBlobTypeKernel];
@@ -1098,7 +1083,8 @@ FreeBlobs:
   while (BlobType > 0) {
     CurrentBlob = &mKernelBlob[--BlobType];
     if (CurrentBlob->Data != NULL) {
-      FreePool (CurrentBlob->Data);
+      FreePages (CurrentBlob->Data,
+        EFI_SIZE_TO_PAGES ((UINTN)CurrentBlob->Size));
       CurrentBlob->Size = 0;
       CurrentBlob->Data = NULL;
     }

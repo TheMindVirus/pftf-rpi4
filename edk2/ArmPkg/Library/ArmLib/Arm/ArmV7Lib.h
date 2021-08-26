@@ -6,8 +6,8 @@
 
 **/
 
-#ifndef ARM_V7_LIB_H_
-#define ARM_V7_LIB_H_
+#ifndef __ARM_V7_LIB_H__
+#define __ARM_V7_LIB_H__
 
 #define ID_MMFR0_SHARELVL_SHIFT       12
 #define ID_MMFR0_SHARELVL_MASK       0xf
@@ -64,5 +64,5 @@ ArmReadIdPfr1 (
   VOID
   );
 
-#endif // ARM_V7_LIB_H_
+#endif // __ARM_V7_LIB_H__
 

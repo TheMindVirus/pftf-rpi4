@@ -266,10 +266,14 @@ DriverInitialize (
   VOID       *Registration;
 
   //
-  // If there is no 64-bit PCI MMIO aperture, then 64-bit MMIO BARs have to be
-  // allocated under 4 GB unconditionally.
+  // If the PCI Bus driver is not supposed to allocate resources, then it makes
+  // no sense to install a protocol that influences the resource allocation.
   //
-  if (PcdGet64 (PcdPciMmio64Size) == 0) {
+  // Similarly, if there is no 64-bit PCI MMIO aperture, then 64-bit MMIO BARs
+  // have to be allocated under 4 GB unconditionally.
+  //
+  if (PcdGetBool (PcdPciDisableBusEnumeration) ||
+      PcdGet64 (PcdPciMmio64Size) == 0) {
     return EFI_UNSUPPORTED;
   }
 

@@ -1,0 +1,269 @@
+//
+//  VFR compiler version  2.01 (UEFI 2.4) Developer Build based on Revision: Unknown
+//
+extern unsigned char TlsAuthConfigDxeStrings[];
+extern EFI_GUID { 0xb0eae4f8, 0x9a04, 0x4c6d, { 0xa7, 0x48, 0x79, 0x3d, 0xaa, 0xf, 0x65, 0xdf }};
+typedef struct {
+  CHAR16 CertGuid[37];
+} TLS_AUTH_CONFIG_IFR_NVDATA;
+formset
+>00000000: 0E A7 F8 E4 EA B0 04 9A 6D 4C A7 48 79 3D AA 0F 65 DF 02 00 03 00 01 71 99 03 93 45 85 04 4B B4 5E 32 EB 83 26 04 0E 
+>00000027: 5C 06 00 00 00 00 
+>0000002D: 5C 06 00 00 01 00 
+  guid = { 0xb0eae4f8, 0x9a04, 0x4c6d, { 0xa7, 0x48, 0x79, 0x3d, 0xaa, 0xf, 0x65, 0xdf } },
+  title = STRING_TOKEN(0x0002),
+  help = STRING_TOKEN(0x0003),
+  varstore TLS_AUTH_CONFIG_IFR_NVDATA,
+>00000033: 24 31 F8 E4 EA B0 04 9A 6D 4C A7 48 79 3D AA 0F 65 DF 01 00 4A 00 54 4C 53 5F 41 55 54 48 5F 43 4F 4E 46 49 47 5F 49 46 52 5F 4E 56 44 41 54 41 00 
+    name = TLS_AUTH_CONFIG_IFR_NVDATA,
+    guid = { 0xb0eae4f8, 0x9a04, 0x4c6d, { 0xa7, 0x48, 0x79, 0x3d, 0xaa, 0xf, 0x65, 0xdf } };
+  form formid = 1,
+>00000064: 01 86 01 00 02 00 
+    title = STRING_TOKEN(0x0002);
+    subtitle text = STRING_TOKEN(0x0013);
+>0000006A: 02 87 13 00 00 00 00 
+>00000071: 29 02 
+    goto 2,
+>00000073: 0F 0F 04 00 05 00 00 10 00 00 FF FF 04 02 00 
+         prompt = STRING_TOKEN(0x0004),
+         help = STRING_TOKEN(0x0005),
+         flags = INTERACTIVE,
+         key = 0x1000;
+    subtitle text = STRING_TOKEN(0x0013);
+>00000082: 02 87 13 00 00 00 00 
+>00000089: 29 02 
+    grayoutif TRUE;
+>0000008B: 19 82 
+>0000008D: 46 02 
+    goto 3,
+>0000008F: 0F 0F 06 00 07 00 01 10 00 00 FF FF 04 03 00 
+         prompt = STRING_TOKEN(0x0006),
+         help = STRING_TOKEN(0x0007),
+         flags = INTERACTIVE,
+         key = 0x1001;
+    endif;
+>0000009E: 29 02 
+  endform;
+>000000A0: 29 02 
+  form formid = 2,
+>000000A2: 01 86 02 00 04 00 
+    title = STRING_TOKEN(0x0004);
+    subtitle text = STRING_TOKEN(0x0013);
+>000000A8: 02 87 13 00 00 00 00 
+>000000AF: 29 02 
+    goto 4,
+>000000B1: 0F 0F 08 00 09 00 02 10 00 00 FF FF 04 04 00 
+         prompt = STRING_TOKEN(0x0008),
+         help = STRING_TOKEN(0x0009),
+         flags = INTERACTIVE,
+         key = 0x1002;
+    subtitle text = STRING_TOKEN(0x0013);
+>000000C0: 02 87 13 00 00 00 00 
+>000000C7: 29 02 
+    goto 5,
+>000000C9: 0F 0F 0A 00 0B 00 03 10 00 00 FF FF 04 05 00 
+         prompt = STRING_TOKEN(0x000A),
+         help = STRING_TOKEN(0x000B),
+         flags = INTERACTIVE,
+         key = 0x1003;
+  endform;
+>000000D8: 29 02 
+  form formid = 3,
+>000000DA: 01 86 03 00 06 00 
+    title = STRING_TOKEN(0x0006);
+    subtitle text = STRING_TOKEN(0x0013);
+>000000E0: 02 87 13 00 00 00 00 
+>000000E7: 29 02 
+  endform;
+>000000E9: 29 02 
+  form formid = 4,
+>000000EB: 01 86 04 00 08 00 
+    title = STRING_TOKEN(0x0008);
+    subtitle text = STRING_TOKEN(0x0013);
+>000000F1: 02 87 13 00 00 00 00 
+>000000F8: 29 02 
+    goto 4,
+>000000FA: 0F 0F 0C 00 0C 00 04 10 00 00 FF FF 04 04 00 
+         prompt = STRING_TOKEN(0x000C),
+         help = STRING_TOKEN(0x000C),
+         flags = INTERACTIVE,
+         key = 0x1004;
+    subtitle text = STRING_TOKEN(0x0013);
+>00000109: 02 87 13 00 00 00 00 
+>00000110: 29 02 
+    label 4;
+>00000112: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 04 00 
+    label 0xffff;
+>00000127: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+    subtitle text = STRING_TOKEN(0x0013);
+>0000013C: 02 87 13 00 00 00 00 
+>00000143: 29 02 
+    string varid = TLS_AUTH_CONFIG_IFR_NVDATA.CertGuid,
+>00000145: 1C 90 0D 00 0E 00 05 10 01 00 00 00 04 24 24 00 
+            prompt = STRING_TOKEN(0x000D),
+            help = STRING_TOKEN(0x000E),
+            flags = INTERACTIVE,
+            key = 0x1005,
+            minsize = 36,
+            maxsize = 36,
+    endstring;
+>00000155: 29 02 
+    subtitle text = STRING_TOKEN(0x0013);
+>00000157: 02 87 13 00 00 00 00 
+>0000015E: 29 02 
+    subtitle text = STRING_TOKEN(0x0013);
+>00000160: 02 87 13 00 00 00 00 
+>00000167: 29 02 
+    goto 1,
+>00000169: 0F 0F 0F 00 0F 00 06 10 00 00 FF FF 04 01 00 
+         prompt = STRING_TOKEN(0x000F),
+         help = STRING_TOKEN(0x000F),
+         flags = INTERACTIVE,
+         key = 0x1006;
+    goto 1,
+>00000178: 0F 0F 10 00 10 00 07 10 00 00 FF FF 04 01 00 
+         prompt = STRING_TOKEN(0x0010),
+         help = STRING_TOKEN(0x0010),
+         flags = INTERACTIVE,
+         key = 0x1007;
+  endform;
+>00000187: 29 02 
+  form formid = 5,
+>00000189: 01 86 05 00 0A 00 
+    title = STRING_TOKEN(0x000A);
+    label 0x1101;
+>0000018F: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 01 11 
+    label 0xffff;
+>000001A4: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+    subtitle text = STRING_TOKEN(0x0013);
+>000001B9: 02 87 13 00 00 00 00 
+>000001C0: 29 02 
+  endform;
+>000001C2: 29 02 
+endformset;
+>000001C4: 29 02 
+
+//
+// All Opcode Record List 
+//
+>00000000: 0E A7 F8 E4 EA B0 04 9A 6D 4C A7 48 79 3D AA 0F 65 DF 02 00 03 00 01 71 99 03 93 45 85 04 4B B4 5E 32 EB 83 26 04 0E 
+>00000027: 5C 06 00 00 00 00 
+>0000002D: 5C 06 00 00 01 00 
+>00000033: 24 31 F8 E4 EA B0 04 9A 6D 4C A7 48 79 3D AA 0F 65 DF 01 00 4A 00 54 4C 53 5F 41 55 54 48 5F 43 4F 4E 46 49 47 5F 49 46 52 5F 4E 56 44 41 54 41 00 
+>00000064: 01 86 01 00 02 00 
+>0000006A: 02 87 13 00 00 00 00 
+>00000071: 29 02 
+>00000073: 0F 0F 04 00 05 00 00 10 00 00 FF FF 04 02 00 
+>00000082: 02 87 13 00 00 00 00 
+>00000089: 29 02 
+>0000008B: 19 82 
+>0000008D: 46 02 
+>0000008F: 0F 0F 06 00 07 00 01 10 00 00 FF FF 04 03 00 
+>0000009E: 29 02 
+>000000A0: 29 02 
+>000000A2: 01 86 02 00 04 00 
+>000000A8: 02 87 13 00 00 00 00 
+>000000AF: 29 02 
+>000000B1: 0F 0F 08 00 09 00 02 10 00 00 FF FF 04 04 00 
+>000000C0: 02 87 13 00 00 00 00 
+>000000C7: 29 02 
+>000000C9: 0F 0F 0A 00 0B 00 03 10 00 00 FF FF 04 05 00 
+>000000D8: 29 02 
+>000000DA: 01 86 03 00 06 00 
+>000000E0: 02 87 13 00 00 00 00 
+>000000E7: 29 02 
+>000000E9: 29 02 
+>000000EB: 01 86 04 00 08 00 
+>000000F1: 02 87 13 00 00 00 00 
+>000000F8: 29 02 
+>000000FA: 0F 0F 0C 00 0C 00 04 10 00 00 FF FF 04 04 00 
+>00000109: 02 87 13 00 00 00 00 
+>00000110: 29 02 
+>00000112: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 04 00 
+>00000127: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+>0000013C: 02 87 13 00 00 00 00 
+>00000143: 29 02 
+>00000145: 1C 90 0D 00 0E 00 05 10 01 00 00 00 04 24 24 00 
+>00000155: 29 02 
+>00000157: 02 87 13 00 00 00 00 
+>0000015E: 29 02 
+>00000160: 02 87 13 00 00 00 00 
+>00000167: 29 02 
+>00000169: 0F 0F 0F 00 0F 00 06 10 00 00 FF FF 04 01 00 
+>00000178: 0F 0F 10 00 10 00 07 10 00 00 FF FF 04 01 00 
+>00000187: 29 02 
+>00000189: 01 86 05 00 0A 00 
+>0000018F: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 01 11 
+>000001A4: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+>000001B9: 02 87 13 00 00 00 00 
+>000001C0: 29 02 
+>000001C2: 29 02 
+>000001C4: 29 02 
+
+Total Size of all record is 0x000001C6
+
+
+***************************************************************
+		mPackAlign = 8
+		struct TLS_AUTH_CONFIG_IFR_NVDATA : mAlign [2] mTotalSize [0x4a]
+
+		struct TLS_AUTH_CONFIG_IFR_NVDATA {
+			+00000000[00000000] CertGuid[37] <UINT16>
+		};
+---------------------------------------------------------------
+		struct EFI_HII_REF : mAlign [16] mTotalSize [0x16]
+
+		struct EFI_HII_REF {
+			+00000000[00000000] QuestionId <UINT16>
+			+00000002[00000002] FormId <UINT16>
+			+00000004[00000004] FormSetGuid <(null)>
+			+00000020[00000014] DevicePath <EFI_STRING_ID>
+		};
+---------------------------------------------------------------
+		struct EFI_HII_TIME : mAlign [1] mTotalSize [0x3]
+
+		struct EFI_HII_TIME {
+			+00000000[00000000] Hours <UINT8>
+			+00000001[00000001] Minutes <UINT8>
+			+00000002[00000002] Seconds <UINT8>
+		};
+---------------------------------------------------------------
+		struct EFI_STRING_ID : mAlign [2] mTotalSize [0x2]
+
+		struct EFI_STRING_ID {
+		};
+---------------------------------------------------------------
+		struct EFI_HII_DATE : mAlign [2] mTotalSize [0x4]
+
+		struct EFI_HII_DATE {
+			+00000000[00000000] Year <UINT16>
+			+00000002[00000002] Month <UINT8>
+			+00000003[00000003] Day <UINT8>
+		};
+---------------------------------------------------------------
+		struct BOOLEAN : mAlign [1] mTotalSize [0x1]
+
+		struct BOOLEAN {
+		};
+---------------------------------------------------------------
+		struct UINT8 : mAlign [1] mTotalSize [0x1]
+
+		struct UINT8 {
+		};
+---------------------------------------------------------------
+		struct UINT16 : mAlign [2] mTotalSize [0x2]
+
+		struct UINT16 {
+		};
+---------------------------------------------------------------
+		struct UINT32 : mAlign [4] mTotalSize [0x4]
+
+		struct UINT32 {
+		};
+---------------------------------------------------------------
+		struct UINT64 : mAlign [8] mTotalSize [0x8]
+
+		struct UINT64 {
+		};
+---------------------------------------------------------------
+***************************************************************

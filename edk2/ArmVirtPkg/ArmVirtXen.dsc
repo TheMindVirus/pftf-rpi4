@@ -25,8 +25,6 @@
 
 !include ArmVirtPkg/ArmVirt.dsc.inc
 
-!include MdePkg/MdeLibs.dsc.inc
-
 [LibraryClasses]
   SerialPortLib|OvmfPkg/Library/XenConsoleSerialPortLib/XenConsoleSerialPortLib.inf
   RealTimeClockLib|OvmfPkg/Library/XenRealTimeClockLib/XenRealTimeClockLib.inf

@@ -20,6 +20,7 @@
   IncompatiblePciDeviceSupport.c
 
 [Packages]
+  MdeModulePkg/MdeModulePkg.dec
   MdePkg/MdePkg.dec
   OvmfPkg/OvmfPkg.dec
 
@@ -35,6 +36,7 @@
   gEfiLegacyBiosProtocolGuid                   ## NOTIFY
 
 [Pcd]
+  gEfiMdeModulePkgTokenSpaceGuid.PcdPciDisableBusEnumeration ## CONSUMES
   gUefiOvmfPkgTokenSpaceGuid.PcdPciMmio64Size                ## CONSUMES
 
 [Depex]

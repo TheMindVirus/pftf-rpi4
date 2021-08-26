@@ -1,0 +1,1760 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                              (_ModuleEntryPoint)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib(BaseStackCheckGcc.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (__stack_chk_fail)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memcpy.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memcpy)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memset.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memset)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Ip6Dxe/Ip6Dxe/OUTPUT/Ip6Dxe.lib(AutoGen.obj)
+                              DriverEntryPoint.obj (symbol from plugin) (ProcessLibraryConstructorList)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Ip6Dxe/Ip6Dxe/OUTPUT/Ip6Dxe.lib(Ip6Driver.obj)
+                              AutoGen.obj (symbol from plugin) (Ip6DriverEntryPoint)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Ip6Dxe/Ip6Dxe/OUTPUT/Ip6Dxe.lib(ComponentName.obj)
+                              Ip6Driver.obj (symbol from plugin) (gIp6ComponentName)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Ip6Dxe/Ip6Dxe/OUTPUT/Ip6Dxe.lib(Ip6Nd.obj)
+                              Ip6Driver.obj (symbol from plugin) (Ip6UpdateReachableTime)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Ip6Dxe/Ip6Dxe/OUTPUT/Ip6Dxe.lib(Ip6Input.obj)
+                              Ip6Driver.obj (symbol from plugin) (Ip6CreateAssembleTable)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Ip6Dxe/Ip6Dxe/OUTPUT/Ip6Dxe.lib(Ip6ConfigImpl.obj)
+                              Ip6Nd.obj (symbol from plugin) (Ip6ConfigOnDhcp6Reply)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Ip6Dxe/Ip6Dxe/OUTPUT/Ip6Dxe.lib(Ip6Option.obj)
+                              Ip6Nd.obj (symbol from plugin) (Ip6IsNDOptionValid)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Ip6Dxe/Ip6Dxe/OUTPUT/Ip6Dxe.lib(Ip6Mld.obj)
+                              Ip6Input.obj (symbol from plugin) (Ip6FindMldEntry)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Ip6Dxe/Ip6Dxe/OUTPUT/Ip6Dxe.lib(Ip6Common.obj)
+                              Ip6ConfigImpl.obj (symbol from plugin) (Ip6BuildEfiAddressList)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Ip6Dxe/Ip6Dxe/OUTPUT/Ip6Dxe.lib(Ip6Route.obj)
+                              Ip6Nd.obj (symbol from plugin) (Ip6RouteCacheHash)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Ip6Dxe/Ip6Dxe/OUTPUT/Ip6Dxe.lib(Ip6If.obj)
+                              Ip6Nd.obj (symbol from plugin) (Ip6SetAddress)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Ip6Dxe/Ip6Dxe/OUTPUT/Ip6Dxe.lib(Ip6Output.obj)
+                              Ip6Nd.obj (symbol from plugin) (Ip6SysPacketSent)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Ip6Dxe/Ip6Dxe/OUTPUT/Ip6Dxe.lib(Ip6Icmp.obj)
+                              Ip6Input.obj (symbol from plugin) (Ip6IcmpHandle)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Ip6Dxe/Ip6Dxe/OUTPUT/Ip6Dxe.lib(Ip6ConfigNv.obj)
+                              Ip6ConfigImpl.obj (symbol from plugin) (Ip6ConfigFormUnload)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Ip6Dxe/Ip6Dxe/OUTPUT/Ip6Dxe.lib(Ip6Config.obj)
+                              Ip6ConfigNv.obj (symbol from plugin) (Ip6ConfigBin)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Ip6Dxe/Ip6Dxe/OUTPUT/Ip6Dxe.lib(Ip6Impl.obj)
+                              Ip6Input.obj (symbol from plugin) (Ip6FreeTxToken)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+                              Ip6ConfigNv.obj (symbol from plugin) (CopyGuid)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+                              Ip6Driver.obj (symbol from plugin) (ZeroMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMemWrapper.obj)
+                              Ip6Nd.obj (symbol from plugin) (CompareMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+                              Ip6Nd.obj (symbol from plugin) (CopyMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                              ZeroMemWrapper.obj (symbol from plugin) (InternalMemZeroMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCopyMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                              CompareMemWrapper.obj (symbol from plugin) (InternalMemCompareMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCompareGuid)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              Ip6Nd.obj (symbol from plugin) (SwapBytes32)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              Ip6Nd.obj (symbol from plugin) (SwapBytes16)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              Ip6If.obj (symbol from plugin) (RShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              Ip6If.obj (symbol from plugin) (MultU64x32)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              Ip6If.obj (symbol from plugin) (DivU64x32)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuDeadLoop)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LinkedList.obj)
+                              Ip6Driver.obj (symbol from plugin) (InitializeListHead)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              Ip6ConfigNv.obj (symbol from plugin) (StrLen)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              RShiftU64.obj (symbol from plugin) (InternalMathRShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuBreakpoint)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              String.obj (symbol from plugin) (StrDecimalToUintnS)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              SafeString.obj (symbol from plugin) (LShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiBootServicesTableLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              Ip6Driver.obj (symbol from plugin) (AllocatePool)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              ComponentName.obj (symbol from plugin) (UnicodeSPrint)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              PrintLib.obj (symbol from plugin) (BasePrintLibConvertValueToStringS)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiRuntimeServicesTableLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilities.obj)
+                              Ip6ConfigNv.obj (symbol from plugin) (SetDevicePathNodeLength)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilitiesDxeSmm.obj)
+                              DevicePathUtilities.obj (symbol from plugin) (DevicePathFromHandle)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(UefiDevicePathLib.obj)
+                              DevicePathUtilities.obj (symbol from plugin) (GetDevicePathSize)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathToText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertDeviceNodeToText)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathFromText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertTextToDeviceNode)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiDriverModel.obj)
+                              Ip6Driver.obj (symbol from plugin) (EfiLibInstallDriverBindingComponentName2)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(Console.obj)
+                              Ip6ConfigNv.obj (symbol from plugin) (CreatePopUp)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib(UefiHiiServicesLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiHiiServicesLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLib.obj)
+                              Ip6ConfigNv.obj (symbol from plugin) (HiiAddPackages)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiString.obj)
+                              Ip6ConfigNv.obj (symbol from plugin) (HiiSetString)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLanguage.obj)
+                              HiiString.obj (symbol from plugin) (HiiGetSupportedLanguages)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Library/DxeNetLib/DxeNetLib/OUTPUT/DxeNetLib.lib(DxeNetLib.obj)
+                              Ip6Nd.obj (symbol from plugin) (NetIp6IsValidUnicast)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Library/DxeNetLib/DxeNetLib/OUTPUT/DxeNetLib.lib(NetBuffer.obj)
+                              Ip6Nd.obj (symbol from plugin) (NetbufAlloc)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Library/DxeDpcLib/DxeDpcLib/OUTPUT/DxeDpcLib.lib(DpcLib.obj)
+                              AutoGen.obj (symbol from plugin) (DpcLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+                              DxeNetLib.obj (symbol from plugin) (DebugCodeEnabled)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem16Wrapper.obj)
+                              Console.obj (symbol from plugin) (SetMem16)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+                              DxeNetLib.obj (symbol from plugin) (SetMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+                              SetMemWrapper.obj (symbol from plugin) (SetMem64)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+                              DevicePathFromText.obj (symbol from plugin) (SwapBytes64)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              PrintLibInternal.obj (symbol from plugin) (DivU64x32Remainder)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+                              HiiLib.obj (symbol from plugin) (BitFieldRead32)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              PrintLibInternal.obj (symbol from plugin) (ReadUnaligned16)
+
+Discarded input sections
+
+ .text          0x0000000000000000       0x10 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .text          0x0000000000000000        0x0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .rodata._gUefiDriverRevision
+                0x0000000000000000        0x4 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .text.__memset
+                0x0000000000000000       0x1c /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/ccwVawKB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccwVawKB.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccfjPswF.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccfjPswF.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc1v4Y9C.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc1v4Y9C.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccwEvwjE.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccwEvwjE.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccSwoNDB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccSwoNDB.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccdaWxyC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccdaWxyC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc7K4N7C.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc7K4N7C.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccAuQfuF.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccAuQfuF.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccgBYYpD.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccgBYYpD.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccVsp6wB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccVsp6wB.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccIKbzfF.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccIKbzfF.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccR0k5rF.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccR0k5rF.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc228DzE.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc228DzE.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc9l3EYE.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc9l3EYE.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccNrhQUD.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccNrhQUD.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccVCWUsE.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccVCWUsE.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc1JyUAE.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc1JyUAE.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccNefBzB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccNefBzB.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccEsQn1C.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccEsQn1C.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccmCbzPB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccmCbzPB.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccPZMKXE.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPZMKXE.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cccXR8MD.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cccXR8MD.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccLcKEqB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccLcKEqB.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccypoHvC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccypoHvC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccjMIqAF.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccjMIqAF.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cckBV2uD.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cckBV2uD.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccNdJiMB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccNdJiMB.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccvdepaF.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccvdepaF.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccaTekMB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccaTekMB.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccAD6W7B.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccAD6W7B.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccxgp2nF.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccxgp2nF.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccxLqMDC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccxLqMDC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccK55raF.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccK55raF.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccv6wRlF.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccv6wRlF.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/cc3X8HsF.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/cc3X8HsF.debug.temp.o
+ .debug_line    0x0000000000000000      0x14c /tmp/cc3X8HsF.debug.temp.o
+ .debug_str     0x0000000000000000      0x467 /tmp/cc3X8HsF.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc3X8HsF.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc3X8HsF.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccOoXJkF.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccOoXJkF.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccEpJ6yE.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccEpJ6yE.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccV43yiF.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccV43yiF.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccGRZ6XE.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccGRZ6XE.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cctmatwD.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cctmatwD.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc1mbZPB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc1mbZPB.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccTqmYID.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccTqmYID.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccsFoRbF.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccsFoRbF.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccFTddYE.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccFTddYE.debug.temp.o
+ .debug_info    0x0000000000000000     0x45d4 /tmp/cc4kZ2ID.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x2b0 /tmp/cc4kZ2ID.debug.temp.o
+ .debug_line    0x0000000000000000      0x3d1 /tmp/cc4kZ2ID.debug.temp.o
+ .debug_str     0x0000000000000000     0x2f13 /tmp/cc4kZ2ID.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc4kZ2ID.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc4kZ2ID.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccmHXpjE.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccmHXpjE.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccTAJG9E.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccTAJG9E.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cctmd8yB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cctmd8yB.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccsikSfB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccsikSfB.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccTlP3HD.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccTlP3HD.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccZcBFYC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccZcBFYC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccQvaA2D.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccQvaA2D.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccMYI8cC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccMYI8cC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccDFbl6B.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccDFbl6B.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccSIl2AC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccSIl2AC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccbvPNSB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccbvPNSB.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc5npxcD.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc5npxcD.debug.temp.o
+ .debug_info    0x0000000000000000      0x1af /tmp/ccFKJUlB.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xc6 /tmp/ccFKJUlB.debug.temp.o
+ .debug_line    0x0000000000000000      0x174 /tmp/ccFKJUlB.debug.temp.o
+ .debug_str     0x0000000000000000      0x35e /tmp/ccFKJUlB.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccFKJUlB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccFKJUlB.debug.temp.o
+ .debug_info    0x0000000000000000      0x17a /tmp/ccmSlXRE.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccmSlXRE.debug.temp.o
+ .debug_line    0x0000000000000000      0x176 /tmp/ccmSlXRE.debug.temp.o
+ .debug_str     0x0000000000000000      0x35a /tmp/ccmSlXRE.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccmSlXRE.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccmSlXRE.debug.temp.o
+ .debug_info    0x0000000000000000      0x1c3 /tmp/ccXtlw8D.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccXtlw8D.debug.temp.o
+ .debug_line    0x0000000000000000      0x14e /tmp/ccXtlw8D.debug.temp.o
+ .debug_str     0x0000000000000000      0x45d /tmp/ccXtlw8D.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccXtlw8D.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXtlw8D.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccfUQmEE.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccfUQmEE.debug.temp.o
+ .debug_info    0x0000000000000000      0x89f /tmp/ccpRNugE.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xf9 /tmp/ccpRNugE.debug.temp.o
+ .debug_line    0x0000000000000000      0x14b /tmp/ccpRNugE.debug.temp.o
+ .debug_str     0x0000000000000000      0x650 /tmp/ccpRNugE.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccpRNugE.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccpRNugE.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccmt88rC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccmt88rC.debug.temp.o
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .text          0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+START GROUP
+LOAD /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+LOAD /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+LOAD /tmp/ccwVawKB.debug.temp.o
+LOAD /tmp/ccfjPswF.debug.temp.o
+LOAD /tmp/cc1v4Y9C.debug.temp.o
+LOAD /tmp/ccwEvwjE.debug.temp.o
+LOAD /tmp/ccSwoNDB.debug.temp.o
+LOAD /tmp/ccdaWxyC.debug.temp.o
+LOAD /tmp/cc7K4N7C.debug.temp.o
+LOAD /tmp/ccAuQfuF.debug.temp.o
+LOAD /tmp/ccgBYYpD.debug.temp.o
+LOAD /tmp/ccVsp6wB.debug.temp.o
+LOAD /tmp/ccIKbzfF.debug.temp.o
+LOAD /tmp/ccR0k5rF.debug.temp.o
+LOAD /tmp/cc228DzE.debug.temp.o
+LOAD /tmp/cc9l3EYE.debug.temp.o
+LOAD /tmp/ccNrhQUD.debug.temp.o
+LOAD /tmp/ccVCWUsE.debug.temp.o
+LOAD /tmp/cc1JyUAE.debug.temp.o
+LOAD /tmp/ccNefBzB.debug.temp.o
+LOAD /tmp/ccEsQn1C.debug.temp.o
+LOAD /tmp/ccmCbzPB.debug.temp.o
+LOAD /tmp/ccPZMKXE.debug.temp.o
+LOAD /tmp/cccXR8MD.debug.temp.o
+LOAD /tmp/ccLcKEqB.debug.temp.o
+LOAD /tmp/ccypoHvC.debug.temp.o
+LOAD /tmp/ccjMIqAF.debug.temp.o
+LOAD /tmp/cckBV2uD.debug.temp.o
+LOAD /tmp/ccNdJiMB.debug.temp.o
+LOAD /tmp/ccvdepaF.debug.temp.o
+LOAD /tmp/ccaTekMB.debug.temp.o
+LOAD /tmp/ccAD6W7B.debug.temp.o
+LOAD /tmp/ccxgp2nF.debug.temp.o
+LOAD /tmp/ccxLqMDC.debug.temp.o
+LOAD /tmp/ccK55raF.debug.temp.o
+LOAD /tmp/ccv6wRlF.debug.temp.o
+LOAD /tmp/cc3X8HsF.debug.temp.o
+LOAD /tmp/ccOoXJkF.debug.temp.o
+LOAD /tmp/ccEpJ6yE.debug.temp.o
+LOAD /tmp/ccV43yiF.debug.temp.o
+LOAD /tmp/ccGRZ6XE.debug.temp.o
+LOAD /tmp/cctmatwD.debug.temp.o
+LOAD /tmp/cc1mbZPB.debug.temp.o
+LOAD /tmp/ccTqmYID.debug.temp.o
+LOAD /tmp/ccsFoRbF.debug.temp.o
+LOAD /tmp/ccFTddYE.debug.temp.o
+LOAD /tmp/cc4kZ2ID.debug.temp.o
+LOAD /tmp/ccmHXpjE.debug.temp.o
+LOAD /tmp/ccTAJG9E.debug.temp.o
+LOAD /tmp/cctmd8yB.debug.temp.o
+LOAD /tmp/ccsikSfB.debug.temp.o
+LOAD /tmp/ccTlP3HD.debug.temp.o
+LOAD /tmp/ccZcBFYC.debug.temp.o
+LOAD /tmp/ccQvaA2D.debug.temp.o
+LOAD /tmp/ccMYI8cC.debug.temp.o
+LOAD /tmp/ccDFbl6B.debug.temp.o
+LOAD /tmp/ccSIl2AC.debug.temp.o
+LOAD /tmp/ccbvPNSB.debug.temp.o
+LOAD /tmp/cc5npxcD.debug.temp.o
+LOAD /tmp/ccFKJUlB.debug.temp.o
+LOAD /tmp/ccmSlXRE.debug.temp.o
+LOAD /tmp/ccXtlw8D.debug.temp.o
+LOAD /tmp/ccfUQmEE.debug.temp.o
+LOAD /tmp/ccpRNugE.debug.temp.o
+LOAD /tmp/ccmt88rC.debug.temp.o
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Ip6Dxe/Ip6Dxe/OUTPUT/Ip6Dxe.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Library/DxeNetLib/DxeNetLib/OUTPUT/DxeNetLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Library/DxeDpcLib/DxeDpcLib/OUTPUT/DxeDpcLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib
+END GROUP
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.gnu.version_d  0x0000000000000228        0x0
+ .gnu.version_d
+                0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version    0x0000000000000228        0x0
+ .gnu.version   0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version_r  0x0000000000000228        0x0
+ .gnu.version_r
+                0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.text           0x0000000000001000    0x14350
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.InternalAllocatePool.constprop.0
+                0x0000000000001000       0x6c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.GetNextNode.constprop.0
+                0x000000000000106c        0x8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.DivU64x32.constprop.0
+                0x0000000000001074        0xc /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.RShiftU64.constprop.0
+                0x0000000000001080        0x8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.MultU64x32.constprop.0
+                0x0000000000001088        0xc /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.WriteUnaligned32
+                0x0000000000001094       0x2c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.WriteUnaligned16
+                0x00000000000010c0       0x18 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.ReadUnaligned16
+                0x00000000000010d8       0x30 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.IsDevicePathValid.part.0.constprop.0
+                0x0000000000001108       0xb0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.ReadUnaligned32
+                0x00000000000011b8       0x28 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.DebugCodeEnabled
+                0x00000000000011e0        0x8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.UefiLibGetStringWidth.part.0
+                0x00000000000011e8       0x84 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.DevicePathFromHandle
+                0x000000000000126c       0x6c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.UefiDevicePathLibGetDevicePathSize
+                0x00000000000012d8       0x6c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.BasePrintLibValueToString
+                0x0000000000001344       0x2c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.BasePrintLibFillBuffer
+                0x0000000000001370       0x34 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.UnicodeValueToStringS.constprop.0
+                0x00000000000013a4       0xf4 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.StrnLenS
+                0x0000000000001498       0x3c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.InternalSafeStringNoStrOverlap
+                0x00000000000014d4       0x3c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.StrCatS  0x0000000000001510       0xc0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.StrnCpyS
+                0x00000000000015d0       0xe0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.StrCpyS  0x00000000000016b0       0x9c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.AsciiStrnCmp
+                0x000000000000174c       0x44 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.AsciiStrLen
+                0x0000000000001790       0x1c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.AsciiStrSize
+                0x00000000000017ac       0x18 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.InternalIsHexaDecimalDigitCharacter
+                0x00000000000017c4       0x34 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.StrHexToUintnS
+                0x00000000000017f8      0x188 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.StrHexToUintn
+                0x0000000000001980       0x48 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.StrStr   0x00000000000019c8       0x48 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.StrnCmp  0x0000000000001a10       0x44 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.InternalHiiCompareSubString
+                0x0000000000001a54       0x88 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.StrLen   0x0000000000001adc       0x1c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.StrSize  0x0000000000001af8       0x1c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.IsNull   0x0000000000001b14        0xc /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.GetFirstNode
+                0x0000000000001b20        0x8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.EfiIp6Poll
+                0x0000000000001b28       0x48 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000001b28                EfiIp6Poll
+ .text.Ip6CancelPacketFragments
+                0x0000000000001b70       0x24 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000001b70                Ip6CancelPacketFragments
+ .text.Ip6TokenExist
+                0x0000000000001b94       0x2c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.Ip6ConfigManualAddressNotify
+                0x0000000000001bc0        0xc /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.Ip6CommonPrefixLen
+                0x0000000000001bcc       0x5c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.Ip6OnFrameSent
+                0x0000000000001c28       0x24 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.Ip6OnFrameReceived
+                0x0000000000001c4c       0x24 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000001c4c                Ip6OnFrameReceived
+ .text.Ip6RecycleFrame
+                0x0000000000001c70       0x18 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.Ip6CancelInstanceFrame
+                0x0000000000001c88       0x10 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.Ip6IsValidProtocol
+                0x0000000000001c98       0x74 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.BasePrintLibSPrint.constprop.0
+                0x0000000000001d0c       0xa0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.BasePrintLibSPrintMarker.constprop.0
+                0x0000000000001dac      0xcd0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.CompareGuid.constprop.0
+                0x0000000000002a7c        0xc /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.SetMem16
+                0x0000000000002a88       0x14 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.CopyGuid
+                0x0000000000002a9c        0x8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.Ip6ConfigOnDhcp6SbInstalled
+                0x0000000000002aa4       0x24 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000002aa4                Ip6ConfigOnDhcp6SbInstalled
+ .text.EfiCreateProtocolNotifyEvent.constprop.0
+                0x0000000000002ac8       0xa4 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000002ac8                EfiCreateProtocolNotifyEvent.constprop.0
+ .text.NetDestroyLinkList.part.0.constprop.0
+                0x0000000000002b6c       0xc8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000002b6c                NetDestroyLinkList.part.0.constprop.0
+ .text.ReadUnaligned24
+                0x0000000000002c34       0x24 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000002c34                ReadUnaligned24
+ .text.DispatchDpc
+                0x0000000000002c58       0x14 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000002c58                DispatchDpc
+ .text.NetAddChecksum
+                0x0000000000002c6c       0x1c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000002c6c                NetAddChecksum
+ .text.NetblockChecksum
+                0x0000000000002c88       0x4c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000002c88                NetblockChecksum
+ .text.NetbufTrim
+                0x0000000000002cd4       0xd8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000002cd4                NetbufTrim
+ .text.NetbufBuildExt
+                0x0000000000002dac       0x70 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000002dac                NetbufBuildExt
+ .text.NetbufGetByte
+                0x0000000000002e1c       0x68 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000002e1c                NetbufGetByte
+ .text.NetbufAllocSpace
+                0x0000000000002e84      0x174 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000002e84                NetbufAllocSpace
+ .text.NetLibGetNicHandle
+                0x0000000000002ff8       0xb8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000002ff8                NetLibGetNicHandle
+ .text.NetLibGetVlanId
+                0x00000000000030b0       0x64 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x00000000000030b0                NetLibGetVlanId
+ .text.NetLibDestroyServiceChild
+                0x0000000000003114       0x84 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000003114                NetLibDestroyServiceChild
+ .text.NetLibCreateServiceChild
+                0x0000000000003198       0x84 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000003198                NetLibCreateServiceChild
+ .text.NetRandomInitSeed
+                0x000000000000321c       0xa8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000321c                NetRandomInitSeed
+ .text.NetIp6IsLinkLocalAddr
+                0x00000000000032c4       0x40 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x00000000000032c4                NetIp6IsLinkLocalAddr
+ .text.NetIp6IsUnspecifiedAddr
+                0x0000000000003304       0x28 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000003304                NetIp6IsUnspecifiedAddr
+ .text.NetIp6IsValidUnicast
+                0x000000000000332c       0x44 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000332c                NetIp6IsValidUnicast
+ .text.IsLanguageSupported
+                0x0000000000003370       0x7c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000003370                IsLanguageSupported
+ .text.LookupUnicodeString2
+                0x00000000000033ec       0xe4 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x00000000000033ec                LookupUnicodeString2
+ .text.EfiAcquireLockOrFail
+                0x00000000000034d0       0x54 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x00000000000034d0                EfiAcquireLockOrFail
+ .text.UnicodeSPrint
+                0x0000000000003524       0xb8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000003524                UnicodeSPrint
+ .text.FreePool
+                0x00000000000035dc       0x14 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x00000000000035dc                FreePool
+ .text.NetbufFreeVector.part.0
+                0x00000000000035f0       0x8c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.NetbufGetFragmentFree
+                0x000000000000367c       0x1c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.NetbufFree
+                0x0000000000003698       0x58 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000003698                NetbufFree
+ .text.Ip6SysPacketSent
+                0x00000000000036f0        0x4 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x00000000000036f0                Ip6SysPacketSent
+ .text.Ip6OnPacketSent
+                0x00000000000036f4       0x10 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.HiiFreeOpCodeHandle
+                0x0000000000003704       0x2c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.AllocatePool
+                0x0000000000003730        0x4 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000003730                AllocatePool
+ .text.HiiAllocateOpCodeHandle
+                0x0000000000003734       0x54 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.RemoveEntryList
+                0x0000000000003788       0x14 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000003788                RemoveEntryList
+ .text.NetMapClean
+                0x000000000000379c       0xa0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000379c                NetMapClean
+ .text.Ip6FreeAddressInfoList
+                0x000000000000383c       0x48 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.IsListEmpty
+                0x0000000000003884       0x10 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000003884                IsListEmpty
+ .text.NetMapIterate
+                0x0000000000003894       0x68 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000003894                NetMapIterate
+ .text.Ip6Cancel
+                0x00000000000038fc       0xb0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.EfiIp6Cancel
+                0x00000000000039ac       0x8c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x00000000000039ac                EfiIp6Cancel
+ .text.EfiIp6ConfigSetData
+                0x0000000000003a38      0x168 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000003a38                EfiIp6ConfigSetData
+ .text.NetListRemoveHead
+                0x0000000000003ba0       0x4c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.InsertTailList
+                0x0000000000003bec       0x18 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000003bec                InsertTailList
+ .text.InsertHeadList
+                0x0000000000003c04       0x14 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000003c04                InsertHeadList
+ .text.NetMapRemoveHead.constprop.0
+                0x0000000000003c18       0x3c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000003c18                NetMapRemoveHead.constprop.0
+ .text.NetMapInsertTail
+                0x0000000000003c54       0xb0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.EfiIp6Receive
+                0x0000000000003d04       0xf8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000003d04                EfiIp6Receive
+ .text.EfiIp6ConfigRegisterDataNotify
+                0x0000000000003dfc       0xe8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000003dfc                EfiIp6ConfigRegisterDataNotify
+ .text.Ip6FreeTxToken
+                0x0000000000003ee4       0xa8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000003ee4                Ip6FreeTxToken
+ .text.Ip6CancelRxTokens
+                0x0000000000003f8c       0x8c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.Ip6CancelRxTokens.stub
+                0x0000000000004018       0x10 linker stubs
+ .text.EfiIp6ConfigUnregisterDataNotify
+                0x0000000000005018       0xfc /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000005018                EfiIp6ConfigUnregisterDataNotify
+ .text.InitializeListHead
+                0x0000000000005114        0x8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000005114                InitializeListHead
+ .text.NetMapInit
+                0x000000000000511c       0x24 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000511c                NetMapInit
+ .text.SwapBytes16
+                0x0000000000005140        0x8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000005140                SwapBytes16
+ .text.NetbufChecksum
+                0x0000000000005148       0x98 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000005148                NetbufChecksum
+ .text.SwapBytes32
+                0x00000000000051e0       0x20 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x00000000000051e0                SwapBytes32
+ .text.CopyMem  0x0000000000005200       0x1c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000005200                CopyMem
+ .text.NetbufCopy
+                0x000000000000521c      0x158 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000521c                NetbufCopy
+ .text.NetLibGetMacAddress
+                0x0000000000005374      0x1cc /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.AllocateCopyPool
+                0x0000000000005540       0x3c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000005540                AllocateCopyPool
+ .text.AddUnicodeString2.part.0.constprop.0
+                0x000000000000557c      0x150 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000557c                AddUnicodeString2.part.0.constprop.0
+ .text.UefiDevicePathLibDuplicateDevicePath
+                0x00000000000056cc       0x28 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.Ip6ToStr
+                0x00000000000056f4      0x1a0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.Ip6FillFragmentHeader
+                0x0000000000005894      0x248 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.EfiIp6ConfigGetData
+                0x0000000000005adc       0xf8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000005adc                EfiIp6ConfigGetData
+ .text.Ip6ConfigSetStatefulAddrCallback
+                0x0000000000005bd4       0x94 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.Ip6ConfigParseDhcpReply
+                0x0000000000005c68      0x1e8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.Ip6ConfigOnDhcp6Reply
+                0x0000000000005e50        0x4 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000005e50                Ip6ConfigOnDhcp6Reply
+ .text.CompareMem
+                0x0000000000005e54       0x18 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000005e54                CompareMem
+ .text.NetIp6IsNetEqual
+                0x0000000000005e6c       0x88 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000005e6c                NetIp6IsNetEqual
+ .text.Ip6FindRouteEntry.constprop.0
+                0x0000000000005ef4       0x7c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000005ef4                Ip6FindRouteEntry.constprop.0
+ .text.Ip6DestroyChildEntryByAddr
+                0x0000000000005f70       0x5c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.Ip6ConfigSetDnsServer
+                0x0000000000005fcc      0x188 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000005fcc                Ip6ConfigSetDnsServer
+ .text.Ip6ConfigSetGateway
+                0x0000000000006154      0x1e0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000006154                Ip6ConfigSetGateway
+ .text.Ip6ManualAddrDadCallback
+                0x0000000000006334      0x18c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.ZeroMem  0x00000000000064c0        0xc /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x00000000000064c0                ZeroMem
+ .text.NetLibIp6ToStr.part.0.constprop.0
+                0x00000000000064cc      0x1f8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x00000000000064cc                NetLibIp6ToStr.part.0.constprop.0
+ .text.NetIp6PseudoHeadChecksum
+                0x00000000000066c4       0xb0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x00000000000066c4                NetIp6PseudoHeadChecksum
+ .text.InternalHiiGrowOpCodeHandle
+                0x0000000000006774       0xb4 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.HiiCreateGuidOpCode.constprop.0
+                0x0000000000006828       0x84 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.AllocateZeroPool
+                0x00000000000068ac       0x34 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x00000000000068ac                AllocateZeroPool
+ .text.Ip6CreateNeighborEntry.constprop.0
+                0x00000000000068e0       0xc0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x00000000000068e0                Ip6CreateNeighborEntry.constprop.0
+ .text.GetBestLanguage.constprop.0
+                0x00000000000069a0      0x174 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.NetLibGetMacString.constprop.0
+                0x0000000000006b14      0x14c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000006b14                NetLibGetMacString.constprop.0
+ .text.HiiAddPackages.constprop.0
+                0x0000000000006c60      0x1c0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.HiiConstructConfigHdr.constprop.0
+                0x0000000000006e20      0x204 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.HiiIsConfigHdrMatch.constprop.0
+                0x0000000000007024       0x84 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.Ip6FormRouteConfig
+                0x00000000000070a8       0x78 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.Ip6ConfigNvGetData.part.0.constprop.0
+                0x0000000000007120       0xf0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.InternalHiiBrowserCallback.constprop.0
+                0x0000000000007210      0x124 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.CreatePopUp.constprop.0
+                0x0000000000007334      0x494 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.NetbufAllocStruct
+                0x00000000000077c8       0xa8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.NetbufFromExt.constprop.0
+                0x0000000000007870      0x13c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000007870                NetbufFromExt.constprop.0
+ .text.Ip6OnFrameReceivedDpc
+                0x00000000000079ac      0x100 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.NetbufGetFragment
+                0x0000000000007aac      0x294 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000007aac                NetbufGetFragment
+ .text.NetbufAlloc
+                0x0000000000007d40       0x7c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000007d40                NetbufAlloc
+ .text.NetbufDuplicate.constprop.0
+                0x0000000000007dbc       0x84 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000007dbc                NetbufDuplicate.constprop.0
+ .text.HiiGetSupportedLanguages
+                0x0000000000007e40       0xc0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.HiiSetString.constprop.0
+                0x0000000000007f00      0x118 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.Ip6ConvertInterfaceInfoToString.part.0
+                0x0000000000008018      0x174 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.Ip6BuildNvAddressInfo
+                0x000000000000818c       0xe4 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.StrToIpv6Address
+                0x0000000000008270      0x2a4 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.Ip6FormExtractConfig
+                0x0000000000008514      0x330 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.Ip6ParseAddressListFromString
+                0x0000000000008844      0x18c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.Ip6ConvertAddressListToString
+                0x00000000000089d0      0x6bc /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.Ip6GetCurrentSetting
+                0x000000000000908c      0x1b8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.Ip6FormCallback
+                0x0000000000009244      0x6a0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.Ip6IsAnycast
+                0x00000000000098e4      0x150 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.Ip6ConfigFormUnload
+                0x0000000000009a34       0xc8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000009a34                Ip6ConfigFormUnload
+ .text.Ip6ConfigFormInit
+                0x0000000000009afc      0x4b0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000009afc                Ip6ConfigFormInit
+ .text.Ip6CancelFrames
+                0x0000000000009fac       0xc4 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000009fac                Ip6CancelFrames
+ .text.Ip6CancelTxTokens
+                0x000000000000a070       0x64 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.Ip6FreeLinkTxToken
+                0x000000000000a0d4       0x34 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000a0d4                Ip6FreeLinkTxToken
+ .text.Ip6OnFrameSentDpc
+                0x000000000000a108       0x3c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.Ip6BuildEfiRouteTable
+                0x000000000000a144      0x138 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000a144                Ip6BuildEfiRouteTable
+ .text.Ip6FindRouteCache
+                0x000000000000a27c       0xa0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000a27c                Ip6FindRouteCache
+ .text.Ip6FreeRouteCacheEntry
+                0x000000000000a31c       0x18 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000a31c                Ip6FreeRouteCacheEntry
+ .text.Ip6CreateRouteCacheEntry
+                0x000000000000a334       0x84 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000a334                Ip6CreateRouteCacheEntry
+ .text.Ip6FreeRouteEntry
+                0x000000000000a3b8       0x18 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000a3b8                Ip6FreeRouteEntry
+ .text.Ip6DelRoute
+                0x000000000000a3d0      0x13c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000a3d0                Ip6DelRoute
+ .text.Ip6CreateRouteEntry
+                0x000000000000a50c       0x78 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000a50c                Ip6CreateRouteEntry
+ .text.Ip6NtohHead
+                0x000000000000a584       0x30 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000a584                Ip6NtohHead
+ .text.Ip6GetMulticastMac
+                0x000000000000a5b4       0x78 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000a5b4                Ip6GetMulticastMac
+ .text.Ip6SendFrame
+                0x000000000000a62c      0x2b4 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.Ip6IsOneOfSetAddress
+                0x000000000000a8e0       0xd8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000a8e0                Ip6IsOneOfSetAddress
+ .text.Ip6IsValidAddress
+                0x000000000000a9b8       0x6c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.EfiIp6Neighbors
+                0x000000000000aa24      0x1e8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000aa24                EfiIp6Neighbors
+ .text.EfiIp6Routes
+                0x000000000000ac0c      0x1f8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000ac0c                EfiIp6Routes
+ .text.Ip6SetAddress
+                0x000000000000ae04      0x220 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000ae04                Ip6SetAddress
+ .text.Ip6CreateSNMulticastAddr
+                0x000000000000b024       0x48 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000b024                Ip6CreateSNMulticastAddr
+ .text.Ip6IsSNMulticastAddr
+                0x000000000000b06c       0x68 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000b06c                Ip6IsSNMulticastAddr
+ .text.Ip6BuildEfiAddressList
+                0x000000000000b0d4       0xdc /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000b0d4                Ip6BuildEfiAddressList
+ .text.EfiIp6GetModeData
+                0x000000000000b1b0      0x344 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000b1b0                EfiIp6GetModeData
+ .text.Ip6FindMldEntry
+                0x000000000000b4f4       0x58 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000b4f4                Ip6FindMldEntry
+ .text.Ip6CreateMldEntry
+                0x000000000000b54c       0x6c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000b54c                Ip6CreateMldEntry
+ .text.Ip6IsExtsValid
+                0x000000000000b5b8      0x3e0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000b5b8                Ip6IsExtsValid
+ .text.Ip6Output
+                0x000000000000b998      0x95c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000b998                Ip6Output
+ .text.Ip6SendIcmpError.constprop.0
+                0x000000000000c2f4      0x218 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000c2f4                Ip6SendIcmpError.constprop.0
+ .text.Ip6LeaveGroup
+                0x000000000000c50c      0x2b0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000c50c                Ip6LeaveGroup
+ .text.Ip6RemoveAddr
+                0x000000000000c7bc      0x18c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000c7bc                Ip6RemoveAddr
+ .text.Ip6SelectSourceAddress
+                0x000000000000c948      0x2a0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000c948                Ip6SelectSourceAddress
+ .text.EfiIp6Transmit
+                0x000000000000cbe8      0x3d8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000cbe8                EfiIp6Transmit
+ .text.Ip6CleanInterface
+                0x000000000000cfc0       0xf0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000cfc0                Ip6CleanInterface
+ .text.Ip6ConfigOnDhcp6Event
+                0x000000000000d0b0      0x1b0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000d0b0                Ip6ConfigOnDhcp6Event
+ .text.Ip6ConfigSetManualAddress
+                0x000000000000d260      0x524 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000d260                Ip6ConfigSetManualAddress
+ .text.Ip6Groups.part.0
+                0x000000000000d784      0x130 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .text.Ip6CleanProtocol
+                0x000000000000d8b4       0x88 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000d8b4                Ip6CleanProtocol
+ .text.EfiIp6Configure
+                0x000000000000d93c      0x378 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000d93c                EfiIp6Configure
+ .text.Ip6SendMldReport
+                0x000000000000dcb4      0x1d8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000dcb4                Ip6SendMldReport
+ .text.Ip6TimerTicking
+                0x000000000000de8c      0x2ec /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000de8c                Ip6TimerTicking
+ .text.Ip6JoinGroup
+                0x000000000000e178       0xfc /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000e178                Ip6JoinGroup
+ .text.EfiIp6Groups
+                0x000000000000e274      0x190 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000e274                EfiIp6Groups
+ .text.Ip6IsNDOptionValid
+                0x000000000000e404       0x84 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000e404                Ip6IsNDOptionValid
+ .text.Ip6ConfigDestroyDhcp6
+                0x000000000000e488       0x88 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000000e488                Ip6ConfigDestroyDhcp6
+ .text.Ip6ConfigSetDadXmits
+                0x000000000000e510       0x3c /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .text.Ip6ConfigSignalEvent
+                0x000000000000e54c       0x28 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+                0x000000000000e54c                Ip6ConfigSignalEvent
+ .text.Ip6DestroyChildEntryInHandleBuffer
+                0x000000000000e574       0x64 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .text.Ip6DriverBindingSupported
+                0x000000000000e5d8       0x30 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .text.IpSec2InstalledCallback
+                0x000000000000e608       0x70 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .text._DriverUnloadHandler
+                0x000000000000e678      0x1b8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .text.Ip6FindDADEntry
+                0x000000000000e830       0x9c /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .text.Ip6ConfigSetAltIfId
+                0x000000000000e8cc       0x4c /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .text.Ip6ConfigGetIfInfo
+                0x000000000000e918      0x128 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .text.Ip6ConfigReadConfigData
+                0x000000000000ea40      0x1e4 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .text.Ip6TrimPacket
+                0x000000000000ec24       0x90 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .text.Ip6IpSecFree
+                0x000000000000ecb4       0x40 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .text.Ip6SentPacketTicking
+                0x000000000000ecf4       0x58 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+                0x000000000000ecf4                Ip6SentPacketTicking
+ .text.Ip6WrapRxData
+                0x000000000000ed4c       0xd0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .text.Ip6OnRecyclePacket
+                0x000000000000ee1c       0x70 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .text.Ip6ComponentNameGetDriverName
+                0x000000000000ee8c       0x2c /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .text.UpdateName
+                0x000000000000eeb8      0x238 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .text.Ip6ComponentNameGetControllerName
+                0x000000000000f0f0      0x15c /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .text.Ip6ServiceBindingDestroyChild
+                0x000000000000f24c      0x1ec /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .text.Ip6ServiceBindingCreateChild
+                0x000000000000f438      0x1f4 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .text.Ip6ConfigWriteConfigData
+                0x000000000000f62c      0x148 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+                0x000000000000f62c                Ip6ConfigWriteConfigData
+ .text.Ip6ConfigStartStatefulAutoConfig
+                0x000000000000f774      0x228 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+                0x000000000000f774                Ip6ConfigStartStatefulAutoConfig
+ .text.Ip6IpSecProcessPacket.part.0
+                0x000000000000f99c      0x378 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+                0x000000000000f99c                Ip6IpSecProcessPacket.part.0
+ .text.Ip6InstanceDeliverPacket
+                0x000000000000fd14      0x178 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+                0x000000000000fd14                Ip6InstanceDeliverPacket
+ .text.Ip6Demultiplex
+                0x000000000000fe8c      0x3c0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .text.Ip6FreeAssembleEntry
+                0x000000000001024c       0x64 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+                0x000000000001024c                Ip6FreeAssembleEntry
+ .text.Ip6CleanAssembleTable
+                0x00000000000102b0       0x60 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+                0x00000000000102b0                Ip6CleanAssembleTable
+ .text.Ip6PreProcessPacket
+                0x0000000000010310      0x7d4 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .text.Ip6OnFreeFragments
+                0x0000000000010ae4        0x4 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .text.Ip6FindDefaultRouter
+                0x0000000000010ae8       0x58 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+                0x0000000000010ae8                Ip6FindDefaultRouter
+ .text.Ip6DestroyDefaultRouter
+                0x0000000000010b40       0x5c /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+                0x0000000000010b40                Ip6DestroyDefaultRouter
+ .text.Ip6CleanDefaultRouterList
+                0x0000000000010b9c       0x40 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+                0x0000000000010b9c                Ip6CleanDefaultRouterList
+ .text.Ip6FreeNeighborEntry
+                0x0000000000010bdc      0x16c /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+                0x0000000000010bdc                Ip6FreeNeighborEntry
+ .text.Ip6OnArpResolved
+                0x0000000000010d48      0x194 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+                0x0000000000010d48                Ip6OnArpResolved
+ .text.Ip6FindNeighborEntry
+                0x0000000000010edc       0x78 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+                0x0000000000010edc                Ip6FindNeighborEntry
+ .text.Ip6SendNeighborSolicit
+                0x0000000000010f54      0x200 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+                0x0000000000010f54                Ip6SendNeighborSolicit
+ .text.Ip6CreateDefaultRouter
+                0x0000000000011154       0xbc /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+                0x0000000000011154                Ip6CreateDefaultRouter
+ .text.Ip6FindPrefixListEntry
+                0x0000000000011210       0x84 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+                0x0000000000011210                Ip6FindPrefixListEntry
+ .text.Ip6DestroyPrefixListEntry
+                0x0000000000011294       0xd4 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+                0x0000000000011294                Ip6DestroyPrefixListEntry
+ .text.Ip6CleanPrefixListTable
+                0x0000000000011368       0x5c /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+                0x0000000000011368                Ip6CleanPrefixListTable
+ .text.Ip6CleanService
+                0x00000000000113c4      0x354 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .text.Ip6DriverBindingStop
+                0x0000000000011718      0x1a8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .text.Ip6DriverBindingStart
+                0x00000000000118c0      0xb54 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .text.Ip6CreatePrefixListEntry
+                0x0000000000012414      0x154 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+                0x0000000000012414                Ip6CreatePrefixListEntry
+ .text.Ip6OnDADFinished
+                0x0000000000012568      0x280 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+                0x0000000000012568                Ip6OnDADFinished
+ .text.Ip6ConfigSetPolicy
+                0x00000000000127e8      0x2f0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .text.Ip6AcceptFrame
+                0x0000000000012ad8     0x134c /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .text.Ip6NdFasterTimerTicking
+                0x0000000000013e24      0x62c /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .text.memcpy   0x0000000000014450       0x20 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+                0x0000000000014450                memcpy
+ .text.__stack_chk_fail
+                0x0000000000014470       0x18 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+                0x0000000000014470                __stack_chk_fail
+ .text._ModuleEntryPoint
+                0x0000000000014488      0x1bc /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+                0x0000000000014488                _ModuleEntryPoint
+ *fill*         0x0000000000014644        0xc 
+ .text          0x0000000000014650      0x200 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                0x0000000000014650                InternalMemSetMem16
+                0x000000000001465c                InternalMemSetMem32
+                0x0000000000014668                InternalMemSetMem64
+                0x0000000000014674                InternalMemZeroMem
+                0x000000000001467c                InternalMemSetMem
+ .text          0x0000000000014850      0x218 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                0x00000000000149bc                InternalMemCopyMem
+ *fill*         0x0000000000014a68       0x18 
+ .text          0x0000000000014a80       0xe0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                0x0000000000014a80                InternalMemCompareMem
+ .text          0x0000000000014b60       0x20 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                0x0000000000014b60                InternalMemCompareGuid
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.BasePrintLibSPrintMarker.constprop.0.str1.1
+                0x0000000000014b80       0x7b /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ *fill*         0x0000000000014bfb        0x1 
+ .rodata.BasePrintLibSPrintMarker.constprop.0
+                0x0000000000014bfc       0x5e /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .rodata.Ip6ToStr.str2.2
+                0x0000000000014c5a       0x1a /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                                         0x22 (size before relaxing)
+ .rodata.NetLibIp6ToStr.part.0.constprop.0.str2.2
+                0x0000000000014c74        0x6 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .rodata.HiiConstructConfigHdr.constprop.0.str2.2
+                0x0000000000014c7a       0x28 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .rodata.CreatePopUp.constprop.0.str2.2
+                0x0000000000014ca2        0x8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .rodata.HiiSetString.constprop.0.str1.1
+                0x0000000000014caa        0x7 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ *fill*         0x0000000000014cb1        0x1 
+ .rodata.Ip6ConvertInterfaceInfoToString.part.0.str2.2
+                0x0000000000014cb2       0x36 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                                         0x56 (size before relaxing)
+ .rodata.Ip6FormExtractConfig.str2.2
+                0x0000000000014ce8       0x40 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .rodata.Ip6ConvertAddressListToString.str2.2
+                0x0000000000014d28        0xc /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .rodata.Ip6FormCallback.str2.2
+                0x0000000000014d34       0xcc /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .rodata.Ip6FormCallback
+                0x0000000000014e00        0xe /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .rodata.Ip6ConfigFormInit.str1.1
+                0x0000000000014e0e        0x7 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                                          0x1 (size before relaxing)
+ .rodata.Ip6ConfigFormInit.str2.2
+                0x0000000000014e0e       0x40 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .rodata.mConfigHdrTemplate
+                0x0000000000014e4e       0x70 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .rodata.mEndOfPakageList
+                0x0000000000014ebe        0x4 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .rodata.mErrorString
+                0x0000000000014ec2      0x2b5 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .rodata.mHexStr
+                0x0000000000015177       0x10 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .rodata.mUefiDevicePathLibEndDevicePath
+                0x0000000000015187        0x4 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .rodata.mWarningString
+                0x000000000001518b       0x96 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ *fill*         0x0000000000015221        0x1 
+ .rodata.UpdateName.str2.2
+                0x0000000000015222       0x96 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .rodata.UpdateName.str1.1
+                0x00000000000152b8        0x4 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+                                          0x7 (size before relaxing)
+ .rodata.Ip6DriverBindingStart.str2.2
+                0x00000000000152bc        0xc /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .rodata.Ip6AcceptFrame
+                0x00000000000152c8       0x20 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .rodata.Ip6NdFasterTimerTicking
+                0x00000000000152e8        0xa /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .rodata.str1.1
+                0x00000000000152f2        0x7 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ *fill*         0x00000000000152f9        0x1 
+ .rodata.str2.2
+                0x00000000000152fa       0x36 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ *(.got .got.*)
+ .got           0x0000000000015330        0x8 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x0000000000015330                _GLOBAL_OFFSET_TABLE_
+ .got.plt       0x0000000000015338       0x18 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ *:AutoGen.obj(.data.g*Guid)
+
+.plt            0x0000000000015350        0x0
+ .plt           0x0000000000015350        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.data           0x0000000000016000     0x1550
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.ro   0x0000000000016000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data.Ip6ConfigBin
+                0x0000000000016000      0x262 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .data.Ip6DxeStrings
+                0x0000000000016262      0xf88 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ *fill*         0x00000000000171ea        0x2 
+ .data.gEfiCallerIdGuid
+                0x00000000000171ec       0x10 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .data.gEfiDevicePathProtocolGuid
+                0x00000000000171fc       0x10 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .data.gEfiDhcp6ProtocolGuid
+                0x000000000001720c       0x10 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000001720c                gEfiDhcp6ProtocolGuid
+ .data.gEfiDhcp6ServiceBindingProtocolGuid
+                0x000000000001721c       0x10 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000001721c                gEfiDhcp6ServiceBindingProtocolGuid
+ .data.gEfiFormBrowser2ProtocolGuid
+                0x000000000001722c       0x10 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .data.gEfiGlobalVariableGuid
+                0x000000000001723c       0x10 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .data.gEfiHiiConfigAccessProtocolGuid
+                0x000000000001724c       0x10 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .data.gEfiIfrTianoGuid
+                0x000000000001725c       0x10 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .data.gEfiManagedNetworkProtocolGuid
+                0x000000000001726c       0x10 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000001726c                gEfiManagedNetworkProtocolGuid
+ .data.gEfiManagedNetworkServiceBindingProtocolGuid
+                0x000000000001727c       0x10 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000001727c                gEfiManagedNetworkServiceBindingProtocolGuid
+ .data.gEfiSimpleNetworkProtocolGuid
+                0x000000000001728c       0x10 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .data.gIp6ConfigNvDataGuid
+                0x000000000001729c       0x10 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .data.mIp6ConfigStorageName
+                0x00000000000172ac       0x2c /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .data.mIp6SupportedIcmp
+                0x00000000000172d8       0x2e /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ *fill*         0x0000000000017306        0x2 
+ .data.__stack_chk_guard
+                0x0000000000017308        0x8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+                0x0000000000017308                __stack_chk_guard
+ .data.gEfiComponentName2ProtocolGuid
+                0x0000000000017310       0x10 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .data.gEfiComponentNameProtocolGuid
+                0x0000000000017320       0x10 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .data.gEfiDpcProtocolGuid
+                0x0000000000017330       0x10 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .data.gEfiDriverBindingProtocolGuid
+                0x0000000000017340       0x10 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .data.gEfiHiiConfigRoutingProtocolGuid
+                0x0000000000017350       0x10 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .data.gEfiHiiDatabaseProtocolGuid
+                0x0000000000017360       0x10 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .data.gEfiHiiFontProtocolGuid
+                0x0000000000017370       0x10 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .data.gEfiHiiImageProtocolGuid
+                0x0000000000017380       0x10 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .data.gEfiHiiStringProtocolGuid
+                0x0000000000017390       0x10 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .data.gEfiIp6ConfigProtocolGuid
+                0x00000000000173a0       0x10 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .data.gEfiIp6ProtocolGuid
+                0x00000000000173b0       0x10 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .data.gEfiIp6ServiceBindingProtocolGuid
+                0x00000000000173c0       0x10 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .data.gEfiIpSec2ProtocolGuid
+                0x00000000000173d0       0x10 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .data.gEfiLoadedImageProtocolGuid
+                0x00000000000173e0       0x10 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .data.gIp6ComponentName
+                0x00000000000173f0       0x18 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .data.gIp6ComponentName2
+                0x0000000000017408       0x18 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .data.gIp6DriverBinding
+                0x0000000000017420       0x30 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .data.mEfiIp6ProtocolTemplete
+                0x0000000000017450       0x48 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .data.mIp6ConfigInstanceList
+                0x0000000000017498       0x10 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .data.mIp6DriverNameTable
+                0x00000000000174a8       0x20 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ *(.bss .bss.*)
+ .bss.gBS       0x00000000000174c8        0x8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x00000000000174c8                gBS
+ .bss.gHiiConfigRouting
+                0x00000000000174d0        0x8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x00000000000174d0                gHiiConfigRouting
+ .bss.gHiiDatabase
+                0x00000000000174d8        0x8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x00000000000174d8                gHiiDatabase
+ .bss.gHiiString
+                0x00000000000174e0        0x8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x00000000000174e0                gHiiString
+ .bss.gIp6ControllerNameTable
+                0x00000000000174e8        0x8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x00000000000174e8                gIp6ControllerNameTable
+ .bss.gRT       0x00000000000174f0        0x8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x00000000000174f0                gRT
+ .bss.gST       0x00000000000174f8        0x8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x00000000000174f8                gST
+ .bss.mDpc      0x0000000000017500        0x8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000017500                mDpc
+ .bss.mIp6Id    0x0000000000017508        0x4 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000017508                mIp6Id
+ .bss.mIpSec2Installed
+                0x000000000001750c        0x1 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x000000000001750c                mIpSec2Installed
+ *fill*         0x000000000001750d        0x3 
+ .bss.mUefiFormBrowser2
+                0x0000000000017510        0x8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .bss.mZeroMacAddress
+                0x0000000000017518       0x20 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                0x0000000000017518                mZeroMacAddress
+ .bss.gHiiFont  0x0000000000017538        0x8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .bss.gHiiImage
+                0x0000000000017540        0x8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .bss.mIpSec    0x0000000000017548        0x8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+
+.dynbss         0x0000000000017550        0x0
+ .dynbss        0x0000000000017550        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.eh_frame
+ *(.eh_frame)
+
+.rela           0x0000000000017550      0x210
+ *(.rela .rela.*)
+ .rela.got      0x0000000000017550        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.plt      0x0000000000017550        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.bss      0x0000000000017550        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.rel.ro
+                0x0000000000017550        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.ifunc    0x0000000000017550        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.gIp6ComponentName
+                0x0000000000017550       0x48 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.gIp6ComponentName2
+                0x0000000000017598       0x48 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.gIp6DriverBinding
+                0x00000000000175e0       0x48 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.mEfiIp6ProtocolTemplete
+                0x0000000000017628       0xd8 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.mIp6ConfigInstanceList
+                0x0000000000017700       0x30 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.mIp6DriverNameTable
+                0x0000000000017730       0x30 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.hii
+ *(.hii)
+
+.build-id       0x0000000000017760       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000017760       0x24 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+ *(COMMON)
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+OUTPUT(/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/NetworkPkg/Ip6Dxe/Ip6Dxe/DEBUG/Ip6Dxe.dll elf64-littleaarch64)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000    0xa0d28
+ .debug_info    0x0000000000000000    0x10d6e /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .debug_info    0x0000000000010d6e     0x8c30 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .debug_info    0x000000000001999e     0x1a57 /tmp/ccwVawKB.debug.temp.o
+                0x000000000001999e                DriverEntryPoint.c.0bb94e37
+ .debug_info    0x000000000001b3f5      0x17b /tmp/ccfjPswF.debug.temp.o
+                0x000000000001b3f5                BaseStackCheckGcc.c.3fb9ce64
+ .debug_info    0x000000000001b570      0x1d7 /tmp/cc1v4Y9C.debug.temp.o
+                0x000000000001b570                memcpy.c.79986cd0
+ .debug_info    0x000000000001b747      0x188 /tmp/ccwEvwjE.debug.temp.o
+                0x000000000001b747                memset.c.02de5c04
+ .debug_info    0x000000000001b8cf     0x1ebb /tmp/ccSwoNDB.debug.temp.o
+                0x000000000001b8cf                AutoGen.c.56e6d2e7
+ .debug_info    0x000000000001d78a     0x5dcc /tmp/ccdaWxyC.debug.temp.o
+                0x000000000001d78a                Ip6Driver.c.2fdeb0e4
+ .debug_info    0x0000000000023556     0x3b39 /tmp/cc7K4N7C.debug.temp.o
+                0x0000000000023556                ComponentName.c.f1be7df4
+ .debug_info    0x000000000002708f     0x6fc3 /tmp/ccAuQfuF.debug.temp.o
+                0x000000000002708f                Ip6Nd.c.60cd488b
+ .debug_info    0x000000000002e052     0x650a /tmp/ccgBYYpD.debug.temp.o
+                0x000000000002e052                Ip6Input.c.05caeb63
+ .debug_info    0x000000000003455c     0x69af /tmp/ccVsp6wB.debug.temp.o
+                0x000000000003455c                Ip6ConfigImpl.c.315d7d5c
+ .debug_info    0x000000000003af0b     0x5c72 /tmp/ccIKbzfF.debug.temp.o
+                0x000000000003af0b                Ip6Option.c.5c990c54
+ .debug_info    0x0000000000040b7d     0x5e61 /tmp/ccR0k5rF.debug.temp.o
+                0x0000000000040b7d                Ip6Mld.c.052317af
+ .debug_info    0x00000000000469de     0x5d28 /tmp/cc228DzE.debug.temp.o
+                0x00000000000469de                Ip6Common.c.139d4d05
+ .debug_info    0x000000000004c706     0x55b4 /tmp/cc9l3EYE.debug.temp.o
+                0x000000000004c706                Ip6Route.c.362415d3
+ .debug_info    0x0000000000051cba     0x6112 /tmp/ccNrhQUD.debug.temp.o
+                0x0000000000051cba                Ip6If.c.6a149720
+ .debug_info    0x0000000000057dcc     0x6265 /tmp/ccVCWUsE.debug.temp.o
+                0x0000000000057dcc                Ip6Output.c.f0338d21
+ .debug_info    0x000000000005e031     0x568c /tmp/cc1JyUAE.debug.temp.o
+                0x000000000005e031                Ip6Icmp.c.561cf513
+ .debug_info    0x00000000000636bd     0x5c9d /tmp/ccNefBzB.debug.temp.o
+                0x00000000000636bd                Ip6ConfigNv.c.7436c653
+ .debug_info    0x000000000006935a      0x476 /tmp/ccEsQn1C.debug.temp.o
+                0x000000000006935a                Ip6Config.c.44f2bf6f
+ .debug_info    0x00000000000697d0     0x61a6 /tmp/ccmCbzPB.debug.temp.o
+                0x00000000000697d0                Ip6Impl.c.8771a21a
+ .debug_info    0x000000000006f976      0x21d /tmp/ccPZMKXE.debug.temp.o
+                0x000000000006f976                MemLibGuid.c.89fba256
+ .debug_info    0x000000000006fb93      0x16e /tmp/cccXR8MD.debug.temp.o
+                0x000000000006fb93                ZeroMemWrapper.c.da3b248e
+ .debug_info    0x000000000006fd01      0x19b /tmp/ccLcKEqB.debug.temp.o
+                0x000000000006fd01                CompareMemWrapper.c.df2c23b5
+ .debug_info    0x000000000006fe9c      0x185 /tmp/ccypoHvC.debug.temp.o
+                0x000000000006fe9c                CopyMemWrapper.c.4760c160
+ .debug_info    0x0000000000070021      0x1db /tmp/ccjMIqAF.debug.temp.o
+                0x0000000000070021                SwapBytes32.c.be579274
+ .debug_info    0x00000000000701fc      0x1c3 /tmp/cckBV2uD.debug.temp.o
+                0x00000000000701fc                SwapBytes16.c.d38f1a4a
+ .debug_info    0x00000000000703bf      0x1db /tmp/ccNdJiMB.debug.temp.o
+                0x00000000000703bf                RShiftU64.c.b1baacba
+ .debug_info    0x000000000007059a      0x1db /tmp/ccvdepaF.debug.temp.o
+                0x000000000007059a                MultU64x32.c.37505239
+ .debug_info    0x0000000000070775      0x1cf /tmp/ccaTekMB.debug.temp.o
+                0x0000000000070775                DivU64x32.c.1f026665
+ .debug_info    0x0000000000070944      0x1d0 /tmp/ccAD6W7B.debug.temp.o
+                0x0000000000070944                CpuDeadLoop.c.755e7c7b
+ .debug_info    0x0000000000070b14      0x428 /tmp/ccxgp2nF.debug.temp.o
+                0x0000000000070b14                LinkedList.c.7e1d43c9
+ .debug_info    0x0000000000070f3c      0x7f3 /tmp/ccxLqMDC.debug.temp.o
+                0x0000000000070f3c                String.c.76785ee4
+ .debug_info    0x000000000007172f      0x43c /tmp/ccK55raF.debug.temp.o
+                0x000000000007172f                Math64.c.fba6cbb7
+ .debug_info    0x0000000000071b6b      0xdc8 /tmp/ccv6wRlF.debug.temp.o
+                0x0000000000071b6b                SafeString.c.d93472dc
+ .debug_info    0x0000000000072933     0x18e1 /tmp/ccOoXJkF.debug.temp.o
+                0x0000000000072933                UefiBootServicesTableLib.c.1b9b5282
+ .debug_info    0x0000000000074214     0x1de0 /tmp/ccEpJ6yE.debug.temp.o
+                0x0000000000074214                MemoryAllocationLib.c.7e75fabe
+ .debug_info    0x0000000000075ff4      0x683 /tmp/ccV43yiF.debug.temp.o
+                0x0000000000075ff4                PrintLib.c.9d1836b5
+ .debug_info    0x0000000000076677      0x79a /tmp/ccGRZ6XE.debug.temp.o
+                0x0000000000076677                PrintLibInternal.c.11bf8ed5
+ .debug_info    0x0000000000076e11     0x18b2 /tmp/cctmatwD.debug.temp.o
+                0x0000000000076e11                UefiRuntimeServicesTableLib.c.76abd5a8
+ .debug_info    0x00000000000786c3     0x1d7d /tmp/cc1mbZPB.debug.temp.o
+                0x00000000000786c3                DevicePathUtilities.c.1a32a0df
+ .debug_info    0x000000000007a440     0x1953 /tmp/ccTqmYID.debug.temp.o
+                0x000000000007a440                DevicePathUtilitiesDxeSmm.c.cb9de9d5
+ .debug_info    0x000000000007bd93     0x1afe /tmp/ccsFoRbF.debug.temp.o
+                0x000000000007bd93                UefiDevicePathLib.c.0e9646b4
+ .debug_info    0x000000000007d891     0x3d60 /tmp/ccFTddYE.debug.temp.o
+                0x000000000007d891                DevicePathToText.c.b542a65c
+ .debug_info    0x00000000000815f1     0x22ef /tmp/ccmHXpjE.debug.temp.o
+                0x00000000000815f1                UefiDriverModel.c.e5153137
+ .debug_info    0x00000000000838e0     0x1cda /tmp/ccTAJG9E.debug.temp.o
+                0x00000000000838e0                Console.c.9f111946
+ .debug_info    0x00000000000855ba     0x27ac /tmp/cctmd8yB.debug.temp.o
+                0x00000000000855ba                UefiLib.c.c9f50ead
+ .debug_info    0x0000000000087d66     0x294e /tmp/ccsikSfB.debug.temp.o
+                0x0000000000087d66                UefiHiiServicesLib.c.793cbe6e
+ .debug_info    0x000000000008a6b4     0x50c1 /tmp/ccTlP3HD.debug.temp.o
+                0x000000000008a6b4                HiiLib.c.4aac6cd1
+ .debug_info    0x000000000008f775     0x2b6a /tmp/ccZcBFYC.debug.temp.o
+                0x000000000008f775                HiiString.c.65ac83c6
+ .debug_info    0x00000000000922df     0x2a1b /tmp/ccQvaA2D.debug.temp.o
+                0x00000000000922df                HiiLanguage.c.e626a2c6
+ .debug_info    0x0000000000094cfa     0x7175 /tmp/ccMYI8cC.debug.temp.o
+                0x0000000000094cfa                DxeNetLib.c.711fcd1b
+ .debug_info    0x000000000009be6f     0x2b4a /tmp/ccDFbl6B.debug.temp.o
+                0x000000000009be6f                NetBuffer.c.82ca9a5d
+ .debug_info    0x000000000009e9b9     0x19e4 /tmp/ccSIl2AC.debug.temp.o
+                0x000000000009e9b9                DpcLib.c.5ac85afc
+ .debug_info    0x00000000000a039d      0x2ef /tmp/ccbvPNSB.debug.temp.o
+                0x00000000000a039d                DebugLib.c.be4a5591
+ .debug_info    0x00000000000a068c      0x17a /tmp/cc5npxcD.debug.temp.o
+                0x00000000000a068c                SetMem16Wrapper.c.b8a3956a
+ .debug_info    0x00000000000a0806      0x1e5 /tmp/ccfUQmEE.debug.temp.o
+                0x00000000000a0806                DivU64x32Remainder.c.f5241791
+ .debug_info    0x00000000000a09eb      0x33d /tmp/ccmt88rC.debug.temp.o
+                0x00000000000a09eb                Unaligned.c.b480fc72
+
+.debug_abbrev   0x0000000000000000     0x7394
+ .debug_abbrev  0x0000000000000000      0x33e /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .debug_abbrev  0x000000000000033e      0x242 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .debug_abbrev  0x0000000000000580      0x1e9 /tmp/ccwVawKB.debug.temp.o
+ .debug_abbrev  0x0000000000000769       0xc7 /tmp/ccfjPswF.debug.temp.o
+ .debug_abbrev  0x0000000000000830       0xee /tmp/cc1v4Y9C.debug.temp.o
+ .debug_abbrev  0x000000000000091e       0xc0 /tmp/ccwEvwjE.debug.temp.o
+ .debug_abbrev  0x00000000000009de      0x234 /tmp/ccSwoNDB.debug.temp.o
+ .debug_abbrev  0x0000000000000c12      0x341 /tmp/ccdaWxyC.debug.temp.o
+ .debug_abbrev  0x0000000000000f53      0x2e2 /tmp/cc7K4N7C.debug.temp.o
+ .debug_abbrev  0x0000000000001235      0x34d /tmp/ccAuQfuF.debug.temp.o
+ .debug_abbrev  0x0000000000001582      0x36c /tmp/ccgBYYpD.debug.temp.o
+ .debug_abbrev  0x00000000000018ee      0x36b /tmp/ccVsp6wB.debug.temp.o
+ .debug_abbrev  0x0000000000001c59      0x2fd /tmp/ccIKbzfF.debug.temp.o
+ .debug_abbrev  0x0000000000001f56      0x32c /tmp/ccR0k5rF.debug.temp.o
+ .debug_abbrev  0x0000000000002282      0x31b /tmp/cc228DzE.debug.temp.o
+ .debug_abbrev  0x000000000000259d      0x341 /tmp/cc9l3EYE.debug.temp.o
+ .debug_abbrev  0x00000000000028de      0x32f /tmp/ccNrhQUD.debug.temp.o
+ .debug_abbrev  0x0000000000002c0d      0x339 /tmp/ccVCWUsE.debug.temp.o
+ .debug_abbrev  0x0000000000002f46      0x367 /tmp/cc1JyUAE.debug.temp.o
+ .debug_abbrev  0x00000000000032ad      0x35d /tmp/ccNefBzB.debug.temp.o
+ .debug_abbrev  0x000000000000360a       0xb5 /tmp/ccEsQn1C.debug.temp.o
+ .debug_abbrev  0x00000000000036bf      0x375 /tmp/ccmCbzPB.debug.temp.o
+ .debug_abbrev  0x0000000000003a34       0xce /tmp/ccPZMKXE.debug.temp.o
+ .debug_abbrev  0x0000000000003b02       0xb1 /tmp/cccXR8MD.debug.temp.o
+ .debug_abbrev  0x0000000000003bb3       0xb1 /tmp/ccLcKEqB.debug.temp.o
+ .debug_abbrev  0x0000000000003c64       0xb8 /tmp/ccypoHvC.debug.temp.o
+ .debug_abbrev  0x0000000000003d1c       0xc0 /tmp/ccjMIqAF.debug.temp.o
+ .debug_abbrev  0x0000000000003ddc       0xb1 /tmp/cckBV2uD.debug.temp.o
+ .debug_abbrev  0x0000000000003e8d       0xb1 /tmp/ccNdJiMB.debug.temp.o
+ .debug_abbrev  0x0000000000003f3e       0xc0 /tmp/ccvdepaF.debug.temp.o
+ .debug_abbrev  0x0000000000003ffe       0xb1 /tmp/ccaTekMB.debug.temp.o
+ .debug_abbrev  0x00000000000040af       0xb6 /tmp/ccAD6W7B.debug.temp.o
+ .debug_abbrev  0x0000000000004165      0x139 /tmp/ccxgp2nF.debug.temp.o
+ .debug_abbrev  0x000000000000429e      0x126 /tmp/ccxLqMDC.debug.temp.o
+ .debug_abbrev  0x00000000000043c4       0xf9 /tmp/ccK55raF.debug.temp.o
+ .debug_abbrev  0x00000000000044bd      0x12d /tmp/ccv6wRlF.debug.temp.o
+ .debug_abbrev  0x00000000000045ea      0x1dd /tmp/ccOoXJkF.debug.temp.o
+ .debug_abbrev  0x00000000000047c7      0x242 /tmp/ccEpJ6yE.debug.temp.o
+ .debug_abbrev  0x0000000000004a09      0x150 /tmp/ccV43yiF.debug.temp.o
+ .debug_abbrev  0x0000000000004b59      0x161 /tmp/ccGRZ6XE.debug.temp.o
+ .debug_abbrev  0x0000000000004cba      0x1c3 /tmp/cctmatwD.debug.temp.o
+ .debug_abbrev  0x0000000000004e7d      0x240 /tmp/cc1mbZPB.debug.temp.o
+ .debug_abbrev  0x00000000000050bd      0x1d4 /tmp/ccTqmYID.debug.temp.o
+ .debug_abbrev  0x0000000000005291      0x1fe /tmp/ccsFoRbF.debug.temp.o
+ .debug_abbrev  0x000000000000548f      0x2ca /tmp/ccFTddYE.debug.temp.o
+ .debug_abbrev  0x0000000000005759      0x21c /tmp/ccmHXpjE.debug.temp.o
+ .debug_abbrev  0x0000000000005975      0x276 /tmp/ccTAJG9E.debug.temp.o
+ .debug_abbrev  0x0000000000005beb      0x267 /tmp/cctmd8yB.debug.temp.o
+ .debug_abbrev  0x0000000000005e52      0x216 /tmp/ccsikSfB.debug.temp.o
+ .debug_abbrev  0x0000000000006068      0x315 /tmp/ccTlP3HD.debug.temp.o
+ .debug_abbrev  0x000000000000637d      0x249 /tmp/ccZcBFYC.debug.temp.o
+ .debug_abbrev  0x00000000000065c6      0x209 /tmp/ccQvaA2D.debug.temp.o
+ .debug_abbrev  0x00000000000067cf      0x37e /tmp/ccMYI8cC.debug.temp.o
+ .debug_abbrev  0x0000000000006b4d      0x2ec /tmp/ccDFbl6B.debug.temp.o
+ .debug_abbrev  0x0000000000006e39      0x20d /tmp/ccSIl2AC.debug.temp.o
+ .debug_abbrev  0x0000000000007046      0x121 /tmp/ccbvPNSB.debug.temp.o
+ .debug_abbrev  0x0000000000007167       0xb1 /tmp/cc5npxcD.debug.temp.o
+ .debug_abbrev  0x0000000000007218       0xb3 /tmp/ccfUQmEE.debug.temp.o
+ .debug_abbrev  0x00000000000072cb       0xc9 /tmp/ccmt88rC.debug.temp.o
+
+.debug_loc      0x0000000000000000    0x3662d
+ .debug_loc     0x0000000000000000    0x27d1d /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .debug_loc     0x0000000000027d1d     0xe910 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+
+.debug_aranges  0x0000000000000000     0x1030
+ .debug_aranges
+                0x0000000000000000      0xcd0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .debug_aranges
+                0x0000000000000cd0      0x360 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+
+.debug_ranges   0x0000000000000000     0x5410
+ .debug_ranges  0x0000000000000000     0x3bb0 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000003bb0     0x1860 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+
+.debug_line     0x0000000000000000    0x1beca
+ .debug_line    0x0000000000000000     0xac9d /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .debug_line    0x000000000000ac9d     0x532c /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+ .debug_line    0x000000000000ffc9      0x349 /tmp/ccwVawKB.debug.temp.o
+ .debug_line    0x0000000000010312      0x172 /tmp/ccfjPswF.debug.temp.o
+ .debug_line    0x0000000000010484      0x173 /tmp/cc1v4Y9C.debug.temp.o
+ .debug_line    0x00000000000105f7      0x173 /tmp/ccwEvwjE.debug.temp.o
+ .debug_line    0x000000000001076a      0x2e0 /tmp/ccSwoNDB.debug.temp.o
+ .debug_line    0x0000000000010a4a      0x632 /tmp/ccdaWxyC.debug.temp.o
+ .debug_line    0x000000000001107c      0x590 /tmp/cc7K4N7C.debug.temp.o
+ .debug_line    0x000000000001160c      0x63d /tmp/ccAuQfuF.debug.temp.o
+ .debug_line    0x0000000000011c49      0x635 /tmp/ccgBYYpD.debug.temp.o
+ .debug_line    0x000000000001227e      0x636 /tmp/ccVsp6wB.debug.temp.o
+ .debug_line    0x00000000000128b4      0x641 /tmp/ccIKbzfF.debug.temp.o
+ .debug_line    0x0000000000012ef5      0x624 /tmp/ccR0k5rF.debug.temp.o
+ .debug_line    0x0000000000013519      0x627 /tmp/cc228DzE.debug.temp.o
+ .debug_line    0x0000000000013b40      0x626 /tmp/cc9l3EYE.debug.temp.o
+ .debug_line    0x0000000000014166      0x62e /tmp/ccNrhQUD.debug.temp.o
+ .debug_line    0x0000000000014794      0x632 /tmp/ccVCWUsE.debug.temp.o
+ .debug_line    0x0000000000014dc6      0x630 /tmp/cc1JyUAE.debug.temp.o
+ .debug_line    0x00000000000153f6      0x638 /tmp/ccNefBzB.debug.temp.o
+ .debug_line    0x0000000000015a2e      0x253 /tmp/ccEsQn1C.debug.temp.o
+ .debug_line    0x0000000000015c81      0x625 /tmp/ccmCbzPB.debug.temp.o
+ .debug_line    0x00000000000162a6      0x175 /tmp/ccPZMKXE.debug.temp.o
+ .debug_line    0x000000000001641b      0x175 /tmp/cccXR8MD.debug.temp.o
+ .debug_line    0x0000000000016590      0x178 /tmp/ccLcKEqB.debug.temp.o
+ .debug_line    0x0000000000016708      0x175 /tmp/ccypoHvC.debug.temp.o
+ .debug_line    0x000000000001687d      0x14e /tmp/ccjMIqAF.debug.temp.o
+ .debug_line    0x00000000000169cb      0x14e /tmp/cckBV2uD.debug.temp.o
+ .debug_line    0x0000000000016b19      0x14c /tmp/ccNdJiMB.debug.temp.o
+ .debug_line    0x0000000000016c65      0x14d /tmp/ccvdepaF.debug.temp.o
+ .debug_line    0x0000000000016db2      0x14c /tmp/ccaTekMB.debug.temp.o
+ .debug_line    0x0000000000016efe      0x14e /tmp/ccAD6W7B.debug.temp.o
+ .debug_line    0x000000000001704c      0x14d /tmp/ccxgp2nF.debug.temp.o
+ .debug_line    0x0000000000017199      0x149 /tmp/ccxLqMDC.debug.temp.o
+ .debug_line    0x00000000000172e2      0x149 /tmp/ccK55raF.debug.temp.o
+ .debug_line    0x000000000001742b      0x14d /tmp/ccv6wRlF.debug.temp.o
+ .debug_line    0x0000000000017578      0x332 /tmp/ccOoXJkF.debug.temp.o
+ .debug_line    0x00000000000178aa      0x32a /tmp/ccEpJ6yE.debug.temp.o
+ .debug_line    0x0000000000017bd4      0x168 /tmp/ccV43yiF.debug.temp.o
+ .debug_line    0x0000000000017d3c      0x186 /tmp/ccGRZ6XE.debug.temp.o
+ .debug_line    0x0000000000017ec2      0x2eb /tmp/cctmatwD.debug.temp.o
+ .debug_line    0x00000000000181ad      0x36e /tmp/cc1mbZPB.debug.temp.o
+ .debug_line    0x000000000001851b      0x374 /tmp/ccTqmYID.debug.temp.o
+ .debug_line    0x000000000001888f      0x36c /tmp/ccsFoRbF.debug.temp.o
+ .debug_line    0x0000000000018bfb      0x3dd /tmp/ccFTddYE.debug.temp.o
+ .debug_line    0x0000000000018fd8      0x3e2 /tmp/ccmHXpjE.debug.temp.o
+ .debug_line    0x00000000000193ba      0x34c /tmp/ccTAJG9E.debug.temp.o
+ .debug_line    0x0000000000019706      0x36f /tmp/cctmd8yB.debug.temp.o
+ .debug_line    0x0000000000019a75      0x402 /tmp/ccsikSfB.debug.temp.o
+ .debug_line    0x0000000000019e77      0x517 /tmp/ccTlP3HD.debug.temp.o
+ .debug_line    0x000000000001a38e      0x4fa /tmp/ccZcBFYC.debug.temp.o
+ .debug_line    0x000000000001a888      0x4fc /tmp/ccQvaA2D.debug.temp.o
+ .debug_line    0x000000000001ad84      0x509 /tmp/ccMYI8cC.debug.temp.o
+ .debug_line    0x000000000001b28d      0x35e /tmp/ccDFbl6B.debug.temp.o
+ .debug_line    0x000000000001b5eb      0x350 /tmp/ccSIl2AC.debug.temp.o
+ .debug_line    0x000000000001b93b      0x174 /tmp/ccbvPNSB.debug.temp.o
+ .debug_line    0x000000000001baaf      0x176 /tmp/cc5npxcD.debug.temp.o
+ .debug_line    0x000000000001bc25      0x155 /tmp/ccfUQmEE.debug.temp.o
+ .debug_line    0x000000000001bd7a      0x150 /tmp/ccmt88rC.debug.temp.o
+
+.debug_str      0x0000000000000000     0xf059
+ .debug_str     0x0000000000000000      0x3e6 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+                                        0x40c (size before relaxing)
+ .debug_str     0x00000000000003e6       0xe1 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o
+                                        0x3d2 (size before relaxing)
+ .debug_str     0x00000000000004c7     0x14de /tmp/ccwVawKB.debug.temp.o
+                                       0x1692 (size before relaxing)
+ .debug_str     0x00000000000019a5      0x27c /tmp/ccfjPswF.debug.temp.o
+                                        0x3a9 (size before relaxing)
+ .debug_str     0x0000000000001c21       0xd5 /tmp/cc1v4Y9C.debug.temp.o
+                                        0x350 (size before relaxing)
+ .debug_str     0x0000000000001cf6       0x55 /tmp/ccwEvwjE.debug.temp.o
+                                        0x344 (size before relaxing)
+ .debug_str     0x0000000000001d4b      0x80f /tmp/ccSwoNDB.debug.temp.o
+                                       0x1d7c (size before relaxing)
+ .debug_str     0x000000000000255a     0x2873 /tmp/ccdaWxyC.debug.temp.o
+                                       0x4acb (size before relaxing)
+ .debug_str     0x0000000000004dcd       0xb6 /tmp/cc7K4N7C.debug.temp.o
+                                       0x33ee (size before relaxing)
+ .debug_str     0x0000000000004e83      0x70d /tmp/ccAuQfuF.debug.temp.o
+                                       0x518a (size before relaxing)
+ .debug_str     0x0000000000005590      0x442 /tmp/ccgBYYpD.debug.temp.o
+                                       0x4b2a (size before relaxing)
+ .debug_str     0x00000000000059d2      0x4bf /tmp/ccVsp6wB.debug.temp.o
+                                       0x4f74 (size before relaxing)
+ .debug_str     0x0000000000005e91      0x183 /tmp/ccIKbzfF.debug.temp.o
+                                       0x4939 (size before relaxing)
+ .debug_str     0x0000000000006014      0x182 /tmp/ccR0k5rF.debug.temp.o
+                                       0x4820 (size before relaxing)
+ .debug_str     0x0000000000006196      0x1e5 /tmp/cc228DzE.debug.temp.o
+                                       0x4885 (size before relaxing)
+ .debug_str     0x000000000000637b      0x184 /tmp/cc9l3EYE.debug.temp.o
+                                       0x4380 (size before relaxing)
+ .debug_str     0x00000000000064ff      0x155 /tmp/ccNrhQUD.debug.temp.o
+                                       0x4b96 (size before relaxing)
+ .debug_str     0x0000000000006654      0x1dc /tmp/ccVCWUsE.debug.temp.o
+                                       0x4a8b (size before relaxing)
+ .debug_str     0x0000000000006830      0x106 /tmp/cc1JyUAE.debug.temp.o
+                                       0x4616 (size before relaxing)
+ .debug_str     0x0000000000006936      0x506 /tmp/ccNefBzB.debug.temp.o
+                                       0x47a5 (size before relaxing)
+ .debug_str     0x0000000000006e3c       0x64 /tmp/ccEsQn1C.debug.temp.o
+                                        0x9a4 (size before relaxing)
+ .debug_str     0x0000000000006ea0      0x224 /tmp/ccmCbzPB.debug.temp.o
+                                       0x496b (size before relaxing)
+ .debug_str     0x00000000000070c4      0x10e /tmp/ccPZMKXE.debug.temp.o
+                                        0x3af (size before relaxing)
+ .debug_str     0x00000000000071d2       0x52 /tmp/cccXR8MD.debug.temp.o
+                                        0x352 (size before relaxing)
+ .debug_str     0x0000000000007224       0x74 /tmp/ccLcKEqB.debug.temp.o
+                                        0x37b (size before relaxing)
+ .debug_str     0x0000000000007298       0x52 /tmp/ccypoHvC.debug.temp.o
+                                        0x36a (size before relaxing)
+ .debug_str     0x00000000000072ea       0xbe /tmp/ccjMIqAF.debug.temp.o
+                                        0x474 (size before relaxing)
+ .debug_str     0x00000000000073a8       0x4f /tmp/cckBV2uD.debug.temp.o
+                                        0x45d (size before relaxing)
+ .debug_str     0x00000000000073f7       0x49 /tmp/ccNdJiMB.debug.temp.o
+                                        0x467 (size before relaxing)
+ .debug_str     0x0000000000007440       0x4f /tmp/ccvdepaF.debug.temp.o
+                                        0x474 (size before relaxing)
+ .debug_str     0x000000000000748f       0x52 /tmp/ccaTekMB.debug.temp.o
+                                        0x464 (size before relaxing)
+ .debug_str     0x00000000000074e1       0x4f /tmp/ccAD6W7B.debug.temp.o
+                                        0x463 (size before relaxing)
+ .debug_str     0x0000000000007530      0x11a /tmp/ccxgp2nF.debug.temp.o
+                                        0x573 (size before relaxing)
+ .debug_str     0x000000000000764a      0x2d5 /tmp/ccxLqMDC.debug.temp.o
+                                        0x7e4 (size before relaxing)
+ .debug_str     0x000000000000791f      0x170 /tmp/ccK55raF.debug.temp.o
+                                        0x5e1 (size before relaxing)
+ .debug_str     0x0000000000007a8f      0x2b2 /tmp/ccv6wRlF.debug.temp.o
+                                        0x822 (size before relaxing)
+ .debug_str     0x0000000000007d41       0xff /tmp/ccOoXJkF.debug.temp.o
+                                       0x156f (size before relaxing)
+ .debug_str     0x0000000000007e40      0x30c /tmp/ccEpJ6yE.debug.temp.o
+                                       0x17db (size before relaxing)
+ .debug_str     0x000000000000814c      0x256 /tmp/ccV43yiF.debug.temp.o
+                                        0x59c (size before relaxing)
+ .debug_str     0x00000000000083a2      0x23e /tmp/ccGRZ6XE.debug.temp.o
+                                        0x70e (size before relaxing)
+ .debug_str     0x00000000000085e0      0x10e /tmp/cctmatwD.debug.temp.o
+                                       0x1571 (size before relaxing)
+ .debug_str     0x00000000000086ee      0x3ef /tmp/cc1mbZPB.debug.temp.o
+                                       0x1976 (size before relaxing)
+ .debug_str     0x0000000000008add       0x70 /tmp/ccTqmYID.debug.temp.o
+                                       0x165a (size before relaxing)
+ .debug_str     0x0000000000008b4d       0xbc /tmp/ccsFoRbF.debug.temp.o
+                                       0x17da (size before relaxing)
+ .debug_str     0x0000000000008c09      0xd79 /tmp/ccFTddYE.debug.temp.o
+                                       0x25ee (size before relaxing)
+ .debug_str     0x0000000000009982      0x639 /tmp/ccmHXpjE.debug.temp.o
+                                       0x20a1 (size before relaxing)
+ .debug_str     0x0000000000009fbb      0x128 /tmp/ccTAJG9E.debug.temp.o
+                                       0x1a3c (size before relaxing)
+ .debug_str     0x000000000000a0e3      0x5b9 /tmp/cctmd8yB.debug.temp.o
+                                       0x20b3 (size before relaxing)
+ .debug_str     0x000000000000a69c       0xed /tmp/ccsikSfB.debug.temp.o
+                                       0x21d2 (size before relaxing)
+ .debug_str     0x000000000000a789      0xdf5 /tmp/ccTlP3HD.debug.temp.o
+                                       0x35eb (size before relaxing)
+ .debug_str     0x000000000000b57e       0xd1 /tmp/ccZcBFYC.debug.temp.o
+                                       0x2452 (size before relaxing)
+ .debug_str     0x000000000000b64f       0x89 /tmp/ccQvaA2D.debug.temp.o
+                                       0x23c4 (size before relaxing)
+ .debug_str     0x000000000000b6d8     0x31b1 /tmp/ccMYI8cC.debug.temp.o
+                                       0x57b2 (size before relaxing)
+ .debug_str     0x000000000000e889      0x39a /tmp/ccDFbl6B.debug.temp.o
+                                       0x1ce7 (size before relaxing)
+ .debug_str     0x000000000000ec23      0x13a /tmp/ccSIl2AC.debug.temp.o
+                                       0x15f3 (size before relaxing)
+ .debug_str     0x000000000000ed5d      0x16e /tmp/ccbvPNSB.debug.temp.o
+                                        0x480 (size before relaxing)
+ .debug_str     0x000000000000eecb       0x53 /tmp/cc5npxcD.debug.temp.o
+                                        0x35a (size before relaxing)
+ .debug_str     0x000000000000ef1e       0x5d /tmp/ccfUQmEE.debug.temp.o
+                                        0x480 (size before relaxing)
+ .debug_str     0x000000000000ef7b       0xde /tmp/ccmt88rC.debug.temp.o
+                                        0x50a (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x31d0
+ .debug_frame   0x0000000000000000     0x25d8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans0.ltrans.o
+ .debug_frame   0x00000000000025d8      0xbf8 /tmp/Ip6Dxe.dll.jdXwpE.ltrans1.ltrans.o

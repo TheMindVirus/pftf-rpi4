@@ -291,15 +291,10 @@ XhcPeiCreateTransferTrb (
       TrbStart->TrbCtrSetup.IOC           = 1;
       TrbStart->TrbCtrSetup.IDT           = 1;
       TrbStart->TrbCtrSetup.Type          = TRB_TYPE_SETUP_STAGE;
-      if (Urb->DataLen > 0) {
-        if (Urb->Ep.Direction == EfiUsbDataIn) {
-          TrbStart->TrbCtrSetup.TRT = 3;
-        } else if (Urb->Ep.Direction == EfiUsbDataOut) {
-          TrbStart->TrbCtrSetup.TRT = 2;
-        } else {
-          DEBUG ((DEBUG_ERROR, "XhcPeiCreateTransferTrb: Direction sholud be IN or OUT when Data exists!\n"));
-          ASSERT (FALSE);
-        }
+      if (Urb->Ep.Direction == EfiUsbDataIn) {
+        TrbStart->TrbCtrSetup.TRT = 3;
+      } else if (Urb->Ep.Direction == EfiUsbDataOut) {
+        TrbStart->TrbCtrSetup.TRT = 2;
       } else {
         TrbStart->TrbCtrSetup.TRT = 0;
       }

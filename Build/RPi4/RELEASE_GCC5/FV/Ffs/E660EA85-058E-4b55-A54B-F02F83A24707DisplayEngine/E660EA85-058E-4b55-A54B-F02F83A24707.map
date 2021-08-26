@@ -1,0 +1,1311 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                              (_ModuleEntryPoint)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib(BaseStackCheckGcc.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (__stack_chk_fail)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memcpy.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memcpy)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memset.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memset)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Universal/DisplayEngineDxe/DisplayEngineDxe/OUTPUT/DisplayEngine.lib(AutoGen.obj)
+                              DriverEntryPoint.obj (symbol from plugin) (ProcessLibraryConstructorList)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Universal/DisplayEngineDxe/DisplayEngineDxe/OUTPUT/DisplayEngine.lib(FormDisplay.obj)
+                              AutoGen.obj (symbol from plugin) (InitializeDisplayEngine)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Universal/DisplayEngineDxe/DisplayEngineDxe/OUTPUT/DisplayEngine.lib(ProcessOptions.obj)
+                              FormDisplay.obj (symbol from plugin) (EmptyEventProcess)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Universal/DisplayEngineDxe/DisplayEngineDxe/OUTPUT/DisplayEngine.lib(InputHandler.obj)
+                              ProcessOptions.obj (symbol from plugin) (ReadString)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Universal/DisplayEngineDxe/DisplayEngineDxe/OUTPUT/DisplayEngine.lib(Popup.obj)
+                              FormDisplay.obj (symbol from plugin) (CreatePopup)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              InputHandler.obj (symbol from plugin) (MultU64x32)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              InputHandler.obj (symbol from plugin) (LShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuDeadLoop)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LinkedList.obj)
+                              FormDisplay.obj (symbol from plugin) (InitializeListHead)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              FormDisplay.obj (symbol from plugin) (StrCpyS)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              FormDisplay.obj (symbol from plugin) (StrLen)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              LShiftU64.obj (symbol from plugin) (InternalMathLShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuBreakpoint)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              SafeString.obj (symbol from plugin) (SwapBytes32)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              SafeString.obj (symbol from plugin) (SwapBytes16)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              SafeString.obj (symbol from plugin) (RShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              SafeString.obj (symbol from plugin) (DivU64x32)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+                              FormDisplay.obj (symbol from plugin) (CopyGuid)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+                              FormDisplay.obj (symbol from plugin) (ZeroMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMemWrapper.obj)
+                              FormDisplay.obj (symbol from plugin) (CompareMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+                              FormDisplay.obj (symbol from plugin) (CopyMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                              ZeroMemWrapper.obj (symbol from plugin) (InternalMemZeroMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCopyMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                              CompareMemWrapper.obj (symbol from plugin) (InternalMemCompareMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCompareGuid)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiBootServicesTableLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              FormDisplay.obj (symbol from plugin) (AllocateZeroPool)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              ProcessOptions.obj (symbol from plugin) (UnicodeSPrint)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              PrintLib.obj (symbol from plugin) (BasePrintLibConvertValueToStringS)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiRuntimeServicesTableLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib(UefiHiiServicesLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiHiiServicesLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLib.obj)
+                              FormDisplay.obj (symbol from plugin) (HiiAddPackages)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiString.obj)
+                              ProcessOptions.obj (symbol from plugin) (HiiSetString)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLanguage.obj)
+                              HiiString.obj (symbol from plugin) (HiiGetSupportedLanguages)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/CustomizedDisplayLib/CustomizedDisplayLib/OUTPUT/CustomizedDisplayLib.lib(CustomizedDisplayLib.obj)
+                              FormDisplay.obj (symbol from plugin) (FormExitPolicy)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/CustomizedDisplayLib/CustomizedDisplayLib/OUTPUT/CustomizedDisplayLib.lib(CustomizedDisplayLibInternal.obj)
+                              CustomizedDisplayLib.obj (symbol from plugin) (ProcessExternedOpcode)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/CustomizedDisplayLib/CustomizedDisplayLib/OUTPUT/CustomizedDisplayLib.lib(AutoGen.obj)
+                              CustomizedDisplayLib.obj (symbol from plugin) (CustomizedDisplayLibStrings)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              PrintLibInternal.obj (symbol from plugin) (DivU64x32Remainder)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+                              HiiLib.obj (symbol from plugin) (BitFieldRead32)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              PrintLibInternal.obj (symbol from plugin) (ReadUnaligned16)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilities.obj)
+                              UefiLib.obj (symbol from plugin) (DevicePathType)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilitiesDxeSmm.obj)
+                              HiiLib.obj (symbol from plugin) (DevicePathFromHandle)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(UefiDevicePathLib.obj)
+                              HiiLib.obj (symbol from plugin) (GetDevicePathSize)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathToText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertDeviceNodeToText)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathFromText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertTextToDeviceNode)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+                              DevicePathFromText.obj (symbol from plugin) (SwapBytes64)
+
+Discarded input sections
+
+ .text          0x0000000000000000       0x10 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .text          0x0000000000000000        0x0 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.__memset
+                0x0000000000000000       0x1c /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/DisplayEngine.dll.govlP6.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/DisplayEngine.dll.govlP6.ltrans1.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/DisplayEngine.dll.govlP6.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/DisplayEngine.dll.govlP6.ltrans1.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/DisplayEngine.dll.govlP6.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/ccE9EGC5.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccE9EGC5.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cckPdZb6.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cckPdZb6.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccZFN4c6.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccZFN4c6.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccPjXeo3.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPjXeo3.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccTGGXZ4.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccTGGXZ4.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccaykPB6.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccaykPB6.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccDjzMe5.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccDjzMe5.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccFnL0I4.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccFnL0I4.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccIsgRi4.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccIsgRi4.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cczBpPf4.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cczBpPf4.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccG8aIe4.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccG8aIe4.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccKxFzf6.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccKxFzf6.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccq9mCf6.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccq9mCf6.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc0xR3Y6.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0xR3Y6.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccMdjC12.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccMdjC12.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccKEb3n5.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccKEb3n5.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/ccYDMZ93.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xc0 /tmp/ccYDMZ93.debug.temp.o
+ .debug_line    0x0000000000000000      0x14e /tmp/ccYDMZ93.debug.temp.o
+ .debug_str     0x0000000000000000      0x474 /tmp/ccYDMZ93.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccYDMZ93.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccYDMZ93.debug.temp.o
+ .debug_info    0x0000000000000000      0x1c3 /tmp/ccm4DTg4.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccm4DTg4.debug.temp.o
+ .debug_line    0x0000000000000000      0x14e /tmp/ccm4DTg4.debug.temp.o
+ .debug_str     0x0000000000000000      0x45d /tmp/ccm4DTg4.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccm4DTg4.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccm4DTg4.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/ccV48Gx6.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccV48Gx6.debug.temp.o
+ .debug_line    0x0000000000000000      0x14c /tmp/ccV48Gx6.debug.temp.o
+ .debug_str     0x0000000000000000      0x467 /tmp/ccV48Gx6.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccV48Gx6.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccV48Gx6.debug.temp.o
+ .debug_info    0x0000000000000000      0x1cf /tmp/cc8t3mK4.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/cc8t3mK4.debug.temp.o
+ .debug_line    0x0000000000000000      0x14c /tmp/cc8t3mK4.debug.temp.o
+ .debug_str     0x0000000000000000      0x464 /tmp/cc8t3mK4.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc8t3mK4.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8t3mK4.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccKf3gk4.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccKf3gk4.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccRdvhe5.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccRdvhe5.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccZtTjU5.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccZtTjU5.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccfy50H3.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccfy50H3.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc3OiY92.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc3OiY92.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccAH16R5.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccAH16R5.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc0G4tQ4.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0G4tQ4.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccym77i3.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccym77i3.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccoJANN6.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccoJANN6.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccLN1dT3.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccLN1dT3.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc2byfp7.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc2byfp7.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cco6KVF6.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cco6KVF6.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccht0f13.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccht0f13.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccDosFi4.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccDosFi4.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccGnSwt3.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccGnSwt3.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc1z7Lu3.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc1z7Lu3.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccYUEoc5.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccYUEoc5.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccPdGJk6.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPdGJk6.debug.temp.o
+ .debug_info    0x0000000000000000      0x89f /tmp/ccWhAKz4.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xf9 /tmp/ccWhAKz4.debug.temp.o
+ .debug_line    0x0000000000000000      0x14b /tmp/ccWhAKz4.debug.temp.o
+ .debug_str     0x0000000000000000      0x650 /tmp/ccWhAKz4.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccWhAKz4.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWhAKz4.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccPyBk32.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPyBk32.debug.temp.o
+ .debug_info    0x0000000000000000     0x1d7d /tmp/cca7lph4.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x240 /tmp/cca7lph4.debug.temp.o
+ .debug_line    0x0000000000000000      0x36e /tmp/cca7lph4.debug.temp.o
+ .debug_str     0x0000000000000000     0x1976 /tmp/cca7lph4.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cca7lph4.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cca7lph4.debug.temp.o
+ .debug_info    0x0000000000000000     0x1953 /tmp/ccOudmV2.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x1d4 /tmp/ccOudmV2.debug.temp.o
+ .debug_line    0x0000000000000000      0x374 /tmp/ccOudmV2.debug.temp.o
+ .debug_str     0x0000000000000000     0x165a /tmp/ccOudmV2.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccOudmV2.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccOudmV2.debug.temp.o
+ .debug_info    0x0000000000000000     0x1afe /tmp/ccsWTsh4.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x1fe /tmp/ccsWTsh4.debug.temp.o
+ .debug_line    0x0000000000000000      0x36c /tmp/ccsWTsh4.debug.temp.o
+ .debug_str     0x0000000000000000     0x17da /tmp/ccsWTsh4.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccsWTsh4.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccsWTsh4.debug.temp.o
+ .debug_info    0x0000000000000000     0x3d60 /tmp/ccTVBlz6.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x2ca /tmp/ccTVBlz6.debug.temp.o
+ .debug_line    0x0000000000000000      0x3dd /tmp/ccTVBlz6.debug.temp.o
+ .debug_str     0x0000000000000000     0x25ee /tmp/ccTVBlz6.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccTVBlz6.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccTVBlz6.debug.temp.o
+ .debug_info    0x0000000000000000     0x45d4 /tmp/ccuQOW35.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x2b0 /tmp/ccuQOW35.debug.temp.o
+ .debug_line    0x0000000000000000      0x3d1 /tmp/ccuQOW35.debug.temp.o
+ .debug_str     0x0000000000000000     0x2f13 /tmp/ccuQOW35.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccuQOW35.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccuQOW35.debug.temp.o
+ .debug_info    0x0000000000000000      0x1c3 /tmp/ccV386x5.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccV386x5.debug.temp.o
+ .debug_line    0x0000000000000000      0x14e /tmp/ccV386x5.debug.temp.o
+ .debug_str     0x0000000000000000      0x45d /tmp/ccV386x5.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccV386x5.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccV386x5.debug.temp.o
+ .text          0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+START GROUP
+LOAD /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+LOAD /tmp/DisplayEngine.dll.govlP6.ltrans1.ltrans.o
+LOAD /tmp/ccE9EGC5.debug.temp.o
+LOAD /tmp/cckPdZb6.debug.temp.o
+LOAD /tmp/ccZFN4c6.debug.temp.o
+LOAD /tmp/ccPjXeo3.debug.temp.o
+LOAD /tmp/ccTGGXZ4.debug.temp.o
+LOAD /tmp/ccaykPB6.debug.temp.o
+LOAD /tmp/ccDjzMe5.debug.temp.o
+LOAD /tmp/ccFnL0I4.debug.temp.o
+LOAD /tmp/ccIsgRi4.debug.temp.o
+LOAD /tmp/cczBpPf4.debug.temp.o
+LOAD /tmp/ccG8aIe4.debug.temp.o
+LOAD /tmp/ccKxFzf6.debug.temp.o
+LOAD /tmp/ccq9mCf6.debug.temp.o
+LOAD /tmp/cc0xR3Y6.debug.temp.o
+LOAD /tmp/ccMdjC12.debug.temp.o
+LOAD /tmp/ccKEb3n5.debug.temp.o
+LOAD /tmp/ccYDMZ93.debug.temp.o
+LOAD /tmp/ccm4DTg4.debug.temp.o
+LOAD /tmp/ccV48Gx6.debug.temp.o
+LOAD /tmp/cc8t3mK4.debug.temp.o
+LOAD /tmp/ccKf3gk4.debug.temp.o
+LOAD /tmp/ccRdvhe5.debug.temp.o
+LOAD /tmp/ccZtTjU5.debug.temp.o
+LOAD /tmp/ccfy50H3.debug.temp.o
+LOAD /tmp/cc3OiY92.debug.temp.o
+LOAD /tmp/ccAH16R5.debug.temp.o
+LOAD /tmp/cc0G4tQ4.debug.temp.o
+LOAD /tmp/ccym77i3.debug.temp.o
+LOAD /tmp/ccoJANN6.debug.temp.o
+LOAD /tmp/ccLN1dT3.debug.temp.o
+LOAD /tmp/cc2byfp7.debug.temp.o
+LOAD /tmp/cco6KVF6.debug.temp.o
+LOAD /tmp/ccht0f13.debug.temp.o
+LOAD /tmp/ccDosFi4.debug.temp.o
+LOAD /tmp/ccGnSwt3.debug.temp.o
+LOAD /tmp/cc1z7Lu3.debug.temp.o
+LOAD /tmp/ccYUEoc5.debug.temp.o
+LOAD /tmp/ccPdGJk6.debug.temp.o
+LOAD /tmp/ccWhAKz4.debug.temp.o
+LOAD /tmp/ccPyBk32.debug.temp.o
+LOAD /tmp/cca7lph4.debug.temp.o
+LOAD /tmp/ccOudmV2.debug.temp.o
+LOAD /tmp/ccsWTsh4.debug.temp.o
+LOAD /tmp/ccTVBlz6.debug.temp.o
+LOAD /tmp/ccuQOW35.debug.temp.o
+LOAD /tmp/ccV386x5.debug.temp.o
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Universal/DisplayEngineDxe/DisplayEngineDxe/OUTPUT/DisplayEngine.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/CustomizedDisplayLib/CustomizedDisplayLib/OUTPUT/CustomizedDisplayLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib
+END GROUP
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.gnu.version_d  0x0000000000000228        0x0
+ .gnu.version_d
+                0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version    0x0000000000000228        0x0
+ .gnu.version   0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version_r  0x0000000000000228        0x0
+ .gnu.version_r
+                0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.text           0x0000000000001000     0xcb30
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.InternalAllocatePool.constprop.0
+                0x0000000000001000       0x6c /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.SetUnicodeMem.constprop.0
+                0x000000000000106c       0x20 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.GetNextNode.constprop.0
+                0x000000000000108c        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.MultU64x32.constprop.0
+                0x0000000000001094        0xc /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.LShiftU64.constprop.0
+                0x00000000000010a0        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.ReadUnaligned16
+                0x00000000000010a8       0x30 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.ReadUnaligned32
+                0x00000000000010d8       0x28 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.WaitForKeyStroke
+                0x0000000000001100       0xac /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.GetFieldFromNum
+                0x00000000000011ac       0x40 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.BasePrintLibFillBuffer
+                0x00000000000011ec       0x34 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.AsciiStrnCmp
+                0x0000000000001220       0x44 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.AsciiStrLen
+                0x0000000000001264       0x1c /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.StrCmp   0x0000000000001280       0x28 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.StrLen   0x00000000000012a8       0x1c /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.StrSize  0x00000000000012c4       0x1c /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.StrnLenS
+                0x00000000000012e0       0x3c /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.InternalSafeStringNoStrOverlap
+                0x000000000000131c       0x3c /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.StrCatS  0x0000000000001358       0xc4 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.StrnCpyS
+                0x000000000000141c       0xe0 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.StrCpyS  0x00000000000014fc       0xa0 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.RemoveEntryList
+                0x000000000000159c       0x14 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.SwapListEntries
+                0x00000000000015b0       0x8c /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.IsNull   0x000000000000163c        0xc /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.IsListEmpty
+                0x0000000000001648       0x10 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.GetFirstNode
+                0x0000000000001658        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.InsertTailList
+                0x0000000000001660       0x18 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.InsertHeadList
+                0x0000000000001678       0x14 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.InitializeListHead
+                0x000000000000168c        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.SetValuesByType
+                0x0000000000001694       0x54 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.EmptyEventProcess
+                0x00000000000016e8        0x4 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.SetArrayData
+                0x00000000000016ec       0x44 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.GetArrayData
+                0x0000000000001730       0x4c /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.HiiValueToUINT64
+                0x000000000000177c       0x50 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.NewStrCat
+                0x00000000000017cc       0x28 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.GetStringWidth.part.0
+                0x00000000000017f4       0x5c /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.GetStringWidth
+                0x0000000000001850        0xc /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.DriverClearDisplayPage
+                0x000000000000185c       0x54 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.SetDisplayAttribute
+                0x00000000000018b0       0x5c /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.AdjustDateAndTimePosition
+                0x000000000000190c       0x88 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.BasePrintLibSPrint.constprop.0
+                0x0000000000001994       0xa0 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.BasePrintLibSPrintMarker.constprop.0
+                0x0000000000001a34      0xcd0 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.UnicodeVSPrint
+                0x0000000000002704       0x54 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.UnicodeSPrint
+                0x0000000000002758       0xa4 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.PrintFormattedNumber.constprop.0
+                0x00000000000027fc       0xa8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.CopyMem  0x00000000000028a4       0x1c /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.InternalAllocateCopyPool.constprop.0
+                0x00000000000028c0       0x3c /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.CopyGuid
+                0x00000000000028fc        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.CompareMem
+                0x0000000000002904       0x18 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.GetIndexInfoForOpcode
+                0x000000000000291c       0x80 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.FindHighLightMenuOption
+                0x000000000000299c      0x104 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.ZeroMem  0x0000000000002aa0        0xc /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.AllocateZeroPool
+                0x0000000000002aac       0x34 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.GetBestLanguage.constprop.0
+                0x0000000000002ae0      0x174 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.ParseMessageString.part.0
+                0x0000000000002c54      0x114 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.AddOneSelectableOption
+                0x0000000000002d68       0xf0 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.GetLineByWidth
+                0x0000000000002e58      0x234 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.CompareGuid
+                0x000000000000308c        0x4 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.ProcessUserOpcode
+                0x0000000000003090      0x130 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.HiiRemovePackages
+                0x00000000000031c0       0x18 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x00000000000031c0                HiiRemovePackages
+ .text.FreePool
+                0x00000000000031d8       0x14 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x00000000000031d8                FreePool
+ .text.ProcessHelpString.constprop.0
+                0x00000000000031ec      0x138 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.PrintAt  0x0000000000003324      0x2b0 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.PrintCharAt
+                0x00000000000035d4       0x1c /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.PrintStringAtWithWidth
+                0x00000000000035f0       0x20 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.PrintHotKeyHelpString
+                0x0000000000003610      0x204 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.PrintStringAt
+                0x0000000000003814       0x1c /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.UpdateStatusBar
+                0x0000000000003830      0x164 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.GetNumericInput
+                0x0000000000003994      0xc84 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.DisplayMenuString
+                0x0000000000004618       0x94 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.RefreshKeyHelp
+                0x00000000000046ac      0x618 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.FreeLibStrings
+                0x0000000000004cc4       0xf0 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x0000000000004cc4                FreeLibStrings
+ .text.ClearLines
+                0x0000000000004db4       0xb4 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.CreateMultiStringPopUp.constprop.0
+                0x0000000000004e68      0x314 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.CreateDialog
+                0x000000000000517c      0x3ec /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.ConfirmDataChange
+                0x0000000000005568       0xec /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.RefreshTimeOutProcess
+                0x0000000000005654       0xcc /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.HiiGetSupportedLanguages
+                0x0000000000005720       0xc0 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.HiiGetStringEx.constprop.0
+                0x00000000000057e0      0x1e8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.LibGetToken
+                0x00000000000059c8       0x40 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.GetToken
+                0x0000000000005a08       0x40 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.CompareHiiValue.constprop.0
+                0x0000000000005a48      0x244 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.ValueToOption
+                0x0000000000005c8c       0xec /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.HiiSetString.constprop.0
+                0x0000000000005d78      0x118 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.HiiAddPackages
+                0x0000000000005e90      0x1c8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.CreatePopup
+                0x0000000000006058      0xad0 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.GetSelectionInputPopUp
+                0x0000000000006b28      0x9b4 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.ReadString
+                0x00000000000074dc      0x75c /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.PrintMismatchMenuInfo
+                0x0000000000007c38      0x284 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.ProcessOptions
+                0x0000000000007ebc      0xd4c /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.UpdateHighlightMenuInfo
+                0x0000000000008c08      0x158 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.IsSelectable
+                0x0000000000008d60       0xe4 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.UpdateSkipInfoForMenu
+                0x0000000000008e44       0xe8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.UpdateOptionSkipLines
+                0x0000000000008f2c       0xb8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.FindTopOfScreenMenuOption
+                0x0000000000008fe4      0x120 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.FindTopOfScreenMenu
+                0x0000000000009104       0xac /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.MoveToNextStatement
+                0x00000000000091b0       0xe4 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.GetWidth
+                0x0000000000009294      0x134 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.DisplayOneMenu
+                0x00000000000093c8      0x65c /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.UiAddMenuOption
+                0x0000000000009a24      0x278 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.FormDisplay
+                0x0000000000009c9c     0x27e0 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .text.memcpy   0x000000000000c47c       0x20 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000c47c                memcpy
+ .text.__stack_chk_fail
+                0x000000000000c49c       0x18 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000c49c                __stack_chk_fail
+ .text._ModuleEntryPoint
+                0x000000000000c4b4      0x81c /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000c4b4                _ModuleEntryPoint
+ .text._DriverUnloadHandler
+                0x000000000000ccd0      0x2bc /tmp/DisplayEngine.dll.govlP6.ltrans1.ltrans.o
+                0x000000000000ccd0                _DriverUnloadHandler
+ *fill*         0x000000000000cf8c        0x4 
+ .text          0x000000000000cf90      0x200 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                0x000000000000cf90                InternalMemSetMem16
+                0x000000000000cf9c                InternalMemSetMem32
+                0x000000000000cfa8                InternalMemSetMem64
+                0x000000000000cfb4                InternalMemZeroMem
+                0x000000000000cfbc                InternalMemSetMem
+ .text          0x000000000000d190      0x218 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                0x000000000000d2fc                InternalMemCopyMem
+ *fill*         0x000000000000d3a8       0x18 
+ .text          0x000000000000d3c0       0xe0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                0x000000000000d3c0                InternalMemCompareMem
+ .text          0x000000000000d4a0       0x20 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                0x000000000000d4a0                InternalMemCompareGuid
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.SetValuesByType
+                0x000000000000d4c0        0x5 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ *fill*         0x000000000000d4c5        0x3 
+ .rodata.SetArrayData
+                0x000000000000d4c8        0x4 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .rodata.GetArrayData
+                0x000000000000d4cc        0x4 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .rodata.HiiValueToUINT64
+                0x000000000000d4d0        0x7 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .rodata.BasePrintLibSPrintMarker.constprop.0.str1.1
+                0x000000000000d4d7       0x7b /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ *fill*         0x000000000000d552        0x2 
+ .rodata.BasePrintLibSPrintMarker.constprop.0
+                0x000000000000d554       0x5e /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .rodata.PrintFormattedNumber.constprop.0.str2.2
+                0x000000000000d5b2       0x12 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                                         0x1a (size before relaxing)
+ .rodata.AddOneSelectableOption
+                0x000000000000d5c4        0x4 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .rodata.PrintCharAt.str2.2
+                0x000000000000d5c8        0x6 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .rodata.PrintStringAtWithWidth.str2.2
+                0x000000000000d5ce        0x6 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .rodata.UpdateStatusBar.str2.2
+                0x000000000000d5ce        0x6 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .rodata.GetNumericInput.str2.2
+                0x000000000000d5d4       0x14 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                                         0x18 (size before relaxing)
+ .rodata.GetNumericInput
+                0x000000000000d5e8       0x16 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .rodata.DisplayMenuString.str2.2
+                0x000000000000d5fe       0x14 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                                          0x2 (size before relaxing)
+ .rodata.RefreshKeyHelp.str2.2
+                0x000000000000d5fe       0x16 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                                         0x24 (size before relaxing)
+ .rodata.RefreshKeyHelp
+                0x000000000000d614       0x44 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .rodata.RefreshTimeOutProcess.str2.2
+                0x000000000000d658        0x6 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .rodata.HiiGetStringEx.constprop.0.str1.1
+                0x000000000000d65e       0x7b /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                                          0x1 (size before relaxing)
+ .rodata.HiiGetStringEx.constprop.0.str2.2
+                0x000000000000d65e       0x1a /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .rodata.CompareHiiValue.constprop.0
+                0x000000000000d678       0x10 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .rodata.HiiSetString.constprop.0.str1.1
+                0x000000000000d688        0x7 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ *fill*         0x000000000000d68f        0x1 
+ .rodata.CreatePopup.str2.2
+                0x000000000000d690        0xe /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                                         0x16 (size before relaxing)
+ *fill*         0x000000000000d69e        0x2 
+ .rodata.GetSelectionInputPopUp
+                0x000000000000d6a0        0x5 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ *fill*         0x000000000000d6a5        0x1 
+ .rodata.ProcessOptions.str2.2
+                0x000000000000d6a6        0xa /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                                         0x10 (size before relaxing)
+ .rodata.ProcessOptions
+                0x000000000000d6b0       0x24 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .rodata.FormDisplay
+                0x000000000000d6d4       0x32 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .rodata._ModuleEntryPoint.str2.2
+                0x000000000000d706        0x4 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .rodata.CSWTCH.178
+                0x000000000000d70a        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdFrontPageFormSetGuid
+                0x000000000000d712       0x10 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ *fill*         0x000000000000d722        0x2 
+ .rodata.gScanCodeToOperation
+                0x000000000000d724       0x38 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .rodata.gScreenOperationToControlFlag
+                0x000000000000d75c       0x50 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .rodata.mEndOfPakageList
+                0x000000000000d7ac        0x4 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .rodata.mErrorString
+                0x000000000000d7b0      0x2b5 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .rodata.mHexStr
+                0x000000000000da65       0x10 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .rodata.mWarningString
+                0x000000000000da75       0x96 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ *(.got .got.*)
+ *fill*         0x000000000000db0b        0x5 
+ .got           0x000000000000db10        0x8 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x000000000000db10                _GLOBAL_OFFSET_TABLE_
+ .got.plt       0x000000000000db18       0x18 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ *:AutoGen.obj(.data.g*Guid)
+
+.plt            0x000000000000db30        0x0
+ .plt           0x000000000000db30        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.data           0x000000000000e000     0x21b8
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.ro   0x000000000000e000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data.CustomizedDisplayLibStrings
+                0x000000000000e000      0x6ea /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .data.DisplayEngineStrings
+                0x000000000000e6ea     0x15c6 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .data.gCustomizedDisplayLibGuid
+                0x000000000000fcb0       0x10 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .data.gDisplayEngineGuid
+                0x000000000000fcc0       0x10 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .data.gEdkiiFormBrowserEx2ProtocolGuid
+                0x000000000000fcd0       0x10 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .data.gEdkiiFormDisplayEngineProtocolGuid
+                0x000000000000fce0       0x10 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .data.gEfiGlobalVariableGuid
+                0x000000000000fcf0       0x10 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .data.gEfiHiiConfigRoutingProtocolGuid
+                0x000000000000fd00       0x10 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .data.gEfiHiiDatabaseProtocolGuid
+                0x000000000000fd10       0x10 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .data.gEfiHiiFontProtocolGuid
+                0x000000000000fd20       0x10 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .data.gEfiHiiImageProtocolGuid
+                0x000000000000fd30       0x10 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .data.gEfiHiiPopupProtocolGuid
+                0x000000000000fd40       0x10 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .data.gEfiHiiStringProtocolGuid
+                0x000000000000fd50       0x10 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .data.gEfiIfrTianoGuid
+                0x000000000000fd60       0x10 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .data.gEfiLoadedImageProtocolGuid
+                0x000000000000fd70       0x10 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .data.gLibIsFirstForm
+                0x000000000000fd80        0x1 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .data.mIsFirstForm
+                0x000000000000fd81        0x1 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ *fill*         0x000000000000fd82        0x6 
+ .data.mPrivateData
+                0x000000000000fd88       0x38 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .data.__stack_chk_guard
+                0x000000000000fdc0        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans1.ltrans.o
+                0x000000000000fdc0                __stack_chk_guard
+ *(.bss .bss.*)
+ .bss.gAdjustNumber
+                0x000000000000fdc8        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gAreYouSure
+                0x000000000000fdd0        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gBS       0x000000000000fdd8        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gBannerData
+                0x000000000000fde0        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gBrowserError
+                0x000000000000fde8        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000fde8                gBrowserError
+ .bss.gCancelOption
+                0x000000000000fdf0        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000fdf0                gCancelOption
+ .bss.gChangesOpt
+                0x000000000000fdf8        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000fdf8                gChangesOpt
+ .bss.gCheckError
+                0x000000000000fe00        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000fe00                gCheckError
+ .bss.gClassOfVfr
+                0x000000000000fe08        0x2 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ *fill*         0x000000000000fe0a        0x6 
+ .bss.gConfirmDefaultMsg
+                0x000000000000fe10        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000fe10                gConfirmDefaultMsg
+ .bss.gConfirmDefaultMsg2nd
+                0x000000000000fe18        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000fe18                gConfirmDefaultMsg2nd
+ .bss.gConfirmDiscardMsg
+                0x000000000000fe20        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000fe20                gConfirmDiscardMsg
+ .bss.gConfirmError
+                0x000000000000fe28        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000fe28                gConfirmError
+ .bss.gConfirmExitMsg
+                0x000000000000fe30        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000fe30                gConfirmExitMsg
+ .bss.gConfirmExitMsg2nd
+                0x000000000000fe38        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000fe38                gConfirmExitMsg2nd
+ .bss.gConfirmMsgConnect
+                0x000000000000fe40        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000fe40                gConfirmMsgConnect
+ .bss.gConfirmMsgEnd
+                0x000000000000fe48        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000fe48                gConfirmMsgEnd
+ .bss.gConfirmOpt
+                0x000000000000fe50        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000fe50                gConfirmOpt
+ .bss.gConfirmOptCancel
+                0x000000000000fe58        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000fe58                gConfirmOptCancel
+ .bss.gConfirmOptNo
+                0x000000000000fe60        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000fe60                gConfirmOptNo
+ .bss.gConfirmOptOk
+                0x000000000000fe68        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000fe68                gConfirmOptOk
+ .bss.gConfirmOptYes
+                0x000000000000fe70        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000fe70                gConfirmOptYes
+ .bss.gConfirmPassword
+                0x000000000000fe78        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000fe78                gConfirmPassword
+ .bss.gConfirmResetMsg
+                0x000000000000fe80        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000fe80                gConfirmResetMsg
+ .bss.gConfirmResetMsg2nd
+                0x000000000000fe88        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000fe88                gConfirmResetMsg2nd
+ .bss.gConfirmSubmitMsg
+                0x000000000000fe90        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000fe90                gConfirmSubmitMsg
+ .bss.gConfirmSubmitMsg2nd
+                0x000000000000fe98        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000fe98                gConfirmSubmitMsg2nd
+ .bss.gDecNumericInput
+                0x000000000000fea0        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gDirection
+                0x000000000000fea8        0x2 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ *fill*         0x000000000000feaa        0x6 
+ .bss.gDiscardChange
+                0x000000000000feb0        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000feb0                gDiscardChange
+ .bss.gEmptyString
+                0x000000000000feb8        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000feb8                gEmptyString
+ .bss.gEnterCommitString
+                0x000000000000fec0        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gEnterEscapeString
+                0x000000000000fec8        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gEnterString
+                0x000000000000fed0        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gErrorPopup
+                0x000000000000fed8        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000fed8                gErrorPopup
+ .bss.gEscapeString
+                0x000000000000fee0        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gFooterHeight
+                0x000000000000fee8        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gFormData
+                0x000000000000fef0        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gFormNotFound
+                0x000000000000fef8        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000fef8                gFormNotFound
+ .bss.gFormSuppress
+                0x000000000000ff00        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000ff00                gFormSuppress
+ .bss.gHelpBlockWidth
+                0x000000000000ff08        0x2 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ *fill*         0x000000000000ff0a        0x6 
+ .bss.gHexNumericInput
+                0x000000000000ff10        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gHighligthMenuInfo
+                0x000000000000ff18       0x48 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000ff18                gHighligthMenuInfo
+ .bss.gHiiConfigRouting
+                0x000000000000ff60        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gHiiDatabase
+                0x000000000000ff68        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gHiiFont  0x000000000000ff70        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gHiiHandle
+                0x000000000000ff78        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000ff78                gHiiHandle
+ .bss.gHiiImage
+                0x000000000000ff80        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gHiiString
+                0x000000000000ff88        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gInfoPopup
+                0x000000000000ff90        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000ff90                gInfoPopup
+ .bss.gInputErrorMessage
+                0x000000000000ff98        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gJumpToFormSet
+                0x000000000000ffa0        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000ffa0                gJumpToFormSet
+ .bss.gLibEmptyString
+                0x000000000000ffa8        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gMaxRowWidth
+                0x000000000000ffb0        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gMenuOption
+                0x000000000000ffb8       0x10 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gMesStrLineNum
+                0x000000000000ffc8        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gMessageString
+                0x000000000000ffd0        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gMiniString
+                0x000000000000ffd8        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000ffd8                gMiniString
+ .bss.gMinusString
+                0x000000000000ffe0        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gMisMatch
+                0x000000000000ffe8        0x1 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ *fill*         0x000000000000ffe9        0x1 
+ .bss.gModalSkipColumn
+                0x000000000000ffea        0x2 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ *fill*         0x000000000000ffec        0x4 
+ .bss.gMoveHighlight
+                0x000000000000fff0        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gNoOption
+                0x000000000000fff8        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x000000000000fff8                gNoOption
+ .bss.gNoResponse
+                0x0000000000010000        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gNoSubmitIf
+                0x0000000000010008        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x0000000000010008                gNoSubmitIf
+ .bss.gNoSubmitIfFailed
+                0x0000000000010010        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x0000000000010010                gNoSubmitIfFailed
+ .bss.gNvUpdateMessage
+                0x0000000000010018        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gOkOption
+                0x0000000000010020        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x0000000000010020                gOkOption
+ .bss.gOldFormEntry
+                0x0000000000010028       0x38 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gOptionBlockWidth
+                0x0000000000010060        0x2 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ *fill*         0x0000000000010062        0x6 
+ .bss.gOptionMismatch
+                0x0000000000010068        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x0000000000010068                gOptionMismatch
+ .bss.gPassowordInvalid
+                0x0000000000010070        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x0000000000010070                gPassowordInvalid
+ .bss.gPasswordUnsupported
+                0x0000000000010078        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x0000000000010078                gPasswordUnsupported
+ .bss.gPlusString
+                0x0000000000010080        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gPopupDimensions
+                0x0000000000010088       0x20 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gPressEnter
+                0x00000000000100a8        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x00000000000100a8                gPressEnter
+ .bss.gPromptBlockWidth
+                0x00000000000100b0        0x2 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ *fill*         0x00000000000100b2        0x6 
+ .bss.gPromptForData
+                0x00000000000100b8        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x00000000000100b8                gPromptForData
+ .bss.gPromptForNewPassword
+                0x00000000000100c0        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x00000000000100c0                gPromptForNewPassword
+ .bss.gPromptForPassword
+                0x00000000000100c8        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x00000000000100c8                gPromptForPassword
+ .bss.gProtocolNotFound
+                0x00000000000100d0        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x00000000000100d0                gProtocolNotFound
+ .bss.gRT       0x00000000000100d8        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gReconnectConfirmChanges
+                0x00000000000100e0        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x00000000000100e0                gReconnectConfirmChanges
+ .bss.gReconnectFail
+                0x00000000000100e8        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x00000000000100e8                gReconnectFail
+ .bss.gReconnectRequired
+                0x00000000000100f0        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x00000000000100f0                gReconnectRequired
+ .bss.gST       0x00000000000100f8        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x00000000000100f8                gST
+ .bss.gSaveChanges
+                0x0000000000010100        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gSaveFailed
+                0x0000000000010108        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x0000000000010108                gSaveFailed
+ .bss.gSaveNoSubmitProcess
+                0x0000000000010110        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x0000000000010110                gSaveNoSubmitProcess
+ .bss.gSaveProcess
+                0x0000000000010118        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x0000000000010118                gSaveProcess
+ .bss.gScreenDimensions
+                0x0000000000010120       0x20 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gStatementDimensions
+                0x0000000000010140       0x20 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gToggleCheckBox
+                0x0000000000010160        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gUserInput
+                0x0000000000010168        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gUserSelectableOptions
+                0x0000000000010170       0x10 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.gWarningPopup
+                0x0000000000010180        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x0000000000010180                gWarningPopup
+ .bss.gYesOption
+                0x0000000000010188        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x0000000000010188                gYesOption
+ .bss.gYesResponse
+                0x0000000000010190        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.mCDLStringPackHandle
+                0x0000000000010198        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x0000000000010198                mCDLStringPackHandle
+ .bss.mLibUnknownString
+                0x00000000000101a0        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.mSpaceBuffer
+                0x00000000000101a8        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .bss.mUnknownString
+                0x00000000000101b0        0x8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                0x00000000000101b0                mUnknownString
+
+.dynbss         0x00000000000101b8        0x0
+ .dynbss        0x00000000000101b8        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.eh_frame
+ *(.eh_frame)
+
+.rela           0x00000000000101b8       0x60
+ *(.rela .rela.*)
+ .rela.got      0x00000000000101b8        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.plt      0x00000000000101b8        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.bss      0x00000000000101b8        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.rel.ro
+                0x00000000000101b8        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.ifunc    0x00000000000101b8        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.mPrivateData
+                0x00000000000101b8       0x60 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.hii
+ *(.hii)
+
+.build-id       0x0000000000010218       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000010218       0x24 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+ *(COMMON)
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+OUTPUT(/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Universal/DisplayEngineDxe/DisplayEngineDxe/DEBUG/DisplayEngine.dll elf64-littleaarch64)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000    0x3aa58
+ .debug_info    0x0000000000000000     0xc480 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .debug_info    0x000000000000c480      0x490 /tmp/DisplayEngine.dll.govlP6.ltrans1.ltrans.o
+ .debug_info    0x000000000000c910     0x1a57 /tmp/ccE9EGC5.debug.temp.o
+                0x000000000000c910                DriverEntryPoint.c.0bb94e37
+ .debug_info    0x000000000000e367      0x17b /tmp/cckPdZb6.debug.temp.o
+                0x000000000000e367                BaseStackCheckGcc.c.3fb9ce64
+ .debug_info    0x000000000000e4e2      0x1d7 /tmp/ccZFN4c6.debug.temp.o
+                0x000000000000e4e2                memcpy.c.79986cd0
+ .debug_info    0x000000000000e6b9      0x188 /tmp/ccPjXeo3.debug.temp.o
+                0x000000000000e6b9                memset.c.02de5c04
+ .debug_info    0x000000000000e841     0x1e5e /tmp/ccTGGXZ4.debug.temp.o
+                0x000000000000e841                AutoGen.c.bdeee8d4
+ .debug_info    0x000000000001069f     0x4104 /tmp/ccaykPB6.debug.temp.o
+                0x000000000001069f                FormDisplay.c.ad275523
+ .debug_info    0x00000000000147a3     0x3069 /tmp/ccDjzMe5.debug.temp.o
+                0x00000000000147a3                ProcessOptions.c.ee4f7c78
+ .debug_info    0x000000000001780c     0x2e1c /tmp/ccFnL0I4.debug.temp.o
+                0x000000000001780c                InputHandler.c.2f8099bc
+ .debug_info    0x000000000001a628     0x2826 /tmp/ccIsgRi4.debug.temp.o
+                0x000000000001a628                Popup.c.bb25ef0a
+ .debug_info    0x000000000001ce4e      0x1db /tmp/cczBpPf4.debug.temp.o
+                0x000000000001ce4e                MultU64x32.c.37505239
+ .debug_info    0x000000000001d029      0x1db /tmp/ccG8aIe4.debug.temp.o
+                0x000000000001d029                LShiftU64.c.89142a4c
+ .debug_info    0x000000000001d204      0x1d0 /tmp/ccKxFzf6.debug.temp.o
+                0x000000000001d204                CpuDeadLoop.c.755e7c7b
+ .debug_info    0x000000000001d3d4      0x428 /tmp/ccq9mCf6.debug.temp.o
+                0x000000000001d3d4                LinkedList.c.7e1d43c9
+ .debug_info    0x000000000001d7fc      0xdc8 /tmp/cc0xR3Y6.debug.temp.o
+                0x000000000001d7fc                SafeString.c.d93472dc
+ .debug_info    0x000000000001e5c4      0x7f3 /tmp/ccMdjC12.debug.temp.o
+                0x000000000001e5c4                String.c.76785ee4
+ .debug_info    0x000000000001edb7      0x43c /tmp/ccKEb3n5.debug.temp.o
+                0x000000000001edb7                Math64.c.fba6cbb7
+ .debug_info    0x000000000001f1f3      0x21d /tmp/ccKf3gk4.debug.temp.o
+                0x000000000001f1f3                MemLibGuid.c.89fba256
+ .debug_info    0x000000000001f410      0x16e /tmp/ccRdvhe5.debug.temp.o
+                0x000000000001f410                ZeroMemWrapper.c.da3b248e
+ .debug_info    0x000000000001f57e      0x19b /tmp/ccZtTjU5.debug.temp.o
+                0x000000000001f57e                CompareMemWrapper.c.df2c23b5
+ .debug_info    0x000000000001f719      0x185 /tmp/ccfy50H3.debug.temp.o
+                0x000000000001f719                CopyMemWrapper.c.4760c160
+ .debug_info    0x000000000001f89e     0x18e1 /tmp/cc3OiY92.debug.temp.o
+                0x000000000001f89e                UefiBootServicesTableLib.c.1b9b5282
+ .debug_info    0x000000000002117f     0x1de0 /tmp/ccAH16R5.debug.temp.o
+                0x000000000002117f                MemoryAllocationLib.c.7e75fabe
+ .debug_info    0x0000000000022f5f      0x683 /tmp/cc0G4tQ4.debug.temp.o
+                0x0000000000022f5f                PrintLib.c.9d1836b5
+ .debug_info    0x00000000000235e2      0x79a /tmp/ccym77i3.debug.temp.o
+                0x00000000000235e2                PrintLibInternal.c.11bf8ed5
+ .debug_info    0x0000000000023d7c     0x18b2 /tmp/ccoJANN6.debug.temp.o
+                0x0000000000023d7c                UefiRuntimeServicesTableLib.c.76abd5a8
+ .debug_info    0x000000000002562e     0x294e /tmp/ccLN1dT3.debug.temp.o
+                0x000000000002562e                UefiHiiServicesLib.c.793cbe6e
+ .debug_info    0x0000000000027f7c     0x27ac /tmp/cc2byfp7.debug.temp.o
+                0x0000000000027f7c                UefiLib.c.c9f50ead
+ .debug_info    0x000000000002a728     0x50c1 /tmp/cco6KVF6.debug.temp.o
+                0x000000000002a728                HiiLib.c.4aac6cd1
+ .debug_info    0x000000000002f7e9     0x2b6a /tmp/ccht0f13.debug.temp.o
+                0x000000000002f7e9                HiiString.c.65ac83c6
+ .debug_info    0x0000000000032353     0x2a1b /tmp/ccDosFi4.debug.temp.o
+                0x0000000000032353                HiiLanguage.c.e626a2c6
+ .debug_info    0x0000000000034d6e     0x29cb /tmp/ccGnSwt3.debug.temp.o
+                0x0000000000034d6e                CustomizedDisplayLib.c.15419117
+ .debug_info    0x0000000000037739     0x2b5a /tmp/cc1z7Lu3.debug.temp.o
+                0x0000000000037739                CustomizedDisplayLibInternal.c.ffc82038
+ .debug_info    0x000000000003a293      0x2a3 /tmp/ccYUEoc5.debug.temp.o
+                0x000000000003a293                AutoGen.c.e295549c
+ .debug_info    0x000000000003a536      0x1e5 /tmp/ccPdGJk6.debug.temp.o
+                0x000000000003a536                DivU64x32Remainder.c.f5241791
+ .debug_info    0x000000000003a71b      0x33d /tmp/ccPyBk32.debug.temp.o
+                0x000000000003a71b                Unaligned.c.b480fc72
+
+.debug_abbrev   0x0000000000000000     0x3ad4
+ .debug_abbrev  0x0000000000000000      0x295 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000295       0xd9 /tmp/DisplayEngine.dll.govlP6.ltrans1.ltrans.o
+ .debug_abbrev  0x000000000000036e      0x1e9 /tmp/ccE9EGC5.debug.temp.o
+ .debug_abbrev  0x0000000000000557       0xc7 /tmp/cckPdZb6.debug.temp.o
+ .debug_abbrev  0x000000000000061e       0xee /tmp/ccZFN4c6.debug.temp.o
+ .debug_abbrev  0x000000000000070c       0xc0 /tmp/ccPjXeo3.debug.temp.o
+ .debug_abbrev  0x00000000000007cc      0x225 /tmp/ccTGGXZ4.debug.temp.o
+ .debug_abbrev  0x00000000000009f1      0x2cc /tmp/ccaykPB6.debug.temp.o
+ .debug_abbrev  0x0000000000000cbd      0x2cd /tmp/ccDjzMe5.debug.temp.o
+ .debug_abbrev  0x0000000000000f8a      0x29e /tmp/ccFnL0I4.debug.temp.o
+ .debug_abbrev  0x0000000000001228      0x2a2 /tmp/ccIsgRi4.debug.temp.o
+ .debug_abbrev  0x00000000000014ca       0xc0 /tmp/cczBpPf4.debug.temp.o
+ .debug_abbrev  0x000000000000158a       0xb1 /tmp/ccG8aIe4.debug.temp.o
+ .debug_abbrev  0x000000000000163b       0xb6 /tmp/ccKxFzf6.debug.temp.o
+ .debug_abbrev  0x00000000000016f1      0x139 /tmp/ccq9mCf6.debug.temp.o
+ .debug_abbrev  0x000000000000182a      0x12d /tmp/cc0xR3Y6.debug.temp.o
+ .debug_abbrev  0x0000000000001957      0x126 /tmp/ccMdjC12.debug.temp.o
+ .debug_abbrev  0x0000000000001a7d       0xf9 /tmp/ccKEb3n5.debug.temp.o
+ .debug_abbrev  0x0000000000001b76       0xce /tmp/ccKf3gk4.debug.temp.o
+ .debug_abbrev  0x0000000000001c44       0xb1 /tmp/ccRdvhe5.debug.temp.o
+ .debug_abbrev  0x0000000000001cf5       0xb1 /tmp/ccZtTjU5.debug.temp.o
+ .debug_abbrev  0x0000000000001da6       0xb8 /tmp/ccfy50H3.debug.temp.o
+ .debug_abbrev  0x0000000000001e5e      0x1dd /tmp/cc3OiY92.debug.temp.o
+ .debug_abbrev  0x000000000000203b      0x242 /tmp/ccAH16R5.debug.temp.o
+ .debug_abbrev  0x000000000000227d      0x150 /tmp/cc0G4tQ4.debug.temp.o
+ .debug_abbrev  0x00000000000023cd      0x161 /tmp/ccym77i3.debug.temp.o
+ .debug_abbrev  0x000000000000252e      0x1c3 /tmp/ccoJANN6.debug.temp.o
+ .debug_abbrev  0x00000000000026f1      0x216 /tmp/ccLN1dT3.debug.temp.o
+ .debug_abbrev  0x0000000000002907      0x267 /tmp/cc2byfp7.debug.temp.o
+ .debug_abbrev  0x0000000000002b6e      0x315 /tmp/cco6KVF6.debug.temp.o
+ .debug_abbrev  0x0000000000002e83      0x249 /tmp/ccht0f13.debug.temp.o
+ .debug_abbrev  0x00000000000030cc      0x209 /tmp/ccDosFi4.debug.temp.o
+ .debug_abbrev  0x00000000000032d5      0x2ed /tmp/ccGnSwt3.debug.temp.o
+ .debug_abbrev  0x00000000000035c2      0x2e7 /tmp/cc1z7Lu3.debug.temp.o
+ .debug_abbrev  0x00000000000038a9       0xaf /tmp/ccYUEoc5.debug.temp.o
+ .debug_abbrev  0x0000000000003958       0xb3 /tmp/ccPdGJk6.debug.temp.o
+ .debug_abbrev  0x0000000000003a0b       0xc9 /tmp/ccPyBk32.debug.temp.o
+
+.debug_loc      0x0000000000000000    0x19a29
+ .debug_loc     0x0000000000000000    0x198fa /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .debug_loc     0x00000000000198fa      0x12f /tmp/DisplayEngine.dll.govlP6.ltrans1.ltrans.o
+
+.debug_aranges  0x0000000000000000      0x6d0
+ .debug_aranges
+                0x0000000000000000      0x6a0 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .debug_aranges
+                0x00000000000006a0       0x30 /tmp/DisplayEngine.dll.govlP6.ltrans1.ltrans.o
+
+.debug_ranges   0x0000000000000000     0x2a40
+ .debug_ranges  0x0000000000000000     0x29c0 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .debug_ranges  0x00000000000029c0       0x80 /tmp/DisplayEngine.dll.govlP6.ltrans1.ltrans.o
+
+.debug_line     0x0000000000000000     0xf773
+ .debug_line    0x0000000000000000     0x965e /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .debug_line    0x000000000000965e      0x29e /tmp/DisplayEngine.dll.govlP6.ltrans1.ltrans.o
+ .debug_line    0x00000000000098fc      0x349 /tmp/ccE9EGC5.debug.temp.o
+ .debug_line    0x0000000000009c45      0x172 /tmp/cckPdZb6.debug.temp.o
+ .debug_line    0x0000000000009db7      0x173 /tmp/ccZFN4c6.debug.temp.o
+ .debug_line    0x0000000000009f2a      0x173 /tmp/ccPjXeo3.debug.temp.o
+ .debug_line    0x000000000000a09d      0x319 /tmp/ccTGGXZ4.debug.temp.o
+ .debug_line    0x000000000000a3b6      0x47d /tmp/ccaykPB6.debug.temp.o
+ .debug_line    0x000000000000a833      0x46c /tmp/ccDjzMe5.debug.temp.o
+ .debug_line    0x000000000000ac9f      0x45c /tmp/ccFnL0I4.debug.temp.o
+ .debug_line    0x000000000000b0fb      0x463 /tmp/ccIsgRi4.debug.temp.o
+ .debug_line    0x000000000000b55e      0x14d /tmp/cczBpPf4.debug.temp.o
+ .debug_line    0x000000000000b6ab      0x14c /tmp/ccG8aIe4.debug.temp.o
+ .debug_line    0x000000000000b7f7      0x14e /tmp/ccKxFzf6.debug.temp.o
+ .debug_line    0x000000000000b945      0x14d /tmp/ccq9mCf6.debug.temp.o
+ .debug_line    0x000000000000ba92      0x14d /tmp/cc0xR3Y6.debug.temp.o
+ .debug_line    0x000000000000bbdf      0x149 /tmp/ccMdjC12.debug.temp.o
+ .debug_line    0x000000000000bd28      0x149 /tmp/ccKEb3n5.debug.temp.o
+ .debug_line    0x000000000000be71      0x175 /tmp/ccKf3gk4.debug.temp.o
+ .debug_line    0x000000000000bfe6      0x175 /tmp/ccRdvhe5.debug.temp.o
+ .debug_line    0x000000000000c15b      0x178 /tmp/ccZtTjU5.debug.temp.o
+ .debug_line    0x000000000000c2d3      0x175 /tmp/ccfy50H3.debug.temp.o
+ .debug_line    0x000000000000c448      0x332 /tmp/cc3OiY92.debug.temp.o
+ .debug_line    0x000000000000c77a      0x32a /tmp/ccAH16R5.debug.temp.o
+ .debug_line    0x000000000000caa4      0x168 /tmp/cc0G4tQ4.debug.temp.o
+ .debug_line    0x000000000000cc0c      0x186 /tmp/ccym77i3.debug.temp.o
+ .debug_line    0x000000000000cd92      0x2eb /tmp/ccoJANN6.debug.temp.o
+ .debug_line    0x000000000000d07d      0x402 /tmp/ccLN1dT3.debug.temp.o
+ .debug_line    0x000000000000d47f      0x36f /tmp/cc2byfp7.debug.temp.o
+ .debug_line    0x000000000000d7ee      0x517 /tmp/cco6KVF6.debug.temp.o
+ .debug_line    0x000000000000dd05      0x4fa /tmp/ccht0f13.debug.temp.o
+ .debug_line    0x000000000000e1ff      0x4fc /tmp/ccDosFi4.debug.temp.o
+ .debug_line    0x000000000000e6fb      0x59a /tmp/ccGnSwt3.debug.temp.o
+ .debug_line    0x000000000000ec95      0x5a2 /tmp/cc1z7Lu3.debug.temp.o
+ .debug_line    0x000000000000f237      0x297 /tmp/ccYUEoc5.debug.temp.o
+ .debug_line    0x000000000000f4ce      0x155 /tmp/ccPdGJk6.debug.temp.o
+ .debug_line    0x000000000000f623      0x150 /tmp/ccPyBk32.debug.temp.o
+
+.debug_str      0x0000000000000000     0x861e
+ .debug_str     0x0000000000000000      0x28c /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+                                        0x2a5 (size before relaxing)
+ .debug_str     0x000000000000028c      0x217 /tmp/DisplayEngine.dll.govlP6.ltrans1.ltrans.o
+ .debug_str     0x000000000000028c     0x153b /tmp/ccE9EGC5.debug.temp.o
+                                       0x1692 (size before relaxing)
+ .debug_str     0x00000000000017c7      0x27c /tmp/cckPdZb6.debug.temp.o
+                                        0x3a9 (size before relaxing)
+ .debug_str     0x0000000000001a43       0xd5 /tmp/ccZFN4c6.debug.temp.o
+                                        0x350 (size before relaxing)
+ .debug_str     0x0000000000001b18       0x55 /tmp/ccPjXeo3.debug.temp.o
+                                        0x344 (size before relaxing)
+ .debug_str     0x0000000000001b6d      0x87f /tmp/ccTGGXZ4.debug.temp.o
+                                       0x1e0c (size before relaxing)
+ .debug_str     0x00000000000023ec     0x173e /tmp/ccaykPB6.debug.temp.o
+                                       0x340a (size before relaxing)
+ .debug_str     0x0000000000003b2a      0x42c /tmp/ccDjzMe5.debug.temp.o
+                                       0x26f6 (size before relaxing)
+ .debug_str     0x0000000000003f56      0x2ca /tmp/ccFnL0I4.debug.temp.o
+                                       0x259b (size before relaxing)
+ .debug_str     0x0000000000004220      0x2ab /tmp/ccIsgRi4.debug.temp.o
+                                       0x2450 (size before relaxing)
+ .debug_str     0x00000000000044cb       0xb2 /tmp/cczBpPf4.debug.temp.o
+                                        0x474 (size before relaxing)
+ .debug_str     0x000000000000457d       0x49 /tmp/ccG8aIe4.debug.temp.o
+                                        0x467 (size before relaxing)
+ .debug_str     0x00000000000045c6       0x4f /tmp/ccKxFzf6.debug.temp.o
+                                        0x463 (size before relaxing)
+ .debug_str     0x0000000000004615      0x11a /tmp/ccq9mCf6.debug.temp.o
+                                        0x573 (size before relaxing)
+ .debug_str     0x000000000000472f      0x2bd /tmp/cc0xR3Y6.debug.temp.o
+                                        0x822 (size before relaxing)
+ .debug_str     0x00000000000049ec      0x2d5 /tmp/ccMdjC12.debug.temp.o
+                                        0x7e4 (size before relaxing)
+ .debug_str     0x0000000000004cc1      0x198 /tmp/ccKEb3n5.debug.temp.o
+                                        0x5e1 (size before relaxing)
+ .debug_str     0x0000000000004e59      0x10e /tmp/ccKf3gk4.debug.temp.o
+                                        0x3af (size before relaxing)
+ .debug_str     0x0000000000004f67       0x52 /tmp/ccRdvhe5.debug.temp.o
+                                        0x352 (size before relaxing)
+ .debug_str     0x0000000000004fb9       0x74 /tmp/ccZtTjU5.debug.temp.o
+                                        0x37b (size before relaxing)
+ .debug_str     0x000000000000502d       0x52 /tmp/ccfy50H3.debug.temp.o
+                                        0x36a (size before relaxing)
+ .debug_str     0x000000000000507f       0xff /tmp/cc3OiY92.debug.temp.o
+                                       0x156f (size before relaxing)
+ .debug_str     0x000000000000517e      0x30c /tmp/ccAH16R5.debug.temp.o
+                                       0x17db (size before relaxing)
+ .debug_str     0x000000000000548a      0x223 /tmp/cc0G4tQ4.debug.temp.o
+                                        0x59c (size before relaxing)
+ .debug_str     0x00000000000056ad      0x23e /tmp/ccym77i3.debug.temp.o
+                                        0x70e (size before relaxing)
+ .debug_str     0x00000000000058eb      0x10e /tmp/ccoJANN6.debug.temp.o
+                                       0x1571 (size before relaxing)
+ .debug_str     0x00000000000059f9      0xb22 /tmp/ccLN1dT3.debug.temp.o
+                                       0x21d2 (size before relaxing)
+ .debug_str     0x000000000000651b      0x759 /tmp/cc2byfp7.debug.temp.o
+                                       0x20b3 (size before relaxing)
+ .debug_str     0x0000000000006c74      0xc90 /tmp/cco6KVF6.debug.temp.o
+                                       0x35eb (size before relaxing)
+ .debug_str     0x0000000000007904       0xc6 /tmp/ccht0f13.debug.temp.o
+                                       0x2452 (size before relaxing)
+ .debug_str     0x00000000000079ca       0x89 /tmp/ccDosFi4.debug.temp.o
+                                       0x23c4 (size before relaxing)
+ .debug_str     0x0000000000007a53      0x721 /tmp/ccGnSwt3.debug.temp.o
+                                       0x24bb (size before relaxing)
+ .debug_str     0x0000000000008174      0x2e7 /tmp/cc1z7Lu3.debug.temp.o
+                                       0x24d6 (size before relaxing)
+ .debug_str     0x000000000000845b       0x88 /tmp/ccYUEoc5.debug.temp.o
+                                        0x632 (size before relaxing)
+ .debug_str     0x00000000000084e3       0x5d /tmp/ccPdGJk6.debug.temp.o
+                                        0x480 (size before relaxing)
+ .debug_str     0x0000000000008540       0xde /tmp/ccPyBk32.debug.temp.o
+                                        0x50a (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x12e8
+ .debug_frame   0x0000000000000000     0x12a8 /tmp/DisplayEngine.dll.govlP6.ltrans0.ltrans.o
+ .debug_frame   0x00000000000012a8       0x40 /tmp/DisplayEngine.dll.govlP6.ltrans1.ltrans.o

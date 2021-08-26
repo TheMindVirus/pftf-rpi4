@@ -52,7 +52,6 @@
   DebugLib
   HobLib
   IoLib
-  LocalApicLib
   PciLib
   ResourcePublicationLib
   PeiServicesLib
@@ -60,7 +59,6 @@
   MtrrLib
   MemEncryptSevLib
   PcdLib
-  SafeIntLib
   XenHypercallLib
 
 [Pcd]
@@ -68,7 +66,6 @@
   gUefiOvmfPkgTokenSpaceGuid.PcdOvmfPeiMemFvSize
   gUefiOvmfPkgTokenSpaceGuid.PcdOvmfDxeMemFvBase
   gUefiOvmfPkgTokenSpaceGuid.PcdOvmfDxeMemFvSize
-  gUefiOvmfPkgTokenSpaceGuid.PcdOvmfSecPageTablesBase
   gUefiOvmfPkgTokenSpaceGuid.PcdOvmfLockBoxStorageBase
   gUefiOvmfPkgTokenSpaceGuid.PcdOvmfLockBoxStorageSize
   gUefiOvmfPkgTokenSpaceGuid.PcdOvmfHostBridgePciDevId
@@ -81,10 +78,10 @@
   gUefiOvmfPkgTokenSpaceGuid.PcdQ35TsegMbytes
   gEfiMdeModulePkgTokenSpaceGuid.PcdFlashNvStorageFtwSpareSize
   gEfiMdeModulePkgTokenSpaceGuid.PcdEmuVariableNvStoreReserved
+  gEfiMdeModulePkgTokenSpaceGuid.PcdPciDisableBusEnumeration
   gEfiMdeModulePkgTokenSpaceGuid.PcdDxeIplSwitchToLongMode
   gEfiMdeModulePkgTokenSpaceGuid.PcdUse1GPageTable
   gEfiMdeModulePkgTokenSpaceGuid.PcdPteMemoryEncryptionAddressOrMask
-  gEfiMdePkgTokenSpaceGuid.PcdFSBClock
   gEfiSecurityPkgTokenSpaceGuid.PcdOptionRomImageVerificationPolicy
   gUefiCpuPkgTokenSpaceGuid.PcdCpuLocalApicBaseAddress
 

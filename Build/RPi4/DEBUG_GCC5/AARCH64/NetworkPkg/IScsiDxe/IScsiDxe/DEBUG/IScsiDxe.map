@@ -1,0 +1,2218 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/CryptoPkg/Library/IntrinsicLib/IntrinsicLib/OUTPUT/BaseIntrinsicLib.lib(MemoryIntrinsics.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memset)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                              (_ModuleEntryPoint)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib(BaseStackCheckGcc.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (__stack_chk_fail)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memcpy.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memcpy)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/NetworkPkg/IScsiDxe/IScsiDxe/OUTPUT/IScsiDxe.lib(AutoGen.obj)
+                              DriverEntryPoint.obj (symbol from plugin) (ProcessLibraryConstructorList)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/NetworkPkg/IScsiDxe/IScsiDxe/OUTPUT/IScsiDxe.lib(IScsiDriver.obj)
+                              AutoGen.obj (symbol from plugin) (IScsiUnload)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/NetworkPkg/IScsiDxe/IScsiDxe/OUTPUT/IScsiDxe.lib(IScsiIbft.obj)
+                              IScsiDriver.obj (symbol from plugin) (IScsiPublishIbft)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/NetworkPkg/IScsiDxe/IScsiDxe/OUTPUT/IScsiDxe.lib(IScsiInitiatorName.obj)
+                              IScsiDriver.obj (symbol from plugin) (gIScsiInitiatorName)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/NetworkPkg/IScsiDxe/IScsiDxe/OUTPUT/IScsiDxe.lib(IScsiMisc.obj)
+                              IScsiIbft.obj (symbol from plugin) (IScsiGetSubnetMaskPrefixLength)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/NetworkPkg/IScsiDxe/IScsiDxe/OUTPUT/IScsiDxe.lib(IScsiProto.obj)
+                              IScsiDriver.obj (symbol from plugin) (IScsiSessionLogin)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/NetworkPkg/IScsiDxe/IScsiDxe/OUTPUT/IScsiDxe.lib(ComponentName.obj)
+                              IScsiDriver.obj (symbol from plugin) (gIScsiComponentName)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/NetworkPkg/IScsiDxe/IScsiDxe/OUTPUT/IScsiDxe.lib(IScsiAuthenticationInfo.obj)
+                              IScsiDriver.obj (symbol from plugin) (gIScsiAuthenticationInfo)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/NetworkPkg/IScsiDxe/IScsiDxe/OUTPUT/IScsiDxe.lib(IScsiCHAP.obj)
+                              IScsiProto.obj (symbol from plugin) (IScsiCHAPOnRspReceived)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/NetworkPkg/IScsiDxe/IScsiDxe/OUTPUT/IScsiDxe.lib(IScsiConfig.obj)
+                              IScsiIbft.obj (symbol from plugin) (IScsiConfigGetAttemptByConfigIndex)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/NetworkPkg/IScsiDxe/IScsiDxe/OUTPUT/IScsiDxe.lib(IScsiConfigVfr.obj)
+                              IScsiConfig.obj (symbol from plugin) (IScsiConfigVfrBin)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/NetworkPkg/IScsiDxe/IScsiDxe/OUTPUT/IScsiDxe.lib(IScsiDhcp.obj)
+                              IScsiMisc.obj (symbol from plugin) (IScsiDoDhcp)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/NetworkPkg/IScsiDxe/IScsiDxe/OUTPUT/IScsiDxe.lib(IScsiDhcp6.obj)
+                              IScsiMisc.obj (symbol from plugin) (IScsiDoDhcp6)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/NetworkPkg/IScsiDxe/IScsiDxe/OUTPUT/IScsiDxe.lib(IScsiDns.obj)
+                              IScsiProto.obj (symbol from plugin) (IScsiDns4)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/NetworkPkg/IScsiDxe/IScsiDxe/OUTPUT/IScsiDxe.lib(IScsiExtScsiPassThru.obj)
+                              IScsiMisc.obj (symbol from plugin) (gIScsiExtScsiPassThruProtocolTemplate)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+                              IScsiDriver.obj (symbol from plugin) (CompareGuid)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+                              IScsiIbft.obj (symbol from plugin) (ZeroMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMemWrapper.obj)
+                              MemoryIntrinsics.obj (symbol from plugin) (CompareMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+                              IScsiExtScsiPassThru.obj (symbol from plugin) (SetMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+                              IScsiDriver.obj (symbol from plugin) (CopyMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                              ZeroMemWrapper.obj (symbol from plugin) (InternalMemZeroMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCopyMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                              CompareMemWrapper.obj (symbol from plugin) (InternalMemCompareMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCompareGuid)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+                              SetMemWrapper.obj (symbol from plugin) (SetMem64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CheckSum.obj)
+                              IScsiIbft.obj (symbol from plugin) (CalculateCheckSum8)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              IScsiProto.obj (symbol from plugin) (SwapBytes32)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              IScsiMisc.obj (symbol from plugin) (SwapBytes16)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              IScsiProto.obj (symbol from plugin) (MultU64x32)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuDeadLoop)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LinkedList.obj)
+                              IScsiDriver.obj (symbol from plugin) (InitializeListHead)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              IScsiConfig.obj (symbol from plugin) (AsciiStrCpyS)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              IScsiMisc.obj (symbol from plugin) (StrLen)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              MultU64x32.obj (symbol from plugin) (InternalMathMultU64x32)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuBreakpoint)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              SafeString.obj (symbol from plugin) (RShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              SafeString.obj (symbol from plugin) (LShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              SafeString.obj (symbol from plugin) (DivU64x32)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              IScsiDriver.obj (symbol from plugin) (UnicodeSPrint)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              PrintLib.obj (symbol from plugin) (BasePrintLibConvertValueToStringS)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+                              AutoGen.obj (symbol from plugin) (BaseDebugLibSerialPortConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiBootServicesTableLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              IScsiProto.obj (symbol from plugin) (AllocatePool)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiRuntimeServicesTableLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilities.obj)
+                              IScsiMisc.obj (symbol from plugin) (DevicePathType)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilitiesDxeSmm.obj)
+                              DevicePathUtilities.obj (symbol from plugin) (DevicePathFromHandle)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(UefiDevicePathLib.obj)
+                              DevicePathUtilities.obj (symbol from plugin) (GetDevicePathSize)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathToText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertDeviceNodeToText)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathFromText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertTextToDeviceNode)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib(UefiHiiServicesLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiHiiServicesLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLibPrint.obj)
+                              IScsiDhcp.obj (symbol from plugin) (AsciiPrint)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiDriverModel.obj)
+                              IScsiDriver.obj (symbol from plugin) (EfiLibInstallDriverBindingComponentName2)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(Console.obj)
+                              IScsiConfig.obj (symbol from plugin) (CreatePopUp)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLib.obj)
+                              IScsiConfig.obj (symbol from plugin) (HiiAddPackages)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiString.obj)
+                              IScsiMisc.obj (symbol from plugin) (HiiSetString)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLanguage.obj)
+                              HiiString.obj (symbol from plugin) (HiiGetSupportedLanguages)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/NetworkPkg/Library/DxeNetLib/DxeNetLib/OUTPUT/DxeNetLib.lib(DxeNetLib.obj)
+                              IScsiConfig.obj (symbol from plugin) (NetIp4IsUnicast)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/NetworkPkg/Library/DxeNetLib/DxeNetLib/OUTPUT/DxeNetLib.lib(NetBuffer.obj)
+                              IScsiProto.obj (symbol from plugin) (NetbufAlloc)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/NetworkPkg/Library/DxeTcpIoLib/DxeTcpIoLib/OUTPUT/DxeTcpIoLib.lib(DxeTcpIoLib.obj)
+                              IScsiProto.obj (symbol from plugin) (TcpIoDestroySocket)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/CryptoPkg/Library/BaseCryptLib/BaseCryptLib/OUTPUT/BaseCryptLib.lib(CryptMd5.obj)
+                              IScsiCHAP.obj (symbol from plugin) (Md5GetContextSize)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem16Wrapper.obj)
+                              Console.obj (symbol from plugin) (SetMem16)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+                              DevicePathFromText.obj (symbol from plugin) (SwapBytes64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              PrintLibInternal.obj (symbol from plugin) (DivU64x32Remainder)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+                              HiiLib.obj (symbol from plugin) (BitFieldRead32)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              PrintLibInternal.obj (symbol from plugin) (ReadUnaligned16)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+                              DebugLib.obj (symbol from plugin) (GetDebugPrintErrorLevel)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/Platform/RaspberryPi/Library/DualSerialPortLib/DebugDualSerialPortLib/OUTPUT/DebugDualSerialPortLib.lib(DebugDualSerialPortLib.obj)
+                              DebugLib.obj (symbol from plugin) (SerialPortInitialize)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/Platform/RaspberryPi/Library/DualSerialPortLib/DebugDualSerialPortLib/OUTPUT/DebugDualSerialPortLib.lib(DualSerialPortLibCommon.obj)
+                              DebugLib.obj (symbol from plugin) (SerialPortWrite)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/CryptoPkg/Library/OpensslLib/OpensslLib/OUTPUT/OpensslLib.lib(md5_dgst.obj)
+                              CryptMd5.obj (symbol from plugin) (MD5_Init)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/CryptoPkg/Library/OpensslLib/OpensslLib/OUTPUT/OpensslLib.lib(md5_one.obj)
+                              CryptMd5.obj (symbol from plugin) (MD5)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/CryptoPkg/Library/OpensslLib/OpensslLib/OUTPUT/OpensslLib.lib(mem_clr.obj)
+                              md5_dgst.obj (symbol from plugin) (OPENSSL_cleanse)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib(IoLibNoIo.obj)
+                              DualSerialPortLibCommon.obj (symbol from plugin) (MmioRead8)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib(PL011UartLib.obj)
+                              DualSerialPortLibCommon.obj (symbol from plugin) (PL011UartWrite)
+
+Discarded input sections
+
+ .text          0x0000000000000000       0x10 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .text          0x0000000000000000        0x0 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdComponentName2Disable
+                0x0000000000000000        0x1 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdDebugPropertyMask
+                0x0000000000000000        0x1 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel
+                0x0000000000000000        0x4 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength
+                0x0000000000000000        0x4 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata._gUefiDriverRevision
+                0x0000000000000000        0x4 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdMaxIScsiAttemptNumber
+                0x0000000000000000        0x1 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .data._fltused
+                0x0000000000000000        0x4 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/ccw2raak.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccw2raak.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccpGNbGn.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccpGNbGn.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cckR7Nkl.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cckR7Nkl.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cct2IKCn.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cct2IKCn.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccmChiOl.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccmChiOl.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccuLqMrj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccuLqMrj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccLT4kLj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccLT4kLj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccldPAAn.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccldPAAn.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccqIIQUk.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccqIIQUk.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccWVW4Mn.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWVW4Mn.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccXWU2gk.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXWU2gk.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc4xLtBm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc4xLtBm.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccvZ9Efj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccvZ9Efj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccSsifZm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccSsifZm.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccHnYLOj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccHnYLOj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccpwPKCk.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccpwPKCk.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc1Uypml.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc1Uypml.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccN7tell.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccN7tell.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccmXJ93k.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccmXJ93k.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc7t5Qgj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc7t5Qgj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc3HWtpn.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc3HWtpn.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc3mr71k.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc3mr71k.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc7aCspk.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc7aCspk.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc6eHE8m.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6eHE8m.debug.temp.o
+ .debug_info    0x0000000000000000      0x186 /tmp/ccCHzINl.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccCHzINl.debug.temp.o
+ .debug_line    0x0000000000000000      0x174 /tmp/ccCHzINl.debug.temp.o
+ .debug_str     0x0000000000000000      0x360 /tmp/ccCHzINl.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccCHzINl.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccCHzINl.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccxlwkZj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccxlwkZj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccX8YIZk.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccX8YIZk.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccLphdQj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccLphdQj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc7e1mnk.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc7e1mnk.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc34e7Qn.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc34e7Qn.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccZbxqXm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccZbxqXm.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccwSPcGj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccwSPcGj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccMBvV1m.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccMBvV1m.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc9WQA5k.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc9WQA5k.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccPcvKkm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPcvKkm.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccNjZIHk.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccNjZIHk.debug.temp.o
+ .debug_info    0x0000000000000000      0x1cf /tmp/ccNYIrUk.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccNYIrUk.debug.temp.o
+ .debug_line    0x0000000000000000      0x14a /tmp/ccNYIrUk.debug.temp.o
+ .debug_str     0x0000000000000000      0x462 /tmp/ccNYIrUk.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccNYIrUk.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccNYIrUk.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccZxpgMm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccZxpgMm.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc09qiuk.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc09qiuk.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccK8Zegj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccK8Zegj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccYlvd3m.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccYlvd3m.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc4I7Zcm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc4I7Zcm.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccPWSxIj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPWSxIj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccTXKSdl.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccTXKSdl.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc2YlZ2l.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc2YlZ2l.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccvjAmMm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccvjAmMm.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccWzDpQl.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWzDpQl.debug.temp.o
+ .debug_info    0x0000000000000000     0x45d4 /tmp/ccG5jTkj.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x2b0 /tmp/ccG5jTkj.debug.temp.o
+ .debug_line    0x0000000000000000      0x3cf /tmp/ccG5jTkj.debug.temp.o
+ .debug_str     0x0000000000000000     0x2f11 /tmp/ccG5jTkj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccG5jTkj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccG5jTkj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccMBMcIn.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccMBMcIn.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc6GvGIl.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6GvGIl.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccxQPgWl.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccxQPgWl.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc77FPLn.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc77FPLn.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccA6rNGm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccA6rNGm.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccJl1b1m.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccJl1b1m.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccz3p8gk.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccz3p8gk.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc9tmOrl.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc9tmOrl.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccMWFiBm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccMWFiBm.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccoKLdpn.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccoKLdpn.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccvjWrGl.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccvjWrGl.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccOlIDOl.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccOlIDOl.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccZkphNn.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccZkphNn.debug.temp.o
+ .debug_info    0x0000000000000000      0x1c3 /tmp/ccrfzYAl.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccrfzYAl.debug.temp.o
+ .debug_line    0x0000000000000000      0x14c /tmp/ccrfzYAl.debug.temp.o
+ .debug_str     0x0000000000000000      0x45b /tmp/ccrfzYAl.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccrfzYAl.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccrfzYAl.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccxxCHck.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccxxCHck.debug.temp.o
+ .debug_info    0x0000000000000000      0x89f /tmp/cczOftej.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xf9 /tmp/cczOftej.debug.temp.o
+ .debug_line    0x0000000000000000      0x149 /tmp/cczOftej.debug.temp.o
+ .debug_str     0x0000000000000000      0x64e /tmp/cczOftej.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cczOftej.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cczOftej.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccGu5rmj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccGu5rmj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cclL2eKj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cclL2eKj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccGMGiHk.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccGMGiHk.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cca2Ev6k.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cca2Ev6k.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cceLd4Vm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cceLd4Vm.debug.temp.o
+ .debug_info    0x0000000000000000      0x26f /tmp/ccsduCSm.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xf2 /tmp/ccsduCSm.debug.temp.o
+ .debug_line    0x0000000000000000      0x211 /tmp/ccsduCSm.debug.temp.o
+ .debug_str     0x0000000000000000      0x349 /tmp/ccsduCSm.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccsduCSm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccsduCSm.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccXZlpAm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXZlpAm.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc5bjjIm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc5bjjIm.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccN2ZL2m.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccN2ZL2m.debug.temp.o
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .text          0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+START GROUP
+LOAD /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+LOAD /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+LOAD /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+LOAD /tmp/ccw2raak.debug.temp.o
+LOAD /tmp/ccpGNbGn.debug.temp.o
+LOAD /tmp/cckR7Nkl.debug.temp.o
+LOAD /tmp/cct2IKCn.debug.temp.o
+LOAD /tmp/ccmChiOl.debug.temp.o
+LOAD /tmp/ccuLqMrj.debug.temp.o
+LOAD /tmp/ccLT4kLj.debug.temp.o
+LOAD /tmp/ccldPAAn.debug.temp.o
+LOAD /tmp/ccqIIQUk.debug.temp.o
+LOAD /tmp/ccWVW4Mn.debug.temp.o
+LOAD /tmp/ccXWU2gk.debug.temp.o
+LOAD /tmp/cc4xLtBm.debug.temp.o
+LOAD /tmp/ccvZ9Efj.debug.temp.o
+LOAD /tmp/ccSsifZm.debug.temp.o
+LOAD /tmp/ccHnYLOj.debug.temp.o
+LOAD /tmp/ccpwPKCk.debug.temp.o
+LOAD /tmp/cc1Uypml.debug.temp.o
+LOAD /tmp/ccN7tell.debug.temp.o
+LOAD /tmp/ccmXJ93k.debug.temp.o
+LOAD /tmp/cc7t5Qgj.debug.temp.o
+LOAD /tmp/cc3HWtpn.debug.temp.o
+LOAD /tmp/cc3mr71k.debug.temp.o
+LOAD /tmp/cc7aCspk.debug.temp.o
+LOAD /tmp/cc6eHE8m.debug.temp.o
+LOAD /tmp/ccCHzINl.debug.temp.o
+LOAD /tmp/ccxlwkZj.debug.temp.o
+LOAD /tmp/ccX8YIZk.debug.temp.o
+LOAD /tmp/ccLphdQj.debug.temp.o
+LOAD /tmp/cc7e1mnk.debug.temp.o
+LOAD /tmp/cc34e7Qn.debug.temp.o
+LOAD /tmp/ccZbxqXm.debug.temp.o
+LOAD /tmp/ccwSPcGj.debug.temp.o
+LOAD /tmp/ccMBvV1m.debug.temp.o
+LOAD /tmp/cc9WQA5k.debug.temp.o
+LOAD /tmp/ccPcvKkm.debug.temp.o
+LOAD /tmp/ccNjZIHk.debug.temp.o
+LOAD /tmp/ccNYIrUk.debug.temp.o
+LOAD /tmp/ccZxpgMm.debug.temp.o
+LOAD /tmp/cc09qiuk.debug.temp.o
+LOAD /tmp/ccK8Zegj.debug.temp.o
+LOAD /tmp/ccYlvd3m.debug.temp.o
+LOAD /tmp/cc4I7Zcm.debug.temp.o
+LOAD /tmp/ccPWSxIj.debug.temp.o
+LOAD /tmp/ccTXKSdl.debug.temp.o
+LOAD /tmp/cc2YlZ2l.debug.temp.o
+LOAD /tmp/ccvjAmMm.debug.temp.o
+LOAD /tmp/ccWzDpQl.debug.temp.o
+LOAD /tmp/ccG5jTkj.debug.temp.o
+LOAD /tmp/ccMBMcIn.debug.temp.o
+LOAD /tmp/cc6GvGIl.debug.temp.o
+LOAD /tmp/ccxQPgWl.debug.temp.o
+LOAD /tmp/cc77FPLn.debug.temp.o
+LOAD /tmp/ccA6rNGm.debug.temp.o
+LOAD /tmp/ccJl1b1m.debug.temp.o
+LOAD /tmp/ccz3p8gk.debug.temp.o
+LOAD /tmp/cc9tmOrl.debug.temp.o
+LOAD /tmp/ccMWFiBm.debug.temp.o
+LOAD /tmp/ccoKLdpn.debug.temp.o
+LOAD /tmp/ccvjWrGl.debug.temp.o
+LOAD /tmp/ccOlIDOl.debug.temp.o
+LOAD /tmp/ccZkphNn.debug.temp.o
+LOAD /tmp/ccrfzYAl.debug.temp.o
+LOAD /tmp/ccxxCHck.debug.temp.o
+LOAD /tmp/cczOftej.debug.temp.o
+LOAD /tmp/ccGu5rmj.debug.temp.o
+LOAD /tmp/cclL2eKj.debug.temp.o
+LOAD /tmp/ccGMGiHk.debug.temp.o
+LOAD /tmp/cca2Ev6k.debug.temp.o
+LOAD /tmp/cceLd4Vm.debug.temp.o
+LOAD /tmp/ccsduCSm.debug.temp.o
+LOAD /tmp/ccXZlpAm.debug.temp.o
+LOAD /tmp/cc5bjjIm.debug.temp.o
+LOAD /tmp/ccN2ZL2m.debug.temp.o
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/NetworkPkg/IScsiDxe/IScsiDxe/OUTPUT/IScsiDxe.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/Platform/RaspberryPi/Library/DualSerialPortLib/DebugDualSerialPortLib/OUTPUT/DebugDualSerialPortLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeRngLib/DxeRngLib/OUTPUT/DxeRngLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/CryptoPkg/Library/IntrinsicLib/IntrinsicLib/OUTPUT/BaseIntrinsicLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/CryptoPkg/Library/OpensslLib/OpensslLib/OUTPUT/OpensslLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/NetworkPkg/Library/DxeNetLib/DxeNetLib/OUTPUT/DxeNetLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/NetworkPkg/Library/DxeTcpIoLib/DxeTcpIoLib/OUTPUT/DxeTcpIoLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/CryptoPkg/Library/BaseCryptLib/BaseCryptLib/OUTPUT/BaseCryptLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib
+END GROUP
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.gnu.version_d  0x0000000000000228        0x0
+ .gnu.version_d
+                0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version    0x0000000000000228        0x0
+ .gnu.version   0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version_r  0x0000000000000228        0x0
+ .gnu.version_r
+                0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.text           0x0000000000001000    0x1b7a8
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.SerialPortWritable.constprop.0
+                0x0000000000001000        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.InternalAllocatePool.constprop.0
+                0x0000000000001008       0x6c /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.TcpIoCommonNotify
+                0x0000000000001074       0x18 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000001074                TcpIoCommonNotify
+ .text.NetbufBuildExt
+                0x000000000000108c       0x70 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.UefiLibGetStringWidth.part.0
+                0x00000000000010fc       0x84 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.DevicePathFromHandle
+                0x0000000000001180       0x6c /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.DebugCodeEnabled
+                0x00000000000011ec        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.BasePrintLibFillBuffer
+                0x00000000000011f4       0x34 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.InternalAsciiHexCharToUintn
+                0x0000000000001228       0x40 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.InternalAsciiIsHexaDecimalDigitCharacter
+                0x0000000000001268       0x34 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.InternalHexCharToUintn
+                0x000000000000129c       0x40 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.AsciiStrnLenS
+                0x00000000000012dc       0x3c /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.InternalSafeStringIsOverlap
+                0x0000000000001318       0x3c /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.DebugAssertEnabled
+                0x0000000000001354        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000001354                DebugAssertEnabled
+ .text.IScsiBinToHex.constprop.0
+                0x000000000000135c       0x84 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000000135c                IScsiBinToHex.constprop.0
+ .text.DebugPrintLevelEnabled
+                0x00000000000013e0        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x00000000000013e0                DebugPrintLevelEnabled
+ .text.md5_block_data_order
+                0x00000000000013e8      0xa20 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x00000000000013e8                md5_block_data_order
+ .text.Md5Update
+                0x0000000000001e08      0x150 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000001e08                Md5Update
+ .text.TcpIoReset
+                0x0000000000001f58       0xc0 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000001f58                TcpIoReset
+ .text.NetLibGetSnpHandle
+                0x0000000000002018       0xfc /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000002018                NetLibGetSnpHandle
+ .text.AllocateZeroPool
+                0x0000000000002114       0x34 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000002114                AllocateZeroPool
+ .text.IScsiGetVariableAndSize.constprop.0
+                0x0000000000002148       0xe4 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000002148                IScsiGetVariableAndSize.constprop.0
+ .text.InternalHiiBrowserCallback.constprop.0
+                0x000000000000222c      0x124 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000000222c                InternalHiiBrowserCallback.constprop.0
+ .text.AllocatePool
+                0x0000000000002350        0x4 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000002350                AllocatePool
+ .text.DebugPrintEnabled
+                0x0000000000002354        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000002354                DebugPrintEnabled
+ .text.BaseDebugLibSerialPortConstructor
+                0x000000000000235c        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000000235c                BaseDebugLibSerialPortConstructor
+ .text.AsciiStrLen
+                0x0000000000002364       0x90 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000002364                AsciiStrLen
+ .text.DebugAssert
+                0x00000000000023f4       0x8c /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x00000000000023f4                DebugAssert
+ .text.InternalAllocateCopyPool.constprop.0
+                0x0000000000002480       0x8c /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000002480                InternalAllocateCopyPool.constprop.0
+ .text.SerialPortWrite
+                0x000000000000250c      0x120 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.WriteUnaligned16
+                0x000000000000262c       0x18 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000000262c                WriteUnaligned16
+ .text.WriteUnaligned32
+                0x0000000000002644       0x2c /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.ReadUnaligned16
+                0x0000000000002670       0x5c /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.ReadUnaligned32
+                0x00000000000026cc       0x50 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.ReadUnaligned24
+                0x000000000000271c       0x4c /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000000271c                ReadUnaligned24
+ .text.SetMem16
+                0x0000000000002768       0xa0 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.NetbufCopy
+                0x0000000000002808      0x1b0 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.NetbufQueCopy.constprop.0
+                0x00000000000029b8      0x1a8 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x00000000000029b8                NetbufQueCopy.constprop.0
+ .text.NetblockTrim
+                0x0000000000002b60       0x88 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.NetbufTrim
+                0x0000000000002be8      0x108 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000002be8                NetbufTrim
+ .text.NetbufSetBlock
+                0x0000000000002cf0       0xf4 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.NetbufGetByte
+                0x0000000000002de4       0xcc /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000002de4                NetbufGetByte
+ .text.NetbufAllocSpace.constprop.0
+                0x0000000000002eb0      0x18c /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000002eb0                NetbufAllocSpace.constprop.0
+ .text.NetLibGetNicHandle
+                0x000000000000303c       0xb8 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000000303c                NetLibGetNicHandle
+ .text.NetLibGetMacAddress
+                0x00000000000030f4      0x158 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x00000000000030f4                NetLibGetMacAddress
+ .text.NetLibDestroyServiceChild
+                0x000000000000324c       0x84 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000000324c                NetLibDestroyServiceChild
+ .text.NetLibCreateServiceChild
+                0x00000000000032d0       0xd0 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x00000000000032d0                NetLibCreateServiceChild
+ .text.NetIp4IsUnicast
+                0x00000000000033a0       0xa8 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x00000000000033a0                NetIp4IsUnicast
+ .text.EfiGetSystemConfigurationTable
+                0x0000000000003448       0x94 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000003448                EfiGetSystemConfigurationTable
+ .text.DevicePathNodeLength
+                0x00000000000034dc       0x50 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x00000000000034dc                DevicePathNodeLength
+ .text.NextDevicePathNode
+                0x000000000000352c       0x50 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000000352c                NextDevicePathNode
+ .text.DevicePathSubType
+                0x000000000000357c       0x48 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000000357c                DevicePathSubType
+ .text.DevicePathType
+                0x00000000000035c4       0x48 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x00000000000035c4                DevicePathType
+ .text.IsDevicePathEnd
+                0x000000000000360c       0x94 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000000360c                IsDevicePathEnd
+ .text.NetLibGetVlanId
+                0x00000000000036a0       0x5c /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x00000000000036a0                NetLibGetVlanId
+ .text.UefiDevicePathLibGetDevicePathSize
+                0x00000000000036fc       0xfc /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x00000000000036fc                UefiDevicePathLibGetDevicePathSize
+ .text.BasePrintLibValueToString
+                0x00000000000037f8       0x2c /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.UnicodeValueToStringS.constprop.0
+                0x0000000000003824      0x16c /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.StrnLenS
+                0x0000000000003990       0x70 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.BasePrintLibSPrintMarker.constprop.0
+                0x0000000000003a00      0xde0 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.BasePrintLibSPrint.constprop.0
+                0x00000000000047e0       0xa0 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.AsciiSPrint.constprop.0
+                0x0000000000004880       0xb4 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000004880                AsciiSPrint.constprop.0
+ .text.UnicodeVSPrintAsciiFormat.constprop.0
+                0x0000000000004934       0x74 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.UnicodeSPrint
+                0x00000000000049a8       0xd4 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x00000000000049a8                UnicodeSPrint
+ .text.IScsiIpToStr.constprop.0
+                0x0000000000004a7c       0x28 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000004a7c                IScsiIpToStr.constprop.0
+ .text.DebugPrint
+                0x0000000000004aa4       0xd0 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000004aa4                DebugPrint
+ .text.EfiLibUninstallDriverBindingComponentName2.constprop.0
+                0x0000000000004b74       0xbc /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000004b74                EfiLibUninstallDriverBindingComponentName2.constprop.0
+ .text.EfiLibInstallDriverBindingComponentName2.constprop.0
+                0x0000000000004c30       0xc8 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000004c30                EfiLibInstallDriverBindingComponentName2.constprop.0
+ .text.StrHexToUintn.constprop.0
+                0x0000000000004cf8      0x130 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000004cf8                StrHexToUintn.constprop.0
+ .text.StrCpyS.constprop.0
+                0x0000000000004e28      0x1e0 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.StrToIpv4Address.constprop.0
+                0x0000000000005008      0x258 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.NetLibStrToIp4
+                0x0000000000005260       0x78 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000005260                NetLibStrToIp4
+ .text.FreePool
+                0x00000000000052d8       0x7c /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x00000000000052d8                FreePool
+ .text.GetVariable2.constprop.0
+                0x0000000000005354      0x148 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000005354                GetVariable2.constprop.0
+ .text.HiiUpdateForm.constprop.0
+                0x000000000000549c      0x50c /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000000549c                HiiUpdateForm.constprop.0
+ .text.HiiAddPackages.constprop.0
+                0x00000000000059a8      0x1c0 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x00000000000059a8                HiiAddPackages.constprop.0
+ .text.TcpIoReceive.constprop.0
+                0x0000000000005b68      0x264 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.NetLibDetectMedia.constprop.0
+                0x0000000000005dcc      0x240 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.AsciiPrint.constprop.0
+                0x000000000000600c      0x158 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000000600c                AsciiPrint.constprop.0
+ .text.TcpIoTransmit
+                0x0000000000006164      0x168 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000006164                TcpIoTransmit
+ .text.TcpIoDestroySocket
+                0x00000000000062cc      0x180 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x00000000000062cc                TcpIoDestroySocket
+ .text.NetbufFree
+                0x000000000000644c      0x1bc /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000000644c                NetbufFree
+ .text.NetbufAllocStruct
+                0x0000000000006608       0xd0 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.NetbufFromExt.constprop.0
+                0x00000000000066d8       0xc8 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.NetbufFromBufList.constprop.0
+                0x00000000000067a0      0x184 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x00000000000067a0                NetbufFromBufList.constprop.0
+ .text.IScsiNewDataSegment.constprop.0
+                0x0000000000006924       0x88 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000006924                IScsiNewDataSegment.constprop.0
+ .text.NetbufAlloc
+                0x00000000000069ac       0x7c /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x00000000000069ac                NetbufAlloc
+ .text.IScsiReceivePdu.constprop.0
+                0x0000000000006a28      0x21c /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000006a28                IScsiReceivePdu.constprop.0
+ .text.NetLibDetectMediaWaitTimeout
+                0x0000000000006c44      0x294 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000006c44                NetLibDetectMediaWaitTimeout
+ .text.InternalHiiGrowOpCodeHandle
+                0x0000000000006ed8      0x10c /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000006ed8                InternalHiiGrowOpCodeHandle
+ .text.InternalHiiCreateOpCodeExtended
+                0x0000000000006fe4       0xa4 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000006fe4                InternalHiiCreateOpCodeExtended
+ .text.HiiCreateGuidOpCode.constprop.0
+                0x0000000000007088       0x80 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000007088                HiiCreateGuidOpCode.constprop.0
+ .text.InternalHiiCreateOpCode
+                0x0000000000007108        0xc /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000007108                InternalHiiCreateOpCode
+ .text.HiiCreateStringOpCode.constprop.0
+                0x0000000000007114       0xcc /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000007114                HiiCreateStringOpCode.constprop.0
+ .text.HiiCreateNumericOpCode.constprop.0
+                0x00000000000071e0       0xf0 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x00000000000071e0                HiiCreateNumericOpCode.constprop.0
+ .text.HiiCreateGotoOpCode.constprop.0
+                0x00000000000072d0       0xa0 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x00000000000072d0                HiiCreateGotoOpCode.constprop.0
+ .text.HiiFreeOpCodeHandle
+                0x0000000000007370       0x54 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000007370                HiiFreeOpCodeHandle
+ .text.HiiAllocateOpCodeHandle
+                0x00000000000073c4       0x54 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x00000000000073c4                HiiAllocateOpCodeHandle
+ .text.FreeUnicodeStringTable
+                0x0000000000007418       0x58 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000007418                FreeUnicodeStringTable
+ .text.EfiTestChildHandle
+                0x0000000000007470       0xb8 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000007470                EfiTestChildHandle
+ .text.AsciiStrHexToUint64
+                0x0000000000007528      0x11c /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000007528                AsciiStrHexToUint64
+ .text.AsciiStrHexToUintnS
+                0x0000000000007644      0x184 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.AsciiStrHexToUintn
+                0x00000000000077c8       0x50 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x00000000000077c8                AsciiStrHexToUintn
+ .text.AsciiStrDecimalToUintnS
+                0x0000000000007818      0x150 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.AsciiStrToIpv4Address.constprop.0
+                0x0000000000007968      0x1a8 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.NetLibAsciiStrToIp4
+                0x0000000000007b10       0x78 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000007b10                NetLibAsciiStrToIp4
+ .text.AsciiStrToIpv6Address.constprop.0
+                0x0000000000007b88      0x2b0 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.NetLibAsciiStrToIp6
+                0x0000000000007e38       0x78 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000007e38                NetLibAsciiStrToIp6
+ .text.AsciiStrDecimalToUintn
+                0x0000000000007eb0       0x50 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000007eb0                AsciiStrDecimalToUintn
+ .text.StrCatS  0x0000000000007f00      0x254 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.StrnCpyS
+                0x0000000000008154      0x290 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.CreatePopUp.constprop.0
+                0x00000000000083e4      0x524 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x00000000000083e4                CreatePopUp.constprop.0
+ .text.AsciiStrSize
+                0x0000000000008908       0x18 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000008908                AsciiStrSize
+ .text.AsciiStrnCmp
+                0x0000000000008920       0xd4 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.HiiSetString
+                0x00000000000089f4      0x230 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x00000000000089f4                HiiSetString
+ .text.IsLanguageSupported
+                0x0000000000008c24       0x8c /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000008c24                IsLanguageSupported
+ .text.LookupUnicodeString2
+                0x0000000000008cb0       0xf8 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000008cb0                LookupUnicodeString2
+ .text.AsciiStrCmp
+                0x0000000000008da8       0x88 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000008da8                AsciiStrCmp
+ .text.StrHexToUint64
+                0x0000000000008e30      0x130 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000008e30                StrHexToUint64
+ .text.StrLen   0x0000000000008f60       0xa4 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000008f60                StrLen
+ .text.HiiConstructConfigHdr.constprop.0
+                0x0000000000009004      0x1fc /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000009004                HiiConstructConfigHdr.constprop.0
+ .text.StrSize  0x0000000000009200       0x1c /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000009200                StrSize
+ .text.AddUnicodeString2.part.0.constprop.0
+                0x000000000000921c      0x150 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000000921c                AddUnicodeString2.part.0.constprop.0
+ .text.StrStr   0x000000000000936c       0xac /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000000936c                StrStr
+ .text.StrnCmp  0x0000000000009418       0xd4 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.InternalHiiCompareSubString
+                0x00000000000094ec       0xf8 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .text.HiiIsConfigHdrMatch.constprop.0
+                0x00000000000095e4       0xb4 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x00000000000095e4                HiiIsConfigHdrMatch.constprop.0
+ .text.StrCmp   0x0000000000009698       0x88 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000009698                StrCmp
+ .text.AsciiStrToUnicodeStrS
+                0x0000000000009720      0x208 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000009720                AsciiStrToUnicodeStrS
+ .text.UnicodeStrToAsciiStrS
+                0x0000000000009928      0x1e0 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000009928                UnicodeStrToAsciiStrS
+ .text.AsciiStrCpyS
+                0x0000000000009b08      0x1d8 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000009b08                AsciiStrCpyS
+ .text.IsListEmpty
+                0x0000000000009ce0       0x4c /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000009ce0                IsListEmpty
+ .text.NetListRemoveHead
+                0x0000000000009d2c       0x80 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000009d2c                NetListRemoveHead
+ .text.IScsiConfigFormUnload.constprop.0
+                0x0000000000009dac      0x1d4 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000009dac                IScsiConfigFormUnload.constprop.0
+ .text.RemoveEntryList
+                0x0000000000009f80       0x50 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000009f80                RemoveEntryList
+ .text.IScsiExecuteScsiCommand.constprop.0
+                0x0000000000009fd0      0xac8 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000009fd0                IScsiExecuteScsiCommand.constprop.0
+ .text.NetbufFreeList
+                0x000000000000aa98       0xe4 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000000aa98                NetbufFreeList
+ .text.NetbufQueFlush
+                0x000000000000ab7c       0x60 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000000ab7c                NetbufQueFlush
+ .text.IScsiExtScsiPassThruResetTargetLun
+                0x000000000000abdc        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000abdc                IScsiExtScsiPassThruResetTargetLun
+ .text.IScsiExtScsiPassThruResetChannel
+                0x000000000000abe4        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000abe4                IScsiExtScsiPassThruResetChannel
+ .text.IScsiCommonNotify
+                0x000000000000abec        0xc /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .text.IScsiConfigGetAttemptByNic
+                0x000000000000abf8       0x54 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .text.IScsiSetAuthenticationInfo
+                0x000000000000ac4c        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000ac4c                IScsiSetAuthenticationInfo
+ .text.IScsiGetAuthenticationInfo
+                0x000000000000ac54        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000ac54                IScsiGetAuthenticationInfo
+ .text.IScsiNbufExtFree
+                0x000000000000ac5c        0x4 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000ac5c                IScsiNbufExtFree
+ .text.IScsiParseIsIdFromString.part.0
+                0x000000000000ac60       0x74 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .text.IScsiConvertIsIdToString
+                0x000000000000acd4       0x9c /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .text.IScsiConfigDeleteAttempts
+                0x000000000000ad70      0x2dc /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .text.IScsiGetValueByKeyFromList
+                0x000000000000b04c       0x6c /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .text.IScsiComponentNameGetDriverName
+                0x000000000000b0b8       0x2c /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000b0b8                IScsiComponentNameGetDriverName
+ .text.IScsiComponentNameGetControllerName
+                0x000000000000b0e4      0x2a0 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000b0e4                IScsiComponentNameGetControllerName
+ .text.IScsiFreeNbufList
+                0x000000000000b384       0x50 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000b384                IScsiFreeNbufList
+ .text.IScsiFreeKeyValueList
+                0x000000000000b3d4       0x3c /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .text.IScsiDestroyConnection
+                0x000000000000b410       0x44 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .text.InitializeListHead
+                0x000000000000b454       0x40 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000b454                InitializeListHead
+ .text.InternalBaseLibIsListValid
+                0x000000000000b494       0xac /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000b494                InternalBaseLibIsListValid
+ .text.InsertTailList
+                0x000000000000b540       0x5c /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000b540                InsertTailList
+ .text.IScsiBuildKeyValueList
+                0x000000000000b59c       0xe4 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .text.MultU64x32
+                0x000000000000b680        0xc /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000b680                MultU64x32
+ .text.SwapBytes16
+                0x000000000000b68c        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000b68c                SwapBytes16
+ .text.SwapBytes32
+                0x000000000000b694       0x20 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000b694                SwapBytes32
+ .text.IpIsUnicast
+                0x000000000000b6b4       0xb0 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .text.CalculateCheckSum8
+                0x000000000000b764       0x88 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000b764                CalculateCheckSum8
+ .text.CopyMem  0x000000000000b7ec       0xa4 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000b7ec                CopyMem
+ .text.IScsiIpToStr.part.0
+                0x000000000000b890      0x1c0 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .text.IScsiParseIsIdFromString
+                0x000000000000ba50       0xdc /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .text.IScsiAddKeyValuePair
+                0x000000000000bb2c      0x104 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .text.IScsiCHAPToSendReq
+                0x000000000000bc30      0x2c8 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .text.SetMem   0x000000000000bef8       0x68 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000bef8                SetMem
+ .text.IScsiExtScsiPassThruGetTargetLun
+                0x000000000000bf60      0x10c /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000bf60                IScsiExtScsiPassThruGetTargetLun
+ .text.IScsiCHAPCalculateResponse.part.0
+                0x000000000000c06c      0x1d8 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .text.CompareMem
+                0x000000000000c244       0xd0 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000c244                CompareMem
+ .text.IScsiExtScsiPassThruGetNextTarget
+                0x000000000000c314       0x94 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000c314                IScsiExtScsiPassThruGetNextTarget
+ .text.IScsiExtScsiPassThruBuildDevicePath
+                0x000000000000c3a8      0x1a0 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000c3a8                IScsiExtScsiPassThruBuildDevicePath
+ .text.IScsiExtScsiPassThruGetNextTargetLun
+                0x000000000000c548      0x114 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000c548                IScsiExtScsiPassThruGetNextTargetLun
+ .text.ZeroMem  0x000000000000c65c       0x70 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000c65c                ZeroMem
+ .text.IScsiConvertAttemptConfigDataToIfrNvDataByKeyword
+                0x000000000000c6cc      0x460 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .text.IScsiConvertAttemptConfigDataToIfrNvData
+                0x000000000000cb2c      0x210 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .text.IScsiFormExtractConfig
+                0x000000000000cd3c      0x274 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000cd3c                IScsiFormExtractConfig
+ .text.CompareGuid
+                0x000000000000cfb0       0x60 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000cfb0                CompareGuid
+ .text.CopyGuid
+                0x000000000000d010        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000d010                CopyGuid
+ .text.IScsiDoDhcp6
+                0x000000000000d018      0x2c8 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000d018                IScsiDoDhcp6
+ .text.IScsiDoDhcp
+                0x000000000000d2e0      0x450 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000d2e0                IScsiDoDhcp
+ .text.IScsiCreateOpCode
+                0x000000000000d730       0xc0 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000d730                IScsiCreateOpCode
+ .text.IScsiConfigUpdateAttempt
+                0x000000000000d7f0      0x124 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000d7f0                IScsiConfigUpdateAttempt
+ .text.IScsiConfigGetAttemptByConfigIndex
+                0x000000000000d914       0x38 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000d914                IScsiConfigGetAttemptByConfigIndex
+ .text.IScsiConfigOrderAttempts
+                0x000000000000d94c      0x1a4 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .text.IScsiGetAttemptIndexList
+                0x000000000000daf0       0xc0 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .text.IScsiSessionAbort
+                0x000000000000dbb0      0x140 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000dbb0                IScsiSessionAbort
+ .text.IScsiOnExitBootService
+                0x000000000000dcf0       0x48 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000dcf0                IScsiOnExitBootService
+ .text.IScsiSendDataOutPduSequence
+                0x000000000000dd38      0x254 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000dd38                IScsiSendDataOutPduSequence
+ .text.IScsiNormalizeName
+                0x000000000000df8c       0xb0 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000df8c                IScsiNormalizeName
+ .text.IScsiDhcp6ParseReply
+                0x000000000000e03c      0x4e8 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .text.IScsiDhcpSelectOffer
+                0x000000000000e524      0x3cc /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .text.IScsiFormCallback.part.0
+                0x000000000000e8f0     0x1440 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .text.IScsiFormCallback
+                0x000000000000fd30       0x4c /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000000fd30                IScsiFormCallback
+ .text.IScsiFormRouteConfig.part.0
+                0x000000000000fd7c     0x1128 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .text.IScsiFormRouteConfig
+                0x0000000000010ea4       0x74 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x0000000000010ea4                IScsiFormRouteConfig
+ .text.IScsiUpdateCmdSN
+                0x0000000000010f18       0x98 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x0000000000010f18                IScsiUpdateCmdSN
+ .text.IScsiCheckSN
+                0x0000000000010fb0       0x70 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x0000000000010fb0                IScsiCheckSN
+ .text.IScsiConnLogin.part.0
+                0x0000000000011020     0x10ac /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .text.IScsiSessionLogin
+                0x00000000000120cc     0x10c8 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x00000000000120cc                IScsiSessionLogin
+ .text.IScsiExtScsiPassThruFunction
+                0x0000000000013194      0x170 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x0000000000013194                IScsiExtScsiPassThruFunction
+ .text.IScsiTestManagedDevice
+                0x0000000000013304       0xd4 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x0000000000013304                IScsiTestManagedDevice
+ .text.IScsiGetInitiatorName
+                0x00000000000133d8       0x48 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+                0x00000000000133d8                IScsiGetInitiatorName
+ .text.memset   0x0000000000013420       0x20 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+                0x0000000000013420                memset
+ .text.IScsiRemoveNic
+                0x0000000000013440      0x1c0 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .text.IScsiCheckIpv6Support
+                0x0000000000013600      0x190 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .text.IScsiMapV4ToV6Addr
+                0x0000000000013790       0x54 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .text.IScsiAddHeapItem
+                0x00000000000137e4       0x3c /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .text.IScsiSetInitiatorName
+                0x0000000000013820       0x9c /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+                0x0000000000013820                IScsiSetInitiatorName
+ .text._DriverUnloadHandler
+                0x00000000000138bc      0x344 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .text.IScsiGetNicInfoByIndex
+                0x0000000000013c00       0x38 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+                0x0000000000013c00                IScsiGetNicInfoByIndex
+ .text.IScsiGenRandom
+                0x0000000000013c38       0xec /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+                0x0000000000013c38                IScsiGenRandom
+ .text.IScsiNetNtoi
+                0x0000000000013d24       0x2c /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+                0x0000000000013d24                IScsiNetNtoi
+ .text.IScsiHexToBin
+                0x0000000000013d50      0x108 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+                0x0000000000013d50                IScsiHexToBin
+ .text.IScsiMacAddrToStr
+                0x0000000000013e58       0xa4 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+                0x0000000000013e58                IScsiMacAddrToStr
+ .text.IScsiGetConfigData
+                0x0000000000013efc      0x5a4 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .text.IScsiDnsIsConfigured
+                0x00000000000144a0      0x1a0 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .text.IScsiDhcpIsConfigured
+                0x0000000000014640      0x1dc /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .text.IScsiSupported
+                0x000000000001481c      0x1a4 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .text.IScsiIp6DriverBindingSupported
+                0x00000000000149c0        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .text.IScsiIp4DriverBindingSupported
+                0x00000000000149c8        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .text.IScsiAsciiStrToIp
+                0x00000000000149d0       0x80 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+                0x00000000000149d0                IScsiAsciiStrToIp
+ .text.IScsiLunToUnicodeStr
+                0x0000000000014a50      0x1e8 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+                0x0000000000014a50                IScsiLunToUnicodeStr
+ .text.IScsiAsciiStrToLun
+                0x0000000000014c38      0x144 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+                0x0000000000014c38                IScsiAsciiStrToLun
+ .text.IScsiGetSubnetMaskPrefixLength
+                0x0000000000014d7c       0x48 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+                0x0000000000014d7c                IScsiGetSubnetMaskPrefixLength
+ .text.IScsiPublishIbft
+                0x0000000000014dc4      0x758 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .text.IScsiStop
+                0x000000000001551c      0x374 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .text.IScsiIp6DriverBindingStop
+                0x0000000000015890        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .text.IScsiIp4DriverBindingStop
+                0x0000000000015898        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .text.IScsiStart
+                0x00000000000158a0     0x1080 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .text.IScsiIp6DriverBindingStart
+                0x0000000000016920       0x2c /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .text.IScsiIp4DriverBindingStart
+                0x000000000001694c       0x2c /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .text.memcpy   0x0000000000016978       0x20 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+                0x0000000000016978                memcpy
+ .text.__stack_chk_fail
+                0x0000000000016998       0x50 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+                0x0000000000016998                __stack_chk_fail
+ .text._ModuleEntryPoint
+                0x00000000000169e8     0x1620 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+                0x00000000000169e8                _ModuleEntryPoint
+ *fill*         0x0000000000018008        0x8 
+ .text          0x0000000000018010      0x200 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                0x0000000000018010                InternalMemSetMem16
+                0x000000000001801c                InternalMemSetMem32
+                0x0000000000018028                InternalMemSetMem64
+                0x0000000000018034                InternalMemZeroMem
+                0x000000000001803c                InternalMemSetMem
+ .text          0x0000000000018210      0x218 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                0x000000000001837c                InternalMemCopyMem
+ *fill*         0x0000000000018428       0x18 
+ .text          0x0000000000018440       0xe0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                0x0000000000018440                InternalMemCompareMem
+ .text          0x0000000000018520       0x20 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                0x0000000000018520                InternalMemCompareGuid
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.AsciiStrLen.str1.1
+                0x0000000000018540       0x76 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                                         0x8d (size before relaxing)
+ .rodata.DebugAssert.str1.1
+                0x00000000000185b6       0x21 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.InternalAllocateCopyPool.constprop.0.str1.1
+                0x00000000000185d7       0x9a /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                                         0xb1 (size before relaxing)
+ .rodata.ReadUnaligned16.str1.1
+                0x0000000000018671       0x45 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.SetMem16.str1.1
+                0x00000000000186b6       0xb9 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.NetbufCopy.str1.1
+                0x000000000001876f       0xb7 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.NetbufQueCopy.constprop.0.str1.1
+                0x0000000000018826       0x9b /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.NetblockTrim.str1.1
+                0x00000000000188c1       0x34 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.NetbufSetBlock.str1.1
+                0x00000000000188f5       0x94 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.NetbufAllocSpace.constprop.0.str1.1
+                0x0000000000018989        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.NetLibCreateServiceChild.str1.1
+                0x0000000000018991       0x8d /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.NetIp4IsUnicast.str1.1
+                0x0000000000018a1e        0xd /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.DevicePathNodeLength.str1.1
+                0x0000000000018a2b       0x6a /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.UnicodeValueToStringS.constprop.0.str1.1
+                0x0000000000018a95      0x14d /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.StrnLenS.str1.1
+                0x0000000000018be2       0x65 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.BasePrintLibSPrintMarker.constprop.0.str1.1
+                0x0000000000018c47      0x227 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ *fill*         0x0000000000018e6e        0x2 
+ .rodata.BasePrintLibSPrintMarker.constprop.0
+                0x0000000000018e70       0x5e /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.UnicodeVSPrintAsciiFormat.constprop.0.str1.1
+                0x0000000000018ece       0x58 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.IScsiIpToStr.constprop.0.str2.2
+                0x0000000000018f26       0x18 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.EfiLibUninstallDriverBindingComponentName2.constprop.0.str1.1
+                0x0000000000018f3e       0x7c /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.StrHexToUintn.constprop.0.str1.1
+                0x0000000000018fba       0x70 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.StrCpyS.constprop.0.str2.2
+                0x000000000001902a        0xc /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.StrCpyS.constprop.0.str1.1
+                0x0000000000019036       0xd1 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.StrToIpv4Address.constprop.0.str1.1
+                0x0000000000019107       0x11 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.GetVariable2.constprop.0.str1.1
+                0x0000000000019118       0x9c /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.HiiUpdateForm.constprop.0.str1.1
+                0x00000000000191b4       0x83 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.NetLibDetectMedia.constprop.0.str1.1
+                0x0000000000019237       0x1c /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.AsciiPrint.constprop.0.str1.1
+                0x0000000000019253       0x5c /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.NetbufFree.str1.1
+                0x00000000000192af       0xaa /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.NetbufAllocStruct.str1.1
+                0x0000000000019359       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.NetbufFromExt.constprop.0.str1.1
+                0x0000000000019369       0x4b /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.InternalHiiGrowOpCodeHandle.str1.1
+                0x00000000000193b4       0x4b /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                                         0x1d (size before relaxing)
+ .rodata.InternalHiiCreateOpCodeExtended.str1.1
+                0x00000000000193b4       0x25 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.AsciiStrHexToUint64.str1.1
+                0x00000000000193d9       0x41 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.AsciiStrToIpv4Address.constprop.0.str1.1
+                0x000000000001941a       0x12 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.AsciiStrToIpv6Address.constprop.0.str1.1
+                0x000000000001942c       0x4a /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.StrCatS.str1.1
+                0x0000000000019476       0x25 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.StrnCpyS.str1.1
+                0x000000000001949b       0x4a /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.CreatePopUp.constprop.0.str1.1
+                0x00000000000194e5       0x90 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ *fill*         0x0000000000019575        0x1 
+ .rodata.CreatePopUp.constprop.0.str2.2
+                0x0000000000019576        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.AsciiStrnCmp.str1.1
+                0x000000000001957e       0x70 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.HiiSetString.str1.1
+                0x00000000000195ee       0x9d /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.StrLen.str1.1
+                0x000000000001968b       0x3a /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ *fill*         0x00000000000196c5        0x1 
+ .rodata.HiiConstructConfigHdr.constprop.0.str2.2
+                0x00000000000196c6       0x1c /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.StrStr.str1.1
+                0x00000000000196e2       0x32 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.StrnCmp.str1.1
+                0x0000000000019714       0x72 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.InternalHiiCompareSubString.str1.1
+                0x0000000000019786       0x39 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.HiiIsConfigHdrMatch.constprop.0.str1.1
+                0x00000000000197bf       0x1a /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.AsciiStrToUnicodeStrS.str1.1
+                0x00000000000197d9       0x64 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.UnicodeStrToAsciiStrS.str1.1
+                0x000000000001983d       0x76 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.AsciiStrCpyS.str1.1
+                0x00000000000198b3       0x78 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.IsListEmpty.str1.1
+                0x000000000001992b       0x68 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.NetListRemoveHead.str1.1
+                0x0000000000019993       0x68 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                                         0x15 (size before relaxing)
+ .rodata.IScsiConfigFormUnload.constprop.0.str1.1
+                0x0000000000019993       0x74 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.RemoveEntryList.str1.1
+                0x0000000000019a07       0x15 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.IScsiExecuteScsiCommand.constprop.0.str1.1
+                0x0000000000019a1c       0x54 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.NetbufFreeList.str1.1
+                0x0000000000019a70       0x13 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.str1.1
+                0x0000000000019a83        0x4 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                                          0x7 (size before relaxing)
+ .rodata.IScsiHexString
+                0x0000000000019a87       0x17 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x0000000000019a87                IScsiHexString
+ .rodata.__FUNCTION__.1941
+                0x0000000000019a9e        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.1952
+                0x0000000000019aa6        0x9 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.1964
+                0x0000000000019aaf        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.1986
+                0x0000000000019ab7       0x13 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2016
+                0x0000000000019aca        0xf /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2031
+                0x0000000000019ad9       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2072
+                0x0000000000019ae9       0x11 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2115
+                0x0000000000019afa        0xd /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2160
+                0x0000000000019b07       0x18 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2190
+                0x0000000000019b1f       0x14 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2205
+                0x0000000000019b33       0x15 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2221
+                0x0000000000019b48       0x16 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2243
+                0x0000000000019b5e       0x16 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2274
+                0x0000000000019b74       0x16 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.2290
+                0x0000000000019b8a       0x16 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.gIp4AllMasks
+                0x0000000000019ba0       0x84 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.mEndOfPakageList
+                0x0000000000019c24        0x4 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.mErrorString
+                0x0000000000019c28      0x2b5 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.mHexStr
+                0x0000000000019edd       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .rodata.mWarningString
+                0x0000000000019eed       0x96 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ *fill*         0x0000000000019f83        0x1 
+ .rodata.IScsiParseIsIdFromString.part.0.str2.2
+                0x0000000000019f84       0xfc /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .rodata.IScsiConvertIsIdToString.str2.2
+                0x000000000001a080        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                                          0xe (size before relaxing)
+ .rodata.IScsiConfigDeleteAttempts.str2.2
+                0x000000000001a088       0x16 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                                         0x30 (size before relaxing)
+ .rodata.IScsiComponentNameGetControllerName.str2.2
+                0x000000000001a09e       0x44 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .rodata.IScsiComponentNameGetControllerName.str1.1
+                0x000000000001a0e2       0x42 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                                         0x5e (size before relaxing)
+ .rodata.IScsiFreeNbufList.str1.1
+                0x000000000001a124       0x14 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                                         0x53 (size before relaxing)
+ .rodata.InitializeListHead.str1.1
+                0x000000000001a138       0x19 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                                         0x5b (size before relaxing)
+ .rodata.InternalBaseLibIsListValid.str1.1
+                0x000000000001a151       0x56 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .rodata.InsertTailList.str1.1
+                0x000000000001a1a7       0x26 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .rodata.IpIsUnicast.str1.1
+                0x000000000001a1a7       0x3c /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .rodata.CalculateCheckSum8.str1.1
+                0x000000000001a1e3       0x79 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                                         0x90 (size before relaxing)
+ .rodata.CopyMem.str1.1
+                0x000000000001a25c       0xd3 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .rodata.IScsiIpToStr.part.0.str1.1
+                0x000000000001a32f        0xb /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                                         0x4b (size before relaxing)
+ .rodata.IScsiIpToStr.part.0.str2.2
+                0x000000000001a33a       0x1a /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                                         0x22 (size before relaxing)
+ .rodata.IScsiCHAPToSendReq.str1.1
+                0x000000000001a354       0xbd /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .rodata.SetMem.str1.1
+                0x000000000001a411       0x51 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                                         0x89 (size before relaxing)
+ .rodata.IScsiExtScsiPassThruGetTargetLun.str1.1
+                0x000000000001a462       0x49 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .rodata.CompareMem.str1.1
+                0x000000000001a4ab       0x94 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .rodata.IScsiExtScsiPassThruBuildDevicePath.str1.1
+                0x000000000001a53f       0x47 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                                         0x9c (size before relaxing)
+ .rodata.ZeroMem.str1.1
+                0x000000000001a586       0x88 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .rodata.IScsiConvertAttemptConfigDataToIfrNvDataByKeyword.str1.1
+                0x000000000001a60e       0x5a /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .rodata.IScsiFormExtractConfig.str2.2
+                0x000000000001a668       0x40 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .rodata.CompareGuid.str1.1
+                0x000000000001a6a8       0x7e /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .rodata.IScsiDoDhcp6.str1.1
+                0x000000000001a726       0x30 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .rodata.IScsiGetAttemptIndexList.str2.2
+                0x000000000001a726       0x12 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .rodata.IScsiSessionAbort.str1.1
+                0x000000000001a738       0x1f /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .rodata.IScsiNormalizeName.str1.1
+                0x000000000001a757        0x5 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .rodata.IScsiDhcp6ParseReply.str1.1
+                0x000000000001a75c        0x7 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ *fill*         0x000000000001a763        0x1 
+ .rodata.IScsiFormCallback.part.0.str2.2
+                0x000000000001a764      0x6c0 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                                        0x6fe (size before relaxing)
+ .rodata.IScsiFormCallback.part.0.str1.1
+                0x000000000001ae24       0xac /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                                        0x115 (size before relaxing)
+ .rodata.IScsiFormCallback.part.0
+                0x000000000001aed0       0x3c /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .rodata.IScsiFormRouteConfig.part.0.str2.2
+                0x000000000001af0c      0x698 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                                        0x6c4 (size before relaxing)
+ .rodata.IScsiFormRouteConfig.part.0.str1.1
+                0x000000000001b5a4       0x1a /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .rodata.IScsiConnLogin.part.0.str1.1
+                0x000000000001b5be      0x17a /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                                        0x2a3 (size before relaxing)
+ .rodata.IScsiConnLogin.part.0
+                0x000000000001b738        0x5 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .rodata.IScsiSessionLogin.str1.1
+                0x000000000001b73d      0x10d /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                                        0x189 (size before relaxing)
+ .rodata.IScsiExtScsiPassThruFunction.str1.1
+                0x000000000001b84a       0x14 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .rodata.str1.1
+                0x000000000001b85e        0x7 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ *fill*         0x000000000001b865        0x1 
+ .rodata.str2.2
+                0x000000000001b866       0x1a /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .rodata.mConfigHdrTemplate
+                0x000000000001b880       0x70 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .rodata.IScsiGetInitiatorName.str2.2
+                0x000000000001b8f0        0xe /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .rodata.IScsiMacAddrToStr.str2.2
+                0x000000000001b8fe        0xc /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .rodata.IScsiGetConfigData.str2.2
+                0x000000000001b90a      0x130 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .rodata.IScsiGetConfigData.str1.1
+                0x000000000001b90a       0x99 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .rodata.IScsiDnsIsConfigured.str1.1
+                0x000000000001b9a3       0x3c /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ *fill*         0x000000000001b9df        0x1 
+ .rodata.IScsiLunToUnicodeStr.str2.2
+                0x000000000001b9e0        0x6 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .rodata.IScsiLunToUnicodeStr.str1.1
+                0x000000000001b9e6       0x11 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .rodata.IScsiPublishIbft.str1.1
+                0x000000000001b9f7       0x78 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .rodata.IScsiStop.str1.1
+                0x000000000001ba6f       0x7f /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+                                         0x94 (size before relaxing)
+ .rodata.IScsiStart.str1.1
+                0x000000000001baee       0x34 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+                                         0x69 (size before relaxing)
+ .rodata.__stack_chk_fail.str1.1
+                0x000000000001bb22       0x2e /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .rodata._ModuleEntryPoint.str1.1
+                0x000000000001bb50      0x2fc /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+                                        0x33c (size before relaxing)
+ .rodata._ModuleEntryPoint.str2.2
+                0x000000000001be4c      0x922 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+                                        0x94a (size before relaxing)
+ .rodata.__FUNCTION__.18177
+                0x000000000001c76e       0x14 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ *(.got .got.*)
+ *fill*         0x000000000001c782        0x6 
+ .got           0x000000000001c788        0x8 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x000000000001c788                _GLOBAL_OFFSET_TABLE_
+ .got.plt       0x000000000001c790       0x18 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ *:AutoGen.obj(.data.g*Guid)
+
+.plt            0x000000000001c7a8        0x0
+ .plt           0x000000000001c7a8        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.data           0x000000000001d000     0x1cc0
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.ro   0x000000000001d000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data.gEfiAdapterInfoMediaStateGuid
+                0x000000000001d000       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .data.gEfiAdapterInformationProtocolGuid
+                0x000000000001d010       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000001d010                gEfiAdapterInformationProtocolGuid
+ .data.gEfiComponentName2ProtocolGuid
+                0x000000000001d020       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000001d020                gEfiComponentName2ProtocolGuid
+ .data.gEfiComponentNameProtocolGuid
+                0x000000000001d030       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000001d030                gEfiComponentNameProtocolGuid
+ .data.gEfiDevicePathProtocolGuid
+                0x000000000001d040       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000001d040                gEfiDevicePathProtocolGuid
+ .data.gEfiDriverBindingProtocolGuid
+                0x000000000001d050       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000001d050                gEfiDriverBindingProtocolGuid
+ .data.gEfiFormBrowser2ProtocolGuid
+                0x000000000001d060       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .data.gEfiHiiConfigAccessProtocolGuid
+                0x000000000001d070       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000001d070                gEfiHiiConfigAccessProtocolGuid
+ .data.gEfiIScsiInitiatorNameProtocolGuid
+                0x000000000001d080       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000001d080                gEfiIScsiInitiatorNameProtocolGuid
+ .data.gEfiIfrTianoGuid
+                0x000000000001d090       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000001d090                gEfiIfrTianoGuid
+ .data.gEfiManagedNetworkProtocolGuid
+                0x000000000001d0a0       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .data.gEfiManagedNetworkServiceBindingProtocolGuid
+                0x000000000001d0b0       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .data.gEfiSimpleNetworkProtocolGuid
+                0x000000000001d0c0       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .data.gEfiTcp4ProtocolGuid
+                0x000000000001d0d0       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000001d0d0                gEfiTcp4ProtocolGuid
+ .data.gEfiTcp4ServiceBindingProtocolGuid
+                0x000000000001d0e0       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000001d0e0                gEfiTcp4ServiceBindingProtocolGuid
+ .data.gEfiTcp6ProtocolGuid
+                0x000000000001d0f0       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000001d0f0                gEfiTcp6ProtocolGuid
+ .data.gEfiTcp6ServiceBindingProtocolGuid
+                0x000000000001d100       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000001d100                gEfiTcp6ServiceBindingProtocolGuid
+ .data.gIScsiComponentName
+                0x000000000001d110       0x18 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000001d110                gIScsiComponentName
+ .data.gIScsiComponentName2
+                0x000000000001d128       0x18 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000001d128                gIScsiComponentName2
+ .data.gIScsiConfigGuid
+                0x000000000001d140       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000001d140                gIScsiConfigGuid
+ .data.mIScsiHiiVendorDevicePath
+                0x000000000001d150       0x18 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000001d150                mIScsiHiiVendorDevicePath
+ .data.mVendorStorageName
+                0x000000000001d168       0x30 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000001d168                mVendorStorageName
+ .data.gEfiDhcp4ProtocolGuid
+                0x000000000001d198       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .data.gEfiDhcp4ServiceBindingProtocolGuid
+                0x000000000001d1a8       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000001d1a8                gEfiDhcp4ServiceBindingProtocolGuid
+ .data.gEfiDhcp6ProtocolGuid
+                0x000000000001d1b8       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .data.gEfiDhcp6ServiceBindingProtocolGuid
+                0x000000000001d1c8       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000001d1c8                gEfiDhcp6ServiceBindingProtocolGuid
+ .data.gEfiDns4ProtocolGuid
+                0x000000000001d1d8       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .data.gEfiDns4ServiceBindingProtocolGuid
+                0x000000000001d1e8       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000001d1e8                gEfiDns4ServiceBindingProtocolGuid
+ .data.gEfiDns6ProtocolGuid
+                0x000000000001d1f8       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .data.gEfiDns6ServiceBindingProtocolGuid
+                0x000000000001d208       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000001d208                gEfiDns6ServiceBindingProtocolGuid
+ .data.gEfiExtScsiPassThruProtocolGuid
+                0x000000000001d218       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000001d218                gEfiExtScsiPassThruProtocolGuid
+ .data.gEfiIp4Config2ProtocolGuid
+                0x000000000001d228       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .data.gEfiIp6ConfigProtocolGuid
+                0x000000000001d238       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .data.gIScsiInitiatorName
+                0x000000000001d248       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000001d248                gIScsiInitiatorName
+ .data.gIScsiV4PrivateGuid
+                0x000000000001d258       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000001d258                gIScsiV4PrivateGuid
+ .data.gIScsiV6PrivateGuid
+                0x000000000001d268       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000001d268                gIScsiV6PrivateGuid
+ .data.mIScsiDriverNameTable
+                0x000000000001d278       0x20 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .data.memset_func
+                0x000000000001d298        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .data.IScsiConfigVfrBin
+                0x000000000001d2a0      0x53c /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .data.IScsiDxeStrings
+                0x000000000001d7dc     0x12a8 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ *fill*         0x000000000001ea84        0x4 
+ .data.__stack_chk_guard
+                0x000000000001ea88        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+                0x000000000001ea88                __stack_chk_guard
+ .data.gEfiAcpi10TableGuid
+                0x000000000001ea90       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .data.gEfiAcpiTableGuid
+                0x000000000001eaa0       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .data.gEfiAcpiTableProtocolGuid
+                0x000000000001eab0       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .data.gEfiAdapterInfoNetworkBootGuid
+                0x000000000001eac0       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .data.gEfiAdapterInfoUndiIpv6SupportGuid
+                0x000000000001ead0       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .data.gEfiAuthenticationInfoProtocolGuid
+                0x000000000001eae0       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .data.gEfiEventExitBootServicesGuid
+                0x000000000001eaf0       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .data.gEfiHiiConfigRoutingProtocolGuid
+                0x000000000001eb00       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .data.gEfiHiiDatabaseProtocolGuid
+                0x000000000001eb10       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .data.gEfiHiiFontProtocolGuid
+                0x000000000001eb20       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .data.gEfiHiiImageProtocolGuid
+                0x000000000001eb30       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .data.gEfiHiiStringProtocolGuid
+                0x000000000001eb40       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .data.gEfiLoadedImageProtocolGuid
+                0x000000000001eb50       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .data.gEfiNetworkInterfaceIdentifierProtocolGuid_31
+                0x000000000001eb60       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .data.gEfiPciIoProtocolGuid
+                0x000000000001eb70       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .data.gIScsiAuthenticationInfo
+                0x000000000001eb80       0x10 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .data.gIScsiExtScsiPassThruProtocolTemplate
+                0x000000000001eb90       0x40 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .data.gIScsiIp4DriverBinding
+                0x000000000001ebd0       0x30 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .data.gIScsiIp6DriverBinding
+                0x000000000001ec00       0x30 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ *(.bss .bss.*)
+ .bss.UsePl011Uart
+                0x000000000001ec30        0x1 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .bss.UsePl011UartSet
+                0x000000000001ec31        0x1 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ *fill*         0x000000000001ec32        0x6 
+ .bss.gBS       0x000000000001ec38        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000001ec38                gBS
+ .bss.gHiiDatabase
+                0x000000000001ec40        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000001ec40                gHiiDatabase
+ .bss.gHiiString
+                0x000000000001ec48        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000001ec48                gHiiString
+ .bss.gIScsiControllerNameTable
+                0x000000000001ec50        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000001ec50                gIScsiControllerNameTable
+ .bss.gRT       0x000000000001ec58        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000001ec58                gRT
+ .bss.gST       0x000000000001ec60        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000001ec60                gST
+ .bss.mCallbackInfo
+                0x000000000001ec68        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000001ec68                mCallbackInfo
+ .bss.mDataSegPad
+                0x000000000001ec70        0x4 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ *fill*         0x000000000001ec74        0x4 
+ .bss.mPrivate  0x000000000001ec78        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                0x000000000001ec78                mPrivate
+ .bss.mUefiFormBrowser2
+                0x000000000001ec80        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .bss.gHiiConfigRouting
+                0x000000000001ec88        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                0x000000000001ec88                gHiiConfigRouting
+ .bss.mZeroIp4Addr
+                0x000000000001ec90        0x4 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ *fill*         0x000000000001ec94        0x4 
+ .bss.gHiiFont  0x000000000001ec98        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .bss.gHiiImage
+                0x000000000001eca0        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .bss.gImageHandle
+                0x000000000001eca8        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .bss.mIbftInstalled
+                0x000000000001ecb0        0x1 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ *fill*         0x000000000001ecb1        0x7 
+ .bss.mTableKey
+                0x000000000001ecb8        0x8 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+
+.dynbss         0x000000000001ecc0        0x0
+ .dynbss        0x000000000001ecc0        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.eh_frame
+ *(.eh_frame)
+
+.rela           0x000000000001ecc0      0x270
+ *(.rela .rela.*)
+ .rela.got      0x000000000001ecc0        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.plt      0x000000000001ecc0        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.bss      0x000000000001ecc0        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.rel.ro
+                0x000000000001ecc0        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.ifunc    0x000000000001ecc0        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.gIScsiComponentName
+                0x000000000001ecc0       0x48 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.gIScsiComponentName2
+                0x000000000001ed08       0x48 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.gIScsiInitiatorName
+                0x000000000001ed50       0x30 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.mIScsiDriverNameTable
+                0x000000000001ed80       0x30 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.memset_func
+                0x000000000001edb0       0x18 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.gIScsiAuthenticationInfo
+                0x000000000001edc8       0x30 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.gIScsiExtScsiPassThruProtocolTemplate
+                0x000000000001edf8       0xa8 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.gIScsiIp4DriverBinding
+                0x000000000001eea0       0x48 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.gIScsiIp6DriverBinding
+                0x000000000001eee8       0x48 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.hii
+ *(.hii)
+
+.build-id       0x000000000001ef30       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x000000000001ef30       0x24 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+ *(COMMON)
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+OUTPUT(/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/NetworkPkg/IScsiDxe/IScsiDxe/DEBUG/IScsiDxe.dll elf64-littleaarch64)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000    0x9a3b1
+ .debug_info    0x0000000000000000     0xab86 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .debug_info    0x000000000000ab86     0xb1d4 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .debug_info    0x0000000000015d5a     0x5f8a /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .debug_info    0x000000000001bce4      0x21a /tmp/ccw2raak.debug.temp.o
+                0x000000000001bce4                MemoryIntrinsics.c.c8a4a63f
+ .debug_info    0x000000000001befe     0x1a57 /tmp/ccpGNbGn.debug.temp.o
+                0x000000000001befe                DriverEntryPoint.c.9519b125
+ .debug_info    0x000000000001d955      0x187 /tmp/cckR7Nkl.debug.temp.o
+                0x000000000001d955                BaseStackCheckGcc.c.9918e4ed
+ .debug_info    0x000000000001dadc      0x1d7 /tmp/cct2IKCn.debug.temp.o
+                0x000000000001dadc                memcpy.c.992e94b8
+ .debug_info    0x000000000001dcb3     0x217f /tmp/ccmChiOl.debug.temp.o
+                0x000000000001dcb3                AutoGen.c.2788ef48
+ .debug_info    0x000000000001fe32     0x5ddd /tmp/ccuLqMrj.debug.temp.o
+                0x000000000001fe32                IScsiDriver.c.8cb5ad9a
+ .debug_info    0x0000000000025c0f     0x4409 /tmp/ccLT4kLj.debug.temp.o
+                0x0000000000025c0f                IScsiIbft.c.a329cff1
+ .debug_info    0x000000000002a018     0x3c05 /tmp/ccldPAAn.debug.temp.o
+                0x000000000002a018                IScsiInitiatorName.c.1a9f558d
+ .debug_info    0x000000000002dc1d     0x7d1c /tmp/ccqIIQUk.debug.temp.o
+                0x000000000002dc1d                IScsiMisc.c.e227b0d9
+ .debug_info    0x0000000000035939     0x74e8 /tmp/ccWVW4Mn.debug.temp.o
+                0x0000000000035939                IScsiProto.c.ea87049c
+ .debug_info    0x000000000003ce21     0x4017 /tmp/ccXWU2gk.debug.temp.o
+                0x000000000003ce21                ComponentName.c.43954ef9
+ .debug_info    0x0000000000040e38     0x3bd5 /tmp/cc4xLtBm.debug.temp.o
+                0x0000000000040e38                IScsiAuthenticationInfo.c.80d91d30
+ .debug_info    0x0000000000044a0d     0x5e36 /tmp/ccvZ9Efj.debug.temp.o
+                0x0000000000044a0d                IScsiCHAP.c.38f188de
+ .debug_info    0x000000000004a843     0x5150 /tmp/ccSsifZm.debug.temp.o
+                0x000000000004a843                IScsiConfig.c.72312bcc
+ .debug_info    0x000000000004f993      0x5b3 /tmp/ccHnYLOj.debug.temp.o
+                0x000000000004f993                IScsiConfigVfr.c.950fffdb
+ .debug_info    0x000000000004ff46     0x46f1 /tmp/ccpwPKCk.debug.temp.o
+                0x000000000004ff46                IScsiDhcp.c.94263c6c
+ .debug_info    0x0000000000054637     0x441c /tmp/cc1Uypml.debug.temp.o
+                0x0000000000054637                IScsiDhcp6.c.1d423ccf
+ .debug_info    0x0000000000058a53     0x48f8 /tmp/ccN7tell.debug.temp.o
+                0x0000000000058a53                IScsiDns.c.0d68c7c2
+ .debug_info    0x000000000005d34b     0x519e /tmp/ccmXJ93k.debug.temp.o
+                0x000000000005d34b                IScsiExtScsiPassThru.c.df748b97
+ .debug_info    0x00000000000624e9      0x21d /tmp/cc7t5Qgj.debug.temp.o
+                0x00000000000624e9                MemLibGuid.c.2ca06148
+ .debug_info    0x0000000000062706      0x17a /tmp/cc3HWtpn.debug.temp.o
+                0x0000000000062706                ZeroMemWrapper.c.8dc042f6
+ .debug_info    0x0000000000062880      0x1a7 /tmp/cc3mr71k.debug.temp.o
+                0x0000000000062880                CompareMemWrapper.c.96cbdc30
+ .debug_info    0x0000000000062a27      0x1bb /tmp/cc7aCspk.debug.temp.o
+                0x0000000000062a27                SetMemWrapper.c.36d74bb8
+ .debug_info    0x0000000000062be2      0x191 /tmp/cc6eHE8m.debug.temp.o
+                0x0000000000062be2                CopyMemWrapper.c.8ed793a8
+ .debug_info    0x0000000000062d73      0x457 /tmp/ccxlwkZj.debug.temp.o
+                0x0000000000062d73                CheckSum.c.fd38e15d
+ .debug_info    0x00000000000631ca      0x1db /tmp/ccX8YIZk.debug.temp.o
+                0x00000000000631ca                SwapBytes32.c.2bbabdc8
+ .debug_info    0x00000000000633a5      0x1c3 /tmp/ccLphdQj.debug.temp.o
+                0x00000000000633a5                SwapBytes16.c.00247ae1
+ .debug_info    0x0000000000063568      0x1db /tmp/cc7e1mnk.debug.temp.o
+                0x0000000000063568                MultU64x32.c.c8a7ecd3
+ .debug_info    0x0000000000063743      0x1d0 /tmp/cc34e7Qn.debug.temp.o
+                0x0000000000063743                CpuDeadLoop.c.e33e7959
+ .debug_info    0x0000000000063913      0x428 /tmp/ccZbxqXm.debug.temp.o
+                0x0000000000063913                LinkedList.c.6e13becc
+ .debug_info    0x0000000000063d3b     0x1004 /tmp/ccwSPcGj.debug.temp.o
+                0x0000000000063d3b                SafeString.c.d8550fea
+ .debug_info    0x0000000000064d3f      0x7f3 /tmp/ccMBvV1m.debug.temp.o
+                0x0000000000064d3f                String.c.753c3495
+ .debug_info    0x0000000000065532      0x43c /tmp/cc9WQA5k.debug.temp.o
+                0x0000000000065532                Math64.c.5e992ad5
+ .debug_info    0x000000000006596e      0x1db /tmp/ccPcvKkm.debug.temp.o
+                0x000000000006596e                RShiftU64.c.a990dafe
+ .debug_info    0x0000000000065b49      0x1db /tmp/ccNjZIHk.debug.temp.o
+                0x0000000000065b49                LShiftU64.c.b38ec6e2
+ .debug_info    0x0000000000065d24      0x68f /tmp/ccZxpgMm.debug.temp.o
+                0x0000000000065d24                PrintLib.c.260a037f
+ .debug_info    0x00000000000663b3      0x79a /tmp/cc09qiuk.debug.temp.o
+                0x00000000000663b3                PrintLibInternal.c.92769e0a
+ .debug_info    0x0000000000066b4d      0x3f2 /tmp/ccK8Zegj.debug.temp.o
+                0x0000000000066b4d                DebugLib.c.0df38b98
+ .debug_info    0x0000000000066f3f     0x18e1 /tmp/ccYlvd3m.debug.temp.o
+                0x0000000000066f3f                UefiBootServicesTableLib.c.c00a3dd8
+ .debug_info    0x0000000000068820     0x1de0 /tmp/cc4I7Zcm.debug.temp.o
+                0x0000000000068820                MemoryAllocationLib.c.774777c4
+ .debug_info    0x000000000006a600     0x18b2 /tmp/ccPWSxIj.debug.temp.o
+                0x000000000006a600                UefiRuntimeServicesTableLib.c.7b9e7237
+ .debug_info    0x000000000006beb2     0x1d7d /tmp/ccTXKSdl.debug.temp.o
+                0x000000000006beb2                DevicePathUtilities.c.94f518f0
+ .debug_info    0x000000000006dc2f     0x1953 /tmp/cc2YlZ2l.debug.temp.o
+                0x000000000006dc2f                DevicePathUtilitiesDxeSmm.c.e3408512
+ .debug_info    0x000000000006f582     0x1afe /tmp/ccvjAmMm.debug.temp.o
+                0x000000000006f582                UefiDevicePathLib.c.c981cbf5
+ .debug_info    0x0000000000071080     0x3d60 /tmp/ccWzDpQl.debug.temp.o
+                0x0000000000071080                DevicePathToText.c.c18353b7
+ .debug_info    0x0000000000074de0     0x2966 /tmp/ccMBMcIn.debug.temp.o
+                0x0000000000074de0                UefiHiiServicesLib.c.57cd5a7f
+ .debug_info    0x0000000000077746     0x2762 /tmp/cc6GvGIl.debug.temp.o
+                0x0000000000077746                UefiLibPrint.c.10301016
+ .debug_info    0x0000000000079ea8     0x2307 /tmp/ccxQPgWl.debug.temp.o
+                0x0000000000079ea8                UefiDriverModel.c.bb92ab9b
+ .debug_info    0x000000000007c1af     0x1cda /tmp/cc77FPLn.debug.temp.o
+                0x000000000007c1af                Console.c.85380a39
+ .debug_info    0x000000000007de89     0x27ac /tmp/ccA6rNGm.debug.temp.o
+                0x000000000007de89                UefiLib.c.2c69044c
+ .debug_info    0x0000000000080635     0x50c1 /tmp/ccJl1b1m.debug.temp.o
+                0x0000000000080635                HiiLib.c.b2279ad8
+ .debug_info    0x00000000000856f6     0x2b6a /tmp/ccz3p8gk.debug.temp.o
+                0x00000000000856f6                HiiString.c.d0f43445
+ .debug_info    0x0000000000088260     0x2a1b /tmp/cc9tmOrl.debug.temp.o
+                0x0000000000088260                HiiLanguage.c.1635079f
+ .debug_info    0x000000000008ac7b     0x7175 /tmp/ccMWFiBm.debug.temp.o
+                0x000000000008ac7b                DxeNetLib.c.1ef1158d
+ .debug_info    0x0000000000091df0     0x2b4a /tmp/ccoKLdpn.debug.temp.o
+                0x0000000000091df0                NetBuffer.c.0f2301a8
+ .debug_info    0x000000000009493a     0x3928 /tmp/ccvjWrGl.debug.temp.o
+                0x000000000009493a                DxeTcpIoLib.c.d0a6333f
+ .debug_info    0x0000000000098262      0x3e0 /tmp/ccOlIDOl.debug.temp.o
+                0x0000000000098262                CryptMd5.c.f1867b6d
+ .debug_info    0x0000000000098642      0x186 /tmp/ccZkphNn.debug.temp.o
+                0x0000000000098642                SetMem16Wrapper.c.ab3f09e9
+ .debug_info    0x00000000000987c8      0x1e5 /tmp/ccxxCHck.debug.temp.o
+                0x00000000000987c8                DivU64x32Remainder.c.19070deb
+ .debug_info    0x00000000000989ad      0x33d /tmp/ccGu5rmj.debug.temp.o
+                0x00000000000989ad                Unaligned.c.4a0798dc
+ .debug_info    0x0000000000098cea      0x18d /tmp/cclL2eKj.debug.temp.o
+                0x0000000000098cea                BaseDebugPrintErrorLevelLib.c.afda57b5
+ .debug_info    0x0000000000098e77      0x201 /tmp/ccGMGiHk.debug.temp.o
+                0x0000000000098e77                DebugDualSerialPortLib.c.3fe30e88
+ .debug_info    0x0000000000099078      0x2e6 /tmp/cca2Ev6k.debug.temp.o
+                0x0000000000099078                DualSerialPortLibCommon.c.2dc6badf
+ .debug_info    0x000000000009935e      0x437 /tmp/cceLd4Vm.debug.temp.o
+                0x000000000009935e                md5_dgst.c.b6f0c97b
+ .debug_info    0x0000000000099795      0x1e3 /tmp/ccXZlpAm.debug.temp.o
+                0x0000000000099795                mem_clr.c.4aa9c44a
+ .debug_info    0x0000000000099978      0x503 /tmp/cc5bjjIm.debug.temp.o
+                0x0000000000099978                IoLibNoIo.c.335a48c4
+ .debug_info    0x0000000000099e7b      0x536 /tmp/ccN2ZL2m.debug.temp.o
+                0x0000000000099e7b                PL011UartLib.c.f54a0051
+
+.debug_abbrev   0x0000000000000000     0x7ce5
+ .debug_abbrev  0x0000000000000000      0x2e0 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .debug_abbrev  0x00000000000002e0      0x238 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .debug_abbrev  0x0000000000000518      0x203 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .debug_abbrev  0x000000000000071b       0xf5 /tmp/ccw2raak.debug.temp.o
+ .debug_abbrev  0x0000000000000810      0x1e9 /tmp/ccpGNbGn.debug.temp.o
+ .debug_abbrev  0x00000000000009f9       0xc7 /tmp/cckR7Nkl.debug.temp.o
+ .debug_abbrev  0x0000000000000ac0       0xee /tmp/cct2IKCn.debug.temp.o
+ .debug_abbrev  0x0000000000000bae      0x236 /tmp/ccmChiOl.debug.temp.o
+ .debug_abbrev  0x0000000000000de4      0x31d /tmp/ccuLqMrj.debug.temp.o
+ .debug_abbrev  0x0000000000001101      0x2e7 /tmp/ccLT4kLj.debug.temp.o
+ .debug_abbrev  0x00000000000013e8      0x2a7 /tmp/ccldPAAn.debug.temp.o
+ .debug_abbrev  0x000000000000168f      0x37d /tmp/ccqIIQUk.debug.temp.o
+ .debug_abbrev  0x0000000000001a0c      0x364 /tmp/ccWVW4Mn.debug.temp.o
+ .debug_abbrev  0x0000000000001d70      0x2cc /tmp/ccXWU2gk.debug.temp.o
+ .debug_abbrev  0x000000000000203c      0x298 /tmp/cc4xLtBm.debug.temp.o
+ .debug_abbrev  0x00000000000022d4      0x33c /tmp/ccvZ9Efj.debug.temp.o
+ .debug_abbrev  0x0000000000002610      0x356 /tmp/ccSsifZm.debug.temp.o
+ .debug_abbrev  0x0000000000002966       0xbc /tmp/ccHnYLOj.debug.temp.o
+ .debug_abbrev  0x0000000000002a22      0x2e3 /tmp/ccpwPKCk.debug.temp.o
+ .debug_abbrev  0x0000000000002d05      0x2f2 /tmp/cc1Uypml.debug.temp.o
+ .debug_abbrev  0x0000000000002ff7      0x2c1 /tmp/ccN7tell.debug.temp.o
+ .debug_abbrev  0x00000000000032b8      0x308 /tmp/ccmXJ93k.debug.temp.o
+ .debug_abbrev  0x00000000000035c0       0xce /tmp/cc7t5Qgj.debug.temp.o
+ .debug_abbrev  0x000000000000368e       0xb1 /tmp/cc3HWtpn.debug.temp.o
+ .debug_abbrev  0x000000000000373f       0xb1 /tmp/cc3mr71k.debug.temp.o
+ .debug_abbrev  0x00000000000037f0       0xc6 /tmp/cc7aCspk.debug.temp.o
+ .debug_abbrev  0x00000000000038b6       0xb8 /tmp/cc6eHE8m.debug.temp.o
+ .debug_abbrev  0x000000000000396e      0x13e /tmp/ccxlwkZj.debug.temp.o
+ .debug_abbrev  0x0000000000003aac       0xc0 /tmp/ccX8YIZk.debug.temp.o
+ .debug_abbrev  0x0000000000003b6c       0xb1 /tmp/ccLphdQj.debug.temp.o
+ .debug_abbrev  0x0000000000003c1d       0xc0 /tmp/cc7e1mnk.debug.temp.o
+ .debug_abbrev  0x0000000000003cdd       0xb6 /tmp/cc34e7Qn.debug.temp.o
+ .debug_abbrev  0x0000000000003d93      0x139 /tmp/ccZbxqXm.debug.temp.o
+ .debug_abbrev  0x0000000000003ecc      0x138 /tmp/ccwSPcGj.debug.temp.o
+ .debug_abbrev  0x0000000000004004      0x126 /tmp/ccMBvV1m.debug.temp.o
+ .debug_abbrev  0x000000000000412a       0xf9 /tmp/cc9WQA5k.debug.temp.o
+ .debug_abbrev  0x0000000000004223       0xb1 /tmp/ccPcvKkm.debug.temp.o
+ .debug_abbrev  0x00000000000042d4       0xb1 /tmp/ccNjZIHk.debug.temp.o
+ .debug_abbrev  0x0000000000004385      0x150 /tmp/ccZxpgMm.debug.temp.o
+ .debug_abbrev  0x00000000000044d5      0x161 /tmp/cc09qiuk.debug.temp.o
+ .debug_abbrev  0x0000000000004636      0x165 /tmp/ccK8Zegj.debug.temp.o
+ .debug_abbrev  0x000000000000479b      0x1dd /tmp/ccYlvd3m.debug.temp.o
+ .debug_abbrev  0x0000000000004978      0x242 /tmp/cc4I7Zcm.debug.temp.o
+ .debug_abbrev  0x0000000000004bba      0x1c3 /tmp/ccPWSxIj.debug.temp.o
+ .debug_abbrev  0x0000000000004d7d      0x240 /tmp/ccTXKSdl.debug.temp.o
+ .debug_abbrev  0x0000000000004fbd      0x1d4 /tmp/cc2YlZ2l.debug.temp.o
+ .debug_abbrev  0x0000000000005191      0x1fe /tmp/ccvjAmMm.debug.temp.o
+ .debug_abbrev  0x000000000000538f      0x2ca /tmp/ccWzDpQl.debug.temp.o
+ .debug_abbrev  0x0000000000005659      0x216 /tmp/ccMBMcIn.debug.temp.o
+ .debug_abbrev  0x000000000000586f      0x283 /tmp/cc6GvGIl.debug.temp.o
+ .debug_abbrev  0x0000000000005af2      0x21c /tmp/ccxQPgWl.debug.temp.o
+ .debug_abbrev  0x0000000000005d0e      0x276 /tmp/cc77FPLn.debug.temp.o
+ .debug_abbrev  0x0000000000005f84      0x267 /tmp/ccA6rNGm.debug.temp.o
+ .debug_abbrev  0x00000000000061eb      0x315 /tmp/ccJl1b1m.debug.temp.o
+ .debug_abbrev  0x0000000000006500      0x249 /tmp/ccz3p8gk.debug.temp.o
+ .debug_abbrev  0x0000000000006749      0x209 /tmp/cc9tmOrl.debug.temp.o
+ .debug_abbrev  0x0000000000006952      0x37e /tmp/ccMWFiBm.debug.temp.o
+ .debug_abbrev  0x0000000000006cd0      0x2ec /tmp/ccoKLdpn.debug.temp.o
+ .debug_abbrev  0x0000000000006fbc      0x2f7 /tmp/ccvjWrGl.debug.temp.o
+ .debug_abbrev  0x00000000000072b3      0x100 /tmp/ccOlIDOl.debug.temp.o
+ .debug_abbrev  0x00000000000073b3       0xb1 /tmp/ccZkphNn.debug.temp.o
+ .debug_abbrev  0x0000000000007464       0xb3 /tmp/ccxxCHck.debug.temp.o
+ .debug_abbrev  0x0000000000007517       0xc9 /tmp/ccGu5rmj.debug.temp.o
+ .debug_abbrev  0x00000000000075e0       0xc6 /tmp/cclL2eKj.debug.temp.o
+ .debug_abbrev  0x00000000000076a6       0xc4 /tmp/ccGMGiHk.debug.temp.o
+ .debug_abbrev  0x000000000000776a      0x108 /tmp/cca2Ev6k.debug.temp.o
+ .debug_abbrev  0x0000000000007872      0x139 /tmp/cceLd4Vm.debug.temp.o
+ .debug_abbrev  0x00000000000079ab       0xd7 /tmp/ccXZlpAm.debug.temp.o
+ .debug_abbrev  0x0000000000007a82      0x11f /tmp/cc5bjjIm.debug.temp.o
+ .debug_abbrev  0x0000000000007ba1      0x144 /tmp/ccN2ZL2m.debug.temp.o
+
+.debug_loc      0x0000000000000000    0x2b54e
+ .debug_loc     0x0000000000000000    0x13728 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .debug_loc     0x0000000000013728    0x116ee /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .debug_loc     0x0000000000024e16     0x6738 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+
+.debug_aranges  0x0000000000000000      0xf30
+ .debug_aranges
+                0x0000000000000000      0x8c0 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .debug_aranges
+                0x00000000000008c0      0x440 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .debug_aranges
+                0x0000000000000d00      0x230 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+
+.debug_ranges   0x0000000000000000     0x4500
+ .debug_ranges  0x0000000000000000     0x1720 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000001720     0x21d0 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .debug_ranges  0x00000000000038f0      0xc10 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+
+.debug_line     0x0000000000000000    0x1ea1c
+ .debug_line    0x0000000000000000     0x6e17 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .debug_line    0x0000000000006e17     0x6b93 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .debug_line    0x000000000000d9aa     0x3a7d /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+ .debug_line    0x0000000000011427      0x166 /tmp/ccw2raak.debug.temp.o
+ .debug_line    0x000000000001158d      0x347 /tmp/ccpGNbGn.debug.temp.o
+ .debug_line    0x00000000000118d4      0x170 /tmp/cckR7Nkl.debug.temp.o
+ .debug_line    0x0000000000011a44      0x171 /tmp/cct2IKCn.debug.temp.o
+ .debug_line    0x0000000000011bb5      0x2e4 /tmp/ccmChiOl.debug.temp.o
+ .debug_line    0x0000000000011e99      0x6b0 /tmp/ccuLqMrj.debug.temp.o
+ .debug_line    0x0000000000012549      0x6b4 /tmp/ccLT4kLj.debug.temp.o
+ .debug_line    0x0000000000012bfd      0x63c /tmp/ccldPAAn.debug.temp.o
+ .debug_line    0x0000000000013239      0x70f /tmp/ccqIIQUk.debug.temp.o
+ .debug_line    0x0000000000013948      0x69c /tmp/ccWVW4Mn.debug.temp.o
+ .debug_line    0x0000000000013fe4      0x656 /tmp/ccXWU2gk.debug.temp.o
+ .debug_line    0x000000000001463a      0x641 /tmp/cc4xLtBm.debug.temp.o
+ .debug_line    0x0000000000014c7b      0x69b /tmp/ccvZ9Efj.debug.temp.o
+ .debug_line    0x0000000000015316      0x651 /tmp/ccSsifZm.debug.temp.o
+ .debug_line    0x0000000000015967      0x25c /tmp/ccHnYLOj.debug.temp.o
+ .debug_line    0x0000000000015bc3      0x64e /tmp/ccpwPKCk.debug.temp.o
+ .debug_line    0x0000000000016211      0x63f /tmp/cc1Uypml.debug.temp.o
+ .debug_line    0x0000000000016850      0x665 /tmp/ccN7tell.debug.temp.o
+ .debug_line    0x0000000000016eb5      0x6aa /tmp/ccmXJ93k.debug.temp.o
+ .debug_line    0x000000000001755f      0x173 /tmp/cc7t5Qgj.debug.temp.o
+ .debug_line    0x00000000000176d2      0x173 /tmp/cc3HWtpn.debug.temp.o
+ .debug_line    0x0000000000017845      0x176 /tmp/cc3mr71k.debug.temp.o
+ .debug_line    0x00000000000179bb      0x172 /tmp/cc7aCspk.debug.temp.o
+ .debug_line    0x0000000000017b2d      0x173 /tmp/cc6eHE8m.debug.temp.o
+ .debug_line    0x0000000000017ca0      0x149 /tmp/ccxlwkZj.debug.temp.o
+ .debug_line    0x0000000000017de9      0x14c /tmp/ccX8YIZk.debug.temp.o
+ .debug_line    0x0000000000017f35      0x14c /tmp/ccLphdQj.debug.temp.o
+ .debug_line    0x0000000000018081      0x14b /tmp/cc7e1mnk.debug.temp.o
+ .debug_line    0x00000000000181cc      0x14c /tmp/cc34e7Qn.debug.temp.o
+ .debug_line    0x0000000000018318      0x14b /tmp/ccZbxqXm.debug.temp.o
+ .debug_line    0x0000000000018463      0x14b /tmp/ccwSPcGj.debug.temp.o
+ .debug_line    0x00000000000185ae      0x147 /tmp/ccMBvV1m.debug.temp.o
+ .debug_line    0x00000000000186f5      0x147 /tmp/cc9WQA5k.debug.temp.o
+ .debug_line    0x000000000001883c      0x14a /tmp/ccPcvKkm.debug.temp.o
+ .debug_line    0x0000000000018986      0x14a /tmp/ccNjZIHk.debug.temp.o
+ .debug_line    0x0000000000018ad0      0x166 /tmp/ccZxpgMm.debug.temp.o
+ .debug_line    0x0000000000018c36      0x184 /tmp/cc09qiuk.debug.temp.o
+ .debug_line    0x0000000000018dba      0x20c /tmp/ccK8Zegj.debug.temp.o
+ .debug_line    0x0000000000018fc6      0x330 /tmp/ccYlvd3m.debug.temp.o
+ .debug_line    0x00000000000192f6      0x328 /tmp/cc4I7Zcm.debug.temp.o
+ .debug_line    0x000000000001961e      0x2e9 /tmp/ccPWSxIj.debug.temp.o
+ .debug_line    0x0000000000019907      0x36c /tmp/ccTXKSdl.debug.temp.o
+ .debug_line    0x0000000000019c73      0x372 /tmp/cc2YlZ2l.debug.temp.o
+ .debug_line    0x0000000000019fe5      0x36a /tmp/ccvjAmMm.debug.temp.o
+ .debug_line    0x000000000001a34f      0x3db /tmp/ccWzDpQl.debug.temp.o
+ .debug_line    0x000000000001a72a      0x400 /tmp/ccMBMcIn.debug.temp.o
+ .debug_line    0x000000000001ab2a      0x3a1 /tmp/cc6GvGIl.debug.temp.o
+ .debug_line    0x000000000001aecb      0x3e0 /tmp/ccxQPgWl.debug.temp.o
+ .debug_line    0x000000000001b2ab      0x34a /tmp/cc77FPLn.debug.temp.o
+ .debug_line    0x000000000001b5f5      0x36d /tmp/ccA6rNGm.debug.temp.o
+ .debug_line    0x000000000001b962      0x515 /tmp/ccJl1b1m.debug.temp.o
+ .debug_line    0x000000000001be77      0x4f8 /tmp/ccz3p8gk.debug.temp.o
+ .debug_line    0x000000000001c36f      0x4fa /tmp/cc9tmOrl.debug.temp.o
+ .debug_line    0x000000000001c869      0x507 /tmp/ccMWFiBm.debug.temp.o
+ .debug_line    0x000000000001cd70      0x35c /tmp/ccoKLdpn.debug.temp.o
+ .debug_line    0x000000000001d0cc      0x3b6 /tmp/ccvjWrGl.debug.temp.o
+ .debug_line    0x000000000001d482      0x34b /tmp/ccOlIDOl.debug.temp.o
+ .debug_line    0x000000000001d7cd      0x174 /tmp/ccZkphNn.debug.temp.o
+ .debug_line    0x000000000001d941      0x153 /tmp/ccxxCHck.debug.temp.o
+ .debug_line    0x000000000001da94      0x14e /tmp/ccGu5rmj.debug.temp.o
+ .debug_line    0x000000000001dbe2      0x198 /tmp/cclL2eKj.debug.temp.o
+ .debug_line    0x000000000001dd7a      0x228 /tmp/ccGMGiHk.debug.temp.o
+ .debug_line    0x000000000001dfa2      0x240 /tmp/cca2Ev6k.debug.temp.o
+ .debug_line    0x000000000001e1e2      0x275 /tmp/cceLd4Vm.debug.temp.o
+ .debug_line    0x000000000001e457      0x1b1 /tmp/ccXZlpAm.debug.temp.o
+ .debug_line    0x000000000001e608      0x16b /tmp/cc5bjjIm.debug.temp.o
+ .debug_line    0x000000000001e773      0x2a9 /tmp/ccN2ZL2m.debug.temp.o
+
+.debug_str      0x0000000000000000    0x1214f
+ .debug_str     0x0000000000000000      0x5b0 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+                                        0x5c9 (size before relaxing)
+ .debug_str     0x00000000000005b0      0x257 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+                                        0x677 (size before relaxing)
+ .debug_str     0x0000000000000807      0x105 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o
+                                        0x4ca (size before relaxing)
+ .debug_str     0x000000000000090c      0x320 /tmp/ccw2raak.debug.temp.o
+                                        0x36f (size before relaxing)
+ .debug_str     0x0000000000000c2c     0x1414 /tmp/ccpGNbGn.debug.temp.o
+                                       0x1690 (size before relaxing)
+ .debug_str     0x0000000000002040      0x110 /tmp/cckR7Nkl.debug.temp.o
+                                        0x3af (size before relaxing)
+ .debug_str     0x0000000000002150       0xc7 /tmp/cct2IKCn.debug.temp.o
+                                        0x34e (size before relaxing)
+ .debug_str     0x0000000000002217      0xda5 /tmp/ccmChiOl.debug.temp.o
+                                       0x2314 (size before relaxing)
+ .debug_str     0x0000000000002fbc     0x2bf3 /tmp/ccuLqMrj.debug.temp.o
+                                       0x4fd3 (size before relaxing)
+ .debug_str     0x0000000000005baf      0x5a2 /tmp/ccLT4kLj.debug.temp.o
+                                       0x3def (size before relaxing)
+ .debug_str     0x0000000000006151       0x73 /tmp/ccldPAAn.debug.temp.o
+                                       0x37bd (size before relaxing)
+ .debug_str     0x00000000000061c4     0x1365 /tmp/ccqIIQUk.debug.temp.o
+                                       0x6124 (size before relaxing)
+ .debug_str     0x0000000000007529      0x9a2 /tmp/ccWVW4Mn.debug.temp.o
+                                       0x5597 (size before relaxing)
+ .debug_str     0x0000000000007ecb       0xb2 /tmp/ccXWU2gk.debug.temp.o
+                                       0x3afb (size before relaxing)
+ .debug_str     0x0000000000007f7d       0x82 /tmp/cc4xLtBm.debug.temp.o
+                                       0x37af (size before relaxing)
+ .debug_str     0x0000000000007fff      0x13a /tmp/ccvZ9Efj.debug.temp.o
+                                       0x4d35 (size before relaxing)
+ .debug_str     0x0000000000008139      0x57f /tmp/ccSsifZm.debug.temp.o
+                                       0x4232 (size before relaxing)
+ .debug_str     0x00000000000086b8       0x6b /tmp/ccHnYLOj.debug.temp.o
+                                        0xce5 (size before relaxing)
+ .debug_str     0x0000000000008723      0x7c2 /tmp/ccpwPKCk.debug.temp.o
+                                       0x403b (size before relaxing)
+ .debug_str     0x0000000000008ee5      0x495 /tmp/cc1Uypml.debug.temp.o
+                                       0x3d5c (size before relaxing)
+ .debug_str     0x000000000000937a      0x628 /tmp/ccN7tell.debug.temp.o
+                                       0x3fe9 (size before relaxing)
+ .debug_str     0x00000000000099a2      0x14e /tmp/ccmXJ93k.debug.temp.o
+                                       0x442c (size before relaxing)
+ .debug_str     0x0000000000009af0      0x10c /tmp/cc7t5Qgj.debug.temp.o
+                                        0x3ad (size before relaxing)
+ .debug_str     0x0000000000009bfc       0x52 /tmp/cc3HWtpn.debug.temp.o
+                                        0x358 (size before relaxing)
+ .debug_str     0x0000000000009c4e       0x74 /tmp/cc3mr71k.debug.temp.o
+                                        0x381 (size before relaxing)
+ .debug_str     0x0000000000009cc2       0x59 /tmp/cc7aCspk.debug.temp.o
+                                        0x364 (size before relaxing)
+ .debug_str     0x0000000000009d1b       0x52 /tmp/cc6eHE8m.debug.temp.o
+                                        0x370 (size before relaxing)
+ .debug_str     0x0000000000009d6d      0x133 /tmp/ccxlwkZj.debug.temp.o
+                                        0x518 (size before relaxing)
+ .debug_str     0x0000000000009ea0       0x66 /tmp/ccX8YIZk.debug.temp.o
+                                        0x472 (size before relaxing)
+ .debug_str     0x0000000000009f06       0x4f /tmp/ccLphdQj.debug.temp.o
+                                        0x45b (size before relaxing)
+ .debug_str     0x0000000000009f55       0x4f /tmp/cc7e1mnk.debug.temp.o
+                                        0x472 (size before relaxing)
+ .debug_str     0x0000000000009fa4       0x4f /tmp/cc34e7Qn.debug.temp.o
+                                        0x461 (size before relaxing)
+ .debug_str     0x0000000000009ff3      0x11a /tmp/ccZbxqXm.debug.temp.o
+                                        0x571 (size before relaxing)
+ .debug_str     0x000000000000a10d      0x2af /tmp/ccwSPcGj.debug.temp.o
+                                        0x82d (size before relaxing)
+ .debug_str     0x000000000000a3bc      0x2da /tmp/ccMBvV1m.debug.temp.o
+                                        0x7e2 (size before relaxing)
+ .debug_str     0x000000000000a696      0x189 /tmp/cc9WQA5k.debug.temp.o
+                                        0x5df (size before relaxing)
+ .debug_str     0x000000000000a81f       0x41 /tmp/ccPcvKkm.debug.temp.o
+                                        0x465 (size before relaxing)
+ .debug_str     0x000000000000a860       0x41 /tmp/ccNjZIHk.debug.temp.o
+                                        0x465 (size before relaxing)
+ .debug_str     0x000000000000a8a1      0x254 /tmp/ccZxpgMm.debug.temp.o
+                                        0x5a2 (size before relaxing)
+ .debug_str     0x000000000000aaf5      0x23e /tmp/cc09qiuk.debug.temp.o
+                                        0x70c (size before relaxing)
+ .debug_str     0x000000000000ad33      0x1f8 /tmp/ccK8Zegj.debug.temp.o
+                                        0x5c4 (size before relaxing)
+ .debug_str     0x000000000000af2b       0xfd /tmp/ccYlvd3m.debug.temp.o
+                                       0x156d (size before relaxing)
+ .debug_str     0x000000000000b028      0x30a /tmp/cc4I7Zcm.debug.temp.o
+                                       0x17d9 (size before relaxing)
+ .debug_str     0x000000000000b332      0x10c /tmp/ccPWSxIj.debug.temp.o
+                                       0x156f (size before relaxing)
+ .debug_str     0x000000000000b43e      0x3f2 /tmp/ccTXKSdl.debug.temp.o
+                                       0x1974 (size before relaxing)
+ .debug_str     0x000000000000b830       0x70 /tmp/cc2YlZ2l.debug.temp.o
+                                       0x1658 (size before relaxing)
+ .debug_str     0x000000000000b8a0       0xbc /tmp/ccvjAmMm.debug.temp.o
+                                       0x17d8 (size before relaxing)
+ .debug_str     0x000000000000b95c      0x6c3 /tmp/ccWzDpQl.debug.temp.o
+                                       0x25ec (size before relaxing)
+ .debug_str     0x000000000000c01f       0xeb /tmp/ccMBMcIn.debug.temp.o
+                                       0x21db (size before relaxing)
+ .debug_str     0x000000000000c10a      0x2f3 /tmp/cc6GvGIl.debug.temp.o
+                                       0x2174 (size before relaxing)
+ .debug_str     0x000000000000c3fd      0x550 /tmp/ccxQPgWl.debug.temp.o
+                                       0x20aa (size before relaxing)
+ .debug_str     0x000000000000c94d      0x128 /tmp/cc77FPLn.debug.temp.o
+                                       0x1a3a (size before relaxing)
+ .debug_str     0x000000000000ca75      0x5fb /tmp/ccA6rNGm.debug.temp.o
+                                       0x20b1 (size before relaxing)
+ .debug_str     0x000000000000d070      0xdbd /tmp/ccJl1b1m.debug.temp.o
+                                       0x35e9 (size before relaxing)
+ .debug_str     0x000000000000de2d       0xd1 /tmp/ccz3p8gk.debug.temp.o
+                                       0x2450 (size before relaxing)
+ .debug_str     0x000000000000defe       0x89 /tmp/cc9tmOrl.debug.temp.o
+                                       0x23c2 (size before relaxing)
+ .debug_str     0x000000000000df87     0x3171 /tmp/ccMWFiBm.debug.temp.o
+                                       0x57b0 (size before relaxing)
+ .debug_str     0x00000000000110f8      0x38a /tmp/ccoKLdpn.debug.temp.o
+                                       0x1ce5 (size before relaxing)
+ .debug_str     0x0000000000011482      0x185 /tmp/ccvjWrGl.debug.temp.o
+                                       0x2891 (size before relaxing)
+ .debug_str     0x0000000000011607      0x133 /tmp/ccOlIDOl.debug.temp.o
+                                        0x558 (size before relaxing)
+ .debug_str     0x000000000001173a       0x53 /tmp/ccZkphNn.debug.temp.o
+                                        0x360 (size before relaxing)
+ .debug_str     0x000000000001178d       0x5d /tmp/ccxxCHck.debug.temp.o
+                                        0x47e (size before relaxing)
+ .debug_str     0x00000000000117ea       0xde /tmp/ccGu5rmj.debug.temp.o
+                                        0x508 (size before relaxing)
+ .debug_str     0x00000000000118c8      0x115 /tmp/cclL2eKj.debug.temp.o
+                                        0x3e0 (size before relaxing)
+ .debug_str     0x00000000000119dd      0x102 /tmp/ccGMGiHk.debug.temp.o
+                                        0x516 (size before relaxing)
+ .debug_str     0x0000000000011adf      0x101 /tmp/cca2Ev6k.debug.temp.o
+                                        0x5b3 (size before relaxing)
+ .debug_str     0x0000000000011be0      0x11d /tmp/cceLd4Vm.debug.temp.o
+                                        0x3af (size before relaxing)
+ .debug_str     0x0000000000011cfd       0x79 /tmp/ccXZlpAm.debug.temp.o
+                                        0x351 (size before relaxing)
+ .debug_str     0x0000000000011d76      0x1ab /tmp/cc5bjjIm.debug.temp.o
+                                        0x44d (size before relaxing)
+ .debug_str     0x0000000000011f21      0x22e /tmp/ccN2ZL2m.debug.temp.o
+                                        0x818 (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x2f90
+ .debug_frame   0x0000000000000000     0x1b40 /tmp/IScsiDxe.dll.caonYk.ltrans0.ltrans.o
+ .debug_frame   0x0000000000001b40      0xde0 /tmp/IScsiDxe.dll.caonYk.ltrans1.ltrans.o
+ .debug_frame   0x0000000000002920      0x670 /tmp/IScsiDxe.dll.caonYk.ltrans2.ltrans.o

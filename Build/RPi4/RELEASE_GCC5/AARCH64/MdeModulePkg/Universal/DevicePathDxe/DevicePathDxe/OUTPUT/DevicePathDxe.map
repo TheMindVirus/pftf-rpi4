@@ -1,0 +1,1182 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                              (_ModuleEntryPoint)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib(BaseStackCheckGcc.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (__stack_chk_fail)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memcpy.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memcpy)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memset.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memset)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Universal/DevicePathDxe/DevicePathDxe/OUTPUT/DevicePathDxe.lib(AutoGen.obj)
+                              DriverEntryPoint.obj (symbol from plugin) (ProcessLibraryConstructorList)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Universal/DevicePathDxe/DevicePathDxe/OUTPUT/DevicePathDxe.lib(DevicePath.obj)
+                              AutoGen.obj (symbol from plugin) (DevicePathEntryPoint)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuDeadLoop)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuBreakpoint)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiBootServicesTableLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(UefiDevicePathLib.obj)
+                              DevicePath.obj (symbol from plugin) (GetDevicePathSize)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilities.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibGetDevicePathSize)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilitiesDxeSmm.obj)
+                              DevicePathUtilities.obj (symbol from plugin) (DevicePathFromHandle)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathToText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertDeviceNodeToText)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathFromText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertTextToDeviceNode)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+                              DevicePathFromText.obj (symbol from plugin) (CopyGuid)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+                              DevicePathToText.obj (symbol from plugin) (ZeroMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+                              DevicePathUtilities.obj (symbol from plugin) (CopyMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                              ZeroMemWrapper.obj (symbol from plugin) (InternalMemZeroMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCopyMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCompareGuid)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+                              DevicePathFromText.obj (symbol from plugin) (SwapBytes64)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              DevicePathToText.obj (symbol from plugin) (LShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              DevicePathFromText.obj (symbol from plugin) (StrnLenS)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              DevicePathFromText.obj (symbol from plugin) (StrLen)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              DevicePathUtilities.obj (symbol from plugin) (ReadUnaligned16)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              LShiftU64.obj (symbol from plugin) (InternalMathLShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              SafeString.obj (symbol from plugin) (SwapBytes32)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              SafeString.obj (symbol from plugin) (SwapBytes16)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              SafeString.obj (symbol from plugin) (RShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              SafeString.obj (symbol from plugin) (MultU64x32)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              SafeString.obj (symbol from plugin) (DivU64x32)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              DevicePathToText.obj (symbol from plugin) (UnicodeVSPrint)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              PrintLib.obj (symbol from plugin) (BasePrintLibConvertValueToStringS)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              DevicePathUtilities.obj (symbol from plugin) (AllocatePool)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              PrintLibInternal.obj (symbol from plugin) (DivU64x32Remainder)
+
+Discarded input sections
+
+ .text          0x0000000000000000       0x10 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .text          0x0000000000000000        0x0 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text._DriverUnloadHandler
+                0x0000000000000000        0x8 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.__memset
+                0x0000000000000000       0x1c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/ccPlVw5f.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPlVw5f.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccpYloMh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccpYloMh.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc2dhR1g.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc2dhR1g.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc6lZUrh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6lZUrh.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccS0t0Ug.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccS0t0Ug.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc511bZf.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc511bZf.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccf46Gbg.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccf46Gbg.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cccl6Sbe.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cccl6Sbe.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccidyOyh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccidyOyh.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccBcSURh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccBcSURh.debug.temp.o
+ .debug_info    0x0000000000000000     0x1953 /tmp/cckilC7e.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x1d4 /tmp/cckilC7e.debug.temp.o
+ .debug_line    0x0000000000000000      0x374 /tmp/cckilC7e.debug.temp.o
+ .debug_str     0x0000000000000000     0x165a /tmp/cckilC7e.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cckilC7e.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cckilC7e.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccLeHBPh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccLeHBPh.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccgGhxqe.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccgGhxqe.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccU6o7If.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccU6o7If.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccn8wxxh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccn8wxxh.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccxT3Dre.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccxT3Dre.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc971PZg.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc971PZg.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccL50qlh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccL50qlh.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccWTZiSh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWTZiSh.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccrwRolh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccrwRolh.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccs9Gfvg.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccs9Gfvg.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccP5Mggi.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccP5Mggi.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccZ83zmh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccZ83zmh.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccoc1RDf.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccoc1RDf.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cciYoYgf.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cciYoYgf.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccRYpOie.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccRYpOie.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccjMmmfe.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccjMmmfe.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc7rGKxh.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc7rGKxh.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccPXIlPd.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPXIlPd.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccemIuGg.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccemIuGg.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccuYBWtg.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccuYBWtg.debug.temp.o
+ .text          0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+START GROUP
+LOAD /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+LOAD /tmp/ccPlVw5f.debug.temp.o
+LOAD /tmp/ccpYloMh.debug.temp.o
+LOAD /tmp/cc2dhR1g.debug.temp.o
+LOAD /tmp/cc6lZUrh.debug.temp.o
+LOAD /tmp/ccS0t0Ug.debug.temp.o
+LOAD /tmp/cc511bZf.debug.temp.o
+LOAD /tmp/ccf46Gbg.debug.temp.o
+LOAD /tmp/cccl6Sbe.debug.temp.o
+LOAD /tmp/ccidyOyh.debug.temp.o
+LOAD /tmp/ccBcSURh.debug.temp.o
+LOAD /tmp/cckilC7e.debug.temp.o
+LOAD /tmp/ccLeHBPh.debug.temp.o
+LOAD /tmp/ccgGhxqe.debug.temp.o
+LOAD /tmp/ccU6o7If.debug.temp.o
+LOAD /tmp/ccn8wxxh.debug.temp.o
+LOAD /tmp/ccxT3Dre.debug.temp.o
+LOAD /tmp/cc971PZg.debug.temp.o
+LOAD /tmp/ccL50qlh.debug.temp.o
+LOAD /tmp/ccWTZiSh.debug.temp.o
+LOAD /tmp/ccrwRolh.debug.temp.o
+LOAD /tmp/ccs9Gfvg.debug.temp.o
+LOAD /tmp/ccP5Mggi.debug.temp.o
+LOAD /tmp/ccZ83zmh.debug.temp.o
+LOAD /tmp/ccoc1RDf.debug.temp.o
+LOAD /tmp/cciYoYgf.debug.temp.o
+LOAD /tmp/ccRYpOie.debug.temp.o
+LOAD /tmp/ccjMmmfe.debug.temp.o
+LOAD /tmp/cc7rGKxh.debug.temp.o
+LOAD /tmp/ccPXIlPd.debug.temp.o
+LOAD /tmp/ccemIuGg.debug.temp.o
+LOAD /tmp/ccuYBWtg.debug.temp.o
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Universal/DevicePathDxe/DevicePathDxe/OUTPUT/DevicePathDxe.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib
+END GROUP
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.gnu.version_d  0x0000000000000228        0x0
+ .gnu.version_d
+                0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version    0x0000000000000228        0x0
+ .gnu.version   0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version_r  0x0000000000000228        0x0
+ .gnu.version_r
+                0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.text           0x0000000000001000     0x9a98
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.InternalAllocatePool.constprop.0
+                0x0000000000001000       0x6c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.FreePool
+                0x000000000000106c       0x14 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.BasePrintLibFillBuffer
+                0x0000000000001080       0x34 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.SwapBytes32
+                0x00000000000010b4       0x20 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.WriteUnaligned64
+                0x00000000000010d4       0x50 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.LShiftU64
+                0x0000000000001124        0x8 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.WriteUnaligned16
+                0x000000000000112c       0x18 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.ReadUnaligned16
+                0x0000000000001144       0x30 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.ReadUnaligned32
+                0x0000000000001174       0x28 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.ReadUnaligned64
+                0x000000000000119c       0x28 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.AsciiStrLen
+                0x00000000000011c4       0x1c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.InternalIsHexaDecimalDigitCharacter
+                0x00000000000011e0       0x34 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.InternalHexCharToUintn
+                0x0000000000001214       0x40 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.StrnCmp  0x0000000000001254       0x44 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.StrCmp   0x0000000000001298       0x28 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.StrLen   0x00000000000012c0       0x1c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.StrSize  0x00000000000012dc       0x1c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.StrHexToBytes
+                0x00000000000012f8       0xbc /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.StrnLenS
+                0x00000000000013b4       0x3c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.UnicodeStrToAsciiStrS.constprop.0
+                0x00000000000013f0       0xa0 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.StrHexToUint64
+                0x0000000000001490       0xe0 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.StrDecimalToUint64
+                0x0000000000001570       0xac /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.StrHexToUintnS
+                0x000000000000161c      0x124 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.StrHexToUintn
+                0x0000000000001740       0x48 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.StrDecimalToUintnS
+                0x0000000000001788       0xf0 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.StrDecimalToUintn
+                0x0000000000001878       0x48 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.StrCpyS  0x00000000000018c0       0xb8 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.SwapBytes64
+                0x0000000000001978       0x2c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.EisaIdFromText
+                0x00000000000019a4       0x44 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.StrToAscii
+                0x00000000000019e8       0x2c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.IsHexStr
+                0x0000000000001a14       0x38 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.Strtoi64
+                0x0000000000001a4c       0x38 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.Strtoi   0x0000000000001a84       0x2c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.NetworkProtocolFromText
+                0x0000000000001ab0       0x50 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.SplitStr
+                0x0000000000001b00       0x48 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.GetNextParamStr
+                0x0000000000001b48        0x8 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.IsDevicePathEnd
+                0x0000000000001b50       0x24 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.NextDevicePathNode
+                0x0000000000001b74       0x20 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.IsDevicePathValid.constprop.0
+                0x0000000000001b94       0xb0 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.UefiDevicePathLibGetDevicePathSize
+                0x0000000000001c44       0x68 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.GetDevicePathSize
+                0x0000000000001cac        0x4 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.IsDevicePathMultiInstance
+                0x0000000000001cb0       0x68 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.BasePrintLibSPrint.constprop.0
+                0x0000000000001d18       0xa0 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.BasePrintLibSPrintMarker.constprop.0
+                0x0000000000001db8      0xdd8 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.SPrintLength
+                0x0000000000002b90       0x40 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.UnicodeVSPrint
+                0x0000000000002bd0       0x54 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.UnicodeSPrint.constprop.0
+                0x0000000000002c24       0x98 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.CopyMem  0x0000000000002cbc       0x1c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.InternalAllocateCopyPool.constprop.0
+                0x0000000000002cd8       0x3c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.UefiDevicePathLibStrDuplicate
+                0x0000000000002d14       0x1c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.UefiDevicePathLibDuplicateDevicePath
+                0x0000000000002d30       0x28 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DuplicateDevicePath
+                0x0000000000002d58        0x4 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.GetNextDevicePathInstance
+                0x0000000000002d5c       0xc8 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.StrToIpv4Address.constprop.0
+                0x0000000000002e24      0x11c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.UefiDevicePathLibAppendDevicePath
+                0x0000000000002f40       0xc4 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.AppendDevicePath
+                0x0000000000003004        0x4 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.UefiDevicePathLibAppendDevicePathNode
+                0x0000000000003008       0xa8 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.AppendDevicePathNode
+                0x00000000000030b0        0x4 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.AppendDevicePathInstance
+                0x00000000000030b4       0xe4 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.CopyGuid
+                0x0000000000003198        0x8 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.StrToGuid
+                0x00000000000031a0      0x144 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.ZeroMem  0x00000000000032e4        0xc /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.InternalAllocateZeroPool.constprop.0
+                0x00000000000032f0       0x34 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.InternalReallocatePool.constprop.0
+                0x0000000000003324       0x60 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.UefiDevicePathLibCatPrint
+                0x0000000000003384      0x158 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextNodeGeneric
+                0x00000000000034dc       0xe8 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextEndInstance
+                0x00000000000035c4        0xc /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextBBS
+                0x00000000000035d0       0xa0 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathRelativeOffsetRange
+                0x0000000000003670       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextFvFile
+                0x0000000000003680       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextFv
+                0x0000000000003690       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextMediaProtocol
+                0x00000000000036a0       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextFilePath
+                0x00000000000036b0       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextCDROM
+                0x00000000000036c0       0x30 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextHardDrive
+                0x00000000000036f0       0x8c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextUri
+                0x000000000000377c       0x6c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextBluetoothLE
+                0x00000000000037e8       0x44 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextWiFi
+                0x000000000000382c       0x70 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextBluetooth
+                0x000000000000389c       0x24 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextVlan
+                0x00000000000038c0       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextiSCSI
+                0x00000000000038d0      0x10c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextUart
+                0x00000000000039dc      0x118 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextInfiniBand
+                0x0000000000003af4       0x1c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.CatIPv6Address
+                0x0000000000003b10       0x8c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.CatIPv4Address
+                0x0000000000003b9c       0x1c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextDns
+                0x0000000000003bb8       0xc4 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.CatNetworkProtocol
+                0x0000000000003c7c       0x38 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextIPv6
+                0x0000000000003cb4       0xec /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextIPv4
+                0x0000000000003da0       0xf4 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextMacAddr
+                0x0000000000003e94       0x8c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextI2O
+                0x0000000000003f20       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextSata
+                0x0000000000003f30       0x18 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextUsbClass
+                0x0000000000003f48      0x194 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextLogicalUnit
+                0x00000000000040dc       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextUsbWWID
+                0x00000000000040ec       0x8c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextUsb
+                0x0000000000004178       0x14 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToText1394
+                0x000000000000418c       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextEmmc
+                0x000000000000419c       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextSd
+                0x00000000000041ac       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextUfs
+                0x00000000000041bc       0x14 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextNVMe
+                0x00000000000041d0       0x54 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextSasEx
+                0x0000000000004224      0x18c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextFibreEx
+                0x00000000000043b0       0xa8 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextFibre
+                0x0000000000004458       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextScsi
+                0x0000000000004468       0x14 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextAtapi
+                0x000000000000447c       0x60 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextAcpiAdr
+                0x00000000000044dc       0x9c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextAcpiEx
+                0x0000000000004578      0x288 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextAcpi
+                0x0000000000004800       0xc0 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextBmc
+                0x00000000000048c0       0x34 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextController
+                0x00000000000048f4       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextMemMap
+                0x0000000000004904       0x14 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextPccard
+                0x0000000000004918       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextPci
+                0x0000000000004928       0x14 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.UefiDevicePathLibCreateDeviceNode
+                0x000000000000493c       0x64 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.CreateDeviceNode
+                0x00000000000049a0        0x4 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.UefiDevicePathLibConvertTextToDeviceNode.part.0
+                0x00000000000049a4      0x108 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.ConvertTextToDeviceNode
+                0x0000000000004aac       0x18 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.ConvertTextToDevicePath
+                0x0000000000004ac4      0x1c0 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextSata
+                0x0000000000004c84       0x94 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextBBS
+                0x0000000000004d18      0x170 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextPersistentVirtualCd
+                0x0000000000004e88       0xe0 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextPersistentVirtualDisk
+                0x0000000000004f68       0xe0 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextVirtualCd
+                0x0000000000005048       0xe0 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextVirtualDisk
+                0x0000000000005128       0xe0 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextRamDisk
+                0x0000000000005208       0xe8 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextRelativeOffsetRange
+                0x00000000000052f0       0x64 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextFvFile
+                0x0000000000005354       0x4c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextFv
+                0x00000000000053a0       0x4c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextMedia
+                0x00000000000053ec       0x4c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextCDROM
+                0x0000000000005438       0x84 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextUri
+                0x00000000000054bc       0x60 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextBluetoothLE
+                0x000000000000551c       0x74 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextWiFi
+                0x0000000000005590       0xb0 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextBluetooth
+                0x0000000000005640       0x54 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextVlan
+                0x0000000000005694       0x4c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextiSCSI
+                0x00000000000056e0      0x1a0 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextUnit
+                0x0000000000005880       0x4c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextUsbWwid
+                0x00000000000058cc       0xe8 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.ConvertFromTextUsbClass
+                0x00000000000059b4      0x118 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextUsbTestAndMeasurement
+                0x0000000000005acc       0x58 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextUsbIrdaBridge
+                0x0000000000005b24       0x58 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextUsbDeviceFirmwareUpdate
+                0x0000000000005b7c       0x58 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextUsbWireless
+                0x0000000000005bd4       0x5c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextUsbDiagnostic
+                0x0000000000005c30       0x5c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextUsbVideo
+                0x0000000000005c8c       0x5c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextUsbSmartCard
+                0x0000000000005ce8       0x5c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextUsbCDCData
+                0x0000000000005d44       0x5c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextUsbHub
+                0x0000000000005da0       0x5c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextUsbMassStorage
+                0x0000000000005dfc       0x5c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextUsbPrinter
+                0x0000000000005e58       0x5c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextUsbImage
+                0x0000000000005eb4       0x5c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextUsbHID
+                0x0000000000005f10       0x5c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextUsbCDCControl
+                0x0000000000005f6c       0x5c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextUsbAudio
+                0x0000000000005fc8       0x5c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextUsbClass
+                0x0000000000006024       0x58 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextUart
+                0x000000000000607c      0x1b0 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextMAC
+                0x000000000000622c       0x84 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextDebugPort
+                0x00000000000062b0       0x40 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextEmmc
+                0x00000000000062f0       0x4c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextSd
+                0x000000000000633c       0x4c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextUfs
+                0x0000000000006388       0x6c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextNVMe
+                0x00000000000063f4       0xb4 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextSasEx
+                0x00000000000064a8      0x244 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextSAS
+                0x00000000000066ec      0x218 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextUartFlowCtrl
+                0x0000000000006904       0x88 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextVenUtf8
+                0x000000000000698c       0x40 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextVenVt100Plus
+                0x00000000000069cc       0x40 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextVenVt100
+                0x0000000000006a0c       0x40 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextVenPcAnsi
+                0x0000000000006a4c       0x40 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextInfiniband
+                0x0000000000006a8c       0xbc /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextI2O
+                0x0000000000006b48       0x4c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextUsb
+                0x0000000000006b94       0x6c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromText1394
+                0x0000000000006c00       0x50 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextFibreEx
+                0x0000000000006c50       0x80 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextFibre
+                0x0000000000006cd0       0x68 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextScsi
+                0x0000000000006d38       0x6c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextAta
+                0x0000000000006da4       0xf4 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextAcpiAdr
+                0x0000000000006e98       0x9c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextAcpiExp
+                0x0000000000006f34       0xec /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextAcpiEx
+                0x0000000000007020      0x138 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.ConvertFromTextAcpi
+                0x0000000000007158       0x64 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextParallelPort
+                0x00000000000071bc        0x8 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextSerial
+                0x00000000000071c4        0x8 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextKeyboard
+                0x00000000000071cc        0x8 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextFloppy
+                0x00000000000071d4        0x8 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextPcieRoot
+                0x00000000000071dc        0x8 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextPciRoot
+                0x00000000000071e4        0x8 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextAcpi
+                0x00000000000071ec       0x6c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextBmc
+                0x0000000000007258       0x74 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextCtrl
+                0x00000000000072cc       0x4c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.ConvertFromTextVendor
+                0x0000000000007318       0x90 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextVenMedia
+                0x00000000000073a8        0xc /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextVenMsg
+                0x00000000000073b4        0xc /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextVenHw
+                0x00000000000073c0        0xc /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextMemoryMapped
+                0x00000000000073cc       0x84 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextPcCard
+                0x0000000000007450       0x4c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextPci
+                0x000000000000749c       0x6c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextGenericPath
+                0x0000000000007508       0x88 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextBbsPath
+                0x0000000000007590        0xc /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextMediaPath
+                0x000000000000759c        0xc /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextMsg
+                0x00000000000075a8        0xc /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextAcpiPath
+                0x00000000000075b4        0xc /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextHardwarePath
+                0x00000000000075c0        0xc /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextPath
+                0x00000000000075cc       0x28 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.StrToIpv6Address.constprop.0
+                0x00000000000075f4      0x1ec /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextDns
+                0x00000000000077e0      0x138 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextHD
+                0x0000000000007918      0x160 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextIPv6
+                0x0000000000007a78      0x134 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathFromTextIPv4
+                0x0000000000007bac      0x120 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.ConvertDevicePathToText
+                0x0000000000007ccc      0x168 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.ConvertDeviceNodeToText
+                0x0000000000007e34       0xc4 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.CompareGuid
+                0x0000000000007ef8        0x4 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextRamDisk
+                0x0000000000007efc      0x1a0 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.DevPathToTextVendor
+                0x000000000000809c      0x34c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .text.memcpy   0x00000000000083e8       0x20 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+                0x00000000000083e8                memcpy
+ .text.__stack_chk_fail
+                0x0000000000008408       0x18 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+                0x0000000000008408                __stack_chk_fail
+ .text._ModuleEntryPoint
+                0x0000000000008420       0x9c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+                0x0000000000008420                _ModuleEntryPoint
+ *fill*         0x00000000000084bc        0x4 
+ .text          0x00000000000084c0      0x200 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                0x00000000000084c0                InternalMemSetMem16
+                0x00000000000084cc                InternalMemSetMem32
+                0x00000000000084d8                InternalMemSetMem64
+                0x00000000000084e4                InternalMemZeroMem
+                0x00000000000084ec                InternalMemSetMem
+ .text          0x00000000000086c0      0x218 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                0x000000000000882c                InternalMemCopyMem
+ *fill*         0x00000000000088d8        0x8 
+ .text          0x00000000000088e0       0x20 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                0x00000000000088e0                InternalMemCompareGuid
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.NetworkProtocolFromText.str2.2
+                0x0000000000008900       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.BasePrintLibSPrintMarker.constprop.0.str1.1
+                0x0000000000008910       0x7b /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ *fill*         0x000000000000898b        0x1 
+ .rodata.BasePrintLibSPrintMarker.constprop.0
+                0x000000000000898c       0x5e /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.UnicodeSPrint.constprop.0.str2.2
+                0x00000000000089ea       0x16 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextNodeGeneric.str2.2
+                0x0000000000008a00       0x22 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+                                         0x34 (size before relaxing)
+ .rodata.DevPathToTextBBS.str2.2
+                0x0000000000008a22       0x2c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+                                         0x3a (size before relaxing)
+ .rodata.DevPathRelativeOffsetRange.str2.2
+                0x0000000000008a4e       0x28 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextFvFile.str2.2
+                0x0000000000008a76       0x16 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextFv.str2.2
+                0x0000000000008a8c        0xe /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextMediaProtocol.str2.2
+                0x0000000000008a9a       0x14 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextFilePath.str2.2
+                0x0000000000008aae        0x6 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextCDROM.str2.2
+                0x0000000000008ab4       0x48 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextHardDrive.str2.2
+                0x0000000000008afc       0x64 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+                                         0x7e (size before relaxing)
+ .rodata.DevPathToTextUri.str2.2
+                0x0000000000008b60       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextBluetoothLE.str2.2
+                0x0000000000008b70       0x5a /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextWiFi.str2.2
+                0x0000000000008bca       0x14 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextBluetooth.str2.2
+                0x0000000000008bde       0x48 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextVlan.str2.2
+                0x0000000000008c26       0x12 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextiSCSI.str2.2
+                0x0000000000008c38       0x6e /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+                                         0x88 (size before relaxing)
+ .rodata.DevPathToTextUart.str2.2
+                0x0000000000008ca6       0x5c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+                                         0x74 (size before relaxing)
+ *fill*         0x0000000000008d02        0x2 
+ .rodata.DevPathToTextUart
+                0x0000000000008d04        0x4 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextInfiniBand.str2.2
+                0x0000000000008d08       0x4c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.CatIPv6Address.str2.2
+                0x0000000000008d54       0x90 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.CatIPv4Address.str2.2
+                0x0000000000008de4       0x18 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextDns.str2.2
+                0x0000000000008dfc        0xa /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.CatNetworkProtocol.str2.2
+                0x0000000000008e06        0xa /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextIPv6.str2.2
+                0x0000000000008e06       0x80 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+                                         0x8e (size before relaxing)
+ .rodata.DevPathToTextIPv4.str2.2
+                0x0000000000008e86       0x24 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextMacAddr.str2.2
+                0x0000000000008eaa        0xa /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextI2O.str2.2
+                0x0000000000008eb4       0x14 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextSata.str2.2
+                0x0000000000008ec8       0x2a /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextUsbClass.str2.2
+                0x0000000000008ef2      0x250 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ *fill*         0x0000000000009142        0x2 
+ .rodata.DevPathToTextUsbClass
+                0x0000000000009144        0xe /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextLogicalUnit.str2.2
+                0x0000000000009152       0x16 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextUsbWWID.str2.2
+                0x0000000000009168       0x3a /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextUsb.str2.2
+                0x00000000000091a2       0x1e /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToText1394.str2.2
+                0x00000000000091c0       0x1c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextEmmc.str2.2
+                0x00000000000091dc       0x16 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextSd.str2.2
+                0x00000000000091f2       0x12 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextUfs.str2.2
+                0x0000000000009204       0x1e /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextNVMe.str2.2
+                0x0000000000009222       0x66 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextSasEx.str2.2
+                0x0000000000009288       0xb4 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+                                         0xc0 (size before relaxing)
+ .rodata.DevPathToTextFibreEx.str2.2
+                0x000000000000933c       0x16 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextFibre.str2.2
+                0x0000000000009352       0x26 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextScsi.str2.2
+                0x0000000000009378       0x20 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextAtapi.str2.2
+                0x0000000000009398       0x72 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextAcpiAdr.str2.2
+                0x000000000000940a       0x26 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextAcpiEx.str2.2
+                0x0000000000009430      0x116 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+                                        0x132 (size before relaxing)
+ .rodata.DevPathToTextAcpi.str2.2
+                0x0000000000009546       0xc2 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextBmc.str2.2
+                0x0000000000009608       0x20 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextController.str2.2
+                0x0000000000009628       0x16 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextMemMap.str2.2
+                0x000000000000963e       0x3e /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextPccard.str2.2
+                0x000000000000967c       0x1a /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextPci.str2.2
+                0x0000000000009696       0x1e /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathFromTextBBS.str2.2
+                0x00000000000096b4       0x46 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathFromTextUart.str2.2
+                0x00000000000096fa       0x20 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+                                         0x24 (size before relaxing)
+ *fill*         0x000000000000971a        0x2 
+ .rodata.DevPathFromTextUart
+                0x000000000000971c       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathFromTextSasEx.str2.2
+                0x000000000000972c       0x16 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathFromTextUartFlowCtrl.str2.2
+                0x0000000000009742       0x22 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathFromTextIPv6.str2.2
+                0x0000000000009764       0x2e /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.ConvertDevicePathToText.str2.2
+                0x0000000000009792        0x4 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.DevPathToTextRamDisk.str2.2
+                0x0000000000009796       0xca /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+                                        0x136 (size before relaxing)
+ .rodata.DevPathToTextVendor.str2.2
+                0x0000000000009860      0x118 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+                                        0x144 (size before relaxing)
+ .rodata.str2.2
+                0x0000000000009978      0x40c /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+                                        0x44c (size before relaxing)
+ .rodata.CSWTCH.42
+                0x0000000000009d84        0x6 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ *fill*         0x0000000000009d8a        0x6 
+ .rodata.CSWTCH.58
+                0x0000000000009d90       0x30 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.mDevicePathFromText
+                0x0000000000009dc0       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.mDevicePathToText
+                0x0000000000009dd0       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.mDevicePathUtilities
+                0x0000000000009de0       0x40 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.mErrorString
+                0x0000000000009e20      0x2b5 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.mHexStr
+                0x000000000000a0d5       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ *fill*         0x000000000000a0e5        0x3 
+ .rodata.mUefiDevicePathLibDevPathFromTextTable
+                0x000000000000a0e8      0x570 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.mUefiDevicePathLibEndDevicePath
+                0x000000000000a658        0x4 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ *fill*         0x000000000000a65c        0x4 
+ .rodata.mUefiDevicePathLibToTextTable
+                0x000000000000a660      0x320 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.mUefiDevicePathLibToTextTableGeneric
+                0x000000000000a980       0x60 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .rodata.mWarningString
+                0x000000000000a9e0       0x96 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ *(.got .got.*)
+ *fill*         0x000000000000aa76        0x2 
+ .got           0x000000000000aa78        0x8 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x000000000000aa78                _GLOBAL_OFFSET_TABLE_
+ .got.plt       0x000000000000aa80       0x18 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ *:AutoGen.obj(.data.g*Guid)
+
+.plt            0x000000000000aa98        0x0
+ .plt           0x000000000000aa98        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.data           0x000000000000b000       0xf8
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.ro   0x000000000000b000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data.__stack_chk_guard
+                0x000000000000b000        0x8 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+                0x000000000000b000                __stack_chk_guard
+ .data.gEfiDebugPortProtocolGuid
+                0x000000000000b008       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .data.gEfiDevicePathFromTextProtocolGuid
+                0x000000000000b018       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .data.gEfiDevicePathToTextProtocolGuid
+                0x000000000000b028       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .data.gEfiDevicePathUtilitiesProtocolGuid
+                0x000000000000b038       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .data.gEfiPcAnsiGuid
+                0x000000000000b048       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .data.gEfiPersistentVirtualCdGuid
+                0x000000000000b058       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .data.gEfiPersistentVirtualDiskGuid
+                0x000000000000b068       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .data.gEfiSasDevicePathGuid
+                0x000000000000b078       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .data.gEfiUartDevicePathGuid
+                0x000000000000b088       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .data.gEfiVT100Guid
+                0x000000000000b098       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .data.gEfiVT100PlusGuid
+                0x000000000000b0a8       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .data.gEfiVTUTF8Guid
+                0x000000000000b0b8       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .data.gEfiVirtualCdGuid
+                0x000000000000b0c8       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .data.gEfiVirtualDiskGuid
+                0x000000000000b0d8       0x10 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ *(.bss .bss.*)
+ .bss.gBS       0x000000000000b0e8        0x8 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .bss.gST       0x000000000000b0f0        0x8 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+
+.dynbss         0x000000000000b0f8        0x0
+ .dynbss        0x000000000000b0f8        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.eh_frame
+ *(.eh_frame)
+
+.rela           0x000000000000b0f8     0x16e0
+ *(.rela .rela.*)
+ .rela.got      0x000000000000b0f8        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.plt      0x000000000000b0f8        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.bss      0x000000000000b0f8        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.rel.ro
+                0x000000000000b0f8        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.ifunc    0x000000000000b0f8        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.CSWTCH.58
+                0x000000000000b0f8       0x90 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mDevicePathFromText
+                0x000000000000b188       0x30 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mDevicePathToText
+                0x000000000000b1b8       0x30 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mDevicePathUtilities
+                0x000000000000b1e8       0xc0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mUefiDevicePathLibDevPathFromTextTable
+                0x000000000000b2a8     0x1020 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mUefiDevicePathLibToTextTable
+                0x000000000000c2c8      0x498 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mUefiDevicePathLibToTextTableGeneric
+                0x000000000000c760       0x78 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.hii
+ *(.hii)
+
+.build-id       0x000000000000c7d8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x000000000000c7d8       0x24 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+ *(COMMON)
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+OUTPUT(/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Universal/DevicePathDxe/DevicePathDxe/DEBUG/DevicePathDxe.dll elf64-littleaarch64)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000    0x25d01
+ .debug_info    0x0000000000000000     0xd2ac /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .debug_info    0x000000000000d2ac     0x1a57 /tmp/ccPlVw5f.debug.temp.o
+                0x000000000000d2ac                DriverEntryPoint.c.0bb94e37
+ .debug_info    0x000000000000ed03      0x17b /tmp/ccpYloMh.debug.temp.o
+                0x000000000000ed03                BaseStackCheckGcc.c.3fb9ce64
+ .debug_info    0x000000000000ee7e      0x1d7 /tmp/cc2dhR1g.debug.temp.o
+                0x000000000000ee7e                memcpy.c.79986cd0
+ .debug_info    0x000000000000f055      0x188 /tmp/cc6lZUrh.debug.temp.o
+                0x000000000000f055                memset.c.02de5c04
+ .debug_info    0x000000000000f1dd     0x1ba2 /tmp/ccS0t0Ug.debug.temp.o
+                0x000000000000f1dd                AutoGen.c.6c652848
+ .debug_info    0x0000000000010d7f     0x1c3b /tmp/cc511bZf.debug.temp.o
+                0x0000000000010d7f                DevicePath.c.2578cde7
+ .debug_info    0x00000000000129ba      0x1d0 /tmp/ccf46Gbg.debug.temp.o
+                0x00000000000129ba                CpuDeadLoop.c.755e7c7b
+ .debug_info    0x0000000000012b8a     0x18e1 /tmp/cccl6Sbe.debug.temp.o
+                0x0000000000012b8a                UefiBootServicesTableLib.c.1b9b5282
+ .debug_info    0x000000000001446b     0x1afe /tmp/ccidyOyh.debug.temp.o
+                0x000000000001446b                UefiDevicePathLib.c.0e9646b4
+ .debug_info    0x0000000000015f69     0x1d7d /tmp/ccBcSURh.debug.temp.o
+                0x0000000000015f69                DevicePathUtilities.c.1a32a0df
+ .debug_info    0x0000000000017ce6     0x3d60 /tmp/ccLeHBPh.debug.temp.o
+                0x0000000000017ce6                DevicePathToText.c.b542a65c
+ .debug_info    0x000000000001ba46     0x45d4 /tmp/ccgGhxqe.debug.temp.o
+                0x000000000001ba46                DevicePathFromText.c.f1101dd3
+ .debug_info    0x000000000002001a      0x21d /tmp/ccU6o7If.debug.temp.o
+                0x000000000002001a                MemLibGuid.c.89fba256
+ .debug_info    0x0000000000020237      0x16e /tmp/ccn8wxxh.debug.temp.o
+                0x0000000000020237                ZeroMemWrapper.c.da3b248e
+ .debug_info    0x00000000000203a5      0x185 /tmp/ccxT3Dre.debug.temp.o
+                0x00000000000203a5                CopyMemWrapper.c.4760c160
+ .debug_info    0x000000000002052a      0x1c3 /tmp/cc971PZg.debug.temp.o
+                0x000000000002052a                SwapBytes64.c.9a6fd401
+ .debug_info    0x00000000000206ed      0x1db /tmp/ccL50qlh.debug.temp.o
+                0x00000000000206ed                LShiftU64.c.89142a4c
+ .debug_info    0x00000000000208c8      0xdc8 /tmp/ccWTZiSh.debug.temp.o
+                0x00000000000208c8                SafeString.c.d93472dc
+ .debug_info    0x0000000000021690      0x7f3 /tmp/ccrwRolh.debug.temp.o
+                0x0000000000021690                String.c.76785ee4
+ .debug_info    0x0000000000021e83      0x33d /tmp/ccs9Gfvg.debug.temp.o
+                0x0000000000021e83                Unaligned.c.b480fc72
+ .debug_info    0x00000000000221c0      0x43c /tmp/ccP5Mggi.debug.temp.o
+                0x00000000000221c0                Math64.c.fba6cbb7
+ .debug_info    0x00000000000225fc      0x1db /tmp/ccZ83zmh.debug.temp.o
+                0x00000000000225fc                SwapBytes32.c.be579274
+ .debug_info    0x00000000000227d7      0x1c3 /tmp/ccoc1RDf.debug.temp.o
+                0x00000000000227d7                SwapBytes16.c.d38f1a4a
+ .debug_info    0x000000000002299a      0x1db /tmp/cciYoYgf.debug.temp.o
+                0x000000000002299a                RShiftU64.c.b1baacba
+ .debug_info    0x0000000000022b75      0x1db /tmp/ccRYpOie.debug.temp.o
+                0x0000000000022b75                MultU64x32.c.37505239
+ .debug_info    0x0000000000022d50      0x1cf /tmp/ccjMmmfe.debug.temp.o
+                0x0000000000022d50                DivU64x32.c.1f026665
+ .debug_info    0x0000000000022f1f      0x683 /tmp/cc7rGKxh.debug.temp.o
+                0x0000000000022f1f                PrintLib.c.9d1836b5
+ .debug_info    0x00000000000235a2      0x79a /tmp/ccPXIlPd.debug.temp.o
+                0x00000000000235a2                PrintLibInternal.c.11bf8ed5
+ .debug_info    0x0000000000023d3c     0x1de0 /tmp/ccemIuGg.debug.temp.o
+                0x0000000000023d3c                MemoryAllocationLib.c.7e75fabe
+ .debug_info    0x0000000000025b1c      0x1e5 /tmp/ccuYBWtg.debug.temp.o
+                0x0000000000025b1c                DivU64x32Remainder.c.f5241791
+
+.debug_abbrev   0x0000000000000000     0x27f5
+ .debug_abbrev  0x0000000000000000      0x268 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000268      0x1e9 /tmp/ccPlVw5f.debug.temp.o
+ .debug_abbrev  0x0000000000000451       0xc7 /tmp/ccpYloMh.debug.temp.o
+ .debug_abbrev  0x0000000000000518       0xee /tmp/cc2dhR1g.debug.temp.o
+ .debug_abbrev  0x0000000000000606       0xc0 /tmp/cc6lZUrh.debug.temp.o
+ .debug_abbrev  0x00000000000006c6      0x218 /tmp/ccS0t0Ug.debug.temp.o
+ .debug_abbrev  0x00000000000008de      0x1e5 /tmp/cc511bZf.debug.temp.o
+ .debug_abbrev  0x0000000000000ac3       0xb6 /tmp/ccf46Gbg.debug.temp.o
+ .debug_abbrev  0x0000000000000b79      0x1dd /tmp/cccl6Sbe.debug.temp.o
+ .debug_abbrev  0x0000000000000d56      0x1fe /tmp/ccidyOyh.debug.temp.o
+ .debug_abbrev  0x0000000000000f54      0x240 /tmp/ccBcSURh.debug.temp.o
+ .debug_abbrev  0x0000000000001194      0x2ca /tmp/ccLeHBPh.debug.temp.o
+ .debug_abbrev  0x000000000000145e      0x2b0 /tmp/ccgGhxqe.debug.temp.o
+ .debug_abbrev  0x000000000000170e       0xce /tmp/ccU6o7If.debug.temp.o
+ .debug_abbrev  0x00000000000017dc       0xb1 /tmp/ccn8wxxh.debug.temp.o
+ .debug_abbrev  0x000000000000188d       0xb8 /tmp/ccxT3Dre.debug.temp.o
+ .debug_abbrev  0x0000000000001945       0xb1 /tmp/cc971PZg.debug.temp.o
+ .debug_abbrev  0x00000000000019f6       0xb1 /tmp/ccL50qlh.debug.temp.o
+ .debug_abbrev  0x0000000000001aa7      0x12d /tmp/ccWTZiSh.debug.temp.o
+ .debug_abbrev  0x0000000000001bd4      0x126 /tmp/ccrwRolh.debug.temp.o
+ .debug_abbrev  0x0000000000001cfa       0xc9 /tmp/ccs9Gfvg.debug.temp.o
+ .debug_abbrev  0x0000000000001dc3       0xf9 /tmp/ccP5Mggi.debug.temp.o
+ .debug_abbrev  0x0000000000001ebc       0xc0 /tmp/ccZ83zmh.debug.temp.o
+ .debug_abbrev  0x0000000000001f7c       0xb1 /tmp/ccoc1RDf.debug.temp.o
+ .debug_abbrev  0x000000000000202d       0xb1 /tmp/cciYoYgf.debug.temp.o
+ .debug_abbrev  0x00000000000020de       0xc0 /tmp/ccRYpOie.debug.temp.o
+ .debug_abbrev  0x000000000000219e       0xb1 /tmp/ccjMmmfe.debug.temp.o
+ .debug_abbrev  0x000000000000224f      0x150 /tmp/cc7rGKxh.debug.temp.o
+ .debug_abbrev  0x000000000000239f      0x161 /tmp/ccPXIlPd.debug.temp.o
+ .debug_abbrev  0x0000000000002500      0x242 /tmp/ccemIuGg.debug.temp.o
+ .debug_abbrev  0x0000000000002742       0xb3 /tmp/ccuYBWtg.debug.temp.o
+
+.debug_loc      0x0000000000000000    0x15ed5
+ .debug_loc     0x0000000000000000    0x15ed5 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+
+.debug_aranges  0x0000000000000000      0xde0
+ .debug_aranges
+                0x0000000000000000      0xde0 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+
+.debug_ranges   0x0000000000000000     0x2a40
+ .debug_ranges  0x0000000000000000     0x2a40 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+
+.debug_line     0x0000000000000000     0xa9d3
+ .debug_line    0x0000000000000000     0x6e95 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+ .debug_line    0x0000000000006e95      0x349 /tmp/ccPlVw5f.debug.temp.o
+ .debug_line    0x00000000000071de      0x172 /tmp/ccpYloMh.debug.temp.o
+ .debug_line    0x0000000000007350      0x173 /tmp/cc2dhR1g.debug.temp.o
+ .debug_line    0x00000000000074c3      0x173 /tmp/cc6lZUrh.debug.temp.o
+ .debug_line    0x0000000000007636      0x2f9 /tmp/ccS0t0Ug.debug.temp.o
+ .debug_line    0x000000000000792f      0x386 /tmp/cc511bZf.debug.temp.o
+ .debug_line    0x0000000000007cb5      0x14e /tmp/ccf46Gbg.debug.temp.o
+ .debug_line    0x0000000000007e03      0x332 /tmp/cccl6Sbe.debug.temp.o
+ .debug_line    0x0000000000008135      0x36c /tmp/ccidyOyh.debug.temp.o
+ .debug_line    0x00000000000084a1      0x36e /tmp/ccBcSURh.debug.temp.o
+ .debug_line    0x000000000000880f      0x3dd /tmp/ccLeHBPh.debug.temp.o
+ .debug_line    0x0000000000008bec      0x3d1 /tmp/ccgGhxqe.debug.temp.o
+ .debug_line    0x0000000000008fbd      0x175 /tmp/ccU6o7If.debug.temp.o
+ .debug_line    0x0000000000009132      0x175 /tmp/ccn8wxxh.debug.temp.o
+ .debug_line    0x00000000000092a7      0x175 /tmp/ccxT3Dre.debug.temp.o
+ .debug_line    0x000000000000941c      0x14e /tmp/cc971PZg.debug.temp.o
+ .debug_line    0x000000000000956a      0x14c /tmp/ccL50qlh.debug.temp.o
+ .debug_line    0x00000000000096b6      0x14d /tmp/ccWTZiSh.debug.temp.o
+ .debug_line    0x0000000000009803      0x149 /tmp/ccrwRolh.debug.temp.o
+ .debug_line    0x000000000000994c      0x150 /tmp/ccs9Gfvg.debug.temp.o
+ .debug_line    0x0000000000009a9c      0x149 /tmp/ccP5Mggi.debug.temp.o
+ .debug_line    0x0000000000009be5      0x14e /tmp/ccZ83zmh.debug.temp.o
+ .debug_line    0x0000000000009d33      0x14e /tmp/ccoc1RDf.debug.temp.o
+ .debug_line    0x0000000000009e81      0x14c /tmp/cciYoYgf.debug.temp.o
+ .debug_line    0x0000000000009fcd      0x14d /tmp/ccRYpOie.debug.temp.o
+ .debug_line    0x000000000000a11a      0x14c /tmp/ccjMmmfe.debug.temp.o
+ .debug_line    0x000000000000a266      0x168 /tmp/cc7rGKxh.debug.temp.o
+ .debug_line    0x000000000000a3ce      0x186 /tmp/ccPXIlPd.debug.temp.o
+ .debug_line    0x000000000000a554      0x32a /tmp/ccemIuGg.debug.temp.o
+ .debug_line    0x000000000000a87e      0x155 /tmp/ccuYBWtg.debug.temp.o
+
+.debug_str      0x0000000000000000     0x591a
+ .debug_str     0x0000000000000000      0x270 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o
+                                        0x277 (size before relaxing)
+ .debug_str     0x0000000000000270     0x155b /tmp/ccPlVw5f.debug.temp.o
+                                       0x1692 (size before relaxing)
+ .debug_str     0x00000000000017cb      0x27c /tmp/ccpYloMh.debug.temp.o
+                                        0x3a9 (size before relaxing)
+ .debug_str     0x0000000000001a47       0xd5 /tmp/cc2dhR1g.debug.temp.o
+                                        0x350 (size before relaxing)
+ .debug_str     0x0000000000001b1c       0x55 /tmp/cc6lZUrh.debug.temp.o
+                                        0x344 (size before relaxing)
+ .debug_str     0x0000000000001b71      0x3ca /tmp/ccS0t0Ug.debug.temp.o
+                                       0x1951 (size before relaxing)
+ .debug_str     0x0000000000001f3b      0x2bd /tmp/cc511bZf.debug.temp.o
+                                       0x1a95 (size before relaxing)
+ .debug_str     0x00000000000021f8       0xa7 /tmp/ccf46Gbg.debug.temp.o
+                                        0x463 (size before relaxing)
+ .debug_str     0x000000000000229f       0xff /tmp/cccl6Sbe.debug.temp.o
+                                       0x156f (size before relaxing)
+ .debug_str     0x000000000000239e      0x164 /tmp/ccidyOyh.debug.temp.o
+                                       0x17da (size before relaxing)
+ .debug_str     0x0000000000002502      0x2e8 /tmp/ccBcSURh.debug.temp.o
+                                       0x1976 (size before relaxing)
+ .debug_str     0x00000000000027ea      0xe6f /tmp/ccLeHBPh.debug.temp.o
+                                       0x25ee (size before relaxing)
+ .debug_str     0x0000000000003659      0xef4 /tmp/ccgGhxqe.debug.temp.o
+                                       0x2f13 (size before relaxing)
+ .debug_str     0x000000000000454d      0x10e /tmp/ccU6o7If.debug.temp.o
+                                        0x3af (size before relaxing)
+ .debug_str     0x000000000000465b       0x52 /tmp/ccn8wxxh.debug.temp.o
+                                        0x352 (size before relaxing)
+ .debug_str     0x00000000000046ad       0x71 /tmp/ccxT3Dre.debug.temp.o
+                                        0x36a (size before relaxing)
+ .debug_str     0x000000000000471e       0x43 /tmp/cc971PZg.debug.temp.o
+                                        0x45d (size before relaxing)
+ .debug_str     0x0000000000004761       0x49 /tmp/ccL50qlh.debug.temp.o
+                                        0x467 (size before relaxing)
+ .debug_str     0x00000000000047aa      0x2bd /tmp/ccWTZiSh.debug.temp.o
+                                        0x822 (size before relaxing)
+ .debug_str     0x0000000000004a67      0x2ee /tmp/ccrwRolh.debug.temp.o
+                                        0x7e4 (size before relaxing)
+ .debug_str     0x0000000000004d55       0xf5 /tmp/ccs9Gfvg.debug.temp.o
+                                        0x50a (size before relaxing)
+ .debug_str     0x0000000000004e4a      0x199 /tmp/ccP5Mggi.debug.temp.o
+                                        0x5e1 (size before relaxing)
+ .debug_str     0x0000000000004fe3       0x4f /tmp/ccZ83zmh.debug.temp.o
+                                        0x474 (size before relaxing)
+ .debug_str     0x0000000000005032       0x4f /tmp/ccoc1RDf.debug.temp.o
+                                        0x45d (size before relaxing)
+ .debug_str     0x0000000000005081       0x41 /tmp/cciYoYgf.debug.temp.o
+                                        0x467 (size before relaxing)
+ .debug_str     0x00000000000050c2       0x42 /tmp/ccRYpOie.debug.temp.o
+                                        0x474 (size before relaxing)
+ .debug_str     0x0000000000005104       0x41 /tmp/ccjMmmfe.debug.temp.o
+                                        0x464 (size before relaxing)
+ .debug_str     0x0000000000005145      0x229 /tmp/cc7rGKxh.debug.temp.o
+                                        0x59c (size before relaxing)
+ .debug_str     0x000000000000536e      0x243 /tmp/ccPXIlPd.debug.temp.o
+                                        0x70e (size before relaxing)
+ .debug_str     0x00000000000055b1      0x30c /tmp/ccemIuGg.debug.temp.o
+                                       0x17db (size before relaxing)
+ .debug_str     0x00000000000058bd       0x5d /tmp/ccuYBWtg.debug.temp.o
+                                        0x480 (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x2430
+ .debug_frame   0x0000000000000000     0x2430 /tmp/DevicePathDxe.dll.EZFh7f.ltrans0.ltrans.o

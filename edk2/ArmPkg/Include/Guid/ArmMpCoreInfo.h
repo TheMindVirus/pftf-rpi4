@@ -6,8 +6,8 @@
 *
 **/
 
-#ifndef ARM_MP_CORE_INFO_GUID_H_
-#define ARM_MP_CORE_INFO_GUID_H_
+#ifndef __ARM_MP_CORE_INFO_GUID_H_
+#define __ARM_MP_CORE_INFO_GUID_H_
 
 #define MAX_CPUS_PER_MPCORE_SYSTEM    0x04
 #define SCU_CONFIG_REG_OFFSET         0x04
@@ -57,4 +57,4 @@ typedef struct {
 
 extern EFI_GUID gArmMpCoreInfoGuid;
 
-#endif /* ARM_MP_CORE_INFO_GUID_H_ */
+#endif /* MPCOREINFO_H_ */

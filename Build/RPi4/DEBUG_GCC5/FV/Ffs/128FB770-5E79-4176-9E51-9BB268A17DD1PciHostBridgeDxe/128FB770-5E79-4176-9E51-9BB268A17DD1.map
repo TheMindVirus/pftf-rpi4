@@ -1,0 +1,1611 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                              (_ModuleEntryPoint)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib(BaseStackCheckGcc.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (__stack_chk_fail)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memcpy.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memcpy)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memset.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memset)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Bus/Pci/PciHostBridgeDxe/PciHostBridgeDxe/OUTPUT/PciHostBridgeDxe.lib(AutoGen.obj)
+                              DriverEntryPoint.obj (symbol from plugin) (ProcessLibraryConstructorList)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Bus/Pci/PciHostBridgeDxe/PciHostBridgeDxe/OUTPUT/PciHostBridgeDxe.lib(PciHostBridge.obj)
+                              AutoGen.obj (symbol from plugin) (InitializePciHostBridge)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Bus/Pci/PciHostBridgeDxe/PciHostBridgeDxe/OUTPUT/PciHostBridgeDxe.lib(PciRootBridgeIo.obj)
+                              PciHostBridge.obj (symbol from plugin) (CreateRootBridge)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              PciRootBridgeIo.obj (symbol from plugin) (RShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x64.obj)
+                              PciRootBridgeIo.obj (symbol from plugin) (MultU64x64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              PciRootBridgeIo.obj (symbol from plugin) (MultU64x32)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              PciHostBridge.obj (symbol from plugin) (LShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet64.obj)
+                              PciHostBridge.obj (symbol from plugin) (LowBitSet64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GetPowerOfTwo64.obj)
+                              PciHostBridge.obj (symbol from plugin) (GetPowerOfTwo64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x64Remainder.obj)
+                              PciRootBridgeIo.obj (symbol from plugin) (DivU64x64Remainder)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              PciRootBridgeIo.obj (symbol from plugin) (DivU64x32Remainder)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              PciRootBridgeIo.obj (symbol from plugin) (DivU64x32)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuDeadLoop)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LinkedList.obj)
+                              PciHostBridge.obj (symbol from plugin) (InitializeListHead)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              LShiftU64.obj (symbol from plugin) (InternalMathLShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuBreakpoint)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              Math64.obj (symbol from plugin) (SwapBytes32)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              SwapBytes32.obj (symbol from plugin) (SwapBytes16)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(HighBitSet64.obj)
+                              GetPowerOfTwo64.obj (symbol from plugin) (HighBitSet64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(HighBitSet32.obj)
+                              HighBitSet64.obj (symbol from plugin) (HighBitSet32)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+                              PciRootBridgeIo.obj (symbol from plugin) (ZeroMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+                              PciRootBridgeIo.obj (symbol from plugin) (CopyMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                              ZeroMemWrapper.obj (symbol from plugin) (InternalMemZeroMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                              CopyMemWrapper.obj (symbol from plugin) (InternalMemCopyMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+                              AutoGen.obj (symbol from plugin) (BaseDebugLibSerialPortConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiBootServicesTableLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              PciHostBridge.obj (symbol from plugin) (AllocatePool)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiRuntimeServicesTableLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(UefiDevicePathLib.obj)
+                              PciRootBridgeIo.obj (symbol from plugin) (DuplicateDevicePath)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilities.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibGetDevicePathSize)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilitiesDxeSmm.obj)
+                              DevicePathUtilities.obj (symbol from plugin) (DevicePathFromHandle)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathToText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertDeviceNodeToText)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathFromText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertTextToDeviceNode)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeServicesTableLib/DxeServicesTableLib/OUTPUT/DxeServicesTableLib.lib(DxeServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (DxeServicesTableLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/Silicon/Broadcom/Bcm27xx/Library/Bcm2711PciSegmentLib/PciSegmentLib/OUTPUT/PciSegmentLib.lib(PciSegmentLib.obj)
+                              PciRootBridgeIo.obj (symbol from plugin) (PciSegmentReadBuffer)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/Silicon/Broadcom/Bcm27xx/Library/Bcm2711PciHostBridgeLib/Bcm2711PciHostBridgeLib/OUTPUT/Bcm2711PciHostBridgeLib.lib(Bcm2711PciHostBridgeLib.obj)
+                              PciHostBridge.obj (symbol from plugin) (PciHostBridgeGetRootBridges)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/Silicon/Broadcom/Bcm27xx/Library/Bcm2711PciHostBridgeLib/Bcm2711PciHostBridgeLib/OUTPUT/Bcm2711PciHostBridgeLib.lib(Bcm2711PciHostBridgeLibConstructor.obj)
+                              AutoGen.obj (symbol from plugin) (Bcm2711PciHostBridgeLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmArchTimerLib/ArmArchTimerLib/OUTPUT/ArmArchTimerLib.lib(ArmArchTimerLib.obj)
+                              AutoGen.obj (symbol from plugin) (TimerConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+                              DevicePathFromText.obj (symbol from plugin) (SwapBytes64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+                              PciSegmentLib.obj (symbol from plugin) (BitFieldRead8)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              DevicePathFromText.obj (symbol from plugin) (StrnLenS)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              DevicePathFromText.obj (symbol from plugin) (StrLen)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              DevicePathUtilities.obj (symbol from plugin) (ReadUnaligned16)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+                              DevicePathFromText.obj (symbol from plugin) (CopyGuid)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+                              DebugLib.obj (symbol from plugin) (SetMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCompareGuid)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+                              SetMemWrapper.obj (symbol from plugin) (SetMem64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib(IoLibNoIo.obj)
+                              PciSegmentLib.obj (symbol from plugin) (MmioRead8)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+                              DebugLib.obj (symbol from plugin) (GetDebugPrintErrorLevel)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/Platform/RaspberryPi/Library/DualSerialPortLib/DebugDualSerialPortLib/OUTPUT/DebugDualSerialPortLib.lib(DebugDualSerialPortLib.obj)
+                              DebugLib.obj (symbol from plugin) (SerialPortInitialize)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/Platform/RaspberryPi/Library/DualSerialPortLib/DebugDualSerialPortLib/OUTPUT/DebugDualSerialPortLib.lib(DualSerialPortLibCommon.obj)
+                              DebugLib.obj (symbol from plugin) (SerialPortWrite)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              DevicePathToText.obj (symbol from plugin) (UnicodeVSPrint)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              PrintLib.obj (symbol from plugin) (BasePrintLibConvertValueToStringS)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                              Bcm2711PciHostBridgeLibConstructor.obj (symbol from plugin) (ArmDataMemoryBarrier)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmGenericTimerPhyCounterLib/ArmGenericTimerPhyCounterLib/OUTPUT/ArmGenericTimerPhyCounterLib.lib(ArmGenericTimerPhyCounterLib.obj)
+                              ArmArchTimerLib.obj (symbol from plugin) (ArmGenericTimerGetTimerFreq)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib(PL011UartLib.obj)
+                              DualSerialPortLibCommon.obj (symbol from plugin) (PL011UartWrite)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+                              ArmGenericTimerPhyCounterLib.obj (symbol from plugin) (ArmReadCntFrq)
+
+Discarded input sections
+
+ .text          0x0000000000000000       0x10 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .text          0x0000000000000000        0x0 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text._DriverUnloadHandler
+                0x0000000000000000        0x8 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.IsNodeInList.str1.1
+                0x0000000000000000       0x44 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.IsNodeInList
+                0x0000000000000000       0xa0 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.__memset
+                0x0000000000000000       0x1c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/ccwUBmHv.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccwUBmHv.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccRGTtPv.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccRGTtPv.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc6yRu4t.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6yRu4t.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccKHvLvu.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccKHvLvu.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccgCfh2t.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccgCfh2t.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cczJywYv.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cczJywYv.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccUYBFyt.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccUYBFyt.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccFIWiau.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccFIWiau.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccaCeHAs.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccaCeHAs.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccZWeuKr.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccZWeuKr.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccO2VVBv.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccO2VVBv.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccZnvt5v.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccZnvt5v.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccoZ6eTt.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccoZ6eTt.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cctmLv5v.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cctmLv5v.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccIcVKDr.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccIcVKDr.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccO7iiSt.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccO7iiSt.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cclaON4t.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cclaON4t.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc5vQpgs.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc5vQpgs.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc8enFyv.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8enFyv.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/ccYVNOdu.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xc0 /tmp/ccYVNOdu.debug.temp.o
+ .debug_line    0x0000000000000000      0x14c /tmp/ccYVNOdu.debug.temp.o
+ .debug_str     0x0000000000000000      0x472 /tmp/ccYVNOdu.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccYVNOdu.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccYVNOdu.debug.temp.o
+ .debug_info    0x0000000000000000      0x1c3 /tmp/ccvJaqJr.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccvJaqJr.debug.temp.o
+ .debug_line    0x0000000000000000      0x14c /tmp/ccvJaqJr.debug.temp.o
+ .debug_str     0x0000000000000000      0x45b /tmp/ccvJaqJr.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccvJaqJr.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccvJaqJr.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccmr7R7s.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccmr7R7s.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccSaXz8r.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccSaXz8r.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc2TbSas.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc2TbSas.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccxb6MMt.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccxb6MMt.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccGS2J0u.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccGS2J0u.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccjadRjs.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccjadRjs.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccSTervv.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccSTervv.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccnoHM2t.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccnoHM2t.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc65yA7r.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc65yA7r.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccbc2W8u.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccbc2W8u.debug.temp.o
+ .debug_info    0x0000000000000000     0x1953 /tmp/ccoUgLOs.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x1d4 /tmp/ccoUgLOs.debug.temp.o
+ .debug_line    0x0000000000000000      0x372 /tmp/ccoUgLOs.debug.temp.o
+ .debug_str     0x0000000000000000     0x1658 /tmp/ccoUgLOs.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccoUgLOs.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccoUgLOs.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccI8ywos.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccI8ywos.debug.temp.o
+ .debug_info    0x0000000000000000     0x45d4 /tmp/cch90a8v.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x2b0 /tmp/cch90a8v.debug.temp.o
+ .debug_line    0x0000000000000000      0x3cf /tmp/cch90a8v.debug.temp.o
+ .debug_str     0x0000000000000000     0x2f11 /tmp/cch90a8v.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cch90a8v.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cch90a8v.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccOCkiUu.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccOCkiUu.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccce7Aiw.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccce7Aiw.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccJY6HLv.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccJY6HLv.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccH3cG4s.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccH3cG4s.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cczN0bht.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cczN0bht.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc5eDmTs.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc5eDmTs.debug.temp.o
+ .debug_info    0x0000000000000000      0x1c3 /tmp/ccwlYXUt.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccwlYXUt.debug.temp.o
+ .debug_line    0x0000000000000000      0x14c /tmp/ccwlYXUt.debug.temp.o
+ .debug_str     0x0000000000000000      0x45b /tmp/ccwlYXUt.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccwlYXUt.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccwlYXUt.debug.temp.o
+ .debug_info    0x0000000000000000      0x89f /tmp/ccQHt2cw.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xf9 /tmp/ccQHt2cw.debug.temp.o
+ .debug_line    0x0000000000000000      0x149 /tmp/ccQHt2cw.debug.temp.o
+ .debug_str     0x0000000000000000      0x64e /tmp/ccQHt2cw.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccQHt2cw.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccQHt2cw.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccIxYUZr.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccIxYUZr.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc5rkKRt.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc5rkKRt.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc61Ddss.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc61Ddss.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccqZILQr.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccqZILQr.debug.temp.o
+ .debug_info    0x0000000000000000      0x1bb /tmp/cctPMI3s.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xc6 /tmp/cctPMI3s.debug.temp.o
+ .debug_line    0x0000000000000000      0x172 /tmp/cctPMI3s.debug.temp.o
+ .debug_str     0x0000000000000000      0x364 /tmp/cctPMI3s.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cctPMI3s.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cctPMI3s.debug.temp.o
+ .debug_info    0x0000000000000000      0x186 /tmp/ccvuSJ3s.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccvuSJ3s.debug.temp.o
+ .debug_line    0x0000000000000000      0x174 /tmp/ccvuSJ3s.debug.temp.o
+ .debug_str     0x0000000000000000      0x360 /tmp/ccvuSJ3s.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccvuSJ3s.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccvuSJ3s.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccMi914s.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccMi914s.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccQFZx2u.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccQFZx2u.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccu3reHs.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccu3reHs.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccCqnOms.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccCqnOms.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccIGOe7s.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccIGOe7s.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc0PTKUs.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0PTKUs.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccVHwXyu.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccVHwXyu.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccDfENlv.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccDfENlv.debug.temp.o
+ .text          0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .text          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInvalidateDataCacheEntryByMVA
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCleanDataCacheEntryByMVA
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCleanDataCacheEntryToPoUByMVA
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInvalidateInstructionCacheEntryToPoUByMVA
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCleanInvalidateDataCacheEntryByMVA
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInvalidateDataCacheEntryBySetWay
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCleanInvalidateDataCacheEntryBySetWay
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCleanDataCacheEntryBySetWay
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInvalidateInstructionCache
+                0x0000000000000000       0x10 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableMmu
+                0x0000000000000000       0x88 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableMmu
+                0x0000000000000000       0x74 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableCachesAndMmu
+                0x0000000000000000       0x6c /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmMmuEnabled
+                0x0000000000000000       0x34 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableDataCache
+                0x0000000000000000       0x68 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableDataCache
+                0x0000000000000000       0x68 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableInstructionCache
+                0x0000000000000000       0x68 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableInstructionCache
+                0x0000000000000000       0x68 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableAlignmentCheck
+                0x0000000000000000       0x58 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableAlignmentCheck
+                0x0000000000000000       0x68 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableStackAlignmentCheck
+                0x0000000000000000       0x58 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableStackAlignmentCheck
+                0x0000000000000000       0x68 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableBranchPrediction
+                0x0000000000000000        0x4 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableBranchPrediction
+                0x0000000000000000        0x4 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.AArch64AllDataCachesOperation
+                0x0000000000000000       0xa8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDataSynchronizationBarrier
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInstructionSynchronizationBarrier
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmWriteVBar
+                0x0000000000000000       0x34 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadVBar
+                0x0000000000000000       0x30 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableVFP
+                0x0000000000000000       0x64 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCallWFI
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadIdAA64Mmfr2
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadMpidr
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadTpidrurw
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmWriteTpidrurw
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadIdAA64Pfr0
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmWriteHcr
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadHcr
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadCurrentEL
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadCntHctl
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmWriteCntHctl
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmWriteCntFrq
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmReadCntkCtl
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmWriteCntkCtl
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmReadCntpTval
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmWriteCntpTval
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmReadCntpCtl
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmWriteCntpCtl
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmReadCntvTval
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmWriteCntvTval
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmReadCntvCtl
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmWriteCntvCtl
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmReadCntvCt
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmReadCntpCval
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmWriteCntpCval
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmReadCntvCval
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmWriteCntvCval
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmReadCntvOff
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmWriteCntvOff
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+START GROUP
+LOAD /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+LOAD /tmp/ccwUBmHv.debug.temp.o
+LOAD /tmp/ccRGTtPv.debug.temp.o
+LOAD /tmp/cc6yRu4t.debug.temp.o
+LOAD /tmp/ccKHvLvu.debug.temp.o
+LOAD /tmp/ccgCfh2t.debug.temp.o
+LOAD /tmp/cczJywYv.debug.temp.o
+LOAD /tmp/ccUYBFyt.debug.temp.o
+LOAD /tmp/ccFIWiau.debug.temp.o
+LOAD /tmp/ccaCeHAs.debug.temp.o
+LOAD /tmp/ccZWeuKr.debug.temp.o
+LOAD /tmp/ccO2VVBv.debug.temp.o
+LOAD /tmp/ccZnvt5v.debug.temp.o
+LOAD /tmp/ccoZ6eTt.debug.temp.o
+LOAD /tmp/cctmLv5v.debug.temp.o
+LOAD /tmp/ccIcVKDr.debug.temp.o
+LOAD /tmp/ccO7iiSt.debug.temp.o
+LOAD /tmp/cclaON4t.debug.temp.o
+LOAD /tmp/cc5vQpgs.debug.temp.o
+LOAD /tmp/cc8enFyv.debug.temp.o
+LOAD /tmp/ccYVNOdu.debug.temp.o
+LOAD /tmp/ccvJaqJr.debug.temp.o
+LOAD /tmp/ccmr7R7s.debug.temp.o
+LOAD /tmp/ccSaXz8r.debug.temp.o
+LOAD /tmp/cc2TbSas.debug.temp.o
+LOAD /tmp/ccxb6MMt.debug.temp.o
+LOAD /tmp/ccGS2J0u.debug.temp.o
+LOAD /tmp/ccjadRjs.debug.temp.o
+LOAD /tmp/ccSTervv.debug.temp.o
+LOAD /tmp/ccnoHM2t.debug.temp.o
+LOAD /tmp/cc65yA7r.debug.temp.o
+LOAD /tmp/ccbc2W8u.debug.temp.o
+LOAD /tmp/ccoUgLOs.debug.temp.o
+LOAD /tmp/ccI8ywos.debug.temp.o
+LOAD /tmp/cch90a8v.debug.temp.o
+LOAD /tmp/ccOCkiUu.debug.temp.o
+LOAD /tmp/ccce7Aiw.debug.temp.o
+LOAD /tmp/ccJY6HLv.debug.temp.o
+LOAD /tmp/ccH3cG4s.debug.temp.o
+LOAD /tmp/cczN0bht.debug.temp.o
+LOAD /tmp/cc5eDmTs.debug.temp.o
+LOAD /tmp/ccwlYXUt.debug.temp.o
+LOAD /tmp/ccQHt2cw.debug.temp.o
+LOAD /tmp/ccIxYUZr.debug.temp.o
+LOAD /tmp/cc5rkKRt.debug.temp.o
+LOAD /tmp/cc61Ddss.debug.temp.o
+LOAD /tmp/ccqZILQr.debug.temp.o
+LOAD /tmp/cctPMI3s.debug.temp.o
+LOAD /tmp/ccvuSJ3s.debug.temp.o
+LOAD /tmp/ccMi914s.debug.temp.o
+LOAD /tmp/ccQFZx2u.debug.temp.o
+LOAD /tmp/ccu3reHs.debug.temp.o
+LOAD /tmp/ccCqnOms.debug.temp.o
+LOAD /tmp/ccIGOe7s.debug.temp.o
+LOAD /tmp/cc0PTKUs.debug.temp.o
+LOAD /tmp/ccVHwXyu.debug.temp.o
+LOAD /tmp/ccDfENlv.debug.temp.o
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Bus/Pci/PciHostBridgeDxe/PciHostBridgeDxe/OUTPUT/PciHostBridgeDxe.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/Platform/RaspberryPi/Library/DualSerialPortLib/DebugDualSerialPortLib/OUTPUT/DebugDualSerialPortLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmGenericTimerPhyCounterLib/ArmGenericTimerPhyCounterLib/OUTPUT/ArmGenericTimerPhyCounterLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeServicesTableLib/DxeServicesTableLib/OUTPUT/DxeServicesTableLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/Silicon/Broadcom/Bcm27xx/Library/Bcm2711PciSegmentLib/PciSegmentLib/OUTPUT/PciSegmentLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/Silicon/Broadcom/Bcm27xx/Library/Bcm2711PciHostBridgeLib/Bcm2711PciHostBridgeLib/OUTPUT/Bcm2711PciHostBridgeLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmArchTimerLib/ArmArchTimerLib/OUTPUT/ArmArchTimerLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib
+END GROUP
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.gnu.version_d  0x0000000000000228        0x0
+ .gnu.version_d
+                0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version    0x0000000000000228        0x0
+ .gnu.version   0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version_r  0x0000000000000228        0x0
+ .gnu.version_r
+                0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.text           0x0000000000001000     0xc518
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.SerialPortWritable.constprop.0
+                0x0000000000001000        0x8 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DebugAssertEnabled
+                0x0000000000001008        0x8 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.InternalAllocatePool.constprop.0
+                0x0000000000001010       0x6c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.BasePrintLibFillBuffer
+                0x000000000000107c       0x34 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.AsciiStrnLenS
+                0x00000000000010b0       0x3c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DebugPrintLevelEnabled
+                0x00000000000010ec        0x8 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DebugCodeEnabled
+                0x00000000000010f4        0x8 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DebugPrintEnabled
+                0x00000000000010fc        0x8 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.BaseDebugLibSerialPortConstructor
+                0x0000000000001104        0x8 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.MultU64x32
+                0x000000000000110c        0xc /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.MultU64x64
+                0x0000000000001118        0x8 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.ProcessModuleUnloadList
+                0x0000000000001120        0x8 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.RootBridgeIoFreeBuffer
+                0x0000000000001128       0x34 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.RootBridgeIoGetMemTranslationByAddress
+                0x000000000000115c       0x94 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.IoMmuProtocolCallback
+                0x00000000000011f0       0x60 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.GetPerformanceCounterProperties
+                0x0000000000001250       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.GetPerformanceCounter
+                0x0000000000001260        0x4 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DebugAssert
+                0x0000000000001264       0x8c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DivU64x64Remainder.constprop.0
+                0x00000000000012f0       0x40 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DivU64x32.constprop.0
+                0x0000000000001330       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.EfiReleaseLock.constprop.0
+                0x0000000000001340       0x6c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.EfiAcquireLock.constprop.0
+                0x00000000000013ac       0x70 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.MmioWrite32
+                0x000000000000141c       0x48 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.PciSegmentLibGetConfigBase
+                0x0000000000001464       0x78 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.MmioRead32
+                0x00000000000014dc       0x40 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.SerialPortWrite
+                0x000000000000151c      0x138 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.RMWRegister
+                0x0000000000001654       0x78 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.CompareGuid
+                0x00000000000016cc       0x44 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.WriteUnaligned16
+                0x0000000000001710       0x50 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.ReadUnaligned16
+                0x0000000000001760       0x5c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.ReadUnaligned32
+                0x00000000000017bc       0x50 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.AsciiStrLen
+                0x000000000000180c       0x74 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.StrnLenS
+                0x0000000000001880       0x70 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.PciSegmentLibWriteWorker
+                0x00000000000018f0       0x90 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.PciSegmentWrite16
+                0x0000000000001980       0x58 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.PciSegmentWrite8
+                0x00000000000019d8       0x54 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.PciSegmentWriteBuffer
+                0x0000000000001a2c      0x1b4 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.PciSegmentLibReadWorker
+                0x0000000000001be0       0x9c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.PciSegmentRead16
+                0x0000000000001c7c       0x50 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.PciSegmentRead8
+                0x0000000000001ccc       0x4c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.PciSegmentReadBuffer
+                0x0000000000001d18      0x1e8 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevicePathNodeLength
+                0x0000000000001f00       0x50 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.NextDevicePathNode
+                0x0000000000001f50       0x50 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevicePathSubType
+                0x0000000000001fa0       0x48 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevicePathType
+                0x0000000000001fe8       0x48 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.IsDevicePathEnd
+                0x0000000000002030       0x94 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.InitializeListHead
+                0x00000000000020c4        0x8 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.InternalBaseLibIsListValid
+                0x00000000000020cc       0xac /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.RemoveEntryList
+                0x0000000000002178       0x74 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.GetFirstNode
+                0x00000000000021ec       0x44 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.IsNull   0x0000000000002230       0x4c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.GetNextNode
+                0x000000000000227c       0x44 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.InsertTailList
+                0x00000000000022c0       0x5c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DivU64x32Remainder
+                0x000000000000231c       0x54 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.BasePrintLibSPrintMarker.constprop.0
+                0x0000000000002370      0xef8 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.BasePrintLibSPrint.constprop.0
+                0x0000000000003268       0xa0 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DebugPrint
+                0x0000000000003308       0xd0 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.TimerConstructor
+                0x00000000000033d8       0x68 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.FreePool
+                0x0000000000003440       0x7c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.AsciiSPrint.constprop.0
+                0x00000000000034bc       0xac /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.SPrintLength
+                0x0000000000003568       0x40 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.UnicodeVSPrint
+                0x00000000000035a8       0x74 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.UnicodeSPrint.constprop.0
+                0x000000000000361c       0x98 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.LShiftU64
+                0x00000000000036b4       0x44 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.ReadUnaligned64
+                0x00000000000036f8       0x3c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.AllocateResource
+                0x0000000000003734      0x10c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.RShiftU64
+                0x0000000000003840        0x8 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.GetPowerOfTwo64
+                0x0000000000003848       0x78 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.LowBitSet64
+                0x00000000000038c0       0x3c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.MultThenDivU64x64x32
+                0x00000000000038fc      0x108 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.RootBridgeIoPollIo
+                0x0000000000003a04      0x188 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.RootBridgeIoPollMem
+                0x0000000000003b8c      0x188 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.RootBridgeIoSetAttributes
+                0x0000000000003d14       0x7c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.RootBridgeIoGetAttributes
+                0x0000000000003d90       0xa0 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.RootBridgeIoAllocateBuffer
+                0x0000000000003e30      0x164 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.RootBridgeIoCheckParameter
+                0x0000000000003f94      0x228 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.RootBridgeIoIoWrite
+                0x00000000000041bc       0xd4 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.RootBridgeIoIoRead
+                0x0000000000004290       0xd4 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.RootBridgeIoMemWrite
+                0x0000000000004364      0x100 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.RootBridgeIoMemRead
+                0x0000000000004464      0x100 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.RootBridgeIoCopyMem
+                0x0000000000004564      0x12c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.PreprocessController
+                0x0000000000004690      0x120 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.SubmitResources
+                0x00000000000047b0      0x33c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.SetBusNumbers
+                0x0000000000004aec      0x184 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.StartBusEnumeration
+                0x0000000000004c70      0x17c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.GetAttributes
+                0x0000000000004dec      0x128 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.GetNextRootBridge
+                0x0000000000004f14      0x174 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.GetTranslationByResourceType
+                0x0000000000005088       0x88 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.NotifyPhase
+                0x0000000000005110      0xb24 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.CopyMem  0x0000000000005c34       0xa4 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.InternalAllocateCopyPool.constprop.0
+                0x0000000000005cd8       0x8c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.RootBridgeIoUnmap
+                0x0000000000005d64      0x190 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.RootBridgeIoMap
+                0x0000000000005ef4      0x210 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.RootBridgeIoPciAccess
+                0x0000000000006104      0x198 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.RootBridgeIoPciWrite
+                0x000000000000629c       0x18 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.RootBridgeIoPciRead
+                0x00000000000062b4       0x18 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.ZeroMem  0x00000000000062cc       0x74 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.UefiDevicePathLibCatPrint
+                0x0000000000006340      0x1cc /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextNodeGeneric
+                0x000000000000650c       0xfc /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextEndInstance
+                0x0000000000006608        0xc /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextBBS
+                0x0000000000006614       0xa0 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextRamDisk
+                0x00000000000066b4      0x1c4 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathRelativeOffsetRange
+                0x0000000000006878       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextFvFile
+                0x0000000000006888       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextFv
+                0x0000000000006898       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextMediaProtocol
+                0x00000000000068a8       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextFilePath
+                0x00000000000068b8       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextCDROM
+                0x00000000000068c8       0x30 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextHardDrive
+                0x00000000000068f8       0x8c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextUri
+                0x0000000000006984       0x94 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextBluetoothLE
+                0x0000000000006a18       0x44 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextWiFi
+                0x0000000000006a5c       0x70 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextBluetooth
+                0x0000000000006acc       0x24 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextVlan
+                0x0000000000006af0       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextiSCSI
+                0x0000000000006b00      0x10c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextUart
+                0x0000000000006c0c      0x118 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextInfiniBand
+                0x0000000000006d24       0x1c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.CatIPv6Address
+                0x0000000000006d40       0x8c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.CatIPv4Address
+                0x0000000000006dcc       0x1c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextDns
+                0x0000000000006de8       0xc0 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.CatNetworkProtocol
+                0x0000000000006ea8       0x38 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextIPv6
+                0x0000000000006ee0       0xe8 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextIPv4
+                0x0000000000006fc8       0xf0 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextMacAddr
+                0x00000000000070b8       0x8c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextI2O
+                0x0000000000007144       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextSata
+                0x0000000000007154       0x18 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextUsbClass
+                0x000000000000716c      0x194 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextLogicalUnit
+                0x0000000000007300       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextUsbWWID
+                0x0000000000007310       0xb4 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextUsb
+                0x00000000000073c4       0x14 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToText1394
+                0x00000000000073d8       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextEmmc
+                0x00000000000073e8       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextSd
+                0x00000000000073f8       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextUfs
+                0x0000000000007408       0x14 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextNVMe
+                0x000000000000741c       0x54 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextSasEx
+                0x0000000000007470      0x18c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextFibreEx
+                0x00000000000075fc       0xa8 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextFibre
+                0x00000000000076a4       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextScsi
+                0x00000000000076b4       0x14 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextAtapi
+                0x00000000000076c8       0x60 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextAcpiAdr
+                0x0000000000007728       0x9c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextAcpiEx
+                0x00000000000077c4      0x28c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextAcpi
+                0x0000000000007a50       0xc0 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextBmc
+                0x0000000000007b10       0x3c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextController
+                0x0000000000007b4c       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextVendor
+                0x0000000000007b5c      0x354 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextMemMap
+                0x0000000000007eb0       0x14 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextPccard
+                0x0000000000007ec4       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.DevPathToTextPci
+                0x0000000000007ed4       0x14 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.AllocateZeroPool
+                0x0000000000007ee8       0x34 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.GetProposedResources
+                0x0000000000007f1c      0x240 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.RootBridgeIoConfiguration
+                0x000000000000815c      0x170 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .text.memcpy   0x00000000000082cc       0x20 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+                0x00000000000082cc                memcpy
+ .text.__stack_chk_fail
+                0x00000000000082ec       0x48 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+                0x00000000000082ec                __stack_chk_fail
+ .text._ModuleEntryPoint
+                0x0000000000008334     0x1a70 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+                0x0000000000008334                _ModuleEntryPoint
+ *fill*         0x0000000000009da4        0xc 
+ .text          0x0000000000009db0      0x200 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                0x0000000000009db0                InternalMemSetMem16
+                0x0000000000009dbc                InternalMemSetMem32
+                0x0000000000009dc8                InternalMemSetMem64
+                0x0000000000009dd4                InternalMemZeroMem
+                0x0000000000009ddc                InternalMemSetMem
+ .text          0x0000000000009fb0      0x218 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                0x000000000000a11c                InternalMemCopyMem
+ *fill*         0x000000000000a1c8       0x18 
+ .text          0x000000000000a1e0       0x20 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                0x000000000000a1e0                InternalMemCompareGuid
+ .text.ArmDataMemoryBarrier
+                0x000000000000a200        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x000000000000a200                ArmDataMemoryBarrier
+ .text.ArmIsArchTimerImplemented
+                0x000000000000a208        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x000000000000a208                ArmIsArchTimerImplemented
+ .text.ArmReadCntFrq
+                0x000000000000a210        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+                0x000000000000a210                ArmReadCntFrq
+ .text.ArmReadCntPct
+                0x000000000000a218        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+                0x000000000000a218                ArmReadCntPct
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.DebugAssert.str1.1
+                0x000000000000a220       0x29 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DivU64x64Remainder.constprop.0.str1.1
+                0x000000000000a249       0x57 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.EfiReleaseLock.constprop.0.str1.1
+                0x000000000000a2a0       0x5d /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.EfiAcquireLock.constprop.0.str1.1
+                0x000000000000a2fd       0x1e /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.MmioWrite32.str1.1
+                0x000000000000a31b       0x5f /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.CompareGuid.str1.1
+                0x000000000000a37a       0x68 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.WriteUnaligned16.str1.1
+                0x000000000000a3e2       0x45 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+                                         0x5c (size before relaxing)
+ .rodata.AsciiStrLen.str1.1
+                0x000000000000a427       0x76 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.StrnLenS.str1.1
+                0x000000000000a49d       0x65 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.PciSegmentLibWriteWorker.str1.1
+                0x000000000000a502       0x13 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.PciSegmentWrite16.str1.1
+                0x000000000000a515       0x9f /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.PciSegmentWrite8.str1.1
+                0x000000000000a5b4       0x31 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.PciSegmentWriteBuffer.str1.1
+                0x000000000000a5e5       0x91 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevicePathNodeLength.str1.1
+                0x000000000000a676       0x6a /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.InternalBaseLibIsListValid.str1.1
+                0x000000000000a6e0       0x98 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.RemoveEntryList.str1.1
+                0x000000000000a778       0x3b /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.GetFirstNode.str1.1
+                0x000000000000a7b3       0x22 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DivU64x32Remainder.str1.1
+                0x000000000000a7d5       0x4a /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.BasePrintLibSPrintMarker.constprop.0.str1.1
+                0x000000000000a81f      0x28d /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.BasePrintLibSPrintMarker.constprop.0
+                0x000000000000aaac       0x5e /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.TimerConstructor.str1.1
+                0x000000000000ab0a       0xcc /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+                                         0xce (size before relaxing)
+ .rodata.FreePool.str1.1
+                0x000000000000abd6       0x90 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.UnicodeVSPrint.str1.1
+                0x000000000000ac66       0x6d /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ *fill*         0x000000000000acd3        0x1 
+ .rodata.UnicodeSPrint.constprop.0.str2.2
+                0x000000000000acd4       0x16 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.LShiftU64.str1.1
+                0x000000000000acea       0x4c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.RootBridgeIoSetAttributes.str1.1
+                0x000000000000ad36       0x6b /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.PreprocessController.str1.1
+                0x000000000000ada1       0x54 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ *fill*         0x000000000000adf5        0x1 
+ .rodata.SubmitResources.str2.2
+                0x000000000000adf6       0x20 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+                                         0x22 (size before relaxing)
+ .rodata.SubmitResources.str1.1
+                0x000000000000ae16       0xd2 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.GetNextRootBridge.str1.1
+                0x000000000000aee8       0x28 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.GetTranslationByResourceType
+                0x000000000000af10        0x6 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.NotifyPhase.str1.1
+                0x000000000000af16      0x2d1 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ *fill*         0x000000000000b1e7        0x1 
+ .rodata.NotifyPhase
+                0x000000000000b1e8       0x22 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.CopyMem.str1.1
+                0x000000000000b20a       0xd3 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.InternalAllocateCopyPool.constprop.0.str1.1
+                0x000000000000b2dd       0x3f /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.ZeroMem.str1.1
+                0x000000000000b31c       0x88 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.UefiDevicePathLibCatPrint.str1.1
+                0x000000000000b3a4       0x6b /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ *fill*         0x000000000000b40f        0x1 
+ .rodata.DevPathToTextNodeGeneric.str2.2
+                0x000000000000b410       0x22 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+                                         0x34 (size before relaxing)
+ .rodata.DevPathToTextBBS.str2.2
+                0x000000000000b432       0x2c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+                                         0x3a (size before relaxing)
+ .rodata.DevPathToTextRamDisk.str2.2
+                0x000000000000b45e       0xca /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+                                        0x136 (size before relaxing)
+ .rodata.DevPathRelativeOffsetRange.str2.2
+                0x000000000000b528       0x28 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextFvFile.str2.2
+                0x000000000000b550       0x16 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextFv.str2.2
+                0x000000000000b566        0xe /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextMediaProtocol.str2.2
+                0x000000000000b574       0x14 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextFilePath.str2.2
+                0x000000000000b588        0x6 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextCDROM.str2.2
+                0x000000000000b58e       0x48 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextHardDrive.str2.2
+                0x000000000000b5d6       0x64 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+                                         0x7e (size before relaxing)
+ .rodata.DevPathToTextUri.str1.1
+                0x000000000000b63a       0x17 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ *fill*         0x000000000000b651        0x1 
+ .rodata.DevPathToTextUri.str2.2
+                0x000000000000b652       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextBluetoothLE.str2.2
+                0x000000000000b662       0x5a /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextWiFi.str2.2
+                0x000000000000b6bc       0x14 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextBluetooth.str2.2
+                0x000000000000b6d0       0x48 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextVlan.str2.2
+                0x000000000000b718       0x12 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextiSCSI.str2.2
+                0x000000000000b72a       0x76 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+                                         0x90 (size before relaxing)
+ .rodata.DevPathToTextUart.str2.2
+                0x000000000000b7a0       0x5c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+                                         0x74 (size before relaxing)
+ .rodata.DevPathToTextUart
+                0x000000000000b7fc        0x4 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextInfiniBand.str2.2
+                0x000000000000b800       0x4c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.CatIPv6Address.str2.2
+                0x000000000000b84c       0x90 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.CatIPv4Address.str2.2
+                0x000000000000b8dc       0x18 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextDns.str2.2
+                0x000000000000b8f4        0xa /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.CatNetworkProtocol.str2.2
+                0x000000000000b8fe        0x8 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+                                         0x12 (size before relaxing)
+ .rodata.DevPathToTextIPv6.str2.2
+                0x000000000000b906       0x80 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+                                         0x8e (size before relaxing)
+ .rodata.DevPathToTextIPv4.str2.2
+                0x000000000000b986       0x24 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextMacAddr.str2.2
+                0x000000000000b9aa        0xa /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextI2O.str2.2
+                0x000000000000b9b4       0x14 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextSata.str2.2
+                0x000000000000b9c8       0x2a /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextUsbClass.str2.2
+                0x000000000000b9f2      0x250 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ *fill*         0x000000000000bc42        0x2 
+ .rodata.DevPathToTextUsbClass
+                0x000000000000bc44        0xe /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextLogicalUnit.str2.2
+                0x000000000000bc52       0x16 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextUsbWWID.str1.1
+                0x000000000000bc68       0x17 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ *fill*         0x000000000000bc7f        0x1 
+ .rodata.DevPathToTextUsbWWID.str2.2
+                0x000000000000bc80       0x3a /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextUsb.str2.2
+                0x000000000000bcba       0x1e /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToText1394.str2.2
+                0x000000000000bcd8       0x1c /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextEmmc.str2.2
+                0x000000000000bcf4       0x16 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextSd.str2.2
+                0x000000000000bd0a       0x12 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextUfs.str2.2
+                0x000000000000bd1c       0x1e /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextNVMe.str2.2
+                0x000000000000bd3a       0x66 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextSasEx.str2.2
+                0x000000000000bda0       0xb4 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+                                         0xc0 (size before relaxing)
+ .rodata.DevPathToTextFibreEx.str2.2
+                0x000000000000be54       0x16 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextFibre.str2.2
+                0x000000000000be6a       0x26 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextScsi.str2.2
+                0x000000000000be90       0x20 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextAtapi.str2.2
+                0x000000000000beb0       0x72 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextAcpiAdr.str2.2
+                0x000000000000bf22       0x26 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextAcpiEx.str2.2
+                0x000000000000bf48      0x116 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+                                        0x132 (size before relaxing)
+ .rodata.DevPathToTextAcpi.str2.2
+                0x000000000000c05e       0xc2 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextBmc.str2.2
+                0x000000000000c120       0x20 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextController.str2.2
+                0x000000000000c140       0x16 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextVendor.str2.2
+                0x000000000000c156      0x154 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+                                        0x166 (size before relaxing)
+ .rodata.DevPathToTextMemMap.str2.2
+                0x000000000000c2aa       0x3e /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextPccard.str2.2
+                0x000000000000c2e8       0x1a /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.DevPathToTextPci.str2.2
+                0x000000000000c302       0x1e /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.GetProposedResources
+                0x000000000000c320        0x4 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.RootBridgeIoConfiguration
+                0x000000000000c324        0x6 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.__stack_chk_fail.str1.1
+                0x000000000000c32a       0x2e /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata._ModuleEntryPoint.str2.2
+                0x000000000000c358       0x4a /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata._ModuleEntryPoint.str1.1
+                0x000000000000c3a2      0x8ad /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+                                        0x8b1 (size before relaxing)
+ *fill*         0x000000000000cc4f        0x1 
+ .rodata._ModuleEntryPoint
+                0x000000000000cc50        0x4 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.str2.2
+                0x000000000000cc54       0xbe /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+                                         0xd2 (size before relaxing)
+ .rodata.CSWTCH.42
+                0x000000000000cd12        0x6 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.CSWTCH.58
+                0x000000000000cd18       0x30 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.16394
+                0x000000000000cd48       0x16 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.16403
+                0x000000000000cd5e        0xb /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.16424
+                0x000000000000cd69       0x1a /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.16434
+                0x000000000000cd83       0x17 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.16555
+                0x000000000000cd9a        0xc /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ *fill*         0x000000000000cda6        0x2 
+ .rodata.mAcpiAddressSpaceTypeStr
+                0x000000000000cda8       0x18 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.mEfiPciRootBridgeDevicePath
+                0x000000000000cdc0       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.mErrorString
+                0x000000000000cdd0      0x2b5 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.mHexStr
+                0x000000000000d085       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.mInStride
+                0x000000000000d095        0xc /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.mOutStride
+                0x000000000000d0a1        0xc /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ *fill*         0x000000000000d0ad        0x3 
+ .rodata.mPciResourceTypeStr
+                0x000000000000d0b0       0x30 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.mUefiDevicePathLibToTextTable
+                0x000000000000d0e0      0x320 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.mUefiDevicePathLibToTextTableGeneric
+                0x000000000000d400       0x60 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .rodata.mWarningString
+                0x000000000000d460       0x96 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ *(.got .got.*)
+ *fill*         0x000000000000d4f6        0x2 
+ .got           0x000000000000d4f8        0x8 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x000000000000d4f8                _GLOBAL_OFFSET_TABLE_
+ .got.plt       0x000000000000d500       0x18 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ *:AutoGen.obj(.data.g*Guid)
+
+.plt            0x000000000000d518        0x0
+ .plt           0x000000000000d518        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.data           0x000000000000e000      0x248
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.ro   0x000000000000e000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data.__stack_chk_guard
+                0x000000000000e000        0x8 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+                0x000000000000e000                __stack_chk_guard
+ .data.gEdkiiIoMmuProtocolGuid
+                0x000000000000e008       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .data.gEfiCpuIo2ProtocolGuid
+                0x000000000000e018       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .data.gEfiDebugPortProtocolGuid
+                0x000000000000e028       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .data.gEfiDevicePathProtocolGuid
+                0x000000000000e038       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .data.gEfiDxeServicesTableGuid
+                0x000000000000e048       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .data.gEfiPcAnsiGuid
+                0x000000000000e058       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .data.gEfiPciHostBridgeResourceAllocationProtocolGuid
+                0x000000000000e068       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .data.gEfiPciRootBridgeIoProtocolGuid
+                0x000000000000e078       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .data.gEfiPersistentVirtualCdGuid
+                0x000000000000e088       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .data.gEfiPersistentVirtualDiskGuid
+                0x000000000000e098       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .data.gEfiSasDevicePathGuid
+                0x000000000000e0a8       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .data.gEfiUartDevicePathGuid
+                0x000000000000e0b8       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .data.gEfiVT100Guid
+                0x000000000000e0c8       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .data.gEfiVT100PlusGuid
+                0x000000000000e0d8       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .data.gEfiVTUTF8Guid
+                0x000000000000e0e8       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .data.gEfiVirtualCdGuid
+                0x000000000000e0f8       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .data.gEfiVirtualDiskGuid
+                0x000000000000e108       0x10 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .data.mPciRootBridges
+                0x000000000000e118       0xc0 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .data.mPciSegmentReadWriteLock
+                0x000000000000e1d8       0x18 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ *(.bss .bss.*)
+ .bss.UsePl011Uart
+                0x000000000000e1f0        0x1 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .bss.UsePl011UartSet
+                0x000000000000e1f1        0x1 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ *fill*         0x000000000000e1f2        0x6 
+ .bss.gBS       0x000000000000e1f8        0x8 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .bss.gDS       0x000000000000e200        0x8 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .bss.gImageHandle
+                0x000000000000e208        0x8 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .bss.gRT       0x000000000000e210        0x8 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .bss.gST       0x000000000000e218        0x8 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .bss.mCpuIo    0x000000000000e220        0x8 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .bss.mIoMmu    0x000000000000e228        0x8 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .bss.mIoMmuEvent
+                0x000000000000e230        0x8 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .bss.mIoMmuRegistration
+                0x000000000000e238        0x8 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .bss.mPciSegmentLastAccess
+                0x000000000000e240        0x8 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+
+.dynbss         0x000000000000e248        0x0
+ .dynbss        0x000000000000e248        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.eh_frame
+ *(.eh_frame)
+
+.rela           0x000000000000e248      0x690
+ *(.rela .rela.*)
+ .rela.got      0x000000000000e248        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.plt      0x000000000000e248        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.bss      0x000000000000e248        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.rel.ro
+                0x000000000000e248        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.ifunc    0x000000000000e248        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.mPciRootBridges
+                0x000000000000e248       0x18 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.CSWTCH.58
+                0x000000000000e260       0x90 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mAcpiAddressSpaceTypeStr
+                0x000000000000e2f0       0x48 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mPciResourceTypeStr
+                0x000000000000e338       0x90 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mUefiDevicePathLibToTextTable
+                0x000000000000e3c8      0x498 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mUefiDevicePathLibToTextTableGeneric
+                0x000000000000e860       0x78 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.hii
+ *(.hii)
+
+.build-id       0x000000000000e8d8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x000000000000e8d8       0x24 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+ *(COMMON)
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+OUTPUT(/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Bus/Pci/PciHostBridgeDxe/PciHostBridgeDxe/DEBUG/PciHostBridgeDxe.dll elf64-littleaarch64)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000    0x30e63
+ .debug_info    0x0000000000000000     0xc527 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .debug_info    0x000000000000c527     0x1a57 /tmp/ccwUBmHv.debug.temp.o
+                0x000000000000c527                DriverEntryPoint.c.9519b125
+ .debug_info    0x000000000000df7e      0x187 /tmp/ccRGTtPv.debug.temp.o
+                0x000000000000df7e                BaseStackCheckGcc.c.9918e4ed
+ .debug_info    0x000000000000e105      0x1d7 /tmp/cc6yRu4t.debug.temp.o
+                0x000000000000e105                memcpy.c.992e94b8
+ .debug_info    0x000000000000e2dc      0x188 /tmp/ccKHvLvu.debug.temp.o
+                0x000000000000e2dc                memset.c.d190684e
+ .debug_info    0x000000000000e464     0x1e8e /tmp/ccgCfh2t.debug.temp.o
+                0x000000000000e464                AutoGen.c.d996a996
+ .debug_info    0x00000000000102f2     0x370c /tmp/cczJywYv.debug.temp.o
+                0x00000000000102f2                PciHostBridge.c.152b419c
+ .debug_info    0x00000000000139fe     0x3655 /tmp/ccUYBFyt.debug.temp.o
+                0x00000000000139fe                PciRootBridgeIo.c.f865cdce
+ .debug_info    0x0000000000017053      0x1db /tmp/ccFIWiau.debug.temp.o
+                0x0000000000017053                RShiftU64.c.a990dafe
+ .debug_info    0x000000000001722e      0x1db /tmp/ccaCeHAs.debug.temp.o
+                0x000000000001722e                MultU64x64.c.7ca72fc3
+ .debug_info    0x0000000000017409      0x1db /tmp/ccZWeuKr.debug.temp.o
+                0x0000000000017409                MultU64x32.c.c8a7ecd3
+ .debug_info    0x00000000000175e4      0x1db /tmp/ccO2VVBv.debug.temp.o
+                0x00000000000175e4                LShiftU64.c.b38ec6e2
+ .debug_info    0x00000000000177bf      0x1e7 /tmp/ccZnvt5v.debug.temp.o
+                0x00000000000177bf                LowBitSet64.c.5855db56
+ .debug_info    0x00000000000179a6      0x1cf /tmp/ccoZ6eTt.debug.temp.o
+                0x00000000000179a6                GetPowerOfTwo64.c.30e987d3
+ .debug_info    0x0000000000017b75      0x1e5 /tmp/cctmLv5v.debug.temp.o
+                0x0000000000017b75                DivU64x64Remainder.c.7224a681
+ .debug_info    0x0000000000017d5a      0x1e5 /tmp/ccIcVKDr.debug.temp.o
+                0x0000000000017d5a                DivU64x32Remainder.c.19070deb
+ .debug_info    0x0000000000017f3f      0x1cf /tmp/ccO7iiSt.debug.temp.o
+                0x0000000000017f3f                DivU64x32.c.5786a729
+ .debug_info    0x000000000001810e      0x1d0 /tmp/cclaON4t.debug.temp.o
+                0x000000000001810e                CpuDeadLoop.c.e33e7959
+ .debug_info    0x00000000000182de      0x428 /tmp/cc5vQpgs.debug.temp.o
+                0x00000000000182de                LinkedList.c.6e13becc
+ .debug_info    0x0000000000018706      0x43c /tmp/cc8enFyv.debug.temp.o
+                0x0000000000018706                Math64.c.5e992ad5
+ .debug_info    0x0000000000018b42      0x1db /tmp/ccmr7R7s.debug.temp.o
+                0x0000000000018b42                HighBitSet64.c.c7571984
+ .debug_info    0x0000000000018d1d      0x1f3 /tmp/ccSaXz8r.debug.temp.o
+                0x0000000000018d1d                HighBitSet32.c.07869651
+ .debug_info    0x0000000000018f10      0x17a /tmp/cc2TbSas.debug.temp.o
+                0x0000000000018f10                ZeroMemWrapper.c.8dc042f6
+ .debug_info    0x000000000001908a      0x191 /tmp/ccxb6MMt.debug.temp.o
+                0x000000000001908a                CopyMemWrapper.c.8ed793a8
+ .debug_info    0x000000000001921b      0x3f2 /tmp/ccGS2J0u.debug.temp.o
+                0x000000000001921b                DebugLib.c.0df38b98
+ .debug_info    0x000000000001960d     0x18e1 /tmp/ccjadRjs.debug.temp.o
+                0x000000000001960d                UefiBootServicesTableLib.c.c00a3dd8
+ .debug_info    0x000000000001aeee     0x1de0 /tmp/ccSTervv.debug.temp.o
+                0x000000000001aeee                MemoryAllocationLib.c.774777c4
+ .debug_info    0x000000000001ccce     0x18b2 /tmp/ccnoHM2t.debug.temp.o
+                0x000000000001ccce                UefiRuntimeServicesTableLib.c.7b9e7237
+ .debug_info    0x000000000001e580     0x1afe /tmp/cc65yA7r.debug.temp.o
+                0x000000000001e580                UefiDevicePathLib.c.c981cbf5
+ .debug_info    0x000000000002007e     0x1d7d /tmp/ccbc2W8u.debug.temp.o
+                0x000000000002007e                DevicePathUtilities.c.94f518f0
+ .debug_info    0x0000000000021dfb     0x3d60 /tmp/ccI8ywos.debug.temp.o
+                0x0000000000021dfb                DevicePathToText.c.c18353b7
+ .debug_info    0x0000000000025b5b     0x27ac /tmp/ccOCkiUu.debug.temp.o
+                0x0000000000025b5b                UefiLib.c.2c69044c
+ .debug_info    0x0000000000028307     0x1eae /tmp/ccce7Aiw.debug.temp.o
+                0x0000000000028307                DxeServicesTableLib.c.0552c477
+ .debug_info    0x000000000002a1b5      0xb95 /tmp/ccJY6HLv.debug.temp.o
+                0x000000000002a1b5                PciSegmentLib.c.825fc054
+ .debug_info    0x000000000002ad4a      0x632 /tmp/ccH3cG4s.debug.temp.o
+                0x000000000002ad4a                Bcm2711PciHostBridgeLib.c.9de2547c
+ .debug_info    0x000000000002b37c     0x1a20 /tmp/cczN0bht.debug.temp.o
+                0x000000000002b37c                Bcm2711PciHostBridgeLibConstructor.c.8411c325
+ .debug_info    0x000000000002cd9c      0x283 /tmp/cc5eDmTs.debug.temp.o
+                0x000000000002cd9c                ArmArchTimerLib.c.70809add
+ .debug_info    0x000000000002d01f     0x1004 /tmp/ccIxYUZr.debug.temp.o
+                0x000000000002d01f                SafeString.c.d8550fea
+ .debug_info    0x000000000002e023      0x7f3 /tmp/cc5rkKRt.debug.temp.o
+                0x000000000002e023                String.c.753c3495
+ .debug_info    0x000000000002e816      0x33d /tmp/cc61Ddss.debug.temp.o
+                0x000000000002e816                Unaligned.c.4a0798dc
+ .debug_info    0x000000000002eb53      0x21d /tmp/ccqZILQr.debug.temp.o
+                0x000000000002eb53                MemLibGuid.c.2ca06148
+ .debug_info    0x000000000002ed70      0x503 /tmp/ccMi914s.debug.temp.o
+                0x000000000002ed70                IoLibNoIo.c.335a48c4
+ .debug_info    0x000000000002f273      0x18d /tmp/ccQFZx2u.debug.temp.o
+                0x000000000002f273                BaseDebugPrintErrorLevelLib.c.afda57b5
+ .debug_info    0x000000000002f400      0x201 /tmp/ccu3reHs.debug.temp.o
+                0x000000000002f400                DebugDualSerialPortLib.c.3fe30e88
+ .debug_info    0x000000000002f601      0x2e6 /tmp/ccCqnOms.debug.temp.o
+                0x000000000002f601                DualSerialPortLibCommon.c.2dc6badf
+ .debug_info    0x000000000002f8e7      0x68f /tmp/ccIGOe7s.debug.temp.o
+                0x000000000002f8e7                PrintLib.c.260a037f
+ .debug_info    0x000000000002ff76      0x79a /tmp/cc0PTKUs.debug.temp.o
+                0x000000000002ff76                PrintLibInternal.c.92769e0a
+ .debug_info    0x0000000000030710      0x21d /tmp/ccVHwXyu.debug.temp.o
+                0x0000000000030710                ArmGenericTimerPhyCounterLib.c.eb4701ff
+ .debug_info    0x000000000003092d      0x536 /tmp/ccDfENlv.debug.temp.o
+                0x000000000003092d                PL011UartLib.c.f54a0051
+
+.debug_abbrev   0x0000000000000000     0x3fb1
+ .debug_abbrev  0x0000000000000000      0x2de /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .debug_abbrev  0x00000000000002de      0x1e9 /tmp/ccwUBmHv.debug.temp.o
+ .debug_abbrev  0x00000000000004c7       0xc7 /tmp/ccRGTtPv.debug.temp.o
+ .debug_abbrev  0x000000000000058e       0xee /tmp/cc6yRu4t.debug.temp.o
+ .debug_abbrev  0x000000000000067c       0xc0 /tmp/ccKHvLvu.debug.temp.o
+ .debug_abbrev  0x000000000000073c      0x236 /tmp/ccgCfh2t.debug.temp.o
+ .debug_abbrev  0x0000000000000972      0x2c0 /tmp/cczJywYv.debug.temp.o
+ .debug_abbrev  0x0000000000000c32      0x263 /tmp/ccUYBFyt.debug.temp.o
+ .debug_abbrev  0x0000000000000e95       0xb1 /tmp/ccFIWiau.debug.temp.o
+ .debug_abbrev  0x0000000000000f46       0xc0 /tmp/ccaCeHAs.debug.temp.o
+ .debug_abbrev  0x0000000000001006       0xc0 /tmp/ccZWeuKr.debug.temp.o
+ .debug_abbrev  0x00000000000010c6       0xb1 /tmp/ccO2VVBv.debug.temp.o
+ .debug_abbrev  0x0000000000001177       0xc0 /tmp/ccZnvt5v.debug.temp.o
+ .debug_abbrev  0x0000000000001237       0xb1 /tmp/ccoZ6eTt.debug.temp.o
+ .debug_abbrev  0x00000000000012e8       0xb3 /tmp/cctmLv5v.debug.temp.o
+ .debug_abbrev  0x000000000000139b       0xb3 /tmp/ccIcVKDr.debug.temp.o
+ .debug_abbrev  0x000000000000144e       0xb1 /tmp/ccO7iiSt.debug.temp.o
+ .debug_abbrev  0x00000000000014ff       0xb6 /tmp/cclaON4t.debug.temp.o
+ .debug_abbrev  0x00000000000015b5      0x139 /tmp/cc5vQpgs.debug.temp.o
+ .debug_abbrev  0x00000000000016ee       0xf9 /tmp/cc8enFyv.debug.temp.o
+ .debug_abbrev  0x00000000000017e7       0xb1 /tmp/ccmr7R7s.debug.temp.o
+ .debug_abbrev  0x0000000000001898       0xc0 /tmp/ccSaXz8r.debug.temp.o
+ .debug_abbrev  0x0000000000001958       0xb1 /tmp/cc2TbSas.debug.temp.o
+ .debug_abbrev  0x0000000000001a09       0xb8 /tmp/ccxb6MMt.debug.temp.o
+ .debug_abbrev  0x0000000000001ac1      0x165 /tmp/ccGS2J0u.debug.temp.o
+ .debug_abbrev  0x0000000000001c26      0x1dd /tmp/ccjadRjs.debug.temp.o
+ .debug_abbrev  0x0000000000001e03      0x242 /tmp/ccSTervv.debug.temp.o
+ .debug_abbrev  0x0000000000002045      0x1c3 /tmp/ccnoHM2t.debug.temp.o
+ .debug_abbrev  0x0000000000002208      0x1fe /tmp/cc65yA7r.debug.temp.o
+ .debug_abbrev  0x0000000000002406      0x240 /tmp/ccbc2W8u.debug.temp.o
+ .debug_abbrev  0x0000000000002646      0x2ca /tmp/ccI8ywos.debug.temp.o
+ .debug_abbrev  0x0000000000002910      0x267 /tmp/ccOCkiUu.debug.temp.o
+ .debug_abbrev  0x0000000000002b77      0x1ea /tmp/ccce7Aiw.debug.temp.o
+ .debug_abbrev  0x0000000000002d61      0x17e /tmp/ccJY6HLv.debug.temp.o
+ .debug_abbrev  0x0000000000002edf      0x13e /tmp/ccH3cG4s.debug.temp.o
+ .debug_abbrev  0x000000000000301d      0x207 /tmp/cczN0bht.debug.temp.o
+ .debug_abbrev  0x0000000000003224      0x104 /tmp/cc5eDmTs.debug.temp.o
+ .debug_abbrev  0x0000000000003328      0x138 /tmp/ccIxYUZr.debug.temp.o
+ .debug_abbrev  0x0000000000003460      0x126 /tmp/cc5rkKRt.debug.temp.o
+ .debug_abbrev  0x0000000000003586       0xc9 /tmp/cc61Ddss.debug.temp.o
+ .debug_abbrev  0x000000000000364f       0xce /tmp/ccqZILQr.debug.temp.o
+ .debug_abbrev  0x000000000000371d      0x11f /tmp/ccMi914s.debug.temp.o
+ .debug_abbrev  0x000000000000383c       0xc6 /tmp/ccQFZx2u.debug.temp.o
+ .debug_abbrev  0x0000000000003902       0xc4 /tmp/ccu3reHs.debug.temp.o
+ .debug_abbrev  0x00000000000039c6      0x108 /tmp/ccCqnOms.debug.temp.o
+ .debug_abbrev  0x0000000000003ace      0x150 /tmp/ccIGOe7s.debug.temp.o
+ .debug_abbrev  0x0000000000003c1e      0x161 /tmp/cc0PTKUs.debug.temp.o
+ .debug_abbrev  0x0000000000003d7f       0xee /tmp/ccVHwXyu.debug.temp.o
+ .debug_abbrev  0x0000000000003e6d      0x144 /tmp/ccDfENlv.debug.temp.o
+
+.debug_loc      0x0000000000000000    0x17302
+ .debug_loc     0x0000000000000000    0x17302 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+
+.debug_aranges  0x0000000000000000      0xa00
+ .debug_aranges
+                0x0000000000000000      0xa00 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+
+.debug_ranges   0x0000000000000000     0x23e0
+ .debug_ranges  0x0000000000000000     0x23e0 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+
+.debug_line     0x0000000000000000     0xd9f4
+ .debug_line    0x0000000000000000     0x7234 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+ .debug_line    0x0000000000007234      0x347 /tmp/ccwUBmHv.debug.temp.o
+ .debug_line    0x000000000000757b      0x170 /tmp/ccRGTtPv.debug.temp.o
+ .debug_line    0x00000000000076eb      0x171 /tmp/cc6yRu4t.debug.temp.o
+ .debug_line    0x000000000000785c      0x171 /tmp/ccKHvLvu.debug.temp.o
+ .debug_line    0x00000000000079cd      0x2fb /tmp/ccgCfh2t.debug.temp.o
+ .debug_line    0x0000000000007cc8      0x4ff /tmp/cczJywYv.debug.temp.o
+ .debug_line    0x00000000000081c7      0x4dc /tmp/ccUYBFyt.debug.temp.o
+ .debug_line    0x00000000000086a3      0x14a /tmp/ccFIWiau.debug.temp.o
+ .debug_line    0x00000000000087ed      0x14b /tmp/ccaCeHAs.debug.temp.o
+ .debug_line    0x0000000000008938      0x14b /tmp/ccZWeuKr.debug.temp.o
+ .debug_line    0x0000000000008a83      0x14a /tmp/ccO2VVBv.debug.temp.o
+ .debug_line    0x0000000000008bcd      0x14c /tmp/ccZnvt5v.debug.temp.o
+ .debug_line    0x0000000000008d19      0x150 /tmp/ccoZ6eTt.debug.temp.o
+ .debug_line    0x0000000000008e69      0x153 /tmp/cctmLv5v.debug.temp.o
+ .debug_line    0x0000000000008fbc      0x153 /tmp/ccIcVKDr.debug.temp.o
+ .debug_line    0x000000000000910f      0x14a /tmp/ccO7iiSt.debug.temp.o
+ .debug_line    0x0000000000009259      0x14c /tmp/cclaON4t.debug.temp.o
+ .debug_line    0x00000000000093a5      0x14b /tmp/cc5vQpgs.debug.temp.o
+ .debug_line    0x00000000000094f0      0x147 /tmp/cc8enFyv.debug.temp.o
+ .debug_line    0x0000000000009637      0x14d /tmp/ccmr7R7s.debug.temp.o
+ .debug_line    0x0000000000009784      0x14d /tmp/ccSaXz8r.debug.temp.o
+ .debug_line    0x00000000000098d1      0x173 /tmp/cc2TbSas.debug.temp.o
+ .debug_line    0x0000000000009a44      0x173 /tmp/ccxb6MMt.debug.temp.o
+ .debug_line    0x0000000000009bb7      0x20c /tmp/ccGS2J0u.debug.temp.o
+ .debug_line    0x0000000000009dc3      0x330 /tmp/ccjadRjs.debug.temp.o
+ .debug_line    0x000000000000a0f3      0x328 /tmp/ccSTervv.debug.temp.o
+ .debug_line    0x000000000000a41b      0x2e9 /tmp/ccnoHM2t.debug.temp.o
+ .debug_line    0x000000000000a704      0x36a /tmp/cc65yA7r.debug.temp.o
+ .debug_line    0x000000000000aa6e      0x36c /tmp/ccbc2W8u.debug.temp.o
+ .debug_line    0x000000000000adda      0x3db /tmp/ccI8ywos.debug.temp.o
+ .debug_line    0x000000000000b1b5      0x36d /tmp/ccOCkiUu.debug.temp.o
+ .debug_line    0x000000000000b522      0x42d /tmp/ccce7Aiw.debug.temp.o
+ .debug_line    0x000000000000b94f      0x3d3 /tmp/ccJY6HLv.debug.temp.o
+ .debug_line    0x000000000000bd22      0x3cc /tmp/ccH3cG4s.debug.temp.o
+ .debug_line    0x000000000000c0ee      0x3b1 /tmp/cczN0bht.debug.temp.o
+ .debug_line    0x000000000000c49f      0x168 /tmp/cc5eDmTs.debug.temp.o
+ .debug_line    0x000000000000c607      0x14b /tmp/ccIxYUZr.debug.temp.o
+ .debug_line    0x000000000000c752      0x147 /tmp/cc5rkKRt.debug.temp.o
+ .debug_line    0x000000000000c899      0x14e /tmp/cc61Ddss.debug.temp.o
+ .debug_line    0x000000000000c9e7      0x173 /tmp/ccqZILQr.debug.temp.o
+ .debug_line    0x000000000000cb5a      0x16b /tmp/ccMi914s.debug.temp.o
+ .debug_line    0x000000000000ccc5      0x198 /tmp/ccQFZx2u.debug.temp.o
+ .debug_line    0x000000000000ce5d      0x228 /tmp/ccu3reHs.debug.temp.o
+ .debug_line    0x000000000000d085      0x240 /tmp/ccCqnOms.debug.temp.o
+ .debug_line    0x000000000000d2c5      0x166 /tmp/ccIGOe7s.debug.temp.o
+ .debug_line    0x000000000000d42b      0x184 /tmp/cc0PTKUs.debug.temp.o
+ .debug_line    0x000000000000d5af      0x19c /tmp/ccVHwXyu.debug.temp.o
+ .debug_line    0x000000000000d74b      0x2a9 /tmp/ccDfENlv.debug.temp.o
+
+.debug_str      0x0000000000000000     0x883a
+ .debug_str     0x0000000000000000      0x2bd /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o
+                                        0x2c4 (size before relaxing)
+ .debug_str     0x00000000000002bd     0x1517 /tmp/ccwUBmHv.debug.temp.o
+                                       0x1690 (size before relaxing)
+ .debug_str     0x00000000000017d4      0x27a /tmp/ccRGTtPv.debug.temp.o
+                                        0x3af (size before relaxing)
+ .debug_str     0x0000000000001a4e       0xd3 /tmp/cc6yRu4t.debug.temp.o
+                                        0x34e (size before relaxing)
+ .debug_str     0x0000000000001b21       0x55 /tmp/ccKHvLvu.debug.temp.o
+                                        0x342 (size before relaxing)
+ .debug_str     0x0000000000001b76      0x9f2 /tmp/ccgCfh2t.debug.temp.o
+                                       0x1f7b (size before relaxing)
+ .debug_str     0x0000000000002568     0x1705 /tmp/cczJywYv.debug.temp.o
+                                       0x31e9 (size before relaxing)
+ .debug_str     0x0000000000003c6d      0x3d3 /tmp/ccUYBFyt.debug.temp.o
+                                       0x2e4a (size before relaxing)
+ .debug_str     0x0000000000004040       0x9f /tmp/ccFIWiau.debug.temp.o
+                                        0x465 (size before relaxing)
+ .debug_str     0x00000000000040df       0x42 /tmp/ccaCeHAs.debug.temp.o
+                                        0x472 (size before relaxing)
+ .debug_str     0x0000000000004121       0x42 /tmp/ccZWeuKr.debug.temp.o
+                                        0x472 (size before relaxing)
+ .debug_str     0x0000000000004163       0x41 /tmp/ccO2VVBv.debug.temp.o
+                                        0x465 (size before relaxing)
+ .debug_str     0x00000000000041a4       0x58 /tmp/ccZnvt5v.debug.temp.o
+                                        0x471 (size before relaxing)
+ .debug_str     0x00000000000041fc       0x57 /tmp/ccoZ6eTt.debug.temp.o
+                                        0x46b (size before relaxing)
+ .debug_str     0x0000000000004253       0x66 /tmp/cctmLv5v.debug.temp.o
+                                        0x47e (size before relaxing)
+ .debug_str     0x00000000000042b9       0x5d /tmp/ccIcVKDr.debug.temp.o
+                                        0x47e (size before relaxing)
+ .debug_str     0x0000000000004316       0x41 /tmp/ccO7iiSt.debug.temp.o
+                                        0x462 (size before relaxing)
+ .debug_str     0x0000000000004357       0x4f /tmp/cclaON4t.debug.temp.o
+                                        0x461 (size before relaxing)
+ .debug_str     0x00000000000043a6      0x11a /tmp/cc5vQpgs.debug.temp.o
+                                        0x571 (size before relaxing)
+ .debug_str     0x00000000000044c0      0x187 /tmp/cc8enFyv.debug.temp.o
+                                        0x5df (size before relaxing)
+ .debug_str     0x0000000000004647       0x51 /tmp/ccmr7R7s.debug.temp.o
+                                        0x46a (size before relaxing)
+ .debug_str     0x0000000000004698       0x51 /tmp/ccSaXz8r.debug.temp.o
+                                        0x479 (size before relaxing)
+ .debug_str     0x00000000000046e9       0xc0 /tmp/cc2TbSas.debug.temp.o
+                                        0x358 (size before relaxing)
+ .debug_str     0x00000000000047a9       0x71 /tmp/ccxb6MMt.debug.temp.o
+                                        0x370 (size before relaxing)
+ .debug_str     0x000000000000481a      0x25e /tmp/ccGS2J0u.debug.temp.o
+                                        0x5c4 (size before relaxing)
+ .debug_str     0x0000000000004a78       0xfd /tmp/ccjadRjs.debug.temp.o
+                                       0x156d (size before relaxing)
+ .debug_str     0x0000000000004b75      0x300 /tmp/ccSTervv.debug.temp.o
+                                       0x17d9 (size before relaxing)
+ .debug_str     0x0000000000004e75      0x10c /tmp/ccnoHM2t.debug.temp.o
+                                       0x156f (size before relaxing)
+ .debug_str     0x0000000000004f81      0x1fa /tmp/cc65yA7r.debug.temp.o
+                                       0x17d8 (size before relaxing)
+ .debug_str     0x000000000000517b      0x2cf /tmp/ccbc2W8u.debug.temp.o
+                                       0x1974 (size before relaxing)
+ .debug_str     0x000000000000544a      0xdf8 /tmp/ccI8ywos.debug.temp.o
+                                       0x25ec (size before relaxing)
+ .debug_str     0x0000000000006242      0x751 /tmp/ccOCkiUu.debug.temp.o
+                                       0x20b1 (size before relaxing)
+ .debug_str     0x0000000000006993       0xe4 /tmp/ccce7Aiw.debug.temp.o
+                                       0x1c34 (size before relaxing)
+ .debug_str     0x0000000000006a77      0x4ae /tmp/ccJY6HLv.debug.temp.o
+                                        0xac8 (size before relaxing)
+ .debug_str     0x0000000000006f25      0x1ff /tmp/ccH3cG4s.debug.temp.o
+                                        0x91d (size before relaxing)
+ .debug_str     0x0000000000007124       0xfd /tmp/cczN0bht.debug.temp.o
+                                       0x1743 (size before relaxing)
+ .debug_str     0x0000000000007221      0x191 /tmp/cc5eDmTs.debug.temp.o
+                                        0x479 (size before relaxing)
+ .debug_str     0x00000000000073b2      0x2bd /tmp/ccIxYUZr.debug.temp.o
+                                        0x82d (size before relaxing)
+ .debug_str     0x000000000000766f      0x2e7 /tmp/cc5rkKRt.debug.temp.o
+                                        0x7e2 (size before relaxing)
+ .debug_str     0x0000000000007956       0xde /tmp/cc61Ddss.debug.temp.o
+                                        0x508 (size before relaxing)
+ .debug_str     0x0000000000007a34       0x9e /tmp/ccqZILQr.debug.temp.o
+                                        0x3ad (size before relaxing)
+ .debug_str     0x0000000000007ad2      0x1ab /tmp/ccMi914s.debug.temp.o
+                                        0x44d (size before relaxing)
+ .debug_str     0x0000000000007c7d      0x115 /tmp/ccQFZx2u.debug.temp.o
+                                        0x3e0 (size before relaxing)
+ .debug_str     0x0000000000007d92      0x102 /tmp/ccu3reHs.debug.temp.o
+                                        0x516 (size before relaxing)
+ .debug_str     0x0000000000007e94       0xf3 /tmp/ccCqnOms.debug.temp.o
+                                        0x5b3 (size before relaxing)
+ .debug_str     0x0000000000007f87      0x217 /tmp/ccIGOe7s.debug.temp.o
+                                        0x5a2 (size before relaxing)
+ .debug_str     0x000000000000819e      0x227 /tmp/cc0PTKUs.debug.temp.o
+                                        0x70c (size before relaxing)
+ .debug_str     0x00000000000083c5      0x241 /tmp/ccVHwXyu.debug.temp.o
+                                        0x4d7 (size before relaxing)
+ .debug_str     0x0000000000008606      0x234 /tmp/ccDfENlv.debug.temp.o
+                                        0x818 (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x1c58
+ .debug_frame   0x0000000000000000     0x1c58 /tmp/PciHostBridgeDxe.dll.ib4you.ltrans0.ltrans.o

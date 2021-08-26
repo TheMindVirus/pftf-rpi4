@@ -37,12 +37,12 @@ class SpellCheck(ICiBuildPlugin):
     #
     # A package can remove any of these using IgnoreStandardPaths
     #
-    STANDARD_PLUGIN_DEFINED_PATHS = ("*.c", "*.h",
+    STANDARD_PLUGIN_DEFINED_PATHS = ["*.c", "*.h",
                                      "*.nasm", "*.asm", "*.masm", "*.s",
                                      "*.asl",
                                      "*.dsc", "*.dec", "*.fdf", "*.inf",
                                      "*.md", "*.txt"
-                                     )
+                                     ]
 
     def GetTestName(self, packagename: str, environment: VarDict) -> tuple:
         """ Provide the testcase name and classname for use in reporting
@@ -107,8 +107,7 @@ class SpellCheck(ICiBuildPlugin):
         version_aggregator.GetVersionAggregator().ReportVersion(
             "CSpell", cspell_version, version_aggregator.VersionTypes.INFO)
 
-        # copy the default as a list
-        package_relative_paths_to_spell_check = list(SpellCheck.STANDARD_PLUGIN_DEFINED_PATHS)
+        package_relative_paths_to_spell_check = SpellCheck.STANDARD_PLUGIN_DEFINED_PATHS
 
         #
         # Allow the ci.yaml to remove any of the above standard paths
@@ -134,8 +133,7 @@ class SpellCheck(ICiBuildPlugin):
         #
         relpath = os.path.relpath(abs_pkg_path)
         cpsell_paths = " ".join(
-            # Double quote each path to defer expansion to cspell parameters
-            [f'"{relpath}/**/{x}"' for x in package_relative_paths_to_spell_check])
+            [f"{relpath}/**/{x}" for x in package_relative_paths_to_spell_check])
 
         # Make the config file
         config_file_path = os.path.join(

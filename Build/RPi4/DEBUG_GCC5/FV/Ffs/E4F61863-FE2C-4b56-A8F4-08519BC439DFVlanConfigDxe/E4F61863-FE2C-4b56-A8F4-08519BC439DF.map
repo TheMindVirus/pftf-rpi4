@@ -1,0 +1,1146 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                              (_ModuleEntryPoint)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib(BaseStackCheckGcc.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (__stack_chk_fail)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memcpy.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memcpy)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memset.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memset)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/NetworkPkg/VlanConfigDxe/VlanConfigDxe/OUTPUT/VlanConfigDxe.lib(AutoGen.obj)
+                              DriverEntryPoint.obj (symbol from plugin) (ProcessLibraryConstructorList)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/NetworkPkg/VlanConfigDxe/VlanConfigDxe/OUTPUT/VlanConfigDxe.lib(VlanConfigDriver.obj)
+                              AutoGen.obj (symbol from plugin) (VlanConfigDriverEntryPoint)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/NetworkPkg/VlanConfigDxe/VlanConfigDxe/OUTPUT/VlanConfigDxe.lib(VlanConfigImpl.obj)
+                              VlanConfigDriver.obj (symbol from plugin) (InstallVlanConfigForm)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/NetworkPkg/VlanConfigDxe/VlanConfigDxe/OUTPUT/VlanConfigDxe.lib(VlanConfig.obj)
+                              VlanConfigImpl.obj (symbol from plugin) (VlanConfigBin)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/NetworkPkg/VlanConfigDxe/VlanConfigDxe/OUTPUT/VlanConfigDxe.lib(ComponentName.obj)
+                              VlanConfigDriver.obj (symbol from plugin) (gVlanConfigComponentName)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+                              VlanConfigImpl.obj (symbol from plugin) (ZeroMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem16Wrapper.obj)
+                              VlanConfigImpl.obj (symbol from plugin) (SetMem16)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                              SetMem16Wrapper.obj (symbol from plugin) (InternalMemSetMem16)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuDeadLoop)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              VlanConfigImpl.obj (symbol from plugin) (StrnLenS)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              VlanConfigImpl.obj (symbol from plugin) (StrLen)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuBreakpoint)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              SafeString.obj (symbol from plugin) (SwapBytes32)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              SafeString.obj (symbol from plugin) (SwapBytes16)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              SafeString.obj (symbol from plugin) (RShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              SafeString.obj (symbol from plugin) (MultU64x32)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              SafeString.obj (symbol from plugin) (LShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              SafeString.obj (symbol from plugin) (DivU64x32)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              LShiftU64.obj (symbol from plugin) (InternalMathLShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              VlanConfigImpl.obj (symbol from plugin) (UnicodeSPrint)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              PrintLib.obj (symbol from plugin) (BasePrintLibConvertValueToStringS)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+                              AutoGen.obj (symbol from plugin) (BaseDebugLibSerialPortConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiBootServicesTableLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              VlanConfigImpl.obj (symbol from plugin) (AllocateZeroPool)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiRuntimeServicesTableLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(UefiDevicePathLib.obj)
+                              VlanConfigImpl.obj (symbol from plugin) (AppendDevicePathNode)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilities.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibGetDevicePathSize)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilitiesDxeSmm.obj)
+                              DevicePathUtilities.obj (symbol from plugin) (DevicePathFromHandle)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathToText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertDeviceNodeToText)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathFromText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertTextToDeviceNode)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiDriverModel.obj)
+                              VlanConfigDriver.obj (symbol from plugin) (EfiLibInstallDriverBindingComponentName2)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib(UefiHiiServicesLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiHiiServicesLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/NetworkPkg/Library/DxeNetLib/DxeNetLib/OUTPUT/DxeNetLib.lib(DxeNetLib.obj)
+                              AutoGen.obj (symbol from plugin) (NetLibDefaultUnload)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/NetworkPkg/Library/DxeNetLib/DxeNetLib/OUTPUT/DxeNetLib.lib(NetBuffer.obj)
+                              DxeNetLib.obj (symbol from plugin) (NetblockChecksum)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLib.obj)
+                              VlanConfigImpl.obj (symbol from plugin) (HiiAddPackages)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiString.obj)
+                              VlanConfigImpl.obj (symbol from plugin) (HiiSetString)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLanguage.obj)
+                              HiiString.obj (symbol from plugin) (HiiGetSupportedLanguages)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+                              SafeString.obj (symbol from plugin) (CopyGuid)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMemWrapper.obj)
+                              DxeNetLib.obj (symbol from plugin) (CompareMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+                              DebugLib.obj (symbol from plugin) (SetMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+                              SafeString.obj (symbol from plugin) (CopyMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCopyMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                              CompareMemWrapper.obj (symbol from plugin) (InternalMemCompareMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCompareGuid)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+                              SetMemWrapper.obj (symbol from plugin) (SetMem64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+                              DevicePathFromText.obj (symbol from plugin) (SwapBytes64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              PrintLibInternal.obj (symbol from plugin) (DivU64x32Remainder)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+                              HiiLib.obj (symbol from plugin) (BitFieldRead32)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LinkedList.obj)
+                              DxeNetLib.obj (symbol from plugin) (InitializeListHead)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              PrintLibInternal.obj (symbol from plugin) (ReadUnaligned16)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+                              DebugLib.obj (symbol from plugin) (GetDebugPrintErrorLevel)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/Platform/RaspberryPi/Library/DualSerialPortLib/DebugDualSerialPortLib/OUTPUT/DebugDualSerialPortLib.lib(DebugDualSerialPortLib.obj)
+                              DebugLib.obj (symbol from plugin) (SerialPortInitialize)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/Platform/RaspberryPi/Library/DualSerialPortLib/DebugDualSerialPortLib/OUTPUT/DebugDualSerialPortLib.lib(DualSerialPortLibCommon.obj)
+                              DebugLib.obj (symbol from plugin) (SerialPortWrite)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib(IoLibNoIo.obj)
+                              DualSerialPortLibCommon.obj (symbol from plugin) (MmioRead8)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib(PL011UartLib.obj)
+                              DualSerialPortLibCommon.obj (symbol from plugin) (PL011UartWrite)
+
+Discarded input sections
+
+ .text          0x0000000000000000       0x10 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .text          0x0000000000000000        0x0 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.__memset
+                0x0000000000000000       0x1c /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/ccm28Q2u.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccm28Q2u.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc6vmsJu.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6vmsJu.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc3SLRRv.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc3SLRRv.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc6YCTMu.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6YCTMu.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccsttWgz.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccsttWgz.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccDxMBJx.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccDxMBJx.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc2uoMAv.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc2uoMAv.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccsZJxBx.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccsZJxBx.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cci2Msxy.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cci2Msxy.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccXBXNay.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXBXNay.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cckwb15y.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cckwb15y.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cchGJsKy.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cchGJsKy.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc5bMvgx.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc5bMvgx.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccaJnpQw.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccaJnpQw.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/ccxrCkty.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xc0 /tmp/ccxrCkty.debug.temp.o
+ .debug_line    0x0000000000000000      0x14c /tmp/ccxrCkty.debug.temp.o
+ .debug_str     0x0000000000000000      0x472 /tmp/ccxrCkty.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccxrCkty.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccxrCkty.debug.temp.o
+ .debug_info    0x0000000000000000      0x1c3 /tmp/ccH7Sxdw.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccH7Sxdw.debug.temp.o
+ .debug_line    0x0000000000000000      0x14c /tmp/ccH7Sxdw.debug.temp.o
+ .debug_str     0x0000000000000000      0x45b /tmp/ccH7Sxdw.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccH7Sxdw.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccH7Sxdw.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/ccT6hfZw.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccT6hfZw.debug.temp.o
+ .debug_line    0x0000000000000000      0x14a /tmp/ccT6hfZw.debug.temp.o
+ .debug_str     0x0000000000000000      0x465 /tmp/ccT6hfZw.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccT6hfZw.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccT6hfZw.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/cc3py0xw.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xc0 /tmp/cc3py0xw.debug.temp.o
+ .debug_line    0x0000000000000000      0x14b /tmp/cc3py0xw.debug.temp.o
+ .debug_str     0x0000000000000000      0x472 /tmp/cc3py0xw.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc3py0xw.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc3py0xw.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/ccKd35Lx.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccKd35Lx.debug.temp.o
+ .debug_line    0x0000000000000000      0x14a /tmp/ccKd35Lx.debug.temp.o
+ .debug_str     0x0000000000000000      0x465 /tmp/ccKd35Lx.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccKd35Lx.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccKd35Lx.debug.temp.o
+ .debug_info    0x0000000000000000      0x1cf /tmp/ccubA8Gv.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccubA8Gv.debug.temp.o
+ .debug_line    0x0000000000000000      0x14a /tmp/ccubA8Gv.debug.temp.o
+ .debug_str     0x0000000000000000      0x462 /tmp/ccubA8Gv.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccubA8Gv.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccubA8Gv.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccsOg1bz.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccsOg1bz.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccA7tWSw.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccA7tWSw.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccPUZUqx.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPUZUqx.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccLKJFAw.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccLKJFAw.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc9K3dtx.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc9K3dtx.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc3XvVKw.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc3XvVKw.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc5kbLQu.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc5kbLQu.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc6LvgQy.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6LvgQy.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccVANw5u.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccVANw5u.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccb86Lbz.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccb86Lbz.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccPYvOxv.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPYvOxv.debug.temp.o
+ .debug_info    0x0000000000000000     0x45d4 /tmp/ccJHXHwv.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x2b0 /tmp/ccJHXHwv.debug.temp.o
+ .debug_line    0x0000000000000000      0x3cf /tmp/ccJHXHwv.debug.temp.o
+ .debug_str     0x0000000000000000     0x2f11 /tmp/ccJHXHwv.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccJHXHwv.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccJHXHwv.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccc7u6dy.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccc7u6dy.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccAliRqw.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccAliRqw.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cceBzL2x.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cceBzL2x.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cczkmPYw.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cczkmPYw.debug.temp.o
+ .debug_info    0x0000000000000000     0x2b4a /tmp/cc6sHnJx.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x2ec /tmp/cc6sHnJx.debug.temp.o
+ .debug_line    0x0000000000000000      0x35c /tmp/cc6sHnJx.debug.temp.o
+ .debug_str     0x0000000000000000     0x1ce5 /tmp/cc6sHnJx.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc6sHnJx.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6sHnJx.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cct0iOLv.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cct0iOLv.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccYpSl5y.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccYpSl5y.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccwEBo4v.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccwEBo4v.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccEBLdMv.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccEBLdMv.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc5fwEyv.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc5fwEyv.debug.temp.o
+ .debug_info    0x0000000000000000      0x1bb /tmp/ccpiI7gz.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xc6 /tmp/ccpiI7gz.debug.temp.o
+ .debug_line    0x0000000000000000      0x172 /tmp/ccpiI7gz.debug.temp.o
+ .debug_str     0x0000000000000000      0x364 /tmp/ccpiI7gz.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccpiI7gz.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccpiI7gz.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccjUiEOy.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccjUiEOy.debug.temp.o
+ .debug_info    0x0000000000000000      0x186 /tmp/cc1XlN6y.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/cc1XlN6y.debug.temp.o
+ .debug_line    0x0000000000000000      0x174 /tmp/cc1XlN6y.debug.temp.o
+ .debug_str     0x0000000000000000      0x360 /tmp/cc1XlN6y.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc1XlN6y.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc1XlN6y.debug.temp.o
+ .debug_info    0x0000000000000000      0x1c3 /tmp/cczsaBFy.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/cczsaBFy.debug.temp.o
+ .debug_line    0x0000000000000000      0x14c /tmp/cczsaBFy.debug.temp.o
+ .debug_str     0x0000000000000000      0x45b /tmp/cczsaBFy.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cczsaBFy.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cczsaBFy.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc2FNSdx.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc2FNSdx.debug.temp.o
+ .debug_info    0x0000000000000000      0x89f /tmp/ccu3zDmz.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xf9 /tmp/ccu3zDmz.debug.temp.o
+ .debug_line    0x0000000000000000      0x149 /tmp/ccu3zDmz.debug.temp.o
+ .debug_str     0x0000000000000000      0x64e /tmp/ccu3zDmz.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccu3zDmz.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccu3zDmz.debug.temp.o
+ .debug_info    0x0000000000000000      0x428 /tmp/cc6LmuDw.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x139 /tmp/cc6LmuDw.debug.temp.o
+ .debug_line    0x0000000000000000      0x14b /tmp/cc6LmuDw.debug.temp.o
+ .debug_str     0x0000000000000000      0x571 /tmp/cc6LmuDw.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc6LmuDw.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6LmuDw.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccOvfsNy.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccOvfsNy.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccRuTkwy.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccRuTkwy.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccHQMl2w.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccHQMl2w.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccj09Jxw.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccj09Jxw.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cckEQLwy.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cckEQLwy.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cci1Fk5u.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cci1Fk5u.debug.temp.o
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .text          0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+START GROUP
+LOAD /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+LOAD /tmp/ccm28Q2u.debug.temp.o
+LOAD /tmp/cc6vmsJu.debug.temp.o
+LOAD /tmp/cc3SLRRv.debug.temp.o
+LOAD /tmp/cc6YCTMu.debug.temp.o
+LOAD /tmp/ccsttWgz.debug.temp.o
+LOAD /tmp/ccDxMBJx.debug.temp.o
+LOAD /tmp/cc2uoMAv.debug.temp.o
+LOAD /tmp/ccsZJxBx.debug.temp.o
+LOAD /tmp/cci2Msxy.debug.temp.o
+LOAD /tmp/ccXBXNay.debug.temp.o
+LOAD /tmp/cckwb15y.debug.temp.o
+LOAD /tmp/cchGJsKy.debug.temp.o
+LOAD /tmp/cc5bMvgx.debug.temp.o
+LOAD /tmp/ccaJnpQw.debug.temp.o
+LOAD /tmp/ccxrCkty.debug.temp.o
+LOAD /tmp/ccH7Sxdw.debug.temp.o
+LOAD /tmp/ccT6hfZw.debug.temp.o
+LOAD /tmp/cc3py0xw.debug.temp.o
+LOAD /tmp/ccKd35Lx.debug.temp.o
+LOAD /tmp/ccubA8Gv.debug.temp.o
+LOAD /tmp/ccsOg1bz.debug.temp.o
+LOAD /tmp/ccA7tWSw.debug.temp.o
+LOAD /tmp/ccPUZUqx.debug.temp.o
+LOAD /tmp/ccLKJFAw.debug.temp.o
+LOAD /tmp/cc9K3dtx.debug.temp.o
+LOAD /tmp/cc3XvVKw.debug.temp.o
+LOAD /tmp/cc5kbLQu.debug.temp.o
+LOAD /tmp/cc6LvgQy.debug.temp.o
+LOAD /tmp/ccVANw5u.debug.temp.o
+LOAD /tmp/ccb86Lbz.debug.temp.o
+LOAD /tmp/ccPYvOxv.debug.temp.o
+LOAD /tmp/ccJHXHwv.debug.temp.o
+LOAD /tmp/ccc7u6dy.debug.temp.o
+LOAD /tmp/ccAliRqw.debug.temp.o
+LOAD /tmp/cceBzL2x.debug.temp.o
+LOAD /tmp/cczkmPYw.debug.temp.o
+LOAD /tmp/cc6sHnJx.debug.temp.o
+LOAD /tmp/cct0iOLv.debug.temp.o
+LOAD /tmp/ccYpSl5y.debug.temp.o
+LOAD /tmp/ccwEBo4v.debug.temp.o
+LOAD /tmp/ccEBLdMv.debug.temp.o
+LOAD /tmp/cc5fwEyv.debug.temp.o
+LOAD /tmp/ccpiI7gz.debug.temp.o
+LOAD /tmp/ccjUiEOy.debug.temp.o
+LOAD /tmp/cc1XlN6y.debug.temp.o
+LOAD /tmp/cczsaBFy.debug.temp.o
+LOAD /tmp/cc2FNSdx.debug.temp.o
+LOAD /tmp/ccu3zDmz.debug.temp.o
+LOAD /tmp/cc6LmuDw.debug.temp.o
+LOAD /tmp/ccOvfsNy.debug.temp.o
+LOAD /tmp/ccRuTkwy.debug.temp.o
+LOAD /tmp/ccHQMl2w.debug.temp.o
+LOAD /tmp/ccj09Jxw.debug.temp.o
+LOAD /tmp/cckEQLwy.debug.temp.o
+LOAD /tmp/cci1Fk5u.debug.temp.o
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/NetworkPkg/VlanConfigDxe/VlanConfigDxe/OUTPUT/VlanConfigDxe.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/Platform/RaspberryPi/Library/DualSerialPortLib/DebugDualSerialPortLib/OUTPUT/DebugDualSerialPortLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/NetworkPkg/Library/DxeNetLib/DxeNetLib/OUTPUT/DxeNetLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib
+END GROUP
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.gnu.version_d  0x0000000000000228        0x0
+ .gnu.version_d
+                0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version    0x0000000000000228        0x0
+ .gnu.version   0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version_r  0x0000000000000228        0x0
+ .gnu.version_r
+                0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.text           0x0000000000001000     0x6da8
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.SerialPortWritable.constprop.0
+                0x0000000000001000        0x8 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.DebugAssertEnabled
+                0x0000000000001008        0x8 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.InternalAllocatePool.constprop.0
+                0x0000000000001010       0x6c /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.DevicePathFromHandle
+                0x000000000000107c       0x6c /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.DebugPrintLevelEnabled
+                0x00000000000010e8        0x8 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.DebugPrintEnabled
+                0x00000000000010f0        0x8 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.BaseDebugLibSerialPortConstructor
+                0x00000000000010f8        0x8 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.BasePrintLibFillBuffer
+                0x0000000000001100       0x34 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.AsciiStrnLenS
+                0x0000000000001134       0x3c /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.VlanConfigComponentNameGetControllerName
+                0x0000000000001170        0x8 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.VlanConfigDriverBindingSupported
+                0x0000000000001178       0xb4 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text._DriverUnloadHandler
+                0x000000000000122c      0x1b8 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.DebugAssert
+                0x00000000000013e4       0x8c /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.CompareGuid.constprop.0
+                0x0000000000001470        0xc /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.SetMem16.constprop.0
+                0x000000000000147c       0x5c /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.SerialPortWrite
+                0x00000000000014d8      0x120 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.WriteUnaligned16
+                0x00000000000015f8       0x18 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.WriteUnaligned32
+                0x0000000000001610       0x2c /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.ReadUnaligned16
+                0x000000000000163c       0x5c /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.ReadUnaligned32
+                0x0000000000001698       0x50 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.ReadUnaligned24
+                0x00000000000016e8       0x4c /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.CopyMem  0x0000000000001734       0xa4 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.InternalAllocateCopyPool.constprop.0
+                0x00000000000017d8       0x8c /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.CompareMem
+                0x0000000000001864       0xd0 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.CopyGuid
+                0x0000000000001934        0x8 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.DevicePathNodeLength
+                0x000000000000193c       0x50 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.NextDevicePathNode
+                0x000000000000198c       0x50 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.DevicePathSubType
+                0x00000000000019dc       0x48 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.DevicePathType
+                0x0000000000001a24       0x48 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.IsDevicePathEnd
+                0x0000000000001a6c       0x94 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.IsDevicePathValid.part.0.constprop.0
+                0x0000000000001b00       0xbc /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.UefiDevicePathLibGetDevicePathSize
+                0x0000000000001bbc       0x6c /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.UefiDevicePathLibDuplicateDevicePath
+                0x0000000000001c28       0x34 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.BasePrintLibValueToString
+                0x0000000000001c5c       0x2c /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.UnicodeValueToStringS
+                0x0000000000001c88      0x1b4 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.AsciiStrLen
+                0x0000000000001e3c       0x90 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.AsciiStrnCmp
+                0x0000000000001ecc       0xdc /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.VlanConfigComponentNameGetDriverName
+                0x0000000000001fa8      0x154 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.StrLen   0x00000000000020fc       0xa4 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.StrStr   0x00000000000021a0       0xbc /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.StrnCmp  0x000000000000225c       0xe4 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.InternalHiiCompareSubString
+                0x0000000000002340       0xf8 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.StrnLenS
+                0x0000000000002438       0x70 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.BasePrintLibSPrintMarker.constprop.0
+                0x00000000000024a8      0xde0 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.BasePrintLibSPrint.constprop.0
+                0x0000000000003288       0xa0 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.DebugPrint
+                0x0000000000003328       0xd0 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.FreePool
+                0x00000000000033f8       0x7c /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.HiiFreeOpCodeHandle
+                0x0000000000003474       0x54 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.HiiAllocateOpCodeHandle
+                0x00000000000034c8       0x54 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.UefiDevicePathLibAppendDevicePathNode
+                0x000000000000351c      0x144 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.AsciiSPrint.constprop.0
+                0x0000000000003660       0xac /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.UnicodeSPrint
+                0x000000000000370c       0xd4 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.StrCatS  0x00000000000037e0      0x2ac /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.StrCpyS  0x0000000000003a8c      0x1f8 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.UninstallVlanConfigForm
+                0x0000000000003c84      0x184 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.VlanConfigDriverBindingStop
+                0x0000000000003e08      0x14c /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.ZeroMem  0x0000000000003f54       0x70 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.InternalHiiCreateOpCodeExtended
+                0x0000000000003fc4      0x14c /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.HiiCreateGuidOpCode.constprop.0
+                0x0000000000004110       0x80 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.AllocateZeroPool
+                0x0000000000004190       0x34 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.HiiSetString.constprop.0
+                0x00000000000041c4      0x1ec /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.HiiAddPackages.constprop.0
+                0x00000000000043b0      0x1c0 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.HiiConstructConfigHdr.constprop.0
+                0x0000000000004570      0x210 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.HiiIsConfigHdrMatch.constprop.0
+                0x0000000000004780       0xb4 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.VlanRouteConfig
+                0x0000000000004834       0x6c /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.InternalHiiBrowserCallback.constprop.0
+                0x00000000000048a0      0x13c /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.InstallVlanConfigForm
+                0x00000000000049dc      0x3ec /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.VlanConfigDriverBindingStart
+                0x0000000000004dc8      0x1d0 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.VlanUpdateForm
+                0x0000000000004f98      0x718 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.VlanCallback
+                0x00000000000056b0      0x428 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.VlanExtractConfig
+                0x0000000000005ad8      0x23c /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .text.memcpy   0x0000000000005d14       0x20 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+                0x0000000000005d14                memcpy
+ .text.__stack_chk_fail
+                0x0000000000005d34       0x48 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+                0x0000000000005d34                __stack_chk_fail
+ .text._ModuleEntryPoint
+                0x0000000000005d7c      0x410 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+                0x0000000000005d7c                _ModuleEntryPoint
+ *fill*         0x000000000000618c        0x4 
+ .text          0x0000000000006190      0x200 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                0x0000000000006190                InternalMemSetMem16
+                0x000000000000619c                InternalMemSetMem32
+                0x00000000000061a8                InternalMemSetMem64
+                0x00000000000061b4                InternalMemZeroMem
+                0x00000000000061bc                InternalMemSetMem
+ .text          0x0000000000006390      0x218 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                0x00000000000064fc                InternalMemCopyMem
+ *fill*         0x00000000000065a8       0x18 
+ .text          0x00000000000065c0       0xe0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                0x00000000000065c0                InternalMemCompareMem
+ .text          0x00000000000066a0       0x20 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                0x00000000000066a0                InternalMemCompareGuid
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.DebugAssert.str1.1
+                0x00000000000066c0       0x26 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.SetMem16.constprop.0.str1.1
+                0x00000000000066e6       0x8b /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.ReadUnaligned16.str1.1
+                0x0000000000006771       0x45 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+                                         0x5c (size before relaxing)
+ .rodata.CopyMem.str1.1
+                0x00000000000067b6       0xd3 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.InternalAllocateCopyPool.constprop.0.str1.1
+                0x0000000000006889       0x9a /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.CompareMem.str1.1
+                0x0000000000006923       0x94 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.DevicePathNodeLength.str1.1
+                0x00000000000069b7       0x6a /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.UnicodeValueToStringS.str1.1
+                0x0000000000006a21      0x14d /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.AsciiStrLen.str1.1
+                0x0000000000006b6e       0x76 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+                                         0x8d (size before relaxing)
+ .rodata.AsciiStrnCmp.str1.1
+                0x0000000000006be4       0x70 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.StrLen.str1.1
+                0x0000000000006c54       0x5d /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.StrStr.str1.1
+                0x0000000000006cb1       0x32 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.StrnCmp.str1.1
+                0x0000000000006ce3       0x72 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.InternalHiiCompareSubString.str1.1
+                0x0000000000006d55       0x80 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.StrnLenS.str1.1
+                0x0000000000006dd5       0x42 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.BasePrintLibSPrintMarker.constprop.0.str1.1
+                0x0000000000006e17      0x227 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ *fill*         0x000000000000703e        0x2 
+ .rodata.BasePrintLibSPrintMarker.constprop.0
+                0x0000000000007040       0x5e /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.FreePool.str1.1
+                0x000000000000709e       0x35 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.HiiFreeOpCodeHandle.str1.1
+                0x00000000000070d3       0x35 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+                                         0x1d (size before relaxing)
+ .rodata.UnicodeSPrint.str1.1
+                0x00000000000070d3       0x28 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.StrCatS.str1.1
+                0x00000000000070fb      0x154 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.StrCpyS.str1.1
+                0x000000000000724f       0x16 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.VlanConfigDriverBindingStop.str1.1
+                0x0000000000007265       0x9a /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.ZeroMem.str1.1
+                0x00000000000072ff       0x88 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.HiiSetString.constprop.0.str1.1
+                0x0000000000007387       0xb7 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.HiiConstructConfigHdr.constprop.0.str2.2
+                0x000000000000743e       0x28 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.HiiIsConfigHdrMatch.constprop.0.str1.1
+                0x0000000000007466       0x1a /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.InstallVlanConfigForm.str2.2
+                0x0000000000007480       0x36 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.VlanUpdateForm.str1.1
+                0x00000000000074b6       0x98 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.VlanUpdateForm.str2.2
+                0x000000000000754e       0x2e /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.VlanCallback.str1.1
+                0x000000000000757c       0x6a /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.VlanCallback.str2.2
+                0x00000000000075e6       0x3e /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.VlanExtractConfig.str1.1
+                0x0000000000007624       0x40 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.VlanExtractConfig.str2.2
+                0x0000000000007664        0xe /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.__stack_chk_fail.str1.1
+                0x0000000000007672       0x2e /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata._ModuleEntryPoint.str1.1
+                0x00000000000076a0      0x2c1 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.str1.1
+                0x0000000000007961        0xb /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+                                          0xe (size before relaxing)
+ .rodata.str2.2
+                0x000000000000796c       0x34 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.1941
+                0x00000000000079a0        0x8 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.1964
+                0x00000000000079a8        0x8 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.mConfigHdrTemplate
+                0x00000000000079b0       0x70 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.mEndOfPakageList
+                0x0000000000007a20        0x4 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.mErrorString
+                0x0000000000007a24      0x2b5 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.mHexStr
+                0x0000000000007cd9       0x10 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.mUefiDevicePathLibEndDevicePath
+                0x0000000000007ce9        0x4 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .rodata.mWarningString
+                0x0000000000007ced       0x96 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ *(.got .got.*)
+ *fill*         0x0000000000007d83        0x5 
+ .got           0x0000000000007d88        0x8 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x0000000000007d88                _GLOBAL_OFFSET_TABLE_
+ .got.plt       0x0000000000007d90       0x18 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ *:AutoGen.obj(.data.g*Guid)
+
+.plt            0x0000000000007da8        0x0
+ .plt           0x0000000000007da8        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.data           0x0000000000008000      0x870
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.ro   0x0000000000008000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data.VlanConfigBin
+                0x0000000000008000      0x10d /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .data.VlanConfigDxeStrings
+                0x000000000000810d      0x3e4 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ *fill*         0x00000000000084f1        0x7 
+ .data.__stack_chk_guard
+                0x00000000000084f8        0x8 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+                0x00000000000084f8                __stack_chk_guard
+ .data.gEfiCallerIdGuid
+                0x0000000000008500       0x10 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .data.gEfiComponentName2ProtocolGuid
+                0x0000000000008510       0x10 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .data.gEfiComponentNameProtocolGuid
+                0x0000000000008520       0x10 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .data.gEfiDevicePathProtocolGuid
+                0x0000000000008530       0x10 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .data.gEfiDriverBindingProtocolGuid
+                0x0000000000008540       0x10 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .data.gEfiFormBrowser2ProtocolGuid
+                0x0000000000008550       0x10 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .data.gEfiHiiConfigAccessProtocolGuid
+                0x0000000000008560       0x10 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .data.gEfiHiiConfigRoutingProtocolGuid
+                0x0000000000008570       0x10 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .data.gEfiHiiDatabaseProtocolGuid
+                0x0000000000008580       0x10 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .data.gEfiHiiFontProtocolGuid
+                0x0000000000008590       0x10 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .data.gEfiHiiImageProtocolGuid
+                0x00000000000085a0       0x10 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .data.gEfiHiiStringProtocolGuid
+                0x00000000000085b0       0x10 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .data.gEfiIfrTianoGuid
+                0x00000000000085c0       0x10 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .data.gEfiLoadedImageProtocolGuid
+                0x00000000000085d0       0x10 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .data.gEfiManagedNetworkProtocolGuid
+                0x00000000000085e0       0x10 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .data.gEfiManagedNetworkServiceBindingProtocolGuid
+                0x00000000000085f0       0x10 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .data.gEfiSimpleNetworkProtocolGuid
+                0x0000000000008600       0x10 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .data.gEfiVlanConfigProtocolGuid
+                0x0000000000008610       0x10 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .data.gVlanConfigComponentName
+                0x0000000000008620       0x18 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .data.gVlanConfigComponentName2
+                0x0000000000008638       0x18 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .data.gVlanConfigDriverBinding
+                0x0000000000008650       0x30 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .data.gVlanConfigFormSetGuid
+                0x0000000000008680       0x10 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .data.mHiiVendorDevicePathNode
+                0x0000000000008690       0x14 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .data.mNetVlanDevicePathTemplate
+                0x00000000000086a4        0x6 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ *fill*         0x00000000000086aa        0x6 
+ .data.mVlanConfigDriverNameTable
+                0x00000000000086b0       0x20 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .data.mVlanConfigPrivateDateTemplate
+                0x00000000000086d0      0x130 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .data.mVlanStorageName
+                0x0000000000008800       0x16 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ *(.bss .bss.*)
+ .bss.UsePl011Uart
+                0x0000000000008816        0x1 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .bss.UsePl011UartSet
+                0x0000000000008817        0x1 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .bss.gBS       0x0000000000008818        0x8 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .bss.gHiiConfigRouting
+                0x0000000000008820        0x8 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .bss.gHiiDatabase
+                0x0000000000008828        0x8 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .bss.gHiiFont  0x0000000000008830        0x8 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .bss.gHiiImage
+                0x0000000000008838        0x8 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .bss.gHiiString
+                0x0000000000008840        0x8 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .bss.gImageHandle
+                0x0000000000008848        0x8 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .bss.gRT       0x0000000000008850        0x8 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .bss.gST       0x0000000000008858        0x8 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .bss.mHiiConfigRouting
+                0x0000000000008860        0x8 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .bss.mUefiFormBrowser2
+                0x0000000000008868        0x8 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+
+.dynbss         0x0000000000008870        0x0
+ .dynbss        0x0000000000008870        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.eh_frame
+ *(.eh_frame)
+
+.rela           0x0000000000008870      0x150
+ *(.rela .rela.*)
+ .rela.got      0x0000000000008870        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.plt      0x0000000000008870        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.bss      0x0000000000008870        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.rel.ro
+                0x0000000000008870        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.ifunc    0x0000000000008870        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.gVlanConfigComponentName
+                0x0000000000008870       0x48 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.gVlanConfigComponentName2
+                0x00000000000088b8       0x48 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.gVlanConfigDriverBinding
+                0x0000000000008900       0x48 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.mVlanConfigDriverNameTable
+                0x0000000000008948       0x30 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.mVlanConfigPrivateDateTemplate
+                0x0000000000008978       0x48 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.hii
+ *(.hii)
+
+.build-id       0x00000000000089c0       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000000089c0       0x24 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+ *(COMMON)
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+OUTPUT(/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/NetworkPkg/VlanConfigDxe/VlanConfigDxe/DEBUG/VlanConfigDxe.dll elf64-littleaarch64)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000    0x3df9c
+ .debug_info    0x0000000000000000     0x75cd /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .debug_info    0x00000000000075cd     0x1a57 /tmp/ccm28Q2u.debug.temp.o
+                0x00000000000075cd                DriverEntryPoint.c.9519b125
+ .debug_info    0x0000000000009024      0x187 /tmp/cc6vmsJu.debug.temp.o
+                0x0000000000009024                BaseStackCheckGcc.c.9918e4ed
+ .debug_info    0x00000000000091ab      0x1d7 /tmp/cc3SLRRv.debug.temp.o
+                0x00000000000091ab                memcpy.c.992e94b8
+ .debug_info    0x0000000000009382      0x188 /tmp/cc6YCTMu.debug.temp.o
+                0x0000000000009382                memset.c.d190684e
+ .debug_info    0x000000000000950a     0x1f38 /tmp/ccsttWgz.debug.temp.o
+                0x000000000000950a                AutoGen.c.459efe7e
+ .debug_info    0x000000000000b442     0x23ce /tmp/ccDxMBJx.debug.temp.o
+                0x000000000000b442                VlanConfigDriver.c.1230f9de
+ .debug_info    0x000000000000d810     0x2812 /tmp/cc2uoMAv.debug.temp.o
+                0x000000000000d810                VlanConfigImpl.c.ff00e906
+ .debug_info    0x0000000000010022      0x452 /tmp/ccsZJxBx.debug.temp.o
+                0x0000000000010022                VlanConfig.c.980c898d
+ .debug_info    0x0000000000010474     0x2271 /tmp/cci2Msxy.debug.temp.o
+                0x0000000000010474                ComponentName.c.f0c7b08a
+ .debug_info    0x00000000000126e5      0x17a /tmp/ccXBXNay.debug.temp.o
+                0x00000000000126e5                ZeroMemWrapper.c.8dc042f6
+ .debug_info    0x000000000001285f      0x186 /tmp/cckwb15y.debug.temp.o
+                0x000000000001285f                SetMem16Wrapper.c.ab3f09e9
+ .debug_info    0x00000000000129e5      0x1d0 /tmp/cchGJsKy.debug.temp.o
+                0x00000000000129e5                CpuDeadLoop.c.e33e7959
+ .debug_info    0x0000000000012bb5     0x1004 /tmp/cc5bMvgx.debug.temp.o
+                0x0000000000012bb5                SafeString.c.d8550fea
+ .debug_info    0x0000000000013bb9      0x7f3 /tmp/ccaJnpQw.debug.temp.o
+                0x0000000000013bb9                String.c.753c3495
+ .debug_info    0x00000000000143ac      0x43c /tmp/ccsOg1bz.debug.temp.o
+                0x00000000000143ac                Math64.c.5e992ad5
+ .debug_info    0x00000000000147e8      0x68f /tmp/ccA7tWSw.debug.temp.o
+                0x00000000000147e8                PrintLib.c.260a037f
+ .debug_info    0x0000000000014e77      0x79a /tmp/ccPUZUqx.debug.temp.o
+                0x0000000000014e77                PrintLibInternal.c.92769e0a
+ .debug_info    0x0000000000015611      0x3f2 /tmp/ccLKJFAw.debug.temp.o
+                0x0000000000015611                DebugLib.c.0df38b98
+ .debug_info    0x0000000000015a03     0x18e1 /tmp/cc9K3dtx.debug.temp.o
+                0x0000000000015a03                UefiBootServicesTableLib.c.c00a3dd8
+ .debug_info    0x00000000000172e4     0x1de0 /tmp/cc3XvVKw.debug.temp.o
+                0x00000000000172e4                MemoryAllocationLib.c.774777c4
+ .debug_info    0x00000000000190c4     0x18b2 /tmp/cc5kbLQu.debug.temp.o
+                0x00000000000190c4                UefiRuntimeServicesTableLib.c.7b9e7237
+ .debug_info    0x000000000001a976     0x1afe /tmp/cc6LvgQy.debug.temp.o
+                0x000000000001a976                UefiDevicePathLib.c.c981cbf5
+ .debug_info    0x000000000001c474     0x1d7d /tmp/ccVANw5u.debug.temp.o
+                0x000000000001c474                DevicePathUtilities.c.94f518f0
+ .debug_info    0x000000000001e1f1     0x1953 /tmp/ccb86Lbz.debug.temp.o
+                0x000000000001e1f1                DevicePathUtilitiesDxeSmm.c.e3408512
+ .debug_info    0x000000000001fb44     0x3d60 /tmp/ccPYvOxv.debug.temp.o
+                0x000000000001fb44                DevicePathToText.c.c18353b7
+ .debug_info    0x00000000000238a4     0x2307 /tmp/ccc7u6dy.debug.temp.o
+                0x00000000000238a4                UefiDriverModel.c.bb92ab9b
+ .debug_info    0x0000000000025bab     0x27ac /tmp/ccAliRqw.debug.temp.o
+                0x0000000000025bab                UefiLib.c.2c69044c
+ .debug_info    0x0000000000028357     0x2966 /tmp/cceBzL2x.debug.temp.o
+                0x0000000000028357                UefiHiiServicesLib.c.57cd5a7f
+ .debug_info    0x000000000002acbd     0x7175 /tmp/cczkmPYw.debug.temp.o
+                0x000000000002acbd                DxeNetLib.c.1ef1158d
+ .debug_info    0x0000000000031e32     0x50c1 /tmp/cct0iOLv.debug.temp.o
+                0x0000000000031e32                HiiLib.c.b2279ad8
+ .debug_info    0x0000000000036ef3     0x2b6a /tmp/ccYpSl5y.debug.temp.o
+                0x0000000000036ef3                HiiString.c.d0f43445
+ .debug_info    0x0000000000039a5d     0x2a1b /tmp/ccwEBo4v.debug.temp.o
+                0x0000000000039a5d                HiiLanguage.c.1635079f
+ .debug_info    0x000000000003c478      0x21d /tmp/ccEBLdMv.debug.temp.o
+                0x000000000003c478                MemLibGuid.c.2ca06148
+ .debug_info    0x000000000003c695      0x1a7 /tmp/cc5fwEyv.debug.temp.o
+                0x000000000003c695                CompareMemWrapper.c.96cbdc30
+ .debug_info    0x000000000003c83c      0x191 /tmp/ccjUiEOy.debug.temp.o
+                0x000000000003c83c                CopyMemWrapper.c.8ed793a8
+ .debug_info    0x000000000003c9cd      0x1e5 /tmp/cc2FNSdx.debug.temp.o
+                0x000000000003c9cd                DivU64x32Remainder.c.19070deb
+ .debug_info    0x000000000003cbb2      0x33d /tmp/ccOvfsNy.debug.temp.o
+                0x000000000003cbb2                Unaligned.c.4a0798dc
+ .debug_info    0x000000000003ceef      0x18d /tmp/ccRuTkwy.debug.temp.o
+                0x000000000003ceef                BaseDebugPrintErrorLevelLib.c.afda57b5
+ .debug_info    0x000000000003d07c      0x201 /tmp/ccHQMl2w.debug.temp.o
+                0x000000000003d07c                DebugDualSerialPortLib.c.3fe30e88
+ .debug_info    0x000000000003d27d      0x2e6 /tmp/ccj09Jxw.debug.temp.o
+                0x000000000003d27d                DualSerialPortLibCommon.c.2dc6badf
+ .debug_info    0x000000000003d563      0x503 /tmp/cckEQLwy.debug.temp.o
+                0x000000000003d563                IoLibNoIo.c.335a48c4
+ .debug_info    0x000000000003da66      0x536 /tmp/cci1Fk5u.debug.temp.o
+                0x000000000003da66                PL011UartLib.c.f54a0051
+
+.debug_abbrev   0x0000000000000000     0x435e
+ .debug_abbrev  0x0000000000000000      0x288 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000288      0x1e9 /tmp/ccm28Q2u.debug.temp.o
+ .debug_abbrev  0x0000000000000471       0xc7 /tmp/cc6vmsJu.debug.temp.o
+ .debug_abbrev  0x0000000000000538       0xee /tmp/cc3SLRRv.debug.temp.o
+ .debug_abbrev  0x0000000000000626       0xc0 /tmp/cc6YCTMu.debug.temp.o
+ .debug_abbrev  0x00000000000006e6      0x236 /tmp/ccsttWgz.debug.temp.o
+ .debug_abbrev  0x000000000000091c      0x243 /tmp/ccDxMBJx.debug.temp.o
+ .debug_abbrev  0x0000000000000b5f      0x2ad /tmp/cc2uoMAv.debug.temp.o
+ .debug_abbrev  0x0000000000000e0c       0xb5 /tmp/ccsZJxBx.debug.temp.o
+ .debug_abbrev  0x0000000000000ec1      0x234 /tmp/cci2Msxy.debug.temp.o
+ .debug_abbrev  0x00000000000010f5       0xb1 /tmp/ccXBXNay.debug.temp.o
+ .debug_abbrev  0x00000000000011a6       0xb1 /tmp/cckwb15y.debug.temp.o
+ .debug_abbrev  0x0000000000001257       0xb6 /tmp/cchGJsKy.debug.temp.o
+ .debug_abbrev  0x000000000000130d      0x138 /tmp/cc5bMvgx.debug.temp.o
+ .debug_abbrev  0x0000000000001445      0x126 /tmp/ccaJnpQw.debug.temp.o
+ .debug_abbrev  0x000000000000156b       0xf9 /tmp/ccsOg1bz.debug.temp.o
+ .debug_abbrev  0x0000000000001664      0x150 /tmp/ccA7tWSw.debug.temp.o
+ .debug_abbrev  0x00000000000017b4      0x161 /tmp/ccPUZUqx.debug.temp.o
+ .debug_abbrev  0x0000000000001915      0x165 /tmp/ccLKJFAw.debug.temp.o
+ .debug_abbrev  0x0000000000001a7a      0x1dd /tmp/cc9K3dtx.debug.temp.o
+ .debug_abbrev  0x0000000000001c57      0x242 /tmp/cc3XvVKw.debug.temp.o
+ .debug_abbrev  0x0000000000001e99      0x1c3 /tmp/cc5kbLQu.debug.temp.o
+ .debug_abbrev  0x000000000000205c      0x1fe /tmp/cc6LvgQy.debug.temp.o
+ .debug_abbrev  0x000000000000225a      0x240 /tmp/ccVANw5u.debug.temp.o
+ .debug_abbrev  0x000000000000249a      0x1d4 /tmp/ccb86Lbz.debug.temp.o
+ .debug_abbrev  0x000000000000266e      0x2ca /tmp/ccPYvOxv.debug.temp.o
+ .debug_abbrev  0x0000000000002938      0x21c /tmp/ccc7u6dy.debug.temp.o
+ .debug_abbrev  0x0000000000002b54      0x267 /tmp/ccAliRqw.debug.temp.o
+ .debug_abbrev  0x0000000000002dbb      0x216 /tmp/cceBzL2x.debug.temp.o
+ .debug_abbrev  0x0000000000002fd1      0x37e /tmp/cczkmPYw.debug.temp.o
+ .debug_abbrev  0x000000000000334f      0x315 /tmp/cct0iOLv.debug.temp.o
+ .debug_abbrev  0x0000000000003664      0x249 /tmp/ccYpSl5y.debug.temp.o
+ .debug_abbrev  0x00000000000038ad      0x209 /tmp/ccwEBo4v.debug.temp.o
+ .debug_abbrev  0x0000000000003ab6       0xce /tmp/ccEBLdMv.debug.temp.o
+ .debug_abbrev  0x0000000000003b84       0xb1 /tmp/cc5fwEyv.debug.temp.o
+ .debug_abbrev  0x0000000000003c35       0xb8 /tmp/ccjUiEOy.debug.temp.o
+ .debug_abbrev  0x0000000000003ced       0xb3 /tmp/cc2FNSdx.debug.temp.o
+ .debug_abbrev  0x0000000000003da0       0xc9 /tmp/ccOvfsNy.debug.temp.o
+ .debug_abbrev  0x0000000000003e69       0xc6 /tmp/ccRuTkwy.debug.temp.o
+ .debug_abbrev  0x0000000000003f2f       0xc4 /tmp/ccHQMl2w.debug.temp.o
+ .debug_abbrev  0x0000000000003ff3      0x108 /tmp/ccj09Jxw.debug.temp.o
+ .debug_abbrev  0x00000000000040fb      0x11f /tmp/cckEQLwy.debug.temp.o
+ .debug_abbrev  0x000000000000421a      0x144 /tmp/cci1Fk5u.debug.temp.o
+
+.debug_loc      0x0000000000000000     0xc0ee
+ .debug_loc     0x0000000000000000     0xc0ee /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+
+.debug_aranges  0x0000000000000000      0x4d0
+ .debug_aranges
+                0x0000000000000000      0x4d0 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+
+.debug_ranges   0x0000000000000000     0x1800
+ .debug_ranges  0x0000000000000000     0x1800 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+
+.debug_line     0x0000000000000000     0xb3ac
+ .debug_line    0x0000000000000000     0x4474 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+ .debug_line    0x0000000000004474      0x347 /tmp/ccm28Q2u.debug.temp.o
+ .debug_line    0x00000000000047bb      0x170 /tmp/cc6vmsJu.debug.temp.o
+ .debug_line    0x000000000000492b      0x171 /tmp/cc3SLRRv.debug.temp.o
+ .debug_line    0x0000000000004a9c      0x171 /tmp/cc6YCTMu.debug.temp.o
+ .debug_line    0x0000000000004c0d      0x2f3 /tmp/ccsttWgz.debug.temp.o
+ .debug_line    0x0000000000004f00      0x477 /tmp/ccDxMBJx.debug.temp.o
+ .debug_line    0x0000000000005377      0x48e /tmp/cc2uoMAv.debug.temp.o
+ .debug_line    0x0000000000005805      0x267 /tmp/ccsZJxBx.debug.temp.o
+ .debug_line    0x0000000000005a6c      0x46e /tmp/cci2Msxy.debug.temp.o
+ .debug_line    0x0000000000005eda      0x173 /tmp/ccXBXNay.debug.temp.o
+ .debug_line    0x000000000000604d      0x174 /tmp/cckwb15y.debug.temp.o
+ .debug_line    0x00000000000061c1      0x14c /tmp/cchGJsKy.debug.temp.o
+ .debug_line    0x000000000000630d      0x14b /tmp/cc5bMvgx.debug.temp.o
+ .debug_line    0x0000000000006458      0x147 /tmp/ccaJnpQw.debug.temp.o
+ .debug_line    0x000000000000659f      0x147 /tmp/ccsOg1bz.debug.temp.o
+ .debug_line    0x00000000000066e6      0x166 /tmp/ccA7tWSw.debug.temp.o
+ .debug_line    0x000000000000684c      0x184 /tmp/ccPUZUqx.debug.temp.o
+ .debug_line    0x00000000000069d0      0x20c /tmp/ccLKJFAw.debug.temp.o
+ .debug_line    0x0000000000006bdc      0x330 /tmp/cc9K3dtx.debug.temp.o
+ .debug_line    0x0000000000006f0c      0x328 /tmp/cc3XvVKw.debug.temp.o
+ .debug_line    0x0000000000007234      0x2e9 /tmp/cc5kbLQu.debug.temp.o
+ .debug_line    0x000000000000751d      0x36a /tmp/cc6LvgQy.debug.temp.o
+ .debug_line    0x0000000000007887      0x36c /tmp/ccVANw5u.debug.temp.o
+ .debug_line    0x0000000000007bf3      0x372 /tmp/ccb86Lbz.debug.temp.o
+ .debug_line    0x0000000000007f65      0x3db /tmp/ccPYvOxv.debug.temp.o
+ .debug_line    0x0000000000008340      0x3e0 /tmp/ccc7u6dy.debug.temp.o
+ .debug_line    0x0000000000008720      0x36d /tmp/ccAliRqw.debug.temp.o
+ .debug_line    0x0000000000008a8d      0x400 /tmp/cceBzL2x.debug.temp.o
+ .debug_line    0x0000000000008e8d      0x507 /tmp/cczkmPYw.debug.temp.o
+ .debug_line    0x0000000000009394      0x515 /tmp/cct0iOLv.debug.temp.o
+ .debug_line    0x00000000000098a9      0x4f8 /tmp/ccYpSl5y.debug.temp.o
+ .debug_line    0x0000000000009da1      0x4fa /tmp/ccwEBo4v.debug.temp.o
+ .debug_line    0x000000000000a29b      0x173 /tmp/ccEBLdMv.debug.temp.o
+ .debug_line    0x000000000000a40e      0x176 /tmp/cc5fwEyv.debug.temp.o
+ .debug_line    0x000000000000a584      0x173 /tmp/ccjUiEOy.debug.temp.o
+ .debug_line    0x000000000000a6f7      0x153 /tmp/cc2FNSdx.debug.temp.o
+ .debug_line    0x000000000000a84a      0x14e /tmp/ccOvfsNy.debug.temp.o
+ .debug_line    0x000000000000a998      0x198 /tmp/ccRuTkwy.debug.temp.o
+ .debug_line    0x000000000000ab30      0x228 /tmp/ccHQMl2w.debug.temp.o
+ .debug_line    0x000000000000ad58      0x240 /tmp/ccj09Jxw.debug.temp.o
+ .debug_line    0x000000000000af98      0x16b /tmp/cckEQLwy.debug.temp.o
+ .debug_line    0x000000000000b103      0x2a9 /tmp/cci1Fk5u.debug.temp.o
+
+.debug_str      0x0000000000000000     0xbef4
+ .debug_str     0x0000000000000000      0x28c /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o
+                                        0x2a5 (size before relaxing)
+ .debug_str     0x000000000000028c     0x14fb /tmp/ccm28Q2u.debug.temp.o
+                                       0x1690 (size before relaxing)
+ .debug_str     0x0000000000001787      0x27a /tmp/cc6vmsJu.debug.temp.o
+                                        0x3af (size before relaxing)
+ .debug_str     0x0000000000001a01       0xd3 /tmp/cc3SLRRv.debug.temp.o
+                                        0x34e (size before relaxing)
+ .debug_str     0x0000000000001ad4       0x55 /tmp/cc6YCTMu.debug.temp.o
+                                        0x342 (size before relaxing)
+ .debug_str     0x0000000000001b29      0xa3c /tmp/ccsttWgz.debug.temp.o
+                                       0x1fb5 (size before relaxing)
+ .debug_str     0x0000000000002565      0x5e9 /tmp/ccDxMBJx.debug.temp.o
+                                       0x20fa (size before relaxing)
+ .debug_str     0x0000000000002b4e      0x2de /tmp/cc2uoMAv.debug.temp.o
+                                       0x22b3 (size before relaxing)
+ .debug_str     0x0000000000002e2c       0x71 /tmp/ccsZJxBx.debug.temp.o
+                                        0x97e (size before relaxing)
+ .debug_str     0x0000000000002e9d       0xc9 /tmp/cci2Msxy.debug.temp.o
+                                       0x2005 (size before relaxing)
+ .debug_str     0x0000000000002f66       0xc0 /tmp/ccXBXNay.debug.temp.o
+                                        0x358 (size before relaxing)
+ .debug_str     0x0000000000003026       0x53 /tmp/cckwb15y.debug.temp.o
+                                        0x360 (size before relaxing)
+ .debug_str     0x0000000000003079       0xa5 /tmp/cchGJsKy.debug.temp.o
+                                        0x461 (size before relaxing)
+ .debug_str     0x000000000000311e      0x2d2 /tmp/cc5bMvgx.debug.temp.o
+                                        0x82d (size before relaxing)
+ .debug_str     0x00000000000033f0      0x2e1 /tmp/ccaJnpQw.debug.temp.o
+                                        0x7e2 (size before relaxing)
+ .debug_str     0x00000000000036d1      0x1ad /tmp/ccsOg1bz.debug.temp.o
+                                        0x5df (size before relaxing)
+ .debug_str     0x000000000000387e      0x261 /tmp/ccA7tWSw.debug.temp.o
+                                        0x5a2 (size before relaxing)
+ .debug_str     0x0000000000003adf      0x243 /tmp/ccPUZUqx.debug.temp.o
+                                        0x70c (size before relaxing)
+ .debug_str     0x0000000000003d22      0x1f8 /tmp/ccLKJFAw.debug.temp.o
+                                        0x5c4 (size before relaxing)
+ .debug_str     0x0000000000003f1a       0xfd /tmp/cc9K3dtx.debug.temp.o
+                                       0x156d (size before relaxing)
+ .debug_str     0x0000000000004017      0x30a /tmp/cc3XvVKw.debug.temp.o
+                                       0x17d9 (size before relaxing)
+ .debug_str     0x0000000000004321      0x10c /tmp/cc5kbLQu.debug.temp.o
+                                       0x156f (size before relaxing)
+ .debug_str     0x000000000000442d      0x1fa /tmp/cc6LvgQy.debug.temp.o
+                                       0x17d8 (size before relaxing)
+ .debug_str     0x0000000000004627      0x2bd /tmp/ccVANw5u.debug.temp.o
+                                       0x1974 (size before relaxing)
+ .debug_str     0x00000000000048e4       0x70 /tmp/ccb86Lbz.debug.temp.o
+                                       0x1658 (size before relaxing)
+ .debug_str     0x0000000000004954      0xd9c /tmp/ccPYvOxv.debug.temp.o
+                                       0x25ec (size before relaxing)
+ .debug_str     0x00000000000056f0      0x637 /tmp/ccc7u6dy.debug.temp.o
+                                       0x20aa (size before relaxing)
+ .debug_str     0x0000000000005d27      0x615 /tmp/ccAliRqw.debug.temp.o
+                                       0x20b1 (size before relaxing)
+ .debug_str     0x000000000000633c      0xa58 /tmp/cceBzL2x.debug.temp.o
+                                       0x21db (size before relaxing)
+ .debug_str     0x0000000000006d94     0x3863 /tmp/cczkmPYw.debug.temp.o
+                                       0x57b0 (size before relaxing)
+ .debug_str     0x000000000000a5f7      0xe12 /tmp/cct0iOLv.debug.temp.o
+                                       0x35e9 (size before relaxing)
+ .debug_str     0x000000000000b409       0xcc /tmp/ccYpSl5y.debug.temp.o
+                                       0x2450 (size before relaxing)
+ .debug_str     0x000000000000b4d5       0x89 /tmp/ccwEBo4v.debug.temp.o
+                                       0x23c2 (size before relaxing)
+ .debug_str     0x000000000000b55e       0x9e /tmp/ccEBLdMv.debug.temp.o
+                                        0x3ad (size before relaxing)
+ .debug_str     0x000000000000b5fc       0x74 /tmp/cc5fwEyv.debug.temp.o
+                                        0x381 (size before relaxing)
+ .debug_str     0x000000000000b670       0x52 /tmp/ccjUiEOy.debug.temp.o
+                                        0x370 (size before relaxing)
+ .debug_str     0x000000000000b6c2       0x5d /tmp/cc2FNSdx.debug.temp.o
+                                        0x47e (size before relaxing)
+ .debug_str     0x000000000000b71f       0xde /tmp/ccOvfsNy.debug.temp.o
+                                        0x508 (size before relaxing)
+ .debug_str     0x000000000000b7fd      0x115 /tmp/ccRuTkwy.debug.temp.o
+                                        0x3e0 (size before relaxing)
+ .debug_str     0x000000000000b912      0x102 /tmp/ccHQMl2w.debug.temp.o
+                                        0x516 (size before relaxing)
+ .debug_str     0x000000000000ba14      0x101 /tmp/ccj09Jxw.debug.temp.o
+                                        0x5b3 (size before relaxing)
+ .debug_str     0x000000000000bb15      0x1ab /tmp/cckEQLwy.debug.temp.o
+                                        0x44d (size before relaxing)
+ .debug_str     0x000000000000bcc0      0x234 /tmp/cci1Fk5u.debug.temp.o
+                                        0x818 (size before relaxing)
+
+.debug_frame    0x0000000000000000      0xe80
+ .debug_frame   0x0000000000000000      0xe80 /tmp/VlanConfigDxe.dll.ihZXjw.ltrans0.ltrans.o

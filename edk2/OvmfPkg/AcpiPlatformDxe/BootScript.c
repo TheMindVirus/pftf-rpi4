@@ -7,10 +7,9 @@
   SPDX-License-Identifier: BSD-2-Clause-Patent
 **/
 
-#include <Library/BaseLib.h>             // CpuDeadLoop()
-#include <Library/DebugLib.h>            // DEBUG()
-#include <Library/MemoryAllocationLib.h> // AllocatePool()
-#include <Library/QemuFwCfgS3Lib.h>      // QemuFwCfgS3ScriptSkipBytes()
+#include <Library/MemoryAllocationLib.h>
+#include <Library/QemuFwCfgLib.h>
+#include <Library/QemuFwCfgS3Lib.h>
 
 #include "AcpiPlatform.h"
 

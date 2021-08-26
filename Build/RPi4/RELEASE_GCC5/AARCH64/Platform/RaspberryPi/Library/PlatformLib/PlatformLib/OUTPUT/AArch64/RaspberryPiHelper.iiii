@@ -1,0 +1,180 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .macro drain
+    mov x5, #0x8000000
+0: ldr w6, [x4, #0x00000018]
+    tbnz w6, #0x1e, 1f
+    dmb ld
+    ldr wzr, [x4, #0x00000000]
+    subs x5, x5, #1
+    b.ne 0b
+1:
+    .endm
+
+    .macro poll, status
+    mov x5, #0x8000000
+0: ldr w6, [x4, #0x00000018]
+    tbz w6, #\status, 1f
+    dmb ld
+    subs x5, x5, #1
+    b.ne 0b
+1:
+    .endm
+
+    .macro run, command_buffer
+    adr x0, \command_buffer
+    orr x0, x0, #8
+    add x0, x0, x1
+
+    poll 0x1f
+    str w0, [x4, #0x00000020]
+    dmb sy
+    poll 0x1e
+    dmb sy
+    ldr wzr, [x4, #0x00000000]
+    dmb ld
+    .endm
+
+.global ArmPlatformPeiBootAction ; .section ".text.ArmPlatformPeiBootAction", "ax" ; .type ArmPlatformPeiBootAction, %function ; ArmPlatformPeiBootAction:
+    mov x1, #0xc0000000
+    orr x0, x0, #8
+
+
+    movz x4, (((0xfe000000) + 0x0000b880)) >> 16, lsl #16 ; movk x4, (((0xfe000000) + 0x0000b880)) & 0xffff
+
+    drain
+
+    run .Lmeminfo_buffer
+
+    ldr w0, .Lmembase
+    adr x2, mSystemMemoryBase
+    str x0, [x2]
+
+    ldr w0, .Lmemsize
+    sub x0, x0, #1
+    adr x2, mSystemMemoryEnd
+    str x0, [x2]
+
+    run .Lvcinfo_buffer
+
+    ldr w0, .Lvcbase
+    adr x2, mVideoCoreBase
+    str x0, [x2]
+
+    ldr w0, .Lvcsize
+    adr x2, mVideoCoreSize
+    str x0, [x2]
+
+    run .Lrevinfo_buffer
+
+    ldr w0, .Lrevision
+    adr x2, mBoardRevision
+    str w0, [x2]
+
+
+
+
+
+
+
+
+
+    ret
+
+    .align 4
+.Lmeminfo_buffer:
+    .long .Lmeminfo_size
+    .long 0x0
+    .long 0x00010005
+    .long 8
+    .long 0
+.Lmembase:
+    .long 0
+.Lmemsize:
+    .long 0
+    .long 0
+    .set .Lmeminfo_size, . - .Lmeminfo_buffer
+
+    .align 4
+.Lvcinfo_buffer:
+    .long .Lvcinfo_size
+    .long 0x0
+    .long 0x00010006
+    .long 8
+    .long 0
+.Lvcbase:
+    .long 0
+.Lvcsize:
+    .long 0
+    .long 0
+    .set .Lvcinfo_size, . - .Lvcinfo_buffer
+
+    .align 4
+.Lrevinfo_buffer:
+    .long .Lrevinfo_size
+    .long 0x0
+    .long 0x00010002
+    .long 4
+    .long 0
+.Lrevision:
+    .long 0
+    .long 0
+    .set .Lrevinfo_size, . - .Lrevinfo_buffer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.global ArmPlatformGetPrimaryCoreMpId ; .section ".text.ArmPlatformGetPrimaryCoreMpId", "ax" ; .type ArmPlatformGetPrimaryCoreMpId, %function ; ArmPlatformGetPrimaryCoreMpId:
+    movz w0, (0) >> 16, lsl #16 ; movk w0, (0) & 0xffff
+    ret
+
+
+
+
+
+.global ArmPlatformIsPrimaryCore ; .section ".text.ArmPlatformIsPrimaryCore", "ax" ; .type ArmPlatformIsPrimaryCore, %function ; ArmPlatformIsPrimaryCore:
+    mov x0, #1
+    ret
+
+
+
+
+
+
+.global ArmPlatformGetCorePosition ; .section ".text.ArmPlatformGetCorePosition", "ax" ; .type ArmPlatformGetCorePosition, %function ; ArmPlatformGetCorePosition:
+    and x1, x0, #0xFF
+    and x0, x0, #(0xFF << 8)
+    add x0, x1, x0, LSR #6
+    ret
+
+

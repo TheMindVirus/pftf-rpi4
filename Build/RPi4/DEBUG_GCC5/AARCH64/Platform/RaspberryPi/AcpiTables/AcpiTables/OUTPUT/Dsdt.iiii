@@ -1,0 +1,1372 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DefinitionBlock ("Dsdt.aml", "DSDT", 5, "RPIFDN", "RPI", 2)
+{
+  Scope (\_SB_)
+  {
+
+
+
+
+
+
+
+
+
+
+
+
+    Device(PEPD)
+    {
+
+
+
+      Name (_HID, "BCM2854")
+      Name (_CID, "BCM2854")
+      Name (_UID, 0x0)
+      Name (_CRS, ResourceTemplate ()
+      {
+
+      })
+
+
+
+
+
+
+
+      Name (_GPI, Buffer()
+      {
+        0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x5C, 0x00, 0x5F, 0x00, 0x53,
+        0x00, 0x42, 0x00, 0x2E, 0x00, 0x43, 0x00, 0x50, 0x00, 0x55, 0x00, 0x30,
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+      })
+
+
+
+
+
+
+
+      Name (_GCI, Buffer()
+      {
+        0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00,
+        0x00, 0x00, 0x00, 0x06, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0x00, 0x00, 0x00, 0x01,
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01,
+        0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00
+      })
+
+
+
+
+
+
+
+      Name (_GDI, Buffer()
+      {
+        0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x5C, 0x00, 0x5F, 0x00, 0x53,
+        0x00, 0x42, 0x00, 0x2E, 0x00, 0x49, 0x00, 0x32, 0x00, 0x43, 0x00, 0x30,
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x09,
+        0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00,
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+      })
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    Device (SCB0) {
+        Name (_HID, "ACPI0004")
+        Name (_UID, 0x0)
+        Name (_CCA, 0x0)
+
+        Method (_CRS, 0, Serialized) {
+
+
+
+
+
+            Name (RBUF, ResourceTemplate () {
+                QWordMemory (ResourceProducer,
+                    ,
+                    MinFixed,
+                    MaxFixed,
+                    NonCacheable,
+                    ReadWrite,
+                    0x0,
+                    0x600000000,
+                    0x600000000,
+                    0x0,
+                    0x1,
+                    ,
+                    ,
+                    MMIO
+                    )
+            })
+            CreateQwordField (RBUF, MMIO._MAX, MMBE)
+            CreateQwordField (RBUF, MMIO._LEN, MMLE)
+            Add (MMBE, 0x1000 - 1, MMBE)
+            Add (MMLE, 0x1000 - 1, MMLE)
+            Return (RBUF)
+        }
+
+        Name (_DMA, ResourceTemplate() {
+
+
+
+
+
+            QWordMemory (ResourceConsumer,
+                ,
+                MinFixed,
+                MaxFixed,
+                NonCacheable,
+                ReadWrite,
+                0x0,
+                0x0,
+                0xbfffffff,
+                0x0,
+                0xc0000000,
+                ,
+                ,
+                )
+        })
+
+        Device (XHC0)
+        {
+            Name (_HID, "PNP0D10")
+            Name (_UID, 0x0)
+            Name (_CCA, 0x0)
+
+            Method (_CRS, 0, Serialized) {
+                Name (RBUF, ResourceTemplate () {
+                    QWordMemory (ResourceConsumer,
+                        ,
+                        MinFixed,
+                        MaxFixed,
+                        NonCacheable,
+                        ReadWrite,
+                        0x0,
+                        0x600000000,
+                        0x600000000,
+                        0x0,
+                        0x1,
+                        ,
+                        ,
+                        MMIO
+                        )
+                    Interrupt (ResourceConsumer, Level, ActiveHigh, Exclusive, ,, ) {
+                        175
+                    }
+                })
+                CreateQwordField (RBUF, MMIO._MAX, MMBE)
+                CreateQwordField (RBUF, MMIO._LEN, MMLE)
+                Add (MMBE, 0x1000 - 1, MMBE)
+                Add (MMLE, 0x1000 - 1, MMLE)
+                Return (RBUF)
+            }
+
+            Method (_INI, 0, Serialized) {
+                OperationRegion (PCFG, SystemMemory, 0xfd500000 + 0x8000, 0x1000)
+                Field (PCFG, AnyAcc, NoLock, Preserve) {
+                    VNID, 16,
+                    DVID, 16,
+                    CMND, 16,
+                    STAT, 16,
+                }
+
+
+
+
+
+                Debug = "xHCI enable"
+                Store (0x6, CMND)
+            }
+        }
+    }
+
+
+
+    Device (CPU0)
+    {
+      Name (_HID, "ACPI0007")
+      Name (_UID, 0x0)
+      Method (_STA)
+      {
+        Return (0xf)
+      }
+    }
+
+    Device (CPU1)
+    {
+      Name (_HID, "ACPI0007")
+      Name (_UID, 0x1)
+      Method (_STA)
+      {
+        Return (0xf)
+      }
+    }
+
+    Device (CPU2)
+    {
+      Name (_HID, "ACPI0007")
+      Name (_UID, 0x2)
+      Method (_STA)
+      {
+        Return (0xf)
+      }
+    }
+
+    Device (CPU3)
+    {
+      Name (_HID, "ACPI0007")
+      Name (_UID, 0x3)
+      Method (_STA)
+      {
+        Return (0xf)
+      }
+    }
+
+
+
+
+
+
+    Device (GDV0)
+    {
+      Name (_HID, "ACPI0004")
+      Name (_UID, 0x1)
+      Name (_CCA, 0x0)
+
+      Method (_CRS, 0, Serialized) {
+
+
+
+
+
+        Name (RBUF, ResourceTemplate () {
+          QWordMemory (ResourceProducer,, MinFixed, MaxFixed, NonCacheable, ReadWrite, 0x0, 0x0, 0x0, 0x0, 0x1,,, RB01)
+          QWordMemory (ResourceProducer,, MinFixed, MaxFixed, NonCacheable, ReadWrite, 0x0, 0x0, 0x0, 0x0, 0x1,,, RB02)
+          QWordMemory (ResourceProducer,, MinFixed, MaxFixed, NonCacheable, ReadWrite, 0x0, 0x0, 0x0, 0x0, 0x1,,, RB03)
+
+
+          QWordMemory (ResourceProducer,, MinFixed, MaxFixed, NonCacheable, ReadWrite, 0x0, 0x0, 0x0, 0x0, 0x1,,, RB06)
+          QWordMemory (ResourceProducer,, MinFixed, MaxFixed, NonCacheable, ReadWrite, 0x0, 0x0, 0x0, 0x0, 0x1,,, RB07)
+          QWordMemory (ResourceProducer,, MinFixed, MaxFixed, NonCacheable, ReadWrite, 0x0, 0x0, 0x0, 0x0, 0x1,,, RB08)
+          QWordMemory (ResourceProducer,, MinFixed, MaxFixed, NonCacheable, ReadWrite, 0x0, 0x0, 0x0, 0x0, 0x1,,, RB09)
+          QWordMemory (ResourceProducer,, MinFixed, MaxFixed, NonCacheable, ReadWrite, 0x0, 0x0, 0x0, 0x0, 0x1,,, RB10)
+          QWordMemory (ResourceProducer,, MinFixed, MaxFixed, NonCacheable, ReadWrite, 0x0, 0x0, 0x0, 0x0, 0x1,,, RB11)
+          QWordMemory (ResourceProducer,, MinFixed, MaxFixed, NonCacheable, ReadWrite, 0x0, 0x0, 0x0, 0x0, 0x1,,, RB12)
+          QWordMemory (ResourceProducer,, MinFixed, MaxFixed, NonCacheable, ReadWrite, 0x0, 0x0, 0x0, 0x0, 0x1,,, RB13)
+          QWordMemory (ResourceProducer,, MinFixed, MaxFixed, NonCacheable, ReadWrite, 0x0, 0x0, 0x0, 0x0, 0x1,,, RB14)
+          QWordMemory (ResourceProducer,, MinFixed, MaxFixed, NonCacheable, ReadWrite, 0x0, 0x0, 0x0, 0x0, 0x1,,, RB15)
+
+          QWordMemory (ResourceProducer,, MinFixed, MaxFixed, NonCacheable, ReadWrite, 0x0, 0x0, 0x0, 0x0, 0x1,,, RB17)
+          QWordMemory (ResourceProducer,, MinFixed, MaxFixed, NonCacheable, ReadWrite, 0x0, 0x0, 0x0, 0x0, 0x1,,, RB18)
+          QWordMemory (ResourceProducer,, MinFixed, MaxFixed, NonCacheable, ReadWrite, 0x0, 0x0, 0x0, 0x0, 0x1,,, RB19)
+          QWordMemory (ResourceProducer,, MinFixed, MaxFixed, NonCacheable, ReadWrite, 0x0, 0x0, 0x0, 0x0, 0x1,,, RB20)
+          QWordMemory (ResourceProducer,, MinFixed, MaxFixed, NonCacheable, ReadWrite, 0x0, 0x0, 0x0, 0x0, 0x1,,, RB21)
+          QWordMemory (ResourceProducer,, MinFixed, MaxFixed, NonCacheable, ReadWrite, 0x0, 0x0, 0x0, 0x0, 0x1,,, RB22)
+          QWordMemory (ResourceProducer,, MinFixed, MaxFixed, NonCacheable, ReadWrite, 0x0, 0x0, 0x0, 0x0, 0x1,,, RB23)
+          QWordMemory (ResourceProducer,, MinFixed, MaxFixed, NonCacheable, ReadWrite, 0x0, 0x0, 0x0, 0x0, 0x1,,, RB24)
+          QWordMemory (ResourceProducer,, MinFixed, MaxFixed, NonCacheable, ReadWrite, 0x0, 0x0, 0x0, 0x0, 0x1,,, RB25)
+        })
+
+
+        CreateQwordField (RBUF, RB01._MIN, MI01) CreateQwordField (RBUF, RB01._MAX, MA01) CreateQwordField (RBUF, RB01._LEN, LE01) Store (0x00010000, LE01) Add ((0xfe000000), 0x00980000, MI01) Add (MI01, LE01 - 1, MA01)
+
+
+        CreateQwordField (RBUF, RB02._MIN, MI02) CreateQwordField (RBUF, RB02._MAX, MA02) CreateQwordField (RBUF, RB02._LEN, LE02) Store (0x00001000, LE02) Add ((0xfe000000), 0x00C00000, MI02) Add (MI02, LE02 - 1, MA02)
+        CreateQwordField (RBUF, RB03._MIN, MI03) CreateQwordField (RBUF, RB03._MAX, MA03) CreateQwordField (RBUF, RB03._LEN, LE03) Store (0x00006000, LE03) Add ((0xfe000000), 0x00400000, MI03) Add (MI03, LE03 - 1, MA03)
+
+
+        CreateQwordField (RBUF, RB06._MIN, MI06) CreateQwordField (RBUF, RB06._MAX, MA06) CreateQwordField (RBUF, RB06._LEN, LE06) Store (0x00000100, LE06) Add ((0xfe000000), 0x00807000, MI06) Add (MI06, LE06 - 1, MA06)
+        CreateQwordField (RBUF, RB07._MIN, MI07) CreateQwordField (RBUF, RB07._MAX, MA07) CreateQwordField (RBUF, RB07._LEN, LE07) Store (0x00000600, LE07) Add ((0xfe000000), 0x00902000, MI07) Add (MI07, LE07 - 1, MA07)
+        CreateQwordField (RBUF, RB08._MIN, MI08) CreateQwordField (RBUF, RB08._MAX, MA08) CreateQwordField (RBUF, RB08._LEN, LE08) Store (0x00000100, LE08) Add ((0xfe000000), 0x00808000, MI08) Add (MI08, LE08 - 1, MA08)
+
+
+        CreateQwordField (RBUF, RB09._MIN, MI09) CreateQwordField (RBUF, RB09._MAX, MA09) CreateQwordField (RBUF, RB09._LEN, LE09) Store (0x00000024, LE09) Add ((0xfe000000), 0x0000b880, MI09) Add (MI09, LE09 - 1, MA09)
+
+
+        CreateQwordField (RBUF, RB10._MIN, MI10) CreateQwordField (RBUF, RB10._MAX, MA10) CreateQwordField (RBUF, RB10._LEN, LE10) Store (0x00000010, LE10) Add ((0xfe000000), 0x0000B840, MI10) Add (MI10, LE10 - 1, MA10)
+
+
+        CreateQwordField (RBUF, RB11._MIN, MI11) CreateQwordField (RBUF, RB11._MAX, MA11) CreateQwordField (RBUF, RB11._LEN, LE11) Store (0x000000B4, LE11) Add ((0xfe000000), 0x00200000, MI11) Add (MI11, LE11 - 1, MA11)
+
+
+        CreateQwordField (RBUF, RB12._MIN, MI12) CreateQwordField (RBUF, RB12._MAX, MA12) CreateQwordField (RBUF, RB12._LEN, LE12) Store (0x00000020, LE12) Add ((0xfe000000), 0x00804000, MI12) Add (MI12, LE12 - 1, MA12)
+        CreateQwordField (RBUF, RB13._MIN, MI13) CreateQwordField (RBUF, RB13._MAX, MA13) CreateQwordField (RBUF, RB13._LEN, LE13) Store (0x00000020, LE13) Add ((0xfe000000), 0x00805000, MI13) Add (MI13, LE13 - 1, MA13)
+
+
+        CreateQwordField (RBUF, RB14._MIN, MI14) CreateQwordField (RBUF, RB14._MAX, MA14) CreateQwordField (RBUF, RB14._LEN, LE14) Store (0x00000020, LE14) Add ((0xfe000000), 0x00204000, MI14) Add (MI14, LE14 - 1, MA14)
+        CreateQwordField (RBUF, RB15._MIN, MI15) CreateQwordField (RBUF, RB15._MAX, MA15) CreateQwordField (RBUF, RB15._LEN, LE15) Store (0x00000040, LE15) Add ((0xfe000000), 0x00215080, MI15) Add (MI15, LE15 - 1, MA15)
+
+
+
+        CreateQwordField (RBUF, RB17._MIN, MI17) CreateQwordField (RBUF, RB17._MAX, MA17) CreateQwordField (RBUF, RB17._LEN, LE17) Store (0x00000100, LE17) Add ((0xfe000000), 0x00007B00, MI17) Add (MI17, LE17 - 1, MA17)
+        CreateQwordField (RBUF, RB18._MIN, MI18) CreateQwordField (RBUF, RB18._MAX, MA18) CreateQwordField (RBUF, RB18._LEN, LE18) Store (0x00000028, LE18) Add ((0xfe000000), 0x0020C000, MI18) Add (MI18, LE18 - 1, MA18)
+        CreateQwordField (RBUF, RB19._MIN, MI19) CreateQwordField (RBUF, RB19._MAX, MA19) CreateQwordField (RBUF, RB19._LEN, LE19) Store (0x7E20C000, MI19) Store (0x00000028, LE19) Add (MI19, LE19 - 1, MA19)
+        CreateQwordField (RBUF, RB20._MIN, MI20) CreateQwordField (RBUF, RB20._MAX, MA20) CreateQwordField (RBUF, RB20._LEN, LE20) Store (0xFF20C000, MI20) Store (0x00000028, LE20) Add (MI20, LE20 - 1, MA20)
+        CreateQwordField (RBUF, RB21._MIN, MI21) CreateQwordField (RBUF, RB21._MAX, MA21) CreateQwordField (RBUF, RB21._LEN, LE21) Store (0x00000008, LE21) Add ((0xfe000000), 0x001010A0, MI21) Add (MI21, LE21 - 1, MA21)
+
+
+        CreateQwordField (RBUF, RB22._MIN, MI22) CreateQwordField (RBUF, RB22._MAX, MA22) CreateQwordField (RBUF, RB22._LEN, LE22) Store (0x00001000, LE22) Add ((0xfe000000), 0x00201000, MI22) Add (MI22, LE22 - 1, MA22)
+        CreateQwordField (RBUF, RB23._MIN, MI23) CreateQwordField (RBUF, RB23._MAX, MA23) CreateQwordField (RBUF, RB23._LEN, LE23) Store (0x00000070, LE23) Add ((0xfe000000), 0x00215000, MI23) Add (MI23, LE23 - 1, MA23)
+
+
+        CreateQwordField (RBUF, RB24._MIN, MI24) CreateQwordField (RBUF, RB24._MAX, MA24) CreateQwordField (RBUF, RB24._LEN, LE24) Store (0x00000100, LE24) Add ((0xfe000000), 0x00300000, MI24) Add (MI24, LE24 - 1, MA24)
+        CreateQwordField (RBUF, RB25._MIN, MI25) CreateQwordField (RBUF, RB25._MAX, MA25) CreateQwordField (RBUF, RB25._LEN, LE25) Store (0x00000100, LE25) Add ((0xfe000000), 0x00202000, MI25) Add (MI25, LE25 - 1, MA25)
+
+        Return (RBUF)
+      }
+
+      Name (_DMA, ResourceTemplate() {
+
+
+
+
+        QWordMemory (ResourceConsumer,
+          ,
+          MinFixed,
+          MaxFixed,
+          NonCacheable,
+          ReadWrite,
+          0x0,
+          0x00000000C0000000,
+          0x00000000FFFFFFFF,
+          0xFFFFFFFF40000000,
+          0x0000000040000000,
+          ,
+          ,
+          )
+      })
+
+
+
+
+
+
+
+
+
+
+
+
+      Device (USB0)
+      {
+        Name (_HID, "BCM2848")
+        Name (_CID, Package() { "DWC_OTG", "DWC2_OTG" })
+        Name (_UID, 0x0)
+        Name (_CCA, 0x0)
+        Method (_STA)
+        {
+          Return (0xf)
+        }
+        Name (RBUF, ResourceTemplate ()
+        {
+          MEMORY32FIXED (ReadWrite, 0, 0x00010000, RMEM)
+          Interrupt (ResourceConsumer, Level, ActiveHigh, Exclusive) { 0x69 }
+        })
+        Method (_CRS, 0x0, Serialized)
+        {
+          CreateDwordField (^RBUF, ^RMEM._BAS, RBAS) Add ((0xfe000000), 0x00980000, RBAS)
+          Return (^RBUF)
+        }
+      }
+
+
+      Device (GPU0)
+      {
+        Name (_HID, "BCM2850")
+        Name (_CID, "VC4")
+        Name (_UID, 0x0)
+        Name (_CCA, 0x0)
+        Method (_STA)
+        {
+          Return (0xf)
+        }
+        Name (RBUF, ResourceTemplate ()
+        {
+
+          MEMORY32FIXED (ReadWrite, 0, 0x00001000, RM01)
+          Interrupt (ResourceConsumer, Level, ActiveHigh, Exclusive) { 0x2A }
+
+
+          MEMORY32FIXED (ReadWrite, 0, 0x00006000, RM02)
+
+
+
+
+
+
+
+
+
+
+
+
+          MEMORY32FIXED (ReadWrite, 0, 0x00000100, RM05)
+          Interrupt (ResourceConsumer, Level, ActiveHigh, Exclusive) { 0x4A }
+
+
+          MEMORY32FIXED (ReadWrite, 0, 0x00000600, RM06)
+          MEMORY32FIXED (ReadWrite, 0, 0x00000100, RM07)
+
+
+
+
+
+
+          I2CSerialBus (0x50,, 100000,, "\\_SB.GDV0.I2C2",,,,)
+          I2CSerialBus (0x30,, 100000,, "\\_SB.GDV0.I2C2",,,,)
+        })
+        Method (_CRS, 0x0, Serialized)
+        {
+          CreateDwordField (^RBUF, ^RM01._BAS, RB01) Add ((0xfe000000), 0x00C00000, RB01)
+          CreateDwordField (^RBUF, ^RM02._BAS, RB02) Add ((0xfe000000), 0x00400000, RB02)
+          CreateDwordField (^RBUF, ^RM05._BAS, RB05) Add ((0xfe000000), 0x00807000, RB05)
+          CreateDwordField (^RBUF, ^RM06._BAS, RB06) Add ((0xfe000000), 0x00902000, RB06)
+          CreateDwordField (^RBUF, ^RM07._BAS, RB07) Add ((0xfe000000), 0x00808000, RB07)
+          Return (^RBUF)
+        }
+
+
+
+        Method (PMCD, 0, Serialized)
+        {
+          Name (RBUF, Package ()
+          {
+            1,
+            1,
+            Package ()
+            {
+              Package ()
+              {
+                0,
+                0,
+                0,
+
+                Buffer ()
+                {
+                  0x26, 0x1E, 0x2D, 0x9B, 0x75, 0x15, 0x47, 0x47,
+                  0x8f, 0xc0, 0xb9, 0xeb, 0x4b, 0xaa, 0x2d, 0x2b
+                },
+
+                "VC4_Engine_00",
+                2,
+
+                Package ()
+                {
+                  Package ()
+                  {
+                    0,
+                    0,
+                    1210000,
+                  },
+
+                  Package ()
+                  {
+                    10000,
+                    10000,
+                    4,
+                  },
+                }
+              }
+            }
+          })
+          Return (RBUF)
+        }
+      }
+
+
+      Device (RPIQ)
+      {
+        Name (_HID, "BCM2849")
+        Name (_CID, "RPIQ")
+        Name (_UID, 0)
+        Name (_CCA, 0x0)
+        Method (_STA)
+        {
+          Return (0xf)
+        }
+        Name (RBUF, ResourceTemplate ()
+        {
+          MEMORY32FIXED (ReadWrite, 0, 0x00000024, RMEM)
+          Interrupt (ResourceConsumer, Level, ActiveHigh, Exclusive) { 0x41 }
+        })
+
+        Method (_CRS, 0x0, Serialized)
+        {
+          CreateDwordField (^RBUF, ^RMEM._BAS, RBAS) Add ((0xfe000000), 0x0000b880, RBAS)
+          Return (^RBUF)
+        }
+      }
+
+
+      Device (VCIQ)
+      {
+        Name (_HID, "BCM2835")
+        Name (_CID, "VCIQ")
+        Name (_UID, 0)
+        Name (_CCA, 0x0)
+        Name (_DEP, Package() { \_SB.GDV0.RPIQ })
+        Method (_STA)
+        {
+          Return (0xf)
+        }
+        Name (RBUF, ResourceTemplate ()
+        {
+          MEMORY32FIXED (ReadWrite, 0, 0x00000010, RMEM)
+          Interrupt (ResourceConsumer, Level, ActiveHigh, Exclusive) { 0x42 }
+        })
+
+        Method (_CRS, 0x0, Serialized)
+        {
+          CreateDwordField (^RBUF, ^RMEM._BAS, RBAS) Add ((0xfe000000), 0x0000B840, RBAS)
+          Return (^RBUF)
+        }
+      }
+
+
+      Device (VCSM)
+      {
+        Name (_HID, "BCM2856")
+        Name (_CID, "VCSM")
+        Name (_UID, 0)
+        Name (_CCA, 0x0)
+        Name (_DEP, Package() { \_SB.GDV0.VCIQ })
+        Method (_STA)
+        {
+          Return (0xf)
+        }
+      }
+
+
+      Device (GPI0)
+      {
+        Name (_HID, "BCM2845")
+        Name (_CID, "BCMGPIO")
+        Name (_UID, 0x0)
+        Name (_CCA, 0x0)
+        Method (_STA)
+        {
+          Return(0xf)
+        }
+        Name (RBUF, ResourceTemplate ()
+        {
+          MEMORY32FIXED (ReadWrite, 0, 0x000000B4, RMEM)
+          Interrupt (ResourceConsumer, Level, ActiveHigh, Shared)
+          {
+            0x91, 0x92,
+            0x93, 0x94
+          }
+        })
+        Method (_CRS, 0x0, Serialized)
+        {
+          CreateDwordField (^RBUF, ^RMEM._BAS, RBAS) Add ((0xfe000000), 0x00200000, RBAS)
+          Return (^RBUF)
+        }
+      }
+
+
+      Device (I2C1)
+      {
+        Name (_HID, "BCM2841")
+        Name (_CID, "BCMI2C")
+        Name (_UID, 0x1)
+        Name (_CCA, 0x0)
+        Method (_STA)
+        {
+          Return(0xf)
+        }
+        Name (RBUF, ResourceTemplate ()
+        {
+          MEMORY32FIXED (ReadWrite, 0, 0x00000020, RMEM)
+          Interrupt (ResourceConsumer, Level, ActiveHigh, Shared) { 0x95 }
+          PinFunction (Exclusive, PullUp, 0x4, "\\_SB.GDV0.GPI0", 0, ResourceConsumer, , ) { 2, 3 }
+        })
+        Method (_CRS, 0x0, Serialized)
+        {
+          CreateDwordField (^RBUF, ^RMEM._BAS, RBAS) Add ((0xfe000000), 0x00804000, RBAS)
+          Return (^RBUF)
+        }
+      }
+
+
+      Device (I2C2)
+      {
+        Name (_HID, "BCM2841")
+        Name (_CID, "BCMI2C")
+        Name (_UID, 0x2)
+        Name (_CCA, 0x0)
+        Method (_STA)
+        {
+          Return (0xf)
+        }
+        Name (RBUF, ResourceTemplate()
+        {
+          MEMORY32FIXED (ReadWrite, 0, 0x00000020, RMEM)
+          Interrupt (ResourceConsumer, Level, ActiveHigh, Shared) { 0x95 }
+        })
+
+        Method (_CRS, 0x0, Serialized)
+        {
+          CreateDwordField (^RBUF, ^RMEM._BAS, RBAS) Add ((0xfe000000), 0x00805000, RBAS)
+          Return (^RBUF)
+        }
+      }
+
+
+      Device (SPI0)
+      {
+        Name (_HID, "BCM2838")
+        Name (_CID, "BCMSPI0")
+        Name (_UID, 0x0)
+        Name (_CCA, 0x0)
+        Method (_STA)
+        {
+          Return (0xf)
+        }
+        Name (RBUF, ResourceTemplate ()
+        {
+          MEMORY32FIXED (ReadWrite, 0, 0x00000020, RMEM)
+          Interrupt (ResourceConsumer, Level, ActiveHigh, Shared) { 0x96 }
+          PinFunction (Exclusive, PullDown, 0x4, "\\_SB.GDV0.GPI0", 0, ResourceConsumer, , ) { 9, 10, 11 }
+          PinFunction (Exclusive, PullUp, 0x4, "\\_SB.GDV0.GPI0", 0, ResourceConsumer, , ) { 8 }
+          PinFunction (Exclusive, PullUp, 0x4, "\\_SB.GDV0.GPI0", 0, ResourceConsumer, , ) { 7 }
+        })
+
+        Method (_CRS, 0x0, Serialized)
+        {
+          CreateDwordField (^RBUF, ^RMEM._BAS, RBAS) Add ((0xfe000000), 0x00204000, RBAS)
+          Return (^RBUF)
+        }
+      }
+
+      Device (SPI1)
+      {
+        Name (_HID, "BCM2839")
+        Name (_CID, "BCMAUXSPI")
+        Name (_UID, 0x1)
+        Name (_CCA, 0x0)
+        Name (_DEP, Package() { \_SB.GDV0.RPIQ })
+        Method (_STA)
+        {
+          Return (0xf)
+        }
+        Name (RBUF, ResourceTemplate ()
+        {
+          MEMORY32FIXED (ReadWrite, 0, 0x00000040, RMEM)
+          Interrupt (ResourceConsumer, Level, ActiveHigh, Shared,) { 0x7D }
+          PinFunction (Exclusive, PullDown, 0x3, "\\_SB.GDV0.GPI0", 0, ResourceConsumer, , ) { 19, 20, 21 }
+          PinFunction (Exclusive, PullDown, 0x3, "\\_SB.GDV0.GPI0", 0, ResourceConsumer, , ) { 16 }
+        })
+
+        Method (_CRS, 0x0, Serialized)
+        {
+          CreateDwordField (^RBUF, ^RMEM._BAS, RBAS) Add ((0xfe000000), 0x00215080, RBAS)
+          Return (^RBUF)
+        }
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      Device (PWM0)
+      {
+        Name (_HID, "BCM2844")
+        Name (_CID, "BCM2844")
+        Name (_UID, 0)
+        Name (_CCA, 0x0)
+        Method (_STA)
+        {
+          Return (0xf)
+        }
+        Name (RBUF, ResourceTemplate ()
+        {
+
+          MEMORY32FIXED (ReadWrite, 0, 0x00000100, RM01)
+
+          MEMORY32FIXED (ReadWrite, 0, 0x00000028, RM02)
+
+          MEMORY32FIXED (ReadWrite, 0x7E20C000, 0x00000028, )
+
+          MEMORY32FIXED (ReadWrite, 0xFF20C000, 0x00000028, )
+
+          MEMORY32FIXED (ReadWrite, 0, 0x00000008, RM03)
+
+          Interrupt (ResourceConsumer, Level, ActiveHigh, Exclusive) { 0x3B }
+
+          FixedDMA (5, 11, Width32Bit, )
+        })
+
+        Method (_CRS, 0x0, Serialized)
+        {
+          CreateDwordField (^RBUF, ^RM01._BAS, RB01) Add ((0xfe000000), 0x00007B00, RB01)
+          CreateDwordField (^RBUF, ^RM02._BAS, RB02) Add ((0xfe000000), 0x0020C000, RB02)
+          CreateDwordField (^RBUF, ^RM03._BAS, RB03) Add ((0xfe000000), 0x001010A0, RB03)
+          Return (^RBUF)
+        }
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      Device (URT0)
+      {
+        Name (_HID, "BCM2837")
+        Name (_CID, "ARMH0011")
+        Name (_UID, 0x4)
+        Name (_CCA, 0x0)
+        Method (_STA)
+        {
+          Return (0xf)
+        }
+        Name (RBUF, ResourceTemplate ()
+        {
+          MEMORY32FIXED (ReadWrite, 0, 0x00001000, RMEM)
+          Interrupt (ResourceConsumer, Level, ActiveHigh, Exclusive) { 0x99 }
+        })
+        Method (_CRS, 0x0, Serialized)
+        {
+          CreateDwordField (^RBUF, ^RMEM._BAS, RBAS) Add ((0xfe000000), 0x00201000, RBAS)
+          Return (^RBUF)
+        }
+
+        Name (CLCK, 48000000)
+
+        Name (_DSD, Package ()
+        {
+          ToUUID ("daffd814-6eba-4d8c-8a91-bc9bbf4aa301"), Package ()
+          {
+            Package (2) { "clock-frequency", CLCK },
+          }
+        })
+      }
+
+
+
+
+
+
+
+
+
+      Device (URTM)
+      {
+        Name (_HID, "BCM2836")
+        Name (_CID, "MINIUART")
+        Name (_UID, 0x0)
+        Name (_CCA, 0x0)
+        Method (_STA)
+        {
+          Return (0xf)
+        }
+        Name (RBUF, ResourceTemplate ()
+        {
+          MEMORY32FIXED (ReadWrite, 0, 0x00000070, RMEM)
+          Interrupt(ResourceConsumer, Level, ActiveHigh, Shared) { 0x7D }
+
+
+
+
+
+
+
+
+
+        })
+        Method (_CRS, 0x0, Serialized)
+        {
+          CreateDwordField (^RBUF, ^RMEM._BAS, RBAS) Add ((0xfe000000), 0x00215000, RBAS)
+          Return (^RBUF)
+        }
+      }
+
+
+
+
+      Device(BTH0)
+      {
+        Name (_HID, "BCM2EA6")
+        Name (_CID, "BCM2EA6")
+        Method (_STA)
+        {
+          Return (0xf)
+        }
+        Method (_CRS, 0x0, Serialized)
+        {
+          Name (RBUF, ResourceTemplate ()
+          {
+
+            UARTSerialBus(
+              115200,
+              ,
+              ,
+              0x00,
+
+
+
+
+
+
+
+
+
+
+
+
+              ,
+
+              ,
+              ,
+
+              16,
+              16,
+
+              "\\_SB.GDV0.URTM",
+
+
+
+
+              ,
+              ,
+
+              UAR0,
+
+            )
+
+
+
+
+            GpioIO (Shared, PullUp, 0, 0, IoRestrictionNone, "\\_SB.GDV0.RPIQ", 0, ResourceConsumer, , ) { 128 }
+          })
+          Return (RBUF)
+        }
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+      Device (RHPX)
+      {
+        Name (_HID, "MSFT8000")
+        Name (_CID, "MSFT8000")
+        Name (_UID, 1)
+
+        Name(_CRS, ResourceTemplate ()
+        {
+
+          SPISerialBus (
+
+
+
+            0,
+            PolarityLow,
+            FourWireMode,
+            8,
+            ControllerInitiated,
+            4000000,
+            ClockPolarityLow,
+            ClockPhaseFirst,
+            "\\_SB.GDV0.SPI0",
+            0,
+
+
+          )
+
+
+          SPISerialBus (
+
+
+
+            1,
+            PolarityLow,
+            FourWireMode,
+            8,
+            ControllerInitiated,
+            4000000,
+            ClockPolarityLow,
+            ClockPhaseFirst,
+            "\\_SB.GDV0.SPI0",
+            0,
+
+
+          )
+
+
+          I2CSerialBus (
+            0xFFFF,
+            ,
+            0,
+            ,
+            "\\_SB.GDV0.I2C1",
+            ,
+            ,
+            ,
+          )
+
+
+          SPISerialBus (
+
+
+
+            2,
+            PolarityLow,
+            FourWireMode,
+            8,
+            ControllerInitiated,
+            4000000,
+            ClockPolarityLow,
+            ClockPhaseFirst,
+            "\\_SB.GDV0.SPI1",
+            0,
+
+
+          )
+
+
+          GpioIO (Shared, PullUp, 0, 0, IoRestrictionNone, "\\_SB.GDV0.GPI0", 0, ResourceConsumer,,) { 2 }
+          GpioInt (Edge, ActiveBoth, Shared, PullUp, 0, "\\_SB.GDV0.GPI0",) { 2 }
+
+          GpioIO (Shared, PullUp, 0, 0, IoRestrictionNone, "\\_SB.GDV0.GPI0", 0, ResourceConsumer,,) { 3 }
+          GpioInt (Edge, ActiveBoth, Shared, PullUp, 0, "\\_SB.GDV0.GPI0",) { 3 }
+
+          GpioIO (Shared, PullUp, 0, 0, IoRestrictionNone, "\\_SB.GDV0.GPI0", 0, ResourceConsumer,,) { 4 }
+          GpioInt (Edge, ActiveBoth, Shared, PullUp, 0, "\\_SB.GDV0.GPI0",) { 4 }
+
+          GpioIO (Shared, PullUp, 0, 0, IoRestrictionNone, "\\_SB.GDV0.GPI0", 0, ResourceConsumer,,) { 5 }
+          GpioInt (Edge, ActiveBoth, Shared, PullUp, 0, "\\_SB.GDV0.GPI0",) { 5 }
+
+          GpioIO (Shared, PullUp, 0, 0, IoRestrictionNone, "\\_SB.GDV0.GPI0", 0, ResourceConsumer,,) { 6 }
+          GpioInt (Edge, ActiveBoth, Shared, PullUp, 0, "\\_SB.GDV0.GPI0",) { 6 }
+
+          GpioIO (Shared, PullUp, 0, 0, IoRestrictionNone, "\\_SB.GDV0.GPI0", 0, ResourceConsumer,,) { 7 }
+          GpioInt (Edge, ActiveBoth, Shared, PullUp, 0, "\\_SB.GDV0.GPI0",) { 7 }
+
+          GpioIO (Shared, PullUp, 0, 0, IoRestrictionNone, "\\_SB.GDV0.GPI0", 0, ResourceConsumer,,) { 8 }
+          GpioInt (Edge, ActiveBoth, Shared, PullUp, 0, "\\_SB.GDV0.GPI0",) { 8 }
+
+          GpioIO (Shared, PullDown, 0, 0, IoRestrictionNone, "\\_SB.GDV0.GPI0", 0, ResourceConsumer,,) { 9 }
+          GpioInt (Edge, ActiveBoth, Shared, PullDown, 0, "\\_SB.GDV0.GPI0",) { 9 }
+
+          GpioIO (Shared, PullDown, 0, 0, IoRestrictionNone, "\\_SB.GDV0.GPI0", 0, ResourceConsumer,,) { 10 }
+          GpioInt (Edge, ActiveBoth, Shared, PullDown, 0, "\\_SB.GDV0.GPI0",) { 10 }
+
+          GpioIO (Shared, PullDown, 0, 0, IoRestrictionNone, "\\_SB.GDV0.GPI0", 0, ResourceConsumer,,) { 11 }
+          GpioInt (Edge, ActiveBoth, Shared, PullDown, 0, "\\_SB.GDV0.GPI0",) { 11 }
+
+          GpioIO (Shared, PullDown, 0, 0, IoRestrictionNone, "\\_SB.GDV0.GPI0", 0, ResourceConsumer,,) { 12 }
+          GpioInt (Edge, ActiveBoth, Shared, PullDown, 0, "\\_SB.GDV0.GPI0",) { 12 }
+
+          GpioIO (Shared, PullDown, 0, 0, IoRestrictionNone, "\\_SB.GDV0.GPI0", 0, ResourceConsumer,,) { 13 }
+          GpioInt (Edge, ActiveBoth, Shared, PullDown, 0, "\\_SB.GDV0.GPI0",) { 13 }
+
+
+
+
+
+
+
+
+
+          GpioIO (Shared, PullDown, 0, 0, IoRestrictionNone, "\\_SB.GDV0.GPI0", 0, ResourceConsumer,,) { 16 }
+          GpioInt (Edge, ActiveBoth, Shared, PullDown, 0, "\\_SB.GDV0.GPI0",) { 16 }
+
+          GpioIO (Shared, PullDown, 0, 0, IoRestrictionNone, "\\_SB.GDV0.GPI0", 0, ResourceConsumer,,) { 17 }
+          GpioInt (Edge, ActiveBoth, Shared, PullDown, 0, "\\_SB.GDV0.GPI0",) { 17 }
+
+          GpioIO (Shared, PullDown, 0, 0, IoRestrictionNone, "\\_SB.GDV0.GPI0", 0, ResourceConsumer,,) { 18 }
+          GpioInt (Edge, ActiveBoth, Shared, PullDown, 0, "\\_SB.GDV0.GPI0",) { 18 }
+
+          GpioIO (Shared, PullDown, 0, 0, IoRestrictionNone, "\\_SB.GDV0.GPI0", 0, ResourceConsumer,,) { 19 }
+          GpioInt (Edge, ActiveBoth, Shared, PullDown, 0, "\\_SB.GDV0.GPI0",) { 19 }
+
+          GpioIO (Shared, PullDown, 0, 0, IoRestrictionNone, "\\_SB.GDV0.GPI0", 0, ResourceConsumer,,) { 20 }
+          GpioInt (Edge, ActiveBoth, Shared, PullDown, 0, "\\_SB.GDV0.GPI0",) { 20 }
+
+          GpioIO (Shared, PullDown, 0, 0, IoRestrictionNone, "\\_SB.GDV0.GPI0", 0, ResourceConsumer,,) { 21 }
+          GpioInt (Edge, ActiveBoth, Shared, PullDown, 0, "\\_SB.GDV0.GPI0",) { 21 }
+
+          GpioIO (Shared, PullDown, 0, 0, IoRestrictionNone, "\\_SB.GDV0.GPI0", 0, ResourceConsumer,,) { 22 }
+          GpioInt (Edge, ActiveBoth, Shared, PullDown, 0, "\\_SB.GDV0.GPI0",) { 22 }
+
+          GpioIO (Shared, PullDown, 0, 0, IoRestrictionNone, "\\_SB.GDV0.GPI0", 0, ResourceConsumer,,) { 23 }
+          GpioInt (Edge, ActiveBoth, Shared, PullDown, 0, "\\_SB.GDV0.GPI0",) { 23 }
+
+          GpioIO (Shared, PullDown, 0, 0, IoRestrictionNone, "\\_SB.GDV0.GPI0", 0, ResourceConsumer,,) { 24 }
+          GpioInt (Edge, ActiveBoth, Shared, PullDown, 0, "\\_SB.GDV0.GPI0",) { 24 }
+
+          GpioIO (Shared, PullDown, 0, 0, IoRestrictionNone, "\\_SB.GDV0.GPI0", 0, ResourceConsumer,,) { 25 }
+          GpioInt (Edge, ActiveBoth, Shared, PullDown, 0, "\\_SB.GDV0.GPI0",) { 25 }
+
+          GpioIO (Shared, PullDown, 0, 0, IoRestrictionNone, "\\_SB.GDV0.GPI0", 0, ResourceConsumer,,) { 26 }
+          GpioInt (Edge, ActiveBoth, Shared, PullDown, 0, "\\_SB.GDV0.GPI0",) { 26 }
+
+          GpioIO (Shared, PullDown, 0, 0, IoRestrictionNone, "\\_SB.GDV0.GPI0", 0, ResourceConsumer,,) { 27 }
+          GpioInt (Edge, ActiveBoth, Shared, PullDown, 0, "\\_SB.GDV0.GPI0",) { 27 }
+        })
+
+        Name (_DSD, Package()
+        {
+          ToUUID ("daffd814-6eba-4d8c-8a91-bc9bbf4aa301"),
+          Package ()
+          {
+
+
+            Package (2) { "bus-SPI-SPI0", Package() { 0, 1 } },
+            Package (2) { "SPI0-MinClockInHz", 7629 },
+            Package (2) { "SPI0-MaxClockInHz", 125000000 },
+            Package (2) { "SPI0-SupportedDataBitLengths", Package() { 8 } },
+
+            Package (2) { "bus-I2C-I2C1", Package() { 2 } },
+
+            Package (2) { "GPIO-PinCount", 54 },
+            Package (2) { "GPIO-UseDescriptorPinNumbers", 1 },
+            Package (2) { "GPIO-SupportedDriveModes", 0xf },
+
+            Package (2) { "bus-SPI-SPI1", Package() { 3 }},
+            Package (2) { "SPI1-MinClockInHz", 30511 },
+            Package (2) { "SPI1-MaxClockInHz", 20000000 },
+            Package (2) { "SPI1-SupportedDataBitLengths", Package() { 8 } },
+          }
+        })
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      Device (SDC1)
+      {
+        Name (_HID, "BCM2847")
+        Name (_CID, "ARASAN")
+        Name (_UID, 0x0)
+        Name (_CCA, 0x0)
+        Name (_S1D, 0x1)
+        Name (_S2D, 0x1)
+        Name (_S3D, 0x1)
+        Name (_S4D, 0x1)
+        Method (_STA)
+        {
+          Return(0xf)
+        }
+        Name (RBUF, ResourceTemplate ()
+        {
+          MEMORY32FIXED (ReadWrite, 0, 0x00000100, RMEM)
+          Interrupt (ResourceConsumer, Level, ActiveHigh, Shared) { 0x9E }
+        })
+        Method (_CRS, 0x0, Serialized)
+        {
+          CreateDwordField (^RBUF, ^RMEM._BAS, RBAS) Add ((0xfe000000), 0x00300000, RBAS)
+          Return (^RBUF)
+        }
+
+
+
+
+
+        Name (_DSD, Package () {
+          ToUUID("daffd814-6eba-4d8c-8a91-bc9bbf4aa301"),
+          Package () {
+            Package () { "sdhci-caps", 0x0100fa81 },
+          }
+        })
+
+
+
+
+
+        Device (SDMM)
+        {
+          Method (_ADR)
+          {
+            Return (0)
+          }
+          Method (_RMV)
+          {
+            Return (0)
+          }
+        }
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+    Device (ETH0)
+    {
+      Name (_HID, "BCM6E4E")
+      Name (_CID, "BCM6E4E")
+      Name (_UID, 0x0)
+      Name (_CCA, 0x0)
+      Method (_STA)
+      {
+        Return (0xf)
+      }
+      Method (_CRS, 0x0, Serialized)
+      {
+        Name (RBUF, ResourceTemplate ()
+        {
+
+          MEMORY32FIXED (ReadWrite, 0xfd580000, 0x00010000, )
+          Interrupt (ResourceConsumer, Level, ActiveHigh, Exclusive) { 0xBD, 0xBE }
+        })
+        Return (RBUF)
+      }
+      Name (_DSD, Package () {
+        ToUUID("daffd814-6eba-4d8c-8a91-bc9bbf4aa301"),
+        Package () {
+          Package () { "brcm,max-dma-burst-size", 0x08 },
+          Package () { "phy-mode", "rgmii-rxid" },
+        }
+      })
+    }
+
+
+
+
+
+    Device (EC00)
+    {
+      Name (_HID, EISAID ("PNP0C06"))
+      Name (_CCA, 0x0)
+
+
+      ThermalZone (TZ00) {
+        Method (_TMP, 0, Serialized) {
+          OperationRegion (TEMS, SystemMemory, 0xfd5d2200, 0x8)
+          Field (TEMS, DWordAcc, NoLock, Preserve) {
+            TMPS, 32
+          }
+          return (((410040 - ((TMPS & 0x3ff) * 487)) / 100) + 2732);
+        }
+        Method (_SCP, 3) { }
+
+        Method (_CRT) { Return (3632) }
+        Method (_HOT) { Return (3582) }
+        Method (_PSV) { Return (3532) }
+
+
+
+        Name (_TZP, 10)
+        Name (_PSL, Package () { \_SB_.CPU0, \_SB_.CPU1, \_SB_.CPU2, \_SB_.CPU3 })
+      }
+    }
+
+
+  }
+}

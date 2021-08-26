@@ -95,7 +95,7 @@ ScmiCommandExecute (
   // Fill in message header.
   MessageHeader = SCMI_MESSAGE_HEADER (
                     Command->MessageId,
-                    ScmiMessageTypeCommand,
+                    SCMI_MESSAGE_TYPE_COMMAND,
                     Command->ProtocolId
                     );
 
@@ -123,7 +123,7 @@ ScmiCommandExecute (
 
   Response = (SCMI_MESSAGE_RESPONSE*)MtlGetChannelPayload (Channel);
 
-  if (Response->Status != ScmiSuccess) {
+  if (Response->Status != SCMI_SUCCESS) {
     DEBUG ((DEBUG_ERROR, "SCMI error: ProtocolId = 0x%x, MessageId = 0x%x, error = %d\n",
       Command->ProtocolId,
       Command->MessageId,
@@ -195,7 +195,7 @@ ScmiGetProtocolVersion (
 
   Status = ScmiProtocolDiscoveryCommon (
              ProtocolId,
-             ScmiMessageIdProtocolVersion,
+             SCMI_MESSAGE_ID_PROTOCOL_VERSION,
              (UINT32**)&ProtocolVersion
              );
   if (EFI_ERROR (Status)) {
@@ -224,7 +224,7 @@ ScmiGetProtocolAttributes (
 {
   return ScmiProtocolDiscoveryCommon (
            ProtocolId,
-           ScmiMessageIdProtocolAttributes,
+           SCMI_MESSAGE_ID_PROTOCOL_ATTRIBUTES,
            ReturnValues
            );
 }
@@ -246,7 +246,7 @@ ScmiGetProtocolMessageAttributes (
 {
   return ScmiProtocolDiscoveryCommon (
            ProtocolId,
-           ScmiMessageIdProtocolMessageAttributes,
+           SCMI_MESSAGE_ID_PROTOCOL_MESSAGE_ATTRIBUTES,
            ReturnValues
            );
 }

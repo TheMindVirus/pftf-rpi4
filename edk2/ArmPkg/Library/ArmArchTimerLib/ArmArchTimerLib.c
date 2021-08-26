@@ -1,7 +1,7 @@
 /** @file
   Generic ARM implementation of TimerLib.h
 
-  Copyright (c) 2011 - 2021, Arm Limited. All rights reserved.<BR>
+  Copyright (c) 2011-2016, ARM Limited. All rights reserved.
 
   SPDX-License-Identifier: BSD-2-Clause-Patent
 
@@ -20,9 +20,9 @@
 
 // Select appropriate multiply function for platform architecture.
 #ifdef MDE_CPU_ARM
-#define MULT_U64_X_N MultU64x32
+#define MultU64xN MultU64x32
 #else
-#define MULT_U64_X_N MultU64x64
+#define MultU64xN MultU64x64
 #endif
 
 
@@ -121,7 +121,7 @@ MicroSecondDelay (
   //  = MicroSeconds x TICKS_PER_MICRO_SEC
   //  = MicroSeconds x Frequency.10^-6
   TimerTicks64 = DivU64x32 (
-                   MULT_U64_X_N (
+                   MultU64xN (
                      MicroSeconds,
                      GetPlatformTimerFreq ()
                      ),
@@ -263,7 +263,7 @@ GetTimeInNanoSecond (
   // Time = --------- x 1,000,000,000
   //        Frequency
   //
-  NanoSeconds = MULT_U64_X_N (
+  NanoSeconds = MultU64xN (
                   DivU64x32Remainder (
                     Ticks,
                     TimerFreq,
@@ -276,7 +276,7 @@ GetTimeInNanoSecond (
   // will not overflow 64-bit.
   //
   NanoSeconds += DivU64x32 (
-                   MULT_U64_X_N (
+                   MultU64xN (
                      (UINT64) Remainder,
                      1000000000U),
                    TimerFreq

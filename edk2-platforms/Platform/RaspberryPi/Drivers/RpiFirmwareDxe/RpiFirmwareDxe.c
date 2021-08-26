@@ -776,6 +776,10 @@ typedef struct {
 } RPI_FW_FB_PITCH_TAG;
 
 typedef struct {
+  UINT32 Monitor; //0-1
+} RPI_FW_SET_MON_TAG;
+
+typedef struct {
   UINT32 AlignmentBase;
   UINT32 Size;
 } RPI_FW_FB_ALLOC_TAG;
@@ -785,6 +789,13 @@ typedef struct {
   RPI_FW_TAG_HEAD           FreeFbTag;
   UINT32                    EndTag;
 } RPI_FW_FREE_FB_CMD;
+
+typedef struct {
+  RPI_FW_BUFFER_HEAD        BufferHead;
+  RPI_FW_TAG_HEAD           SetMonTag;
+  RPI_FW_SET_MON_TAG        SetMon;
+  UINT32                    EndTag;
+} RPI_FW_SET_MON_CMD;
 
 typedef struct {
   RPI_FW_BUFFER_HEAD        BufferHead;
@@ -801,6 +812,34 @@ typedef struct {
   UINT32                    EndTag;
 } RPI_FW_INIT_FB_CMD;
 #pragma pack()
+
+STATIC EFI_STATUS SetDisplayNumber(IN UINT32 Monitor)
+{
+    RPI_FW_SET_MON_CMD     *ACmd;
+    EFI_STATUS              Status;
+    UINT32                  Result;
+    
+    ACmd = mDmaBuffer;
+    ZeroMem (ACmd, sizeof(*ACmd));
+    
+    ACmd->BufferHead.BufferSize  = sizeof (*ACmd);
+    ACmd->BufferHead.Response    = 0;
+    
+    ACmd->SetMonTag.TagId        = RPI_MBOX_SET_DISPLAY_NUM;
+    ACmd->SetMonTag.TagSize      = sizeof (ACmd->SetMon);
+    ACmd->SetMon.Monitor         = Monitor;
+    ACmd->EndTag                 = 0;
+    
+    Status = MailboxTransaction (ACmd->BufferHead.BufferSize, RPI_MBOX_VC_CHANNEL, &Result);
+    if (EFI_ERROR (Status) || ACmd->BufferHead.Response != RPI_MBOX_RESP_SUCCESS)
+    {
+        DEBUG ((DEBUG_ERROR, "%a: mailbox transaction error: Status == %r, Response == 0x%x\n",
+            __FUNCTION__, Status, ACmd->BufferHead.Response));
+        return EFI_DEVICE_ERROR;
+    }
+    
+    return EFI_SUCCESS;
+}
 
 STATIC
 EFI_STATUS
@@ -894,7 +933,10 @@ RpiFirmwareAllocFb (
   IN  UINT32 Depth,
   OUT EFI_PHYSICAL_ADDRESS *FbBase,
   OUT UINTN *FbSize,
-  OUT UINTN *Pitch
+  OUT UINTN *Pitch,
+  OUT EFI_PHYSICAL_ADDRESS *Fb2Base,
+  OUT UINTN *Fb2Size,
+  OUT UINTN *Pitch2
   )
 {
   RPI_FW_INIT_FB_CMD *Cmd;
@@ -904,10 +946,16 @@ RpiFirmwareAllocFb (
   ASSERT (FbSize != NULL);
   ASSERT (FbBase != NULL);
 
+  ASSERT (Fb2Size != NULL);
+  ASSERT (Fb2Base != NULL);
+
   if (!AcquireSpinLockOrFail (&mMailboxLock)) {
     DEBUG ((DEBUG_ERROR, "%a: failed to acquire spinlock\n", __FUNCTION__));
     return EFI_DEVICE_ERROR;
   }
+
+  Status = SetDisplayNumber (0);
+  if (EFI_ERROR (Status)) { ReleaseSpinLock (&mMailboxLock); return Status; }
 
   Cmd = mDmaBuffer;
   ZeroMem (Cmd, sizeof (*Cmd));
@@ -931,23 +979,78 @@ RpiFirmwareAllocFb (
   Cmd->AllocFb.AlignmentBase  = 32;
   Cmd->PitchTag.TagId         = RPI_MBOX_GET_FB_LINELENGTH;
   Cmd->PitchTag.TagSize       = sizeof (Cmd->Pitch);
+  Cmd->Pitch.Pitch            = 0; // >:(
   Cmd->EndTag                 = 0;
 
   Status = MailboxTransaction (Cmd->BufferHead.BufferSize, RPI_MBOX_VC_CHANNEL, &Result);
-
-  ReleaseSpinLock (&mMailboxLock);
-
-  if (EFI_ERROR (Status) ||
-      Cmd->BufferHead.Response != RPI_MBOX_RESP_SUCCESS) {
-    DEBUG ((DEBUG_ERROR,
-      "%a: mailbox transaction error: Status == %r, Response == 0x%x\n",
+  if (EFI_ERROR (Status) || Cmd->BufferHead.Response != RPI_MBOX_RESP_SUCCESS)
+  {
+    DEBUG ((DEBUG_ERROR, "%a: mailbox transaction error: Status == %r, Response == 0x%x\n",
       __FUNCTION__, Status, Cmd->BufferHead.Response));
+    ReleaseSpinLock (&mMailboxLock);
     return EFI_DEVICE_ERROR;
   }
 
   *Pitch = Cmd->Pitch.Pitch;
   *FbBase = Cmd->AllocFb.AlignmentBase - BCM2836_DMA_DEVICE_OFFSET;
   *FbSize = Cmd->AllocFb.Size;
+
+  Status = SetDisplayNumber (1);
+  if (EFI_ERROR (Status)) { ReleaseSpinLock (&mMailboxLock); return Status; }
+
+  Cmd = mDmaBuffer;
+  ZeroMem (Cmd, sizeof (*Cmd));
+
+  Cmd->BufferHead.BufferSize  = sizeof (*Cmd);
+  Cmd->BufferHead.Response    = 0;
+
+  Cmd->PhysSizeTag.TagId      = RPI_MBOX_SET_FB_PGEOM;
+  Cmd->PhysSizeTag.TagSize    = sizeof (Cmd->PhysSize);
+  Cmd->PhysSize.Width         = Width;
+  Cmd->PhysSize.Height        = Height;
+  Cmd->VirtSizeTag.TagId      = RPI_MBOX_SET_FB_VGEOM;
+  Cmd->VirtSizeTag.TagSize    = sizeof (Cmd->VirtSize);
+  Cmd->VirtSize.Width         = Width;
+  Cmd->VirtSize.Height        = Height;
+  Cmd->DepthTag.TagId         = RPI_MBOX_SET_FB_DEPTH;
+  Cmd->DepthTag.TagSize       = sizeof (Cmd->Depth);
+  Cmd->Depth.Depth            = Depth;
+  Cmd->AllocFbTag.TagId       = RPI_MBOX_ALLOC_FB;
+  Cmd->AllocFbTag.TagSize     = sizeof (Cmd->AllocFb);
+  Cmd->AllocFb.AlignmentBase  = 32;
+  Cmd->PitchTag.TagId         = RPI_MBOX_GET_FB_LINELENGTH;
+  Cmd->PitchTag.TagSize       = sizeof (Cmd->Pitch);
+  Cmd->Pitch.Pitch            = 0; // >:(
+  Cmd->EndTag                 = 0;
+
+  Status = MailboxTransaction (Cmd->BufferHead.BufferSize, RPI_MBOX_VC_CHANNEL, &Result);
+  if (EFI_ERROR (Status) || Cmd->BufferHead.Response != RPI_MBOX_RESP_SUCCESS)
+  {
+    DEBUG ((DEBUG_ERROR, "%a: mailbox transaction error: Status == %r, Response == 0x%x\n",
+      __FUNCTION__, Status, Cmd->BufferHead.Response));
+    ReleaseSpinLock (&mMailboxLock);
+    return EFI_DEVICE_ERROR;
+  }
+
+  *Pitch2 = Cmd->Pitch.Pitch;
+  *Fb2Base = Cmd->AllocFb.AlignmentBase - BCM2836_DMA_DEVICE_OFFSET;
+  *Fb2Size = Cmd->AllocFb.Size;
+
+  Status = SetDisplayNumber (0);
+  if (EFI_ERROR (Status)) { ReleaseSpinLock (&mMailboxLock); return Status; }
+
+  ReleaseSpinLock (&mMailboxLock);
+
+  /*
+  while(1)
+  {
+    DEBUG ((DEBUG_INFO, "[ASRT]: FbBase: 0x%p | FbSize: %u | Pitch: %u\n",
+            *FbBase, *FbSize, *Pitch));
+    DEBUG ((DEBUG_INFO, "[ASRT]: Fb2Base: 0x%p | Fb2Size: %u | Pitch2: %u\n",
+            *Fb2Base, *Fb2Size, *Pitch2));
+  }
+  */
+  
   return EFI_SUCCESS;
 }
 

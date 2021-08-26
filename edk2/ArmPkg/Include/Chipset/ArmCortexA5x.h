@@ -1,13 +1,13 @@
 /** @file
 
-  Copyright (c) 2012 - 2021, Arm Limited. All rights reserved.<BR>
+  Copyright (c) 2012-2014, ARM Limited. All rights reserved.
 
   SPDX-License-Identifier: BSD-2-Clause-Patent
 
 **/
 
-#ifndef ARM_CORTEX_A5X_H_
-#define ARM_CORTEX_A5X_H_
+#ifndef __ARM_CORTEX_A5x_H__
+#define __ARM_CORTEX_A5x_H__
 
 //
 // Cortex A5x feature bit definitions
@@ -41,4 +41,4 @@ ArmUnsetCpuExCrBit (
   IN  UINT64    Bits
   );
 
-#endif // ARM_CORTEX_A5X_H_
+#endif

@@ -6,8 +6,8 @@
 *
 **/
 
-#ifndef ARMV7_MMU_H_
-#define ARMV7_MMU_H_
+#ifndef __ARMV7_MMU_H_
+#define __ARMV7_MMU_H_
 
 #define TTBR_NOT_OUTER_SHAREABLE             BIT5
 #define TTBR_RGN_OUTER_NON_CACHEABLE         0
@@ -235,4 +235,4 @@ ConvertSectionAttributesToPageAttributes (
   IN BOOLEAN  IsLargePage
   );
 
-#endif // ARMV7_MMU_H_
+#endif

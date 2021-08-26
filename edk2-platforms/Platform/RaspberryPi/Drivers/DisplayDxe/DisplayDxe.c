@@ -24,6 +24,11 @@
                                 (posY) * This->Mode->Info->PixelsPerScanLine * \
                                 PI3_BYTES_PER_PIXEL +                   \
                                 (posX) * PI3_BYTES_PER_PIXEL))
+#define POS_TO_FB2(posX, posY) ((UINT8*)                                 \
+                               ((UINTN)This->Mode->FrameBufferBase2 +    \
+                                (posY) * This->Mode->Info->PixelsPerScanLine * \
+                                PI3_BYTES_PER_PIXEL +                   \
+                                (posX) * PI3_BYTES_PER_PIXEL))
 
 STATIC
 EFI_STATUS
@@ -228,8 +233,11 @@ DisplaySetMode (
 {
   UINTN FbSize;
   UINTN FbPitch;
+  UINTN Fb2Size;
+  UINTN Fb2Pitch;
   EFI_STATUS Status;
   EFI_PHYSICAL_ADDRESS FbBase;
+  EFI_PHYSICAL_ADDRESS Fb2Base;
   GOP_MODE_DATA *Mode = &mGopModeData[ModeNumber];
 
  if (ModeNumber >= This->Mode->MaxMode) {
@@ -238,23 +246,28 @@ DisplaySetMode (
 
   DEBUG ((DEBUG_INFO, "Setting mode %u from %u: %u x %u\n",
     ModeNumber, This->Mode->Mode, Mode->Width, Mode->Height));
-  Status = mFwProtocol->GetFB (Mode->Width, Mode->Height,
-                          PI3_BITS_PER_PIXEL, &FbBase,
-                          &FbSize, &FbPitch);
+  Status = mFwProtocol->GetFB (Mode->Width, Mode->Height, PI3_BITS_PER_PIXEL,
+                               &FbBase, &FbSize, &FbPitch, &Fb2Base, &Fb2Size, &Fb2Pitch);
   if (EFI_ERROR (Status)) {
     DEBUG ((DEBUG_ERROR, "Could not set mode %u\n", ModeNumber));
     return EFI_DEVICE_ERROR;
   }
 
-  DEBUG ((DEBUG_INFO, "Mode %u: %u x %u framebuffer is %u bytes at %p\n",
-    ModeNumber, Mode->Width, Mode->Height, FbSize, FbBase));
-
+  DEBUG ((DEBUG_INFO, "Mode %u: %u x %u framebuffer is %u bytes at %p and also %u bytes at %p\n",
+    ModeNumber, Mode->Width, Mode->Height, FbSize, FbBase, Fb2Size, Fb2Base));
+  /*
   if (FbPitch / PI3_BYTES_PER_PIXEL != Mode->Width) {
     DEBUG ((DEBUG_ERROR, "Error: Expected width %u, got width %u\n",
       Mode->Width, FbPitch / PI3_BYTES_PER_PIXEL));
     return EFI_DEVICE_ERROR;
   }
 
+  if (Fb2Pitch / PI3_BYTES_PER_PIXEL != Mode->Width) {
+    DEBUG ((DEBUG_ERROR, "Error: Expected width %u, got width %u\n",
+      Mode->Width, Fb2Pitch / PI3_BYTES_PER_PIXEL));
+    return EFI_DEVICE_ERROR;
+  }
+  */
   /*
    * WT, because certain OS loaders access the frame buffer directly
    * and we don't want to see corruption due to missing WB cache
@@ -265,6 +278,14 @@ DisplaySetMode (
                    EFI_MEMORY_WT);
   if (Status != EFI_SUCCESS) {
     DEBUG ((DEBUG_ERROR, "Couldn't set framebuffer attributes: %r\n", Status));
+    return Status;
+  }
+
+  Status = mCpu->SetMemoryAttributes (mCpu, Fb2Base,
+                   ALIGN_VALUE (Fb2Size, EFI_PAGE_SIZE),
+                   EFI_MEMORY_WT);
+  if (Status != EFI_SUCCESS) {
+    DEBUG ((DEBUG_ERROR, "Couldn't set framebuffer2 attributes: %r\n", Status));
     return Status;
   }
 
@@ -279,6 +300,7 @@ DisplaySetMode (
   This->Mode->Info->PixelsPerScanLine = Mode->Width;
   This->Mode->SizeOfInfo = sizeof (*This->Mode->Info);
   This->Mode->FrameBufferBase = FbBase;
+  This->Mode->FrameBufferBase2 = Fb2Base;
   This->Mode->FrameBufferSize = Mode->Width * Mode->Height * PI3_BYTES_PER_PIXEL;
   DEBUG((DEBUG_INFO, "Reported Mode->FrameBufferSize is %u\n", This->Mode->FrameBufferSize));
 
@@ -302,7 +324,7 @@ DisplayBlt (
   IN  UINTN                             Delta         OPTIONAL
   )
 {
-  UINT8 *VidBuf, *BltBuf, *VidBuf1;
+  UINT8 *VidBuf, *BltBuf, *VidBuf1, *VidBuf2, *VidBuf21;
   UINTN i;
 
   if ((UINTN)BltOperation >= EfiGraphicsOutputBltOperationMax) {
@@ -319,8 +341,10 @@ DisplayBlt (
 
     for (i = 0; i < Height; i++) {
       VidBuf = POS_TO_FB (DestinationX, DestinationY + i);
+      VidBuf2 = POS_TO_FB2 (DestinationX, DestinationY + i);
 
       SetMem32 (VidBuf, Width * PI3_BYTES_PER_PIXEL, *(UINT32*)BltBuf);
+      SetMem32 (VidBuf2, Width * PI3_BYTES_PER_PIXEL, *(UINT32*)BltBuf);
     }
     break;
 
@@ -331,11 +355,13 @@ DisplayBlt (
 
     for (i = 0; i < Height; i++) {
       VidBuf = POS_TO_FB (SourceX, SourceY + i);
+      VidBuf2 = POS_TO_FB2 (SourceX, SourceY + i);
 
       BltBuf = (UINT8*)((UINTN)BltBuffer + (DestinationY + i) * Delta +
         DestinationX * PI3_BYTES_PER_PIXEL);
 
       gBS->CopyMem ((VOID*)BltBuf, (VOID*)VidBuf, PI3_BYTES_PER_PIXEL * Width);
+      gBS->CopyMem ((VOID*)BltBuf, (VOID*)VidBuf2, PI3_BYTES_PER_PIXEL * Width);
     }
     break;
 
@@ -346,10 +372,12 @@ DisplayBlt (
 
     for (i = 0; i < Height; i++) {
       VidBuf = POS_TO_FB (DestinationX, DestinationY + i);
+      VidBuf2 = POS_TO_FB2 (DestinationX, DestinationY + i);
       BltBuf = (UINT8*)((UINTN)BltBuffer + (SourceY + i) * Delta +
         SourceX * PI3_BYTES_PER_PIXEL);
 
       gBS->CopyMem ((VOID*)VidBuf, (VOID*)BltBuf, Width * PI3_BYTES_PER_PIXEL);
+      gBS->CopyMem ((VOID*)VidBuf2, (VOID*)BltBuf, Width * PI3_BYTES_PER_PIXEL);
     }
     break;
 
@@ -358,7 +386,11 @@ DisplayBlt (
       VidBuf = POS_TO_FB (SourceX, SourceY + i);
       VidBuf1 = POS_TO_FB (DestinationX, DestinationY + i);
 
+      VidBuf2 = POS_TO_FB2 (SourceX, SourceY + i);
+      VidBuf21 = POS_TO_FB2 (DestinationX, DestinationY + i);
+
       gBS->CopyMem ((VOID*)VidBuf1, (VOID*)VidBuf, Width * PI3_BYTES_PER_PIXEL);
+      gBS->CopyMem ((VOID*)VidBuf21, (VOID*)VidBuf2, Width * PI3_BYTES_PER_PIXEL);
     }
     break;
 
@@ -552,11 +584,14 @@ DriverStart (
     UINTN FbPitch;
     EFI_PHYSICAL_ADDRESS FbBase;
 
+    UINTN Fb2Size;
+    UINTN Fb2Pitch;
+    EFI_PHYSICAL_ADDRESS Fb2Base;
+
     GOP_MODE_DATA *Mode = &mGopModeData[Index];
 
-    Status = mFwProtocol->GetFB (Mode->Width, Mode->Height,
-                            PI3_BITS_PER_PIXEL, &FbBase,
-                            &FbSize, &FbPitch);
+    Status = mFwProtocol->GetFB (Mode->Width, Mode->Height, PI3_BITS_PER_PIXEL,
+                                 &FbBase, &FbSize, &FbPitch, &Fb2Base, &Fb2Size, &Fb2Pitch);
     if (EFI_ERROR (Status)) {
       goto Done;
     }
@@ -570,12 +605,17 @@ DriverStart (
     //
     Mode->Width = FbPitch / PI3_BYTES_PER_PIXEL;
 
-    DEBUG ((DEBUG_INFO, "Mode %u: %u x %u framebuffer is %u bytes at %p\n",
-      Index, Mode->Width, Mode->Height, FbSize, FbBase));
-
+    DEBUG ((DEBUG_INFO, "Mode %u: %u x %u framebuffer is %u bytes at %p and also %u bytes at %p\n",
+      Index, Mode->Width, Mode->Height, FbSize, FbBase, Fb2Size, Fb2Base));
+/*
     ASSERT (FbPitch != 0);
     ASSERT (FbBase != 0);
     ASSERT (FbSize != 0);
+
+    ASSERT (Fb2Pitch != 0);
+    ASSERT (Fb2Base != 0);
+    ASSERT (Fb2Size != 0);
+*/
   }
 
   // Both set the mode and initialize current mode information.

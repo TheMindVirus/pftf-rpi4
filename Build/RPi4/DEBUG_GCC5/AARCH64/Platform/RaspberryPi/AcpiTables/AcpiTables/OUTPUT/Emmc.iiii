@@ -1,0 +1,131 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DefinitionBlock ("/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./Emmc.i", "SSDT", 5, "RPIFDN", "RPI4EMMC", 2)
+{
+  Scope (\_SB_)
+  {
+
+    Device (GDV1) {
+      Name (_HID, "ACPI0004")
+      Name (_UID, 0x2)
+      Name (_CCA, 0x0)
+
+      Name (RBUF, ResourceTemplate ()
+      {
+        MEMORY32FIXED (ReadWrite, 0, 0x00000100, RMEM)
+      })
+      Method (_CRS, 0x0, Serialized)
+      {
+        CreateDwordField (^RBUF, ^RMEM._BAS, RBAS) Add ((0xfe000000), 0x00340000, RBAS)
+        Return (^RBUF)
+      }
+
+      Name (_DMA, ResourceTemplate() {
+        QWordMemory (ResourceConsumer,
+          ,
+          MinFixed,
+          MaxFixed,
+          NonCacheable,
+          ReadWrite,
+          0x0,
+          0x00000000C0000000,
+          0x00000000FFFFFFFF,
+          0xFFFFFFFF40000000,
+          0x0000000040000000,
+          ,
+          ,
+        )
+      })
+
+
+      Device (SDC3)
+      {
+        Name (_HID, "BRCME88C")
+        Name (_UID, 0x1)
+        Name (_CCA, 0x0)
+        Name (_S1D, 0x1)
+        Name (_S2D, 0x1)
+        Name (_S3D, 0x1)
+        Name (_S4D, 0x1)
+        Name (SDMA, 0x2)
+        Method (_STA)
+        {
+          Return(0xf)
+        }
+        Name (RBUF, ResourceTemplate ()
+        {
+          MEMORY32FIXED (ReadWrite, 0, 0x00000100, RMEM)
+          Interrupt (ResourceConsumer, Level, ActiveHigh, Shared) { 0x9E }
+        })
+        Method (_CRS, 0x0, Serialized)
+        {
+          CreateDwordField (^RBUF, ^RMEM._BAS, RBAS) Add ((0xfe000000), 0x00340000, RBAS)
+          Return (^RBUF)
+        }
+
+
+
+
+
+        Name (DSD1, Package () {
+          ToUUID("daffd814-6eba-4d8c-8a91-bc9bbf4aa301"),
+            Package () {
+              Package () { "sdhci-caps-mask", 0x0000000500080000 },
+            }
+        })
+
+
+
+        Name (DSD2, Package () {
+          ToUUID("daffd814-6eba-4d8c-8a91-bc9bbf4aa301"),
+            Package () {
+              Package () { "sdhci-caps-mask", 0x0000000504480000 },
+            }
+        })
+        Method (_DSD, 0x0, Serialized)
+        {
+
+
+          if (SDMA == 0)
+          {
+            return (^DSD2)
+          }
+          else
+          {
+            return (^DSD1)
+          }
+        }
+
+
+
+
+
+        Device (SDMM)
+        {
+          Method (_ADR)
+          {
+            Return (0)
+          }
+          Method (_RMV)
+          {
+            Return (0)
+          }
+        }
+      }
+    }
+
+  }
+}

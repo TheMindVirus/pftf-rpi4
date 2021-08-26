@@ -243,6 +243,7 @@ typedef struct {
   /// Offset zero in FrameBufferBase represents the upper left pixel of the display.
   ///
   EFI_PHYSICAL_ADDRESS                   FrameBufferBase;
+  EFI_PHYSICAL_ADDRESS                   FrameBufferBase2;
   ///
   /// Amount of frame buffer needed to support the active mode as defined by
   /// PixelsPerScanLine xVerticalResolution x PixelElementSize.

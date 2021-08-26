@@ -4,7 +4,7 @@
  *
  *  Coypright (c) 2019, Pete Batard <pete@akeo.ie>
  *  Copyright (c) 2018, Andrei Warkentin <andrey.warkentin@gmail.com>
- *  Copyright (c) 2011-2021, ARM Ltd. All rights reserved.
+ *  Copyright (c) 2011-2014, ARM Ltd. All rights reserved.
  *  Copyright (c) 2008-2010, Apple Inc. All rights reserved.
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *
@@ -88,18 +88,10 @@ LibGetTime (
     //
     EpochSeconds = BUILD_EPOCH;
     DEBUG ((
-      DEBUG_INFO,
+      DEBUG_VERBOSE,
       "LibGetTime: %s non volatile variable was not found - Using compilation time epoch.\n",
       mEpochVariableName
       ));
-
-    EfiSetVariable (
-      (CHAR16 *)mEpochVariableName,
-      &gEfiCallerIdGuid,
-      EFI_VARIABLE_NON_VOLATILE | EFI_VARIABLE_BOOTSERVICE_ACCESS | EFI_VARIABLE_RUNTIME_ACCESS,
-      sizeof (EpochSeconds),
-      &EpochSeconds
-      );
   }
   Counter = GetPerformanceCounter ();
   EpochSeconds += DivU64x64Remainder (Counter, Freq, &Remainder);
@@ -324,7 +316,7 @@ LibSetTime (
     DEBUG ((
       DEBUG_ERROR,
       "LibSetTime: Failed to save %s variable to non-volatile storage, Status = %r\n",
-      mEpochVariableName,
+      mDaylightVariableName,
       Status
       ));
     return Status;

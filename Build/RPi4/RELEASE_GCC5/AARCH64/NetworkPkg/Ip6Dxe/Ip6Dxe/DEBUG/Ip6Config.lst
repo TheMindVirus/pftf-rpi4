@@ -1,0 +1,333 @@
+//
+//  VFR compiler version  2.01 (UEFI 2.4) Developer Build based on Revision: Unknown
+//
+extern unsigned char Ip6DxeStrings[];
+extern EFI_GUID { 0x2eea107, 0x98db, 0x400e, { 0x98, 0x30, 0x46, 0xa, 0x15, 0x42, 0xd7, 0x99}};
+#pragma pack(1)
+typedef struct {
+  UINT8 IfType;
+  UINT8 Padding[3];
+  UINT32 Policy;
+  UINT32 DadTransmitCount;
+  CHAR16 InterfaceId[25];
+  CHAR16 ManualAddress[255];
+  CHAR16 GatewayAddress[255];
+  CHAR16 DnsAddress[255];
+} IP6_CONFIG_IFR_NVDATA;
+#pragma pack()
+formset
+>00000000: 0E A7 07 A1 EE 02 DB 98 0E 40 98 30 46 0A 15 42 D7 99 02 00 03 00 01 71 99 03 93 45 85 04 4B B4 5E 32 EB 83 26 04 0E 
+>00000027: 5C 06 00 00 00 00 
+>0000002D: 5C 06 00 00 01 00 
+  guid = { 0x2eea107, 0x98db, 0x400e, { 0x98, 0x30, 0x46, 0xa, 0x15, 0x42, 0xd7, 0x99 } },
+  title = STRING_TOKEN(0x0002),
+  help = STRING_TOKEN(0x0003),
+  varstore IP6_CONFIG_IFR_NVDATA,
+>00000033: 24 2C 07 A1 EE 02 DB 98 0E 40 98 30 46 0A 15 42 D7 99 01 00 38 06 49 50 36 5F 43 4F 4E 46 49 47 5F 49 46 52 5F 4E 56 44 41 54 41 00 
+    name = IP6_CONFIG_IFR_NVDATA,
+    guid = { 0x2eea107, 0x98db, 0x400e, { 0x98, 0x30, 0x46, 0xa, 0x15, 0x42, 0xd7, 0x99 } };
+  form formid = 3,
+>0000005F: 01 86 03 00 04 00 
+    title = STRING_TOKEN(0x0004);
+    goto 1,
+>00000065: 0F 0F 2C 00 2D 00 08 01 00 00 FF FF 04 01 00 
+    prompt = STRING_TOKEN (0x002C),
+    help = STRING_TOKEN (0x002D),
+    flags = INTERACTIVE,
+    key = 0x108;
+  endform;
+>00000074: 29 02 
+  form formid = 1,
+>00000076: 01 86 01 00 04 00 
+    title = STRING_TOKEN(0x0004);
+    text
+>0000007C: 03 08 06 00 07 00 08 00 
+      help = STRING_TOKEN(0x0007),
+      text = STRING_TOKEN(0x0006),
+        text = STRING_TOKEN(0x0008);
+    text
+>00000084: 03 08 09 00 0A 00 0B 00 
+      help = STRING_TOKEN(0x000A),
+      text = STRING_TOKEN(0x0009),
+        text = STRING_TOKEN(0x000B);
+    text
+>0000008C: 03 08 0C 00 0D 00 0E 00 
+      help = STRING_TOKEN(0x000D),
+      text = STRING_TOKEN(0x000C),
+        text = STRING_TOKEN(0x000E);
+    text
+>00000094: 03 08 0F 00 10 00 2B 00 
+      help = STRING_TOKEN(0x0010),
+      text = STRING_TOKEN(0x000F),
+        text = STRING_TOKEN(0x002B);
+    label 0x9000;
+>0000009C: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 00 90 
+    label 0xffff;
+>000000B1: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+    text
+>000000C6: 03 08 11 00 12 00 2B 00 
+      help = STRING_TOKEN(0x0012),
+      text = STRING_TOKEN(0x0011),
+        text = STRING_TOKEN(0x002B);
+    label 0xa000;
+>000000CE: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 00 A0 
+    label 0xffff;
+>000000E3: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+    text
+>000000F8: 03 08 13 00 14 00 2B 00 
+      help = STRING_TOKEN(0x0014),
+      text = STRING_TOKEN(0x0013),
+        text = STRING_TOKEN(0x002B);
+    label 0xb000;
+>00000100: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 00 B0 
+    label 0xffff;
+>00000115: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+    text
+>0000012A: 03 08 15 00 16 00 2B 00 
+      help = STRING_TOKEN(0x0016),
+      text = STRING_TOKEN(0x0015),
+        text = STRING_TOKEN(0x002B);
+    label 0xc000;
+>00000132: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 00 C0 
+    label 0xffff;
+>00000147: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+    string varid = IP6_CONFIG_IFR_NVDATA.InterfaceId,
+>0000015C: 1C 90 17 00 18 00 01 01 01 00 0C 00 04 01 17 00 
+            prompt = STRING_TOKEN(0x0017),
+            help = STRING_TOKEN(0x0018),
+            flags = INTERACTIVE,
+            key = 0x101,
+            minsize = 1,
+            maxsize = 23,
+    endstring;
+>0000016C: 29 02 
+    numeric varid = IP6_CONFIG_IFR_NVDATA.DadTransmitCount,
+>0000016E: 07 9A 19 00 1A 00 01 00 01 00 08 00 00 12 00 00 00 00 0A 00 00 00 00 00 00 00 
+            prompt = STRING_TOKEN(0x0019),
+            help = STRING_TOKEN(0x001A),
+            flags = 0,
+            minimum = 0,
+            maximum = 10,
+            step = 0,
+    endnumeric;
+>00000188: 29 02 
+    oneof varid = IP6_CONFIG_IFR_NVDATA.Policy,
+>0000018A: 05 9A 1B 00 1C 00 02 00 01 00 04 00 00 12 00 00 00 00 01 00 00 00 00 00 00 00 
+          prompt = STRING_TOKEN(0x001B),
+          help = STRING_TOKEN(0x001C),
+          option text = STRING_TOKEN(0x001D), value = 0, flags = DEFAULT;
+>000001A4: 09 0A 1D 00 12 02 00 00 00 00 
+          option text = STRING_TOKEN(0x001E), value = 1, flags = 0;
+>000001AE: 09 0A 1E 00 02 02 01 00 00 00 
+    endoneof;
+>000001B8: 29 02 
+    subtitle text = STRING_TOKEN(0x002B);
+>000001BA: 02 87 2B 00 00 00 00 
+>000001C1: 29 02 
+    suppressif ideqval IP6_CONFIG_IFR_NVDATA.Policy == 0;
+>000001C3: 0A 82 
+>000001C5: 12 06 02 00 00 00 
+    goto 2,
+>000001CB: 0F 0F 1F 00 20 00 03 00 00 00 FF FF 00 02 00 
+         prompt = STRING_TOKEN(0x001F),
+         help = STRING_TOKEN(0x0020),
+         flags = 0;
+    subtitle text = STRING_TOKEN(0x002B);
+>000001DA: 02 87 2B 00 00 00 00 
+>000001E1: 29 02 
+    endif;
+>000001E3: 29 02 
+    text
+      help = STRING_TOKEN (0x0028),
+      text = STRING_TOKEN (0x0027),
+      flags = INTERACTIVE,
+>000001E5: 0C 8F 27 00 28 00 05 01 00 00 FF FF 04 00 00 
+      key = 0x105;
+>000001F4: 29 02 
+  endform;
+>000001F6: 29 02 
+  form formid = 2,
+>000001F8: 01 86 02 00 1F 00 
+    title = STRING_TOKEN(0x001F);
+    string varid = IP6_CONFIG_IFR_NVDATA.ManualAddress,
+>000001FE: 1C 90 21 00 22 00 02 01 01 00 3E 00 04 02 FF 00 
+            prompt = STRING_TOKEN(0x0021),
+            help = STRING_TOKEN(0x0022),
+            flags = INTERACTIVE,
+            key = 0x102,
+            minsize = 2,
+            maxsize = 255,
+    endstring;
+>0000020E: 29 02 
+    string varid = IP6_CONFIG_IFR_NVDATA.GatewayAddress,
+>00000210: 1C 90 23 00 24 00 03 01 01 00 3C 02 04 02 FF 00 
+            prompt = STRING_TOKEN(0x0023),
+            help = STRING_TOKEN(0x0024),
+            flags = INTERACTIVE,
+            key = 0x103,
+            minsize = 2,
+            maxsize = 255,
+    endstring;
+>00000220: 29 02 
+    string varid = IP6_CONFIG_IFR_NVDATA.DnsAddress,
+>00000222: 1C 90 25 00 26 00 04 01 01 00 3A 04 04 02 FF 00 
+            prompt = STRING_TOKEN(0x0025),
+            help = STRING_TOKEN(0x0026),
+            flags = INTERACTIVE,
+            key = 0x104,
+            minsize = 2,
+            maxsize = 255,
+    endstring;
+>00000232: 29 02 
+    text
+      help = STRING_TOKEN (0x0029),
+      text = STRING_TOKEN (0x0029),
+      flags = INTERACTIVE,
+>00000234: 0C 8F 29 00 29 00 06 01 00 00 FF FF 04 00 00 
+      key = 0x106;
+>00000243: 29 02 
+    text
+      help = STRING_TOKEN (0x002A),
+      text = STRING_TOKEN (0x002A),
+      flags = INTERACTIVE,
+>00000245: 0C 8F 2A 00 2A 00 07 01 00 00 FF FF 04 00 00 
+      key = 0x107;
+>00000254: 29 02 
+  endform;
+>00000256: 29 02 
+endformset;
+>00000258: 29 02 
+
+//
+// All Opcode Record List 
+//
+>00000000: 0E A7 07 A1 EE 02 DB 98 0E 40 98 30 46 0A 15 42 D7 99 02 00 03 00 01 71 99 03 93 45 85 04 4B B4 5E 32 EB 83 26 04 0E 
+>00000027: 5C 06 00 00 00 00 
+>0000002D: 5C 06 00 00 01 00 
+>00000033: 24 2C 07 A1 EE 02 DB 98 0E 40 98 30 46 0A 15 42 D7 99 01 00 38 06 49 50 36 5F 43 4F 4E 46 49 47 5F 49 46 52 5F 4E 56 44 41 54 41 00 
+>0000005F: 01 86 03 00 04 00 
+>00000065: 0F 0F 2C 00 2D 00 08 01 00 00 FF FF 04 01 00 
+>00000074: 29 02 
+>00000076: 01 86 01 00 04 00 
+>0000007C: 03 08 06 00 07 00 08 00 
+>00000084: 03 08 09 00 0A 00 0B 00 
+>0000008C: 03 08 0C 00 0D 00 0E 00 
+>00000094: 03 08 0F 00 10 00 2B 00 
+>0000009C: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 00 90 
+>000000B1: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+>000000C6: 03 08 11 00 12 00 2B 00 
+>000000CE: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 00 A0 
+>000000E3: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+>000000F8: 03 08 13 00 14 00 2B 00 
+>00000100: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 00 B0 
+>00000115: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+>0000012A: 03 08 15 00 16 00 2B 00 
+>00000132: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 00 C0 
+>00000147: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+>0000015C: 1C 90 17 00 18 00 01 01 01 00 0C 00 04 01 17 00 
+>0000016C: 29 02 
+>0000016E: 07 9A 19 00 1A 00 01 00 01 00 08 00 00 12 00 00 00 00 0A 00 00 00 00 00 00 00 
+>00000188: 29 02 
+>0000018A: 05 9A 1B 00 1C 00 02 00 01 00 04 00 00 12 00 00 00 00 01 00 00 00 00 00 00 00 
+>000001A4: 09 0A 1D 00 12 02 00 00 00 00 
+>000001AE: 09 0A 1E 00 02 02 01 00 00 00 
+>000001B8: 29 02 
+>000001BA: 02 87 2B 00 00 00 00 
+>000001C1: 29 02 
+>000001C3: 0A 82 
+>000001C5: 12 06 02 00 00 00 
+>000001CB: 0F 0F 1F 00 20 00 03 00 00 00 FF FF 00 02 00 
+>000001DA: 02 87 2B 00 00 00 00 
+>000001E1: 29 02 
+>000001E3: 29 02 
+>000001E5: 0C 8F 27 00 28 00 05 01 00 00 FF FF 04 00 00 
+>000001F4: 29 02 
+>000001F6: 29 02 
+>000001F8: 01 86 02 00 1F 00 
+>000001FE: 1C 90 21 00 22 00 02 01 01 00 3E 00 04 02 FF 00 
+>0000020E: 29 02 
+>00000210: 1C 90 23 00 24 00 03 01 01 00 3C 02 04 02 FF 00 
+>00000220: 29 02 
+>00000222: 1C 90 25 00 26 00 04 01 01 00 3A 04 04 02 FF 00 
+>00000232: 29 02 
+>00000234: 0C 8F 29 00 29 00 06 01 00 00 FF FF 04 00 00 
+>00000243: 29 02 
+>00000245: 0C 8F 2A 00 2A 00 07 01 00 00 FF FF 04 00 00 
+>00000254: 29 02 
+>00000256: 29 02 
+>00000258: 29 02 
+
+Total Size of all record is 0x0000025A
+
+
+***************************************************************
+		mPackAlign = 1
+		struct IP6_CONFIG_IFR_NVDATA : mAlign [1] mTotalSize [0x638]
+
+		struct IP6_CONFIG_IFR_NVDATA {
+			+00000000[00000000] IfType <UINT8>
+			+00000001[00000001] Padding[3] <UINT8>
+			+00000004[00000004] Policy <UINT32>
+			+00000008[00000008] DadTransmitCount <UINT32>
+			+00000012[0000000c] InterfaceId[25] <UINT16>
+			+00000062[0000003e] ManualAddress[255] <UINT16>
+			+00000572[0000023c] GatewayAddress[255] <UINT16>
+			+00001082[0000043a] DnsAddress[255] <UINT16>
+		};
+---------------------------------------------------------------
+		struct EFI_HII_REF : mAlign [16] mTotalSize [0x16]
+
+		struct EFI_HII_REF {
+			+00000000[00000000] QuestionId <UINT16>
+			+00000002[00000002] FormId <UINT16>
+			+00000004[00000004] FormSetGuid <(null)>
+			+00000020[00000014] DevicePath <EFI_STRING_ID>
+		};
+---------------------------------------------------------------
+		struct EFI_HII_TIME : mAlign [1] mTotalSize [0x3]
+
+		struct EFI_HII_TIME {
+			+00000000[00000000] Hours <UINT8>
+			+00000001[00000001] Minutes <UINT8>
+			+00000002[00000002] Seconds <UINT8>
+		};
+---------------------------------------------------------------
+		struct EFI_STRING_ID : mAlign [2] mTotalSize [0x2]
+
+		struct EFI_STRING_ID {
+		};
+---------------------------------------------------------------
+		struct EFI_HII_DATE : mAlign [2] mTotalSize [0x4]
+
+		struct EFI_HII_DATE {
+			+00000000[00000000] Year <UINT16>
+			+00000002[00000002] Month <UINT8>
+			+00000003[00000003] Day <UINT8>
+		};
+---------------------------------------------------------------
+		struct BOOLEAN : mAlign [1] mTotalSize [0x1]
+
+		struct BOOLEAN {
+		};
+---------------------------------------------------------------
+		struct UINT8 : mAlign [1] mTotalSize [0x1]
+
+		struct UINT8 {
+		};
+---------------------------------------------------------------
+		struct UINT16 : mAlign [2] mTotalSize [0x2]
+
+		struct UINT16 {
+		};
+---------------------------------------------------------------
+		struct UINT32 : mAlign [4] mTotalSize [0x4]
+
+		struct UINT32 {
+		};
+---------------------------------------------------------------
+		struct UINT64 : mAlign [8] mTotalSize [0x8]
+
+		struct UINT64 {
+		};
+---------------------------------------------------------------
+***************************************************************

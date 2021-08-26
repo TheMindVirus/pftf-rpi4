@@ -7,12 +7,7 @@
   SPDX-License-Identifier: BSD-2-Clause-Patent
 **/
 
-#include <Guid/RootBridgesConnectedEventGroup.h> // gRootBridgesConnectedEve...
-#include <Library/DebugLib.h>                    // DEBUG()
-#include <Library/PcdLib.h>                      // PcdGetBool()
-#include <Library/UefiBootServicesTableLib.h>    // gBS
-#include <Protocol/AcpiTable.h>                  // EFI_ACPI_TABLE_PROTOCOL
-
+#include <Guid/RootBridgesConnectedEventGroup.h>
 #include "AcpiPlatform.h"
 
 STATIC

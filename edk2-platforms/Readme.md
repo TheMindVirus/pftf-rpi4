@@ -61,8 +61,9 @@ RISCV64             | riscv64-unknown-elf-
 \* i386, i486, i586 or i686
 
 ### GCC
-Arm provides GCC toolchains for aarch64-linux-gnu and arm-linux-gnueabihf at
-[GNU Toolchain for the A-profile Architecture](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-a/downloads)
+Linaro provides GCC toolchains for
+[aarch64-linux-gnu](https://releases.linaro.org/components/toolchain/binaries/latest/aarch64-linux-gnu/)
+and [arm-linux-gnueabihf](https://releases.linaro.org/components/toolchain/binaries/latest/arm-linux-gnueabihf/)
 compiled to run on x86_64/i686 Linux and i686 Windows. Some Linux distributions
 provide their own packaged cross-toolchains.
 
@@ -242,12 +243,9 @@ they will be documented with the platform.
 ## Intel
 ### [Minimum Platforms](Platform/Intel/Readme.md)
 * [Kaby Lake](Platform/Intel/KabylakeOpenBoardPkg)
-* [Purley](Platform/Intel/PurleyOpenBoardPkg)
 * [Simics](Platform/Intel/SimicsOpenBoardPkg)
 * [Whiskey Lake](Platform/Intel/WhiskeylakeOpenBoardPkg)
 * [Comet Lake](Platform/Intel/CometlakeOpenBoardPkg)
-* [Tiger Lake](Platform/Intel/TigerlakeOpenBoardPkg)
-* [Whitley/Cedar Island](Platform/Intel/WhitleyOpenBoardPkg)
 
 For more information, see the
 [EDK II Minimum Platform Specification](https://edk2-docs.gitbooks.io/edk-ii-minimum-platform-specification).

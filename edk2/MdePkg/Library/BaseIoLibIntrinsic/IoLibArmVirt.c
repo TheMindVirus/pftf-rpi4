@@ -1,7 +1,7 @@
 /** @file
   I/O Library for ARM.
 
-  Copyright (c) 2006 - 2021, Intel Corporation. All rights reserved.<BR>
+  Copyright (c) 2006 - 2009, Intel Corporation. All rights reserved.<BR>
   Portions copyright (c) 2008 - 2009, Apple Inc. All rights reserved.<BR>
   Copyright (c) 2017, AMD Incorporated. All rights reserved.<BR>
   Copyright (c) 2018, Linaro, Ltd. All rights reserved.<BR>
@@ -546,16 +546,7 @@ MmioRead8 (
   IN      UINTN                     Address
   )
 {
-  UINT8      Value;
-  BOOLEAN    Flag;
-
-  Flag = FilterBeforeMmIoRead (FilterWidth8, Address, &Value);
-  if (Flag) {
-    Value = MmioRead8Internal (Address);
-  }
-  FilterAfterMmIoRead (FilterWidth8, Address, &Value);
-
-  return Value;
+  return MmioRead8Internal (Address);
 }
 
 /**
@@ -578,14 +569,7 @@ MmioWrite8 (
   IN      UINT8                     Value
   )
 {
-  BOOLEAN               Flag;
-
-  Flag = FilterBeforeMmIoWrite (FilterWidth8, Address, &Value);
-  if (Flag) {
-    MmioWrite8Internal (Address, Value);
-  }
-  FilterAfterMmIoWrite (FilterWidth8, Address, &Value);
-
+  MmioWrite8Internal (Address, Value);
   return Value;
 }
 
@@ -609,18 +593,9 @@ MmioRead16 (
   IN      UINTN                     Address
   )
 {
-  BOOLEAN    Flag;
-  UINT16     Value;
-
   ASSERT ((Address & 1) == 0);
 
-  Flag = FilterBeforeMmIoRead (FilterWidth16, Address, &Value);
-  if (Flag) {
-    Value = MmioRead16Internal (Address);
-  }
-  FilterAfterMmIoRead (FilterWidth16, Address, &Value);
-
-  return Value;
+  return MmioRead16Internal (Address);
 }
 
 /**
@@ -643,16 +618,9 @@ MmioWrite16 (
   IN      UINT16                    Value
   )
 {
-  BOOLEAN    Flag;
-
   ASSERT ((Address & 1) == 0);
 
-  Flag = FilterBeforeMmIoWrite (FilterWidth16, Address, &Value);
-  if (Flag) {
-    MmioWrite16Internal (Address, Value);
-  }
-  FilterAfterMmIoWrite (FilterWidth16, Address, &Value);
-
+  MmioWrite16Internal (Address, Value);
   return Value;
 }
 
@@ -676,18 +644,9 @@ MmioRead32 (
   IN      UINTN                     Address
   )
 {
-  BOOLEAN   Flag;
-  UINT32    Value;
-
   ASSERT ((Address & 3) == 0);
 
-  Flag = FilterBeforeMmIoRead (FilterWidth32, Address, &Value);
-  if (Flag) {
-    Value = MmioRead32Internal (Address);
-  }
-  FilterAfterMmIoRead (FilterWidth32, Address, &Value);
-
-  return Value;
+  return MmioRead32Internal (Address);
 }
 
 /**
@@ -710,16 +669,9 @@ MmioWrite32 (
   IN      UINT32                    Value
   )
 {
-  BOOLEAN   Flag;
-
   ASSERT ((Address & 3) == 0);
 
-  Flag = FilterBeforeMmIoWrite (FilterWidth32, Address, &Value);
-  if (Flag) {
-    MmioWrite32Internal (Address, Value);
-  }
-  FilterAfterMmIoWrite (FilterWidth32, Address, &Value);
-
+  MmioWrite32Internal (Address, Value);
   return Value;
 }
 
@@ -743,18 +695,9 @@ MmioRead64 (
   IN      UINTN                     Address
   )
 {
-  BOOLEAN   Flag;
-  UINT64    Value;
-
   ASSERT ((Address & 7) == 0);
 
-  Flag = FilterBeforeMmIoRead (FilterWidth64, Address, &Value);
-  if (Flag) {
-    Value = MmioRead64Internal (Address);
-  }
-  FilterAfterMmIoRead (FilterWidth64, Address, &Value);
-
-  return Value;
+  return MmioRead64Internal (Address);
 }
 
 /**
@@ -777,15 +720,8 @@ MmioWrite64 (
   IN      UINT64                    Value
   )
 {
-  BOOLEAN   Flag;
-
   ASSERT ((Address & 7) == 0);
 
-  Flag = FilterBeforeMmIoWrite (FilterWidth64, Address, &Value);
-  if (Flag) {
-    MmioWrite64Internal (Address, Value);
-  }
-  FilterAfterMmIoWrite (FilterWidth64, Address, &Value);
-
+  MmioWrite64Internal (Address, Value);
   return Value;
 }

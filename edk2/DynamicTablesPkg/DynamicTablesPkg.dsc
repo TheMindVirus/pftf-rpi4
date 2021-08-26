@@ -20,8 +20,6 @@
 
 !include DynamicTables.dsc.inc
 
-!include MdePkg/MdeLibs.dsc.inc
-
 [LibraryClasses]
   BaseLib|MdePkg/Library/BaseLib/BaseLib.inf
   BaseMemoryLib|MdePkg/Library/BaseMemoryLib/BaseMemoryLib.inf

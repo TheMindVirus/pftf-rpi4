@@ -39,7 +39,6 @@ SMBIOS_MISC_TABLE_FUNCTION(MiscChassisManufacturer)
 {
   CHAR8                           *OptionalStrStart;
   CHAR8                           *StrStart;
-  UINT8                           *SkuNumberField;
   UINTN                           RecordLength;
   UINTN                           ManuStrLen;
   UINTN                           VerStrLen;
@@ -118,7 +117,10 @@ SMBIOS_MISC_TABLE_FUNCTION(MiscChassisManufacturer)
   ChaNumStrLen = StrLen (ChassisSkuNumber);
 
   ContainedElementCount = InputData->ContainedElementCount;
-  ExtendLength = ContainedElementCount * sizeof (CONTAINED_ELEMENT);
+
+  if (ContainedElementCount > 1) {
+    ExtendLength = (ContainedElementCount - 1) * sizeof (CONTAINED_ELEMENT);
+  }
 
   //
   // Two zeros following the last string.
@@ -147,11 +149,7 @@ SMBIOS_MISC_TABLE_FUNCTION(MiscChassisManufacturer)
   (VOID)CopyMem (SmbiosRecord + 1, &ContainedElements, ExtendLength);
 
   //ChassisSkuNumber
-  SkuNumberField = (UINT8 *)SmbiosRecord +
-                   sizeof (SMBIOS_TABLE_TYPE3) -
-                   sizeof (CONTAINED_ELEMENT) + ExtendLength;
-
-  *SkuNumberField = 5;
+  *((UINT8 *)SmbiosRecord + sizeof (SMBIOS_TABLE_TYPE3) + ExtendLength) = 5;
 
   OptionalStrStart = (CHAR8 *)((UINT8 *)SmbiosRecord + sizeof (SMBIOS_TABLE_TYPE3) +
                                         ExtendLength + 1);
@@ -164,14 +162,6 @@ SMBIOS_MISC_TABLE_FUNCTION(MiscChassisManufacturer)
   UnicodeStrToAsciiStrS (AssertTag, StrStart, AssertTagStrLen + 1);
   StrStart += AssertTagStrLen + 1;
   UnicodeStrToAsciiStrS (ChassisSkuNumber, StrStart, ChaNumStrLen + 1);
-
-  SmbiosRecord->BootupState = OemGetChassisBootupState ();
-  SmbiosRecord->PowerSupplyState = OemGetChassisPowerSupplyState ();
-  SmbiosRecord->ThermalState = OemGetChassisThermalState ();
-  SmbiosRecord->SecurityStatus = OemGetChassisSecurityStatus ();
-  SmbiosRecord->Height = OemGetChassisHeight ();
-  SmbiosRecord->NumberofPowerCords = OemGetChassisNumPowerCords ();
-
   //
   // Now we have got the full smbios record, call smbios protocol to add this record.
   //

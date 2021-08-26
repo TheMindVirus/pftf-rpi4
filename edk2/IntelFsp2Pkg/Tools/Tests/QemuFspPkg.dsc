@@ -72,8 +72,6 @@
 #
 ################################################################################
 
-!include MdePkg/MdeLibs.dsc.inc
-
 [LibraryClasses]
   PeiCoreEntryPoint|MdePkg/Library/PeiCoreEntryPoint/PeiCoreEntryPoint.inf
   PeimEntryPoint|MdePkg/Library/PeimEntryPoint/PeimEntryPoint.inf

@@ -205,10 +205,11 @@ MarkIoMemoryRangeForRuntimeAccess (
   // memory range.
   //
   if (MemEncryptSevIsEnabled ()) {
-    Status = MemEncryptSevClearMmioPageEncMask (
+    Status = MemEncryptSevClearPageEncMask (
                0,
                BaseAddress,
-               EFI_SIZE_TO_PAGES (Length)
+               EFI_SIZE_TO_PAGES (Length),
+               FALSE
                );
     ASSERT_EFI_ERROR (Status);
   }

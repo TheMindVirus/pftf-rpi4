@@ -1,0 +1,2753 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiApplicationEntryPoint/UefiApplicationEntryPoint/OUTPUT/UefiApplicationEntryPoint.lib(ApplicationEntryPoint.obj)
+                              (_ModuleEntryPoint)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib(BaseStackCheckGcc.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (__stack_chk_fail)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memcpy.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memcpy)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memset.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memset)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Application/UiApp/UiApp/OUTPUT/UiApp.lib(AutoGen.obj)
+                              ApplicationEntryPoint.obj (symbol from plugin) (ProcessLibraryConstructorList)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Application/UiApp/UiApp/OUTPUT/UiApp.lib(FrontPage.obj)
+                              AutoGen.obj (symbol from plugin) (InitializeUserInterface)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Application/UiApp/UiApp/OUTPUT/UiApp.lib(String.obj)
+                              FrontPage.obj (symbol from plugin) (InitializeStringSupport)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Application/UiApp/UiApp/OUTPUT/UiApp.lib(FrontPageCustomizedUi.obj)
+                              FrontPage.obj (symbol from plugin) (UiCustomizeFrontPage)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Application/UiApp/UiApp/OUTPUT/UiApp.lib(FrontPageCustomizedUiSupport.obj)
+                              FrontPageCustomizedUi.obj (symbol from plugin) (UiSupportLibCallbackHandler)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Application/UiApp/UiApp/OUTPUT/UiApp.lib(FrontPageVfr.obj)
+                              FrontPage.obj (symbol from plugin) (FrontPageVfrBin)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib(DxePcdLib.obj)
+                              FrontPage.obj (symbol from plugin) (LibPcdGet32)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+                              FrontPageCustomizedUiSupport.obj (symbol from plugin) (CompareGuid)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+                              FrontPageCustomizedUiSupport.obj (symbol from plugin) (CopyMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCopyMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCompareGuid)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              FrontPage.obj (symbol from plugin) (RShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuDeadLoop)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              FrontPage.obj (symbol from plugin) (StrnLenS)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              SafeString.obj (symbol from plugin) (InternalIsDecimalDigitCharacter)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              RShiftU64.obj (symbol from plugin) (InternalMathRShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuBreakpoint)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              SafeString.obj (symbol from plugin) (SwapBytes32)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              SafeString.obj (symbol from plugin) (SwapBytes16)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              SafeString.obj (symbol from plugin) (MultU64x32)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              SafeString.obj (symbol from plugin) (LShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              SafeString.obj (symbol from plugin) (DivU64x32)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiBootServicesTableLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              FrontPage.obj (symbol from plugin) (UnicodeValueToStringS)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              PrintLib.obj (symbol from plugin) (BasePrintLibConvertValueToStringS)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              FrontPage.obj (symbol from plugin) (AllocatePool)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiRuntimeServicesTableLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilitiesDxeSmm.obj)
+                              FrontPageCustomizedUiSupport.obj (symbol from plugin) (DevicePathFromHandle)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(UefiDevicePathLib.obj)
+                              FrontPageCustomizedUiSupport.obj (symbol from plugin) (ConvertDevicePathToText)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilities.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibGetDevicePathSize)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathToText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertDeviceNodeToText)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathFromText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertTextToDeviceNode)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(Console.obj)
+                              FrontPage.obj (symbol from plugin) (CreatePopUp)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib(UefiHiiServicesLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiHiiServicesLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/DxeServicesTableLib/DxeServicesTableLib/OUTPUT/DxeServicesTableLib.lib(DxeServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (DxeServicesTableLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/DxeHobLib/DxeHobLib/OUTPUT/DxeHobLib.lib(HobLib.obj)
+                              AutoGen.obj (symbol from plugin) (HobLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLib.obj)
+                              FrontPage.obj (symbol from plugin) (HiiAddPackages)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiString.obj)
+                              FrontPage.obj (symbol from plugin) (HiiSetString)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLanguage.obj)
+                              HiiString.obj (symbol from plugin) (HiiGetSupportedLanguages)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseReportStatusCodeLibNull/BaseReportStatusCodeLibNull/OUTPUT/BaseReportStatusCodeLibNull.lib(BaseReportStatusCodeLib.obj)
+                              FrontPage.obj (symbol from plugin) (ReportStatusCode)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib/OUTPUT/UefiBootManagerLib.lib(BmConnect.obj)
+                              FrontPage.obj (symbol from plugin) (EfiBootManagerConnectAll)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib/OUTPUT/UefiBootManagerLib.lib(BmConsole.obj)
+                              BmConnect.obj (symbol from plugin) (EfiBootManagerConnectAllDefaultConsoles)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib/OUTPUT/UefiBootManagerLib.lib(BmBoot.obj)
+                              FrontPage.obj (symbol from plugin) (EfiBootManagerRefreshAllBootOption)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib/OUTPUT/UefiBootManagerLib.lib(BmBootDescription.obj)
+                              BmBoot.obj (symbol from plugin) (BmGetBootDescription)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib/OUTPUT/UefiBootManagerLib.lib(BmLoadOption.obj)
+                              BmBoot.obj (symbol from plugin) (mBmLoadOptionName)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib/OUTPUT/UefiBootManagerLib.lib(BmHotkey.obj)
+                              BmBoot.obj (symbol from plugin) (BmStopHotkeyService)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib/OUTPUT/UefiBootManagerLib.lib(BmDriverHealth.obj)
+                              BmBoot.obj (symbol from plugin) (BmRepairAllControllers)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib/OUTPUT/UefiBootManagerLib.lib(BmMisc.obj)
+                              BmConsole.obj (symbol from plugin) (BmDelPartMatchInstance)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/FileExplorerLib/FileExplorerLib/OUTPUT/FileExplorerLib.lib(FileExplorer.obj)
+                              AutoGen.obj (symbol from plugin) (FileExplorerLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/FileExplorerLib/FileExplorerLib/OUTPUT/FileExplorerLib.lib(AutoGen.obj)
+                              FileExplorer.obj (symbol from plugin) (FileExplorerLibStrings)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/FileExplorerLib/FileExplorerLib/OUTPUT/FileExplorerLib.lib(FileExplorerVfr.obj)
+                              FileExplorer.obj (symbol from plugin) (FileExplorerVfrBin)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/DeviceManagerUiLib/DeviceManagerUiLib/OUTPUT/DeviceManagerUiLib.lib(DeviceManager.obj)
+                              AutoGen.obj (symbol from plugin) (DeviceManagerUiLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/DeviceManagerUiLib/DeviceManagerUiLib/OUTPUT/DeviceManagerUiLib.lib(AutoGen.obj)
+                              DeviceManager.obj (symbol from plugin) (DeviceManagerUiLibStrings)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/DeviceManagerUiLib/DeviceManagerUiLib/OUTPUT/DeviceManagerUiLib.lib(DeviceManagerVfr.obj)
+                              DeviceManager.obj (symbol from plugin) (DeviceManagerVfrBin)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/BootManagerUiLib/BootManagerUiLib/OUTPUT/BootManagerUiLib.lib(BootManager.obj)
+                              AutoGen.obj (symbol from plugin) (BootManagerUiLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/BootManagerUiLib/BootManagerUiLib/OUTPUT/BootManagerUiLib.lib(AutoGen.obj)
+                              BootManager.obj (symbol from plugin) (BootManagerUiLibStrings)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/BootManagerUiLib/BootManagerUiLib/OUTPUT/BootManagerUiLib.lib(BootManagerVfr.obj)
+                              BootManager.obj (symbol from plugin) (BootManagerVfrBin)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/Library/PlatformUiAppLib/PlatformUiAppLib/OUTPUT/PlatformUiAppLib.lib(PlatformUiAppLib.obj)
+                              AutoGen.obj (symbol from plugin) (PlatformUiAppLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/BootMaintenanceManagerUiLib/BootMaintenanceManagerUiLib/OUTPUT/BootMaintenanceManagerUiLib.lib(BootMaintenance.obj)
+                              AutoGen.obj (symbol from plugin) (BootMaintenanceManagerUiLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/BootMaintenanceManagerUiLib/BootMaintenanceManagerUiLib/OUTPUT/BootMaintenanceManagerUiLib.lib(BootOption.obj)
+                              BootMaintenance.obj (symbol from plugin) (BOpt_GetMenuEntry)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/BootMaintenanceManagerUiLib/BootMaintenanceManagerUiLib/OUTPUT/BootMaintenanceManagerUiLib.lib(ConsoleOption.obj)
+                              BootMaintenance.obj (symbol from plugin) (ChangeTerminalDevicePath)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/BootMaintenanceManagerUiLib/BootMaintenanceManagerUiLib/OUTPUT/BootMaintenanceManagerUiLib.lib(Data.obj)
+                              ConsoleOption.obj (symbol from plugin) (TerminalTypeGuid)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/BootMaintenanceManagerUiLib/BootMaintenanceManagerUiLib/OUTPUT/BootMaintenanceManagerUiLib.lib(Variable.obj)
+                              BootMaintenance.obj (symbol from plugin) (Var_DelBootOption)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/BootMaintenanceManagerUiLib/BootMaintenanceManagerUiLib/OUTPUT/BootMaintenanceManagerUiLib.lib(UpdatePage.obj)
+                              BootMaintenance.obj (symbol from plugin) (CreateUpdateData)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/BootMaintenanceManagerUiLib/BootMaintenanceManagerUiLib/OUTPUT/BootMaintenanceManagerUiLib.lib(BmLib.obj)
+                              Variable.obj (symbol from plugin) (EfiLibDeleteVariable)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/BootMaintenanceManagerUiLib/BootMaintenanceManagerUiLib/OUTPUT/BootMaintenanceManagerUiLib.lib(BootMaintenanceManagerCustomizedUi.obj)
+                              BootMaintenance.obj (symbol from plugin) (UiCustomizeBMMPage)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/BootMaintenanceManagerUiLib/BootMaintenanceManagerUiLib/OUTPUT/BootMaintenanceManagerUiLib.lib(BootMaintenanceManagerCustomizedUiSupport.obj)
+                              BootMaintenanceManagerCustomizedUi.obj (symbol from plugin) (BmmCreateBootNextMenu)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/BootMaintenanceManagerUiLib/BootMaintenanceManagerUiLib/OUTPUT/BootMaintenanceManagerUiLib.lib(AutoGen.obj)
+                              BootMaintenance.obj (symbol from plugin) (BootMaintenanceManagerUiLibStrings)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/BootMaintenanceManagerUiLib/BootMaintenanceManagerUiLib/OUTPUT/BootMaintenanceManagerUiLib.lib(BootMaintenanceManager.obj)
+                              BootMaintenance.obj (symbol from plugin) (BootMaintenanceManagerBin)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+                              BmBoot.obj (symbol from plugin) (DebugCodeEnabled)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+                              SafeString.obj (symbol from plugin) (ZeroMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMemWrapper.obj)
+                              HiiLib.obj (symbol from plugin) (CompareMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem16Wrapper.obj)
+                              Console.obj (symbol from plugin) (SetMem16)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+                              BootManager.obj (symbol from plugin) (SetMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(IsZeroBufferWrapper.obj)
+                              FileExplorer.obj (symbol from plugin) (IsZeroBuffer)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                              SetMem16Wrapper.obj (symbol from plugin) (InternalMemSetMem16)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                              CompareMemWrapper.obj (symbol from plugin) (InternalMemCompareMem)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ScanMemGeneric.obj)
+                              IsZeroBufferWrapper.obj (symbol from plugin) (InternalMemIsZeroBuffer)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+                              SetMemWrapper.obj (symbol from plugin) (SetMem64)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+                              DevicePathFromText.obj (symbol from plugin) (SwapBytes64)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet32.obj)
+                              BmHotkey.obj (symbol from plugin) (LowBitSet32)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              PrintLibInternal.obj (symbol from plugin) (DivU64x32Remainder)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+                              HiiLib.obj (symbol from plugin) (BitFieldRead32)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LinkedList.obj)
+                              HiiLib.obj (symbol from plugin) (InitializeListHead)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              PrintLibInternal.obj (symbol from plugin) (ReadUnaligned16)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLibPrint.obj)
+                              BmDriverHealth.obj (symbol from plugin) (Print)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiNotTiano.obj)
+                              BmBoot.obj (symbol from plugin) (EfiCreateEventLegacyBootEx)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiSortLib/UefiSortLib/OUTPUT/UefiSortLib.lib(UefiSortLib.obj)
+                              BmLoadOption.obj (symbol from plugin) (PerformQuickSort)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/DxeServicesLib/DxeServicesLib/OUTPUT/DxeServicesLib.lib(DxeServicesLib.obj)
+                              BmBoot.obj (symbol from plugin) (GetSectionFromFv)
+/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/DxePerformanceLib/DxePerformanceLib/OUTPUT/DxePerformanceLib.lib(DxePerformanceLib.obj)
+                              BmBoot.obj (symbol from plugin) (StartPerformanceMeasurementEx)
+
+Discarded input sections
+
+ .text          0x0000000000000000       0x10 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .text          0x0000000000000000        0x0 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.ReportStatusCode.constprop.0
+                0x0000000000000000        0x8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.ReportStatusCodeEx.constprop.0
+                0x0000000000000000        0x8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.BmCollectLoadOptions
+                0x0000000000000000      0x138 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength
+                0x0000000000000000        0x4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdPerformanceLibraryPropertyMask
+                0x0000000000000000        0x1 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata._gUefiDriverRevision
+                0x0000000000000000        0x4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.mBmmCallbackInfo
+                0x0000000000000000        0x8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.__memset
+                0x0000000000000000       0x1c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/ccLuy8vB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccLuy8vB.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccI8hRPC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccI8hRPC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccaS8QYz.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccaS8QYz.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccgEff2z.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccgEff2z.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cczNO8XA.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cczNO8XA.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccBZzFez.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccBZzFez.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc8sM2NC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8sM2NC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccXfVrsC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXfVrsC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccxc5nJz.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccxc5nJz.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccZL7NYy.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccZL7NYy.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccWHnejz.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWHnejz.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc6q6XeA.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6q6XeA.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc7upG7y.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc7upG7y.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccv3y2Ty.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccv3y2Ty.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccs8oTnC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccs8oTnC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cciVT5xC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cciVT5xC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccssxP1A.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccssxP1A.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccDnvJNz.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccDnvJNz.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/ccLVhOJC.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xc0 /tmp/ccLVhOJC.debug.temp.o
+ .debug_line    0x0000000000000000      0x14e /tmp/ccLVhOJC.debug.temp.o
+ .debug_str     0x0000000000000000      0x474 /tmp/ccLVhOJC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccLVhOJC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccLVhOJC.debug.temp.o
+ .debug_info    0x0000000000000000      0x1c3 /tmp/ccfraC0z.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccfraC0z.debug.temp.o
+ .debug_line    0x0000000000000000      0x14e /tmp/ccfraC0z.debug.temp.o
+ .debug_str     0x0000000000000000      0x45d /tmp/ccfraC0z.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccfraC0z.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccfraC0z.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccJM1XMz.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccJM1XMz.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc6aoxNA.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6aoxNA.debug.temp.o
+ .debug_info    0x0000000000000000      0x1cf /tmp/cczDIosB.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/cczDIosB.debug.temp.o
+ .debug_line    0x0000000000000000      0x14c /tmp/cczDIosB.debug.temp.o
+ .debug_str     0x0000000000000000      0x464 /tmp/cczDIosB.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cczDIosB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cczDIosB.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cckmxm1y.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cckmxm1y.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccaCEWoB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccaCEWoB.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccEFp0jD.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccEFp0jD.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccCpyG0C.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccCpyG0C.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccyUPiPC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccyUPiPC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccptRPmz.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccptRPmz.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccdGmDUB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccdGmDUB.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccn0V8iB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccn0V8iB.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccNyZKcC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccNyZKcC.debug.temp.o
+ .debug_info    0x0000000000000000     0x45d4 /tmp/ccerWc5B.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x2b0 /tmp/ccerWc5B.debug.temp.o
+ .debug_line    0x0000000000000000      0x3d1 /tmp/ccerWc5B.debug.temp.o
+ .debug_str     0x0000000000000000     0x2f13 /tmp/ccerWc5B.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccerWc5B.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccerWc5B.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cclBnwPz.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cclBnwPz.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccdaekBA.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccdaekBA.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccG3PbbA.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccG3PbbA.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccacctuA.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccacctuA.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccMb5ifC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccMb5ifC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccfevSqA.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccfevSqA.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccnhF83z.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccnhF83z.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccPxbu9y.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPxbu9y.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cclrFe4z.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cclrFe4z.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc2YnkfC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc2YnkfC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccHdh0wA.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccHdh0wA.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccmqWSHz.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccmqWSHz.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccOpOXrz.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccOpOXrz.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cczusJHB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cczusJHB.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccTolZEA.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccTolZEA.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccT9ohEB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccT9ohEB.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccn9TJRB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccn9TJRB.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cchZFI6z.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cchZFI6z.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccydvVWA.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccydvVWA.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccMsS2IC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccMsS2IC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccPGcvjD.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPGcvjD.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccRgAoaD.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccRgAoaD.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc54qSwA.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc54qSwA.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccQgiBQA.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccQgiBQA.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc0m74LA.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0m74LA.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccQxkqGA.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccQxkqGA.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc4mWdwA.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc4mWdwA.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccsIKUnC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccsIKUnC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cctW4NQy.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cctW4NQy.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccUW2UcD.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccUW2UcD.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccQXY36z.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccQXY36z.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccmT1I0A.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccmT1I0A.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccqIX2kB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccqIX2kB.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccvYaRpz.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccvYaRpz.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccH1fKUC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccH1fKUC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccAE9cwC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccAE9cwC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cctrO8GB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cctrO8GB.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc99ZfLA.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc99ZfLA.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc1o06oz.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc1o06oz.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccz4PvnD.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccz4PvnD.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cchDSmzz.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cchDSmzz.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccNocpVA.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccNocpVA.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc1gS5MC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc1gS5MC.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccZNOwLB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccZNOwLB.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccqHUmyC.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccqHUmyC.debug.temp.o
+ .debug_info    0x0000000000000000      0x17a /tmp/ccBFdtWA.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccBFdtWA.debug.temp.o
+ .debug_line    0x0000000000000000      0x176 /tmp/ccBFdtWA.debug.temp.o
+ .debug_str     0x0000000000000000      0x35a /tmp/ccBFdtWA.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccBFdtWA.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccBFdtWA.debug.temp.o
+ .debug_info    0x0000000000000000      0x1c3 /tmp/ccfK81Wz.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccfK81Wz.debug.temp.o
+ .debug_line    0x0000000000000000      0x14e /tmp/ccfK81Wz.debug.temp.o
+ .debug_str     0x0000000000000000      0x45d /tmp/ccfK81Wz.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccfK81Wz.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccfK81Wz.debug.temp.o
+ .debug_info    0x0000000000000000      0x1e7 /tmp/ccDJAj4A.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xc0 /tmp/ccDJAj4A.debug.temp.o
+ .debug_line    0x0000000000000000      0x14e /tmp/ccDJAj4A.debug.temp.o
+ .debug_str     0x0000000000000000      0x473 /tmp/ccDJAj4A.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccDJAj4A.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccDJAj4A.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccmEN53C.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccmEN53C.debug.temp.o
+ .debug_info    0x0000000000000000      0x89f /tmp/ccRUfMXy.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xf9 /tmp/ccRUfMXy.debug.temp.o
+ .debug_line    0x0000000000000000      0x14b /tmp/ccRUfMXy.debug.temp.o
+ .debug_str     0x0000000000000000      0x650 /tmp/ccRUfMXy.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccRUfMXy.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccRUfMXy.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccKd2ZyA.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccKd2ZyA.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccH7hzjB.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccH7hzjB.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cckyjClD.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cckyjClD.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccox6zhz.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccox6zhz.debug.temp.o
+ .debug_info    0x0000000000000000     0x1bef /tmp/ccggI4Oy.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x22d /tmp/ccggI4Oy.debug.temp.o
+ .debug_line    0x0000000000000000      0x368 /tmp/ccggI4Oy.debug.temp.o
+ .debug_str     0x0000000000000000     0x17ac /tmp/ccggI4Oy.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccggI4Oy.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccggI4Oy.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccc1tGwA.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccc1tGwA.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc8i185y.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8i185y.debug.temp.o
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .text          0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+START GROUP
+LOAD /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+LOAD /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+LOAD /tmp/ccLuy8vB.debug.temp.o
+LOAD /tmp/ccI8hRPC.debug.temp.o
+LOAD /tmp/ccaS8QYz.debug.temp.o
+LOAD /tmp/ccgEff2z.debug.temp.o
+LOAD /tmp/cczNO8XA.debug.temp.o
+LOAD /tmp/ccBZzFez.debug.temp.o
+LOAD /tmp/cc8sM2NC.debug.temp.o
+LOAD /tmp/ccXfVrsC.debug.temp.o
+LOAD /tmp/ccxc5nJz.debug.temp.o
+LOAD /tmp/ccZL7NYy.debug.temp.o
+LOAD /tmp/ccWHnejz.debug.temp.o
+LOAD /tmp/cc6q6XeA.debug.temp.o
+LOAD /tmp/cc7upG7y.debug.temp.o
+LOAD /tmp/ccv3y2Ty.debug.temp.o
+LOAD /tmp/ccs8oTnC.debug.temp.o
+LOAD /tmp/cciVT5xC.debug.temp.o
+LOAD /tmp/ccssxP1A.debug.temp.o
+LOAD /tmp/ccDnvJNz.debug.temp.o
+LOAD /tmp/ccLVhOJC.debug.temp.o
+LOAD /tmp/ccfraC0z.debug.temp.o
+LOAD /tmp/ccJM1XMz.debug.temp.o
+LOAD /tmp/cc6aoxNA.debug.temp.o
+LOAD /tmp/cczDIosB.debug.temp.o
+LOAD /tmp/cckmxm1y.debug.temp.o
+LOAD /tmp/ccaCEWoB.debug.temp.o
+LOAD /tmp/ccEFp0jD.debug.temp.o
+LOAD /tmp/ccCpyG0C.debug.temp.o
+LOAD /tmp/ccyUPiPC.debug.temp.o
+LOAD /tmp/ccptRPmz.debug.temp.o
+LOAD /tmp/ccdGmDUB.debug.temp.o
+LOAD /tmp/ccn0V8iB.debug.temp.o
+LOAD /tmp/ccNyZKcC.debug.temp.o
+LOAD /tmp/ccerWc5B.debug.temp.o
+LOAD /tmp/cclBnwPz.debug.temp.o
+LOAD /tmp/ccdaekBA.debug.temp.o
+LOAD /tmp/ccG3PbbA.debug.temp.o
+LOAD /tmp/ccacctuA.debug.temp.o
+LOAD /tmp/ccMb5ifC.debug.temp.o
+LOAD /tmp/ccfevSqA.debug.temp.o
+LOAD /tmp/ccnhF83z.debug.temp.o
+LOAD /tmp/ccPxbu9y.debug.temp.o
+LOAD /tmp/cclrFe4z.debug.temp.o
+LOAD /tmp/cc2YnkfC.debug.temp.o
+LOAD /tmp/ccHdh0wA.debug.temp.o
+LOAD /tmp/ccmqWSHz.debug.temp.o
+LOAD /tmp/ccOpOXrz.debug.temp.o
+LOAD /tmp/cczusJHB.debug.temp.o
+LOAD /tmp/ccTolZEA.debug.temp.o
+LOAD /tmp/ccT9ohEB.debug.temp.o
+LOAD /tmp/ccn9TJRB.debug.temp.o
+LOAD /tmp/cchZFI6z.debug.temp.o
+LOAD /tmp/ccydvVWA.debug.temp.o
+LOAD /tmp/ccMsS2IC.debug.temp.o
+LOAD /tmp/ccPGcvjD.debug.temp.o
+LOAD /tmp/ccRgAoaD.debug.temp.o
+LOAD /tmp/cc54qSwA.debug.temp.o
+LOAD /tmp/ccQgiBQA.debug.temp.o
+LOAD /tmp/cc0m74LA.debug.temp.o
+LOAD /tmp/ccQxkqGA.debug.temp.o
+LOAD /tmp/cc4mWdwA.debug.temp.o
+LOAD /tmp/ccsIKUnC.debug.temp.o
+LOAD /tmp/cctW4NQy.debug.temp.o
+LOAD /tmp/ccUW2UcD.debug.temp.o
+LOAD /tmp/ccQXY36z.debug.temp.o
+LOAD /tmp/ccmT1I0A.debug.temp.o
+LOAD /tmp/ccqIX2kB.debug.temp.o
+LOAD /tmp/ccvYaRpz.debug.temp.o
+LOAD /tmp/ccH1fKUC.debug.temp.o
+LOAD /tmp/ccAE9cwC.debug.temp.o
+LOAD /tmp/cctrO8GB.debug.temp.o
+LOAD /tmp/cc99ZfLA.debug.temp.o
+LOAD /tmp/cc1o06oz.debug.temp.o
+LOAD /tmp/ccz4PvnD.debug.temp.o
+LOAD /tmp/cchDSmzz.debug.temp.o
+LOAD /tmp/ccNocpVA.debug.temp.o
+LOAD /tmp/cc1gS5MC.debug.temp.o
+LOAD /tmp/ccZNOwLB.debug.temp.o
+LOAD /tmp/ccqHUmyC.debug.temp.o
+LOAD /tmp/ccBFdtWA.debug.temp.o
+LOAD /tmp/ccfK81Wz.debug.temp.o
+LOAD /tmp/ccDJAj4A.debug.temp.o
+LOAD /tmp/ccmEN53C.debug.temp.o
+LOAD /tmp/ccRUfMXy.debug.temp.o
+LOAD /tmp/ccKd2ZyA.debug.temp.o
+LOAD /tmp/ccH7hzjB.debug.temp.o
+LOAD /tmp/cckyjClD.debug.temp.o
+LOAD /tmp/ccox6zhz.debug.temp.o
+LOAD /tmp/ccggI4Oy.debug.temp.o
+LOAD /tmp/ccc1tGwA.debug.temp.o
+LOAD /tmp/cc8i185y.debug.temp.o
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Application/UiApp/UiApp/OUTPUT/UiApp.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiSortLib/UefiSortLib/OUTPUT/UefiSortLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/DxeServicesLib/DxeServicesLib/OUTPUT/DxeServicesLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/DxeServicesTableLib/DxeServicesTableLib/OUTPUT/DxeServicesTableLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BasePeCoffGetEntryPointLib/BasePeCoffGetEntryPointLib/OUTPUT/BasePeCoffGetEntryPointLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/DxePerformanceLib/DxePerformanceLib/OUTPUT/DxePerformanceLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/DxeHobLib/DxeHobLib/OUTPUT/DxeHobLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseReportStatusCodeLibNull/BaseReportStatusCodeLibNull/OUTPUT/BaseReportStatusCodeLibNull.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib/OUTPUT/UefiBootManagerLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/FileExplorerLib/FileExplorerLib/OUTPUT/FileExplorerLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/UefiApplicationEntryPoint/UefiApplicationEntryPoint/OUTPUT/UefiApplicationEntryPoint.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/DeviceManagerUiLib/DeviceManagerUiLib/OUTPUT/DeviceManagerUiLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/BootManagerUiLib/BootManagerUiLib/OUTPUT/BootManagerUiLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/Library/PlatformUiAppLib/PlatformUiAppLib/OUTPUT/PlatformUiAppLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Library/BootMaintenanceManagerUiLib/BootMaintenanceManagerUiLib/OUTPUT/BootMaintenanceManagerUiLib.lib
+END GROUP
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.gnu.version_d  0x0000000000000228        0x0
+ .gnu.version_d
+                0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version    0x0000000000000228        0x0
+ .gnu.version   0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version_r  0x0000000000000228        0x0
+ .gnu.version_r
+                0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.text           0x0000000000001000    0x17838
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.IsZeroBuffer.constprop.0
+                0x0000000000001000       0x28 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.EfiLibDeleteVariable.constprop.0
+                0x0000000000001028       0x28 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.IsListEmpty
+                0x0000000000001050       0x10 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.CleanUselessBeforeSubmit
+                0x0000000000001060       0xa0 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.BootManagerExtractConfig
+                0x0000000000001100       0x24 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.DeviceManagerExtractConfig
+                0x0000000000001124       0x24 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.LibToLowerString
+                0x0000000000001148       0x2c /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.LibExtractConfig
+                0x0000000000001174       0x24 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.InternalHiiBrowserCallback.constprop.0
+                0x0000000000001198      0x13c /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.BOpt_DestroyMenuEntry
+                0x00000000000012d4       0xd4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.LibDestroyMenuEntry
+                0x00000000000013a8       0x78 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.LibCreateMenuEntry
+                0x0000000000001420       0x58 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.EfiBootManagerFreeDriverHealthInfo
+                0x0000000000001478       0x60 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.BmGetSingleControllerHealthStatus
+                0x00000000000014d8      0x1fc /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.EfiBootManagerGetDriverHealthInfo
+                0x00000000000016d4      0x1b4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.BOpt_GetOptionNumber
+                0x0000000000001888      0x108 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.StrnCatS.constprop.0
+                0x0000000000001990       0xfc /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.HiiConstructConfigHdr.constprop.0
+                0x0000000000001a8c      0x210 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.HiiIsConfigHdrMatch.constprop.0
+                0x0000000000001c9c       0x8c /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.LibAppendFileName
+                0x0000000000001d28      0x178 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.LibStrDuplicate
+                0x0000000000001ea0       0x48 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.SetMem.constprop.0
+                0x0000000000001ee8        0xc /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.Print    0x0000000000001ef4      0x11c /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.BmRepairNotify
+                0x0000000000002010       0x28 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.SetMem16
+                0x0000000000002038       0x14 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.LibGetDevicePath
+                0x000000000000204c       0x70 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.LibCreateNewFile
+                0x00000000000020bc      0x2bc /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.BmmSetConsoleMode
+                0x0000000000002378      0x370 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.BmSetConsoleMode
+                0x00000000000026e8      0x370 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.BootMaintExtractConfig
+                0x0000000000002a58      0x148 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.BootManagerRouteConfig
+                0x0000000000002ba0        0x4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.DeviceManagerRouteConfig
+                0x0000000000002ba4        0x4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.LibRouteConfig
+                0x0000000000002ba8        0x4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.EfiBootManagerIsValidLoadOptionVariableName.part.0
+                0x0000000000002bac      0x108 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.InternalAllocatePool.constprop.0
+                0x0000000000002cb4       0x6c /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000002cb4                InternalAllocatePool.constprop.0
+ .text.CreatePopUp.constprop.0
+                0x0000000000002d20      0x494 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000002d20                CreatePopUp.constprop.0
+ .text.HiiSetString.constprop.0
+                0x00000000000031b4      0x118 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x00000000000031b4                HiiSetString.constprop.0
+ .text.HiiGetString.constprop.0
+                0x00000000000032cc      0x168 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x00000000000032cc                HiiGetString.constprop.0
+ .text.IsMacAddressDevicePath
+                0x0000000000003434      0x2d8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.HiiGetHiiHandles.constprop.0
+                0x000000000000370c       0xc8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000000370c                HiiGetHiiHandles.constprop.0
+ .text.GetNextNode.constprop.0
+                0x00000000000037d4        0x8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x00000000000037d4                GetNextNode.constprop.0
+ .text.LogPerformanceMeasurementEnabled.constprop.0
+                0x00000000000037dc        0x8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x00000000000037dc                LogPerformanceMeasurementEnabled.constprop.0
+ .text.IsZeroGuid.constprop.0
+                0x00000000000037e4       0x10 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x00000000000037e4                IsZeroGuid.constprop.0
+ .text.MultU64x32.constprop.0
+                0x00000000000037f4        0xc /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x00000000000037f4                MultU64x32.constprop.0
+ .text.LShiftU64.constprop.0
+                0x0000000000003800        0x8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000003800                LShiftU64.constprop.0
+ .text.EfiAcquireLock.constprop.0
+                0x0000000000003808       0x40 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000003808                EfiAcquireLock.constprop.0
+ .text.GetPerformanceMeasurementProtocol
+                0x0000000000003848       0x8c /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000003848                GetPerformanceMeasurementProtocol
+ .text.LogPerformanceMeasurement.constprop.0
+                0x00000000000038d4       0x70 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x00000000000038d4                LogPerformanceMeasurement.constprop.0
+ .text.EndPerformanceMeasurementEx.constprop.0
+                0x0000000000003944       0x70 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000003944                EndPerformanceMeasurementEx.constprop.0
+ .text.WriteUnaligned32
+                0x00000000000039b4       0x2c /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x00000000000039b4                WriteUnaligned32
+ .text.WriteUnaligned16
+                0x00000000000039e0       0x18 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x00000000000039e0                WriteUnaligned16
+ .text.ReadUnaligned16
+                0x00000000000039f8       0x30 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x00000000000039f8                ReadUnaligned16
+ .text.ReadUnaligned32
+                0x0000000000003a28       0x28 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000003a28                ReadUnaligned32
+ .text.BasePrintLibSPrintMarker.constprop.0
+                0x0000000000003a50      0xeec /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000003a50                BasePrintLibSPrintMarker.constprop.0
+ .text.BasePrintLibSPrint.constprop.0
+                0x000000000000493c       0xa0 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.ReadUnaligned64
+                0x00000000000049dc       0x28 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x00000000000049dc                ReadUnaligned64
+ .text.RemoveEntryList
+                0x0000000000004a04       0x14 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000004a04                RemoveEntryList
+ .text.LibFreeMenu
+                0x0000000000004a18       0x4c /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.IsNull   0x0000000000004a64        0xc /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000004a64                IsNull
+ .text.GetFirstNode
+                0x0000000000004a70        0x8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000004a70                GetFirstNode
+ .text.InsertTailList
+                0x0000000000004a78       0x18 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000004a78                InsertTailList
+ .text.InitializeListHead
+                0x0000000000004a90        0x8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000004a90                InitializeListHead
+ .text.CompareMem
+                0x0000000000004a98       0x18 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000004a98                CompareMem
+ .text.BootDescriptionHandler.lto_priv.0
+                0x0000000000004ab0       0x8c /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000004ab0                BootDescriptionHandler.lto_priv.0
+ .text.ZeroMem  0x0000000000004b3c        0xc /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000004b3c                ZeroMem
+ .text.HiiCreateActionOpCode.constprop.0
+                0x0000000000004b48       0x9c /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000004b48                HiiCreateActionOpCode.constprop.0
+ .text.HiiCreateSubTitleOpCode.constprop.0
+                0x0000000000004be4       0x8c /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000004be4                HiiCreateSubTitleOpCode.constprop.0
+ .text.UpdatePageEnd
+                0x0000000000004c70       0x7c /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.HiiCreateGotoExOpCode.constprop.0
+                0x0000000000004cec       0xc8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000004cec                HiiCreateGotoExOpCode.constprop.0
+ .text.UefiDevicePathLibConvertDevicePathToText.constprop.0
+                0x0000000000004db4      0x158 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000004db4                UefiDevicePathLibConvertDevicePathToText.constprop.0
+ .text.BmGetControllerName
+                0x0000000000004f0c      0x15c /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.BmDisplayMessages
+                0x0000000000005068       0xc0 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.HiiCreateOneOfOpCode.constprop.0
+                0x0000000000005128      0x10c /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000005128                HiiCreateOneOfOpCode.constprop.0
+ .text.HiiCreateGuidOpCode.constprop.0
+                0x0000000000005234       0x80 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000005234                HiiCreateGuidOpCode.constprop.0
+ .text.RefreshUpdateData
+                0x00000000000052b4       0x44 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.CleanUpPage
+                0x00000000000052f8       0x50 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.UpdatePageStart
+                0x0000000000005348       0x60 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.HiiCreateCheckBoxOpCode.constprop.0
+                0x00000000000053a8       0xb8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.LibUpdateFileExplorePage
+                0x0000000000005460      0x21c /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.LibCallback
+                0x000000000000567c      0x4f8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.ReportProgressCodeEnabled
+                0x0000000000005b74        0x8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000005b74                ReportProgressCodeEnabled
+                0x0000000000005b74                ReportDebugCodeEnabled
+                0x0000000000005b74                ReportErrorCodeEnabled
+                0x0000000000005b74                DebugCodeEnabled
+ .text.RequiredDriver
+                0x0000000000005b7c      0x138 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000005b7c                RequiredDriver
+ .text.ExtractDevicePathFromHiiHandle
+                0x0000000000005cb4       0x78 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000005cb4                ExtractDevicePathFromHiiHandle
+ .text.GetConsoleOutMode
+                0x0000000000005d2c       0xd8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000005d2c                GetConsoleOutMode
+ .text.IsIsaSerialNode
+                0x0000000000005e04       0x48 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000005e04                IsIsaSerialNode
+ .text.RetrieveUartUid
+                0x0000000000005e4c       0xe4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000005e4c                RetrieveUartUid
+ .text.BmMatchDevicePaths
+                0x0000000000005f30       0xa8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000005f30                BmMatchDevicePaths
+                0x0000000000005f30                MatchDevicePaths
+ .text.BOpt_FreeMenu
+                0x0000000000005fd8       0x4c /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000005fd8                BOpt_FreeMenu
+ .text.BOpt_GetMenuEntry
+                0x0000000000006024       0x24 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000006024                BOpt_GetMenuEntry
+ .text.UpdateConsolePage
+                0x0000000000006048      0x1e4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.UpdateComAttributeFromVariable
+                0x000000000000622c      0x1cc /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000000622c                UpdateComAttributeFromVariable
+ .text.ChangeTerminalDevicePath
+                0x00000000000063f8      0x1a8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.Var_UpdateConsoleOption
+                0x00000000000065a0      0x1d4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.GetDriverOrder
+                0x0000000000006774       0xa4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000006774                GetDriverOrder
+ .text.GetBootOrder
+                0x0000000000006818       0xa4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000006818                GetBootOrder
+ .text.UpdateOrderPage
+                0x00000000000068bc      0x208 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.UpdatePageBody
+                0x0000000000006ac4       0xb4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.UpdateConsoleContent
+                0x0000000000006b78      0x1f0 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.BOpt_CreateMenuEntry
+                0x0000000000006d68       0xac /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000006d68                BOpt_CreateMenuEntry
+ .text.LibDevicePathToStr
+                0x0000000000006e14       0x8c /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000006e14                UiDevicePathToStr
+                0x0000000000006e14                LibDevicePathToStr
+ .text.GetConsoleMenu
+                0x0000000000006ea0      0x34c /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000006ea0                GetConsoleMenu
+ .text.BOpt_GetDriverOptions
+                0x00000000000071ec      0x218 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x00000000000071ec                BOpt_GetDriverOptions
+ .text.ExtractFileNameFromDevicePath
+                0x0000000000007404       0x84 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.ReSendForm
+                0x0000000000007488      0x198 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.CreateDriverOptionFromFile
+                0x0000000000007620        0x8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.CreateBootOptionFromFile
+                0x0000000000007628        0x8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.ChooseFile.constprop.0
+                0x0000000000007630      0x310 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.CreateDeviceManagerForm
+                0x0000000000007940      0x564 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000007940                CreateDeviceManagerForm
+ .text.DeviceManagerCallback
+                0x0000000000007ea4       0xd8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.BmPrintDp
+                0x0000000000007f7c       0x20 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000007f7c                BmPrintDp
+ .text.BmSetVariableAndReportStatusCodeOnError
+                0x0000000000007f9c       0xc0 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000007f9c                BmSetVariableAndReportStatusCodeOnError
+ .text.BmDelPartMatchInstance
+                0x000000000000805c      0x110 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000000805c                BmDelPartMatchInstance
+ .text.BmRepairAllControllers.part.0
+                0x000000000000816c      0x2ec /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000000816c                BmRepairAllControllers.part.0
+ .text.EfiBootManagerFreeLoadOption
+                0x0000000000008458       0x54 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000008458                EfiBootManagerFreeLoadOption
+ .text.EfiBootManagerFreeLoadOptions
+                0x00000000000084ac       0x64 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x00000000000084ac                EfiBootManagerFreeLoadOptions
+ .text.EfiBootManagerDeleteLoadOptionVariable
+                0x0000000000008510      0x150 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000008510                EfiBootManagerDeleteLoadOptionVariable
+ .text.EfiBootManagerFindLoadOption
+                0x0000000000008660       0xc0 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000008660                EfiBootManagerFindLoadOption
+ .text.EfiBootManagerInitializeLoadOption
+                0x0000000000008720       0xe4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000008720                EfiBootManagerInitializeLoadOption
+ .text.BootFromFile
+                0x0000000000008804      0x18c /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.EfiBootManagerVariableToLoadOptionEx.part.0
+                0x0000000000008990      0x1e4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000008990                EfiBootManagerVariableToLoadOptionEx.part.0
+ .text.EfiBootManagerGetLoadOptions.part.0.constprop.0
+                0x0000000000008b74      0x14c /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000008b74                EfiBootManagerGetLoadOptions.part.0.constprop.0
+ .text.BOpt_GetBootOptions
+                0x0000000000008cc0      0x320 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000008cc0                BOpt_GetBootOptions
+ .text.BootMaintCallback
+                0x0000000000008fe0     0x13d8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.BmHotkeyCallback
+                0x000000000000a3b8      0x194 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000000a3b8                BmHotkeyCallback
+ .text.BootManagerCallback
+                0x000000000000a54c      0x5b0 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.EfiBootManagerLoadOptionToVariable
+                0x000000000000aafc      0x1ec /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000000aafc                EfiBootManagerLoadOptionToVariable
+ .text.BmGetFreeOptionNumber
+                0x000000000000ace8      0x118 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000000ace8                BmGetFreeOptionNumber
+ .text.EfiBootManagerAddLoadOptionVariable.constprop.0
+                0x000000000000ae00      0x1a8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000000ae00                EfiBootManagerAddLoadOptionVariable.constprop.0
+ .text.BootMaintRouteConfig
+                0x000000000000afa8      0xee8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .text.BmGetBootDescription
+                0x000000000000be90      0x110 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000000be90                BmGetBootDescription
+ .text.BmEliminateExtraSpaces
+                0x000000000000bfa0       0x44 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.EfiEventEmptyFunction
+                0x000000000000bfe4        0x4 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.HiiRemovePackages
+                0x000000000000bfe8       0x18 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.AsciiStrCmp
+                0x000000000000c000       0x28 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.RShiftU64
+                0x000000000000c028        0x8 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.GetPcdProtocol
+                0x000000000000c030       0x48 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.FakeRouteConfig
+                0x000000000000c078       0x24 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000c078                FakeRouteConfig
+ .text.FakeExtractConfig
+                0x000000000000c09c       0x24 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000c09c                FakeExtractConfig
+ .text.BmDestroyRamDisk
+                0x000000000000c0c0       0xf8 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.BmEndOfBdsPerfCode
+                0x000000000000c1b8       0x30 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.SPrintLength
+                0x000000000000c1e8       0x40 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.UefiLibGetStringWidth.part.0
+                0x000000000000c228       0x84 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000c228                UefiLibGetStringWidth.part.0
+ .text.IsDevicePathEnd
+                0x000000000000c2ac       0x24 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000c2ac                IsDevicePathEnd
+ .text.EfiBootManagerConnectDevicePath
+                0x000000000000c2d0      0x150 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.NextDevicePathNode
+                0x000000000000c420       0x28 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000c420                NextDevicePathNode
+ .text.BmMatchPartitionDevicePathNode.part.0
+                0x000000000000c448       0xb4 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.IsDevicePathValid
+                0x000000000000c4fc       0xd8 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.UefiDevicePathLibGetDevicePathSize
+                0x000000000000c5d4       0x74 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000c5d4                UefiDevicePathLibGetDevicePathSize
+ .text.DevicePathFromHandle
+                0x000000000000c648       0x6c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000c648                DevicePathFromHandle
+ .text.FreePool
+                0x000000000000c6b4       0x14 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000c6b4                FreePool
+ .text.BmConnectUsbShortFormDevicePath
+                0x000000000000c6c8      0x178 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.HiiFreeOpCodeHandle
+                0x000000000000c840       0x2c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000c840                HiiFreeOpCodeHandle
+ .text.UiCustomizeFrontPageBanner
+                0x000000000000c86c       0x64 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.AllocateZeroPool
+                0x000000000000c8d0       0x34 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000c8d0                AllocateZeroPool
+ .text.HiiGetSupportedLanguages
+                0x000000000000c904       0xc0 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000c904                HiiGetSupportedLanguages
+ .text.AllocatePool
+                0x000000000000c9c4        0x4 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000c9c4                AllocatePool
+ .text.HiiAllocateOpCodeHandle
+                0x000000000000c9c8       0x54 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000c9c8                HiiAllocateOpCodeHandle
+ .text.GetVariable2
+                0x000000000000ca1c      0x114 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000ca1c                GetVariable2
+ .text.GetEfiGlobalVariable2
+                0x000000000000cb30       0x14 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000cb30                GetEfiGlobalVariable2
+ .text.BasePrintLibValueToString
+                0x000000000000cb44       0x2c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000cb44                BasePrintLibValueToString
+ .text.BasePrintLibFillBuffer
+                0x000000000000cb70       0x34 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000cb70                BasePrintLibFillBuffer
+ .text.UnicodeValueToStringS
+                0x000000000000cba4      0x1b8 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000cba4                UnicodeValueToStringS
+ .text.BmGetNvmeDescription
+                0x000000000000cd5c      0x1e8 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000cd5c                BmGetNvmeDescription
+ .text.UnicodeVSPrint
+                0x000000000000cf44       0x54 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000cf44                UnicodeVSPrint
+ .text.UnicodeSPrint
+                0x000000000000cf98       0xa4 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000cf98                UnicodeSPrint
+ .text.BmGetNetworkDescription
+                0x000000000000d03c      0x294 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000d03c                BmGetNetworkDescription
+ .text.AsciiStrnCmp
+                0x000000000000d2d0       0x44 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000d2d0                AsciiStrnCmp
+ .text.AsciiStrLen
+                0x000000000000d314       0x1c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000d314                AsciiStrLen
+ .text.AsciiStrSize
+                0x000000000000d330       0x18 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.StrStr   0x000000000000d348       0x48 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000d348                StrStr
+ .text.StrnCmp  0x000000000000d390       0x44 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000d390                StrnCmp
+ .text.InternalHiiCompareSubString
+                0x000000000000d3d4       0x88 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000d3d4                InternalHiiCompareSubString
+ .text.StrCmp   0x000000000000d45c       0x28 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000d45c                StrCmp
+ .text.StrLen   0x000000000000d484       0x1c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000d484                StrLen
+ .text.StrSize  0x000000000000d4a0       0x1c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000d4a0                StrSize
+ .text.AsciiStrnLenS
+                0x000000000000d4bc       0x3c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000d4bc                AsciiStrnLenS
+ .text.AsciiStrToUnicodeStrS
+                0x000000000000d4f8       0xa8 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.GetOptionalStringByIndex
+                0x000000000000d5a0       0xa8 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.StrnLenS
+                0x000000000000d648       0x3c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000d648                StrnLenS
+ .text.InternalSafeStringNoStrOverlap
+                0x000000000000d684       0x3c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000d684                InternalSafeStringNoStrOverlap
+ .text.StrCatS  0x000000000000d6c0       0xc4 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000d6c0                StrCatS
+ .text.BmGetUsbDescription
+                0x000000000000d784      0x1d0 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000d784                BmGetUsbDescription
+ .text.StrnCpyS
+                0x000000000000d954       0xe0 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000d954                StrnCpyS
+ .text.StrCpyS  0x000000000000da34       0xa0 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000da34                StrCpyS
+ .text.CopyMem  0x000000000000dad4       0x1c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000dad4                CopyMem
+ .text.GetBestLanguage
+                0x000000000000daf0      0x198 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000daf0                GetBestLanguage
+ .text.SetDevicePathEndNode
+                0x000000000000dc88       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.ReallocatePool
+                0x000000000000dc98       0x70 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000dc98                ReallocatePool
+ .text.InternalHiiGrowOpCodeHandle
+                0x000000000000dd08       0x70 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000dd08                InternalHiiGrowOpCodeHandle
+ .text.InternalHiiCreateOpCodeExtended
+                0x000000000000dd78       0x4c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000dd78                InternalHiiCreateOpCodeExtended
+ .text.InternalHiiCreateOpCode
+                0x000000000000ddc4        0xc /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000ddc4                InternalHiiCreateOpCode
+ .text.HiiCreateGotoOpCode
+                0x000000000000ddd0       0xa8 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000ddd0                HiiCreateGotoOpCode
+ .text.HiiCreateOneOfOptionOpCode
+                0x000000000000de78       0xb0 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000de78                HiiCreateOneOfOptionOpCode
+ .text.HiiCreateEndOpCode
+                0x000000000000df28       0x54 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000df28                HiiCreateEndOpCode
+ .text.HiiGetFormSetFromHiiHandle
+                0x000000000000df7c      0x1f0 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000df7c                HiiGetFormSetFromHiiHandle
+ .text.UefiDevicePathLibCatPrint
+                0x000000000000e16c      0x158 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000e16c                UefiDevicePathLibCatPrint
+ .text.DevPathToTextNodeGeneric
+                0x000000000000e2c4       0xe8 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000e2c4                DevPathToTextNodeGeneric
+ .text.DevPathToTextEndInstance
+                0x000000000000e3ac        0xc /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000e3ac                DevPathToTextEndInstance
+ .text.DevPathToTextBBS
+                0x000000000000e3b8       0xa0 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000e3b8                DevPathToTextBBS
+ .text.DevPathRelativeOffsetRange
+                0x000000000000e458       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000e458                DevPathRelativeOffsetRange
+ .text.DevPathToTextFvFile
+                0x000000000000e468       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000e468                DevPathToTextFvFile
+ .text.DevPathToTextFv
+                0x000000000000e478       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000e478                DevPathToTextFv
+ .text.DevPathToTextMediaProtocol
+                0x000000000000e488       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000e488                DevPathToTextMediaProtocol
+ .text.DevPathToTextFilePath
+                0x000000000000e498       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000e498                DevPathToTextFilePath
+ .text.DevPathToTextCDROM
+                0x000000000000e4a8       0x30 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000e4a8                DevPathToTextCDROM
+ .text.DevPathToTextHardDrive
+                0x000000000000e4d8       0x8c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000e4d8                DevPathToTextHardDrive
+ .text.DevPathToTextUri
+                0x000000000000e564       0x6c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000e564                DevPathToTextUri
+ .text.DevPathToTextBluetoothLE
+                0x000000000000e5d0       0x44 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000e5d0                DevPathToTextBluetoothLE
+ .text.DevPathToTextWiFi
+                0x000000000000e614       0x70 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000e614                DevPathToTextWiFi
+ .text.DevPathToTextBluetooth
+                0x000000000000e684       0x24 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000e684                DevPathToTextBluetooth
+ .text.DevPathToTextVlan
+                0x000000000000e6a8       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000e6a8                DevPathToTextVlan
+ .text.DevPathToTextiSCSI
+                0x000000000000e6b8      0x10c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000e6b8                DevPathToTextiSCSI
+ .text.DevPathToTextUart
+                0x000000000000e7c4      0x118 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000e7c4                DevPathToTextUart
+ .text.DevPathToTextInfiniBand
+                0x000000000000e8dc       0x1c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000e8dc                DevPathToTextInfiniBand
+ .text.CatIPv6Address
+                0x000000000000e8f8       0x8c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.CatIPv4Address
+                0x000000000000e984       0x1c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.DevPathToTextDns
+                0x000000000000e9a0       0xc4 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000e9a0                DevPathToTextDns
+ .text.CatNetworkProtocol
+                0x000000000000ea64       0x38 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.DevPathToTextIPv6
+                0x000000000000ea9c       0xec /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000ea9c                DevPathToTextIPv6
+ .text.DevPathToTextIPv4
+                0x000000000000eb88       0xf4 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000eb88                DevPathToTextIPv4
+ .text.DevPathToTextMacAddr
+                0x000000000000ec7c       0x8c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000ec7c                DevPathToTextMacAddr
+ .text.DevPathToTextI2O
+                0x000000000000ed08       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000ed08                DevPathToTextI2O
+ .text.DevPathToTextSata
+                0x000000000000ed18       0x18 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000ed18                DevPathToTextSata
+ .text.DevPathToTextUsbClass
+                0x000000000000ed30      0x194 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000ed30                DevPathToTextUsbClass
+ .text.DevPathToTextLogicalUnit
+                0x000000000000eec4       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000eec4                DevPathToTextLogicalUnit
+ .text.DevPathToTextUsb
+                0x000000000000eed4       0x14 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000eed4                DevPathToTextUsb
+ .text.DevPathToText1394
+                0x000000000000eee8       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000eee8                DevPathToText1394
+ .text.DevPathToTextEmmc
+                0x000000000000eef8       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000eef8                DevPathToTextEmmc
+ .text.DevPathToTextSd
+                0x000000000000ef08       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000ef08                DevPathToTextSd
+ .text.DevPathToTextUfs
+                0x000000000000ef18       0x14 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000ef18                DevPathToTextUfs
+ .text.DevPathToTextNVMe
+                0x000000000000ef2c       0x54 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000ef2c                DevPathToTextNVMe
+ .text.DevPathToTextSasEx
+                0x000000000000ef80      0x18c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000ef80                DevPathToTextSasEx
+ .text.DevPathToTextFibreEx
+                0x000000000000f10c       0xa8 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000f10c                DevPathToTextFibreEx
+ .text.DevPathToTextFibre
+                0x000000000000f1b4       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000f1b4                DevPathToTextFibre
+ .text.DevPathToTextScsi
+                0x000000000000f1c4       0x14 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000f1c4                DevPathToTextScsi
+ .text.DevPathToTextAtapi
+                0x000000000000f1d8       0x60 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000f1d8                DevPathToTextAtapi
+ .text.DevPathToTextAcpiAdr
+                0x000000000000f238       0x9c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000f238                DevPathToTextAcpiAdr
+ .text.DevPathToTextAcpiEx
+                0x000000000000f2d4      0x288 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000f2d4                DevPathToTextAcpiEx
+ .text.DevPathToTextAcpi
+                0x000000000000f55c       0xc0 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000f55c                DevPathToTextAcpi
+ .text.DevPathToTextBmc
+                0x000000000000f61c       0x3c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000f61c                DevPathToTextBmc
+ .text.DevPathToTextController
+                0x000000000000f658       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000f658                DevPathToTextController
+ .text.DevPathToTextMemMap
+                0x000000000000f668       0x14 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000f668                DevPathToTextMemMap
+ .text.DevPathToTextPccard
+                0x000000000000f67c       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000f67c                DevPathToTextPccard
+ .text.DevPathToTextPci
+                0x000000000000f68c       0x14 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000f68c                DevPathToTextPci
+ .text.AllocateCopyPool
+                0x000000000000f6a0       0x3c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000f6a0                AllocateCopyPool
+ .text.BmGetMiscDescription
+                0x000000000000f6dc      0x1e4 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000f6dc                BmGetMiscDescription
+ .text.BmGetLoadFileDescription
+                0x000000000000f8c0       0xe8 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000f8c0                BmGetLoadFileDescription
+ .text.DevPathToTextUsbWWID
+                0x000000000000f9a8       0x90 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000f9a8                DevPathToTextUsbWWID
+ .text.UefiDevicePathLibDuplicateDevicePath
+                0x000000000000fa38       0x34 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000fa38                UefiDevicePathLibDuplicateDevicePath
+ .text.BmGetRamDiskDevicePath
+                0x000000000000fa6c       0xc4 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.UefiDevicePathLibGetNextDevicePathInstance
+                0x000000000000fb30       0xc0 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000fb30                UefiDevicePathLibGetNextDevicePathInstance
+ .text.EfiBootManagerConnectConsoleVariable.part.0
+                0x000000000000fbf0      0x27c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.UefiDevicePathLibAppendDevicePathInstance
+                0x000000000000fe6c       0xec /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000000fe6c                UefiDevicePathLibAppendDevicePathInstance
+ .text.UefiDevicePathLibAppendDevicePath
+                0x000000000000ff58       0xcc /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.FileDevicePath
+                0x0000000000010024       0xa0 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x0000000000010024                FileDevicePath
+ .text.BmExpandMediaDevicePath
+                0x00000000000100c4      0x224 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.UefiDevicePathLibAppendDevicePathNode
+                0x00000000000102e8       0x9c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x00000000000102e8                UefiDevicePathLibAppendDevicePathNode
+ .text.BmAdjustFvFilePath
+                0x0000000000010384      0x194 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.GetNextLanguage
+                0x0000000000010518       0x80 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.FrontPageCallback
+                0x0000000000010598      0x1ac /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.CompareGuid
+                0x0000000000010744        0x4 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x0000000000010744                CompareGuid
+ .text.BmGetDescriptionFromDiskInfo
+                0x0000000000010748      0x260 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x0000000000010748                BmGetDescriptionFromDiskInfo
+ .text.BmIsBootManagerMenuFilePath
+                0x00000000000109a8       0xa4 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.EfiBootManagerRefreshAllBootOption
+                0x0000000000010a4c      0x5b4 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x0000000000010a4c                EfiBootManagerRefreshAllBootOption
+ .text.BmUpdateSystemTableConsole
+                0x0000000000011000      0x188 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.EfiBootManagerConnectAllDefaultConsoles
+                0x0000000000011188      0x150 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.EfiBootManagerConnectAll
+                0x00000000000112d8       0xcc /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.HiiUpdateForm
+                0x00000000000113a4      0x4c0 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x00000000000113a4                HiiUpdateForm
+ .text.EfiGetSystemConfigurationTable
+                0x0000000000011864       0x94 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.GetHobList
+                0x00000000000118f8       0x3c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.DevPathToTextRamDisk
+                0x0000000000011934      0x1a8 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x0000000000011934                DevPathToTextRamDisk
+ .text.DevPathToTextVendor
+                0x0000000000011adc      0x350 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x0000000000011adc                DevPathToTextVendor
+ .text.CopyGuid
+                0x0000000000011e2c        0x8 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x0000000000011e2c                CopyGuid
+ .text.HiiAddPackages
+                0x0000000000011e34      0x1c8 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.LibPcdSet32S
+                0x0000000000011ffc       0x34 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x0000000000011ffc                LibPcdSet32S
+ .text.UiSetConsoleMode
+                0x0000000000012030      0x370 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.LibPcdGet32
+                0x00000000000123a0       0x2c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x00000000000123a0                LibPcdGet32
+ .text.memcpy   0x00000000000123cc       0x20 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x00000000000123cc                memcpy
+ .text.__stack_chk_fail
+                0x00000000000123ec       0x18 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x00000000000123ec                __stack_chk_fail
+ .text.BmExpandLoadFile
+                0x0000000000012404      0x298 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.BmReportLoadFailure
+                0x000000000001269c       0x5c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.BmCachePartitionDevicePath
+                0x00000000000126f8       0xcc /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.BmGetNextLoadOptionDevicePath
+                0x00000000000127c4      0xbd4 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .text.EfiBootManagerBoot
+                0x0000000000013398      0xd54 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x0000000000013398                EfiBootManagerBoot
+ .text._ModuleEntryPoint
+                0x00000000000140ec     0x1efc /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x00000000000140ec                _ModuleEntryPoint
+ *fill*         0x0000000000015fe8        0x8 
+ .text          0x0000000000015ff0      0x218 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                0x000000000001615c                InternalMemCopyMem
+ *fill*         0x0000000000016208       0x18 
+ .text          0x0000000000016220       0x20 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                0x0000000000016220                InternalMemCompareGuid
+ .text          0x0000000000016240      0x200 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                0x0000000000016240                InternalMemSetMem16
+                0x000000000001624c                InternalMemSetMem32
+                0x0000000000016258                InternalMemSetMem64
+                0x0000000000016264                InternalMemZeroMem
+                0x000000000001626c                InternalMemSetMem
+ .text          0x0000000000016440       0xe0 /home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                0x0000000000016440                InternalMemCompareMem
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.BOpt_DestroyMenuEntry
+                0x0000000000016520        0x6 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.BOpt_GetOptionNumber.str2.2
+                0x0000000000016526       0x1e /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.StrnCatS.constprop.0.str2.2
+                0x0000000000016544        0x8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.HiiConstructConfigHdr.constprop.0.str2.2
+                0x000000000001654c       0x28 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.LibAppendFileName.str2.2
+                0x0000000000016574        0x4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.BmRepairNotify.str2.2
+                0x0000000000016578       0x34 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.BootMaintExtractConfig.str2.2
+                0x00000000000165ac       0x40 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.CreatePopUp.constprop.0.str2.2
+                0x00000000000165ec        0x8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.HiiSetString.constprop.0.str1.1
+                0x00000000000165f4        0x7 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.HiiGetString.constprop.0.str1.1
+                0x00000000000165fb        0x7 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                                          0x1 (size before relaxing)
+ *fill*         0x00000000000165fb        0x1 
+ .rodata.HiiGetString.constprop.0.str2.2
+                0x00000000000165fc       0x1a /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.IsMacAddressDevicePath.str2.2
+                0x0000000000016616        0xa /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.EndPerformanceMeasurementEx.constprop.0.str1.1
+                0x0000000000016620        0xb /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.BasePrintLibSPrintMarker.constprop.0.str1.1
+                0x000000000001662b       0x7b /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ *fill*         0x00000000000166a6        0x2 
+ .rodata.BasePrintLibSPrintMarker.constprop.0
+                0x00000000000166a8       0x5e /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.BootDescriptionHandler.lto_priv.0.str2.2
+                0x0000000000016706       0x62 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.UefiDevicePathLibConvertDevicePathToText.constprop.0.str2.2
+                0x0000000000016768        0x4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.BmGetControllerName.str2.2
+                0x000000000001676c        0x4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                                          0xa (size before relaxing)
+ .rodata.BmGetControllerName.str1.1
+                0x000000000001676c        0xa /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.BmDisplayMessages.str2.2
+                0x0000000000016776       0x2c /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.LibCallback.str2.2
+                0x00000000000167a2        0xa /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.UpdatePageBody
+                0x00000000000167ac        0x8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.UpdateConsoleContent.str2.2
+                0x00000000000167b4       0x28 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.BOpt_CreateMenuEntry
+                0x00000000000167dc        0x6 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.GetConsoleMenu.str2.2
+                0x00000000000167e2       0x3a /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.BOpt_GetDriverOptions.str2.2
+                0x000000000001681c       0x2e /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.ChooseFile.constprop.0.str2.2
+                0x000000000001684a       0x64 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.CreateDeviceManagerForm.str2.2
+                0x00000000000168ae        0xc /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.BootFromFile.str2.2
+                0x00000000000168ba       0x86 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.EfiBootManagerGetLoadOptions.part.0.constprop.0.str2.2
+                0x0000000000016940       0x1e /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.BOpt_GetBootOptions.str2.2
+                0x000000000001695e       0x24 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.BootMaintCallback.str2.2
+                0x0000000000016982        0xc /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ *fill*         0x000000000001698e        0x2 
+ .rodata.BootMaintCallback
+                0x0000000000016990       0x50 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.BootManagerCallback.str2.2
+                0x00000000000169e0       0x1e /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.BootMaintRouteConfig.str2.2
+                0x00000000000169fe       0x4a /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.str2.2
+                0x0000000000016a48      0x14c /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ *fill*         0x0000000000016b94        0x4 
+ .rodata.BaudRateList
+                0x0000000000016b98      0x130 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000016b98                BaudRateList
+ .rodata.DataBitsList
+                0x0000000000016cc8       0x40 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000016cc8                DataBitsList
+ .rodata.ParityList
+                0x0000000000016d08       0x50 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000016d08                ParityList
+ .rodata.StopBitsList
+                0x0000000000016d58       0x30 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000016d58                StopBitsList
+ .rodata.TerminalType
+                0x0000000000016d88       0x12 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdDriverHealthConfigureForm
+                0x0000000000016d9a       0x10 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000016d9a                _gPcd_FixedAtBuild_PcdDriverHealthConfigureForm
+ *fill*         0x0000000000016daa        0x6 
+ .rodata.mBmBootDescriptionHandlers
+                0x0000000000016db0       0x30 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.mBmLoadOptionName
+                0x0000000000016de0       0x20 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000016de0                mBmLoadOptionName
+ .rodata.mBmLoadOptionOrderName
+                0x0000000000016e00       0x20 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.mConfigHdrTemplate
+                0x0000000000016e20       0x70 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.mDeviceTypeStr
+                0x0000000000016e90       0x40 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.mErrorString
+                0x0000000000016ed0      0x2b5 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ *fill*         0x0000000000017185        0x3 
+ .rodata.mUefiDevicePathLibToTextTable
+                0x0000000000017188      0x320 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.mWarningString
+                0x00000000000174a8       0x96 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .rodata.BmEndOfBdsPerfCode.str1.1
+                0x000000000001753e        0x4 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.BmGetNetworkDescription.str2.2
+                0x0000000000017542       0xb4 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.BmGetUsbDescription.str2.2
+                0x00000000000175f6       0xb4 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                                          0x4 (size before relaxing)
+ .rodata.DevPathToTextNodeGeneric.str2.2
+                0x00000000000175f6       0x22 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                                         0x34 (size before relaxing)
+ .rodata.DevPathToTextBBS.str2.2
+                0x0000000000017618       0x2c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                                         0x3a (size before relaxing)
+ .rodata.DevPathRelativeOffsetRange.str2.2
+                0x0000000000017644       0x28 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextFvFile.str2.2
+                0x000000000001766c       0x16 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextFv.str2.2
+                0x0000000000017682        0xe /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextMediaProtocol.str2.2
+                0x0000000000017690       0x14 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextFilePath.str2.2
+                0x00000000000176a4       0x14 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                                          0x6 (size before relaxing)
+ .rodata.DevPathToTextCDROM.str2.2
+                0x00000000000176a4       0x48 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextHardDrive.str2.2
+                0x00000000000176ec       0x64 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                                         0x7e (size before relaxing)
+ .rodata.DevPathToTextUri.str2.2
+                0x0000000000017750       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextBluetoothLE.str2.2
+                0x0000000000017760       0x5a /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextWiFi.str2.2
+                0x00000000000177ba       0x14 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextBluetooth.str2.2
+                0x00000000000177ce       0x48 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextVlan.str2.2
+                0x0000000000017816       0x12 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextiSCSI.str2.2
+                0x0000000000017828       0x76 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                                         0x90 (size before relaxing)
+ .rodata.DevPathToTextUart.str2.2
+                0x000000000001789e       0x5c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                                         0x74 (size before relaxing)
+ *fill*         0x00000000000178fa        0x2 
+ .rodata.DevPathToTextUart
+                0x00000000000178fc        0x4 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextInfiniBand.str2.2
+                0x0000000000017900       0x4c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.CatIPv6Address.str2.2
+                0x000000000001794c       0x90 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.CatIPv4Address.str2.2
+                0x00000000000179dc       0x18 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextDns.str2.2
+                0x00000000000179f4        0xa /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.CatNetworkProtocol.str2.2
+                0x00000000000179fe        0x8 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                                         0x12 (size before relaxing)
+ .rodata.DevPathToTextIPv6.str2.2
+                0x0000000000017a06       0x80 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                                         0x8e (size before relaxing)
+ .rodata.DevPathToTextIPv4.str2.2
+                0x0000000000017a86       0x24 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextMacAddr.str2.2
+                0x0000000000017aaa        0xa /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextI2O.str2.2
+                0x0000000000017ab4       0x14 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextSata.str2.2
+                0x0000000000017ac8       0x2a /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextUsbClass.str2.2
+                0x0000000000017af2      0x250 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ *fill*         0x0000000000017d42        0x2 
+ .rodata.DevPathToTextUsbClass
+                0x0000000000017d44        0xe /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextLogicalUnit.str2.2
+                0x0000000000017d52       0x16 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextUsb.str2.2
+                0x0000000000017d68       0x1e /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToText1394.str2.2
+                0x0000000000017d86       0x1c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextEmmc.str2.2
+                0x0000000000017da2       0x16 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextSd.str2.2
+                0x0000000000017db8       0x12 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextUfs.str2.2
+                0x0000000000017dca       0x1e /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextNVMe.str2.2
+                0x0000000000017de8       0x66 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextSasEx.str2.2
+                0x0000000000017e4e       0xb4 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                                         0xc0 (size before relaxing)
+ .rodata.DevPathToTextFibreEx.str2.2
+                0x0000000000017f02       0x16 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextFibre.str2.2
+                0x0000000000017f18       0x26 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextScsi.str2.2
+                0x0000000000017f3e       0x20 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextAtapi.str2.2
+                0x0000000000017f5e       0x72 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextAcpiAdr.str2.2
+                0x0000000000017fd0       0x26 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextAcpiEx.str2.2
+                0x0000000000017ff6      0x12c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                                        0x148 (size before relaxing)
+ .rodata.DevPathToTextAcpi.str2.2
+                0x0000000000018122       0xc2 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextBmc.str2.2
+                0x00000000000181e4       0x20 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextController.str2.2
+                0x0000000000018204       0x16 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextMemMap.str2.2
+                0x000000000001821a       0x3e /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextPccard.str2.2
+                0x0000000000018258       0x1a /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.DevPathToTextPci.str2.2
+                0x0000000000018272       0x1e /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.BmGetMiscDescription.str2.2
+                0x0000000000018290       0xa4 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                                         0xc8 (size before relaxing)
+ .rodata.DevPathToTextUsbWWID.str2.2
+                0x0000000000018334       0x3a /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.BmExpandMediaDevicePath.str2.2
+                0x000000000001836e       0x2e /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.FrontPageCallback.str2.2
+                0x000000000001839c       0x1a /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.BmGetDescriptionFromDiskInfo.str2.2
+                0x000000000001839c       0x2c /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.EfiBootManagerRefreshAllBootOption.str2.2
+                0x00000000000183c8        0xc /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.EfiBootManagerConnectAllDefaultConsoles.str1.1
+                0x00000000000183d4       0x23 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.EfiBootManagerConnectAllDefaultConsoles.str2.2
+                0x00000000000183f7       0x28 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ *fill*         0x00000000000183f7        0x1 
+ .rodata.DevPathToTextRamDisk.str2.2
+                0x00000000000183f8       0xca /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                                        0x136 (size before relaxing)
+ .rodata.DevPathToTextVendor.str2.2
+                0x00000000000184c2      0x154 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                                        0x166 (size before relaxing)
+ .rodata.BmGetNextLoadOptionDevicePath.str2.2
+                0x0000000000018616        0xa /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.EfiBootManagerBoot.str2.2
+                0x0000000000018620       0x44 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                                         0x5c (size before relaxing)
+ .rodata.EfiBootManagerBoot.str1.1
+                0x0000000000018664        0xb /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata._ModuleEntryPoint.str2.2
+                0x0000000000018664       0x3e /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                                         0xc8 (size before relaxing)
+ .rodata.str2.2
+                0x00000000000186a2       0x56 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                                         0xc2 (size before relaxing)
+ .rodata.CSWTCH.42
+                0x00000000000186f8        0x6 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ *fill*         0x00000000000186fe        0x2 
+ .rodata.CSWTCH.58
+                0x0000000000018700       0x30 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdBootManagerMenuFile
+                0x0000000000018730       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdFirmwareVersionString
+                0x0000000000018740       0x1e /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdUefiVariableDefaultPlatformLangCodes
+                0x000000000001875e        0x6 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ *fill*         0x0000000000018764        0x4 
+ .rodata.mConVarName
+                0x0000000000018768       0x30 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.mEndOfPakageList
+                0x0000000000018798        0x4 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.mHexStr
+                0x000000000001879c       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.mHiiDefaultTypeToWidth
+                0x00000000000187ac        0x8 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.mUefiDevicePathLibEndDevicePath
+                0x00000000000187b4        0x4 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .rodata.mUefiDevicePathLibToTextTableGeneric
+                0x00000000000187b8       0x60 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ *(.got .got.*)
+ .got           0x0000000000018818        0x8 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x0000000000018818                _GLOBAL_OFFSET_TABLE_
+ .got.plt       0x0000000000018820       0x18 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ *:AutoGen.obj(.data.g*Guid)
+
+.plt            0x0000000000018838        0x0
+ .plt           0x0000000000018838        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.data           0x0000000000019000     0x6edc
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.ro   0x0000000000019000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data.BootOptionMenu
+                0x0000000000019000       0x20 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000019000                BootOptionMenu
+ .data.ConsoleErrMenu
+                0x0000000000019020       0x20 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000019020                ConsoleErrMenu
+ .data.ConsoleInpMenu
+                0x0000000000019040       0x20 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000019040                ConsoleInpMenu
+ .data.ConsoleOutMenu
+                0x0000000000019060       0x20 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000019060                ConsoleOutMenu
+ .data.DriverMenu
+                0x0000000000019080       0x20 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000019080                DriverMenu
+ .data.DriverOptionMenu
+                0x00000000000190a0       0x20 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x00000000000190a0                DriverOptionMenu
+ .data.FileExplorerGuid
+                0x00000000000190c0       0x10 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x00000000000190c0                FileExplorerGuid
+ .data.TerminalMenu
+                0x00000000000190d0       0x20 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x00000000000190d0                TerminalMenu
+ .data.TerminalTypeGuid
+                0x00000000000190f0       0x90 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x00000000000190f0                TerminalTypeGuid
+ .data.gBootMaintenancePrivate
+                0x0000000000019180     0x1c60 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x0000000000019180                gBootMaintenancePrivate
+ .data.gBootManagerPrivate
+                0x000000000001ade0       0x30 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001ade0                gBootManagerPrivate
+ .data.gDeviceManagerPrivate
+                0x000000000001ae10       0x38 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001ae10                gDeviceManagerPrivate
+ .data.gEdkiiFormBrowserEx2ProtocolGuid
+                0x000000000001ae48       0x10 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .data.gEdkiiPerformanceMeasurementProtocolGuid
+                0x000000000001ae58       0x10 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .data.gEdkiiVariableLockProtocolGuid
+                0x000000000001ae68       0x10 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .data.gEfiCallerIdGuid
+                0x000000000001ae78       0x10 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001ae78                gEfiCallerIdGuid
+ .data.gEfiComponentName2ProtocolGuid
+                0x000000000001ae88       0x10 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .data.gEfiComponentNameProtocolGuid
+                0x000000000001ae98       0x10 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .data.gEfiDevicePathProtocolGuid
+                0x000000000001aea8       0x10 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001aea8                gEfiDevicePathProtocolGuid
+ .data.gEfiDevicePathToTextProtocolGuid
+                0x000000000001aeb8       0x10 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .data.gEfiDriverHealthProtocolGuid
+                0x000000000001aec8       0x10 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .data.gEfiFileSystemVolumeLabelInfoIdGuid
+                0x000000000001aed8       0x10 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .data.gEfiFormBrowser2ProtocolGuid
+                0x000000000001aee8       0x10 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001aee8                gEfiFormBrowser2ProtocolGuid
+ .data.gEfiGlobalVariableGuid
+                0x000000000001aef8       0x10 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001aef8                gEfiGlobalVariableGuid
+ .data.gEfiGraphicsOutputProtocolGuid
+                0x000000000001af08       0x10 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001af08                gEfiGraphicsOutputProtocolGuid
+ .data.gEfiHiiConfigRoutingProtocolGuid
+                0x000000000001af18       0x10 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001af18                gEfiHiiConfigRoutingProtocolGuid
+ .data.gEfiHiiPlatformSetupFormsetGuid
+                0x000000000001af28       0x10 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .data.gEfiIfrBootMaintenanceGuid
+                0x000000000001af38       0x10 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .data.gEfiIfrTianoGuid
+                0x000000000001af48       0x10 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001af48                gEfiIfrTianoGuid
+ .data.gEfiPciIoProtocolGuid
+                0x000000000001af58       0x10 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001af58                gEfiPciIoProtocolGuid
+ .data.gEfiSimpleFileSystemProtocolGuid
+                0x000000000001af68       0x10 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001af68                gEfiSimpleFileSystemProtocolGuid
+ .data.gEfiSimpleTextOutProtocolGuid
+                0x000000000001af78       0x10 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001af78                gEfiSimpleTextOutProtocolGuid
+ .data.gFileExplorerPrivate
+                0x000000000001af88       0x58 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001af88                gFileExplorerPrivate
+ .data.mArasan  0x000000000001afe0       0x18 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .data.mBmHotkeyBootOption
+                0x000000000001aff8       0x58 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .data.mBmHotkeyList
+                0x000000000001b050       0x10 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001b050                mBmHotkeyList
+ .data.mBmHotkeyLock
+                0x000000000001b060       0x18 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001b060                mBmHotkeyLock
+ .data.mBmUefiPrefix
+                0x000000000001b078        0xc /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .data.mBootMaintGuid
+                0x000000000001b084       0x10 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001b084                mBootMaintGuid
+ .data.mBootMaintStorageName
+                0x000000000001b094       0x10 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .data.mBootManagerGuid
+                0x000000000001b0a4       0x10 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001b0a4                mBootManagerGuid
+ .data.mDeviceManagerGuid
+                0x000000000001b0b4       0x10 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001b0b4                mDeviceManagerGuid
+ *fill*         0x000000000001b0c4        0x4 
+ .data.mFsOptionMenu
+                0x000000000001b0c8       0x28 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .data.mNewFileQuestionId
+                0x000000000001b0f0        0x8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .data.mNewFolderQuestionId
+                0x000000000001b0f8        0x8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .data.mPlatformBootDescriptionHandlers
+                0x000000000001b100       0x10 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001b100                mPlatformBootDescriptionHandlers
+ .data.mSDHost  0x000000000001b110       0x18 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .data.BootMaintenanceManagerBin
+                0x000000000001b128      0x594 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.BootMaintenanceManagerUiLibStrings
+                0x000000000001b6bc     0x1bbe /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.BootManagerUiLibStrings
+                0x000000000001d27a      0x434 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.BootManagerVfrBin
+                0x000000000001d6ae       0xb3 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.DeviceManagerUiLibStrings
+                0x000000000001d761      0x4b8 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.DeviceManagerVfrBin
+                0x000000000001dc19      0x12d /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.FeHiiVendorDevicePath
+                0x000000000001dd46       0x18 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.FileExplorerLibStrings
+                0x000000000001dd5e      0x81a /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.FileExplorerVfrBin
+                0x000000000001e578       0xf9 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.FrontPageVfrBin
+                0x000000000001e671      0x147 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.UiAppStrings
+                0x000000000001e7b8      0x426 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ *fill*         0x000000000001ebde        0x2 
+ .data.__stack_chk_guard
+                0x000000000001ebe0        0x8 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                0x000000000001ebe0                __stack_chk_guard
+ .data.gEdkiiPlatformBootManagerProtocolGuid
+                0x000000000001ebe8       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiBlockIoProtocolGuid
+                0x000000000001ebf8       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiBootLogoProtocolGuid
+                0x000000000001ec08       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiDebugPortProtocolGuid
+                0x000000000001ec18       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiDiskInfoAhciInterfaceGuid
+                0x000000000001ec28       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiDiskInfoIdeInterfaceGuid
+                0x000000000001ec38       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiDiskInfoProtocolGuid
+                0x000000000001ec48       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiDiskInfoScsiInterfaceGuid
+                0x000000000001ec58       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiDiskInfoSdMmcInterfaceGuid
+                0x000000000001ec68       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiDxeServicesTableGuid
+                0x000000000001ec78       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiEventReadyToBootGuid
+                0x000000000001ec88       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiFileInfoGuid
+                0x000000000001ec98       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiFirmwareVolume2ProtocolGuid
+                0x000000000001eca8       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiHiiConfigAccessProtocolGuid
+                0x000000000001ecb8       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiHiiDatabaseProtocolGuid
+                0x000000000001ecc8       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiHiiFontProtocolGuid
+                0x000000000001ecd8       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiHiiImageProtocolGuid
+                0x000000000001ece8       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiHiiStringProtocolGuid
+                0x000000000001ecf8       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiHobListGuid
+                0x000000000001ed08       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiIfrFrontPageGuid
+                0x000000000001ed18       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiLoadFileProtocolGuid
+                0x000000000001ed28       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiLoadedImageProtocolGuid
+                0x000000000001ed38       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiMemoryTypeInformationGuid
+                0x000000000001ed48       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiNvmExpressPassThruProtocolGuid
+                0x000000000001ed58       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiPcAnsiGuid
+                0x000000000001ed68       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiPersistentVirtualCdGuid
+                0x000000000001ed78       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiPersistentVirtualDiskGuid
+                0x000000000001ed88       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiRamDiskProtocolGuid
+                0x000000000001ed98       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiSasDevicePathGuid
+                0x000000000001eda8       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiSerialIoProtocolGuid
+                0x000000000001edb8       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiSimpleTextInProtocolGuid
+                0x000000000001edc8       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiSimpleTextInputExProtocolGuid
+                0x000000000001edd8       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiSmbiosProtocolGuid
+                0x000000000001ede8       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiUartDevicePathGuid
+                0x000000000001edf8       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiUsbIoProtocolGuid
+                0x000000000001ee08       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiVT100Guid
+                0x000000000001ee18       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiVT100PlusGuid
+                0x000000000001ee28       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiVTUTF8Guid
+                0x000000000001ee38       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiVirtualCdGuid
+                0x000000000001ee48       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gEfiVirtualDiskGuid
+                0x000000000001ee58       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gFrontPagePrivate
+                0x000000000001ee68       0x38 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.gPcdProtocolGuid
+                0x000000000001eea0       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.mBmAutoCreateBootOptionGuid
+                0x000000000001eeb0       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.mBmHardDriveBootVariableGuid
+                0x000000000001eec0       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.mBmmHiiVendorDevicePath
+                0x000000000001eed0       0x18 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.mBootManagerHiiVendorDevicePath
+                0x000000000001eee8       0x18 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.mDeviceManagerHiiVendorDevicePath
+                0x000000000001ef00       0x18 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.mFontBin
+                0x000000000001ef18      0xda0 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.mFontPackageGuid
+                0x000000000001fcb8       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.mFrontPageGuid
+                0x000000000001fcc8       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.mFrontPageHiiVendorDevicePath
+                0x000000000001fcd8       0x18 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .data.mUiStringPackGuid
+                0x000000000001fcf0       0x10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ *(.bss .bss.*)
+ .bss.gBS       0x000000000001fd00        0x8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001fd00                gBS
+ .bss.gHiiConfigRouting
+                0x000000000001fd08        0x8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001fd08                gHiiConfigRouting
+ .bss.gHiiDatabase
+                0x000000000001fd10        0x8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001fd10                gHiiDatabase
+ .bss.gHiiDriverList
+                0x000000000001fd18        0x8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .bss.gHiiString
+                0x000000000001fd20        0x8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001fd20                gHiiString
+ .bss.gRT       0x000000000001fd28        0x8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001fd28                gRT
+ .bss.gST       0x000000000001fd30        0x8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001fd30                gST
+ .bss.mBmBootHorizontalResolution
+                0x000000000001fd38        0x4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001fd38                mBmBootHorizontalResolution
+ .bss.mBmBootTextModeColumn
+                0x000000000001fd3c        0x4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001fd3c                mBmBootTextModeColumn
+ .bss.mBmBootTextModeRow
+                0x000000000001fd40        0x4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001fd40                mBmBootTextModeRow
+ .bss.mBmBootVerticalResolution
+                0x000000000001fd44        0x4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001fd44                mBmBootVerticalResolution
+ .bss.mBmSetupHorizontalResolution
+                0x000000000001fd48        0x4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001fd48                mBmSetupHorizontalResolution
+ .bss.mBmSetupTextModeColumn
+                0x000000000001fd4c        0x4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001fd4c                mBmSetupTextModeColumn
+ .bss.mBmSetupTextModeRow
+                0x000000000001fd50        0x4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001fd50                mBmSetupTextModeRow
+ .bss.mBmSetupVerticalResolution
+                0x000000000001fd54        0x4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001fd54                mBmSetupVerticalResolution
+ .bss.mBmmBootHorizontalResolution
+                0x000000000001fd58        0x4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001fd58                mBmmBootHorizontalResolution
+ .bss.mBmmBootTextModeColumn
+                0x000000000001fd5c        0x4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001fd5c                mBmmBootTextModeColumn
+ .bss.mBmmBootTextModeRow
+                0x000000000001fd60        0x4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001fd60                mBmmBootTextModeRow
+ .bss.mBmmBootVerticalResolution
+                0x000000000001fd64        0x4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001fd64                mBmmBootVerticalResolution
+ .bss.mBmmSetupHorizontalResolution
+                0x000000000001fd68        0x4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001fd68                mBmmSetupHorizontalResolution
+ .bss.mBmmSetupTextModeColumn
+                0x000000000001fd6c        0x4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001fd6c                mBmmSetupTextModeColumn
+ .bss.mBmmSetupTextModeRow
+                0x000000000001fd70        0x4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001fd70                mBmmSetupTextModeRow
+ .bss.mBmmSetupVerticalResolution
+                0x000000000001fd74        0x4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001fd74                mBmmSetupVerticalResolution
+ .bss.mEndOpCodeHandle
+                0x000000000001fd78        0x8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001fd78                mEndOpCodeHandle
+ .bss.mFirstEnterBMMForm
+                0x000000000001fd80        0x1 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ *fill*         0x000000000001fd81        0x1 
+ .bss.mKeyInput
+                0x000000000001fd82        0x2 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ *fill*         0x000000000001fd84        0x4 
+ .bss.mLibEndOpCodeHandle
+                0x000000000001fd88        0x8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .bss.mLibStartOpCodeHandle
+                0x000000000001fd90        0x8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .bss.mMacDeviceList
+                0x000000000001fd98       0x18 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .bss.mNewFileName
+                0x000000000001fdb0       0x28 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .bss.mNewFolderName
+                0x000000000001fdd8       0x28 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .bss.mPerformanceMeasurement
+                0x000000000001fe00        0x8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001fe00                mPerformanceMeasurement
+ .bss.mQuestionIdUpdate
+                0x000000000001fe08        0x2 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ *fill*         0x000000000001fe0a        0x6 
+ .bss.mSelectedMacAddrString
+                0x000000000001fe10        0x8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .bss.mStartLabel
+                0x000000000001fe18        0x8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001fe18                mStartLabel
+ .bss.mStartOpCodeHandle
+                0x000000000001fe20        0x8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                0x000000000001fe20                mStartOpCodeHandle
+ .bss.mUefiFormBrowser2
+                0x000000000001fe28        0x8 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .bss.gCurrentLanguageIndex
+                0x000000000001fe30        0x1 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ *fill*         0x000000000001fe31        0x7 
+ .bss.gDS       0x000000000001fe38        0x8 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .bss.gFormBrowser2
+                0x000000000001fe40        0x8 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .bss.gHiiDriverList
+                0x000000000001fe48        0x8 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .bss.gHiiFont  0x000000000001fe50        0x8 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .bss.gHiiImage
+                0x000000000001fe58        0x8 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .bss.gHiiVendorDevicePath
+                0x000000000001fe60        0x8 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .bss.gImageHandle
+                0x000000000001fe68        0x8 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .bss.gLanguageString
+                0x000000000001fe70        0x8 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .bss.gLanguageToken
+                0x000000000001fe78        0x8 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .bss.gStringPackHandle
+                0x000000000001fe80        0x8 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .bss.mAllMenuInit
+                0x000000000001fe88        0x1 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .bss.mBmModeInitialized
+                0x000000000001fe89        0x1 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .bss.mBmmModeInitialized
+                0x000000000001fe8a        0x1 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ *fill*         0x000000000001fe8b        0x1 
+ .bss.mBootHorizontalResolution
+                0x000000000001fe8c        0x4 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .bss.mBootTextModeColumn
+                0x000000000001fe90        0x4 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .bss.mBootTextModeRow
+                0x000000000001fe94        0x4 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .bss.mBootVerticalResolution
+                0x000000000001fe98        0x4 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ *fill*         0x000000000001fe9c        0x4 
+ .bss.mHobList  0x000000000001fea0        0x8 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .bss.mLanguageString
+                0x000000000001fea8        0x8 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .bss.mModeInitialized
+                0x000000000001feb0        0x1 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ *fill*         0x000000000001feb1        0x7 
+ .bss.mPcd      0x000000000001feb8        0x8 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .bss.mRamDisk  0x000000000001fec0        0x8 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .bss.mResetRequired
+                0x000000000001fec8        0x1 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ *fill*         0x000000000001fec9        0x3 
+ .bss.mSetupHorizontalResolution
+                0x000000000001fecc        0x4 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .bss.mSetupTextModeColumn
+                0x000000000001fed0        0x4 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .bss.mSetupTextModeRow
+                0x000000000001fed4        0x4 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .bss.mSetupVerticalResolution
+                0x000000000001fed8        0x4 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+
+.dynbss         0x000000000001fedc        0x0
+ .dynbss        0x000000000001fedc        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.eh_frame
+ *(.eh_frame)
+
+.rela           0x000000000001fee0      0xa08
+ *(.rela .rela.*)
+ .rela.got      0x000000000001fee0        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.plt      0x000000000001fee0        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.bss      0x000000000001fee0        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.rel.ro
+                0x000000000001fee0        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.ifunc    0x000000000001fee0        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.gBootMaintenancePrivate
+                0x000000000001fee0       0x48 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.gBootManagerPrivate
+                0x000000000001ff28       0x48 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.gDeviceManagerPrivate
+                0x000000000001ff70       0x48 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.gFileExplorerPrivate
+                0x000000000001ffb8       0x60 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.mBmHotkeyList
+                0x0000000000020018       0x30 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.mPlatformBootDescriptionHandlers
+                0x0000000000020048       0x30 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mBmBootDescriptionHandlers
+                0x0000000000020078       0x90 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mBmLoadOptionName
+                0x0000000000020108       0x60 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mBmLoadOptionOrderName
+                0x0000000000020168       0x48 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mDeviceTypeStr
+                0x00000000000201b0       0xc0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mUefiDevicePathLibToTextTable
+                0x0000000000020270      0x498 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.gFrontPagePrivate
+                0x0000000000020708       0x48 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.CSWTCH.58
+                0x0000000000020750       0x90 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mConVarName
+                0x00000000000207e0       0x90 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mUefiDevicePathLibToTextTableGeneric
+                0x0000000000020870       0x78 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.hii
+ *(.hii)
+
+.build-id       0x00000000000208e8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000000208e8       0x24 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+ *(COMMON)
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+OUTPUT(/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/MdeModulePkg/Application/UiApp/UiApp/DEBUG/UiApp.dll elf64-littleaarch64)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000    0xabb95
+ .debug_info    0x0000000000000000     0xf5b9 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .debug_info    0x000000000000f5b9    0x10ee7 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .debug_info    0x00000000000204a0     0x1929 /tmp/ccLuy8vB.debug.temp.o
+                0x00000000000204a0                ApplicationEntryPoint.c.95515bc3
+ .debug_info    0x0000000000021dc9      0x17b /tmp/ccI8hRPC.debug.temp.o
+                0x0000000000021dc9                BaseStackCheckGcc.c.3fb9ce64
+ .debug_info    0x0000000000021f44      0x1d7 /tmp/ccaS8QYz.debug.temp.o
+                0x0000000000021f44                memcpy.c.79986cd0
+ .debug_info    0x000000000002211b      0x188 /tmp/ccgEff2z.debug.temp.o
+                0x000000000002211b                memset.c.02de5c04
+ .debug_info    0x00000000000222a3     0x2157 /tmp/cczNO8XA.debug.temp.o
+                0x00000000000222a3                AutoGen.c.f2cfc799
+ .debug_info    0x00000000000243fa     0x42fe /tmp/ccBZzFez.debug.temp.o
+                0x00000000000243fa                FrontPage.c.82f994d2
+ .debug_info    0x00000000000286f8     0x2f9d /tmp/cc8sM2NC.debug.temp.o
+                0x00000000000286f8                String.c.bee46d73
+ .debug_info    0x000000000002b695     0x3173 /tmp/ccXfVrsC.debug.temp.o
+                0x000000000002b695                FrontPageCustomizedUi.c.08022a10
+ .debug_info    0x000000000002e808     0x3371 /tmp/ccxc5nJz.debug.temp.o
+                0x000000000002e808                FrontPageCustomizedUiSupport.c.26d1ded9
+ .debug_info    0x0000000000031b79      0x5b2 /tmp/ccZL7NYy.debug.temp.o
+                0x0000000000031b79                FrontPageVfr.c.4701ca58
+ .debug_info    0x000000000003212b     0x2bd3 /tmp/ccWHnejz.debug.temp.o
+                0x000000000003212b                DxePcdLib.c.b1755c63
+ .debug_info    0x0000000000034cfe      0x21d /tmp/cc6q6XeA.debug.temp.o
+                0x0000000000034cfe                MemLibGuid.c.89fba256
+ .debug_info    0x0000000000034f1b      0x185 /tmp/cc7upG7y.debug.temp.o
+                0x0000000000034f1b                CopyMemWrapper.c.4760c160
+ .debug_info    0x00000000000350a0      0x1db /tmp/ccv3y2Ty.debug.temp.o
+                0x00000000000350a0                RShiftU64.c.b1baacba
+ .debug_info    0x000000000003527b      0x1d0 /tmp/ccs8oTnC.debug.temp.o
+                0x000000000003527b                CpuDeadLoop.c.755e7c7b
+ .debug_info    0x000000000003544b      0xdc8 /tmp/cciVT5xC.debug.temp.o
+                0x000000000003544b                SafeString.c.d93472dc
+ .debug_info    0x0000000000036213      0x7f3 /tmp/ccssxP1A.debug.temp.o
+                0x0000000000036213                String.c.76785ee4
+ .debug_info    0x0000000000036a06      0x43c /tmp/ccDnvJNz.debug.temp.o
+                0x0000000000036a06                Math64.c.fba6cbb7
+ .debug_info    0x0000000000036e42      0x1db /tmp/ccJM1XMz.debug.temp.o
+                0x0000000000036e42                MultU64x32.c.37505239
+ .debug_info    0x000000000003701d      0x1db /tmp/cc6aoxNA.debug.temp.o
+                0x000000000003701d                LShiftU64.c.89142a4c
+ .debug_info    0x00000000000371f8     0x18e1 /tmp/cckmxm1y.debug.temp.o
+                0x00000000000371f8                UefiBootServicesTableLib.c.1b9b5282
+ .debug_info    0x0000000000038ad9      0x683 /tmp/ccaCEWoB.debug.temp.o
+                0x0000000000038ad9                PrintLib.c.9d1836b5
+ .debug_info    0x000000000003915c      0x79a /tmp/ccEFp0jD.debug.temp.o
+                0x000000000003915c                PrintLibInternal.c.11bf8ed5
+ .debug_info    0x00000000000398f6     0x1de0 /tmp/ccCpyG0C.debug.temp.o
+                0x00000000000398f6                MemoryAllocationLib.c.7e75fabe
+ .debug_info    0x000000000003b6d6     0x18b2 /tmp/ccyUPiPC.debug.temp.o
+                0x000000000003b6d6                UefiRuntimeServicesTableLib.c.76abd5a8
+ .debug_info    0x000000000003cf88     0x1953 /tmp/ccptRPmz.debug.temp.o
+                0x000000000003cf88                DevicePathUtilitiesDxeSmm.c.cb9de9d5
+ .debug_info    0x000000000003e8db     0x1afe /tmp/ccdGmDUB.debug.temp.o
+                0x000000000003e8db                UefiDevicePathLib.c.0e9646b4
+ .debug_info    0x00000000000403d9     0x1d7d /tmp/ccn0V8iB.debug.temp.o
+                0x00000000000403d9                DevicePathUtilities.c.1a32a0df
+ .debug_info    0x0000000000042156     0x3d60 /tmp/ccNyZKcC.debug.temp.o
+                0x0000000000042156                DevicePathToText.c.b542a65c
+ .debug_info    0x0000000000045eb6     0x1cda /tmp/cclBnwPz.debug.temp.o
+                0x0000000000045eb6                Console.c.9f111946
+ .debug_info    0x0000000000047b90     0x27ac /tmp/ccdaekBA.debug.temp.o
+                0x0000000000047b90                UefiLib.c.c9f50ead
+ .debug_info    0x000000000004a33c     0x294e /tmp/ccG3PbbA.debug.temp.o
+                0x000000000004a33c                UefiHiiServicesLib.c.793cbe6e
+ .debug_info    0x000000000004cc8a     0x1e96 /tmp/ccacctuA.debug.temp.o
+                0x000000000004cc8a                DxeServicesTableLib.c.1d63086a
+ .debug_info    0x000000000004eb20     0x22e6 /tmp/ccMb5ifC.debug.temp.o
+                0x000000000004eb20                HobLib.c.d33bba12
+ .debug_info    0x0000000000050e06     0x50c1 /tmp/ccfevSqA.debug.temp.o
+                0x0000000000050e06                HiiLib.c.4aac6cd1
+ .debug_info    0x0000000000055ec7     0x2b6a /tmp/ccnhF83z.debug.temp.o
+                0x0000000000055ec7                HiiString.c.65ac83c6
+ .debug_info    0x0000000000058a31     0x2a1b /tmp/ccPxbu9y.debug.temp.o
+                0x0000000000058a31                HiiLanguage.c.e626a2c6
+ .debug_info    0x000000000005b44c      0x502 /tmp/cclrFe4z.debug.temp.o
+                0x000000000005b44c                BaseReportStatusCodeLib.c.354a94c6
+ .debug_info    0x000000000005b94e     0x272c /tmp/cc2YnkfC.debug.temp.o
+                0x000000000005b94e                BmConnect.c.ecad1017
+ .debug_info    0x000000000005e07a     0x2b62 /tmp/ccHdh0wA.debug.temp.o
+                0x000000000005e07a                BmConsole.c.8ff8d749
+ .debug_info    0x0000000000060bdc     0x3e1e /tmp/ccmqWSHz.debug.temp.o
+                0x0000000000060bdc                BmBoot.c.e4fa0fdd
+ .debug_info    0x00000000000649fa     0x5375 /tmp/ccOpOXrz.debug.temp.o
+                0x00000000000649fa                BmBootDescription.c.f5d4dbea
+ .debug_info    0x0000000000069d6f     0x3384 /tmp/cczusJHB.debug.temp.o
+                0x0000000000069d6f                BmLoadOption.c.38866d25
+ .debug_info    0x000000000006d0f3     0x2e99 /tmp/ccTolZEA.debug.temp.o
+                0x000000000006d0f3                BmHotkey.c.e03a3b41
+ .debug_info    0x000000000006ff8c     0x27fb /tmp/ccT9ohEB.debug.temp.o
+                0x000000000006ff8c                BmDriverHealth.c.eab11ba8
+ .debug_info    0x0000000000072787     0x253b /tmp/ccn9TJRB.debug.temp.o
+                0x0000000000072787                BmMisc.c.a6cc3cfe
+ .debug_info    0x0000000000074cc2     0x2f60 /tmp/cchZFI6z.debug.temp.o
+                0x0000000000074cc2                FileExplorer.c.b46f54d2
+ .debug_info    0x0000000000077c22      0x282 /tmp/ccydvVWA.debug.temp.o
+                0x0000000000077c22                AutoGen.c.f09074fe
+ .debug_info    0x0000000000077ea4      0x296 /tmp/ccMsS2IC.debug.temp.o
+                0x0000000000077ea4                FileExplorerVfr.c.b6e21dcb
+ .debug_info    0x000000000007813a     0x3451 /tmp/ccPGcvjD.debug.temp.o
+                0x000000000007813a                DeviceManager.c.fdf84313
+ .debug_info    0x000000000007b58b      0x26a /tmp/ccRgAoaD.debug.temp.o
+                0x000000000007b58b                AutoGen.c.59f4b5cb
+ .debug_info    0x000000000007b7f5      0x27f /tmp/cc54qSwA.debug.temp.o
+                0x000000000007b7f5                DeviceManagerVfr.c.b15d36ae
+ .debug_info    0x000000000007ba74     0x2a41 /tmp/ccQgiBQA.debug.temp.o
+                0x000000000007ba74                BootManager.c.94bf1117
+ .debug_info    0x000000000007e4b5      0x282 /tmp/cc0m74LA.debug.temp.o
+                0x000000000007e4b5                AutoGen.c.3a4bbc63
+ .debug_info    0x000000000007e737      0x296 /tmp/ccQxkqGA.debug.temp.o
+                0x000000000007e737                BootManagerVfr.c.1fa15617
+ .debug_info    0x000000000007e9cd     0x1a4a /tmp/cc4mWdwA.debug.temp.o
+                0x000000000007e9cd                PlatformUiAppLib.c.3dcd3300
+ .debug_info    0x0000000000080417     0x44c1 /tmp/ccsIKUnC.debug.temp.o
+                0x0000000000080417                BootMaintenance.c.afc659d1
+ .debug_info    0x00000000000848d8     0x45fb /tmp/cctW4NQy.debug.temp.o
+                0x00000000000848d8                BootOption.c.8b5553ef
+ .debug_info    0x0000000000088ed3     0x4724 /tmp/ccUW2UcD.debug.temp.o
+                0x0000000000088ed3                ConsoleOption.c.7c145ab0
+ .debug_info    0x000000000008d5f7     0x3cf8 /tmp/ccQXY36z.debug.temp.o
+                0x000000000008d5f7                Data.c.9296bd32
+ .debug_info    0x00000000000912ef     0x4200 /tmp/ccmT1I0A.debug.temp.o
+                0x00000000000912ef                Variable.c.fdb62527
+ .debug_info    0x00000000000954ef     0x4143 /tmp/ccqIX2kB.debug.temp.o
+                0x00000000000954ef                UpdatePage.c.741686c6
+ .debug_info    0x0000000000099632     0x3c7d /tmp/ccvYaRpz.debug.temp.o
+                0x0000000000099632                BmLib.c.ac2ec690
+ .debug_info    0x000000000009d2af      0x55d /tmp/ccH1fKUC.debug.temp.o
+                0x000000000009d2af                BootMaintenanceManagerCustomizedUi.c.7b8d41b4
+ .debug_info    0x000000000009d80c     0x401e /tmp/ccAE9cwC.debug.temp.o
+                0x000000000009d80c                BootMaintenanceManagerCustomizedUiSupport.c.56615169
+ .debug_info    0x00000000000a182a      0x2ca /tmp/cctrO8GB.debug.temp.o
+                0x00000000000a182a                AutoGen.c.a86b5b9a
+ .debug_info    0x00000000000a1af4      0x2df /tmp/cc99ZfLA.debug.temp.o
+                0x00000000000a1af4                BootMaintenanceManager.c.7cd11ca2
+ .debug_info    0x00000000000a1dd3      0x2ef /tmp/cc1o06oz.debug.temp.o
+                0x00000000000a1dd3                DebugLib.c.be4a5591
+ .debug_info    0x00000000000a20c2      0x16e /tmp/ccz4PvnD.debug.temp.o
+                0x00000000000a20c2                ZeroMemWrapper.c.da3b248e
+ .debug_info    0x00000000000a2230      0x19b /tmp/cchDSmzz.debug.temp.o
+                0x00000000000a2230                CompareMemWrapper.c.df2c23b5
+ .debug_info    0x00000000000a23cb      0x17a /tmp/ccNocpVA.debug.temp.o
+                0x00000000000a23cb                SetMem16Wrapper.c.b8a3956a
+ .debug_info    0x00000000000a2545      0x1af /tmp/cc1gS5MC.debug.temp.o
+                0x00000000000a2545                SetMemWrapper.c.bdf1ad9c
+ .debug_info    0x00000000000a26f4      0x183 /tmp/ccZNOwLB.debug.temp.o
+                0x00000000000a26f4                IsZeroBufferWrapper.c.8097e63f
+ .debug_info    0x00000000000a2877      0x28a /tmp/ccqHUmyC.debug.temp.o
+                0x00000000000a2877                ScanMemGeneric.c.cccc6a3e
+ .debug_info    0x00000000000a2b01      0x1e5 /tmp/ccmEN53C.debug.temp.o
+                0x00000000000a2b01                DivU64x32Remainder.c.f5241791
+ .debug_info    0x00000000000a2ce6      0x428 /tmp/ccKd2ZyA.debug.temp.o
+                0x00000000000a2ce6                LinkedList.c.7e1d43c9
+ .debug_info    0x00000000000a310e      0x33d /tmp/ccH7hzjB.debug.temp.o
+                0x00000000000a310e                Unaligned.c.b480fc72
+ .debug_info    0x00000000000a344b     0x2762 /tmp/cckyjClD.debug.temp.o
+                0x00000000000a344b                UefiLibPrint.c.d33c8baa
+ .debug_info    0x00000000000a5bad     0x1c06 /tmp/ccox6zhz.debug.temp.o
+                0x00000000000a5bad                UefiNotTiano.c.249077ca
+ .debug_info    0x00000000000a77b3     0x2756 /tmp/ccc1tGwA.debug.temp.o
+                0x00000000000a77b3                DxeServicesLib.c.e274e40e
+ .debug_info    0x00000000000a9f09     0x1c8c /tmp/cc8i185y.debug.temp.o
+                0x00000000000a9f09                DxePerformanceLib.c.b6166bb4
+
+.debug_abbrev   0x0000000000000000     0x93e6
+ .debug_abbrev  0x0000000000000000      0x2f9 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .debug_abbrev  0x00000000000002f9      0x2d0 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .debug_abbrev  0x00000000000005c9      0x1fc /tmp/ccLuy8vB.debug.temp.o
+ .debug_abbrev  0x00000000000007c5       0xc7 /tmp/ccI8hRPC.debug.temp.o
+ .debug_abbrev  0x000000000000088c       0xee /tmp/ccaS8QYz.debug.temp.o
+ .debug_abbrev  0x000000000000097a       0xc0 /tmp/ccgEff2z.debug.temp.o
+ .debug_abbrev  0x0000000000000a3a      0x236 /tmp/cczNO8XA.debug.temp.o
+ .debug_abbrev  0x0000000000000c70      0x30c /tmp/ccBZzFez.debug.temp.o
+ .debug_abbrev  0x0000000000000f7c      0x24b /tmp/cc8sM2NC.debug.temp.o
+ .debug_abbrev  0x00000000000011c7      0x25c /tmp/ccXfVrsC.debug.temp.o
+ .debug_abbrev  0x0000000000001423      0x2c8 /tmp/ccxc5nJz.debug.temp.o
+ .debug_abbrev  0x00000000000016eb       0xbc /tmp/ccZL7NYy.debug.temp.o
+ .debug_abbrev  0x00000000000017a7      0x25c /tmp/ccWHnejz.debug.temp.o
+ .debug_abbrev  0x0000000000001a03       0xce /tmp/cc6q6XeA.debug.temp.o
+ .debug_abbrev  0x0000000000001ad1       0xb8 /tmp/cc7upG7y.debug.temp.o
+ .debug_abbrev  0x0000000000001b89       0xb1 /tmp/ccv3y2Ty.debug.temp.o
+ .debug_abbrev  0x0000000000001c3a       0xb6 /tmp/ccs8oTnC.debug.temp.o
+ .debug_abbrev  0x0000000000001cf0      0x12d /tmp/cciVT5xC.debug.temp.o
+ .debug_abbrev  0x0000000000001e1d      0x126 /tmp/ccssxP1A.debug.temp.o
+ .debug_abbrev  0x0000000000001f43       0xf9 /tmp/ccDnvJNz.debug.temp.o
+ .debug_abbrev  0x000000000000203c       0xc0 /tmp/ccJM1XMz.debug.temp.o
+ .debug_abbrev  0x00000000000020fc       0xb1 /tmp/cc6aoxNA.debug.temp.o
+ .debug_abbrev  0x00000000000021ad      0x1dd /tmp/cckmxm1y.debug.temp.o
+ .debug_abbrev  0x000000000000238a      0x150 /tmp/ccaCEWoB.debug.temp.o
+ .debug_abbrev  0x00000000000024da      0x161 /tmp/ccEFp0jD.debug.temp.o
+ .debug_abbrev  0x000000000000263b      0x242 /tmp/ccCpyG0C.debug.temp.o
+ .debug_abbrev  0x000000000000287d      0x1c3 /tmp/ccyUPiPC.debug.temp.o
+ .debug_abbrev  0x0000000000002a40      0x1d4 /tmp/ccptRPmz.debug.temp.o
+ .debug_abbrev  0x0000000000002c14      0x1fe /tmp/ccdGmDUB.debug.temp.o
+ .debug_abbrev  0x0000000000002e12      0x240 /tmp/ccn0V8iB.debug.temp.o
+ .debug_abbrev  0x0000000000003052      0x2ca /tmp/ccNyZKcC.debug.temp.o
+ .debug_abbrev  0x000000000000331c      0x276 /tmp/cclBnwPz.debug.temp.o
+ .debug_abbrev  0x0000000000003592      0x267 /tmp/ccdaekBA.debug.temp.o
+ .debug_abbrev  0x00000000000037f9      0x216 /tmp/ccG3PbbA.debug.temp.o
+ .debug_abbrev  0x0000000000003a0f      0x1ea /tmp/ccacctuA.debug.temp.o
+ .debug_abbrev  0x0000000000003bf9      0x25a /tmp/ccMb5ifC.debug.temp.o
+ .debug_abbrev  0x0000000000003e53      0x315 /tmp/ccfevSqA.debug.temp.o
+ .debug_abbrev  0x0000000000004168      0x249 /tmp/ccnhF83z.debug.temp.o
+ .debug_abbrev  0x00000000000043b1      0x209 /tmp/ccPxbu9y.debug.temp.o
+ .debug_abbrev  0x00000000000045ba      0x124 /tmp/cclrFe4z.debug.temp.o
+ .debug_abbrev  0x00000000000046de      0x214 /tmp/cc2YnkfC.debug.temp.o
+ .debug_abbrev  0x00000000000048f2      0x258 /tmp/ccHdh0wA.debug.temp.o
+ .debug_abbrev  0x0000000000004b4a      0x276 /tmp/ccmqWSHz.debug.temp.o
+ .debug_abbrev  0x0000000000004dc0      0x382 /tmp/ccOpOXrz.debug.temp.o
+ .debug_abbrev  0x0000000000005142      0x2b7 /tmp/cczusJHB.debug.temp.o
+ .debug_abbrev  0x00000000000053f9      0x2e5 /tmp/ccTolZEA.debug.temp.o
+ .debug_abbrev  0x00000000000056de      0x261 /tmp/ccT9ohEB.debug.temp.o
+ .debug_abbrev  0x000000000000593f      0x25a /tmp/ccn9TJRB.debug.temp.o
+ .debug_abbrev  0x0000000000005b99      0x2c0 /tmp/cchZFI6z.debug.temp.o
+ .debug_abbrev  0x0000000000005e59       0xa8 /tmp/ccydvVWA.debug.temp.o
+ .debug_abbrev  0x0000000000005f01       0xac /tmp/ccMsS2IC.debug.temp.o
+ .debug_abbrev  0x0000000000005fad      0x2d5 /tmp/ccPGcvjD.debug.temp.o
+ .debug_abbrev  0x0000000000006282       0xa8 /tmp/ccRgAoaD.debug.temp.o
+ .debug_abbrev  0x000000000000632a       0xb5 /tmp/cc54qSwA.debug.temp.o
+ .debug_abbrev  0x00000000000063df      0x28e /tmp/ccQgiBQA.debug.temp.o
+ .debug_abbrev  0x000000000000666d       0xa8 /tmp/cc0m74LA.debug.temp.o
+ .debug_abbrev  0x0000000000006715       0xac /tmp/ccQxkqGA.debug.temp.o
+ .debug_abbrev  0x00000000000067c1      0x1e7 /tmp/cc4mWdwA.debug.temp.o
+ .debug_abbrev  0x00000000000069a8      0x2fe /tmp/ccsIKUnC.debug.temp.o
+ .debug_abbrev  0x0000000000006ca6      0x309 /tmp/cctW4NQy.debug.temp.o
+ .debug_abbrev  0x0000000000006faf      0x330 /tmp/ccUW2UcD.debug.temp.o
+ .debug_abbrev  0x00000000000072df      0x249 /tmp/ccQXY36z.debug.temp.o
+ .debug_abbrev  0x0000000000007528      0x2db /tmp/ccmT1I0A.debug.temp.o
+ .debug_abbrev  0x0000000000007803      0x2be /tmp/ccqIX2kB.debug.temp.o
+ .debug_abbrev  0x0000000000007ac1      0x282 /tmp/ccvYaRpz.debug.temp.o
+ .debug_abbrev  0x0000000000007d43      0x144 /tmp/ccH1fKUC.debug.temp.o
+ .debug_abbrev  0x0000000000007e87      0x2c0 /tmp/ccAE9cwC.debug.temp.o
+ .debug_abbrev  0x0000000000008147       0xa8 /tmp/cctrO8GB.debug.temp.o
+ .debug_abbrev  0x00000000000081ef       0xb5 /tmp/cc99ZfLA.debug.temp.o
+ .debug_abbrev  0x00000000000082a4      0x121 /tmp/cc1o06oz.debug.temp.o
+ .debug_abbrev  0x00000000000083c5       0xb1 /tmp/ccz4PvnD.debug.temp.o
+ .debug_abbrev  0x0000000000008476       0xb1 /tmp/cchDSmzz.debug.temp.o
+ .debug_abbrev  0x0000000000008527       0xb1 /tmp/ccNocpVA.debug.temp.o
+ .debug_abbrev  0x00000000000085d8       0xc6 /tmp/cc1gS5MC.debug.temp.o
+ .debug_abbrev  0x000000000000869e       0xb1 /tmp/ccZNOwLB.debug.temp.o
+ .debug_abbrev  0x000000000000874f       0xc7 /tmp/ccqHUmyC.debug.temp.o
+ .debug_abbrev  0x0000000000008816       0xb3 /tmp/ccmEN53C.debug.temp.o
+ .debug_abbrev  0x00000000000088c9      0x139 /tmp/ccKd2ZyA.debug.temp.o
+ .debug_abbrev  0x0000000000008a02       0xc9 /tmp/ccH7hzjB.debug.temp.o
+ .debug_abbrev  0x0000000000008acb      0x283 /tmp/cckyjClD.debug.temp.o
+ .debug_abbrev  0x0000000000008d4e      0x233 /tmp/ccox6zhz.debug.temp.o
+ .debug_abbrev  0x0000000000008f81      0x225 /tmp/ccc1tGwA.debug.temp.o
+ .debug_abbrev  0x00000000000091a6      0x240 /tmp/cc8i185y.debug.temp.o
+
+.debug_loc      0x0000000000000000    0x31709
+ .debug_loc     0x0000000000000000    0x18092 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .debug_loc     0x0000000000018092    0x19677 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+
+.debug_aranges  0x0000000000000000     0x11f0
+ .debug_aranges
+                0x0000000000000000      0x810 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .debug_aranges
+                0x0000000000000810      0x9e0 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+
+.debug_ranges   0x0000000000000000     0x5c70
+ .debug_ranges  0x0000000000000000     0x28c0 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .debug_ranges  0x00000000000028c0     0x33b0 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+
+.debug_line     0x0000000000000000    0x24600
+ .debug_line    0x0000000000000000     0x9018 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .debug_line    0x0000000000009018     0x9b9d /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+ .debug_line    0x0000000000012bb5      0x351 /tmp/ccLuy8vB.debug.temp.o
+ .debug_line    0x0000000000012f06      0x172 /tmp/ccI8hRPC.debug.temp.o
+ .debug_line    0x0000000000013078      0x173 /tmp/ccaS8QYz.debug.temp.o
+ .debug_line    0x00000000000131eb      0x173 /tmp/ccgEff2z.debug.temp.o
+ .debug_line    0x000000000001335e      0x2f0 /tmp/cczNO8XA.debug.temp.o
+ .debug_line    0x000000000001364e      0x58a /tmp/ccBZzFez.debug.temp.o
+ .debug_line    0x0000000000013bd8      0x4ca /tmp/cc8sM2NC.debug.temp.o
+ .debug_line    0x00000000000140a2      0x4ee /tmp/ccXfVrsC.debug.temp.o
+ .debug_line    0x0000000000014590      0x4d0 /tmp/ccxc5nJz.debug.temp.o
+ .debug_line    0x0000000000014a60      0x261 /tmp/ccZL7NYy.debug.temp.o
+ .debug_line    0x0000000000014cc1      0x386 /tmp/ccWHnejz.debug.temp.o
+ .debug_line    0x0000000000015047      0x175 /tmp/cc6q6XeA.debug.temp.o
+ .debug_line    0x00000000000151bc      0x175 /tmp/cc7upG7y.debug.temp.o
+ .debug_line    0x0000000000015331      0x14c /tmp/ccv3y2Ty.debug.temp.o
+ .debug_line    0x000000000001547d      0x14e /tmp/ccs8oTnC.debug.temp.o
+ .debug_line    0x00000000000155cb      0x14d /tmp/cciVT5xC.debug.temp.o
+ .debug_line    0x0000000000015718      0x149 /tmp/ccssxP1A.debug.temp.o
+ .debug_line    0x0000000000015861      0x149 /tmp/ccDnvJNz.debug.temp.o
+ .debug_line    0x00000000000159aa      0x14d /tmp/ccJM1XMz.debug.temp.o
+ .debug_line    0x0000000000015af7      0x14c /tmp/cc6aoxNA.debug.temp.o
+ .debug_line    0x0000000000015c43      0x332 /tmp/cckmxm1y.debug.temp.o
+ .debug_line    0x0000000000015f75      0x168 /tmp/ccaCEWoB.debug.temp.o
+ .debug_line    0x00000000000160dd      0x186 /tmp/ccEFp0jD.debug.temp.o
+ .debug_line    0x0000000000016263      0x32a /tmp/ccCpyG0C.debug.temp.o
+ .debug_line    0x000000000001658d      0x2eb /tmp/ccyUPiPC.debug.temp.o
+ .debug_line    0x0000000000016878      0x374 /tmp/ccptRPmz.debug.temp.o
+ .debug_line    0x0000000000016bec      0x36c /tmp/ccdGmDUB.debug.temp.o
+ .debug_line    0x0000000000016f58      0x36e /tmp/ccn0V8iB.debug.temp.o
+ .debug_line    0x00000000000172c6      0x3dd /tmp/ccNyZKcC.debug.temp.o
+ .debug_line    0x00000000000176a3      0x34c /tmp/cclBnwPz.debug.temp.o
+ .debug_line    0x00000000000179ef      0x36f /tmp/ccdaekBA.debug.temp.o
+ .debug_line    0x0000000000017d5e      0x402 /tmp/ccG3PbbA.debug.temp.o
+ .debug_line    0x0000000000018160      0x42f /tmp/ccacctuA.debug.temp.o
+ .debug_line    0x000000000001858f      0x3c3 /tmp/ccMb5ifC.debug.temp.o
+ .debug_line    0x0000000000018952      0x517 /tmp/ccfevSqA.debug.temp.o
+ .debug_line    0x0000000000018e69      0x4fa /tmp/ccnhF83z.debug.temp.o
+ .debug_line    0x0000000000019363      0x4fc /tmp/ccPxbu9y.debug.temp.o
+ .debug_line    0x000000000001985f      0x2b2 /tmp/cclrFe4z.debug.temp.o
+ .debug_line    0x0000000000019b11      0x4d9 /tmp/cc2YnkfC.debug.temp.o
+ .debug_line    0x0000000000019fea      0x575 /tmp/ccHdh0wA.debug.temp.o
+ .debug_line    0x000000000001a55f      0x621 /tmp/ccmqWSHz.debug.temp.o
+ .debug_line    0x000000000001ab80      0x5f2 /tmp/ccOpOXrz.debug.temp.o
+ .debug_line    0x000000000001b172      0x5ca /tmp/cczusJHB.debug.temp.o
+ .debug_line    0x000000000001b73c      0x53b /tmp/ccTolZEA.debug.temp.o
+ .debug_line    0x000000000001bc77      0x56e /tmp/ccT9ohEB.debug.temp.o
+ .debug_line    0x000000000001c1e5      0x570 /tmp/ccn9TJRB.debug.temp.o
+ .debug_line    0x000000000001c755      0x560 /tmp/cchZFI6z.debug.temp.o
+ .debug_line    0x000000000001ccb5      0x288 /tmp/ccydvVWA.debug.temp.o
+ .debug_line    0x000000000001cf3d      0x290 /tmp/ccMsS2IC.debug.temp.o
+ .debug_line    0x000000000001d1cd      0x4ec /tmp/ccPGcvjD.debug.temp.o
+ .debug_line    0x000000000001d6b9      0x291 /tmp/ccRgAoaD.debug.temp.o
+ .debug_line    0x000000000001d94a      0x29a /tmp/cc54qSwA.debug.temp.o
+ .debug_line    0x000000000001dbe4      0x5e4 /tmp/ccQgiBQA.debug.temp.o
+ .debug_line    0x000000000001e1c8      0x28b /tmp/cc0m74LA.debug.temp.o
+ .debug_line    0x000000000001e453      0x292 /tmp/ccQxkqGA.debug.temp.o
+ .debug_line    0x000000000001e6e5      0x422 /tmp/cc4mWdwA.debug.temp.o
+ .debug_line    0x000000000001eb07      0x6a2 /tmp/ccsIKUnC.debug.temp.o
+ .debug_line    0x000000000001f1a9      0x6c1 /tmp/cctW4NQy.debug.temp.o
+ .debug_line    0x000000000001f86a      0x68a /tmp/ccUW2UcD.debug.temp.o
+ .debug_line    0x000000000001fef4      0x681 /tmp/ccQXY36z.debug.temp.o
+ .debug_line    0x0000000000020575      0x69d /tmp/ccmT1I0A.debug.temp.o
+ .debug_line    0x0000000000020c12      0x687 /tmp/ccqIX2kB.debug.temp.o
+ .debug_line    0x0000000000021299      0x682 /tmp/ccvYaRpz.debug.temp.o
+ .debug_line    0x000000000002191b      0x37e /tmp/ccH1fKUC.debug.temp.o
+ .debug_line    0x0000000000021c99      0x6d5 /tmp/ccAE9cwC.debug.temp.o
+ .debug_line    0x000000000002236e      0x2ac /tmp/cctrO8GB.debug.temp.o
+ .debug_line    0x000000000002261a      0x2bb /tmp/cc99ZfLA.debug.temp.o
+ .debug_line    0x00000000000228d5      0x174 /tmp/cc1o06oz.debug.temp.o
+ .debug_line    0x0000000000022a49      0x175 /tmp/ccz4PvnD.debug.temp.o
+ .debug_line    0x0000000000022bbe      0x178 /tmp/cchDSmzz.debug.temp.o
+ .debug_line    0x0000000000022d36      0x176 /tmp/ccNocpVA.debug.temp.o
+ .debug_line    0x0000000000022eac      0x174 /tmp/cc1gS5MC.debug.temp.o
+ .debug_line    0x0000000000023020      0x17a /tmp/ccZNOwLB.debug.temp.o
+ .debug_line    0x000000000002319a      0x179 /tmp/ccqHUmyC.debug.temp.o
+ .debug_line    0x0000000000023313      0x155 /tmp/ccmEN53C.debug.temp.o
+ .debug_line    0x0000000000023468      0x14d /tmp/ccKd2ZyA.debug.temp.o
+ .debug_line    0x00000000000235b5      0x150 /tmp/ccH7hzjB.debug.temp.o
+ .debug_line    0x0000000000023705      0x3a3 /tmp/cckyjClD.debug.temp.o
+ .debug_line    0x0000000000023aa8      0x343 /tmp/ccox6zhz.debug.temp.o
+ .debug_line    0x0000000000023deb      0x48d /tmp/ccc1tGwA.debug.temp.o
+ .debug_line    0x0000000000024278      0x388 /tmp/cc8i185y.debug.temp.o
+
+.debug_str      0x0000000000000000    0x11fe8
+ .debug_str     0x0000000000000000      0x5a4 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+                                        0x5ab (size before relaxing)
+ .debug_str     0x00000000000005a4      0x268 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o
+                                        0x747 (size before relaxing)
+ .debug_str     0x000000000000080c     0x13e8 /tmp/ccLuy8vB.debug.temp.o
+                                       0x1581 (size before relaxing)
+ .debug_str     0x0000000000001bf4      0x27c /tmp/ccI8hRPC.debug.temp.o
+                                        0x3a9 (size before relaxing)
+ .debug_str     0x0000000000001e70       0xd5 /tmp/ccaS8QYz.debug.temp.o
+                                        0x350 (size before relaxing)
+ .debug_str     0x0000000000001f45       0x55 /tmp/ccgEff2z.debug.temp.o
+                                        0x344 (size before relaxing)
+ .debug_str     0x0000000000001f9a      0xd54 /tmp/cczNO8XA.debug.temp.o
+                                       0x228a (size before relaxing)
+ .debug_str     0x0000000000002cee     0x1ac5 /tmp/ccBZzFez.debug.temp.o
+                                       0x3c4a (size before relaxing)
+ .debug_str     0x00000000000047b3      0x14c /tmp/cc8sM2NC.debug.temp.o
+                                       0x2b7c (size before relaxing)
+ .debug_str     0x00000000000048ff       0xc0 /tmp/ccXfVrsC.debug.temp.o
+                                       0x2caf (size before relaxing)
+ .debug_str     0x00000000000049bf      0x27a /tmp/ccxc5nJz.debug.temp.o
+                                       0x2d41 (size before relaxing)
+ .debug_str     0x0000000000004c39       0x73 /tmp/ccZL7NYy.debug.temp.o
+                                        0xc7a (size before relaxing)
+ .debug_str     0x0000000000004cac      0x997 /tmp/ccWHnejz.debug.temp.o
+                                       0x210f (size before relaxing)
+ .debug_str     0x0000000000005643      0x10e /tmp/cc6q6XeA.debug.temp.o
+                                        0x3af (size before relaxing)
+ .debug_str     0x0000000000005751       0x71 /tmp/cc7upG7y.debug.temp.o
+                                        0x36a (size before relaxing)
+ .debug_str     0x00000000000057c2       0xa1 /tmp/ccv3y2Ty.debug.temp.o
+                                        0x467 (size before relaxing)
+ .debug_str     0x0000000000005863       0x4f /tmp/ccs8oTnC.debug.temp.o
+                                        0x463 (size before relaxing)
+ .debug_str     0x00000000000058b2      0x2bb /tmp/cciVT5xC.debug.temp.o
+                                        0x822 (size before relaxing)
+ .debug_str     0x0000000000005b6d      0x2e1 /tmp/ccssxP1A.debug.temp.o
+                                        0x7e4 (size before relaxing)
+ .debug_str     0x0000000000005e4e      0x1b0 /tmp/ccDnvJNz.debug.temp.o
+                                        0x5e1 (size before relaxing)
+ .debug_str     0x0000000000005ffe       0x42 /tmp/ccJM1XMz.debug.temp.o
+                                        0x474 (size before relaxing)
+ .debug_str     0x0000000000006040       0x41 /tmp/cc6aoxNA.debug.temp.o
+                                        0x467 (size before relaxing)
+ .debug_str     0x0000000000006081       0xff /tmp/cckmxm1y.debug.temp.o
+                                       0x156f (size before relaxing)
+ .debug_str     0x0000000000006180      0x263 /tmp/ccaCEWoB.debug.temp.o
+                                        0x59c (size before relaxing)
+ .debug_str     0x00000000000063e3      0x243 /tmp/ccEFp0jD.debug.temp.o
+                                        0x70e (size before relaxing)
+ .debug_str     0x0000000000006626      0x302 /tmp/ccCpyG0C.debug.temp.o
+                                       0x17db (size before relaxing)
+ .debug_str     0x0000000000006928      0x10e /tmp/ccyUPiPC.debug.temp.o
+                                       0x1571 (size before relaxing)
+ .debug_str     0x0000000000006a36      0x144 /tmp/ccptRPmz.debug.temp.o
+                                       0x165a (size before relaxing)
+ .debug_str     0x0000000000006b7a       0xf2 /tmp/ccdGmDUB.debug.temp.o
+                                       0x17da (size before relaxing)
+ .debug_str     0x0000000000006c6c      0x283 /tmp/ccn0V8iB.debug.temp.o
+                                       0x1976 (size before relaxing)
+ .debug_str     0x0000000000006eef      0xdb6 /tmp/ccNyZKcC.debug.temp.o
+                                       0x25ee (size before relaxing)
+ .debug_str     0x0000000000007ca5      0x22a /tmp/cclBnwPz.debug.temp.o
+                                       0x1a3c (size before relaxing)
+ .debug_str     0x0000000000007ecf      0x604 /tmp/ccdaekBA.debug.temp.o
+                                       0x20b3 (size before relaxing)
+ .debug_str     0x00000000000084d3       0xed /tmp/ccG3PbbA.debug.temp.o
+                                       0x21d2 (size before relaxing)
+ .debug_str     0x00000000000085c0      0x63c /tmp/ccacctuA.debug.temp.o
+                                       0x1c2b (size before relaxing)
+ .debug_str     0x0000000000008bfc      0x5c3 /tmp/ccMb5ifC.debug.temp.o
+                                       0x1c0a (size before relaxing)
+ .debug_str     0x00000000000091bf      0xd67 /tmp/ccfevSqA.debug.temp.o
+                                       0x35eb (size before relaxing)
+ .debug_str     0x0000000000009f26       0xc6 /tmp/ccnhF83z.debug.temp.o
+                                       0x2452 (size before relaxing)
+ .debug_str     0x0000000000009fec       0x89 /tmp/ccPxbu9y.debug.temp.o
+                                       0x23c4 (size before relaxing)
+ .debug_str     0x000000000000a075      0x26f /tmp/cclrFe4z.debug.temp.o
+                                        0x6b5 (size before relaxing)
+ .debug_str     0x000000000000a2e4      0x762 /tmp/cc2YnkfC.debug.temp.o
+                                       0x2814 (size before relaxing)
+ .debug_str     0x000000000000aa46      0x3f5 /tmp/ccHdh0wA.debug.temp.o
+                                       0x2b97 (size before relaxing)
+ .debug_str     0x000000000000ae3b      0xfd7 /tmp/ccmqWSHz.debug.temp.o
+                                       0x364b (size before relaxing)
+ .debug_str     0x000000000000be12      0xd51 /tmp/ccOpOXrz.debug.temp.o
+                                       0x42ed (size before relaxing)
+ .debug_str     0x000000000000cb63      0x8c5 /tmp/cczusJHB.debug.temp.o
+                                       0x2d46 (size before relaxing)
+ .debug_str     0x000000000000d428      0x5ee /tmp/ccTolZEA.debug.temp.o
+                                       0x2a4d (size before relaxing)
+ .debug_str     0x000000000000da16      0x41d /tmp/ccT9ohEB.debug.temp.o
+                                       0x27dd (size before relaxing)
+ .debug_str     0x000000000000de33      0x27a /tmp/ccn9TJRB.debug.temp.o
+                                       0x251f (size before relaxing)
+ .debug_str     0x000000000000e0ad      0x6eb /tmp/cchZFI6z.debug.temp.o
+                                       0x253a (size before relaxing)
+ .debug_str     0x000000000000e798       0x7e /tmp/ccydvVWA.debug.temp.o
+                                        0x5a7 (size before relaxing)
+ .debug_str     0x000000000000e816       0x86 /tmp/ccMsS2IC.debug.temp.o
+                                        0x5c2 (size before relaxing)
+ .debug_str     0x000000000000e89c      0x3ad /tmp/ccPGcvjD.debug.temp.o
+                                       0x2a0d (size before relaxing)
+ .debug_str     0x000000000000ec49       0x84 /tmp/ccRgAoaD.debug.temp.o
+                                        0x568 (size before relaxing)
+ .debug_str     0x000000000000eccd       0x8d /tmp/cc54qSwA.debug.temp.o
+                                        0x585 (size before relaxing)
+ .debug_str     0x000000000000ed5a      0x50d /tmp/ccQgiBQA.debug.temp.o
+                                       0x262c (size before relaxing)
+ .debug_str     0x000000000000f267       0x80 /tmp/cc0m74LA.debug.temp.o
+                                        0x59f (size before relaxing)
+ .debug_str     0x000000000000f2e7       0x87 /tmp/ccQxkqGA.debug.temp.o
+                                        0x5b8 (size before relaxing)
+ .debug_str     0x000000000000f36e      0x13f /tmp/cc4mWdwA.debug.temp.o
+                                       0x1787 (size before relaxing)
+ .debug_str     0x000000000000f4ad      0xb1a /tmp/ccsIKUnC.debug.temp.o
+                                       0x38bb (size before relaxing)
+ .debug_str     0x000000000000ffc7      0x2c6 /tmp/cctW4NQy.debug.temp.o
+                                       0x391d (size before relaxing)
+ .debug_str     0x000000000001028d      0x4e0 /tmp/ccUW2UcD.debug.temp.o
+                                       0x384d (size before relaxing)
+ .debug_str     0x000000000001076d       0x56 /tmp/ccQXY36z.debug.temp.o
+                                       0x3282 (size before relaxing)
+ .debug_str     0x00000000000107c3      0x1be /tmp/ccmT1I0A.debug.temp.o
+                                       0x35de (size before relaxing)
+ .debug_str     0x0000000000010981      0x1da /tmp/ccqIX2kB.debug.temp.o
+                                       0x350e (size before relaxing)
+ .debug_str     0x0000000000010b5b       0x9c /tmp/ccvYaRpz.debug.temp.o
+                                       0x3271 (size before relaxing)
+ .debug_str     0x0000000000010bf7       0x9c /tmp/ccH1fKUC.debug.temp.o
+                                        0x86e (size before relaxing)
+ .debug_str     0x0000000000010c93      0x170 /tmp/ccAE9cwC.debug.temp.o
+                                       0x34c6 (size before relaxing)
+ .debug_str     0x0000000000010e03       0x96 /tmp/cctrO8GB.debug.temp.o
+                                        0x674 (size before relaxing)
+ .debug_str     0x0000000000010e99       0xa5 /tmp/cc99ZfLA.debug.temp.o
+                                        0x69d (size before relaxing)
+ .debug_str     0x0000000000010f3e      0x147 /tmp/cc1o06oz.debug.temp.o
+                                        0x480 (size before relaxing)
+ .debug_str     0x0000000000011085       0x52 /tmp/ccz4PvnD.debug.temp.o
+                                        0x352 (size before relaxing)
+ .debug_str     0x00000000000110d7       0x55 /tmp/cchDSmzz.debug.temp.o
+                                        0x37b (size before relaxing)
+ .debug_str     0x000000000001112c       0x53 /tmp/ccNocpVA.debug.temp.o
+                                        0x35a (size before relaxing)
+ .debug_str     0x000000000001117f       0x59 /tmp/cc1gS5MC.debug.temp.o
+                                        0x35e (size before relaxing)
+ .debug_str     0x00000000000111d8       0x57 /tmp/ccZNOwLB.debug.temp.o
+                                        0x364 (size before relaxing)
+ .debug_str     0x000000000001122f       0xb8 /tmp/ccqHUmyC.debug.temp.o
+                                        0x3cc (size before relaxing)
+ .debug_str     0x00000000000112e7       0x5d /tmp/ccmEN53C.debug.temp.o
+                                        0x480 (size before relaxing)
+ .debug_str     0x0000000000011344      0x11a /tmp/ccKd2ZyA.debug.temp.o
+                                        0x573 (size before relaxing)
+ .debug_str     0x000000000001145e       0xde /tmp/ccH7hzjB.debug.temp.o
+                                        0x50a (size before relaxing)
+ .debug_str     0x000000000001153c      0x278 /tmp/cckyjClD.debug.temp.o
+                                       0x2176 (size before relaxing)
+ .debug_str     0x00000000000117b4      0x15f /tmp/ccox6zhz.debug.temp.o
+                                       0x1a71 (size before relaxing)
+ .debug_str     0x0000000000011913      0x3e5 /tmp/ccc1tGwA.debug.temp.o
+                                       0x1f15 (size before relaxing)
+ .debug_str     0x0000000000011cf8      0x2f0 /tmp/cc8i185y.debug.temp.o
+                                       0x1887 (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x35a8
+ .debug_frame   0x0000000000000000     0x1a98 /tmp/UiApp.dll.TC2G4z.ltrans0.ltrans.o
+ .debug_frame   0x0000000000001a98     0x1b10 /tmp/UiApp.dll.TC2G4z.ltrans1.ltrans.o

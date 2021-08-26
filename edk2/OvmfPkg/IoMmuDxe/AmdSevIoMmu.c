@@ -252,7 +252,8 @@ IoMmuMap (
   Status = MemEncryptSevClearPageEncMask (
              0,
              MapInfo->PlainTextAddress,
-             MapInfo->NumberOfPages
+             MapInfo->NumberOfPages,
+             TRUE
              );
   ASSERT_EFI_ERROR (Status);
   if (EFI_ERROR (Status)) {
@@ -406,7 +407,8 @@ IoMmuUnmapWorker (
   Status = MemEncryptSevSetPageEncMask (
              0,
              MapInfo->PlainTextAddress,
-             MapInfo->NumberOfPages
+             MapInfo->NumberOfPages,
+             TRUE
              );
   ASSERT_EFI_ERROR (Status);
   if (EFI_ERROR (Status)) {

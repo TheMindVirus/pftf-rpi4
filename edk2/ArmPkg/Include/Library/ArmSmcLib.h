@@ -6,8 +6,8 @@
 *
 **/
 
-#ifndef ARM_SMC_LIB_H_
-#define ARM_SMC_LIB_H_
+#ifndef __ARM_SMC_LIB__
+#define __ARM_SMC_LIB__
 
 /**
  * The size of the SMC arguments are different between AArch64 and AArch32.
@@ -37,4 +37,4 @@ ArmCallSmc (
   IN OUT ARM_SMC_ARGS *Args
   );
 
-#endif // ARM_SMC_LIB_H_
+#endif

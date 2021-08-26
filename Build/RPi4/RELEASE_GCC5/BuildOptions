@@ -1,0 +1,4 @@
+gCommandLineDefines: {'SECURE_BOOT_ENABLE': 'TRUE', 'INCLUDE_TFTP_COMMAND': 'TRUE', 'NETWORK_ISCSI_ENABLE': 'TRUE', 'ARCH': 'AARCH64'}
+BuildOptionPcd: [('gEfiMdeModulePkgTokenSpaceGuid', 'PcdFirmwareVendor', '', 'L"https://github.com/pftf/RPi4"', ('build command options', 1)), ('gEfiMdeModulePkgTokenSpaceGuid', 'PcdFirmwareVersionString', '', 'L"UEFI Firmware "', ('build command options', 1))]
+Active Platform: /home/alastair/pftf-rpi4/edk2-platforms/Platform/RaspberryPi/RPi4/RPi4.dsc
+Flash Image Definition: /home/alastair/pftf-rpi4/edk2-platforms/Platform/RaspberryPi/RPi4/RPi4.fdf

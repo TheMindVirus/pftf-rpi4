@@ -1,13 +1,13 @@
 /** @file
 *
-*  Copyright (c) 2011-2021, Arm Limited. All rights reserved.<BR>
+*  Copyright (c) 2011-2018, ARM Limited. All rights reserved.
 *
 *  SPDX-License-Identifier: BSD-2-Clause-Patent
 *
 **/
 
-#ifndef ARMGIC_H_
-#define ARMGIC_H_
+#ifndef __ARMGIC_H
+#define __ARMGIC_H
 
 #include <Library/ArmGicArchLib.h>
 
@@ -333,4 +333,4 @@ ArmGicV3SetPriorityMask (
   IN UINTN                  Priority
   );
 
-#endif // ARMGIC_H_
+#endif

@@ -3,7 +3,6 @@
  *  GPIO manipulation.
  *
  *  Copyright (c) 2018, Andrei Warkentin <andrey.warkentin@gmail.com>
- *  Copyright (c) 2021, ARM Limited. All rights reserved.
  *
  *  SPDX-License-Identifier: BSD-2-Clause-Patent
  *
@@ -13,9 +12,6 @@
 #define __GPIO_LIB__
 
 #include <IndustryStandard/Bcm2836Gpio.h>
-
-#define CLEAR_GPIO    0
-#define SET_GPIO      1
 
 VOID
 GpioPinFuncSet (
@@ -29,9 +25,9 @@ GpioPinFuncGet (
   );
 
 VOID
-GpioPinConfigure (
-  IN  UINTN   Pin,
-  IN  BOOLEAN Config
+GpioPinSet (
+  IN  UINTN Pin,
+  IN  UINTN Val
   );
 
 UINTN

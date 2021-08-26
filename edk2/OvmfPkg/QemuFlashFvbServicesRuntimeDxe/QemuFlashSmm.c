@@ -38,10 +38,11 @@ QemuFlashBeforeProbe (
   // C-bit on flash ranges from SMM page table.
   //
 
-  Status = MemEncryptSevClearMmioPageEncMask (
+  Status = MemEncryptSevClearPageEncMask (
              0,
              BaseAddress,
-             EFI_SIZE_TO_PAGES (FdBlockSize * FdBlockCount)
+             EFI_SIZE_TO_PAGES (FdBlockSize * FdBlockCount),
+             FALSE
              );
   ASSERT_EFI_ERROR (Status);
 }

@@ -1,0 +1,79 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DefinitionBlock ("/home/alastair/pftf-rpi4/Build/RPi4/RELEASE_GCC5/AARCH64/Platform/RaspberryPi/AcpiTables/AcpiTables/OUTPUT/./SsdtThermal.i", "SSDT", 5, "RPIFDN", "RPITHFAN", 2)
+{
+  External (\_SB_.EC00, DeviceObj)
+  External (\_SB_.EC00.TZ00, DeviceObj)
+
+  Scope (\_SB_.EC00)
+  {
+
+    Name (GIOP, 0x2)
+    Name (FTMP, 0x2)
+
+    PowerResource (PFAN, 0, 0) {
+      OperationRegion (GPIO, SystemMemory, ((0xfe000000) + 0x00200000), 0x1000)
+      Field (GPIO, DWordAcc, NoLock, Preserve) {
+        Offset (0x1C),
+        GPS0, 32,
+        GPS1, 32,
+        RES1, 32,
+        GPC0, 32,
+        GPC1, 32,
+        RES2, 32,
+        GPL1, 32,
+        GPL2, 32
+      }
+
+
+
+
+
+
+      Method (_STA) {
+        if (GPL1 & (1 << GIOP)) {
+          Return (1)
+        }
+        Return (0)
+      }
+      Method (_ON) {
+        Store (1 << GIOP, GPS0)
+      }
+      Method (_OFF) {
+        Store (1 << GIOP, GPC0)
+      }
+    }
+    Device (FAN0) {
+
+
+
+      Name (_HID, EISAID ("PNP0C0B"))
+      Name (_PR0, Package () { PFAN })
+    }
+  }
+
+
+  Scope (\_SB_.EC00.TZ00)
+  {
+    Method (_AC0) { Return ( (FTMP * 10) + 2732) }
+
+
+    Name (_AL0, Package () { \_SB_.EC00.FAN0 })
+  }
+}

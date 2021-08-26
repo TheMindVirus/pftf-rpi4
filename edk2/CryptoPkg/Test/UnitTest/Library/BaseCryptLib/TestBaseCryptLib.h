@@ -83,9 +83,6 @@ extern TEST_DESC mPrngTest[];
 extern UINTN mOaepTestNum;
 extern TEST_DESC mOaepTest[];
 
-extern UINTN mRsaPssTestNum;
-extern TEST_DESC mRsaPssTest[];
-
 /** Creates a framework you can use */
 EFI_STATUS
 EFIAPI

@@ -1,0 +1,1195 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                              (_ModuleEntryPoint)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib(BaseStackCheckGcc.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (__stack_chk_fail)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memcpy.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memcpy)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memset.obj)
+                              /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memset)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/Platform/RaspberryPi/Drivers/RpiFirmwareDxe/RpiFirmwareDxe/OUTPUT/RpiFirmwareDxe.lib(AutoGen.obj)
+                              DriverEntryPoint.obj (symbol from plugin) (ProcessLibraryConstructorList)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/Platform/RaspberryPi/Drivers/RpiFirmwareDxe/RpiFirmwareDxe/OUTPUT/RpiFirmwareDxe.lib(RpiFirmwareDxe.obj)
+                              AutoGen.obj (symbol from plugin) (RpiFirmwareDxeInitialize)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+                              RpiFirmwareDxe.obj (symbol from plugin) (ZeroMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+                              RpiFirmwareDxe.obj (symbol from plugin) (CopyMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                              ZeroMemWrapper.obj (symbol from plugin) (InternalMemZeroMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                              CopyMemWrapper.obj (symbol from plugin) (InternalMemCopyMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+                              RpiFirmwareDxe.obj (symbol from plugin) (SwapBytes64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuDeadLoop)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              SwapBytes64.obj (symbol from plugin) (InternalMathSwapBytes64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuBreakpoint)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              Math64.obj (symbol from plugin) (SwapBytes32)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              SwapBytes32.obj (symbol from plugin) (SwapBytes16)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib(IoLibNoIo.obj)
+                              RpiFirmwareDxe.obj (symbol from plugin) (MmioRead32)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+                              AutoGen.obj (symbol from plugin) (BaseDebugLibSerialPortConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiBootServicesTableLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiRuntimeServicesTableLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                              RpiFirmwareDxe.obj (symbol from plugin) (ArmDataSynchronizationBarrier)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeServicesTableLib/DxeServicesTableLib/OUTPUT/DxeServicesTableLib.lib(DxeServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (DxeServicesTableLibConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmArchTimerLib/ArmArchTimerLib/OUTPUT/ArmArchTimerLib.lib(ArmArchTimerLib.obj)
+                              AutoGen.obj (symbol from plugin) (TimerConstructor)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/EmbeddedPkg/Library/NonCoherentDmaLib/NonCoherentDmaLib/OUTPUT/NonCoherentDmaLib.lib(NonCoherentDmaLib.obj)
+                              RpiFirmwareDxe.obj (symbol from plugin) (DmaMap)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/BaseSynchronizationLib.lib(Synchronization.obj)
+                              RpiFirmwareDxe.obj (symbol from plugin) (InitializeSpinLock)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/BaseSynchronizationLib.lib(Synchronization.obj)
+                              Synchronization.obj (symbol from plugin) (InternalSyncCompareExchange16)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+                              UefiLib.obj (symbol from plugin) (CompareGuid)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+                              DebugLib.obj (symbol from plugin) (SetMem)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCompareGuid)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+                              SetMemWrapper.obj (symbol from plugin) (SetMem64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x64.obj)
+                              ArmArchTimerLib.obj (symbol from plugin) (MultU64x64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              Synchronization.obj (symbol from plugin) (MultU64x32)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              ArmArchTimerLib.obj (symbol from plugin) (DivU64x32Remainder)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              ArmArchTimerLib.obj (symbol from plugin) (DivU64x32)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LinkedList.obj)
+                              NonCoherentDmaLib.obj (symbol from plugin) (InitializeListHead)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              UefiLib.obj (symbol from plugin) (StrSize)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              UefiLib.obj (symbol from plugin) (ReadUnaligned24)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+                              Synchronization.obj (symbol from plugin) (CpuPause)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              Unaligned.obj (symbol from plugin) (RShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              Unaligned.obj (symbol from plugin) (LShiftU64)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              String.obj (symbol from plugin) (StrDecimalToUintnS)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+                              DebugLib.obj (symbol from plugin) (GetDebugPrintErrorLevel)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/Platform/RaspberryPi/Library/DualSerialPortLib/DebugDualSerialPortLib/OUTPUT/DebugDualSerialPortLib.lib(DebugDualSerialPortLib.obj)
+                              DebugLib.obj (symbol from plugin) (SerialPortInitialize)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/Platform/RaspberryPi/Library/DualSerialPortLib/DebugDualSerialPortLib/OUTPUT/DebugDualSerialPortLib.lib(DualSerialPortLibCommon.obj)
+                              DebugLib.obj (symbol from plugin) (SerialPortWrite)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              DebugLib.obj (symbol from plugin) (AsciiVSPrint)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              PrintLib.obj (symbol from plugin) (BasePrintLibConvertValueToStringS)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              NonCoherentDmaLib.obj (symbol from plugin) (FreePages)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilities.obj)
+                              UefiLib.obj (symbol from plugin) (DevicePathType)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilitiesDxeSmm.obj)
+                              DevicePathUtilities.obj (symbol from plugin) (DevicePathFromHandle)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(UefiDevicePathLib.obj)
+                              DevicePathUtilities.obj (symbol from plugin) (GetDevicePathSize)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathToText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertDeviceNodeToText)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathFromText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertTextToDeviceNode)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmGenericTimerPhyCounterLib/ArmGenericTimerPhyCounterLib/OUTPUT/ArmGenericTimerPhyCounterLib.lib(ArmGenericTimerPhyCounterLib.obj)
+                              ArmArchTimerLib.obj (symbol from plugin) (ArmGenericTimerGetTimerFreq)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib(PL011UartLib.obj)
+                              DualSerialPortLibCommon.obj (symbol from plugin) (PL011UartWrite)
+/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+                              ArmGenericTimerPhyCounterLib.obj (symbol from plugin) (ArmReadCntFrq)
+
+Discarded input sections
+
+ .text          0x0000000000000000       0x10 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .text          0x0000000000000000        0x0 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text._DriverUnloadHandler
+                0x0000000000000000        0x8 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.StrnLenS.str1.1
+                0x0000000000000000       0x65 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.StrnLenS
+                0x0000000000000000       0x70 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.IsNodeInList.constprop.0.str1.1
+                0x0000000000000000       0x44 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.IsNodeInList.constprop.0
+                0x0000000000000000       0xa8 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.__memset
+                0x0000000000000000       0x1c /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2b /tmp/cchUhdPi.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cchUhdPi.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc8EZlLm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8EZlLm.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cccx28Bm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cccx28Bm.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc0KmT3i.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0KmT3i.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccZO25sm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccZO25sm.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccXl1jhl.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXl1jhl.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc5CByUm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc5CByUm.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccw5H31l.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccw5H31l.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccqVQufj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccqVQufj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccz5EyEm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccz5EyEm.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc4AFaQk.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc4AFaQk.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc3sqauj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc3sqauj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc8DDN1i.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8DDN1i.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccXpKqtm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXpKqtm.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccyNzrol.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccyNzrol.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccPBSg3i.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPBSg3i.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccx5ya3i.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccx5ya3i.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccfa0rOi.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccfa0rOi.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccWDboul.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWDboul.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc2M2NCm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc2M2NCm.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccncWWmm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccncWWmm.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc0PS3Gj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0PS3Gj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccVcq9Fm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccVcq9Fm.debug.temp.o
+ .debug_info    0x0000000000000000      0x1bb /tmp/ccidoS2m.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xc6 /tmp/ccidoS2m.debug.temp.o
+ .debug_line    0x0000000000000000      0x172 /tmp/ccidoS2m.debug.temp.o
+ .debug_str     0x0000000000000000      0x364 /tmp/ccidoS2m.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccidoS2m.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccidoS2m.debug.temp.o
+ .debug_info    0x0000000000000000      0x186 /tmp/ccGD7NOl.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccGD7NOl.debug.temp.o
+ .debug_line    0x0000000000000000      0x174 /tmp/ccGD7NOl.debug.temp.o
+ .debug_str     0x0000000000000000      0x360 /tmp/ccGD7NOl.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccGD7NOl.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccGD7NOl.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/ccIvpFvl.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xc0 /tmp/ccIvpFvl.debug.temp.o
+ .debug_line    0x0000000000000000      0x14b /tmp/ccIvpFvl.debug.temp.o
+ .debug_str     0x0000000000000000      0x472 /tmp/ccIvpFvl.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccIvpFvl.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccIvpFvl.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/cclghOBm.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xc0 /tmp/cclghOBm.debug.temp.o
+ .debug_line    0x0000000000000000      0x14b /tmp/cclghOBm.debug.temp.o
+ .debug_str     0x0000000000000000      0x472 /tmp/cclghOBm.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cclghOBm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cclghOBm.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cccf57oj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cccf57oj.debug.temp.o
+ .debug_info    0x0000000000000000      0x1cf /tmp/ccDkSGZm.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccDkSGZm.debug.temp.o
+ .debug_line    0x0000000000000000      0x14a /tmp/ccDkSGZm.debug.temp.o
+ .debug_str     0x0000000000000000      0x462 /tmp/ccDkSGZm.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccDkSGZm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccDkSGZm.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc4LmPAk.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc4LmPAk.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccwIKvLl.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccwIKvLl.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccornpUi.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccornpUi.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/ccCavEgn.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccCavEgn.debug.temp.o
+ .debug_line    0x0000000000000000      0x14a /tmp/ccCavEgn.debug.temp.o
+ .debug_str     0x0000000000000000      0x465 /tmp/ccCavEgn.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccCavEgn.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccCavEgn.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/ccIswvXm.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccIswvXm.debug.temp.o
+ .debug_line    0x0000000000000000      0x14a /tmp/ccIswvXm.debug.temp.o
+ .debug_str     0x0000000000000000      0x465 /tmp/ccIswvXm.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccIswvXm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccIswvXm.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cco1UILl.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cco1UILl.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccTNNsdn.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccTNNsdn.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccDxEtIj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccDxEtIj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccZxB1Cm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccZxB1Cm.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccfvgH7m.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccfvgH7m.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccMG2rzj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccMG2rzj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc9xtlEm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc9xtlEm.debug.temp.o
+ .debug_info    0x0000000000000000     0x1d7d /tmp/ccUQV0sm.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x240 /tmp/ccUQV0sm.debug.temp.o
+ .debug_line    0x0000000000000000      0x36c /tmp/ccUQV0sm.debug.temp.o
+ .debug_str     0x0000000000000000     0x1974 /tmp/ccUQV0sm.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccUQV0sm.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccUQV0sm.debug.temp.o
+ .debug_info    0x0000000000000000     0x1953 /tmp/cc3u9c5l.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x1d4 /tmp/cc3u9c5l.debug.temp.o
+ .debug_line    0x0000000000000000      0x372 /tmp/cc3u9c5l.debug.temp.o
+ .debug_str     0x0000000000000000     0x1658 /tmp/cc3u9c5l.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc3u9c5l.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc3u9c5l.debug.temp.o
+ .debug_info    0x0000000000000000     0x1afe /tmp/ccA426Uj.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x1fe /tmp/ccA426Uj.debug.temp.o
+ .debug_line    0x0000000000000000      0x36a /tmp/ccA426Uj.debug.temp.o
+ .debug_str     0x0000000000000000     0x17d8 /tmp/ccA426Uj.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccA426Uj.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccA426Uj.debug.temp.o
+ .debug_info    0x0000000000000000     0x3d60 /tmp/ccK1nALi.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x2ca /tmp/ccK1nALi.debug.temp.o
+ .debug_line    0x0000000000000000      0x3db /tmp/ccK1nALi.debug.temp.o
+ .debug_str     0x0000000000000000     0x25ec /tmp/ccK1nALi.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccK1nALi.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccK1nALi.debug.temp.o
+ .debug_info    0x0000000000000000     0x45d4 /tmp/ccYIVZOk.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x2b0 /tmp/ccYIVZOk.debug.temp.o
+ .debug_line    0x0000000000000000      0x3cf /tmp/ccYIVZOk.debug.temp.o
+ .debug_str     0x0000000000000000     0x2f11 /tmp/ccYIVZOk.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccYIVZOk.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccYIVZOk.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/cc7Xkmbn.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc7Xkmbn.debug.temp.o
+ .comment       0x0000000000000000       0x2b /tmp/ccbGUcsk.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccbGUcsk.debug.temp.o
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .text          0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .text          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInvalidateDataCacheEntryByMVA
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCleanDataCacheEntryByMVA
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCleanDataCacheEntryToPoUByMVA
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInvalidateInstructionCacheEntryToPoUByMVA
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCleanInvalidateDataCacheEntryByMVA
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInvalidateDataCacheEntryBySetWay
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCleanInvalidateDataCacheEntryBySetWay
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCleanDataCacheEntryBySetWay
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInvalidateInstructionCache
+                0x0000000000000000       0x10 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableMmu
+                0x0000000000000000       0x88 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableMmu
+                0x0000000000000000       0x74 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableCachesAndMmu
+                0x0000000000000000       0x6c /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmMmuEnabled
+                0x0000000000000000       0x34 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableDataCache
+                0x0000000000000000       0x68 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableDataCache
+                0x0000000000000000       0x68 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableInstructionCache
+                0x0000000000000000       0x68 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableInstructionCache
+                0x0000000000000000       0x68 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableAlignmentCheck
+                0x0000000000000000       0x58 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableAlignmentCheck
+                0x0000000000000000       0x68 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableStackAlignmentCheck
+                0x0000000000000000       0x58 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableStackAlignmentCheck
+                0x0000000000000000       0x68 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableBranchPrediction
+                0x0000000000000000        0x4 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableBranchPrediction
+                0x0000000000000000        0x4 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.AArch64AllDataCachesOperation
+                0x0000000000000000       0xa8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDataMemoryBarrier
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInstructionSynchronizationBarrier
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmWriteVBar
+                0x0000000000000000       0x34 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadVBar
+                0x0000000000000000       0x30 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableVFP
+                0x0000000000000000       0x64 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCallWFI
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadIdAA64Mmfr2
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadMpidr
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadTpidrurw
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmWriteTpidrurw
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadIdAA64Pfr0
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmWriteHcr
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadHcr
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadCurrentEL
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadCntHctl
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmWriteCntHctl
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/BaseSynchronizationLib.lib(Synchronization.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/BaseSynchronizationLib.lib(Synchronization.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .text          0x0000000000000000       0x30 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .text          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .data          0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .bss           0x0000000000000000        0x0 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmWriteCntFrq
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmReadCntPct
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmReadCntkCtl
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmWriteCntkCtl
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmReadCntpTval
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmWriteCntpTval
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmReadCntpCtl
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmWriteCntpCtl
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmReadCntvTval
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmWriteCntvTval
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmReadCntvCtl
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmWriteCntvCtl
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmReadCntvCt
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmReadCntpCval
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmWriteCntpCval
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmReadCntvCval
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmWriteCntvCval
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmReadCntvOff
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+ .text.ArmWriteCntvOff
+                0x0000000000000000        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+START GROUP
+LOAD /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+LOAD /tmp/cchUhdPi.debug.temp.o
+LOAD /tmp/cc8EZlLm.debug.temp.o
+LOAD /tmp/cccx28Bm.debug.temp.o
+LOAD /tmp/cc0KmT3i.debug.temp.o
+LOAD /tmp/ccZO25sm.debug.temp.o
+LOAD /tmp/ccXl1jhl.debug.temp.o
+LOAD /tmp/cc5CByUm.debug.temp.o
+LOAD /tmp/ccw5H31l.debug.temp.o
+LOAD /tmp/ccqVQufj.debug.temp.o
+LOAD /tmp/ccz5EyEm.debug.temp.o
+LOAD /tmp/cc4AFaQk.debug.temp.o
+LOAD /tmp/cc3sqauj.debug.temp.o
+LOAD /tmp/cc8DDN1i.debug.temp.o
+LOAD /tmp/ccXpKqtm.debug.temp.o
+LOAD /tmp/ccyNzrol.debug.temp.o
+LOAD /tmp/ccPBSg3i.debug.temp.o
+LOAD /tmp/ccx5ya3i.debug.temp.o
+LOAD /tmp/ccfa0rOi.debug.temp.o
+LOAD /tmp/ccWDboul.debug.temp.o
+LOAD /tmp/cc2M2NCm.debug.temp.o
+LOAD /tmp/ccncWWmm.debug.temp.o
+LOAD /tmp/cc0PS3Gj.debug.temp.o
+LOAD /tmp/ccVcq9Fm.debug.temp.o
+LOAD /tmp/ccidoS2m.debug.temp.o
+LOAD /tmp/ccGD7NOl.debug.temp.o
+LOAD /tmp/ccIvpFvl.debug.temp.o
+LOAD /tmp/cclghOBm.debug.temp.o
+LOAD /tmp/cccf57oj.debug.temp.o
+LOAD /tmp/ccDkSGZm.debug.temp.o
+LOAD /tmp/cc4LmPAk.debug.temp.o
+LOAD /tmp/ccwIKvLl.debug.temp.o
+LOAD /tmp/ccornpUi.debug.temp.o
+LOAD /tmp/ccCavEgn.debug.temp.o
+LOAD /tmp/ccIswvXm.debug.temp.o
+LOAD /tmp/cco1UILl.debug.temp.o
+LOAD /tmp/ccTNNsdn.debug.temp.o
+LOAD /tmp/ccDxEtIj.debug.temp.o
+LOAD /tmp/ccZxB1Cm.debug.temp.o
+LOAD /tmp/ccfvgH7m.debug.temp.o
+LOAD /tmp/ccMG2rzj.debug.temp.o
+LOAD /tmp/cc9xtlEm.debug.temp.o
+LOAD /tmp/ccUQV0sm.debug.temp.o
+LOAD /tmp/cc3u9c5l.debug.temp.o
+LOAD /tmp/ccA426Uj.debug.temp.o
+LOAD /tmp/ccK1nALi.debug.temp.o
+LOAD /tmp/ccYIVZOk.debug.temp.o
+LOAD /tmp/cc7Xkmbn.debug.temp.o
+LOAD /tmp/ccbGUcsk.debug.temp.o
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/Platform/RaspberryPi/Drivers/RpiFirmwareDxe/RpiFirmwareDxe/OUTPUT/RpiFirmwareDxe.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/Platform/RaspberryPi/Library/DualSerialPortLib/DebugDualSerialPortLib/OUTPUT/DebugDualSerialPortLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmGenericTimerPhyCounterLib/ArmGenericTimerPhyCounterLib/OUTPUT/ArmGenericTimerPhyCounterLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeServicesTableLib/DxeServicesTableLib/OUTPUT/DxeServicesTableLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmArchTimerLib/ArmArchTimerLib/OUTPUT/ArmArchTimerLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/EmbeddedPkg/Library/NonCoherentDmaLib/NonCoherentDmaLib/OUTPUT/NonCoherentDmaLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/BaseSynchronizationLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib
+LOAD /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib
+END GROUP
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.gnu.version_d  0x0000000000000228        0x0
+ .gnu.version_d
+                0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version    0x0000000000000228        0x0
+ .gnu.version   0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version_r  0x0000000000000228        0x0
+ .gnu.version_r
+                0x0000000000000228        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.text           0x0000000000001000     0x5f80
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.SerialPortWritable.constprop.0
+                0x0000000000001000        0x8 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.DebugAssertEnabled
+                0x0000000000001008        0x8 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.DebugPrintLevelEnabled.constprop.0
+                0x0000000000001010        0x8 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.AllocatePool
+                0x0000000000001018       0x6c /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.BasePrintLibFillBuffer
+                0x0000000000001084       0x34 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.AsciiStrnLenS
+                0x00000000000010b8       0x3c /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.DebugCodeEnabled
+                0x00000000000010f4        0x8 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.DebugPrintEnabled
+                0x00000000000010fc        0x8 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.BaseDebugLibSerialPortConstructor
+                0x0000000000001104        0x8 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.SwapBytes64
+                0x000000000000110c       0x30 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.InitializeSpinLock.constprop.0
+                0x000000000000113c       0x14 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.InitializeListHead.constprop.0
+                0x0000000000001150       0x14 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.DebugAssert
+                0x0000000000001164       0x8c /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.CompareGuid.constprop.0
+                0x00000000000011f0       0x44 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.MmioWrite32.constprop.0
+                0x0000000000001234       0x10 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.ReleaseSpinLock.constprop.0
+                0x0000000000001244       0x60 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.AcquireSpinLockOrFail.constprop.0
+                0x00000000000012a4       0x70 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.ReadUnaligned16
+                0x0000000000001314       0x5c /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.BasePrintLibSPrintMarker.constprop.0
+                0x0000000000001370      0xc00 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.BasePrintLibSPrint.constprop.0
+                0x0000000000001f70       0x9c /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.AsciiSPrint.constprop.0
+                0x000000000000200c       0xa8 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.AsciiStrLen
+                0x00000000000020b4       0x74 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.InternalBaseLibIsListValid
+                0x0000000000002128       0xac /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.IsNull.constprop.0
+                0x00000000000021d4       0x54 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.GetNextNode.constprop.0
+                0x0000000000002228       0x4c /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.GetFirstNode.constprop.0
+                0x0000000000002274       0x48 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.InsertHeadList.constprop.0
+                0x00000000000022bc       0x68 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.RemoveEntryList
+                0x0000000000002324       0x74 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.MmioRead32
+                0x0000000000002398        0x8 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.SerialPortWrite
+                0x00000000000023a0      0x11c /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.DebugPrint.constprop.0
+                0x00000000000024bc       0xb8 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.FreePool
+                0x0000000000002574       0x78 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.FreePages
+                0x00000000000025ec       0xc0 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.TimerConstructor
+                0x00000000000026ac       0x68 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.MailboxWaitForStatusCleared
+                0x0000000000002714       0x58 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.MailboxTransaction.isra.0.constprop.0
+                0x000000000000276c      0x144 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.CopyMem  0x00000000000028b0       0xa4 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.ZeroMem  0x0000000000002954       0x70 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.RpiFirmwareNotifyXhciReset
+                0x00000000000029c4      0x144 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.RpiFirmwareSetGpio
+                0x0000000000002b08      0x128 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.RpiFirmwareNotifyGpioSetCfg
+                0x0000000000002c30      0x274 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.RpiFirmwareSetLed
+                0x0000000000002ea4        0xc /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.RpiFirmwareSetClockState
+                0x0000000000002eb0      0x134 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.RpiFirmwareGetClockRate
+                0x0000000000002fe4      0x144 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.RpiFirmwareGetMinClockRate
+                0x0000000000003128       0x10 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.RpiFirmwareGetMaxClockRate
+                0x0000000000003138       0x10 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.RpiFirmwareGetCurrentClockRate
+                0x0000000000003148       0x10 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.RpiFirmwareGetCurrentClockState
+                0x0000000000003158       0x10 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.RpiFirmwareSetClockRate
+                0x0000000000003168      0x150 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.RpiFirmwareGetCommmandLine
+                0x00000000000032b8      0x230 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.RpiFirmwareFreeFb
+                0x00000000000034e8      0x124 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.RpiFirmwareGetFbSize
+                0x000000000000360c      0x14c /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.SetDisplayNumber
+                0x0000000000003758       0xe0 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.RpiFirmwareAllocFb
+                0x0000000000003838      0x364 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.RpiFirmwareGetFirmwareRevision
+                0x0000000000003b9c      0x134 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.RpiFirmwareGetModelRevision
+                0x0000000000003cd0      0x138 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.RpiFirmwareGetCpuName
+                0x0000000000003e08       0x80 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.RpiFirmwareGetManufacturerName
+                0x0000000000003e88       0x80 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.RPiFirmwareGetModelFamily
+                0x0000000000003f08      0x118 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.RPiFirmwareGetModelInstalledMB
+                0x0000000000004020       0xa8 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.RpiFirmwareGetModelName
+                0x00000000000040c8       0x80 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.RpiFirmwareGetModel
+                0x0000000000004148      0x134 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.RpiFirmwareGetMacAddress
+                0x000000000000427c      0x140 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.RpiFirmwareGetSerial
+                0x00000000000043bc      0x160 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.RpiFirmwareGetArmMemory
+                0x000000000000451c      0x14c /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.RpiFirmwareSetPowerState
+                0x0000000000004668      0x1ac /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .text.memcpy   0x0000000000004814       0x20 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+                0x0000000000004814                memcpy
+ .text.__stack_chk_fail
+                0x0000000000004834       0x48 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+                0x0000000000004834                __stack_chk_fail
+ .text._ModuleEntryPoint
+                0x000000000000487c      0x92c /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+                0x000000000000487c                _ModuleEntryPoint
+ *fill*         0x00000000000051a8        0x8 
+ .text          0x00000000000051b0      0x200 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                0x00000000000051b0                InternalMemSetMem16
+                0x00000000000051bc                InternalMemSetMem32
+                0x00000000000051c8                InternalMemSetMem64
+                0x00000000000051d4                InternalMemZeroMem
+                0x00000000000051dc                InternalMemSetMem
+ .text          0x00000000000053b0      0x218 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                0x000000000000551c                InternalMemCopyMem
+ .text.ArmDataSynchronizationBarrier
+                0x00000000000055c8        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x00000000000055c8                ArmDataSynchronizationBarrier
+ .text.ArmIsArchTimerImplemented
+                0x00000000000055d0        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x00000000000055d0                ArmIsArchTimerImplemented
+ .text          0x00000000000055d8       0xb4 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/OUTPUT/BaseSynchronizationLib.lib(Synchronization.obj)
+                0x00000000000055d8                InternalSyncCompareExchange16
+                0x0000000000005604                InternalSyncCompareExchange32
+                0x0000000000005628                InternalSyncCompareExchange64
+                0x000000000000564c                InternalSyncIncrement
+                0x000000000000566c                InternalSyncDecrement
+ *fill*         0x000000000000568c       0x14 
+ .text          0x00000000000056a0       0x20 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                0x00000000000056a0                InternalMemCompareGuid
+ .text.ArmReadCntFrq
+                0x00000000000056c0        0x8 /home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64ArchTimerSupport.obj)
+                0x00000000000056c0                ArmReadCntFrq
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.DebugAssert.str1.1
+                0x00000000000056c8       0x27 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.CompareGuid.constprop.0.str1.1
+                0x00000000000056ef       0x68 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.ReleaseSpinLock.constprop.0.str1.1
+                0x0000000000005757       0x8b /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.ReadUnaligned16.str1.1
+                0x00000000000057e2       0x5c /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.BasePrintLibSPrintMarker.constprop.0.str1.1
+                0x000000000000583e      0x17d /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ *fill*         0x00000000000059bb        0x1 
+ .rodata.BasePrintLibSPrintMarker.constprop.0
+                0x00000000000059bc       0x5e /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.AsciiStrLen.str1.1
+                0x0000000000005a1a       0x76 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.InternalBaseLibIsListValid.str1.1
+                0x0000000000005a90       0x98 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.IsNull.constprop.0.str1.1
+                0x0000000000005b28       0x22 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.InsertHeadList.constprop.0.str1.1
+                0x0000000000005b4a       0x26 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.RemoveEntryList.str1.1
+                0x0000000000005b70       0x15 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.FreePool.str1.1
+                0x0000000000005b85       0x90 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.FreePages.str1.1
+                0x0000000000005c15        0xb /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.TimerConstructor.str1.1
+                0x0000000000005c20       0xcc /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+                                         0xce (size before relaxing)
+ .rodata.MailboxTransaction.isra.0.constprop.0.str1.1
+                0x0000000000005cec       0x88 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.CopyMem.str1.1
+                0x0000000000005d74       0xd3 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.ZeroMem.str1.1
+                0x0000000000005e47       0x88 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.RpiFirmwareNotifyXhciReset.str1.1
+                0x0000000000005ecf       0x60 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.RpiFirmwareNotifyGpioSetCfg.str1.1
+                0x0000000000005f2f       0x21 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.RpiFirmwareSetClockState.str1.1
+                0x0000000000005f50       0x3f /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.RpiFirmwareGetCommmandLine.str1.1
+                0x0000000000005f8f       0x71 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.RpiFirmwareAllocFb.str1.1
+                0x0000000000006000       0xc3 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.RpiFirmwareGetCpuName.str1.1
+                0x00000000000060c3       0x12 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.RpiFirmwareGetManufacturerName.str1.1
+                0x00000000000060d5       0x15 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.RPiFirmwareGetModelFamily.str1.1
+                0x00000000000060ea       0x6d /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ *fill*         0x0000000000006157        0x1 
+ .rodata.RPiFirmwareGetModelFamily
+                0x0000000000006158       0x15 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.RpiFirmwareGetModelName.str1.1
+                0x000000000000616d       0x1b /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.RpiFirmwareSetPowerState.str1.1
+                0x0000000000006188       0x31 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.__stack_chk_fail.str1.1
+                0x00000000000061b9       0x2e /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata._ModuleEntryPoint.str1.1
+                0x00000000000061e7      0x4ed /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.str1.1
+                0x00000000000066d4      0x1fe /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ *fill*         0x00000000000068d2        0x6 
+ .rodata.CSWTCH.65
+                0x00000000000068d8       0x20 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.CSWTCH.67
+                0x00000000000068f8       0x30 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.CSWTCH.70
+                0x0000000000006928       0xa8 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.11379
+                0x00000000000069d0        0x7 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.15583
+                0x00000000000069d7       0x13 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.15611
+                0x00000000000069ea       0x19 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.15629
+                0x0000000000006a03       0x18 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.15646
+                0x0000000000006a1b       0x19 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.15662
+                0x0000000000006a34       0x15 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.15678
+                0x0000000000006a49       0x14 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.15694
+                0x0000000000006a5d       0x1c /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.15701
+                0x0000000000006a79       0x1f /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.15728
+                0x0000000000006a98       0x1f /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.15735
+                0x0000000000006ab7       0x1a /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.15828
+                0x0000000000006ad1       0x11 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.15836
+                0x0000000000006ae2       0x15 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.15843
+                0x0000000000006af7       0x12 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.15858
+                0x0000000000006b09       0x13 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.15871
+                0x0000000000006b1c       0x1b /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.15891
+                0x0000000000006b37       0x18 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.15910
+                0x0000000000006b4f       0x18 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.15944
+                0x0000000000006b67       0x19 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.15962
+                0x0000000000006b80       0x13 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.15983
+                0x0000000000006b93       0x1b /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.16004
+                0x0000000000006bae       0x1c /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.16027
+                0x0000000000006bca       0x1c /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.16036
+                0x0000000000006be6       0x19 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.mErrorString
+                0x0000000000006bff      0x2b5 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.mHexStr
+                0x0000000000006eb4       0x10 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .rodata.mWarningString
+                0x0000000000006ec4       0x96 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ *(.got .got.*)
+ *fill*         0x0000000000006f5a        0x6 
+ .got           0x0000000000006f60        0x8 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x0000000000006f60                _GLOBAL_OFFSET_TABLE_
+ .got.plt       0x0000000000006f68       0x18 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ *:AutoGen.obj(.data.g*Guid)
+
+.plt            0x0000000000006f80        0x0
+ .plt           0x0000000000006f80        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.data           0x0000000000007000      0x170
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.ro   0x0000000000007000        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data.__stack_chk_guard
+                0x0000000000007000        0x8 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+                0x0000000000007000                __stack_chk_guard
+ .data.gEfiCpuArchProtocolGuid
+                0x0000000000007008       0x10 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .data.gEfiDxeServicesTableGuid
+                0x0000000000007018       0x10 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .data.gRaspberryPiFirmwareProtocolGuid
+                0x0000000000007028       0x10 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .data.mRpiFirmwareProtocol
+                0x0000000000007038       0xc8 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ *(.bss .bss.*)
+ .bss.UncachedAllocationList
+                0x0000000000007100       0x10 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .bss.UsePl011Uart
+                0x0000000000007110        0x1 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .bss.UsePl011UartSet
+                0x0000000000007111        0x1 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ *fill*         0x0000000000007112        0x6 
+ .bss.gBS       0x0000000000007118        0x8 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .bss.gDS       0x0000000000007120        0x8 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .bss.gImageHandle
+                0x0000000000007128        0x8 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .bss.gRT       0x0000000000007130        0x8 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .bss.gST       0x0000000000007138        0x8 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .bss.mCpu      0x0000000000007140        0x8 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .bss.mDmaBuffer
+                0x0000000000007148        0x8 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .bss.mDmaBufferBusAddress
+                0x0000000000007150        0x8 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .bss.mDmaBufferMapping
+                0x0000000000007158        0x8 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .bss.mDmaHostAddressLimit
+                0x0000000000007160        0x8 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .bss.mMailboxLock
+                0x0000000000007168        0x8 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+
+.dynbss         0x0000000000007170        0x0
+ .dynbss        0x0000000000007170        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.eh_frame
+ *(.eh_frame)
+
+.rela           0x0000000000007170      0x540
+ *(.rela .rela.*)
+ .rela.got      0x0000000000007170        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.plt      0x0000000000007170        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.bss      0x0000000000007170        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.rel.ro
+                0x0000000000007170        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.ifunc    0x0000000000007170        0x0 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.mRpiFirmwareProtocol
+                0x0000000000007170      0x258 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.CSWTCH.65
+                0x00000000000073c8       0x60 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.CSWTCH.67
+                0x0000000000007428       0x90 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.CSWTCH.70
+                0x00000000000074b8      0x1f8 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.hii
+ *(.hii)
+
+.build-id       0x00000000000076b0       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000000076b0       0x24 /home/alastair/pftf-rpi4/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+ *(COMMON)
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+OUTPUT(/home/alastair/pftf-rpi4/Build/RPi4/DEBUG_GCC5/AARCH64/Platform/RaspberryPi/Drivers/RpiFirmwareDxe/RpiFirmwareDxe/DEBUG/RpiFirmwareDxe.dll elf64-littleaarch64)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000    0x1f7de
+ .debug_info    0x0000000000000000     0x5707 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .debug_info    0x0000000000005707     0x1a57 /tmp/cchUhdPi.debug.temp.o
+                0x0000000000005707                DriverEntryPoint.c.9519b125
+ .debug_info    0x000000000000715e      0x187 /tmp/cc8EZlLm.debug.temp.o
+                0x000000000000715e                BaseStackCheckGcc.c.9918e4ed
+ .debug_info    0x00000000000072e5      0x1d7 /tmp/cccx28Bm.debug.temp.o
+                0x00000000000072e5                memcpy.c.992e94b8
+ .debug_info    0x00000000000074bc      0x188 /tmp/cc0KmT3i.debug.temp.o
+                0x00000000000074bc                memset.c.d190684e
+ .debug_info    0x0000000000007644     0x1e60 /tmp/ccZO25sm.debug.temp.o
+                0x0000000000007644                AutoGen.c.f7a8a7c1
+ .debug_info    0x00000000000094a4     0x33da /tmp/ccXl1jhl.debug.temp.o
+                0x00000000000094a4                RpiFirmwareDxe.c.24ddd0ea
+ .debug_info    0x000000000000c87e      0x17a /tmp/cc5CByUm.debug.temp.o
+                0x000000000000c87e                ZeroMemWrapper.c.8dc042f6
+ .debug_info    0x000000000000c9f8      0x191 /tmp/ccw5H31l.debug.temp.o
+                0x000000000000c9f8                CopyMemWrapper.c.8ed793a8
+ .debug_info    0x000000000000cb89      0x1c3 /tmp/ccqVQufj.debug.temp.o
+                0x000000000000cb89                SwapBytes64.c.07cf841c
+ .debug_info    0x000000000000cd4c      0x1d0 /tmp/ccz5EyEm.debug.temp.o
+                0x000000000000cd4c                CpuDeadLoop.c.e33e7959
+ .debug_info    0x000000000000cf1c      0x43c /tmp/cc4AFaQk.debug.temp.o
+                0x000000000000cf1c                Math64.c.5e992ad5
+ .debug_info    0x000000000000d358      0x1db /tmp/cc3sqauj.debug.temp.o
+                0x000000000000d358                SwapBytes32.c.2bbabdc8
+ .debug_info    0x000000000000d533      0x1c3 /tmp/cc8DDN1i.debug.temp.o
+                0x000000000000d533                SwapBytes16.c.00247ae1
+ .debug_info    0x000000000000d6f6      0x503 /tmp/ccXpKqtm.debug.temp.o
+                0x000000000000d6f6                IoLibNoIo.c.335a48c4
+ .debug_info    0x000000000000dbf9      0x3f2 /tmp/ccyNzrol.debug.temp.o
+                0x000000000000dbf9                DebugLib.c.0df38b98
+ .debug_info    0x000000000000dfeb     0x18e1 /tmp/ccPBSg3i.debug.temp.o
+                0x000000000000dfeb                UefiBootServicesTableLib.c.c00a3dd8
+ .debug_info    0x000000000000f8cc     0x18b2 /tmp/ccx5ya3i.debug.temp.o
+                0x000000000000f8cc                UefiRuntimeServicesTableLib.c.7b9e7237
+ .debug_info    0x000000000001117e     0x27ac /tmp/ccfa0rOi.debug.temp.o
+                0x000000000001117e                UefiLib.c.2c69044c
+ .debug_info    0x000000000001392a     0x1eae /tmp/ccWDboul.debug.temp.o
+                0x000000000001392a                DxeServicesTableLib.c.0552c477
+ .debug_info    0x00000000000157d8      0x283 /tmp/cc2M2NCm.debug.temp.o
+                0x00000000000157d8                ArmArchTimerLib.c.70809add
+ .debug_info    0x0000000000015a5b     0x3c6f /tmp/ccncWWmm.debug.temp.o
+                0x0000000000015a5b                NonCoherentDmaLib.c.ec61f30a
+ .debug_info    0x00000000000196ca      0x3e6 /tmp/cc0PS3Gj.debug.temp.o
+                0x00000000000196ca                Synchronization.c.468bd8e7
+ .debug_info    0x0000000000019ab0      0x21d /tmp/ccVcq9Fm.debug.temp.o
+                0x0000000000019ab0                MemLibGuid.c.2ca06148
+ .debug_info    0x0000000000019ccd      0x1e5 /tmp/cccf57oj.debug.temp.o
+                0x0000000000019ccd                DivU64x32Remainder.c.19070deb
+ .debug_info    0x0000000000019eb2      0x428 /tmp/cc4LmPAk.debug.temp.o
+                0x0000000000019eb2                LinkedList.c.6e13becc
+ .debug_info    0x000000000001a2da      0x7f3 /tmp/ccwIKvLl.debug.temp.o
+                0x000000000001a2da                String.c.753c3495
+ .debug_info    0x000000000001aacd      0x33d /tmp/ccornpUi.debug.temp.o
+                0x000000000001aacd                Unaligned.c.4a0798dc
+ .debug_info    0x000000000001ae0a     0x1004 /tmp/cco1UILl.debug.temp.o
+                0x000000000001ae0a                SafeString.c.d8550fea
+ .debug_info    0x000000000001be0e      0x18d /tmp/ccTNNsdn.debug.temp.o
+                0x000000000001be0e                BaseDebugPrintErrorLevelLib.c.afda57b5
+ .debug_info    0x000000000001bf9b      0x201 /tmp/ccDxEtIj.debug.temp.o
+                0x000000000001bf9b                DebugDualSerialPortLib.c.3fe30e88
+ .debug_info    0x000000000001c19c      0x2e6 /tmp/ccZxB1Cm.debug.temp.o
+                0x000000000001c19c                DualSerialPortLibCommon.c.2dc6badf
+ .debug_info    0x000000000001c482      0x68f /tmp/ccfvgH7m.debug.temp.o
+                0x000000000001c482                PrintLib.c.260a037f
+ .debug_info    0x000000000001cb11      0x79a /tmp/ccMG2rzj.debug.temp.o
+                0x000000000001cb11                PrintLibInternal.c.92769e0a
+ .debug_info    0x000000000001d2ab     0x1de0 /tmp/cc9xtlEm.debug.temp.o
+                0x000000000001d2ab                MemoryAllocationLib.c.774777c4
+ .debug_info    0x000000000001f08b      0x21d /tmp/cc7Xkmbn.debug.temp.o
+                0x000000000001f08b                ArmGenericTimerPhyCounterLib.c.eb4701ff
+ .debug_info    0x000000000001f2a8      0x536 /tmp/ccbGUcsk.debug.temp.o
+                0x000000000001f2a8                PL011UartLib.c.f54a0051
+
+.debug_abbrev   0x0000000000000000     0x3005
+ .debug_abbrev  0x0000000000000000      0x291 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000291      0x1e9 /tmp/cchUhdPi.debug.temp.o
+ .debug_abbrev  0x000000000000047a       0xc7 /tmp/cc8EZlLm.debug.temp.o
+ .debug_abbrev  0x0000000000000541       0xee /tmp/cccx28Bm.debug.temp.o
+ .debug_abbrev  0x000000000000062f       0xc0 /tmp/cc0KmT3i.debug.temp.o
+ .debug_abbrev  0x00000000000006ef      0x236 /tmp/ccZO25sm.debug.temp.o
+ .debug_abbrev  0x0000000000000925      0x29f /tmp/ccXl1jhl.debug.temp.o
+ .debug_abbrev  0x0000000000000bc4       0xb1 /tmp/cc5CByUm.debug.temp.o
+ .debug_abbrev  0x0000000000000c75       0xb8 /tmp/ccw5H31l.debug.temp.o
+ .debug_abbrev  0x0000000000000d2d       0xb1 /tmp/ccqVQufj.debug.temp.o
+ .debug_abbrev  0x0000000000000dde       0xb6 /tmp/ccz5EyEm.debug.temp.o
+ .debug_abbrev  0x0000000000000e94       0xf9 /tmp/cc4AFaQk.debug.temp.o
+ .debug_abbrev  0x0000000000000f8d       0xc0 /tmp/cc3sqauj.debug.temp.o
+ .debug_abbrev  0x000000000000104d       0xb1 /tmp/cc8DDN1i.debug.temp.o
+ .debug_abbrev  0x00000000000010fe      0x11f /tmp/ccXpKqtm.debug.temp.o
+ .debug_abbrev  0x000000000000121d      0x165 /tmp/ccyNzrol.debug.temp.o
+ .debug_abbrev  0x0000000000001382      0x1dd /tmp/ccPBSg3i.debug.temp.o
+ .debug_abbrev  0x000000000000155f      0x1c3 /tmp/ccx5ya3i.debug.temp.o
+ .debug_abbrev  0x0000000000001722      0x267 /tmp/ccfa0rOi.debug.temp.o
+ .debug_abbrev  0x0000000000001989      0x1ea /tmp/ccWDboul.debug.temp.o
+ .debug_abbrev  0x0000000000001b73      0x104 /tmp/cc2M2NCm.debug.temp.o
+ .debug_abbrev  0x0000000000001c77      0x2d1 /tmp/ccncWWmm.debug.temp.o
+ .debug_abbrev  0x0000000000001f48      0x125 /tmp/cc0PS3Gj.debug.temp.o
+ .debug_abbrev  0x000000000000206d       0xce /tmp/ccVcq9Fm.debug.temp.o
+ .debug_abbrev  0x000000000000213b       0xb3 /tmp/cccf57oj.debug.temp.o
+ .debug_abbrev  0x00000000000021ee      0x139 /tmp/cc4LmPAk.debug.temp.o
+ .debug_abbrev  0x0000000000002327      0x126 /tmp/ccwIKvLl.debug.temp.o
+ .debug_abbrev  0x000000000000244d       0xc9 /tmp/ccornpUi.debug.temp.o
+ .debug_abbrev  0x0000000000002516      0x138 /tmp/cco1UILl.debug.temp.o
+ .debug_abbrev  0x000000000000264e       0xc6 /tmp/ccTNNsdn.debug.temp.o
+ .debug_abbrev  0x0000000000002714       0xc4 /tmp/ccDxEtIj.debug.temp.o
+ .debug_abbrev  0x00000000000027d8      0x108 /tmp/ccZxB1Cm.debug.temp.o
+ .debug_abbrev  0x00000000000028e0      0x150 /tmp/ccfvgH7m.debug.temp.o
+ .debug_abbrev  0x0000000000002a30      0x161 /tmp/ccMG2rzj.debug.temp.o
+ .debug_abbrev  0x0000000000002b91      0x242 /tmp/cc9xtlEm.debug.temp.o
+ .debug_abbrev  0x0000000000002dd3       0xee /tmp/cc7Xkmbn.debug.temp.o
+ .debug_abbrev  0x0000000000002ec1      0x144 /tmp/ccbGUcsk.debug.temp.o
+
+.debug_loc      0x0000000000000000     0x75e1
+ .debug_loc     0x0000000000000000     0x75e1 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+
+.debug_aranges  0x0000000000000000      0x4b0
+ .debug_aranges
+                0x0000000000000000      0x4b0 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+
+.debug_ranges   0x0000000000000000      0xf20
+ .debug_ranges  0x0000000000000000      0xf20 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+
+.debug_line     0x0000000000000000     0x7e08
+ .debug_line    0x0000000000000000     0x359c /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+ .debug_line    0x000000000000359c      0x347 /tmp/cchUhdPi.debug.temp.o
+ .debug_line    0x00000000000038e3      0x170 /tmp/cc8EZlLm.debug.temp.o
+ .debug_line    0x0000000000003a53      0x171 /tmp/cccx28Bm.debug.temp.o
+ .debug_line    0x0000000000003bc4      0x171 /tmp/cc0KmT3i.debug.temp.o
+ .debug_line    0x0000000000003d35      0x2ff /tmp/ccZO25sm.debug.temp.o
+ .debug_line    0x0000000000004034      0x3fd /tmp/ccXl1jhl.debug.temp.o
+ .debug_line    0x0000000000004431      0x173 /tmp/cc5CByUm.debug.temp.o
+ .debug_line    0x00000000000045a4      0x173 /tmp/ccw5H31l.debug.temp.o
+ .debug_line    0x0000000000004717      0x14c /tmp/ccqVQufj.debug.temp.o
+ .debug_line    0x0000000000004863      0x14c /tmp/ccz5EyEm.debug.temp.o
+ .debug_line    0x00000000000049af      0x147 /tmp/cc4AFaQk.debug.temp.o
+ .debug_line    0x0000000000004af6      0x14c /tmp/cc3sqauj.debug.temp.o
+ .debug_line    0x0000000000004c42      0x14c /tmp/cc8DDN1i.debug.temp.o
+ .debug_line    0x0000000000004d8e      0x16b /tmp/ccXpKqtm.debug.temp.o
+ .debug_line    0x0000000000004ef9      0x20c /tmp/ccyNzrol.debug.temp.o
+ .debug_line    0x0000000000005105      0x330 /tmp/ccPBSg3i.debug.temp.o
+ .debug_line    0x0000000000005435      0x2e9 /tmp/ccx5ya3i.debug.temp.o
+ .debug_line    0x000000000000571e      0x36d /tmp/ccfa0rOi.debug.temp.o
+ .debug_line    0x0000000000005a8b      0x42d /tmp/ccWDboul.debug.temp.o
+ .debug_line    0x0000000000005eb8      0x168 /tmp/cc2M2NCm.debug.temp.o
+ .debug_line    0x0000000000006020      0x3d6 /tmp/ccncWWmm.debug.temp.o
+ .debug_line    0x00000000000063f6      0x1ca /tmp/cc0PS3Gj.debug.temp.o
+ .debug_line    0x00000000000065c0      0x173 /tmp/ccVcq9Fm.debug.temp.o
+ .debug_line    0x0000000000006733      0x153 /tmp/cccf57oj.debug.temp.o
+ .debug_line    0x0000000000006886      0x14b /tmp/cc4LmPAk.debug.temp.o
+ .debug_line    0x00000000000069d1      0x147 /tmp/ccwIKvLl.debug.temp.o
+ .debug_line    0x0000000000006b18      0x14e /tmp/ccornpUi.debug.temp.o
+ .debug_line    0x0000000000006c66      0x14b /tmp/cco1UILl.debug.temp.o
+ .debug_line    0x0000000000006db1      0x198 /tmp/ccTNNsdn.debug.temp.o
+ .debug_line    0x0000000000006f49      0x228 /tmp/ccDxEtIj.debug.temp.o
+ .debug_line    0x0000000000007171      0x240 /tmp/ccZxB1Cm.debug.temp.o
+ .debug_line    0x00000000000073b1      0x166 /tmp/ccfvgH7m.debug.temp.o
+ .debug_line    0x0000000000007517      0x184 /tmp/ccMG2rzj.debug.temp.o
+ .debug_line    0x000000000000769b      0x328 /tmp/cc9xtlEm.debug.temp.o
+ .debug_line    0x00000000000079c3      0x19c /tmp/cc7Xkmbn.debug.temp.o
+ .debug_line    0x0000000000007b5f      0x2a9 /tmp/ccbGUcsk.debug.temp.o
+
+.debug_str      0x0000000000000000     0x6c81
+ .debug_str     0x0000000000000000      0x2da /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
+                                        0x2f3 (size before relaxing)
+ .debug_str     0x00000000000002da     0x1518 /tmp/cchUhdPi.debug.temp.o
+                                       0x1690 (size before relaxing)
+ .debug_str     0x00000000000017f2      0x27a /tmp/cc8EZlLm.debug.temp.o
+                                        0x3af (size before relaxing)
+ .debug_str     0x0000000000001a6c       0xd3 /tmp/cccx28Bm.debug.temp.o
+                                        0x34e (size before relaxing)
+ .debug_str     0x0000000000001b3f       0x55 /tmp/cc0KmT3i.debug.temp.o
+                                        0x342 (size before relaxing)
+ .debug_str     0x0000000000001b94      0x979 /tmp/ccZO25sm.debug.temp.o
+                                       0x1f06 (size before relaxing)
+ .debug_str     0x000000000000250d      0xb4c /tmp/ccXl1jhl.debug.temp.o
+                                       0x2575 (size before relaxing)
+ .debug_str     0x0000000000003059       0xc0 /tmp/cc5CByUm.debug.temp.o
+                                        0x358 (size before relaxing)
+ .debug_str     0x0000000000003119       0x71 /tmp/ccw5H31l.debug.temp.o
+                                        0x370 (size before relaxing)
+ .debug_str     0x000000000000318a       0x99 /tmp/ccqVQufj.debug.temp.o
+                                        0x45b (size before relaxing)
+ .debug_str     0x0000000000003223       0x4f /tmp/ccz5EyEm.debug.temp.o
+                                        0x461 (size before relaxing)
+ .debug_str     0x0000000000003272      0x1b8 /tmp/cc4AFaQk.debug.temp.o
+                                        0x5df (size before relaxing)
+ .debug_str     0x000000000000342a       0x4f /tmp/cc3sqauj.debug.temp.o
+                                        0x472 (size before relaxing)
+ .debug_str     0x0000000000003479       0x4f /tmp/cc8DDN1i.debug.temp.o
+                                        0x45b (size before relaxing)
+ .debug_str     0x00000000000034c8      0x1ab /tmp/ccXpKqtm.debug.temp.o
+                                        0x44d (size before relaxing)
+ .debug_str     0x0000000000003673      0x267 /tmp/ccyNzrol.debug.temp.o
+                                        0x5c4 (size before relaxing)
+ .debug_str     0x00000000000038da       0xfd /tmp/ccPBSg3i.debug.temp.o
+                                       0x156d (size before relaxing)
+ .debug_str     0x00000000000039d7      0x10c /tmp/ccx5ya3i.debug.temp.o
+                                       0x156f (size before relaxing)
+ .debug_str     0x0000000000003ae3      0x785 /tmp/ccfa0rOi.debug.temp.o
+                                       0x20b1 (size before relaxing)
+ .debug_str     0x0000000000004268      0x639 /tmp/ccWDboul.debug.temp.o
+                                       0x1c34 (size before relaxing)
+ .debug_str     0x00000000000048a1      0x197 /tmp/cc2M2NCm.debug.temp.o
+                                        0x479 (size before relaxing)
+ .debug_str     0x0000000000004a38      0x8f5 /tmp/ccncWWmm.debug.temp.o
+                                       0x249d (size before relaxing)
+ .debug_str     0x000000000000532d      0x220 /tmp/cc0PS3Gj.debug.temp.o
+                                        0x50e (size before relaxing)
+ .debug_str     0x000000000000554d       0x9e /tmp/ccVcq9Fm.debug.temp.o
+                                        0x3ad (size before relaxing)
+ .debug_str     0x00000000000055eb       0x5d /tmp/cccf57oj.debug.temp.o
+                                        0x47e (size before relaxing)
+ .debug_str     0x0000000000005648      0x11a /tmp/cc4LmPAk.debug.temp.o
+                                        0x571 (size before relaxing)
+ .debug_str     0x0000000000005762      0x2fa /tmp/ccwIKvLl.debug.temp.o
+                                        0x7e2 (size before relaxing)
+ .debug_str     0x0000000000005a5c       0xde /tmp/ccornpUi.debug.temp.o
+                                        0x508 (size before relaxing)
+ .debug_str     0x0000000000005b3a      0x2dd /tmp/cco1UILl.debug.temp.o
+                                        0x82d (size before relaxing)
+ .debug_str     0x0000000000005e17      0x115 /tmp/ccTNNsdn.debug.temp.o
+                                        0x3e0 (size before relaxing)
+ .debug_str     0x0000000000005f2c      0x102 /tmp/ccDxEtIj.debug.temp.o
+                                        0x516 (size before relaxing)
+ .debug_str     0x000000000000602e       0xf3 /tmp/ccZxB1Cm.debug.temp.o
+                                        0x5b3 (size before relaxing)
+ .debug_str     0x0000000000006121      0x217 /tmp/ccfvgH7m.debug.temp.o
+                                        0x5a2 (size before relaxing)
+ .debug_str     0x0000000000006338      0x21d /tmp/ccMG2rzj.debug.temp.o
+                                        0x70c (size before relaxing)
+ .debug_str     0x0000000000006555      0x2ae /tmp/cc9xtlEm.debug.temp.o
+                                       0x17d9 (size before relaxing)
+ .debug_str     0x0000000000006803      0x241 /tmp/cc7Xkmbn.debug.temp.o
+                                        0x4d7 (size before relaxing)
+ .debug_str     0x0000000000006a44      0x23d /tmp/ccbGUcsk.debug.temp.o
+                                        0x818 (size before relaxing)
+
+.debug_frame    0x0000000000000000      0xc88
+ .debug_frame   0x0000000000000000      0xc88 /tmp/RpiFirmwareDxe.dll.IOwHrk.ltrans0.ltrans.o
