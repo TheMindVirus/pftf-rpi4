@@ -9,3 +9,4 @@ on an Aarch64 NVidia Jetson Nano through `qemu-system-x86_64` with OVMF UEFI:
 ![screenshot4](https://github.com/TheMindVirus/pftf-rpi4/blob/ovmf/screenshot4.png)
 ![screenshot5](https://github.com/TheMindVirus/pftf-rpi4/blob/ovmf/screenshot5.png)
 ![screenshot6](https://github.com/TheMindVirus/pftf-rpi4/blob/ovmf/screenshot6.png)
+![screenshot7](https://github.com/TheMindVirus/pftf-rpi4/blob/ovmf/screenshot7.png)
