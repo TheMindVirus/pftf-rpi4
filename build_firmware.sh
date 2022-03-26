@@ -1,3 +1,4 @@
+#!/bin/bash
 #
 # NOTICE: This script is *NOT* designed to be used in a standalone fashion.
 # It is designed to be used as part of an Appveyor build, and only works if the
