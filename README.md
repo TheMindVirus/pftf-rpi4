@@ -12,6 +12,8 @@ This repository contains __EXPERIMENTAL__ installable builds of the official
 
 [RpiFirmwareDxe edits](https://github.com/TheMindVirus/pftf-rpi4/blob/d5391239baef00fd9abccfa940106d08170031ac/edk2-platforms/Platform/RaspberryPi/Drivers/RpiFirmwareDxe/RpiFirmwareDxe.c#L73)
 
+[RpiFirmwareDxe edits](https://github.com/TheMindVirus/pftf-rpi4/blob/d5391239baef00fd9abccfa940106d08170031ac/edk2-platforms/Platform/RaspberryPi/Drivers/RpiFirmwareDxe/RpiFirmwareDxe.c#L310)
+
 [RpiFirmwareDxe edits](https://github.com/TheMindVirus/pftf-rpi4/blob/d5391239baef00fd9abccfa940106d08170031ac/edk2-platforms/Platform/RaspberryPi/Drivers/RpiFirmwareDxe/RpiFirmwareDxe.inf#L39)
 
 [MdePkg edits](https://github.com/TheMindVirus/pftf-rpi4/blob/d5391239baef00fd9abccfa940106d08170031ac/edk2/MdePkg/Library/PeiDxePostCodeLibReportStatusCode/PostCode.c#L55)
