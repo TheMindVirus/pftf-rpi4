@@ -16,6 +16,8 @@ This repository contains __EXPERIMENTAL__ installable builds of the official
 
 [MdePkg edits](https://github.com/TheMindVirus/pftf-rpi4/blob/d5391239baef00fd9abccfa940106d08170031ac/edk2/MdePkg/Library/PeiDxePostCodeLibReportStatusCode/PostCode.c#L55)
 
+More Info: https://github.com/themindvirus/liquorice
+
 # Initial Notice
 
 __PLEASE READ THE FOLLOWING:__  
