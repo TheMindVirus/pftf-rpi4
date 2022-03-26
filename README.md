@@ -14,6 +14,8 @@ This repository contains __EXPERIMENTAL__ installable builds of the official
 
 [DisplayDxe edits](https://github.com/TheMindVirus/pftf-rpi4/blob/f62dba0a93591848d3f0a74f9c7d397bcebfcbd1/edk2-platforms/Platform/RaspberryPi/Drivers/DisplayDxe/DisplayDxe.c#L314)
 
+[IndustryStandard edits](https://github.com/TheMindVirus/pftf-rpi4/blob/f62dba0a93591848d3f0a74f9c7d397bcebfcbd1/edk2-platforms/Platform/RaspberryPi/Include/IndustryStandard/RpiMbox.h#L142)
+
 # Initial Notice
 
 __PLEASE READ THE FOLLOWING:__  
