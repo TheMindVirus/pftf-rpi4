@@ -30,13 +30,13 @@
 #include <IndustryStandard/Bcm2836Gpio.h>
 
 #define RPI_POST_DISPLAY_X1    16
-#define RPI_POST_DISPLAY_A1    27
-#define RPI_POST_DISPLAY_B1    22
+#define RPI_POST_DISPLAY_A1    17
+#define RPI_POST_DISPLAY_B1    4
 #define RPI_POST_DISPLAY_C1    25
 #define RPI_POST_DISPLAY_D1    24
 #define RPI_POST_DISPLAY_E1    23
-#define RPI_POST_DISPLAY_F1    4
-#define RPI_POST_DISPLAY_G1    17
+#define RPI_POST_DISPLAY_F1    22
+#define RPI_POST_DISPLAY_G1    27
 
 #define RPI_POST_DISPLAY_X2    26
 #define RPI_POST_DISPLAY_A2    5
@@ -51,7 +51,7 @@ STATIC UINT8 QCODE2DIGIT(UINT8 Q, BOOLEAN DOT)
 {
     UINT8 D = 0x0;
          if (Q == 0x0) { D = 0x3F; }
-    else if (Q == 0x1) { D = 0x0C; }
+    else if (Q == 0x1) { D = 0x06; }
     else if (Q == 0x2) { D = 0x5B; }
     else if (Q == 0x3) { D = 0x4F; }
     else if (Q == 0x4) { D = 0x66; }
@@ -72,7 +72,7 @@ STATIC UINT8 QCODE2DIGIT(UINT8 Q, BOOLEAN DOT)
 
 STATIC VOID RPiFirmwarePOSTCode(UINT8 qcode)
 {
-    UINT8 digit1 = QCODE2DIGIT((qcode >> 8) & 0xF, TRUE);
+    UINT8 digit1 = QCODE2DIGIT((qcode >> 4) & 0xF, TRUE);
     UINT8 digit2 = QCODE2DIGIT((qcode     ) & 0xF, TRUE);
     
     GpioPinFuncSet(RPI_POST_DISPLAY_X1, GPIO_FSEL_OUTPUT);
