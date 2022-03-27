@@ -10,11 +10,14 @@ Raspberry Pi 4 UEFI Firmware Images
 This repository contains __EXPERIMENTAL__ installable builds of the official
 [EDK2 Raspberry Pi 4 UEFI firmware](https://github.com/tianocore/edk2-platforms/tree/master/Platform/RaspberryPi/RPi4).
 
-[RpiFirmwareDxe edits](https://github.com/TheMindVirus/pftf-rpi4/blob/f62dba0a93591848d3f0a74f9c7d397bcebfcbd1/edk2-platforms/Platform/RaspberryPi/Drivers/RpiFirmwareDxe/RpiFirmwareDxe.c#L816)
+#### RpiFirmwareDxe edits
+https://github.com/TheMindVirus/pftf-rpi4/blob/f62dba0a93591848d3f0a74f9c7d397bcebfcbd1/edk2-platforms/Platform/RaspberryPi/Drivers/RpiFirmwareDxe/RpiFirmwareDxe.c#L816
 
-[DisplayDxe edits](https://github.com/TheMindVirus/pftf-rpi4/blob/f62dba0a93591848d3f0a74f9c7d397bcebfcbd1/edk2-platforms/Platform/RaspberryPi/Drivers/DisplayDxe/DisplayDxe.c#L314)
+#### DisplayDxe edits
+https://github.com/TheMindVirus/pftf-rpi4/blob/f62dba0a93591848d3f0a74f9c7d397bcebfcbd1/edk2-platforms/Platform/RaspberryPi/Drivers/DisplayDxe/DisplayDxe.c#L314
 
-[IndustryStandard edits](https://github.com/TheMindVirus/pftf-rpi4/blob/f62dba0a93591848d3f0a74f9c7d397bcebfcbd1/edk2-platforms/Platform/RaspberryPi/Include/IndustryStandard/RpiMbox.h#L142)
+#### IndustryStandard edits
+https://github.com/TheMindVirus/pftf-rpi4/blob/f62dba0a93591848d3f0a74f9c7d397bcebfcbd1/edk2-platforms/Platform/RaspberryPi/Include/IndustryStandard/RpiMbox.h#L142
 
 # Initial Notice
 
