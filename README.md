@@ -10,13 +10,13 @@ Raspberry Pi 4 UEFI Firmware Images
 This repository contains __EXPERIMENTAL__ installable builds of the official
 [EDK2 Raspberry Pi 4 UEFI firmware](https://github.com/tianocore/edk2-platforms/tree/master/Platform/RaspberryPi/RPi4).
 
-[RpiFirmwareDxe edits](https://github.com/TheMindVirus/pftf-rpi4/blob/d5391239baef00fd9abccfa940106d08170031ac/edk2-platforms/Platform/RaspberryPi/Drivers/RpiFirmwareDxe/RpiFirmwareDxe.c#L50)
+[RpiFirmwareDxe edits](https://github.com/TheMindVirus/pftf-rpi4/blob/c41d097a132ce5e44b789d7da1e7bbc89cc4b267/edk2-platforms/Platform/RaspberryPi/Drivers/RpiFirmwareDxe/RpiFirmwareDxe.c#L50)
 
-[RpiFirmwareDxe edits](https://github.com/TheMindVirus/pftf-rpi4/blob/d5391239baef00fd9abccfa940106d08170031ac/edk2-platforms/Platform/RaspberryPi/Drivers/RpiFirmwareDxe/RpiFirmwareDxe.c#L310)
+[RpiFirmwareDxe edits](https://github.com/TheMindVirus/pftf-rpi4/blob/c41d097a132ce5e44b789d7da1e7bbc89cc4b267/edk2-platforms/Platform/RaspberryPi/Drivers/RpiFirmwareDxe/RpiFirmwareDxe.c#L310)
 
-[RpiFirmwareDxe edits](https://github.com/TheMindVirus/pftf-rpi4/blob/d5391239baef00fd9abccfa940106d08170031ac/edk2-platforms/Platform/RaspberryPi/Drivers/RpiFirmwareDxe/RpiFirmwareDxe.inf#L39)
+[RpiFirmwareDxe edits](https://github.com/TheMindVirus/pftf-rpi4/blob/c41d097a132ce5e44b789d7da1e7bbc89cc4b267/edk2-platforms/Platform/RaspberryPi/Drivers/RpiFirmwareDxe/RpiFirmwareDxe.inf#L39)
 
-[MdePkg edits](https://github.com/TheMindVirus/pftf-rpi4/blob/d5391239baef00fd9abccfa940106d08170031ac/edk2/MdePkg/Library/PeiDxePostCodeLibReportStatusCode/PostCode.c#L55)
+[MdePkg edits](https://github.com/TheMindVirus/pftf-rpi4/blob/c41d097a132ce5e44b789d7da1e7bbc89cc4b267/edk2/MdePkg/Library/PeiDxePostCodeLibReportStatusCode/PostCode.c#L55)
 
 More Info: https://github.com/themindvirus/liquorice
 
